@@ -19,8 +19,12 @@ export default {
   plugins: [],
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/gtm'
   ],
+  gtm: {
+    id: 'GTM-MS5KXKS'
+  },
   modules: [],
   build: {
     extend(config, ctx) {}
