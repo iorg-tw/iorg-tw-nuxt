@@ -10,11 +10,13 @@
       </div>
     </div>
   </section>
-  <section class="description">
-    <div class="info">{{ description }}</div>
+  <section class="text description">
+    <p>{{ description }}</p>
+  </section>
+  <section class="text intro">
+    <p>{{ intro }}</p>
   </section>
   <section class="people">
-    <div class="section-intro"><span>{{ intro }}</span></div>
     <div class="section-header"><span>{{ peopleSectionHeader }}</span></div>
     <div class="container">
       <div class="panel person" v-for="person of people" :key="person.name">
@@ -66,9 +68,19 @@ section {
     font-size: 2.25rem;
     color: var(--iorg-primary-light-color);
   }
+  &.intro {
+    padding: 2rem 1.5rem 0;
+    font-size: 1.125rem;
+    line-height: 1.375;
+  }
   &.people {}
   &.contact {
     padding: 2.5rem 0;
+  }
+  &.text {
+    > p {
+      max-width: 40rem;
+    }
   }
 }
 .section-header {
@@ -84,13 +96,11 @@ section {
   font-size: 1.125rem;
   font-weight: bold;
 }
-.info {
-  max-width: 40rem;
-}
 .container {
   display: flex;
   flex-wrap: wrap;
   margin: 0.5rem;
+  max-width: 60rem;
   > .panel {
     max-width: 20rem;
     margin: 1rem;
