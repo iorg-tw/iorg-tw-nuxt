@@ -6,7 +6,7 @@
       <div class="panel report" v-for="report of reports" :key="report.title">
         <a class="cover" :href="report.url"><img :src="report.image" /></a>
         <h2>{{ report.title }}</h2>
-        <a class="action" :href="report.url"><label>{{ report.action }}</label></a>
+        <a class="action" :class="actionIndex < 1 ? ['primary'] : []" :href="action.url" v-for="(action, actionIndex) of report.actions" :key="action.label"><label>{{ action.label }}</label></a>
       </div>
     </div>
   </section>
@@ -57,8 +57,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 0;
-  > label {
+  margin: 0.75rem 0 0;
+  & > label {
+    color: var(--iorg-primary-dark-color);
+  }
+  &.primary > label {
     background-color: var(--iorg-primary-dark-color);
     color: var(--iorg-primary-light-color);
     line-height: 1;
