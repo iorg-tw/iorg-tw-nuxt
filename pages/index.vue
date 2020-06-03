@@ -17,9 +17,16 @@
     <p>{{ intro }}</p>
   </section>
   <section class="people">
-    <div class="section-header"><span>{{ peopleSectionHeader }}</span></div>
+    <div class="section-header"><span>{{ researcherSectionHeader }}</span></div>
     <div class="container">
-      <div class="panel person" v-for="person of people" :key="person.name">
+      <div class="panel person" v-for="person of researchers" :key="person.name">
+        <h2>{{ person.name }}</h2>
+        <div>{{ person.description }}</div>
+      </div>
+    </div>
+    <div class="section-header"><span>{{ consultantSectionHeader }}</span></div>
+    <div class="container">
+      <div class="panel person" v-for="person of consultants" :key="person.name">
         <h2>{{ person.name }}</h2>
         <div>{{ person.description }}</div>
       </div>
