@@ -22,7 +22,7 @@ const config = {
       description: 'Backend engineer.'
     },
     {
-      name: 'Wesley Chia-wei Lin',
+      name: 'Wesley Chia-Wei Lin',
       description: 'Data researcher.'
     },
     {
