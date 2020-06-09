@@ -47,7 +47,7 @@ const config = {
   ],
   reports: [
     {
-      title: 'Event Studies of Chinese Information Operations Against Taiwan, IORG, 2020/5/22, last updated 2020/6/4',
+      title: 'Event Studies of Chinese Information Operations Against Taiwan, IORG, 2020/5/22, last updated 2020/6/9',
       image: '/images/iorg-model-1-cover.png',
       actions: [
         {
