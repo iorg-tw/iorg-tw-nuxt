@@ -37,12 +37,20 @@ const config = {
   consultantSectionHeader: 'Consultants to IORG:',
   consultants: [
     {
-      name: 'Puma Shen',
-      description: 'Information warfare. Assistant professor of criminology at National Taipei University.'
-    },
-    {
       name: 'Ming-Hung Wang',
       description: 'Social media analysis, information security. Assistant professor of computer science at Feng-Chia University.'
+    },
+    {
+      name: 'Thung-Hong Lin',
+      description: 'Class inequality in Chinese societies, global and local sociology of disaster. Research fellow at Academia Sinica.'
+    },
+    {
+      name: 'Ming-chun Ku',
+      description: 'Cultural politics, sociology of religion. Associate Professor of sociology at National Tsing-Hua University.'
+    },
+    {
+      name: 'Puma Shen',
+      description: 'Information warfare. Assistant professor of criminology at National Taipei University.'
     }
   ],
   reports: [
