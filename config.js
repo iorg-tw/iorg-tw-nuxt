@@ -47,7 +47,17 @@ const config = {
   ],
   reports: [
     {
-      title: 'Event Studies of Chinese Information Operations Against Taiwan, IORG, 2020/5/22, last updated 2020/6/9',
+      title: '中國對台資訊作戰事件研析，IO 研究室，2020/6/18。',
+      image: '/images/iorg-model-1-tw-cover.png',
+      actions: [
+        {
+          label: '下載報告',
+          url: 'https://github.com/iorg-tw/documents/raw/master/iorg-model-1-tw.pdf'
+        }
+      ]
+    },
+    {
+      title: 'Event Studies of Chinese Information Operations Against Taiwan, IORG, 2020/5/22, last updated 2020/6/9.',
       image: '/images/iorg-model-1-cover.png',
       actions: [
         {
