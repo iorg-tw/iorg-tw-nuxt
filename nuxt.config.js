@@ -31,5 +31,9 @@ export default {
   },
   generate: {
     dir: 'docs'
+  },
+  server: {
+    port: 10101,
+    host: '0.0.0.0'
   }
 }
