@@ -1,6 +1,5 @@
 <template>
 <div class="page index">
-  <img src="/images/logo-tmp-small.png" width="64" />
   <section class="reports">
     <div class="container">
       <div class="panel report" v-for="report of reports" :key="report.title">
@@ -55,6 +54,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~assets/styles/resources';
+
 .action {
   display: flex;
   align-items: center;
@@ -138,7 +139,7 @@ section {
       width: 100%;
     }
     background-color: white;
-    box-shadow: 0 0.5rem 3rem 0 rgba(0, 0, 0, 0.25);
+    @include shadow;
   }
 }
 .person {
