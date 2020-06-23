@@ -1,0 +1,58 @@
+// Font size
+
+$rem: 16px;
+$font-size-default: 1rem;
+$font-size-small: 0.875rem;
+$font-size-tiny: 0.75rem;
+$font-size-nano: 0.625rem;
+
+// Line height
+
+$line-height-single: 1;
+$line-height-tight: 1.25;
+$line-height-compact: 1.35;
+$line-height-default: 1.5;
+$line-height-relaxed: 1.75;
+
+// Text styling
+
+@mixin underline($color, $opacity) {
+  border-bottom: 2px rgba($color, $opacity) solid;
+}
+
+// Colors
+$color-default-background-color: #AAA;
+$color-anchor-underline-default: #FFF640;
+$color-shadow: rgba(black, 0.25);
+$color-secondary-text-grey: #707070;
+
+@mixin shadow {
+  // box-shadow: 0 2px 8px 0 $color-shadow;
+  box-shadow: 0 0.5rem 3rem 0 rgba(0, 0, 0, 0.25);
+}
+
+// Box
+
+$unit-lengths: (
+  2: 0.125rem,
+  4: 0.25rem,
+  6: 0.375rem,
+  8: 0.5rem,
+  10: 0.625rem,
+  12: 0.75rem,
+  single: 1rem,
+  double: 2rem,
+  quad: 4rem
+);
+
+// Z
+
+$z-nav: 1001;
+
+// Nav
+
+$nav-height: 46px;
+
+// Page
+
+$default-page-padding: 2rem 0 4rem;

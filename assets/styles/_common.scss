@@ -1,0 +1,126 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+
+// Override
+
+label {
+  margin: 0;
+}
+
+@import '~assets/styles/resources';
+
+html, body {
+  background-color: $color-default-background-color;
+}
+
+// Anchor
+
+a, a:hover, a:focus, a:active, a:visited {
+  text-decoration: none;
+  line-height: $line-height-tight; // TODO: is this ok?
+  cursor: pointer;
+}
+a.a-text,
+.a-text-parent a {
+  display: inline;
+  @include underline($color-anchor-underline-default, 0.65);
+
+  &:hover, &:focus, &:active {
+    @include underline($color-anchor-underline-default, 1.0);
+  }
+}
+a.a-block {
+  display: block;
+  line-height: $line-height-default; // TODO: is this ok?
+}
+a.inline-block {
+  display: inline-block;
+}
+a.a-block,
+a.a-inline-block {
+  &:not(.disabled) {
+    & .a-target {
+      display: inline;
+      @include underline($color-anchor-underline-default, 0.65);
+    }
+    &:hover, &:focus, &:active {
+      .a-target {
+        @include underline($color-anchor-underline-default, 1.0);
+      }
+    }
+  }
+}
+
+// Font size
+
+.font-size-small {
+  font-size: $font-size-small;
+}
+.font-size-tiny {
+  font-size: $font-size-tiny;
+}
+.font-size-nano {
+  font-size: $font-size-nano;
+}
+
+// Text styling
+
+.secondary-text {
+  color: $color-secondary-text-grey;
+}
+
+// Line height
+
+.line-height-single {
+  line-height: $line-height-single;
+}
+.line-height-tight {
+  line-height: $line-height-tight;
+}
+.line-height-default {
+  line-height: $line-height-default;
+}
+.line-height-relaxed {
+  line-height: $line-height-relaxed;
+}
+
+// Box
+
+@each $unit, $length in $unit-lengths {
+  .margin-#{$unit} {
+    margin: $length;
+  }
+  .margin-top-#{$unit} {
+    margin-top: $length;
+  }
+  .margin-bottom-#{$unit} {
+    margin-bottom: $length;
+  }
+  .margin-top-bottom-#{$unit} {
+    margin-top: $length;
+    margin-bottom: $length;
+  }
+  .margin-right-left-#{$unit} {
+    margin-right: $length;
+    margin-left: $length;
+  }
+  .padding-#{$unit} {
+    padding: $length;
+  }
+  .padding-top-#{$unit} {
+    padding-top: $length;
+  }
+  .padding-bottom-#{$unit} {
+    padding-bottom: $length;
+  }
+  .padding-top-bottom-#{$unit} {
+    padding-top: $length;
+    padding-bottom: $length;
+  }
+  .padding-right-left-#{$unit} {
+    padding-right: $length;
+    padding-left: $length;
+  }
+}
