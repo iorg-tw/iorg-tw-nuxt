@@ -1,10 +1,17 @@
 <template>
-<div class="google-doc" v-html="gdoc"></div>
+<div class="google-doc">
+  <h1>{{ doc.title }}</h1>
+  <div class="author-info">{{ doc.authorInfo }}</div>
+  <div class="summary">{{ doc.summary }}</div>
+  <div class="separator"></div>
+  <div class="content" v-html="doc.html"></div>
+  <div class="separator"></div>
+</div>
 </template>
 
 <script>
 export default {
-  props: ['gdoc']
+  props: ['doc']
 }
 </script>
 
@@ -15,7 +22,7 @@ export default {
   max-width: 36rem;
   margin: 0 auto;
   padding: 1rem;
-  background-color: var(--iorg-primary-light-color);
+  background-color: white;
   color: var(--iorg-primary-dark-color);
   border-radius: 0.25rem;
   @include shadow;
@@ -33,6 +40,18 @@ export default {
   p {
     margin-bottom: 1.5rem;
     line-height: 1.5;
+  }
+  .author-info {
+    margin: 0.25rem 0;
+  }
+  .summary {
+    margin: 0.5rem 0;
+  }
+  .separator {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--iorg-primary-dark-color);
+    margin: 1rem auto;
   }
 }
 </style>

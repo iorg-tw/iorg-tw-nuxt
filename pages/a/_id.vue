@@ -1,12 +1,12 @@
 <template>
 <div class="page article">
-  <google-doc :gdoc="gdoc.html" />
+  <google-doc :doc="doc" />
 </div>
 </template>
 
 <script>
 import { getDoc } from '~/lib/gdoc'
-import { generateMeta } from '~/lib/util'
+import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 
 import articles from '~/data/articles.json'
@@ -22,15 +22,14 @@ export default {
       error({ statusCode: 404, message: 'Article not found' })
       return
     }
-    console.log(article)
-    const gdoc = await getDoc(article.publicURL)
+    const doc = await getDoc(article.publicURL)
     return {
       article,
-      gdoc
+      doc
     }
   },
   head() {
-    const pageTitle = this.gdoc.title
+    const pageTitle = this.doc.title
     const pageDescription = 'test description'
     return generateMeta(pageTitle, pageDescription)
   }
