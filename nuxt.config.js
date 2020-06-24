@@ -14,7 +14,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/images/logo-tmp-small.png' }
     ]
   },
-  loading: { color: '#fff' },
+  loading: {
+    color: '#1E1E1E',
+    height: '4px'
+  },
   css: [],
   plugins: [],
   buildModules: [

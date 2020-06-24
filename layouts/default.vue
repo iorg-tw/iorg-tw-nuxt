@@ -29,7 +29,6 @@ html, body {
   line-height: 1.25;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  box-sizing: border-box;
 }
 * {
   &, &:before, &:after {
@@ -45,5 +44,11 @@ a {
 }
 img {
   display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.35;
+}
+p {
+  line-height: 1.5;
 }
 </style>

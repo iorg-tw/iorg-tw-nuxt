@@ -40,7 +40,7 @@ export default {
       display: block;
       flex-basis: 100%;
       @media (min-width: 480px) {
-        flex-basis: 18.5rem;
+        flex-basis: 16rem;
       }
       margin: 1rem;
       border-radius: 0.25rem;
