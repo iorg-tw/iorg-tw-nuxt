@@ -1,7 +1,4 @@
 const config = {
-  title: 'IORG – Information Operations Research Group',
-  description: 'IORG is a Taiwan-based multidisciplinary research group focuses on information operations within the framework of cognitive warfare.',
-  cover: '/images/cover-2-1.png',
   intro: 'A multidisciplinary, data-driven, rigorous understanding of information operations is needed in order to devise appropriate responses to respond to cognitive warfare, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy.',
   researcherSectionHeader: 'Researchers at IORG:',
   researchers: [
