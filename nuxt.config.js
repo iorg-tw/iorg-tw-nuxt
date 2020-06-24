@@ -1,4 +1,4 @@
-const config = require('./config.js')
+const config = require('./data/config.js')
 
 export default {
   mode: 'universal',
@@ -14,7 +14,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/images/logo-tmp-small.png' }
     ]
   },
-  loading: { color: '#fff' },
+  loading: { color: '#555' },
   css: [],
   plugins: [],
   buildModules: [

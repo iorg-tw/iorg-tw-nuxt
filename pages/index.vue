@@ -36,7 +36,7 @@
   <section class="contact">
     <div class="container">
       <div class="panel">
-        <p>Contact us at io [at] iorg.tw. Follow us on Twitter on <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a>.</p>
+        <p>Contact us at io [at] iorg.tw. Follow us on Twitter at <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a>.</p>
       </div>
     </div>
   </section>
@@ -44,11 +44,12 @@
 </template>
 
 <script>
-import config from '~/config.js'
+import config from '~/data/config.js'
+import home from '~/data/home.js'
 
 export default {
   data() {
-    return Object.assign({}, config)
+    return Object.assign({}, config, home)
   }
 }
 </script>
@@ -138,6 +139,8 @@ section {
     > img {
       width: 100%;
     }
+    border-radius: 0.25rem;
+    overflow: hidden;
     background-color: white;
     @include shadow;
   }
