@@ -1,8 +1,8 @@
 <template>
 <div class="navbar">
-  <a class="go-home" href="/">
+  <nuxt-link class="go-home" :to="{ path: '/' }">
     <img src="/images/logo-tmp-small.png" width="64" />
-  </a>
+  </nuxt-link>
   <div class="space"></div>
 </div>
 </template>
