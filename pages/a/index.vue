@@ -38,7 +38,10 @@ export default {
 
     > .article {
       display: block;
-      flex-basis: 20rem;
+      flex-basis: 100%;
+      @media (min-width: 480px) {
+        flex-basis: 18.5rem;
+      }
       margin: 1rem;
       border-radius: 0.25rem;
       overflow: hidden;
