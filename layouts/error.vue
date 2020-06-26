@@ -10,7 +10,12 @@
 
 <script>
 export default {
-  props: ['error']
+  props: {
+    error: {
+      type: Object,
+      default: null
+    }
+  }
 }
 </script>
 
