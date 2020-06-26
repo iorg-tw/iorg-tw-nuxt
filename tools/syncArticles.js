@@ -29,7 +29,7 @@ async function get() {
 		delete doc.html
 		articleDict[id] = Object.assign(article, doc)
 	}
-	fs.writeFileSync('data/articles.json', JSON.stringify(articleDict))
+	fs.writeFileSync('data/articles.json', JSON.stringify(articleDict, null, '\t'))
 }
 
 get()
