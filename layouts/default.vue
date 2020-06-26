@@ -48,6 +48,15 @@ img {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.35;
 }
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
 p {
   line-height: 1.5;
 }
