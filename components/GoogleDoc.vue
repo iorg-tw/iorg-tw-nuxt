@@ -11,7 +11,12 @@
 
 <script>
 export default {
-  props: ['doc']
+  props: {
+    doc: {
+      type: Object,
+      default: null
+    }
+  }
 }
 </script>
 
@@ -30,7 +35,25 @@ export default {
   line-height: 1.5;
 
   .gdoc-image-container {
+    margin: 0;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: start;
     overflow-x: scroll;
+    &.album {
+      > img {
+        max-width: 85%;
+        max-height: 50vh;
+      }
+    }
+    &.single {
+      > image {
+        max-width: 100%;
+        max-height: 50vh;
+      }
+    }
   }
 
   h1, h2, h3 {
