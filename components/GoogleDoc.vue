@@ -26,7 +26,10 @@ export default {
 .google-doc {
   max-width: 36rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 0;
+  @media (min-width: 375px) {
+    padding: 1.5rem 0;
+  }
   background-color: white;
   color: var(--iorg-primary-dark-color);
   border-radius: 0.25rem;
@@ -34,24 +37,45 @@ export default {
   overflow-x: hidden; // FIXME: temporary fix to prevent horizontal scrolling
   line-height: 1.5;
 
-  .gdoc-image-container {
+  > h1, h2, h3, p, .author-info {
+    padding: 0 1rem;
+    @media (min-width: 375px) {
+      padding: 0 1.5rem;
+    }
+  }
+
+  .gdoc-photo {
     margin: 0;
     margin-bottom: 1.5rem;
     padding: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    overflow-x: scroll;
-    &.album {
-      > img {
-        max-width: 85%;
-        max-height: 50vh;
-      }
+    > img {
+      width: 100%;
+      max-height: 50vh;
     }
-    &.single {
-      > img {
-        max-width: 100%;
-        max-height: 50vh;
+    > .description {
+      margin: 0;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      font-size: 0.875rem;
+      color: #646464;
+    }
+  }
+
+  .gdoc-album {
+    margin: 0;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    > .images {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      overflow-x: scroll;
+      > .image {
+        > img {
+          max-width: 85%;
+          max-height: 50vh;
+        }
+        > p {}
       }
     }
   }
