@@ -49,7 +49,7 @@ export default {
       }
     }
     &.single {
-      > image {
+      > img {
         max-width: 100%;
         max-height: 50vh;
       }
