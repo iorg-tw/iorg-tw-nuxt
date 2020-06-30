@@ -40,7 +40,7 @@ export default {
     padding: 0;
     display: flex;
     flex-wrap: nowrap;
-    align-items: start;
+    align-items: flex-start;
     overflow-x: scroll;
     &.album {
       > img {
