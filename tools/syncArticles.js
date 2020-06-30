@@ -10,9 +10,7 @@ dotenv.config()
 const doc = new GoogleSpreadsheet(sheetID)
 doc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
 
-async function get() {
-	await doc.loadInfo()
-	const sheet = doc.sheetsById['0']
+async function sheetToJSON(sheet, fileName) {
 	const rows = await sheet.getRows()
 	let articleDict = Object.assign({}, ...rows.map(row => ({
 		[row.id]: {
@@ -29,7 +27,17 @@ async function get() {
 		delete doc.html
 		articleDict[id] = Object.assign(article, doc)
 	}
-	fs.writeFileSync('data/articles.json', JSON.stringify(articleDict, null, '\t'))
+	fs.writeFileSync(`data/${fileName}`, JSON.stringify(articleDict, null, '\t'))
+}
+
+async function get() {
+	await doc.loadInfo()
+	let sheet
+
+	sheet = doc.sheetsById['0']
+	await sheetToJSON(sheet, 'articles.json')
+	sheet = doc.sheetsById['1377224831']
+	await sheetToJSON(sheet, 'drafts.json')
 }
 
 get()

@@ -1,49 +1,8 @@
 {
-	"vystrcil": {
-		"id": "vystrcil",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2CitMDKVH7JddipnkC-Vr40VF--6N3n6ha-OIjQ90pgH1VGbOpjpyhSgSG6OvsF1I2gYqsLM8xXil/pub",
-		"publishedAt": "2020/6/4 13:05",
-		"title": "媒體滲透威脅下捷克對中立場的轉變",
-		"coverImage": "https://lh3.googleusercontent.com/HogSQmsWfYHjEAVYH2mXi2ZQ1M7yhamT7Ot7BHR2yBTvrpwWH32Br4Fi_dt_4Av4_AHYrgVk-EvQO7mHmFycDTSNMQcU0r3YG-oSNxW5yljjBGlQ95KpvPZ0o2C0hK1o0Q",
-		"authorInfo": "作者／徐曉強",
-		"summary": "過去十年隨著中國政經實力增強，智庫研究結果顯示捷克政、商界對中國也越來越友善，不過共產威權的記憶卻使捷克媒體普遍對中國的批評多於讚賞。對此，中國試圖影響、控制捷克媒體，並取得一定成效，但中國強硬的外交手法和「看得到、出不到」的經濟利益已經讓捷克開始警覺到中國鋭實力的真面目。",
-		"tags": [
-			"捷克",
-			"中國滲透",
-			"媒體滲透",
-			"鋭實力"
-		]
-	},
-	"election-fraud": {
-		"id": "election-fraud",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub",
-		"publishedAt": "2020/6/4 13:05",
-		"title": "被加工的監院報告，被傷害的選舉公信力",
-		"coverImage": null,
-		"authorInfo": "作者／IO 研究室編輯",
-		"summary": "2020年總統大選期間，中選會受到大量假訊息攻擊，不僅選舉公信力受到傷害，亦成為敗選一方挑戰勝選者統治合法性與正當性的武器。且已被證實為錯誤的訊息至今仍持續流傳，並因高雄市長罷免投票再掀高峰(如下圖)，似乎未有停止的趨勢。",
-		"tags": [
-			"2020 台灣選舉",
-			"假訊息",
-			"中選會"
-		]
-	},
-	"chinese-spouses": {
-		"id": "chinese-spouses",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS6VQUKtWYV6rNf8sST_wP5g-ZX9HqMjjVufIH2sIJ2DjMQSypdbyn7jnkn_Zc1FGKlo80KFxGTZR-V/pub",
-		"publishedAt": "2020/6/4 13:05",
-		"title": "中配 Facebook 社團觀察",
-		"tags": []
-	},
-	"pro-china-line-messages": {
-		"id": "pro-china-line-messages",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUGNA1v0cDGObYbHy5RF6kRm5t8UAMQI5GOXV-aztJTB5nuJ1XDJAUKLxFqqMzpVAVxe9ivAGOzHr_/pub",
-		"title": "中國疫情大外宣／台灣疫情越嚴重，LINE 群組親中不實訊息越氾濫",
-		"tags": []
-	},
 	"about": {
 		"id": "about",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3pepD2_U_4xinkAemxdyW6zep1xOnkwtRmLgl4nw80n_DQCGrQf-S0_juPuxuoFwFxw0GqIXpgCnD/pub",
+		"publishedAt": "2020/7/1 0:00",
 		"title": "關於 IO 研究室／About IORG",
 		"tags": []
 	}
