@@ -2,10 +2,10 @@
 <div class="page index">
   <section class="reports">
     <div class="container">
-      <div class="panel report" v-for="report of reports" :key="report.title">
+      <div v-for="report of reports" :key="report.title" class="panel report">
         <a class="cover" :href="report.url"><img :src="report.image" /></a>
         <h2>{{ report.title }}</h2>
-        <div class="action" :class="actionIndex < 1 ? ['primary'] : []" v-for="(action, actionIndex) of report.actions" :key="action.label">
+        <div v-for="(action, actionIndex) of report.actions" :key="action.label" class="action" :class="actionIndex < 1 ? ['primary'] : []">
           <a :href="action.url">{{ action.label }}</a>
         </div>
       </div>
@@ -20,14 +20,14 @@
   <section class="people">
     <div class="section-header"><span>{{ researcherSectionHeader }}</span></div>
     <div class="container">
-      <div class="panel person" v-for="person of researchers" :key="person.name">
+      <div v-for="person of researchers" :key="person.name" class="panel person">
         <h2>{{ person.name }}</h2>
         <div>{{ person.description }}</div>
       </div>
     </div>
     <div class="section-header"><span>{{ consultantSectionHeader }}</span></div>
     <div class="container">
-      <div class="panel person" v-for="person of consultants" :key="person.name">
+      <div v-for="person of consultants" :key="person.name" class="panel person">
         <h2>{{ person.name }}</h2>
         <div>{{ person.description }}</div>
       </div>
