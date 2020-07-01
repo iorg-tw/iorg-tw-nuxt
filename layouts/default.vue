@@ -16,6 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~assets/styles/resources';
+
 :root {
   --iorg-primary-dark-color: #1E1E1E;
   --iorg-primary-light-color: #EEE;
@@ -26,7 +28,7 @@ html, body {
   color: var(--iorg-primary-dark-color);
   margin: 0;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.375;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -57,7 +59,21 @@ h2 {
 h3 {
   font-size: 1.25rem;
 }
-p {
+
+// line height
+.lh-single {
+  line-height: 1;
+}
+.lh-tight {
+  line-height: 1.25;
+}
+.lh-compact {
+  line-height: 1.375;
+}
+.lh-default {
   line-height: 1.5;
+}
+.lh-relaxed {
+  line-height: 1.75;
 }
 </style>

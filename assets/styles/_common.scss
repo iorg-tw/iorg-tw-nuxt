@@ -15,44 +15,6 @@ html, body {
   background-color: $color-default-background-color;
 }
 
-// Anchor
-
-a, a:hover, a:focus, a:active, a:visited {
-  text-decoration: none;
-  line-height: $line-height-tight; // TODO: is this ok?
-  cursor: pointer;
-}
-a.a-text,
-.a-text-parent a {
-  display: inline;
-  @include underline($color-anchor-underline-default, 0.65);
-
-  &:hover, &:focus, &:active {
-    @include underline($color-anchor-underline-default, 1.0);
-  }
-}
-a.a-block {
-  display: block;
-  line-height: $line-height-default; // TODO: is this ok?
-}
-a.inline-block {
-  display: inline-block;
-}
-a.a-block,
-a.a-inline-block {
-  &:not(.disabled) {
-    & .a-target {
-      display: inline;
-      @include underline($color-anchor-underline-default, 0.65);
-    }
-    &:hover, &:focus, &:active {
-      .a-target {
-        @include underline($color-anchor-underline-default, 1.0);
-      }
-    }
-  }
-}
-
 // Font size
 
 .font-size-small {
@@ -70,22 +32,6 @@ a.a-inline-block {
 .secondary-text {
   color: $color-secondary-text-grey;
 }
-
-// Line height
-
-.line-height-single {
-  line-height: $line-height-single;
-}
-.line-height-tight {
-  line-height: $line-height-tight;
-}
-.line-height-default {
-  line-height: $line-height-default;
-}
-.line-height-relaxed {
-  line-height: $line-height-relaxed;
-}
-
 // Box
 
 @each $unit, $length in $unit-lengths {

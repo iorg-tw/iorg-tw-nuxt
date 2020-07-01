@@ -87,6 +87,7 @@ export default {
   }
   p {
     margin-bottom: 1.5rem;
+    line-height: 1.625;
   }
   .author-info {
     margin: 0.25rem 0;

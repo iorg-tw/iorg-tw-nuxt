@@ -22,14 +22,14 @@
     <div class="container">
       <div v-for="person of researchers" :key="person.name" class="panel person">
         <h2>{{ person.name }}</h2>
-        <div>{{ person.description }}</div>
+        <p>{{ person.description }}</p>
       </div>
     </div>
     <div class="section-header"><span>{{ consultantSectionHeader }}</span></div>
     <div class="container">
       <div v-for="person of consultants" :key="person.name" class="panel person">
         <h2>{{ person.name }}</h2>
-        <div>{{ person.description }}</div>
+        <p>{{ person.description }}</p>
       </div>
     </div>
   </section>
