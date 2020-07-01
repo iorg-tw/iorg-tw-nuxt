@@ -24,12 +24,17 @@ export default {
 @import '~assets/styles/resources';
 
 .google-doc {
-  max-width: 36rem;
-  margin: 0 auto;
-  padding: 1rem 0;
+  --padding: 1rem;
   @media (min-width: 375px) {
-    padding: 1.5rem 0;
+    --padding: 1.5rem;
   }
+  @media (min-width: 480px) {
+    --padding: 2.5rem;
+  }
+
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: var(--padding) 0;
   background-color: white;
   color: var(--iorg-primary-dark-color);
   border-radius: 0.25rem;
@@ -38,10 +43,7 @@ export default {
   line-height: 1.5;
 
   > h1, h2, h3, p, .author-info {
-    padding: 0 1rem;
-    @media (min-width: 375px) {
-      padding: 0 1.5rem;
-    }
+    padding: 0 var(--padding);
   }
 
   .gdoc-photo {
