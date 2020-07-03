@@ -1,7 +1,7 @@
 <template>
 <div class="page articles">
   <div class="articles">
-    <nuxt-link v-for="article of articles" :key="article.id" :to="{ name: 'a-id', params: { id: article.id } }" class="article">
+    <nuxt-link v-for="article of articles" :key="article.id" :to="{ name: 'a-id', params: { id: article.id } }" class="article block">
       <img v-if="article.coverImage" :src="article.coverImage" class="cover" />
       <div class="detail">
         <h3>{{ article.title }}</h3>
@@ -45,8 +45,7 @@ export default {
       margin: 1rem;
       border-radius: 0.25rem;
       overflow: hidden;
-      background-color: white;
-      @include shadow;
+      background-color: var(--iorg-paper);
       color: var(--iorg-primary-dark-color);
 
       > .cover {

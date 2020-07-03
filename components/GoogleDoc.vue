@@ -35,11 +35,10 @@ export default {
   max-width: 40rem;
   margin: 0 auto;
   padding: var(--padding) 0;
-  background-color: white;
+  background-color: var(--iorg-paper);
   color: var(--iorg-primary-dark-color);
   border-radius: 0.25rem;
-  @include shadow;
-  overflow-x: hidden; // FIXME: temporary fix to prevent horizontal scrolling
+  // @include shadow;
   line-height: 1.5;
 
   > h1, h2, h3, p, .author-info {
@@ -53,11 +52,18 @@ export default {
     padding: 0;
     > img {
       width: 100%;
-      max-height: 50vh;
+      @media (orientation: portrait) {
+        max-height: 50vh;
+      }
+      @media (min-width: 768px) {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+      }
+      @include shadow;
     }
     > .description {
       margin: 0;
-      padding-top: 0.5rem;
+      padding-top: 0.75rem;
       padding-bottom: 0.5rem;
       font-size: 0.875rem;
       color: #646464;

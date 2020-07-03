@@ -81,7 +81,7 @@ section {
     padding: 2.5rem;
     background-color: var(--iorg-primary-dark-color);
     font-size: 2.25rem;
-    color: var(--iorg-primary-light-color);
+    color: white;
   }
   &.intro {
     padding: 2rem 1.5rem 0;

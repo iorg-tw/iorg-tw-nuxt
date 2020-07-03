@@ -19,8 +19,9 @@ export default {
 @import '~assets/styles/resources';
 
 :root {
-  --iorg-primary-dark-color: #1E1E1E;
-  --iorg-primary-light-color: #EEE;
+  --iorg-primary-dark-color: #333;
+  --iorg-primary-light-color: #D0D0D0;
+  --iorg-paper: #F5F5F5;
 }
 html, body {
   font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -42,6 +43,10 @@ a {
   text-decoration: none;
   &, &:active, &:visited {
     color: blue;
+  }
+  &:not(.block) {
+    display: inline;
+    border-bottom: 2px solid blue;
   }
 }
 img {
