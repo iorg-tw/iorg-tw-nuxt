@@ -4,7 +4,7 @@
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2CitMDKVH7JddipnkC-Vr40VF--6N3n6ha-OIjQ90pgH1VGbOpjpyhSgSG6OvsF1I2gYqsLM8xXil/pub",
 		"publishedAt": "2020/6/4 13:05",
 		"title": "媒體滲透威脅下捷克對中立場的轉變",
-		"coverImage": "https://lh6.googleusercontent.com/z018aqUMeLFuUP-b3MntCQrtK5wiLkHdCo_yp9sS0UfMRWf6B1nC5FvVzB1ZIailYi8AvpJ9clV5UdhJpeluMkxCCOwqyAS-pQW-bs07yMSZUlWBTzq7yGAtf9m5sptdCQ",
+		"coverImage": "https://lh3.googleusercontent.com/ertblOgAxjjJeoIaEeCd1FUFc-84vdSEcn9Cu__S9iKoLwThL_K_3f4-h9YwDAnGOdGYSMEz5rAMauBR4CL192WhdJAvjjeJbiuEtgyx6-v-RIQ8tczxNDzqlgfNOY5zDw",
 		"authorInfo": "作者／徐曉強",
 		"summary": "過去十年隨著中國政經實力增強，捷克智庫「國際關係協會」的《販賣中歐：中國的政治影響》報告顯示，捷克政、商界對中國越來越友善，不過共產威權的記憶卻使捷克媒體普遍對中國的批評多於讚賞，高達 41% 的報導對中國的態度負面，正面的報導僅有 14%。對此，中國試圖影響、控制捷克媒體，並取得一定成效。例如今年四月，中資進入捷克最大的媒體集團 Media ，成為最大股東，引起憂慮。但中國強硬的外交手法和「看得到、吃不到」的經濟利益，已經讓捷克開始警覺到中國鋭實力的真面目。",
 		"tags": [
@@ -19,14 +19,7 @@
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub",
 		"publishedAt": "2020/6/4 13:05",
 		"title": "被加工的監院報告，被傷害的選舉公信力",
-		"coverImage": "https://lh3.googleusercontent.com/7Khb1mWUlXwUvd5N6lO3KpprW1JZojbLHeyaBLEsx5MD1BO682DMQrp_EhEKDvz3yDTvWftQSaQ2LA0U7NMKWozmQ8fSM_BrA6igjWB6neJLXWffepbmf_uXviuOJtaqag",
-		"authorInfo": "作者／IO 研究室編輯",
-		"summary": "2020年總統大選期間，中選會受到大量假訊息攻擊，不僅選舉公信力受到傷害，亦成為敗選一方挑戰勝選者統治合法性與正當性的武器。且已被證實為錯誤的訊息至今仍持續流傳，並因高雄市長罷免投票再掀高峰，似乎未有停止的趨勢。",
-		"tags": [
-			"2020 台灣選舉",
-			"假訊息",
-			"中選會"
-		]
+		"tags": []
 	},
 	"chinese-spouses": {
 		"id": "chinese-spouses",
@@ -34,20 +27,5 @@
 		"publishedAt": "2020/6/4 13:05",
 		"title": "中配 Facebook 社團觀察",
 		"tags": []
-	},
-	"pro-china-line-messages": {
-		"id": "pro-china-line-messages",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUGNA1v0cDGObYbHy5RF6kRm5t8UAMQI5GOXV-aztJTB5nuJ1XDJAUKLxFqqMzpVAVxe9ivAGOzHr_/pub",
-		"publishedAt": "2020/6/4 13:05",
-		"title": "中國大外宣／台灣疫情越嚴重，LINE 群組親中不實訊息越氾濫",
-		"coverImage": "https://lh6.googleusercontent.com/6iOYv2SQEAhBc9Lk7z0RtQq0cUPEOnqwJ-SPytnQUxb2vkEwAbKegs1PftLrzoDzqaNV5vsDC2yNswwRmNHiYyFDuxHYbgfOP2MdeaIoiLo67P--a6vVLNvwI8h1NvOqUQ",
-		"authorInfo": "作者／王希資料工程師／林家偉",
-		"summary": "台灣過去半年來針對武漢肺炎的防疫成績斐然，但根據統計資料顯示，每當疫情出現重大事件，Line 群組裡就會出現大量親中不實訊息，內容包含捏造不實訊息指控美國為武漢肺炎的發源地、以無法判斷真假的故事為譚德塞辯護。這種不尋常的訊息傳播情形，應非單純巧合，很可能是「中國大外宣」的資訊操弄，其意圖應是轉移焦點、改變台灣大眾對武漢肺炎與中國責任的「認知戰」。不同於在 Facebook、Twitter 等公開網路平台的宣傳言論，這類在 Line 封閉群組裡的中國宣傳訊息，操作更細膩，也更難以追蹤。Line 使用者在分享這類訊息時，很可能不自覺成為中國大外宣的「幫凶」。",
-		"tags": [
-			"武漢肺炎",
-			"中國大外宣",
-			"譚德塞",
-			"認知戰"
-		]
 	}
 }
