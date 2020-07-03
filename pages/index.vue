@@ -3,10 +3,10 @@
   <section class="reports">
     <div class="container">
       <div v-for="report of reports" :key="report.title" class="panel report">
-        <a class="cover" :href="report.url"><img :src="report.image" /></a>
+        <a class="cover block" :href="report.url"><img :src="report.image" /></a>
         <h2>{{ report.title }}</h2>
         <div v-for="(action, actionIndex) of report.actions" :key="action.label" class="action" :class="actionIndex < 1 ? ['primary'] : []">
-          <a :href="action.url">{{ action.label }}</a>
+          <a :href="action.url" class="block">{{ action.label }}</a>
         </div>
       </div>
     </div>
