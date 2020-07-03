@@ -43,7 +43,8 @@ export default {
   line-height: 1.5;
 
   > h1, h2, h3, p, .author-info {
-    padding: 0 var(--padding);
+    padding-right: var(--padding);
+    padding-left: var(--padding);
   }
 
   .gdoc-photo {
@@ -90,16 +91,18 @@ export default {
     line-height: 1.625;
   }
   .author-info {
-    margin: 0.25rem 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
   }
   .summary {
-    margin: 0.5rem 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   .separator {
     width: 0.5rem;
     height: 0.5rem;
     background-color: var(--iorg-primary-dark-color);
-    margin: 1rem auto;
+    margin: 1.25rem auto;
   }
 }
 </style>
