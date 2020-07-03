@@ -29,9 +29,7 @@ export default {
     }
   },
   head() {
-    const pageTitle = this.doc.title
-    const pageDescription = 'test description'
-    return generateMeta(pageTitle, pageDescription)
+    return generateMeta(this.doc.title, this.doc.summary, this.doc.coverImage)
   }
 }
 </script>
