@@ -81,4 +81,9 @@ h3 {
 .lh-relaxed {
   line-height: 1.75;
 }
+
+// tracking optimization
+span.punct-l-fbrac {
+  margin-left: -0.5em;
+}
 </style>

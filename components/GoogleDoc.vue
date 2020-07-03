@@ -1,6 +1,6 @@
 <template>
 <div class="google-doc">
-  <h1>{{ doc.title }}</h1>
+  <h1 v-html="optimizeTracking(doc.title)"></h1>
   <div class="author-info">{{ doc.authorInfo }}</div>
   <div class="summary"><p>{{ doc.summary }}</p></div>
   <div class="separator"></div>
@@ -10,12 +10,16 @@
 </template>
 
 <script>
+import { optimizeTracking } from '~/lib/typography'
 export default {
   props: {
     doc: {
       type: Object,
       default: null
     }
+  },
+  methods: {
+    optimizeTracking
   }
 }
 </script>

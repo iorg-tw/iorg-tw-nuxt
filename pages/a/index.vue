@@ -4,7 +4,7 @@
     <nuxt-link v-for="article of articles" :key="article.id" :to="{ name: 'a-id', params: { id: article.id } }" class="article block">
       <img v-if="article.coverImage" :src="article.coverImage" class="cover" />
       <div class="detail">
-        <h3>{{ article.title }}</h3>
+        <h3 v-html="optimizeTracking(article.title)"></h3>
         <div class="dates">
           <div class="published-at">{{ article.publishedAt }}</div>
           <div v-if="article.updatedAt" class="updated-at">{{ article.updatedAt }}</div>
@@ -17,12 +17,16 @@
 
 <script>
 import articles from '~/data/articles.json'
+import { optimizeTracking } from '~/lib/typography'
 
 export default {
   data() {
     return {
       articles
     }
+  },
+  methods: {
+    optimizeTracking
   }
 }
 </script>
