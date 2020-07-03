@@ -19,14 +19,16 @@ export default {
 @import '~assets/styles/resources';
 
 :root {
-  --iorg-primary-dark-color: #333;
-  --iorg-primary-light-color: #D0D0D0;
+  --iorg-primary-dark-color: #1E1E1E;
+  --iorg-primary-light-color: #EEE;
+  --iorg-text: #303030;
   --iorg-paper: #F5F5F5;
+  --iorg-background: #D0D0D0;
 }
 html, body {
   font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  background-color: var(--iorg-primary-light-color);
-  color: var(--iorg-primary-dark-color);
+  background-color: var(--iorg-background);
+  color: var(--iorg-text);
   margin: 0;
   font-size: 16px;
   line-height: 1.375;

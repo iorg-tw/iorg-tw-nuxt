@@ -40,7 +40,7 @@ export default {
   margin: 0 auto;
   padding: var(--padding) 0;
   background-color: var(--iorg-paper);
-  color: var(--iorg-primary-dark-color);
+  color: var(--iorg-text);
   border-radius: 0.25rem;
   // @include shadow;
   line-height: 1.5;
@@ -111,7 +111,7 @@ export default {
   .separator {
     width: 0.5rem;
     height: 0.5rem;
-    background-color: var(--iorg-primary-dark-color);
+    background-color: var(--iorg-text);
     margin: 1.25rem auto;
   }
 }

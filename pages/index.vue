@@ -63,7 +63,7 @@ export default {
   justify-content: center;
   margin: 0.5rem 0 0;
   & > a {
-    color: var(--iorg-primary-dark-color);
+    color: var(--iorg-text);
     padding: 0.25rem 0.5rem;
     cursor: pointer;
   }
@@ -81,7 +81,7 @@ section {
     padding: 2.5rem;
     background-color: var(--iorg-primary-dark-color);
     font-size: 2.25rem;
-    color: white;
+    color: var(--iorg-primary-light-color);
   }
   &.intro {
     padding: 2rem 1.5rem 0;
@@ -103,7 +103,7 @@ section {
   font-size: 1.125rem;
   font-weight: bold;
   > span {
-    border-bottom: 2px solid var(--iorg-primary-dark-color);
+    border-bottom: 2px solid var(--iorg-text);
   }
 }
 .section-intro {

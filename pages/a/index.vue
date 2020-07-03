@@ -50,7 +50,7 @@ export default {
       border-radius: 0.25rem;
       overflow: hidden;
       background-color: var(--iorg-paper);
-      color: var(--iorg-primary-dark-color);
+      color: var(--iorg-text);
 
       > .cover {
         width: 100%;
