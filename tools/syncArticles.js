@@ -12,7 +12,7 @@ doc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
 
 async function sheetToJSON(sheet, fileName) {
 	const rows = await sheet.getRows()
-	let articleDict = Object.assign({}, ...rows.map(row => ({
+	let articleDict = Object.assign({}, ...rows.filter(row => row.id && row.publicURL).map(row => ({
 		[row.id]: {
 			id: row.id,
 			publicURL: row.publicURL,
