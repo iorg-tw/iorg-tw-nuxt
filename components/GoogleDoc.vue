@@ -34,27 +34,7 @@ export default {
 @import '~assets/styles/resources';
 
 .google-doc {
-  --padding: 1rem;
-  @media (min-width: 375px) {
-    --padding: 1.5rem;
-  }
-  @media (min-width: 480px) {
-    --padding: 2.5rem;
-  }
-
-  max-width: 40rem;
-  margin: 0 auto;
-  padding: var(--padding) 0;
-  background-color: var(--iorg-paper);
-  color: var(--iorg-text);
-  border-radius: 0.25rem;
-  // @include shadow;
-  line-height: 1.5;
-
-  > h1, h2, h3, p, .author-info {
-    padding-right: var(--padding);
-    padding-left: var(--padding);
-  }
+  @include doc;
 
   .gdoc-photo {
     margin: 0;
