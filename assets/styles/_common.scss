@@ -19,11 +19,11 @@ html, body {
 a {
   text-decoration: none;
   &, &:active, &:visited {
-    color: blue;
+    color: black;
   }
   &:not(.block) {
     display: inline;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid black;
   }
 }
 img {
