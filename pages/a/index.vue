@@ -6,8 +6,8 @@
       <div class="detail">
         <h3 v-html="optimizeTracking(article.title)"></h3>
         <div class="dates">
-          <div class="published-at">{{ article.publishedAt }}</div>
-          <div v-if="article.updatedAt" class="updated-at">{{ article.updatedAt }}</div>
+          <div class="published-at">於 {{ article.publishedAt }} 發佈</div>
+          <div v-if="article.updatedAt" class="updated-at">於 {{ article.updatedAt }} 更新</div>
         </div>
       </div>
     </nuxt-link>
