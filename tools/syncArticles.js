@@ -16,8 +16,8 @@ async function sheetToJSON(sheet, fileName) {
 		[row.id]: {
 			id: row.id,
 			publicURL: row.publicURL,
-			publishedAt: row.publishedAt,
-			updatedAt: row.updatedAt
+			...(row.publishedAt ? { publishedAt: row.publishedAt } : {}),
+			...(row.updatedAt ? { updatedAt: row.updatedAt } : {})
 		}
 	})))
 
