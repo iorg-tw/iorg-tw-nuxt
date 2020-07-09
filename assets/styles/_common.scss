@@ -1,38 +1,4 @@
-@import '~bootstrap/scss/functions';
-@import '~bootstrap/scss/variables';
-@import '~bootstrap/scss/mixins';
-@import '~bootstrap/scss/reboot';
-
-// Override
-
-label {
-  margin: 0;
-}
-
 @import '~assets/styles/resources';
-
-html, body {
-  background-color: $color-default-background-color;
-}
-
-// Font size
-
-.font-size-small {
-  font-size: $font-size-small;
-}
-.font-size-tiny {
-  font-size: $font-size-tiny;
-}
-.font-size-nano {
-  font-size: $font-size-nano;
-}
-
-// Text styling
-
-.secondary-text {
-  color: $color-secondary-text-grey;
-}
-// Box
 
 @each $unit, $length in $unit-lengths {
   .margin-#{$unit} {

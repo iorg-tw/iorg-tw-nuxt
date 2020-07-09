@@ -28,7 +28,12 @@ export default {
   gtm: {
     id: 'GTM-MS5KXKS'
   },
-  modules: [],
+  modules: [
+    '@nuxtjs/markdownit'
+  ],
+  markdownit: {
+    injected: true
+  },
   build: {
     extend(config, ctx) {}
   },
