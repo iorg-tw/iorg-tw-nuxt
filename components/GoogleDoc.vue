@@ -42,9 +42,6 @@ export default {
     padding: 0;
     > img {
       width: 100%;
-      @media (orientation: portrait) {
-        max-height: 50vh;
-      }
       @media (min-width: 768px) {
         width: calc(100% + 6rem);
         margin-left: -3rem;
