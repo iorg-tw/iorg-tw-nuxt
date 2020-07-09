@@ -1,9 +1,11 @@
 <template>
 <div class="google-doc">
-  <h1 v-html="optimizeTracking(doc.title)"></h1>
-  <div class="author-info">{{ doc.authorInfo }}</div>
-  <div class="summary"><p>{{ doc.summary }}</p></div>
-  <div class="separator"></div>
+  <template v-if="options.head !== false">
+    <h1 v-html="optimizeTracking(doc.title)"></h1>
+    <div class="author-info">{{ doc.authorInfo }}</div>
+    <div class="summary"><p>{{ doc.summary }}</p></div>
+    <div class="separator"></div>
+  </template>
   <div class="content" v-html="doc.html"></div>
   <div class="separator"></div>
 </div>
@@ -16,6 +18,10 @@ export default {
     doc: {
       type: Object,
       default: null
+    },
+    options: {
+      type: Object,
+      default: () => ({})
     }
   },
   methods: {
@@ -94,7 +100,7 @@ export default {
   }
 
   h1, h2, h3 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.375rem;
   }
   p {
     margin-bottom: 1.5rem;
