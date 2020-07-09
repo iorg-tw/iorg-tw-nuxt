@@ -6,6 +6,7 @@
   <div class="menu">
     <nuxt-link :to="{ path: '/' }" class="item block"><span>Reports</span></nuxt-link>
     <nuxt-link :to="{ name: 'a' }" class="item block"><span>Articles</span></nuxt-link>
+    <nuxt-link :to="{ path: '/about' }" class="item block"><span>About</span></nuxt-link>
   </div>
 </div>
 </template>

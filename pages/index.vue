@@ -12,31 +12,15 @@
     </div>
   </section>
   <section class="text description">
-    <p>{{ description }}</p>
+    <p v-html="$md.render(description)"></p>
   </section>
   <section class="text intro">
     <p>{{ intro }}</p>
   </section>
-  <section class="people">
-    <div class="section-header"><span>{{ researcherSectionHeader }}</span></div>
-    <div class="container">
-      <div v-for="person of researchers" :key="person.name" class="panel person">
-        <h2>{{ person.name }}</h2>
-        <p>{{ person.description }}</p>
-      </div>
-    </div>
-    <div class="section-header"><span>{{ consultantSectionHeader }}</span></div>
-    <div class="container">
-      <div v-for="person of consultants" :key="person.name" class="panel person">
-        <h2>{{ person.name }}</h2>
-        <p>{{ person.description }}</p>
-      </div>
-    </div>
-  </section>
   <section class="contact">
     <div class="container">
       <div class="panel">
-        <p>Contact us at io [at] iorg.tw. Follow us on Twitter at <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a>.</p>
+        <p>For more information about IORG: <nuxt-link to="/about">About us</nuxt-link>. Contact us at <a href="#">io [at] iorg.tw</a>. Follow us on Twitter at <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a>.</p>
       </div>
     </div>
   </section>
@@ -88,7 +72,6 @@ section {
     font-size: 1.125rem;
     line-height: 1.375;
   }
-  &.people {}
   &.contact {
     padding: 2.5rem 0;
   }
@@ -143,13 +126,6 @@ section {
     overflow: hidden;
     background-color: white;
     @include shadow;
-  }
-}
-.person {
-  > h2 {
-    margin: 0.12rem 0;
-    font-size: 1.25rem;
-    font-weight: bold;
   }
 }
 </style>
