@@ -17,6 +17,7 @@ export default {
 
 <style lang="scss">
 @import '~assets/styles/resources';
+@import '~assets/styles/common';
 
 :root {
   --iorg-primary-dark-color: #1E1E1E;
@@ -65,6 +66,9 @@ h2 {
 }
 h3 {
   font-size: 1.25rem;
+}
+label {
+  margin: 0;
 }
 
 // line height

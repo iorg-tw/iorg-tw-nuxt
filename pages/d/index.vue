@@ -51,6 +51,7 @@ export default {
       overflow: hidden;
       background-color: var(--iorg-paper);
       color: var(--iorg-text);
+      @include shadow;
 
       > .cover {
         width: 100%;
