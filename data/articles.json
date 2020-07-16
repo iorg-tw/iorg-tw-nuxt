@@ -30,5 +30,20 @@
 			"譚德塞",
 			"認知戰"
 		]
+	},
+	"hk-disinfo-tang": {
+		"id": "hk-disinfo-tang",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCcJnNJLgmWooNnYSWQhG7Q9JsYkJSdCWCzGuewaA7G_1Rox8LqEeO_HTFlVSVZwGpUnNGZzQ49F0m/pub",
+		"publishedAt": "2020/7/16 19:00",
+		"title": "名嘴未經查證帶風向實例：唐湘龍助長「港人割地訴求」假訊息擴散",
+		"coverImage": "https://lh3.googleusercontent.com/plvnp9yd_LPFfCB5GikKyqvCpUOq8_ACLUe_J26tK-zP89g1UHxqAW5fXFvyk7pf-cgysLyYWLcZfq5TZDcqApUTvyImqzKp-LRzKCNxODOVHPRdYo3cN3HntR51N0Lgsg",
+		"authorInfo": "作者／宋小海；編輯／王希",
+		"summary": "名嘴唐湘龍日前（7 月 7 日）在廣播節目「飛碟早餐-唐湘龍時間」，當中表示「我昨天看到有朋友從網路上面轉來的一些香港年輕人的留話」，引用 ID 為 Mary Schulz 在今年 5 月 26 日的 Twitter 推文提及的「港人五大訴求」，包含給予香港人永久居住權、規劃港人特區等。但早在 5 月底《香港蘋果日報》報導即質疑此推文內容為中國網軍的造謠分化，原發文者 Mary Schulz 也早已自承是蘇州人而非香港人。事隔一個多月，唐湘龍卻在廣播節目上重提此訊息，未查證原發文者並非香港人，甚至稱「我如果是民進黨政府我全答應，我通通答應你，你們讓蔡英文高票當選」，不僅助長假訊息擴散，更藉以帶風向，批評蔡政府，也增加聽眾對香港人的負面觀感。名嘴無論是刻意或無心，但利用自己的輿論影響力傳播未經證實的消息，堪稱是假訊息的「在地協力者」，也是台灣當前防制不實訊息的一大難題。",
+		"tags": [
+			"香港國安法",
+			"唐湘龍",
+			"名嘴",
+			"不實訊息"
+		]
 	}
 }
