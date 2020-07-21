@@ -22,13 +22,15 @@ export default {
     GoogleDoc
   },
   async asyncData({ params, error }) {
-    let mainArticle = 'https://docs.google.com/document/d/e/2PACX-1vQ3pepD2_U_4xinkAemxdyW6zep1xOnkwtRmLgl4nw80n_DQCGrQf-S0_juPuxuoFwFxw0GqIXpgCnD/pub'
-    let members = 'https://docs.google.com/document/d/e/2PACX-1vR_vMDqT-5sTCBuEBiZhkOuUH2_TMo0choYflCmlYH2Quac4erahgNb655saqLBhQoQNZnL7b_-hGUB/pub'
-    let advisors = 'https://docs.google.com/document/d/e/2PACX-1vRDhn6robTrDoMDWHheUn8mlZkudAhd5g6yb6YYfqcuavUTDOqzJpBQOH5iGGDubhxXcQN7ZD4GeF-A/pub'
+    const mainArticleURL = 'https://docs.google.com/document/d/e/2PACX-1vQ3pepD2_U_4xinkAemxdyW6zep1xOnkwtRmLgl4nw80n_DQCGrQf-S0_juPuxuoFwFxw0GqIXpgCnD/pub'
+    const membersURL = 'https://docs.google.com/document/d/e/2PACX-1vR_vMDqT-5sTCBuEBiZhkOuUH2_TMo0choYflCmlYH2Quac4erahgNb655saqLBhQoQNZnL7b_-hGUB/pub'
+    const advisorsURL = 'https://docs.google.com/document/d/e/2PACX-1vRDhn6robTrDoMDWHheUn8mlZkudAhd5g6yb6YYfqcuavUTDOqzJpBQOH5iGGDubhxXcQN7ZD4GeF-A/pub'
 
-    mainArticle = await getDoc(mainArticle)
-    members = await getDoc(members)
-    advisors = await getDoc(advisors)
+    const [mainArticle, members, advisors] = await Promise.all([
+      getDoc(mainArticleURL),
+      getDoc(membersURL),
+      getDoc(advisorsURL)
+    ])
     return {
       mainArticle,
       members,
