@@ -11,7 +11,7 @@ export default {
       { hid: 'og-type', name: 'og:image', property: 'og:image', content: config.cover }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/images/logo-tmp-small.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/images/logo-tmp-small-fill.png' }
     ]
   },
   loading: {
