@@ -24,6 +24,7 @@ async function sheetToJSON(sheet, fileName) {
 	for(let id in articleDict) {
 		let article = articleDict[id]
 		let doc = await getDoc(article.publicURL)
+		delete doc.summaryHTML
 		delete doc.html
 		articleDict[id] = Object.assign(article, doc)
 	}
