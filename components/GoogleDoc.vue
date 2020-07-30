@@ -36,17 +36,29 @@ export default {
 .google-doc {
   @include doc;
 
-  .gdoc-photo {
+  .gdoc-photo-container {
     margin: 0;
     margin-bottom: 1.5rem;
     padding: 0;
-    > img {
+    > .images {
       width: 100%;
       @media (min-width: 768px) {
         width: calc(100% + 6rem);
         margin-left: -3rem;
       }
+      background-color: var(--iorg-neutral);
       @include shadow;
+      > img {
+        width: 100%;
+      }
+    }
+    > .images.grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      > img {
+        width: 50%;
+      }
     }
     > .description {
       margin: 0;
@@ -54,25 +66,6 @@ export default {
       padding-bottom: 0.5rem;
       font-size: 0.875rem;
       color: #646464;
-    }
-  }
-
-  .gdoc-album {
-    margin: 0;
-    margin-bottom: 1.5rem;
-    padding: 0;
-    > .images {
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: flex-start;
-      overflow-x: scroll;
-      > .image {
-        > img {
-          max-width: 85%;
-          max-height: 50vh;
-        }
-        > p {}
-      }
     }
   }
 
