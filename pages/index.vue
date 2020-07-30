@@ -41,26 +41,27 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.action {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0.5rem 0 0;
-  & > a {
-    color: var(--iorg-text);
-    padding: 0.25rem 0.5rem;
-    cursor: pointer;
-  }
-  &.primary > a {
-    background-color: var(--iorg-primary-dark-color);
-    color: var(--iorg-primary-light-color);
-    line-height: 1;
-    padding: 0.75rem 1rem;
-    border-radius: 1.25rem;
-  }
-}
 section {
-  &.reports {}
+  &.reports {
+    .action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.5rem 0 0;
+      & > a {
+        color: var(--iorg-text);
+        padding: 0.25rem 0.5rem;
+        cursor: pointer;
+      }
+      &.primary > a {
+        background-color: var(--iorg-primary-dark-color);
+        color: var(--iorg-primary-light-color);
+        line-height: 1;
+        padding: 0.75rem 1rem;
+        border-radius: 1.25rem;
+      }
+    }
+  }
   &.description {
     padding: 2.5rem;
     background-color: var(--iorg-primary-dark-color);

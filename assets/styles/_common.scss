@@ -21,9 +21,15 @@ a {
   &, &:active, &:visited {
     color: black;
   }
-  &:not(.block) {
+  &:not(.block):not(.inline-block) {
     display: inline;
     border-bottom: 2px solid black;
+  }
+  &.block {
+    display: block;
+  }
+  &.inline-block {
+    display: inline-block;
   }
 }
 img {

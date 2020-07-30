@@ -1,6 +1,7 @@
 <template>
 <div class="page article">
   <google-doc :doc="doc" />
+  <actions />
 </div>
 </template>
 
@@ -8,12 +9,14 @@
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
+import Actions from '~/components/Actions'
 
 import articles from '~/data/articles.json'
 
 export default {
   components: {
-    GoogleDoc
+    GoogleDoc,
+    Actions
   },
   async asyncData({ params, error }) {
     const id = params.id
