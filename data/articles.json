@@ -1,17 +1,47 @@
 {
-	"vystrcil": {
-		"id": "vystrcil",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2CitMDKVH7JddipnkC-Vr40VF--6N3n6ha-OIjQ90pgH1VGbOpjpyhSgSG6OvsF1I2gYqsLM8xXil/pub",
-		"publishedAt": "2020/7/3 18:00",
-		"title": "【國際觀察】媒體滲透威脅下，捷克對中立場漸趨強硬",
-		"coverImage": "https://lh3.googleusercontent.com/wFdRfIiMKpt8_gjdNlDS67ui9m7zlWZB7kKSxJ7mu3R9EFV_YOelivPc2gBec0vRHjU0BY5OCyE1pn0THA2Vb5XLUgBFnAtnFYdFSy90zfhLjbOB_YWXqPPESpRP_3El4g",
-		"authorInfo": "作者／徐曉強",
-		"summary": "過去十年隨著中國政經實力增強，捷克智庫「國際關係協會」的《販賣中歐：中國的政治影響》報告顯示，捷克政、商界對中國越來越友善，不過共產威權的記憶卻使捷克媒體普遍對中國的批評多於讚賞，高達 41% 的報導對中國的態度負面，正面的報導僅有 14%。對此，中國試圖影響、控制捷克媒體，並取得一定成效。例如今年四月，中資進入捷克最大的媒體集團 Médea，成為最大股東，引起憂慮。但中國強硬的外交手法和「看得到、吃不到」的經濟利益，已經讓捷克開始警覺到中國鋭實力的真面目。",
+	"chinese-spouses": {
+		"id": "chinese-spouses",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS6VQUKtWYV6rNf8sST_wP5g-ZX9HqMjjVufIH2sIJ2DjMQSypdbyn7jnkn_Zc1FGKlo80KFxGTZR-V/pub",
+		"publishedAt": "2020/7/30 18:00",
+		"title": "5 萬名史密斯夫婦：中國配偶在 Facebook 社團裡的「大內宣」",
+		"coverImage": "https://lh5.googleusercontent.com/REAyJrMG572o88bddLo0uGfqDhql50T_ObZR4D0tqyWCNi_oeMVRZwhhOxCsK-Acu1Om_rfL1mzBsllBqKdvie0jXf_Y5ukPnE_E-RBG1tVtfpX9ezjrWO0gcGhBzTceiA",
+		"authorInfo": "作者／IO 研究室編輯",
+		"summary": "在台中國籍配偶的網路社群規模頗為可觀，但因為加入資格限制，一般人難以窺其堂奧。我們追蹤觀察 Facebook 上兩個最大中配社團兩個月後發現，雖然社團內的政治討論比重少，內容以生活瑣事、情感交流為主，但也有社團的管理者及特定帳號會刻意散布政治宣傳或引導輿論方向。這類內容多數並非假訊息，而屬於政治宣傳，著重的面相與藍營媒體有所不同，比起批評蔡政府，更常出現耿爽、華春瑩慷慨激昂的發言，或宣揚中共抗疫成功、官方領導英明的短影片，可以說是在台灣發生的中國大內宣。",
 		"tags": [
-			"捷克",
-			"中國滲透",
-			"媒體滲透",
-			"銳實力"
+			"中配",
+			"假訊息",
+			"大內宣",
+			"臉書社團",
+			"陸配"
+		]
+	},
+	"cec-disinfo": {
+		"id": "cec-disinfo",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub",
+		"publishedAt": "2020/7/23 18:00",
+		"title": "監院報告被加工，高雄市長補選再傳選舉假訊息？",
+		"coverImage": "https://lh5.googleusercontent.com/wEDFsHYr182LnhmlVyD7kr5v2i0r5NeCjJ4SqicJsOfshWUWa4-EVLh_Cx5Wm_X1BTELV9ncYD17scK0QK2ZxOjPUVHkRr16X6DVvtDBAoRRW6UIosmNrib_JPLoLNPv6Q",
+		"authorInfo": "作者／IO 研究室編輯",
+		"summary": "2020 年總統大選期間各種假訊息中，「中選會以空白票灌票」這則假訊息傳播最多，傷害選舉公信力。這則假訊息誤用 2018 年台北市長選舉的監察院糾正報告，質疑政府「選舉舞弊」，《中國時報》、名嘴彭文正《政經關不了》節目皆有報導。持續散佈這則假消息的 YouTube 頻道《108 演播室》，頻道主陳衛平出身北京，加拿大籍，中國官媒《人民日報》稱其為「加拿大华人建党第一人」。早在總統大選前，台灣事實查核中心即查證此為不實訊息，但媒體、名嘴推波助瀾，假訊息持續流傳至今，並於 2020 年 6 月高雄市長韓國瑜罷免期間，再現傳播高峰。根據經驗，IO 研究室認為相關假訊息可能在高雄市長補選期間捲土重來，公民社會不能不小心提防。",
+		"tags": [
+			"2020 台灣選舉",
+			"假訊息",
+			"中選會"
+		]
+	},
+	"hk-disinfo-tang": {
+		"id": "hk-disinfo-tang",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCcJnNJLgmWooNnYSWQhG7Q9JsYkJSdCWCzGuewaA7G_1Rox8LqEeO_HTFlVSVZwGpUnNGZzQ49F0m/pub",
+		"publishedAt": "2020/7/16 19:00",
+		"title": "名嘴未經查證帶風向實例：唐湘龍助長「港人割地訴求」假訊息擴散",
+		"coverImage": "https://lh3.googleusercontent.com/plvnp9yd_LPFfCB5GikKyqvCpUOq8_ACLUe_J26tK-zP89g1UHxqAW5fXFvyk7pf-cgysLyYWLcZfq5TZDcqApUTvyImqzKp-LRzKCNxODOVHPRdYo3cN3HntR51N0Lgsg",
+		"authorInfo": "作者／宋小海；編輯／王希",
+		"summary": "名嘴唐湘龍日前（7 月 7 日）在廣播節目「飛碟早餐：唐湘龍時間」，當中表示「我昨天看到有朋友從網路上面轉來的一些香港年輕人的留話」，引用 ID 為 Mary Schulz 在今年 5 月 26 日的 Twitter 推文提及的「港人五大訴求」，包含給予香港人永久居住權、規劃港人特區等。但早在 5 月底《香港蘋果日報》報導即質疑此推文內容為中國網軍的造謠分化，原發文者 Mary Schulz 也早已自承是蘇州人而非香港人。事隔一個多月，唐湘龍卻在廣播節目上重提此訊息，未查證原發文者並非香港人，甚至稱「我如果是民進黨政府我全答應，我通通答應你，你們讓蔡英文高票當選」，不僅助長假訊息擴散，更藉以帶風向，批評蔡政府，也增加聽眾對香港人的負面觀感。名嘴無論是刻意或無心，但利用自己的輿論影響力傳播未經證實的消息，堪稱是假訊息的「在地協力者」，也是台灣當前防制不實訊息的一大難題。",
+		"tags": [
+			"香港國安法",
+			"唐湘龍",
+			"名嘴",
+			"不實訊息"
 		]
 	},
 	"pro-china-line-messages": {
@@ -31,33 +61,19 @@
 			"認知戰"
 		]
 	},
-	"hk-disinfo-tang": {
-		"id": "hk-disinfo-tang",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCcJnNJLgmWooNnYSWQhG7Q9JsYkJSdCWCzGuewaA7G_1Rox8LqEeO_HTFlVSVZwGpUnNGZzQ49F0m/pub",
-		"publishedAt": "2020/7/16 19:00",
-		"title": "名嘴未經查證帶風向實例：唐湘龍助長「港人割地訴求」假訊息擴散",
-		"coverImage": "https://lh3.googleusercontent.com/plvnp9yd_LPFfCB5GikKyqvCpUOq8_ACLUe_J26tK-zP89g1UHxqAW5fXFvyk7pf-cgysLyYWLcZfq5TZDcqApUTvyImqzKp-LRzKCNxODOVHPRdYo3cN3HntR51N0Lgsg",
-		"authorInfo": "作者／宋小海；編輯／王希",
-		"summary": "名嘴唐湘龍日前（7 月 7 日）在廣播節目「飛碟早餐-唐湘龍時間」，當中表示「我昨天看到有朋友從網路上面轉來的一些香港年輕人的留話」，引用 ID 為 Mary Schulz 在今年 5 月 26 日的 Twitter 推文提及的「港人五大訴求」，包含給予香港人永久居住權、規劃港人特區等。但早在 5 月底《香港蘋果日報》報導即質疑此推文內容為中國網軍的造謠分化，原發文者 Mary Schulz 也早已自承是蘇州人而非香港人。事隔一個多月，唐湘龍卻在廣播節目上重提此訊息，未查證原發文者並非香港人，甚至稱「我如果是民進黨政府我全答應，我通通答應你，你們讓蔡英文高票當選」，不僅助長假訊息擴散，更藉以帶風向，批評蔡政府，也增加聽眾對香港人的負面觀感。名嘴無論是刻意或無心，但利用自己的輿論影響力傳播未經證實的消息，堪稱是假訊息的「在地協力者」，也是台灣當前防制不實訊息的一大難題。",
+	"vystrcil": {
+		"id": "vystrcil",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2CitMDKVH7JddipnkC-Vr40VF--6N3n6ha-OIjQ90pgH1VGbOpjpyhSgSG6OvsF1I2gYqsLM8xXil/pub",
+		"publishedAt": "2020/7/3 18:00",
+		"title": "【國際觀察】媒體滲透威脅下，捷克對中立場漸趨強硬",
+		"coverImage": "https://lh3.googleusercontent.com/wFdRfIiMKpt8_gjdNlDS67ui9m7zlWZB7kKSxJ7mu3R9EFV_YOelivPc2gBec0vRHjU0BY5OCyE1pn0THA2Vb5XLUgBFnAtnFYdFSy90zfhLjbOB_YWXqPPESpRP_3El4g",
+		"authorInfo": "作者／徐曉強",
+		"summary": "過去十年隨著中國政經實力增強，捷克智庫「國際關係協會」的《販賣中歐：中國的政治影響》報告顯示，捷克政、商界對中國越來越友善，不過共產威權的記憶卻使捷克媒體普遍對中國的批評多於讚賞，高達 41% 的報導對中國的態度負面，正面的報導僅有 14%。對此，中國試圖影響、控制捷克媒體，並取得一定成效。例如今年四月，中資進入捷克最大的媒體集團 Médea，成為最大股東，引起憂慮。但中國強硬的外交手法和「看得到、吃不到」的經濟利益，已經讓捷克開始警覺到中國鋭實力的真面目。",
 		"tags": [
-			"香港國安法",
-			"唐湘龍",
-			"名嘴",
-			"不實訊息"
-		]
-	},
-	"cec-disinfo": {
-		"id": "cec-disinfo",
-		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub",
-		"publishedAt": "2020/7/23 18:00",
-		"title": "監院報告被加工，高雄市長補選再傳選舉假訊息？",
-		"coverImage": "https://lh5.googleusercontent.com/wEDFsHYr182LnhmlVyD7kr5v2i0r5NeCjJ4SqicJsOfshWUWa4-EVLh_Cx5Wm_X1BTELV9ncYD17scK0QK2ZxOjPUVHkRr16X6DVvtDBAoRRW6UIosmNrib_JPLoLNPv6Q",
-		"authorInfo": "作者／IO 研究室編輯",
-		"summary": "2020 年總統大選期間各種假訊息中，「中選會以空白票灌票」這則假訊息傳播最多，傷害選舉公信力。這則假訊息誤用 2018 年台北市長選舉的監察院糾正報告，質疑政府「選舉舞弊」，《中國時報》、名嘴彭文正《政經關不了》節目皆有報導。持續散佈這則假消息的 YouTube 頻道《108 演播室》，頻道主陳衛平出身北京，加拿大籍，中國官媒《人民日報》稱其為「加拿大華人黨建第一人」。早在總統大選前，台灣事實查核中心就已證實此為不實訊息，但媒體、名嘴推波助瀾，假訊息持續流傳至今，2020 年 6 月因高雄市長韓國瑜罷免案，再現傳播高峰。根據經驗，IO 研究室認為相關假訊息可能在高雄市長補選期間捲土重來，公民社會不能不小心提防。",
-		"tags": [
-			"2020 台灣選舉",
-			"假訊息",
-			"中選會"
+			"捷克",
+			"中國滲透",
+			"媒體滲透",
+			"銳實力"
 		]
 	}
 }
