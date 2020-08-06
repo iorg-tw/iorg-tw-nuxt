@@ -76,7 +76,7 @@ $default-page-padding: 2rem 0 4rem;
   border-radius: 0.25rem;
   line-height: 1.5;
   
-  > h1, h2, h3, p, .author-info {
+  > h1, h2, h3, p, ul, .author-info {
     padding-right: var(--padding);
     padding-left: var(--padding);
   }
