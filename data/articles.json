@@ -1,10 +1,26 @@
 {
+	"tiktok": {
+		"id": "tiktok",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTyjPcJFnYpE8RlQUus6QsPX16qdiJePc18pA7DHuTlGLJ_pvwMmouNNzf-oWlOy7Lt4ZMzv-hPyGik/pub",
+		"publishedAt": "2020/8/13 19:00",
+		"title": "台灣百萬青少年都在用的抖音，成為資訊操弄新戰場",
+		"coverImage": "https://lh5.googleusercontent.com/W-rEr5wq4Pa42rsBu0jateBYjR_DBuKkutHkQXX-Oip5O-qOthz1hCUYm9UBYtCmyELUaNBUgaCFVdvmnfSuI6XcnBTZPqEVeqwWsMRGtnrhMQQA79503JQj8SQpfcB-dw",
+		"authorInfo": "作者／王希",
+		"summary": "近期傳出侵犯隱私疑慮的抖音（TikTok），你需要知道這些關鍵數字。「8 億」：抖音全球使用者數量。「300 萬」：台灣每月活躍使用者數量。「27%」：13-17 歲族群佔全球使用者比例。「42%」：18-24 歲族群佔全球使用者比例。這些數字證明，抖音正在迅速成為年輕人最愛使用的社交媒體。更重要的是，抖音的短影片不只是單純的唱歌跳舞，還包含了許多不實訊息，包括讚揚中國防疫、中國解放軍的統戰資訊。台灣每天有近百萬的小學生、國高中生，沈浸在抖音的世界裡，他們可能正暴露在資安漏洞與不實資訊的危險之下。中國資訊操弄的手法不斷進化，抖音已經成為資訊操弄的新戰場。",
+		"tags": [
+			"抖音",
+			"川普",
+			"資安",
+			"隱私",
+			"青少年"
+		]
+	},
 	"ccp-media": {
 		"id": "ccp-media",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRexGAuxiCRwWGNm7h4X9swgV-UBDz7VxEhW6h1bLFGiek4o2EU9gi7ariWHXPYsRV1Al_uAy3WLxGo/pub",
 		"publishedAt": "2020/8/6 18:00",
 		"title": "你知道中國媒體「姓黨」嗎？",
-		"coverImage": "https://lh5.googleusercontent.com/milTZcWLzK7NCxg6U_XjbeWvN3BD2HAbyAmgqriiZoliKvI_DIW18tdsyARoJgjyYSDlssfKTH2cYUa0ADW8BkxwJIJF4f-Y1ttbshQ60io6-kSYIul1wPZ9ItELbBBJOlZJeotT",
+		"coverImage": "https://lh4.googleusercontent.com/QioIr5X323mL0KzAYfwYgTEuHjfKuZD0a525MAvNdgVygWYy1vO3pg5gVs2DghXYStjrMvVJW-QAvmL_qRBF1DOZDPj2d4FFTElKy_BREDMc8oUxhX3Gy6wpuZcKWaRCpg",
 		"authorInfo": "作者／嚴婉玲",
 		"summary": "先講結論：中國不只官媒「姓黨」，幾乎大部分媒體都姓黨。中國媒體幾無新聞自由可言，而黨媒作為中國大外宣的工具，台灣正是其重要的戰略目標。因此，看到中國新聞，不要轉傳！",
 		"tags": [
