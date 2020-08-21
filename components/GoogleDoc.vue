@@ -69,6 +69,10 @@ export default {
     }
   }
   .gdoc-table-container {
+    margin: 0;
+    margin-bottom: 1.5rem;
+    padding: 0;
+
     > .table {
       width: 100%;
       padding: 0.5rem;
