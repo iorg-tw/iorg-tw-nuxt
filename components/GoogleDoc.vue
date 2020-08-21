@@ -68,6 +68,26 @@ export default {
       color: #646464;
     }
   }
+  .gdoc-table-container {
+    > .table {
+      width: 100%;
+      padding: 0.5rem;
+      @media (min-width: 768px) {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+      }
+      background-color: var(--iorg-paper);
+      @include shadow;
+      overflow: scroll;
+    }
+    > .description {
+      margin: 0;
+      padding-top: 0.75rem;
+      padding-bottom: 0.5rem;
+      font-size: 0.875rem;
+      color: #646464;
+    }
+  }
 
   h1, h2, h3 {
     margin-bottom: 0.375rem;
@@ -89,6 +109,25 @@ export default {
     height: 0.5rem;
     background-color: var(--iorg-text);
     margin: 1.25rem auto;
+  }
+  table {
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    th, td {
+      min-width: 4rem;
+      max-width: 20rem;
+    }
+    tr:not(.no-border):not(:first-of-type) {
+      border-top: solid 1px var(--iorg-background);
+    }
+    p {
+      margin-bottom: 0.5rem;
+      padding-right: 0.25rem;
+      padding-left: 0.25rem;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 </style>
