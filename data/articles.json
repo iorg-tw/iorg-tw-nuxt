@@ -1,4 +1,20 @@
 {
+	"free-america": {
+		"id": "free-america",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_v6-QqXAxE10CcBZ8mjNVL2s2KkU9nI349Fz2KIKWVvJ06-QDd9jm7tiMrr7Ddf3ZSaueHJmtwV94/pub",
+		"publishedAt": "2020/8/21 18:00",
+		"title": "「光復美國」帶風向，中國共青團藉佛洛伊德事件煽動反美情緒",
+		"coverImage": "https://lh5.googleusercontent.com/LupW2zpsUGpYDVeahsxcK9ELWsWK4ovnC3T3WY2kmxvaiIJlBBUqbD3E-yN2eYT82e4mSMBuYrgtwer1WWoMm1FTj6SNZaL0VaYDrw1sHFyoP5D1vqpo8CfpQod6YN9uUw",
+		"authorInfo": "作者／徐曉強",
+		"summary": "美國發生「佛洛伊德」事件後， Facebook、Twitter 上隨即出現包含「光復美國」、「StandWithUSA」、「沒有暴徒，只有暴政」等關鍵字的貼文。其中「光復美國」貼文不但在網民討論「佛洛伊德」事件初期就大量出現，累積互動和分享的速度也是平常貼文的 8-10 倍，加上親中 Facebook 粉絲專頁協同貼文的現象，令人懷疑這是一起試圖帶風向的資訊操弄，要繼續妖魔化香港反送中抗爭、打擊民主派人士，也加強美國種族歧視的形象，煽動反美情緒。IO 研究室調查結果指出，「光復美國」用語的最早出現於中國共青團的《中國青年網》，整起事件可能是中國共青團的資訊操弄行為。",
+		"tags": [
+			"資訊操弄",
+			"帶風向",
+			"佛洛伊德",
+			"光復美國",
+			"中國共青團"
+		]
+	},
 	"tiktok": {
 		"id": "tiktok",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTyjPcJFnYpE8RlQUus6QsPX16qdiJePc18pA7DHuTlGLJ_pvwMmouNNzf-oWlOy7Lt4ZMzv-hPyGik/pub",
@@ -6,7 +22,7 @@
 		"title": "台灣百萬青少年都在用的抖音，成為資訊操弄新戰場",
 		"coverImage": "https://lh5.googleusercontent.com/W-rEr5wq4Pa42rsBu0jateBYjR_DBuKkutHkQXX-Oip5O-qOthz1hCUYm9UBYtCmyELUaNBUgaCFVdvmnfSuI6XcnBTZPqEVeqwWsMRGtnrhMQQA79503JQj8SQpfcB-dw",
 		"authorInfo": "作者／王希",
-		"summary": "近期傳出侵犯隱私疑慮的抖音（TikTok），你需要知道這些關鍵數字。「8 億」：抖音全球使用者數量。「300 萬」：台灣每月活躍使用者數量。「27%」：13-17 歲族群佔全球使用者比例。「42%」：18-24 歲族群佔全球使用者比例。這些數字證明，抖音正在迅速成為年輕人最愛使用的社交媒體。更重要的是，抖音的短影片不只是單純的唱歌跳舞，還包含了許多不實訊息，包括讚揚中國防疫、中國解放軍的統戰資訊。台灣每天有近百萬的小學生、國高中生，沈浸在抖音的世界裡，他們可能正暴露在資安漏洞與不實資訊的危險之下。中國資訊操弄的手法不斷進化，抖音已經成為資訊操弄的新戰場。",
+		"summary": "近期傳出侵犯隱私疑慮的抖音（TikTok），你需要知道這些關鍵數字。「8 億」：抖音全球活躍使用者數量。「300 萬」：台灣每月活躍使用者數量。「27%」：13-17 歲族群佔全球使用者比例。「42%」：18-24 歲族群佔全球使用者比例。這些數字證明，抖音正在迅速成為年輕人最愛使用的社交媒體。更重要的是，抖音的短影片不只是單純的唱歌跳舞，還包含了許多不實訊息，包括讚揚中國防疫、中國解放軍的統戰資訊。台灣每天有近百萬的小學生、國高中生，沈浸在抖音的世界裡，他們可能正暴露在資安漏洞與不實資訊的危險之下。中國資訊操弄的手法不斷進化，抖音已經成為資訊操弄的新戰場。",
 		"tags": [
 			"抖音",
 			"川普",
