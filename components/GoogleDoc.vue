@@ -118,8 +118,23 @@ export default {
     border-collapse: collapse;
     font-size: 0.875rem;
     th, td {
-      min-width: 4rem;
-      max-width: 20rem;
+      & {
+        min-width: 4rem;
+        max-width: 20rem;
+      }
+      &.datetime {
+        min-width: 10rem;
+      }
+      &.text-s {
+        min-width: 6rem;
+      }
+      &.text-m {
+        min-width: 10rem;
+      }
+      &.text-l {
+        min-width: 20rem;
+        max-width: 40rem;
+      }
     }
     tr:not(.no-border):not(:first-of-type) {
       border-top: solid 1px var(--iorg-background);
