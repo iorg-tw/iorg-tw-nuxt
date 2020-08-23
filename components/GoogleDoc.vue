@@ -107,6 +107,7 @@ export default {
   .summary {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    font-size: 1.125rem;
   }
   .separator {
     width: 0.5rem;
@@ -135,6 +136,10 @@ export default {
         min-width: 20rem;
         max-width: 40rem;
       }
+    }
+    th {
+      text-align: left;
+      font-weight: bold;
     }
     tr:not(.no-border):not(:first-of-type) {
       border-top: solid 1px var(--iorg-background);
