@@ -28,5 +28,6 @@ en:
 footer {
   margin-top: 6rem;
   border-top: 0.25rem solid var(--iorg-text);
+  padding-bottom: 2rem;
 }
 </style>
