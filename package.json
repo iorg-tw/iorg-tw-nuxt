@@ -20,6 +20,7 @@
     "dotenv": "^8.2.0",
     "google-spreadsheet": "^3.0.11",
     "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.13.12",
     "url-parse": "^1.4.7"
   },
   "devDependencies": {

@@ -29,7 +29,8 @@ export default {
     id: 'GTM-MS5KXKS'
   },
   modules: [
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    'nuxt-i18n'
   ],
   markdownit: {
     injected: true
@@ -43,5 +44,20 @@ export default {
   server: {
     port: 10101,
     host: '0.0.0.0'
+  },
+  i18n: {
+    locales: [
+      {
+        code: 'tw',
+        name: '台'
+      },
+      {
+        code: 'en',
+        name: 'En'
+      }
+    ],
+    defaultLocale: 'tw',
+    strategy: 'no_prefix',
+    vueI18nLoader: true
   }
 }
