@@ -1,7 +1,7 @@
 const config = {
   reports: [
     {
-      title: '中國對台資訊作戰事件研析，IO 研究室，2020/6/18，最後更新於 2020/6/19。',
+      title: '中國對台資訊作戰事件研析，IORG，2020/6/18，最後更新於 2020/6/19。',
       image: '/images/iorg-model-1-tw-cover.png',
       actions: [
         {
