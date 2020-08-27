@@ -1,5 +1,4 @@
 const config = {
-  intro: 'A multidisciplinary, data-driven, rigorous understanding of information operation & manipulation is needed in order to devise appropriate responses to respond to cognitive warfare, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy.',
   reports: [
     {
       title: '中國對台資訊作戰事件研析，IO 研究室，2020/6/18，最後更新於 2020/6/19。',

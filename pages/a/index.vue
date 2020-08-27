@@ -1,3 +1,12 @@
+<i18n lang="yaml">
+tw:
+  publishedAt: "發佈於"
+  updatedAt: "最後更新於"
+en:
+  publishedAt: "Published at"
+  updatedAt: "Last updated at"
+</i18n>
+
 <template>
 <div class="page articles">
   <div class="articles">
@@ -6,8 +15,8 @@
       <div class="detail">
         <h3 v-html="optimizeTracking(article.title)"></h3>
         <div class="dates">
-          <div class="published-at">於 {{ article.publishedAt }} 發佈</div>
-          <div v-if="article.updatedAt" class="updated-at">於 {{ article.updatedAt }} 更新</div>
+          <div class="published-at">{{ $t('publishedAt') }} {{ article.publishedAt }}</div>
+          <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} {{ article.updatedAt }}</div>
         </div>
       </div>
     </nuxt-link>

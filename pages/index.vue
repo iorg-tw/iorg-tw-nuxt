@@ -1,3 +1,12 @@
+<i18n lang="yaml">
+tw:
+  description: "IORG 於 2019 年成立，由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，目的是在認知戰的框架下紀錄、研究、理解資訊操弄。"
+  intro: "針對資訊操弄、資訊戰的研究，必須跨領域、資料驅動而嚴謹，方能確實了解認知戰，並適當回應，以捍衛自由、強化台灣民主。"
+en:
+  description: "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activist. IORG researches information manipulation within the framework of cognitive warfare."
+  intro: "A multidisciplinary, data-driven, rigorous understanding of information operation & manipulation is needed in order to devise appropriate responses to respond to cognitive warfare, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy."
+</i18n>
+
 <template>
 <div class="page index">
   <section class="reports">
@@ -12,10 +21,10 @@
     </div>
   </section>
   <section class="text description">
-    <p v-html="$md.render(description)"></p>
+    <p v-html="$t('description')"></p>
   </section>
   <section class="text intro">
-    <p>{{ intro }}</p>
+    <p>{{ $t('intro') }}</p>
   </section>
 </div>
 </template>
