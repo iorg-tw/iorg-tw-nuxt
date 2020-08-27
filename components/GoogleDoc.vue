@@ -2,7 +2,9 @@
 <div class="google-doc">
   <template v-if="options.head !== false">
     <h1 v-html="optimizeTracking(doc.title)"></h1>
-    <div class="author-info">{{ doc.authorInfo }}</div>
+    <ul class="author-info">
+      <li class="author" v-for="author of doc.authorInfo" :key="author">{{ author }}</li>
+    </ul>
     <div class="summary" v-html="doc.summaryHTML"></div>
     <div class="separator"></div>
   </template>
@@ -103,6 +105,7 @@ export default {
   .author-info {
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
+    list-style: none;
   }
   .summary {
     margin-top: 0.5rem;
