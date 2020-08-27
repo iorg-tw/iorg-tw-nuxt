@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/gtm": "^2.2.3",
-    "@nuxtjs/markdownit": "^1.2.9",
+    "@nuxtjs/markdownit": "^1.2.10",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
     "google-spreadsheet": "^3.0.11",
