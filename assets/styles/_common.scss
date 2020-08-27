@@ -27,9 +27,26 @@ a {
   }
   &.block {
     display: block;
+    > span {
+      line-height: 1.5;
+      border-bottom: 2px solid black;
+    }
   }
   &.inline-block {
     display: inline-block;
+  }
+  &.inverted {
+    color: white;
+    border-bottom-color: white;
+    &.block > span {
+      border-bottom-color: white;
+    }
+  }
+  &.minimal {
+    border-bottom-color: transparent;
+    &.block > span {
+      border-bottom-color: transparent;
+    }
   }
 }
 img {
