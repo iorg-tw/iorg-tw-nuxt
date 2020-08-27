@@ -20,7 +20,7 @@ en:
     <nuxt-link :to="{ path: '/about' }" class="item block"><span>{{ $t('about') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
-    <a href="#" v-for="locale of availableLocales" :key="locale.code" class="item block inverted minimal" @click.prevent.stop="$i18n.setLocale(locale.code)"><span>{{ locale.name }}</span></a>
+    <a v-for="locale of availableLocales" :key="locale.code" href="#" class="item block inverted minimal" @click.prevent.stop="$i18n.setLocale(locale.code)"><span>{{ locale.name }}</span></a>
   </div>
 </div>
 </template>

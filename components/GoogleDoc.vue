@@ -3,7 +3,7 @@
   <template v-if="options.head !== false">
     <h1 v-html="optimizeTracking(doc.title)"></h1>
     <ul class="author-info">
-      <li class="author" v-for="author of doc.authorInfo" :key="author">{{ author }}</li>
+      <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
     </ul>
     <div class="summary" v-html="doc.summaryHTML"></div>
     <div class="separator"></div>
