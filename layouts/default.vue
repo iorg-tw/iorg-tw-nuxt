@@ -2,15 +2,18 @@
 <main>
   <navbar />
   <nuxt />
+  <Foooter />
 </main>
 </template>
 
 <script>
 import Navbar from '~/components/Navbar'
+import Foooter from '~/components/Footer'
 
 export default {
   components: {
-    Navbar
+    Navbar,
+    Foooter
   }
 }
 </script>

@@ -17,13 +17,6 @@
   <section class="text intro">
     <p>{{ intro }}</p>
   </section>
-  <section class="contact">
-    <div class="container">
-      <div class="panel">
-        <p>For more information about IORG: <nuxt-link to="/about">About us</nuxt-link>. Contact us at <a href="#">io [at] iorg.tw</a>. Follow us on Twitter at <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a>.</p>
-      </div>
-    </div>
-  </section>
 </div>
 </template>
 
@@ -72,9 +65,6 @@ section {
     padding: 2rem 1.5rem 0;
     font-size: 1.125rem;
     line-height: 1.375;
-  }
-  &.contact {
-    padding: 2.5rem 0;
   }
   &.text {
     > p {
