@@ -1,15 +1,19 @@
 <i18n lang="yaml">
 tw:
-  description: "IORG 於 2019 年成立，由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，目的是在認知戰的框架下紀錄、研究、理解資訊操弄。"
+  description: "IORG 於 2019 年成立，由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，目的在於紀錄、研究、理解資訊操弄、加強資訊判讀，以應對認知戰。"
   intro: "針對資訊操弄、資訊戰的研究，必須跨領域、資料驅動而嚴謹，方能確實了解認知戰，並適當回應，以捍衛自由、強化台灣民主。"
+  articles: "資訊操弄相關報導"
+  interviews: "訪問"
 en:
-  description: "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activist. IORG researches information manipulation within the framework of cognitive warfare."
+  description: "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG researches information manipulation and strengthens information literacy in response to cognitive warfare."
   intro: "A multidisciplinary, data-driven, rigorous understanding of information operation & manipulation is needed in order to devise appropriate responses to respond to cognitive warfare, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy."
+  articles: "Articles"
+  interviews: "Interviews"
 </i18n>
 
 <template>
 <div class="page index">
-  <section class="reports">
+  <section id="r" class="reports">
     <div class="container">
       <div v-for="report of reports" :key="report.title" class="panel report">
         <a class="cover block" :href="report.url"><img :src="report.image" /></a>
@@ -20,11 +24,28 @@ en:
       </div>
     </div>
   </section>
-  <section class="text description">
-    <p v-html="$t('description')"></p>
+  <section class="description">
+    <div class="container">
+      <div class="panel text">
+        <p v-html="$t('description')"></p>
+      </div>
+    </div>
   </section>
-  <section class="text intro">
-    <p>{{ $t('intro') }}</p>
+  <section id="a" class="articles">
+    <div class="container">
+      <div class="panel text">
+        <p class="section-title">{{ $t('articles') }}</p>
+      </div>
+    </div>
+    <article-list />
+  </section>
+  <section id="i" class="interviews">
+    <div class="container">
+      <div class="panel text">
+        <p class="section-title">{{ $t('interviews') }}</p>
+      </div>
+    </div>
+    <article-list src="interviews" />
   </section>
 </div>
 </template>
@@ -32,8 +53,12 @@ en:
 <script>
 import config from '~/data/config.js'
 import home from '~/data/home.js'
+import ArticleList from '~/components/ArticleList'
 
 export default {
+  components: {
+    ArticleList
+  },
   data() {
     return Object.assign({}, config, home)
   }
@@ -65,19 +90,25 @@ section {
     }
   }
   &.description {
-    padding: 2.5rem;
+    padding: 1rem;
     background-color: var(--iorg-primary-dark-color);
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: var(--iorg-primary-light-color);
   }
   &.intro {
-    padding: 2rem 1.5rem 0;
     font-size: 1.125rem;
     line-height: 1.375;
   }
-  &.text {
-    > p {
-      max-width: 40rem;
+  &.articles,
+  &.interviews {
+    .section-title {
+      margin-bottom: -3rem;
+      border-bottom: 2px solid var(--iorg-accent);
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--iorg-accent);
+      transform: skew(0, -16deg) translateY(0.5rem);
+      transform-origin: bottom left;
     }
   }
 }
@@ -100,8 +131,13 @@ section {
   margin: 0.5rem;
   max-width: 60rem;
   > .panel {
-    max-width: 20rem;
-    margin: 1rem;
+    & {
+      margin: 1rem;
+      max-width: 20rem;
+    }
+    &.text {
+      max-width: 40rem;
+    }
   }
 }
 .section-header + .container {
