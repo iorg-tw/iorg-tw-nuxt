@@ -94,6 +94,34 @@ export default {
       color: #646464;
     }
   }
+  .gdoc-youtube-container {
+    margin: 0;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    > .video {
+      position: relative;
+      width: 100%;
+      height: 0;
+      margin: 0;
+      padding-bottom: 56.25%;
+      @media (min-width: 768px) {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+        padding-bottom: calc(56.25% + 3.375rem);
+      }
+      background-color: var(--iorg-paper);
+      @include shadow;
+      > iframe {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
 
   h1, h2, h3 {
     margin-bottom: 0.375rem;
