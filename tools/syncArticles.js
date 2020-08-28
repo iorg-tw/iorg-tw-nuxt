@@ -39,6 +39,8 @@ async function get() {
 	await sheetToJSON(sheet, 'articles.json')
 	sheet = doc.sheetsById['1377224831']
 	await sheetToJSON(sheet, 'drafts.json')
+	sheet = doc.sheetsById['339912852']
+	await sheetToJSON(sheet, 'interviews.json')
 }
 
 get()
