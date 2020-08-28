@@ -1,6 +1,7 @@
 <template>
-<div class="page draft">
+<div class="page interview">
   <google-doc :doc="doc" />
+  <actions />
 </div>
 </template>
 
@@ -8,23 +9,25 @@
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
+import Actions from '~/components/Actions'
 
-import drafts from '~/data/drafts.json'
+import interviews from '~/data/interviews.json'
 
 export default {
   components: {
-    GoogleDoc
+    GoogleDoc,
+    Actions
   },
   async asyncData({ params, error }) {
     const id = params.id
-    const draft = drafts[id]
-    if(!draft) {
-      error({ statusCode: 404, message: 'Draft not found' })
+    const interview = interviews[id]
+    if(!interview) {
+      error({ statusCode: 404, message: 'Interview not found' })
       return
     }
-    const doc = await getDoc(draft.publicURL)
+    const doc = await getDoc(interview.publicURL)
     return {
-      draft,
+      interview,
       doc
     }
   },
@@ -37,7 +40,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.draft {
+.page.interview {
   padding: $default-page-padding;
 }
 </style>
