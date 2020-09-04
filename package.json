@@ -18,12 +18,14 @@
     "@nuxtjs/gtm": "^2.2.3",
     "@nuxtjs/markdownit": "^1.2.10",
     "cheerio": "^1.0.0-rc.3",
+    "d3": "^6.1.1",
     "dotenv": "^8.2.0",
     "google-spreadsheet": "^3.0.11",
     "got": "^11.5.2",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.13.12",
-    "url-parse": "^1.4.7"
+    "url-parse": "^1.4.7",
+    "uuid": "^8.3.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
