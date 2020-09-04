@@ -12,10 +12,10 @@ async function get() {
     fs.writeFileSync('data/ion/nodes.json', JSON.stringify(nodes, null, '\t'))
 
     let edges = await got(`https://api.airtable.com/v0/appu0MNR57XsXL8P6/edges?api_key=${apiKey}`)
-    edges = JSON.parse(edges.body).records    
+    edges = JSON.parse(edges.body).records
     fs.writeFileSync('data/ion/edges.json', JSON.stringify(edges, null, '\t'))
   } catch(error) {
-    console.log(error.response.body)
+    console.error(error)
   }
 }
 
