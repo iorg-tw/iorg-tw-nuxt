@@ -54,6 +54,7 @@ const links = ionEdges.map(d => {
   return {
     source: d.fields.from[0],
     target: d.fields.to[0],
+    action: d.fields.action,
     value: 4 // placeholder
   }
 })
@@ -61,6 +62,10 @@ const width = 800
 const height = 800
 const scale = d3.scaleOrdinal(d3.schemeCategory10)
 const color = d => scale(d.category)
+
+const nodeR = 4
+const labelOffsetX = 6
+const labelOffsetY = 3
 
 function makeGraph(svg, vm) {
   svg
@@ -81,6 +86,15 @@ function makeGraph(svg, vm) {
     .attr('stroke-width', d => Math.sqrt(d.value))
     .on('click', vm.linkClicked)
 
+  const linkLabel = svg.append('g')
+    .attr('class', 'link-labels')
+    .selectAll('text')
+    .data(links)
+    .join('text')
+    .text(d => d.action)
+    .attr('class', 'link-label')
+    .on('click', vm.linkClicked)
+
   const node = svg.append('g')
     .attr('class', 'nodes')
     .selectAll('g')
@@ -93,12 +107,12 @@ function makeGraph(svg, vm) {
   node.append('circle')
     .attr('cx', 0)
     .attr('cy', 0)
-    .attr('r', 4)
+    .attr('r', nodeR)
     .attr('fill', color)
 
   node.append('text')
-    .attr('x', 6)
-    .attr('y', 3)
+    .attr('x', labelOffsetX)
+    .attr('y', labelOffsetY)
     .text(d => d.name)
 
   simulation.on('tick', () => {
@@ -107,6 +121,9 @@ function makeGraph(svg, vm) {
       .attr('y1', d => d.source.y)
       .attr('x2', d => d.target.x)
       .attr('y2', d => d.target.y)
+    linkLabel
+      .attr('x', d => (d.source.x + d.target.x) / 2)
+      .attr('y', d => (d.source.y + d.target.y) / 2 + labelOffsetY)
     node
       .attr('transform', d => `translate(${d.x}, ${d.y})`)
   })
@@ -157,6 +174,13 @@ export default {
       stroke: #888;
       stroke-opacity: 0.65;
       > .link {
+        cursor: pointer;
+      }
+    }
+    .link-labels {
+      text-anchor: middle;
+      > .link-label {
+        fill: #888;
         cursor: pointer;
       }
     }
