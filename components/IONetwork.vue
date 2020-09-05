@@ -2,9 +2,13 @@
 <div :id="id" class="io-network">
   <div ref="network" class="network">
   </div>
+  <div v-if="showDatum" class="datum-container">
+    <div class="controls">
+    </div>
+    <div class="datum">{{ datum }}</div>
+  </div>
 </div>
 </template>
-
 <script>
 import { v4 as uuidv4 } from 'uuid'
 import * as d3 from 'd3'
@@ -12,6 +16,7 @@ import ionNodes from '~/data/ion/nodes'
 import ionEdges from '~/data/ion/edges'
 
 // based on https://observablehq.com/@d3/force-directed-graph
+// d3 v6 migration guide https://observablehq.com/@d3/d3v6-migration-guide
 
 const drag = simulation => {
   function dragstarted(event) {
@@ -38,42 +43,43 @@ const drag = simulation => {
     .on('end', dragended)
 }
 
-const makeGraph = svg => {
-  const nodes = ionNodes.map(d => {
-    return {
-      id: d.id,
-      name: d.fields.short_name,
-      category: d.fields.category ? d.fields.category : 'default'
-    }
-  })
-  const links = ionEdges.map(d => {
-    return {
-      source: d.fields.from[0],
-      target: d.fields.to[0],
-      value: 1 // placeholder
-    }
-  })
+const nodes = ionNodes.map(d => {
+  return {
+    id: d.id,
+    name: d.fields.short_name,
+    category: d.fields.category ? d.fields.category : 'default'
+  }
+})
+const links = ionEdges.map(d => {
+  return {
+    source: d.fields.from[0],
+    target: d.fields.to[0],
+    value: 4 // placeholder
+  }
+})
+const width = 800
+const height = 800
+const scale = d3.scaleOrdinal(d3.schemeCategory10)
+const color = d => scale(d.category)
 
-  const width = 600
-  const height = 600
-  const scale = d3.scaleOrdinal(d3.schemeCategory10)
-  const color = d => scale(d.category)
+function makeGraph(svg, vm) {
+  svg
+    .attr('viewBox', [0, 0, width, height])
+    .on('click', vm.canvasClicked)
 
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id))
     .force('charge', d3.forceManyBody())
     .force('center', d3.forceCenter(width / 2, height / 2))
 
-  svg.attr('viewBox', [0, 0, width, height])
-
   const link = svg.append('g')
     .attr('class', 'links')
-    // .attr('stroke', '#999')
-    // .attr('stroke-opacity', 0.6)
     .selectAll('line')
     .data(links)
     .join('line')
+    .attr('class', 'link')
     .attr('stroke-width', d => Math.sqrt(d.value))
+    .on('click', vm.linkClicked)
 
   const node = svg.append('g')
     .attr('class', 'nodes')
@@ -81,6 +87,7 @@ const makeGraph = svg => {
     .data(nodes)
     .join('g')
     .attr('class', 'node')
+    .on('click', vm.nodeClicked)
     .call(drag(simulation))
 
   node.append('circle')
@@ -108,23 +115,61 @@ const makeGraph = svg => {
 export default {
   data() {
     return {
-      id: 'uuid-' + uuidv4()
+      id: 'uuid-' + uuidv4(),
+      datum: null,
+      showDatum: false
     }
   },
   mounted() {
     const svg = d3.select(this.$refs.network).append('svg')
-    makeGraph(svg)
+    makeGraph(svg, this)
+  },
+  methods: {
+    nodeClicked(event, d) {
+      const datum = JSON.parse(JSON.stringify(d))
+      this.$set(this, 'datum', datum)
+      this.showDatum = true
+      event.stopPropagation()
+    },
+    linkClicked(event, d) {
+      const datum = JSON.parse(JSON.stringify(d)) // d is nested with source & target nodes
+      this.$set(this, 'datum', datum)
+      this.showDatum = true
+      event.stopPropagation()
+    },
+    canvasClicked(event, d) {
+      this.showDatum = false
+    }
   }
 }
 </script>
 <style lang="scss">
 .io-network {
+  position: relative;
   > .network {
     font-size: 10px;
+    .nodes {
+      > .node {
+        cursor: pointer;
+      }
+    }
     .links {
       stroke: #888;
       stroke-opacity: 0.65;
+      > .link {
+        cursor: pointer;
+      }
     }
+  }
+  > .datum-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    height: 12rem;
+    padding: 1rem;
+    background-color: white;
   }
 }
 </style>
