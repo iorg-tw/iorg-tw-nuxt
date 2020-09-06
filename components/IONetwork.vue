@@ -49,15 +49,15 @@ const nodes = ionNodes.map(d => {
     name: d.fields.short_name,
     category: d.fields.category ? d.fields.category : 'default'
   }
-})
+}).filter(d => d.id && d.name)
 const links = ionEdges.map(d => {
   return {
-    source: d.fields.from[0],
-    target: d.fields.to[0],
+    source: d.fields.from ? d.fields.from[0] : null,
+    target: d.fields.to ? d.fields.to[0] : null,
     action: d.fields.action,
     value: 4 // placeholder
   }
-})
+}).filter(d => d.source && d.target && d.action)
 const width = 800
 const height = 800
 const scale = d3.scaleOrdinal(d3.schemeCategory10)
