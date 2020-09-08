@@ -21,7 +21,7 @@ export default {
   async asyncData({ params, error }) {
     const id = params.id
     const article = articles[id]
-    if(!article) {
+    if(!(article && article.published)) {
       error({ statusCode: 404, message: 'Article not found' })
       return
     }

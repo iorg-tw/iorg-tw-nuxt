@@ -21,7 +21,7 @@ export default {
   async asyncData({ params, error }) {
     const id = params.id
     const interview = interviews[id]
-    if(!interview) {
+    if(!(interview && interview.published)) {
       error({ statusCode: 404, message: 'Interview not found' })
       return
     }
