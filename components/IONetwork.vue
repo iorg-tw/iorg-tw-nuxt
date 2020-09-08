@@ -12,8 +12,8 @@
 <script>
 import { v4 as uuidv4 } from 'uuid'
 import * as d3 from 'd3'
-import ionNodes from '~/data/ion/nodes'
-import ionEdges from '~/data/ion/edges'
+import nodes from '~/data/ion/nodes'
+import links from '~/data/ion/edges'
 
 // based on https://observablehq.com/@d3/force-directed-graph
 // d3 v6 migration guide https://observablehq.com/@d3/d3v6-migration-guide
@@ -43,21 +43,6 @@ const drag = simulation => {
     .on('end', dragended)
 }
 
-const nodes = ionNodes.map(d => {
-  return {
-    id: d.id,
-    name: d.fields.short_name,
-    category: d.fields.category ? d.fields.category : 'default'
-  }
-}).filter(d => d.id && d.name)
-const links = ionEdges.map(d => {
-  return {
-    source: d.fields.from ? d.fields.from[0] : null,
-    target: d.fields.to ? d.fields.to[0] : null,
-    action: d.fields.action,
-    value: 4 // placeholder
-  }
-}).filter(d => d.source && d.target && d.action)
 const width = 800
 const height = 800
 const scale = d3.scaleOrdinal(d3.schemeCategory10)
