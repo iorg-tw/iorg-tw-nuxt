@@ -44,11 +44,9 @@ async function get() {
 	sheet = doc.sheetsById['339912852']
 	await sheetToJSON(sheet, 'video')
 
+	// sort keys by publishedAt
 	let keys = Object.keys(articleDict)
-	console.log(keys)
 	keys.sort((p, q) => new Date(articleDict[q].publishedAt) - new Date(articleDict[p].publishedAt))
-	console.log(keys)
-
 	articleDict = Object.assign({}, ...keys.map(k => ({ [k]: articleDict[k] })))
 
 	fs.writeFileSync('data/articles.json', JSON.stringify(articleDict, null, '\t'))
