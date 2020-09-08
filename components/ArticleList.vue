@@ -44,6 +44,10 @@ export default {
     src: {
       type: String,
       default: 'articles'
+    },
+    showAll: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
