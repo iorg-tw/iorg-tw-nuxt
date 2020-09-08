@@ -1,6 +1,6 @@
 <template>
 <div class="page articles">
-  <article-list src="interviews" />
+  <article-list type="video" />
 </div>
 </template>
 

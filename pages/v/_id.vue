@@ -1,5 +1,5 @@
 <template>
-<div class="page interview">
+<div class="page video">
   <google-doc :doc="doc" />
   <actions />
 </div>
@@ -11,7 +11,7 @@ import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 import Actions from '~/components/Actions'
 
-import interviews from '~/data/interviews.json'
+import articles from '~/data/articles.json'
 
 export default {
   components: {
@@ -20,14 +20,14 @@ export default {
   },
   async asyncData({ params, error }) {
     const id = params.id
-    const interview = interviews[id]
-    if(!(interview && interview.published)) {
+    const video = articles[id]
+    if(!(video && video.type === 'video' && video.published)) {
       error({ statusCode: 404, message: 'Interview not found' })
       return
     }
-    const doc = await getDoc(interview.publicURL)
+    const doc = await getDoc(video.publicURL)
     return {
-      interview,
+      video,
       doc
     }
   },
@@ -40,7 +40,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.interview {
+.page.video {
   padding: $default-page-padding;
 }
 </style>

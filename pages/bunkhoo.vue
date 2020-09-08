@@ -1,6 +1,6 @@
 <template>
 <div class="page articles">
-  <article-list src="drafts" />
+  <article-list type="all" :show-all="true" />
 </div>
 </template>
 

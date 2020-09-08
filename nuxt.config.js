@@ -32,6 +32,9 @@ export default {
     '@nuxtjs/markdownit',
     'nuxt-i18n'
   ],
+  serverMiddleware: [
+    '~/servermiddleware/301.js'
+  ],
   markdownit: {
     injected: true
   },

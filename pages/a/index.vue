@@ -1,6 +1,6 @@
 <template>
 <div class="page articles">
-  <article-list />
+  <article-list type="article" />
 </div>
 </template>
 

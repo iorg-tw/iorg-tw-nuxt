@@ -2,11 +2,11 @@
 tw:
   reports: "報告"
   articles: "報導"
-  interviews: "訪問"
+  videos: "影音"
 en:
   reports: "Reports"
   articles: "Articles"
-  interviews: "Interviews"
+  videos: "Videos"
 </i18n>
 
 <template>
@@ -17,7 +17,7 @@ en:
   <div class="menu main-menu">
     <nuxt-link :to="{ path: '/#r' }" class="item block"><span>{{ $t('reports') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/#a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/#i' }" class="item block"><span>{{ $t('interviews') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/#v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
     <a v-for="locale of availableLocales" :key="locale.code" href="#" class="item block inverted minimal" @click.prevent.stop="$i18n.setLocale(locale.code)"><span>{{ locale.name }}</span></a>

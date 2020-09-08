@@ -1,5 +1,7 @@
 {
 	"iftf-graphika-iri": {
+		"published": true,
+		"type": "article",
 		"id": "iftf-graphika-iri",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSE2UwUk__A9GdYj-198uHnJsVOfihXHkJYGwa5Zy6Yok1-tZRJ_uBcmxIlph422Mavb3KqSzmTTf9i/pub",
 		"publishedAt": "2020/9/2 18:00",
@@ -21,7 +23,30 @@
 			"資訊判讀"
 		]
 	},
+	"hong-sh": {
+		"published": true,
+		"type": "video",
+		"id": "hong-sh",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTgHTy3Q6K8y4Qxmd1R9zTv7xnkldfMDHZkR8fPRCXAKB6UXCIUxhZ3SevUGTXpCVJmpg4qnbAQRLOY/pub",
+		"publishedAt": "2020/8/29 18:00",
+		"title": "資訊操弄引爆社會不信任，立委洪申翰：須先凝聚共識／心慌保全來訪問 Ep.1",
+		"coverImage": "https://lh3.googleusercontent.com/_BSrFBRHAtcEq5JRtqI1aF7YzghXDMhuN_imw-pQcYYzWoJ7M5oASuhmZYwTlbfdJUJmzvWHUrERqC-WjsoDa1ihp0nTzi_FUpbp0HqkDtPEFVJsAngezTS91HnqxeUHQg",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 1 集，心慌保全訪問了立法委員洪申翰，地點在立法院旁的慕哲咖啡。身為 2020 新科立委，洪申翰的觀點是什麼？面對「資訊操弄」，他又提出了哪些解方呢？",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"對立",
+			"立法委員",
+			"立法"
+		]
+	},
 	"stand-with-usa": {
+		"published": true,
+		"type": "article",
 		"id": "stand-with-usa",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_v6-QqXAxE10CcBZ8mjNVL2s2KkU9nI349Fz2KIKWVvJ06-QDd9jm7tiMrr7Ddf3ZSaueHJmtwV94/pub",
 		"publishedAt": "2020/8/21 18:00",
@@ -41,6 +66,8 @@
 		]
 	},
 	"tiktok": {
+		"published": true,
+		"type": "article",
 		"id": "tiktok",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTyjPcJFnYpE8RlQUus6QsPX16qdiJePc18pA7DHuTlGLJ_pvwMmouNNzf-oWlOy7Lt4ZMzv-hPyGik/pub",
 		"publishedAt": "2020/8/13 19:00",
@@ -60,6 +87,8 @@
 		]
 	},
 	"ccp-media": {
+		"published": true,
+		"type": "article",
 		"id": "ccp-media",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRexGAuxiCRwWGNm7h4X9swgV-UBDz7VxEhW6h1bLFGiek4o2EU9gi7ariWHXPYsRV1Al_uAy3WLxGo/pub",
 		"publishedAt": "2020/8/6 18:00",
@@ -78,6 +107,8 @@
 		]
 	},
 	"chinese-spouses": {
+		"published": true,
+		"type": "article",
 		"id": "chinese-spouses",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS6VQUKtWYV6rNf8sST_wP5g-ZX9HqMjjVufIH2sIJ2DjMQSypdbyn7jnkn_Zc1FGKlo80KFxGTZR-V/pub",
 		"publishedAt": "2020/7/30 18:00",
@@ -96,6 +127,8 @@
 		]
 	},
 	"cec-disinfo": {
+		"published": true,
+		"type": "article",
 		"id": "cec-disinfo",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub",
 		"publishedAt": "2020/7/23 18:00",
@@ -112,6 +145,8 @@
 		]
 	},
 	"hk-disinfo-tang": {
+		"published": true,
+		"type": "article",
 		"id": "hk-disinfo-tang",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCcJnNJLgmWooNnYSWQhG7Q9JsYkJSdCWCzGuewaA7G_1Rox8LqEeO_HTFlVSVZwGpUnNGZzQ49F0m/pub",
 		"publishedAt": "2020/7/16 19:00",
@@ -130,6 +165,8 @@
 		]
 	},
 	"pro-china-line-messages": {
+		"published": true,
+		"type": "article",
 		"id": "pro-china-line-messages",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUGNA1v0cDGObYbHy5RF6kRm5t8UAMQI5GOXV-aztJTB5nuJ1XDJAUKLxFqqMzpVAVxe9ivAGOzHr_/pub",
 		"publishedAt": "2020/7/3 18:00",
@@ -151,6 +188,8 @@
 		]
 	},
 	"vystrcil": {
+		"published": true,
+		"type": "article",
 		"id": "vystrcil",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2CitMDKVH7JddipnkC-Vr40VF--6N3n6ha-OIjQ90pgH1VGbOpjpyhSgSG6OvsF1I2gYqsLM8xXil/pub",
 		"publishedAt": "2020/7/3 18:00",

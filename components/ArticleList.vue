@@ -10,7 +10,7 @@ en:
 <template>
 <div class="article-list">
   <div class="articles">
-    <nuxt-link v-for="article of articles" :key="article.id" :to="{ name: dir + '-id', params: { id: article.id } }" class="article block">
+    <nuxt-link v-for="article of articles" :key="article.id" :to="{ name: contentTypes[article.type].dir + '-id', params: { id: article.id } }" class="article block">
       <img v-if="article.coverImage" :src="article.coverImage" class="cover" />
       <div class="detail">
         <h3 v-html="optimizeTracking(article.title)"></h3>
@@ -26,24 +26,22 @@ en:
 
 <script>
 import { optimizeTracking } from '~/lib/typography'
+import allArticles from '~/data/articles.json'
 
 const contentTypes = {
-  articles: {
+  article: {
     dir: 'a'
   },
-  drafts: {
-    dir: 'd'
-  },
-  interviews: {
-    dir: 'i'
+  video: {
+    dir: 'v'
   }
 }
 
 export default {
   props: {
-    src: {
+    type: {
       type: String,
-      default: 'articles'
+      default: 'article'
     },
     showAll: {
       type: Boolean,
@@ -51,10 +49,21 @@ export default {
     }
   },
   data() {
-    const articles = require('~/data/' + this.src + '.json')
+    const keys = Object.keys(allArticles)
+    const articles = Object.assign({}, ...keys.filter(k => {
+      const a = allArticles[k]
+      let flag = true
+      if(this.type !== 'all') {
+        flag = flag && a.type === this.type
+      }
+      if(!this.showAll) {
+        flag = flag && a.published
+      }
+      return flag
+    }).map(k => ({ [k]: allArticles[k] })))
     return {
       articles,
-      dir: contentTypes[this.src].dir
+      contentTypes
     }
   },
   methods: {

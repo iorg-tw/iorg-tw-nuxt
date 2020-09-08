@@ -10,25 +10,29 @@ dotenv.config()
 const doc = new GoogleSpreadsheet(sheetID)
 doc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
 
-async function sheetToJSON(sheet, fileName) {
-	const rows = await sheet.getRows()
-	let articleDict = Object.assign({}, ...rows.filter(row => row.id && row.publicURL).map(row => ({
+let articleDict = {}
+
+async function sheetToJSON(sheet, type) {
+	let rows = await sheet.getRows()
+	let dict = Object.assign({}, ...rows.filter(row => row.id && row.publicURL && row.publishedAt).map(row => ({
 		[row.id]: {
+			published: row.published ? true : false,
+			type,
 			id: row.id,
 			publicURL: row.publicURL,
-			...(row.publishedAt ? { publishedAt: row.publishedAt } : {}),
+			publishedAt: row.publishedAt,
 			...(row.updatedAt ? { updatedAt: row.updatedAt } : {})
 		}
 	})))
 
-	for(let id in articleDict) {
-		let article = articleDict[id]
+	for(let id in dict) {
+		let article = dict[id]
 		let doc = await getDoc(article.publicURL)
 		delete doc.summaryHTML
 		delete doc.html
-		articleDict[id] = Object.assign(article, doc)
+		dict[id] = Object.assign(article, doc)
 	}
-	fs.writeFileSync(`data/${fileName}`, JSON.stringify(articleDict, null, '\t'))
+	Object.assign(articleDict, dict)
 }
 
 async function get() {
@@ -36,11 +40,18 @@ async function get() {
 	let sheet
 
 	sheet = doc.sheetsById['0']
-	await sheetToJSON(sheet, 'articles.json')
-	sheet = doc.sheetsById['1377224831']
-	await sheetToJSON(sheet, 'drafts.json')
+	await sheetToJSON(sheet, 'article')
 	sheet = doc.sheetsById['339912852']
-	await sheetToJSON(sheet, 'interviews.json')
+	await sheetToJSON(sheet, 'video')
+
+	let keys = Object.keys(articleDict)
+	console.log(keys)
+	keys.sort((p, q) => new Date(articleDict[q].publishedAt) - new Date(articleDict[p].publishedAt))
+	console.log(keys)
+
+	articleDict = Object.assign({}, ...keys.map(k => ({ [k]: articleDict[k] })))
+
+	fs.writeFileSync('data/articles.json', JSON.stringify(articleDict, null, '\t'))
 }
 
 get()
