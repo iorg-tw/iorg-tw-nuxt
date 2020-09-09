@@ -3,7 +3,7 @@ tw:
   description: "IORG 於 2019 年成立，由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，目的在於紀錄、研究、理解資訊操弄、加強資訊判讀，以應對認知戰。"
   intro: "針對資訊操弄、資訊戰的研究，必須跨領域、資料驅動而嚴謹，方能確實了解認知戰，並適當回應，以捍衛自由、強化台灣民主。"
   articles: "資訊操弄相關報導"
-  videos: "影片"
+  videos: "影音"
 en:
   description: "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG researches information manipulation and strengthens information literacy in response to cognitive warfare."
   intro: "A multidisciplinary, data-driven, rigorous understanding of information operation & manipulation is needed in order to devise appropriate responses to respond to cognitive warfare, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy."
