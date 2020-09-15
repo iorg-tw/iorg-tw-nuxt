@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       title: '公開活動 Public Events',
-      description: 'IORG 資訊操弄、資訊作戰相關公開活動資訊',
+      description: 'IORG 資訊判讀、資訊操弄、認知戰相關公開活動資訊',
       events
     }
   },
