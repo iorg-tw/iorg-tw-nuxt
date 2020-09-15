@@ -111,15 +111,6 @@ section {
     line-height: 1.375;
   }
   &.content-list {
-    .section-title {
-      margin-bottom: -3rem;
-      border-bottom: 2px solid var(--iorg-accent);
-      font-size: 1.25rem;
-      font-weight: bold;
-      color: var(--iorg-accent);
-      transform: skew(0, -16deg) translateY(0.5rem);
-      transform-origin: bottom left;
-    }
   }
 }
 .section-header {
