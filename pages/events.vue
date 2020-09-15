@@ -2,7 +2,7 @@
 tw:
   events: "公開活動"
 en:
-  events: "Public events"
+  events: "Public Events"
 </i18n>
 
 <template>
@@ -35,7 +35,7 @@ import events from '~/data/events.json'
 export default {
   data() {
     return {
-      title: '活動',
+      title: '公開活動 Public Events',
       description: 'IORG 資訊操弄、資訊作戰相關公開活動資訊',
       events
     }
