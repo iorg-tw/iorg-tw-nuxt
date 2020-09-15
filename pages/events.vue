@@ -13,7 +13,7 @@ en:
     </div>
   </div>
   <div class="event-list container">
-    <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event panel tiled compact filled">
+    <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event panel tiled compact filled small">
       <div class="detail">
         <div class="head">
           <label class="date">{{ event.displayDate }}</label>

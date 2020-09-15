@@ -171,6 +171,11 @@ span.punct-l-fbrac {
       &.compact {
         flex-basis: calc((100% - #{$m * 4}) / 2);
         @media (min-width: 480px) {
+          flex-basis: 16rem;
+        }
+      }
+      &.small {
+        @media (min-width: 480px) {
           flex-basis: 12rem;
         }
       }
