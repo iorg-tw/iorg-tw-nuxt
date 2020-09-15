@@ -139,3 +139,54 @@ span.punct-l-fbrac {
   transform: skew(0, -16deg) translateY(0.5rem);
   transform-origin: bottom left;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  $m: 0.75rem;
+  margin: 1rem - ($m / 2);
+  max-width: 60rem;
+  > .panel {
+    & {
+      display: block;
+      margin: $m;
+      max-width: 20rem;
+    }
+    &.text {
+      max-width: 40rem;
+    }
+    &.filled {
+      overflow: hidden;
+      border-radius: 0.25rem;
+      background-color: var(--iorg-paper);
+      color: var(--iorg-text);
+      @include shadow;
+    }
+    &.tiled {
+      & {
+        flex-basis: 100%;
+        @media (min-width: 480px) {
+          flex-basis: 16rem;
+        }
+      }
+      &.compact {
+        flex-basis: calc((100% - #{$m * 4}) / 2);
+        @media (min-width: 480px) {
+          flex-basis: 12rem;
+        }
+      }
+    }
+    > .cover {
+      display: block;
+      width: 100%;
+      > img {
+        width: 100%;
+      }
+    }
+    > .detail {
+      padding: $m;
+    }
+  }
+}
+.section-header + .container {
+  margin-top: 0;
+}

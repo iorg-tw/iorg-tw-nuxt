@@ -12,8 +12,8 @@ en:
       <p class="section-title">{{ $t('events') }}</p>
     </div>
   </div>
-  <div class="event-list">
-    <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event">
+  <div class="event-list container">
+    <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event panel tiled compact filled">
       <div class="detail">
         <div class="head">
           <label class="date">{{ event.displayDate }}</label>
@@ -62,26 +62,8 @@ export default {
 
 .page.events {
   > .event-list {
-    $m: 0.75rem;
-    margin: 1rem - ($m / 2);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-
     > .event {
-      display: block;
-      flex-basis: calc((100% - #{$m * 4}) / 2);
-      @media (min-width: 480px) {
-        flex-basis: 12rem;
-      }
-      margin: $m;
-      border-radius: 0.25rem;
-      overflow: hidden;
-      background-color: var(--iorg-paper);
-      color: var(--iorg-text);
-      @include shadow;
       > .detail {
-        padding: 0.75rem;
         > .head {
           display: flex;
           align-items: center;

@@ -38,5 +38,9 @@ footer {
   margin-top: 6rem;
   border-top: 0.25rem solid var(--iorg-text);
   padding-bottom: 2rem;
+  .intro {
+    font-size: 1.125rem;
+    line-height: 1.375;
+  }
 }
 </style>
