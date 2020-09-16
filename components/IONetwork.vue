@@ -44,7 +44,7 @@ const drag = simulation => {
 }
 
 const width = 800
-const height = 800
+const height = 600
 const scale = d3.scaleOrdinal(d3.schemeCategory10)
 const color = d => scale(d.category)
 
@@ -52,14 +52,45 @@ const nodeR = 4
 const labelOffsetX = 6
 const labelOffsetY = 3
 
+const CONST = {
+  link: {
+    minDist: 20,
+    maxDist: 80,
+    strokeWidth: 2
+  }
+}
+
+const highlyConnectedNodes = [
+  '海峽論壇',
+  '海峽青年節'
+]
+
+function nodeCharge(node, i) {
+  return -8
+}
+function linkDist(link, i) {
+  let dist = CONST.link.minDist
+  if(link.source && link.target && link.source.degree && link.target.degree) {
+    dist = Math.max(link.source.degree, link.target.degree) / 10 * 40
+  }
+  if(highlyConnectedNodes.includes(link.target.name)) {
+    dist = CONST.link.maxDist
+  }
+  return dist
+}
+
 function makeGraph(svg, vm) {
   svg
     .attr('viewBox', [0, 0, width, height])
     .on('click', vm.canvasClicked)
 
+  nodes.forEach(d => {
+    d.degree = 0
+  })
+
   const simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id))
-    .force('charge', d3.forceManyBody())
+    .force('link', d3.forceLink(links).id(d => d.id).distance(linkDist))
+    .force('charge', d3.forceManyBody().strength(nodeCharge))
     .force('center', d3.forceCenter(width / 2, height / 2))
 
   const link = svg.append('g')
@@ -68,7 +99,7 @@ function makeGraph(svg, vm) {
     .data(links)
     .join('line')
     .attr('class', 'link')
-    .attr('stroke-width', d => Math.sqrt(d.value))
+    .attr('stroke-width', d => CONST.link.strokeWidth)
     .on('click', vm.linkClicked)
 
   const linkLabel = svg.append('g')
@@ -112,6 +143,11 @@ function makeGraph(svg, vm) {
     node
       .attr('transform', d => `translate(${d.x}, ${d.y})`)
   })
+
+  links.forEach(d => {
+    d.source.degree += 1
+    d.target.degree += 1
+  })
 }
 
 export default {
@@ -149,7 +185,7 @@ export default {
 .io-network {
   position: relative;
   > .network {
-    font-size: 10px;
+    font-size: 6px;
     .nodes {
       > .node {
         cursor: pointer;
@@ -165,7 +201,7 @@ export default {
     .link-labels {
       text-anchor: middle;
       > .link-label {
-        fill: #888;
+        fill: #aaa;
         cursor: pointer;
       }
     }
