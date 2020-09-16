@@ -35,8 +35,7 @@ async function get() {
       return {
         source: d.fields.from ? d.fields.from[0] : null,
         target: d.fields.to ? d.fields.to[0] : null,
-        action: d.fields.action,
-        value: 4 // placeholder
+        action: d.fields.action
       }
     }).filter(d => d.source && d.target && d.action)
     fs.writeFileSync('data/ion/edges.json', JSON.stringify(edges, null, '\t'))
