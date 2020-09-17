@@ -142,6 +142,7 @@ span.punct-l-fbrac {
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   $m: 0.75rem;
   margin: 1rem - ($m / 2);
   max-width: 90rem;
