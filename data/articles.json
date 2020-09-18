@@ -1,20 +1,44 @@
 {
+	"straits-forum": {
+		"published": true,
+		"type": "article",
+		"id": "straits-forum",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRVN0xvS22nSx745XS-O6JUDOa4DxmcuKJDRsJyPwHsedL3v2sbmp5rJ7JATPYMcCAOxhfu_CqrSYl4/pub",
+		"publishedAt": "2020/9/18 18:30",
+		"title": "海峽論壇網絡分析：朱立倫、侯友宜參加過，慈濟、鎮瀾宮、旺中都是主辦單位",
+		"coverImage": "https://lh5.googleusercontent.com/dZx4C71cZi9UHtpC13HS-oPeUsmjbk0kiS8A4QrUOLRQjnf_sn-pH10D16ro1V2OOJd8SIHhF913eugpEdWrtj9sXwkKSiVSAd5GtteGoWFKfHsGHylOSJW7xPTo_TNeoA",
+		"authorInfo": [
+			"作者／王希、游知澔",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "由國台辦主辦的海峽論壇，因央視主播一句「求和之旅」引起軒然大波，今年其實已經邁向第 12 年。IO 研究室整理海峽論壇的參與名單與主辦單位，描繪網絡關係，可以看出中共撒下的大網。其中國民黨出席過的政治人物，包含朱立倫、侯友宜、胡志強、郝龍斌、洪秀柱、傅崐萁等大咖。其他政黨方面，台北市長柯文哲任內的副市長鄧家基也已經連續三年出席，新黨、親民黨更是幾乎從未缺席過。民進黨也曾有執政縣市的政府官員出席，在第 1 屆也曾有前民進黨主席許信良參加。經過國台辦 11 年的努力，海峽論壇已經成為台灣親中政治人物的固定盛會。同時值得注意的是，慈濟、由大甲鎮瀾宮發起創立的台灣媽祖聯誼會，從第 1 屆開始已經連續 11 年作為海峽論壇的主辦單位，甚至如旺旺中時、聯合報系、TVBS、東森電視等主流媒體也都是多年的主辦單位。台灣私立科技大學校院協進會不僅是主辦單位，也曾有多所私立大學校長親自出席相關活動。根據海峽論壇的官方宣稱，歷年來參與論壇的台灣人已經超過十萬人次，可見其影響力。連台灣媒體人黃智賢都在唱和中共「一國兩制是對台灣體貼」時，海峽論壇從來就不是單純交流，而是中共企圖從經濟、宗教、文化、校園、媒體等各方面滲透台灣的統戰武器。",
+		"tags": [
+			"海峽論壇",
+			"統戰",
+			"朱立倫",
+			"侯友宜",
+			"王金平",
+			"慈濟",
+			"鎮瀾宮"
+		]
+	},
 	"ccp-info-war": {
 		"published": true,
 		"type": "article",
 		"id": "ccp-info-war",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRDBAzWLPXSmNkxztdWSoJGFp1cYaNx0_FEgklpQPcSzvj6T2tpPgblY7l-TroboI_trbm0qE5XsxHP/pub",
 		"publishedAt": "2020/9/17 18:30",
-		"title": "中共「資訊戰」的內涵與演進",
+		"title": "中共網軍「戰略支援部隊」的前身：促使 Google 退出中國",
 		"coverImage": "https://lh4.googleusercontent.com/rvoZ08IgF1fvDwxWBQis_iyDXX4H238QHPDZrQ5k4KjnkqsEyE9FpR8873pllyRIDYMOU2QP7vGeTHQUciyaxzBz3aAtQrRapNIlFpe0mG1p4tB-DXUDv98hLg-86mKEfw",
 		"authorInfo": [
 			"作者／IORG 研究總部"
 		],
-		"summary": "中共的「資訊戰」內涵與發展，受到西方國家啟發、美國波灣戰爭刺激，逐漸精進技術和組織，最後在 2016 年因「戰略支援部隊」的成立而浮上檯面。現在，中共的「網軍」已超越我們過去所認知的「五毛黨」，是一支成為能夠深入台灣、有能力進行「制腦作戰」的專業軍隊。",
+		"summary": "中共的「資訊戰」，受到西方國家啟發、美國波灣戰爭刺激而逐漸進化，內涵包含了心理戰、輿論戰、法律戰等三戰的運用，如今年 6 月通過的港版國安法就是一個鮮明的法律戰實例。中共組織的網軍，曾在 2005 年針對美國不同目標產業進行網路攻擊，包括針對 Google 的極光行動、能源產業的夜龍行動、國防產業與智庫的驟雨行動和暗鼠行動，其中以極光行動效果最明顯，促使拒絕中國網路言論審查的 Google 直接退出中國。到了 2016 年，這些網軍重新整合成為「戰略支援部隊」，其能力已超越我們過去所認知的「五毛黨」，是一支成為能夠深入台灣、有能力進行「制腦作戰」的專業軍隊。",
 		"tags": [
 			"資訊戰",
+			"法律戰",
 			"輿論戰",
-			"三戰",
+			"認知戰",
 			"網軍",
 			"戰略支援部隊"
 		]
