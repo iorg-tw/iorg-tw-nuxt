@@ -167,6 +167,36 @@ export default {
         min-width: 20rem;
         max-width: 40rem;
       }
+      &.ul-set {
+        ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          > li {
+            margin: 0.25rem;
+            padding: 0.25rem 0.5rem;
+            background-color: #ccc;
+            border-radius: 1rem;
+
+            &.ccp {
+              background-color: #FF6464;
+            }
+            &.kmt {
+              background-color: #C0C0FF;
+            }
+            &.dpp {
+              background-color: #99FF99;
+            }
+            &.pfp {
+              background-color: #FFCF78;
+            }
+            &.np {
+              background-color: #FFFF64;
+            }
+          }
+        }
+      }
     }
     th {
       text-align: left;
