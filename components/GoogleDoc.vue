@@ -199,19 +199,43 @@ export default {
       }
     }
     th {
-      text-align: left;
-      font-weight: bold;
+      & {
+        text-align: left;
+        font-weight: bold;
+        vertical-align: bottom;
+      }
+      &.ul-set {
+        ul {
+          font-size: 0.75rem;
+          font-weight: normal;
+          > li {
+            padding: 0.125rem 0.375rem;
+          }
+        }
+      }
     }
-    tr:not(.no-border):not(:first-of-type) {
-      border-top: solid 1px var(--iorg-background);
+    tr {
+      & {
+        border-top: solid 1px var(--iorg-background);
+      }
+      &:first-of-type,
+      &.no-border {
+        border: none;
+      }
+      &:first-of-type + tr:not(.no-border) {
+        border-top: solid 2px var(--iorg-text);
+      }
     }
     p {
-      margin-bottom: 0.5rem;
-      padding-right: 0.25rem;
-      padding-left: 0.25rem;
-    }
-    p:last-child {
-      margin-bottom: 0;
+      & {
+        margin-bottom: 0.5rem;
+        padding-right: 0.25rem;
+        padding-left: 0.25rem;
+      }
+      &:last-child,
+      &:last-of-type {
+        margin-bottom: 0;
+      }
     }
   }
 }
