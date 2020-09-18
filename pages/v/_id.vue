@@ -21,7 +21,7 @@ export default {
   async asyncData({ params, error }) {
     const id = params.id
     const video = articles[id]
-    if(!(video && video.type === 'video' && video.published)) {
+    if(!(video && video.type === 'video')) {
       error({ statusCode: 404, message: 'Interview not found' })
       return
     }

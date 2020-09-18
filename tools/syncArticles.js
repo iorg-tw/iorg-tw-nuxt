@@ -14,7 +14,7 @@ let articleDict = {}
 
 async function sheetToJSON(sheet, type) {
 	let rows = await sheet.getRows()
-	let dict = Object.assign({}, ...rows.filter(row => row.id && row.publicURL && row.publishedAt).map(row => ({
+	let dict = Object.assign({}, ...rows.filter(row => row.id && row.publicURL).map(row => ({
 		[row.id]: {
 			published: row.published ? true : false,
 			type,
