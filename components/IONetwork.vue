@@ -44,7 +44,7 @@ const drag = simulation => {
 }
 
 const width = 800
-const height = 600
+const height = 800
 const cnst = {
   node: {
     minR: 3,
@@ -73,7 +73,12 @@ const customNodes = [
   {
     name: '中共中央',
     customX: width / 2,
-    customY: height / 6
+    customY: 50
+  },
+  {
+    name: '中華民國行政院',
+    customX: width / 2,
+    customY: height - 50
   }
 ]
 const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected === true).map(n => n.name)
@@ -105,7 +110,7 @@ const nodeCharge = (node, i) => {
 const linkDist = (link, i) => {
   let dist = cnst.link.minDist
   if(link.source && link.target && link.source.degree && link.target.degree) {
-    dist = Math.max(link.source.degree, link.target.degree) / 10 * cnst.link.minDist
+    dist = Math.max(Math.max(link.source.degree, link.target.degree) / 10 * cnst.link.minDist, cnst.link.minDist)
   }
   if(highlyConnectedNodes.includes(link.target.name)) {
     dist = cnst.link.maxDist
