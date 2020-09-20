@@ -25,10 +25,10 @@ async function get() {
       return {
         id: d.id,
         name: d.fields.short_name,
-        category: d.fields.category ? d.fields.category : 'default'
+        category: d.fields.category ? d.fields.category : 'default',
+        degree: 0
       }
     }).filter(d => d.id && d.name)
-    fs.writeFileSync('data/ion/nodes.json', JSON.stringify(nodes, null, '\t'))
 
     let edges = await getList('edges')
     edges = edges.map(d => {
@@ -38,6 +38,13 @@ async function get() {
         action: d.fields.action
       }
     }).filter(d => d.source && d.target && d.action)
+
+    for(const node of nodes) {
+      node.degree += edges.filter(edge => edge.source === node.id).length
+      node.degree += edges.filter(edge => edge.target === node.id).length
+    }
+
+    fs.writeFileSync('data/ion/nodes.json', JSON.stringify(nodes, null, '\t'))
     fs.writeFileSync('data/ion/edges.json', JSON.stringify(edges, null, '\t'))
   } catch(error) {
     console.error(error)
