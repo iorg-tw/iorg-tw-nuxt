@@ -45,36 +45,57 @@ const drag = simulation => {
 
 const width = 800
 const height = 600
-const scale = d3.scaleOrdinal(d3.schemeCategory10)
-const color = d => scale(d.category)
-
-const nodeR = 4
-const labelOffsetX = 6
-const labelOffsetY = 3
-
-const CONST = {
+const cnst = {
+  node: {
+    minR: 3
+  },
+  nodeLabel: {
+    fontSize: 5,
+    offsetX: 4,
+    offsetY: 2
+  },
   link: {
     minDist: 20,
-    maxDist: 80,
-    strokeWidth: 2
+    maxDist: 120,
+    strokeWidth: 1
   }
 }
-
 const highlyConnectedNodes = [
   '海峽論壇',
   '海峽青年節'
 ]
 
-function nodeCharge(node, i) {
-  return -8
+const nodeCategories = [...new Set(nodes.map(d => d.category))]
+nodeCategories.sort()
+const colorMap = new Map(nodeCategories.map(cat => {
+  let color = 'gray'
+  if(['中國', '中共'].some(s => cat.includes(s))) {
+    color = 'red'
+  } else if(cat.includes('台灣')) {
+    color = 'green'
+  } else if(cat.includes('美國')) {
+    color = 'blue'
+  } else if(cat === '論壇') {
+    color = 'orange'
+  }
+  return [cat, color]
+}))
+
+const scale = d3.scaleOrdinal().domain(colorMap.keys()).range(colorMap.values())
+const color = d => scale(d.category)
+const nodeR = (node, i) => {
+  return cnst.node.minR
 }
-function linkDist(link, i) {
-  let dist = CONST.link.minDist
+const nodeCharge = (node, i) => {
+  return -6
+}
+const linkDist = (link, i) => {
+  let dist = cnst.link.minDist
   if(link.source && link.target && link.source.degree && link.target.degree) {
     dist = Math.max(link.source.degree, link.target.degree) / 10 * 40
   }
   if(highlyConnectedNodes.includes(link.target.name)) {
-    dist = CONST.link.maxDist
+    dist = cnst.link.maxDist
   }
   return dist
 }
@@ -82,6 +103,7 @@ function linkDist(link, i) {
 function makeGraph(svg, vm) {
   svg
     .attr('viewBox', [0, 0, width, height])
+    .attr('font-size', cnst.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
   nodes.forEach(d => {
@@ -99,7 +121,7 @@ function makeGraph(svg, vm) {
     .data(links)
     .join('line')
     .attr('class', 'link')
-    .attr('stroke-width', d => CONST.link.strokeWidth)
+    .attr('stroke-width', d => cnst.link.strokeWidth)
     .on('click', vm.linkClicked)
 
   const linkLabel = svg.append('g')
@@ -127,8 +149,8 @@ function makeGraph(svg, vm) {
     .attr('fill', color)
 
   node.append('text')
-    .attr('x', labelOffsetX)
-    .attr('y', labelOffsetY)
+    .attr('x', cnst.nodeLabel.offsetX)
+    .attr('y', cnst.nodeLabel.offsetY)
     .text(d => d.name)
 
   simulation.on('tick', () => {
@@ -139,7 +161,7 @@ function makeGraph(svg, vm) {
       .attr('y2', d => d.target.y)
     linkLabel
       .attr('x', d => (d.source.x + d.target.x) / 2)
-      .attr('y', d => (d.source.y + d.target.y) / 2 + labelOffsetY)
+      .attr('y', d => (d.source.y + d.target.y) / 2 + cnst.nodeLabel.offsetY)
     node
       .attr('transform', d => `translate(${d.x}, ${d.y})`)
   })
@@ -185,7 +207,6 @@ export default {
 .io-network {
   position: relative;
   > .network {
-    font-size: 6px;
     .nodes {
       > .node {
         cursor: pointer;
