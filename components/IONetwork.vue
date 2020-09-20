@@ -3,8 +3,16 @@
   <div ref="network" class="network">
   </div>
   <div v-if="showDatum" class="datum-container">
-    <div class="controls">
-    </div>
+    <div class="controls"></div>
+    <template v-if="datumType === 'node'">
+      <div class="name">{{ datum.name }}</div>
+    </template>
+    <template v-if="datumType === 'link'">
+      <div class="source">{{ datum.source.name }}</div>
+      <div class="action">→ {{ datum.action }}</div>
+      <div class="target">{{ datum.target.name }}</div>
+    </template>
+    <div v-if="datum.notes" class="notes">{{ datum.notes }}</div>
     <div class="datum">{{ datum }}</div>
   </div>
 </div>
@@ -206,6 +214,7 @@ export default {
     return {
       id: 'uuid-' + uuidv4(),
       datum: null,
+      datumType: null,
       showDatum: false
     }
   },
@@ -217,22 +226,27 @@ export default {
     nodeClicked(event, d) {
       const datum = JSON.parse(JSON.stringify(d))
       this.$set(this, 'datum', datum)
+      this.datumType = 'node'
       this.showDatum = true
       event.stopPropagation()
     },
     linkClicked(event, d) {
       const datum = JSON.parse(JSON.stringify(d)) // d is nested with source & target nodes
       this.$set(this, 'datum', datum)
+      this.datumType = 'link'
       this.showDatum = true
       event.stopPropagation()
     },
     canvasClicked(event, d) {
+      this.datumType = null
       this.showDatum = false
     }
   }
 }
 </script>
 <style lang="scss">
+@import '~assets/styles/resources';
+
 .io-network {
   position: relative;
   > .network {
@@ -257,14 +271,32 @@ export default {
     }
   }
   > .datum-container {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 20rem;
-    height: 12rem;
+    min-height: 8rem;
     padding: 1rem;
     background-color: white;
+    @include shadow;
+    > .source,
+    > .target {
+      font-size: 0.875rem;
+    }
+    > .name,
+    > .action {
+      font-size: 1.25rem;
+    }
+    > .notes {
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+    }
+    > .datum {
+      margin-top: 0.75rem;
+      font-size: 0.625rem;
+      font-family: "SF Mono", "Monaco", monospace;
+    }
   }
 }
 </style>

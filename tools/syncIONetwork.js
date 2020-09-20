@@ -26,6 +26,7 @@ async function get() {
         id: d.id,
         name: d.fields.short_name,
         category: d.fields.category ? d.fields.category : 'default',
+        notes: d.fields.notes ? d.fields.notes.trim() : null,
         degree: 0
       }
     }).filter(d => d.id && d.name)
@@ -35,7 +36,8 @@ async function get() {
       return {
         source: d.fields.from ? d.fields.from[0] : null,
         target: d.fields.to ? d.fields.to[0] : null,
-        action: d.fields.action
+        action: d.fields.action,
+        notes: d.fields.notes ? d.fields.notes.trim() : null,
       }
     }).filter(d => d.source && d.target && d.action)
 
