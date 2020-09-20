@@ -5,6 +5,7 @@
   <div v-if="showDatum" class="datum-container">
     <div class="controls"></div>
     <template v-if="datumType === 'node'">
+      <div class="category">{{ datum.category }}</div>
       <div class="name">{{ datum.name }}</div>
     </template>
     <template v-if="datumType === 'link'">
@@ -338,6 +339,8 @@ export default {
     padding: 1rem;
     background-color: white;
     @include shadow;
+
+    > .category,
     > .source,
     > .target {
       font-size: 0.875rem;
