@@ -53,10 +53,10 @@ const drag = simulation => {
 
 const width = 800
 const height = 800
-const cnst = {
+const param = {
   node: {
     minR: 3,
-    charge: -6
+    charge: -5
   },
   nodeLabel: {
     fontSize: 5,
@@ -69,6 +69,61 @@ const cnst = {
     strokeWidth: 1
   }
 }
+const layout = {
+  margin: 25,
+  stepX: 50,
+  stepY: 25
+}
+const posT = (offset = 0) => {
+  return layout.margin + offset * layout.stepY
+}
+const posB = (offset = 0) => {
+  return height - layout.margin - offset * layout.stepY
+}
+// const posM
+const posL = (offset = 0) => {
+  return layout.margin + offset * layout.stepX
+}
+// const posR
+const posC = (offset = 0) => {
+  return width / 2 + offset * layout.stepX
+}
+const layoutGroups = [
+  {
+    x: posL(0),
+    y: posT(0),
+    array: [
+      ['中共統戰部', '中共中央', '習近平', '中共中央對台工作領導小組'],
+      ['福建省委', '上海市委', '中共中央宣傳部', '中國國務院'],
+      ['福建省委宣傳部', '莆田市委', '中央廣電總台', '中國外交部'],
+      [null, '莆田市委宣傳部', '央視', '中國駐大阪總領事館'],
+      ['海峽出版發行集團'],
+      ['福建電子音像出版社']
+    ]
+  },
+  {
+    x: posL(0),
+    y: posB(2),
+    array: [
+      ['台北市'],
+      ['中華民國行政院']
+    ]
+  },
+  {
+    x: posL(0),
+    y: posB(0),
+    array: [
+      ['民主進步黨', '中國國民黨', '親民黨', '新黨']
+    ]
+  },
+  {
+    x: posC(0),
+    y: posB(0),
+    array: [
+      ['台灣網路群體', '泛藍支持者群體', '軍公教群體']
+    ]
+  }
+]
 const customNodes = [
   {
     name: '海峽論壇',
@@ -77,18 +132,27 @@ const customNodes = [
   {
     name: '海峽青年節',
     highlyConnected: true
-  },
-  {
-    name: '中共中央',
-    customX: width / 2,
-    customY: 25
-  },
-  {
-    name: '中華民國行政院',
-    customX: width / 2,
-    customY: height - 25
   }
 ]
+layoutGroups.forEach(group => {
+  let x = group.x
+  let y = group.y
+  for(const row of group.array) {
+    for(const nodeName of row) {
+      if(nodeName) {
+        customNodes.push({
+          name: nodeName,
+          x,
+          y
+        })
+      }
+      x += layout.stepX
+    }
+    y += layout.stepY
+    x = group.x
+  }
+})
+
 const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected === true).map(n => n.name)
 
 const colorMap = new Map([
@@ -102,18 +166,18 @@ const colorMap = new Map([
 const scale = d3.scaleOrdinal().domain(colorMap.keys()).range(colorMap.values())
 const color = d => scale(d.group)
 const nodeR = (node, i) => {
-  return cnst.node.minR
+  return param.node.minR
 }
 const nodeCharge = (node, i) => {
-  return cnst.node.charge
+  return param.node.charge
 }
 const linkDist = (link, i) => {
-  let dist = cnst.link.minDist
+  let dist = param.link.minDist
   if(link.source && link.target && link.source.degree && link.target.degree) {
-    dist = Math.max(Math.max(link.source.degree, link.target.degree) / 10 * cnst.link.minDist, cnst.link.minDist)
+    dist = Math.max(Math.max(link.source.degree, link.target.degree) / 10 * param.link.minDist, param.link.minDist)
   }
   if(highlyConnectedNodes.includes(link.target.name)) {
-    dist = cnst.link.maxDist
+    dist = param.link.maxDist
   }
   return dist
 }
@@ -123,16 +187,18 @@ const linkLabelAlongLink = false
 function makeGraph(svg, vm) {
   svg
     .attr('viewBox', [0, 0, width, height])
-    .attr('font-size', cnst.nodeLabel.fontSize)
+    .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
   customNodes.forEach(customNode => {
     const node = nodes.find(d => d.name === customNode.name)
-    if(customNode.customX && customNode.customY) {
-      node.customX = customNode.customX
-      node.customY = customNode.customY
-      node.fx = node.customX
-      node.fy = node.customY
+    if(node) {
+      if(customNode.x && customNode.y) {
+        node.customX = customNode.x
+        node.customY = customNode.y
+        node.fx = node.customX
+        node.fy = node.customY
+      }
     }
   })
 
@@ -147,7 +213,7 @@ function makeGraph(svg, vm) {
     .data(links)
     .join('line')
     .attr('class', 'link')
-    .attr('stroke-width', d => cnst.link.strokeWidth)
+    .attr('stroke-width', d => param.link.strokeWidth)
     .on('click', vm.linkClicked)
 
   const linkLabel = svg.append('g')
@@ -175,8 +241,8 @@ function makeGraph(svg, vm) {
     .attr('fill', color)
 
   node.append('text')
-    .attr('x', cnst.nodeLabel.offsetX)
-    .attr('y', cnst.nodeLabel.offsetY)
+    .attr('x', param.nodeLabel.offsetX)
+    .attr('y', param.nodeLabel.offsetY)
     .text(d => d.name)
 
   simulation.on('tick', () => {
@@ -187,7 +253,7 @@ function makeGraph(svg, vm) {
       .attr('y2', d => d.target.y)
     linkLabel
       .attr('x', d => (d.source.x + d.target.x) / 2)
-      .attr('y', d => (d.source.y + d.target.y) / 2 + cnst.nodeLabel.offsetY)
+      .attr('y', d => (d.source.y + d.target.y) / 2 + param.nodeLabel.offsetY)
     if(linkLabelAlongLink) {
       linkLabel.attr('transform', d => {
         const a = Math.atan2(d.target.y - d.source.y, d.target.x - d.source.x) * 180 / Math.PI
