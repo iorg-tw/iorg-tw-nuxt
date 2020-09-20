@@ -113,6 +113,8 @@ const linkDist = (link, i) => {
   return dist
 }
 
+const linkLabelAlongLink = false
+
 function makeGraph(svg, vm) {
   svg
     .attr('viewBox', [0, 0, width, height])
@@ -181,6 +183,14 @@ function makeGraph(svg, vm) {
     linkLabel
       .attr('x', d => (d.source.x + d.target.x) / 2)
       .attr('y', d => (d.source.y + d.target.y) / 2 + cnst.nodeLabel.offsetY)
+    if(linkLabelAlongLink) {
+      linkLabel.attr('transform', d => {
+        const a = Math.atan2(d.target.y - d.source.y, d.target.x - d.source.x) * 180 / Math.PI
+        const x0 = (d.source.x + d.target.x) / 2
+        const y0 = (d.source.y + d.target.y) / 2
+        return `rotate(${a}, ${x0}, ${y0})`
+      })
+    }
     node
       .attr('transform', d => `translate(${d.x}, ${d.y})`)
   })
