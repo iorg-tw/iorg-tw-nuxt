@@ -81,34 +81,26 @@ const customNodes = [
   {
     name: '中共中央',
     customX: width / 2,
-    customY: 50
+    customY: 25
   },
   {
     name: '中華民國行政院',
     customX: width / 2,
-    customY: height - 50
+    customY: height - 25
   }
 ]
 const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected === true).map(n => n.name)
 
-const nodeCategories = [...new Set(nodes.map(d => d.category))]
-nodeCategories.sort()
-const colorMap = new Map(nodeCategories.map(cat => {
-  let color = 'gray'
-  if(['中國', '中共'].some(s => cat.includes(s))) {
-    color = 'red'
-  } else if(cat.includes('台灣')) {
-    color = 'green'
-  } else if(cat.includes('美國')) {
-    color = 'blue'
-  } else if(cat === '論壇') {
-    color = 'orange'
-  }
-  return [cat, color]
-}))
+const colorMap = new Map([
+  ['none', 'gray'],
+  ['中國', 'red'],
+  ['台灣', 'green'],
+  ['美國', 'blue'],
+  ['論壇', 'orange']
+])
 
 const scale = d3.scaleOrdinal().domain(colorMap.keys()).range(colorMap.values())
-const color = d => scale(d.category)
+const color = d => scale(d.group)
 const nodeR = (node, i) => {
   return cnst.node.minR
 }

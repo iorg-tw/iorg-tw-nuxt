@@ -21,25 +21,37 @@ async function getList(listName) {
 async function get() {
   try {
     let nodes = await getList('nodes')
-    nodes = nodes.map(d => {
+    nodes = nodes.filter(d => d.id && d.fields && d.fields.short_name).map(d => {
+      const category = d.fields.category ? d.fields.category : 'default'
+      let group = 'none'
+      if(['中國', '中共'].some(s => category.includes(s))) {
+        group = '中國'
+      } else if(category.includes('台灣')) {
+        group = '台灣'
+      } else if(category.includes('美國')) {
+        group = '美國'
+      } else if(category === '論壇') {
+        group = '論壇'
+      }
       return {
         id: d.id,
         name: d.fields.short_name,
-        category: d.fields.category ? d.fields.category : 'default',
+        category,
+        group,
         notes: d.fields.notes ? d.fields.notes.trim() : null,
         degree: 0
       }
-    }).filter(d => d.id && d.name)
+    })
 
     let edges = await getList('edges')
-    edges = edges.map(d => {
+    edges = edges.filter(d => d.fields && Array.isArray(d.fields.from) && d.fields.from.length > 0 && Array.isArray(d.fields.to) && d.fields.to.length > 0 && d.fields.action).map(d => {
       return {
         source: d.fields.from ? d.fields.from[0] : null,
         target: d.fields.to ? d.fields.to[0] : null,
         action: d.fields.action,
         notes: d.fields.notes ? d.fields.notes.trim() : null,
       }
-    }).filter(d => d.source && d.target && d.action)
+    })
 
     for(const node of nodes) {
       node.degree += edges.filter(edge => edge.source === node.id).length
