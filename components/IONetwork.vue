@@ -34,8 +34,8 @@ const drag = simulation => {
     if(!event.active) {
       simulation.alphaTarget(0)
     }
-    event.subject.fx = null
-    event.subject.fy = null
+    event.subject.fx = event.subject.customX ? event.subject.customX : null
+    event.subject.fy = event.subject.customY ? event.subject.customY : null
   }
   return d3.drag()
     .on('start', dragstarted)
@@ -47,7 +47,8 @@ const width = 800
 const height = 600
 const cnst = {
   node: {
-    minR: 3
+    minR: 3,
+    charge: -6
   },
   nodeLabel: {
     fontSize: 5,
@@ -55,15 +56,27 @@ const cnst = {
     offsetY: 2
   },
   link: {
-    minDist: 20,
-    maxDist: 120,
+    minDist: 24,
+    maxDist: 96,
     strokeWidth: 1
   }
 }
-const highlyConnectedNodes = [
-  '海峽論壇',
-  '海峽青年節'
+const customNodes = [
+  {
+    name: '海峽論壇',
+    highlyConnected: true
+  },
+  {
+    name: '海峽青年節',
+    highlyConnected: true
+  },
+  {
+    name: '中共中央',
+    customX: width / 2,
+    customY: height / 6
+  }
 ]
+const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected === true).map(n => n.name)
 
 const nodeCategories = [...new Set(nodes.map(d => d.category))]
 nodeCategories.sort()
@@ -87,12 +100,12 @@ const nodeR = (node, i) => {
   return cnst.node.minR
 }
 const nodeCharge = (node, i) => {
-  return -6
+  return cnst.node.charge
 }
 const linkDist = (link, i) => {
   let dist = cnst.link.minDist
   if(link.source && link.target && link.source.degree && link.target.degree) {
-    dist = Math.max(link.source.degree, link.target.degree) / 10 * 40
+    dist = Math.max(link.source.degree, link.target.degree) / 10 * cnst.link.minDist
   }
   if(highlyConnectedNodes.includes(link.target.name)) {
     dist = cnst.link.maxDist
@@ -106,8 +119,14 @@ function makeGraph(svg, vm) {
     .attr('font-size', cnst.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
-  nodes.forEach(d => {
-    d.degree = 0
+  customNodes.forEach(customNode => {
+    const node = nodes.find(d => d.name === customNode.name)
+    if(customNode.customX && customNode.customY) {
+      node.customX = customNode.customX
+      node.customY = customNode.customY
+      node.fx = node.customX
+      node.fy = node.customY
+    }
   })
 
   const simulation = d3.forceSimulation(nodes)
@@ -164,11 +183,6 @@ function makeGraph(svg, vm) {
       .attr('y', d => (d.source.y + d.target.y) / 2 + cnst.nodeLabel.offsetY)
     node
       .attr('transform', d => `translate(${d.x}, ${d.y})`)
-  })
-
-  links.forEach(d => {
-    d.source.degree += 1
-    d.target.degree += 1
   })
 }
 
