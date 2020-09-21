@@ -72,8 +72,8 @@ const param = {
 }
 const layout = {
   margin: 20,
-  stepX: 40,
-  stepY: 40
+  stepX: 32,
+  stepY: 16
 }
 const layoutGroups = [
   {
@@ -147,7 +147,8 @@ const layoutGroups = [
     array: [
       ['福建省人民政府'],
       ['福建省教育廳', '福州市人民政府'],
-      ['福州市教育局', '福州市人社局']
+      ['福州市教育局', '福州市人社局'],
+      ['晉安區人民政府', '長樂區人民政府']
     ]
   },
   {
