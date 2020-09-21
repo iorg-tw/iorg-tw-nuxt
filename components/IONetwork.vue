@@ -52,55 +52,111 @@ const drag = simulation => {
     .on('end', dragended)
 }
 
-const width = 800
-const height = 800
+const width = 840
+const height = 840
 const param = {
   node: {
-    minR: 3,
-    charge: -5
+    minR: 2,
+    charge: -8
   },
   nodeLabel: {
-    fontSize: 5,
+    fontSize: 6,
     offsetX: 4,
     offsetY: 2
   },
   link: {
-    minDist: 24,
-    maxDist: 96,
+    minDist: 20,
+    maxDist: 80,
     strokeWidth: 1
   }
 }
 const layout = {
-  margin: 25,
-  stepX: 50,
-  stepY: 25
+  margin: 20,
+  stepX: 40,
+  stepY: 40
 }
 const layoutGroups = [
   {
     top: 0,
     left: 0,
     array: [
-      ['中共統戰部', '中共中央', '習近平', '中共中央對台工作領導小組'],
-      ['福建省委', '上海市委', '中共中央宣傳部', '中國國務院'],
-      ['福建省委宣傳部', '莆田市委', '中央廣電總台', '中國外交部'],
-      [null, '莆田市委宣傳部', '央視', '中國駐大阪總領事館'],
+      ['中共中央', '習近平', '中共中央對台工作領導小組'],
+      ['中共統戰部', '中共中央宣傳部'],
+      ['中新社']
+    ]
+  },
+  {
+    top: 2,
+    left: 1,
+    array: [
+      ['中央廣電總台'],
+      ['央視']
+    ]
+  },
+  {
+    top: 2,
+    left: 2,
+    array: [
+      ['中國國務院'],
+      ['中國外交部', '新華社', '國台辦'],
+      ['中國駐大阪總領事館']
+    ]
+  },
+  {
+    top: 2,
+    left: 5,
+    array: [
+      ['上海市委']
+    ]
+  },
+  {
+    top: 0,
+    left: 8,
+    array: [
+      ['全國政協']
+    ]
+  },
+  {
+    top: 0,
+    left: 12,
+    array: [
+      ['解放軍']
+    ]
+  },
+  {
+    top: 8,
+    left: 1,
+    array: [
+      ['福建省委', '中新社福建分社'],
+      ['福建省委宣傳部', '莆田市委'],
+      [null, '莆田市委宣傳部'],
       ['海峽出版發行集團'],
       ['福建電子音像出版社']
     ]
   },
   {
-    bottom: 0,
-    left: 0,
+    top: 8,
+    left: 4,
     array: [
-      ['新北市', '台中市'],
-      ['中華民國行政院', '台北市']
+      ['福建省人民政府'],
+      ['福建省教育廳', '福州市人民政府'],
+      ['福州市教育局', '福州市人社局']
+    ]
+  },
+  {
+    top: 0,
+    right: 0,
+    array: [
+      ['美國 CDC']
     ]
   },
   {
     bottom: 0,
     center: 0,
     array: [
-      ['民主進步黨', '中國國民黨', '親民黨', '新黨']
+      ['民主進步黨', '中國國民黨', '親民黨', '新黨'],
+      ['台北市', '新北市', '高雄市', '台中市'],
+      ['農委會', '中華民國行政院']
     ]
   },
   {
@@ -129,25 +185,35 @@ layoutGroups.forEach(group => {
 
   let px = 0
   let qx = 1
-  if(group.right !== undefined) {
+  let rx = 0
+  if(group.left !== undefined) {
+    rx = group.left
+  } else if(group.right !== undefined) {
     px = width
     qx = -1
+    rx = group.right
   } else if(group.center !== undefined) {
     px = (width - (Math.max(...group.array.map(row => row.length)) - 1) * layout.stepX) / 2
     qx = 1
+    rx = group.center
   }
-  const x0 = px + qx * layout.margin
+  const x0 = px + qx * layout.margin + qx * rx * layout.stepX
 
   let py = 0
   let qy = 1
-  if(group.bottom !== undefined) {
+  let ry = 0
+  if(group.top !== undefined) {
+    ry = group.top
+  } else if(group.bottom !== undefined) {
     py = height
     qy = -1
+    ry = group.bottom
   } else if(group.middle !== undefined) {
     py = (height - (group.array.length - 1) * layout.stepY) / 2
     qy = 1
+    ry = group.middle
   }
-  const y0 = py + qy * layout.margin
+  const y0 = py + qy * layout.margin + qy * ry * layout.stepY
 
   let x = x0
   let y = y0
