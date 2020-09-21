@@ -75,24 +75,10 @@ const layout = {
   stepX: 50,
   stepY: 25
 }
-const posT = (offset = 0) => {
-  return layout.margin + offset * layout.stepY
-}
-const posB = (offset = 0) => {
-  return height - layout.margin - offset * layout.stepY
-}
-// const posM
-const posL = (offset = 0) => {
-  return layout.margin + offset * layout.stepX
-}
-// const posR
-const posC = (offset = 0) => {
-  return width / 2 + offset * layout.stepX
-}
 const layoutGroups = [
   {
-    x: posL(0),
-    y: posT(0),
+    top: 0,
+    left: 0,
     array: [
       ['中共統戰部', '中共中央', '習近平', '中共中央對台工作領導小組'],
       ['福建省委', '上海市委', '中共中央宣傳部', '中國國務院'],
@@ -103,24 +89,25 @@ const layoutGroups = [
     ]
   },
   {
-    x: posL(0),
-    y: posB(2),
+    bottom: 0,
+    left: 0,
     array: [
-      ['台北市'],
-      ['中華民國行政院']
+      ['新北市', '台中市'],
+      ['中華民國行政院', '台北市']
     ]
   },
   {
-    x: posL(0),
-    y: posB(0),
+    bottom: 0,
+    center: 0,
     array: [
       ['民主進步黨', '中國國民黨', '親民黨', '新黨']
     ]
   },
   {
-    x: posC(0),
-    y: posB(0),
+    bottom: 0,
+    right: 0,
     array: [
+      ['PTT'],
       ['台灣網路群體', '泛藍支持者群體', '軍公教群體']
     ]
   }
@@ -136,8 +123,34 @@ const customNodes = [
   }
 ]
 layoutGroups.forEach(group => {
-  let x = group.x
-  let y = group.y
+  if(group.bottom !== undefined) {
+    group.array.reverse()
+  }
+
+  let px = 0
+  let qx = 1
+  if(group.right !== undefined) {
+    px = width
+    qx = -1
+  } else if(group.center !== undefined) {
+    px = (width - (Math.max(...group.array.map(row => row.length)) - 1) * layout.stepX) / 2
+    qx = 1
+  }
+  const x0 = px + qx * layout.margin
+
+  let py = 0
+  let qy = 1
+  if(group.bottom !== undefined) {
+    py = height
+    qy = -1
+  } else if(group.middle !== undefined) {
+    py = (height - (group.array.length - 1) * layout.stepY) / 2
+    qy = 1
+  }
+  const y0 = py + qy * layout.margin
+
+  let x = x0
+  let y = y0
   for(const row of group.array) {
     for(const nodeName of row) {
       if(nodeName) {
@@ -147,10 +160,10 @@ layoutGroups.forEach(group => {
           y
         })
       }
-      x += layout.stepX
+      x += qx * layout.stepX
     }
-    y += layout.stepY
-    x = group.x
+    y += qy * layout.stepY
+    x = x0
   }
 })
 
