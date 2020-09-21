@@ -16,9 +16,9 @@ async function get() {
   const rows = await sheet.getRows()
   const events = rows.filter(row => row.area && row.name && row.date).map(row => ({
     show: row.show ? true : false,
-    area: row.area,
-    name: row.name,
-    loc: row.loc ? row.loc : null,
+    area: row.area.trim(),
+    name: row.name.trim(),
+    loc: row.loc ? row.loc.trim() : null,
     year: +row.year,
     date: row.date,
     dow: row.dow,

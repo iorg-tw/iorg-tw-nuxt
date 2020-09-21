@@ -21,7 +21,7 @@
 	},
 	{
 		"show": true,
-		"area": "雙北",
+		"area": "新北",
 		"name": "新北三重高中",
 		"loc": null,
 		"year": 2020,
@@ -226,7 +226,8 @@
 		"loc": null,
 		"year": 2020,
 		"date": "9/25",
-		"dow": "五"
+		"dow": "五",
+		"time": "13:30-16:30"
 	},
 	{
 		"show": true,
@@ -245,7 +246,8 @@
 		"loc": null,
 		"year": 2020,
 		"date": "9/26",
-		"dow": "六"
+		"dow": "六",
+		"time": "14:20-16:15"
 	},
 	{
 		"show": true,
@@ -266,6 +268,16 @@
 		"date": "10/6",
 		"dow": "二",
 		"time": "19:00-21:00"
+	},
+	{
+		"show": true,
+		"area": "新北",
+		"name": "彭福國小",
+		"loc": null,
+		"year": 2020,
+		"date": "10/7",
+		"dow": "三",
+		"time": "13:30-15:30"
 	},
 	{
 		"show": true,
@@ -299,6 +311,16 @@
 	},
 	{
 		"show": true,
+		"area": "宜蘭",
+		"name": "華德福高中",
+		"loc": null,
+		"year": 2020,
+		"date": "11/1",
+		"dow": "日",
+		"time": "10:00-12:00"
+	},
+	{
+		"show": true,
 		"area": "台東",
 		"name": "晃晃二手書店",
 		"loc": null,
@@ -306,6 +328,16 @@
 		"date": "11/7",
 		"dow": "六",
 		"time": "15:00"
+	},
+	{
+		"show": true,
+		"area": "台南",
+		"name": "台南大學行管系",
+		"loc": null,
+		"year": 2020,
+		"date": "11/11",
+		"dow": "三",
+		"time": "10:00-12:00"
 	},
 	{
 		"show": true,
@@ -324,6 +356,37 @@
 		"loc": null,
 		"year": 2020,
 		"date": "11/20",
-		"dow": "五"
+		"dow": "五",
+		"time": "14:20-16:15"
+	},
+	{
+		"show": true,
+		"area": "台南",
+		"name": "和順國小",
+		"loc": null,
+		"year": 2020,
+		"date": "11/25",
+		"dow": "三",
+		"time": "14:00-16:00"
+	},
+	{
+		"show": true,
+		"area": "花蓮",
+		"name": "花崗國中",
+		"loc": null,
+		"year": 2020,
+		"date": "11/29",
+		"dow": "日",
+		"time": "9:00-12:00"
+	},
+	{
+		"show": true,
+		"area": "高雄",
+		"name": "龍華國小",
+		"loc": null,
+		"year": 2020,
+		"date": "12/16",
+		"dow": "三",
+		"time": "13:30-15:30"
 	}
 ]
