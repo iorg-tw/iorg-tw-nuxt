@@ -86,6 +86,13 @@ const layoutGroups = [
     ]
   },
   {
+    top: 0,
+    left: 4,
+    array: [
+      ['中央軍委']
+    ]
+  },
+  {
     top: 2,
     left: 1,
     array: [
@@ -110,8 +117,8 @@ const layoutGroups = [
     ]
   },
   {
-    top: 0,
-    left: 8,
+    top: 1,
+    left: 6,
     array: [
       ['全國政協']
     ]
@@ -144,8 +151,8 @@ const layoutGroups = [
     ]
   },
   {
-    top: 0,
-    right: 0,
+    top: 2,
+    right: 2,
     array: [
       ['美國 CDC']
     ]
@@ -264,6 +271,27 @@ const linkDist = (link, i) => {
 
 const linkLabelAlongLink = false
 
+const forceOffset = 280
+const forceStrength = 1
+const customForces = [
+  {
+    name: 'china',
+    x: forceOffset,
+    y: forceOffset,
+    strength: forceStrength,
+    nodeFilter: d => d.group === '中國',
+    color: scale('中國')
+  },
+  {
+    name: 'taiwan',
+    x: width - forceOffset,
+    y: height - forceOffset,
+    strength: forceStrength,
+    nodeFilter: d => d.group === '台灣',
+    color: scale('台灣')
+  }
+]
+
 function makeGraph(svg, vm) {
   svg
     .attr('viewBox', [0, 0, width, height])
@@ -282,10 +310,27 @@ function makeGraph(svg, vm) {
     }
   })
 
-  const simulation = d3.forceSimulation(nodes)
+  let simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(linkDist))
     .force('charge', d3.forceManyBody().strength(nodeCharge))
-    .force('center', d3.forceCenter(width / 2, height / 2))
+
+  customForces.forEach(customForce => {
+    const force = d3.forceCenter(customForce.x, customForce.y).strength(customForce.strength)
+    const init = force.initialize
+    force.initialize = nodes => {
+      init(nodes.filter(customForce.nodeFilter))
+    }
+    simulation = simulation.force(`force-${customForce.name}`, force)
+    const g = svg.append('g').attr('class', 'force')
+    g.append('circle')
+      .attr('cx', customForce.x)
+      .attr('cy', customForce.y)
+      .attr('r', 4)
+      .attr('fill', 'none')
+      .attr('stroke', customForce.color)
+      .attr('stroke-width', 2)
+      .attr('stroke-opacity', 0.35)
+  })
 
   const link = svg.append('g')
     .attr('class', 'links')
@@ -391,10 +436,13 @@ export default {
     .nodes {
       > .node {
         cursor: pointer;
+        > text {
+          fill: #222;
+        }
       }
     }
     .links {
-      stroke: #888;
+      stroke: #aaa;
       stroke-opacity: 0.65;
       > .link {
         cursor: pointer;
