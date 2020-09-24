@@ -1,4 +1,25 @@
 {
+	"senior-info-lit": {
+		"published": true,
+		"type": "article",
+		"id": "senior-info-lit",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQG_bkIrdkO9Nw_Zr-J-PVftzOHg50UDx3gEsB2YY6P3ojwvvhKpdA3-2YWXfm-TMPOBb9VR8DAjRRa/pub",
+		"publishedAt": "2020/9/24 20:00",
+		"title": "怎麼和老大人談資訊操弄？銀髮族溝通 3 訣竅與你分享",
+		"coverImage": "https://lh5.googleusercontent.com/G9CJDE7NSmsqGRYRBzh3nHzsAcbfCTRu57IJJ0osXF72OJnvHWPNe6bBnXPMXSL5hintUktKEPW2EeW2pyoSpQezASglNayhwBqj0QjTyuxlwl47MBaf8OMaxpW-MEi5bA",
+		"authorInfo": [
+			"作者／嚴婉玲",
+			"編輯／游知澔、IORG 研究總部"
+		],
+		"summary": "從是否識字、是否使用網路，到對政府、政治的認知，老大人們都與網路原生世代有著巨大差異。在防治資訊操弄、加強資訊判讀上，理解銀髮族群的認知模式、面對面的溝通，特別重要。以下是我的一些經驗分享，如果你有更好的解方，歡迎一起討論！",
+		"tags": [
+			"資訊操弄防治",
+			"資訊判讀",
+			"銀髮族",
+			"數位落差",
+			"面對面溝通"
+		]
+	},
 	"straits-forum": {
 		"published": true,
 		"type": "article",
