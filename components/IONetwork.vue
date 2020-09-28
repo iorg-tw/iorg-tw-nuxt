@@ -52,12 +52,12 @@ const drag = simulation => {
     .on('end', dragended)
 }
 
-const width = 840
-const height = 840
+const width = 1000
+const height = 1000
 const param = {
   node: {
     minR: 2,
-    charge: -8
+    charge: -10
   },
   nodeLabel: {
     fontSize: 6,
@@ -71,7 +71,7 @@ const param = {
   }
 }
 const layout = {
-  margin: 20,
+  margin: 100,
   stepX: 32,
   stepY: 16
 }
@@ -164,7 +164,9 @@ const layoutGroups = [
     array: [
       ['民主進步黨', '中國國民黨', '親民黨', '新黨'],
       ['台北市', '新北市', '高雄市', '台中市'],
-      ['農委會', '中華民國行政院']
+      ['農委會', '中選會'],
+      ['行政院', '監察院'],
+      ['政府中樞']
     ]
   },
   {
@@ -272,7 +274,7 @@ const linkDist = (link, i) => {
 
 const linkLabelAlongLink = false
 
-const forceOffset = 280
+const forceOffset = 400
 const forceStrength = 1
 const customForces = [
   {
