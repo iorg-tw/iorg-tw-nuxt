@@ -57,7 +57,7 @@ const height = 1000
 const param = {
   node: {
     minR: 2,
-    charge: -10
+    charge: -20
   },
   nodeLabel: {
     fontSize: 6,
@@ -66,7 +66,7 @@ const param = {
   },
   link: {
     minDist: 20,
-    maxDist: 80,
+    maxDist: 120,
     strokeWidth: 1
   }
 }
@@ -152,13 +152,6 @@ const layoutGroups = [
     ]
   },
   {
-    top: 2,
-    right: 2,
-    array: [
-      ['美國 CDC']
-    ]
-  },
-  {
     bottom: 0,
     center: 0,
     array: [
@@ -167,14 +160,6 @@ const layoutGroups = [
       ['農委會', '中選會'],
       ['行政院', '監察院'],
       ['政府中樞']
-    ]
-  },
-  {
-    bottom: 0,
-    right: 0,
-    array: [
-      ['PTT'],
-      ['台灣網路群體', '泛藍支持者群體', '軍公教群體']
     ]
   }
 ]
@@ -272,26 +257,74 @@ const linkDist = (link, i) => {
   return dist
 }
 
+const GROUP = {
+  TW: '台灣',
+  CN: '中國'
+}
+
 const linkLabelAlongLink = false
 
-const forceOffset = 400
-const forceStrength = 1
+const forceStrength = 0.5
 const customForces = [
   {
-    name: 'china',
-    x: forceOffset,
-    y: forceOffset,
+    name: 'cn',
+    x: 200,
+    y: 200,
+    r: 100,
     strength: forceStrength,
-    nodeFilter: d => d.group === '中國',
-    color: scale('中國')
+    color: scale(GROUP.CN),
+    group: GROUP.CN,
+    filter: d => d.category.includes('學術')
   },
   {
-    name: 'taiwan',
-    x: width - forceOffset,
-    y: height - forceOffset,
+    name: 'tw-rlg-org',
+    x: 200,
+    y: height - 400,
+    r: 10,
     strength: forceStrength,
-    nodeFilter: d => d.group === '台灣',
-    color: scale('台灣')
+    color: scale(GROUP.TW),
+    group: GROUP.TW,
+    filter: d => ['宗教'].some(s => d.category.includes(s))
+  },
+  {
+    name: 'tw-cso',
+    x: 400,
+    y: height - 400,
+    r: 40,
+    strength: forceStrength,
+    color: scale(GROUP.TW),
+    group: GROUP.TW,
+    filter: d => ['民間'].some(s => d.category.includes(s))
+  },
+  {
+    name: 'tw-academia',
+    x: 600,
+    y: height - 400,
+    r: 20,
+    strength: forceStrength,
+    color: scale(GROUP.TW),
+    group: GROUP.TW,
+    filter: d => d.category.includes('學術')
+  },
+  {
+    name: 'tw-media',
+    x: 800,
+    y: height - 400,
+    r: 20,
+    strength: forceStrength,
+    color: scale(GROUP.TW),
+    group: GROUP.TW,
+    filter: d => ['主流媒體', '政論節目'].some(s => d.category.includes(s))
+  },
+  {
+    name: 'tw-social-media',
+    x: 800,
+    y: height - 200,
+    r: 40,
+    strength: forceStrength,
+    color: scale(GROUP.TW),
+    group: GROUP.TW,
+    filter: d => ['社交媒體', 'Fb'].some(s => d.category.includes(s))
   }
 ]
 
@@ -318,10 +351,16 @@ function makeGraph(svg, vm) {
     .force('charge', d3.forceManyBody().strength(nodeCharge))
 
   customForces.forEach(customForce => {
-    const force = d3.forceCenter(customForce.x, customForce.y).strength(customForce.strength)
+    const force = d3.forceRadial(customForce.r, customForce.x, customForce.y).strength(customForce.strength)
     const init = force.initialize
     force.initialize = nodes => {
-      init(nodes.filter(customForce.nodeFilter))
+      if(customForce.group !== undefined) {
+        nodes = nodes.filter(d => d.group === customForce.group)
+      }
+      if(customForce.filter !== undefined) {
+        nodes = nodes.filter(customForce.filter)
+      }
+      init(nodes)
     }
     simulation = simulation.force(`force-${customForce.name}`, force)
     const g = svg.append('g').attr('class', 'force')
