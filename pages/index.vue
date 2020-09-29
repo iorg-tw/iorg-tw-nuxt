@@ -107,8 +107,8 @@ section {
           background-color: var(--iorg-primary-dark-color);
           color: var(--iorg-primary-light-color);
           line-height: 1;
-          padding: 0.75rem 1rem;
-          border-radius: 1.25rem;
+          padding: 0.75em 1em;
+          border-radius: 1.25em;
           > span {
             border-bottom: none;
           }
