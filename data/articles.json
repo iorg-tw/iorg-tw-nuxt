@@ -1,4 +1,23 @@
 {
+	"fan-y": {
+		"published": true,
+		"type": "video",
+		"id": "fan-y",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVC_DyoCVzWgreNLOtss2H-XNtyiS2XlZVWN7_AjW-w5GcCWqDGWO_QrwFnJfHwIXy4YbEmk53uB46/pub",
+		"publishedAt": "2020/9/29 18:00",
+		"title": "資訊操弄無國界！ 范雲：修法、NCC、教育「三管齊下」／心慌保全來訪問 Ep.4",
+		"coverImage": "https://lh3.googleusercontent.com/Bg_Kit2gu7P9dv47O5ES99xNOeGnwVyKva0Bo9febiNwMlPm6W8hh-uJ0uhF49epeRbfRXpYt1sbnrXEfGrQHPlEeiWocS08c0X3ja7jNe_fwWXfV5e2HrasHUXWUuqIUA",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 4 集，心慌保全訪問了立法委員范雲，她分享了自身對應資訊操弄的經驗，並指出面對無國界的資訊操弄，關鍵有三點：首先是修正使現行法規更加合宜、改善新聞媒體的事實查核機制，以及從教育著手，增強國人的媒體識讀素養。",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立委"
+		]
+	},
 	"lai-py": {
 		"published": true,
 		"type": "video",
