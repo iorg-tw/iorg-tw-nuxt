@@ -7,7 +7,7 @@ const config = {
       actions: [
         {
           label: '下載報告',
-          url: 'https://github.com/iorg-tw/documents/raw/master/iorg-model-1-tw.pdf'
+          url: 'https://iorg-tw.github.io/documents/iorg-model-1-tw.pdf'
         }
       ]
     },
@@ -18,11 +18,11 @@ const config = {
       actions: [
         {
           label: 'Get Report',
-          url: 'https://github.com/iorg-tw/documents/raw/master/iorg-model-1.pdf'
+          url: 'https://iorg-tw.github.io/documents/iorg-model-1.pdf'
         },
         {
           label: 'Get Appendix',
-          url: 'https://github.com/iorg-tw/documents/raw/master/iorg-model-1-appendix.pdf'
+          url: 'https://iorg-tw.github.io/documents/iorg-model-1-appendix.pdf'
         }
       ]
     }
