@@ -38,6 +38,8 @@ async function get() {
         group = '中國'
       } else if(category.includes('台灣')) {
         group = '台灣'
+      } else if(category.includes('香港')) {
+        group = '香港'
       } else if(category.includes('美國')) {
         group = '美國'
       } else if(category === '論壇') {
