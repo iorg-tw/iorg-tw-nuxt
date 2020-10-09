@@ -178,9 +178,13 @@ const linkDist = (link, i) => {
   }
   return dist
 }
+const linkStrength = (link) => {
+  return 1 / Math.min(link.source.degree, link.target.degree) / 2
+}
 
 const GROUP = {
   TW: '台灣',
+  HK: '香港',
   CN: '中國'
 }
 
@@ -257,6 +261,15 @@ const customForces = [
     color: scale(GROUP.TW),
     group: GROUP.TW,
     filter: d => ['社交媒體', 'Fb'].some(s => d.category.includes(s))
+  },
+  {
+    name: 'hk',
+    x: 800,
+    y: height - 600,
+    r: 40,
+    strength: forceStrength,
+    color: scale(GROUP.HK),
+    group: GROUP.HK
   }
 ]
 
@@ -266,7 +279,7 @@ function makeGraph(svg, nodes, links, vm) {
     .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
-  links = links.filter(link => link.domains.some(d => vm.showDomains.includes(d)))
+  links = links.filter(link => link.domains.some(d => vm.showDomains.includes(d))) // FIXME: this bad
 
   customNodes.forEach(customNode => {
     const node = nodes.find(d => d.name === customNode.name)
@@ -281,7 +294,7 @@ function makeGraph(svg, nodes, links, vm) {
   })
 
   let simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(linkDist))
+    .force('link', d3.forceLink(links).id(d => d.id).distance(linkDist).strength(linkStrength))
     .force('charge', d3.forceManyBody().strength(nodeCharge))
 
   customForces.forEach(customForce => {
