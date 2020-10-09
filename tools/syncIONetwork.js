@@ -1,5 +1,6 @@
 const got = require('got')
 const fs = require('fs')
+const textMap = require('../lib/const').textMap
 const dotenv = require('dotenv')
 dotenv.config()
 
@@ -7,13 +8,13 @@ const apiKey = process.env.AIRTABLE_API_KEY
 
 const edgeCategories = [
   {
-    id: 'command',
-    keywords: ['上級', '組長', '所屬', '主管', '里長', '母集團', '主導', '主任', '領導']
+    id: textMap.command,
+    keywords: ['上級', '組長', '所屬', '主管', '里長', '母集團', '主導', '主任', '領導', '院長', '政治委員']
   }
 ]
 
 const linkCats = {
-  command: 'command'
+  command: textMap.command
 }
 
 async function getList(listName) {
@@ -43,8 +44,6 @@ async function get() {
 
   let domainMap = Object.assign({}, ...allDomains.map(d => ({ [d.id]: d.fields.name })))
   allDomains = Object.values(domainMap)
-  allDomains.push(...edgeCategories.map(c => c.id))
-
   allDomains.sort((a, b) => {
     const p = +a.substring(1)
     const q = +b.substring(1)
@@ -54,17 +53,17 @@ async function get() {
   allNodes = allNodes.filter(d => d.id && d.fields && d.fields.short_name).map(d => {
     const category = d.fields.category ? d.fields.category : 'default'
     const notes = d.fields.notes ? d.fields.notes.trim() : null
-    let group = 'none'
-    if(['中國', '中共'].some(s => category.includes(s))) {
-      group = '中國'
-    } else if(category.includes('台灣')) {
-      group = '台灣'
-    } else if(category.includes('香港')) {
-      group = '香港'
-    } else if(category.includes('美國')) {
-      group = '美國'
-    } else if(category === '論壇') {
-      group = '論壇'
+    let group = textMap.none
+    if([textMap.china, textMap.ccp].some(s => category.includes(s))) {
+      group = textMap.china
+    } else if(category.includes(textMap.tw)) {
+      group = textMap.tw
+    } else if(category.includes(textMap.hk)) {
+      group = textMap.hk
+    } else if(category.includes(textMap.usa)) {
+      group = textMap.usa
+    } else if(category === textMap.forum) {
+      group = textMap.forum
     }
     return {
       id: d.id,
@@ -79,7 +78,7 @@ async function get() {
   allEdges = allEdges.filter(d => d.fields && Array.isArray(d.fields.from) && d.fields.from.length > 0 && Array.isArray(d.fields.to) && d.fields.to.length > 0 && d.fields.action).map(d => {
     let action = d.fields.action
     let domains = d.fields.domains ? d.fields.domains.map(d => domainMap[d]) : []
-    let category = 'default'
+    let category = textMap.default
     for(const cat of edgeCategories) {
       if(cat.keywords.some(k => action.includes(k))) {
         category = cat.id

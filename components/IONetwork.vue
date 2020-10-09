@@ -31,6 +31,7 @@ import * as d3 from 'd3'
 import domains from '~/data/ion/domains'
 import allNodes from '~/data/ion/nodes'
 import allLinks from '~/data/ion/edges'
+import { textMap } from '~/lib/const'
 
 // based on https://observablehq.com/@d3/force-directed-graph
 // d3 v6 migration guide https://observablehq.com/@d3/d3v6-migration-guide
@@ -61,7 +62,7 @@ const drag = simulation => {
 }
 
 const width = 1000
-const height = 1000
+const height = 800
 const param = {
   node: {
     minR: 2,
@@ -166,12 +167,12 @@ fixedLayoutGroups.forEach(group => {
 const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected === true).map(n => n.name)
 
 const colorMap = new Map([
-  ['none', 'gray'],
-  ['中國', 'red'],
-  ['香港', 'magenta'],
-  ['台灣', 'green'],
-  ['美國', 'blue'],
-  ['論壇', 'orange']
+  [textMap.nond, 'gray'],
+  [textMap.china, 'red'],
+  [textMap.hk, 'magenta'],
+  [textMap.tw, 'green'],
+  [textMap.usa, 'blue'],
+  [textMap.forum, 'orange']
 ])
 
 const scale = d3.scaleOrdinal().domain(colorMap.keys()).range(colorMap.values())
@@ -193,13 +194,7 @@ const linkDist = (link, i) => {
   return dist
 }
 const linkStrength = (link) => {
-  return 1 / Math.min(link.source.degree, link.target.degree) / 2
-}
-
-const GROUP = {
-  TW: '台灣',
-  HK: '香港',
-  CN: '中國'
+  return 1 / Math.min(link.source.degree, link.target.degree) / 4
 }
 
 const linkLabelAlongLink = false
@@ -211,8 +206,8 @@ const customForces = [
     ...layout.anchor(0, 0),
     r: 40,
     strength: forceStrength,
-    color: scale(GROUP.CN),
-    group: GROUP.CN,
+    color: scale(textMap.china),
+    group: textMap.china,
     filter: d => ['中共', '政府'].some(s => d.category.includes(s))
   },
   {
@@ -220,8 +215,8 @@ const customForces = [
     ...layout.anchor(1, 0),
     r: 40,
     strength: forceStrength,
-    color: scale(GROUP.CN),
-    group: GROUP.CN,
+    color: scale(textMap.china),
+    group: textMap.china,
     filter: d => ['官媒'].some(s => d.category.includes(s))
   },
   {
@@ -229,8 +224,8 @@ const customForces = [
     ...layout.anchor(2, 2),
     r: 10,
     strength: forceStrength,
-    color: scale(GROUP.TW),
-    group: GROUP.TW,
+    color: scale(textMap.tw),
+    group: textMap.tw,
     filter: d => ['宗教'].some(s => d.category.includes(s))
   },
   {
@@ -238,8 +233,8 @@ const customForces = [
     ...layout.anchor(3, 2),
     r: 60,
     strength: forceStrength,
-    color: scale(GROUP.TW),
-    group: GROUP.TW,
+    color: scale(textMap.tw),
+    group: textMap.tw,
     filter: d => ['民間'].some(s => d.category.includes(s))
   },
   {
@@ -247,17 +242,17 @@ const customForces = [
     ...layout.anchor(2, 3),
     r: 20,
     strength: forceStrength,
-    color: scale(GROUP.TW),
-    group: GROUP.TW,
+    color: scale(textMap.tw),
+    group: textMap.tw,
     filter: d => ['學術'].some(s => d.category.includes(s))
   },
   {
     name: 'tw-media',
-    ...layout.anchor(3, 3),
+    ...layout.anchor(3, 4),
     r: 40,
     strength: forceStrength,
-    color: scale(GROUP.TW),
-    group: GROUP.TW,
+    color: scale(textMap.tw),
+    group: textMap.tw,
     filter: d => ['主流媒體', '政論節目'].some(s => d.category.includes(s))
   },
   {
@@ -265,17 +260,17 @@ const customForces = [
     ...layout.anchor(4, 3),
     r: 80,
     strength: forceStrength,
-    color: scale(GROUP.TW),
-    group: GROUP.TW,
+    color: scale(textMap.tw),
+    group: textMap.tw,
     filter: d => ['社交媒體', 'Fb'].some(s => d.category.includes(s))
   },
   {
     name: 'hk',
-    ...layout.anchor(4, 2),
+    ...layout.anchor(4, 1),
     r: 40,
     strength: forceStrength,
-    color: scale(GROUP.HK),
-    group: GROUP.HK
+    color: scale(textMap.hk),
+    group: textMap.hk
   }
 ]
 
@@ -434,8 +429,9 @@ export default {
   position: relative;
   > .controls {
     position: sticky;
-    top: 0.5rem;
+    top: 0;
     left: 0;
+    margin: 0;
     font-size: 0.875rem;
     > .panel {
       background-color: white;
