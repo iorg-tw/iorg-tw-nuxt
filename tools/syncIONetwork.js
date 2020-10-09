@@ -20,6 +20,16 @@ async function getList(listName) {
 
 async function get() {
   try {
+    let domains = await getList('domains')
+    let domainMap = Object.assign({}, ...domains.map(d => ({ [d.id]: d.fields.name })))
+    domains = Object.values(domainMap)
+
+    domains.sort((a, b) => {
+      const p = +a.substring(1)
+      const q = +b.substring(1)
+      return !Number.isNaN(p) && !Number.isNaN(q) ? p - q : (a > b ? 1 : (a < b ? -1 : 0))
+    })
+
     let nodes = await getList('nodes')
     nodes = nodes.filter(d => d.id && d.fields && d.fields.short_name).map(d => {
       const category = d.fields.category ? d.fields.category : 'default'
@@ -39,6 +49,7 @@ async function get() {
         category,
         group,
         notes: d.fields.notes ? d.fields.notes.trim() : null,
+        domains: d.fields.domains ? d.fields.domains.map(d => domainMap[d]) : [],
         degree: 0
       }
     })
@@ -50,6 +61,7 @@ async function get() {
         target: d.fields.to ? d.fields.to[0] : null,
         action: d.fields.action,
         notes: d.fields.notes ? d.fields.notes.trim() : null,
+        domains: d.fields.domains ? d.fields.domains.map(d => domainMap[d]) : []
       }
     })
 
@@ -58,6 +70,7 @@ async function get() {
       node.degree += edges.filter(edge => edge.target === node.id).length
     }
 
+    fs.writeFileSync('data/ion/domains.json', JSON.stringify(domains, null, '\t'))
     fs.writeFileSync('data/ion/nodes.json', JSON.stringify(nodes, null, '\t'))
     fs.writeFileSync('data/ion/edges.json', JSON.stringify(edges, null, '\t'))
   } catch(error) {
