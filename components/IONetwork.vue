@@ -29,8 +29,8 @@
 import { v4 as uuidv4 } from 'uuid'
 import * as d3 from 'd3'
 import domains from '~/data/ion/domains'
-import nodes from '~/data/ion/nodes'
-import links from '~/data/ion/edges'
+import allNodes from '~/data/ion/nodes'
+import allLinks from '~/data/ion/edges'
 
 // based on https://observablehq.com/@d3/force-directed-graph
 // d3 v6 migration guide https://observablehq.com/@d3/d3v6-migration-guide
@@ -68,7 +68,7 @@ const param = {
     charge: -20
   },
   nodeLabel: {
-    fontSize: 6,
+    fontSize: 8,
     offsetX: 4,
     offsetY: 2
   },
@@ -79,10 +79,24 @@ const param = {
   }
 }
 const layout = {
-  margin: 100,
+  margin: 80,
   stepX: 32,
-  stepY: 16
+  stepY: 16,
+  grid: {
+    w: 5,
+    h: 5
+  }
 }
+const getAnchorAtGrid = (i, j) => {
+  const xu = (width - layout.margin * 2) / layout.grid.w
+  const yu = (height - layout.margin * 2) / layout.grid.h
+  return {
+    x: layout.margin + (i + 1) * xu - xu / 2,
+    y: layout.margin + (j + 1) * yu - yu / 2
+  }
+}
+layout.anchor = getAnchorAtGrid
+
 const fixedLayoutGroups = []
 const customNodes = [
   {
@@ -194,8 +208,7 @@ const forceStrength = 0.5
 const customForces = [
   {
     name: 'cn-gov',
-    x: 200,
-    y: 200,
+    ...layout.anchor(0, 0),
     r: 40,
     strength: forceStrength,
     color: scale(GROUP.CN),
@@ -204,8 +217,7 @@ const customForces = [
   },
   {
     name: 'cn-ccp-media',
-    x: 400,
-    y: 200,
+    ...layout.anchor(1, 0),
     r: 40,
     strength: forceStrength,
     color: scale(GROUP.CN),
@@ -214,8 +226,7 @@ const customForces = [
   },
   {
     name: 'tw-rlg-org',
-    x: 200,
-    y: height - 400,
+    ...layout.anchor(2, 2),
     r: 10,
     strength: forceStrength,
     color: scale(GROUP.TW),
@@ -224,8 +235,7 @@ const customForces = [
   },
   {
     name: 'tw-cso',
-    x: 400,
-    y: height - 400,
+    ...layout.anchor(3, 2),
     r: 60,
     strength: forceStrength,
     color: scale(GROUP.TW),
@@ -234,8 +244,7 @@ const customForces = [
   },
   {
     name: 'tw-academia',
-    x: 600,
-    y: height - 400,
+    ...layout.anchor(2, 3),
     r: 20,
     strength: forceStrength,
     color: scale(GROUP.TW),
@@ -244,8 +253,7 @@ const customForces = [
   },
   {
     name: 'tw-media',
-    x: 800,
-    y: height - 400,
+    ...layout.anchor(3, 3),
     r: 40,
     strength: forceStrength,
     color: scale(GROUP.TW),
@@ -254,8 +262,7 @@ const customForces = [
   },
   {
     name: 'tw-social-media',
-    x: 800,
-    y: height - 200,
+    ...layout.anchor(4, 3),
     r: 80,
     strength: forceStrength,
     color: scale(GROUP.TW),
@@ -264,8 +271,7 @@ const customForces = [
   },
   {
     name: 'hk',
-    x: 800,
-    y: height - 600,
+    ...layout.anchor(4, 2),
     r: 40,
     strength: forceStrength,
     color: scale(GROUP.HK),
@@ -273,13 +279,16 @@ const customForces = [
   }
 ]
 
-function makeGraph(svg, nodes, links, vm) {
+function makeGraph(svg, vm) {
   svg
     .attr('viewBox', [0, 0, width, height])
     .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
-  links = links.filter(link => link.domains.some(d => vm.showDomains.includes(d))) // FIXME: this bad
+  // TODO: update links & nodes filtering responding to user input
+  const links = allLinks.filter(link => link.domains.some(d => vm.showDomains.includes(d)))
+  const linkedNodes = links.map(link => [link.source, link.target]).flat()
+  const nodes = allNodes.filter(node => linkedNodes.includes(node.id))
 
   customNodes.forEach(customNode => {
     const node = nodes.find(d => d.name === customNode.name)
@@ -394,7 +403,7 @@ export default {
   },
   mounted() {
     const svg = d3.select(this.$refs.network).append('svg')
-    makeGraph(svg, nodes, links, this)
+    makeGraph(svg, this)
   },
   methods: {
     nodeClicked(event, d) {
@@ -425,7 +434,7 @@ export default {
   position: relative;
   > .controls {
     position: sticky;
-    top: 1rem;
+    top: 0.5rem;
     left: 0;
     font-size: 0.875rem;
     > .panel {
