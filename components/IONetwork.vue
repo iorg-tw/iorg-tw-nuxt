@@ -1,5 +1,12 @@
 <template>
 <div :id="id" class="io-network">
+  <div class="controls container">
+    <div class="domains panel">
+      <div v-for="d of domains" :key="d" class="domain" :class="!Number.isNaN(+d.substring(1)) ? 'code' : 'text'">
+        <input v-model="showDomains" :value="d" type="checkbox"> <label>{{ d }}</label>
+      </div>
+    </div>
+  </div>
   <div ref="network" class="network">
   </div>
   <div v-if="showDatum" class="datum-container">
@@ -21,6 +28,7 @@
 <script>
 import { v4 as uuidv4 } from 'uuid'
 import * as d3 from 'd3'
+import domains from '~/data/ion/domains'
 import nodes from '~/data/ion/nodes'
 import links from '~/data/ion/edges'
 
@@ -75,94 +83,7 @@ const layout = {
   stepX: 32,
   stepY: 16
 }
-const layoutGroups = [
-  {
-    top: 0,
-    left: 0,
-    array: [
-      ['中共中央', '習近平', '中共中央對台工作領導小組'],
-      ['中共統戰部', '中共中央宣傳部'],
-      ['中新社']
-    ]
-  },
-  {
-    top: 0,
-    left: 4,
-    array: [
-      ['中央軍委']
-    ]
-  },
-  {
-    top: 2,
-    left: 1,
-    array: [
-      ['中央廣電總台'],
-      ['央視']
-    ]
-  },
-  {
-    top: 2,
-    left: 2,
-    array: [
-      ['中國國務院'],
-      ['中國外交部', '新華社', '國台辦'],
-      ['中國駐大阪總領事館']
-    ]
-  },
-  {
-    top: 2,
-    left: 5,
-    array: [
-      ['上海市委']
-    ]
-  },
-  {
-    top: 1,
-    left: 6,
-    array: [
-      ['全國政協']
-    ]
-  },
-  {
-    top: 0,
-    left: 12,
-    array: [
-      ['解放軍']
-    ]
-  },
-  {
-    top: 8,
-    left: 1,
-    array: [
-      ['福建省委', '中新社福建分社'],
-      ['福建省委宣傳部', '莆田市委'],
-      [null, '莆田市委宣傳部'],
-      ['海峽出版發行集團'],
-      ['福建電子音像出版社']
-    ]
-  },
-  {
-    top: 8,
-    left: 4,
-    array: [
-      ['福建省人民政府'],
-      ['福建省教育廳', '福州市人民政府'],
-      ['福州市教育局', '福州市人社局'],
-      ['晉安區人民政府', '長樂區人民政府']
-    ]
-  },
-  {
-    bottom: 0,
-    center: 0,
-    array: [
-      ['民主進步黨', '中國國民黨', '親民黨', '新黨'],
-      ['台北市', '新北市', '高雄市', '台中市'],
-      ['農委會', '中選會'],
-      ['行政院', '監察院'],
-      ['政府中樞']
-    ]
-  }
-]
+const fixedLayoutGroups = []
 const customNodes = [
   {
     name: '海峽論壇',
@@ -173,7 +94,7 @@ const customNodes = [
     highlyConnected: true
   }
 ]
-layoutGroups.forEach(group => {
+fixedLayoutGroups.forEach(group => {
   if(group.bottom !== undefined) {
     group.array.reverse()
   }
@@ -267,14 +188,24 @@ const linkLabelAlongLink = false
 const forceStrength = 0.5
 const customForces = [
   {
-    name: 'cn',
+    name: 'cn-gov',
     x: 200,
     y: 200,
     r: 100,
     strength: forceStrength,
     color: scale(GROUP.CN),
     group: GROUP.CN,
-    filter: d => d.category.includes('學術')
+    filter: d => ['中共', '政府'].some(s => d.category.includes(s))
+  },
+  {
+    name: 'cn-ccp-media',
+    x: 400,
+    y: 200,
+    r: 100,
+    strength: forceStrength,
+    color: scale(GROUP.CN),
+    group: GROUP.CN,
+    filter: d => ['官媒'].some(s => d.category.includes(s))
   },
   {
     name: 'tw-rlg-org',
@@ -304,7 +235,7 @@ const customForces = [
     strength: forceStrength,
     color: scale(GROUP.TW),
     group: GROUP.TW,
-    filter: d => d.category.includes('學術')
+    filter: d => ['學術'].some(s => d.category.includes(s))
   },
   {
     name: 'tw-media',
@@ -328,11 +259,13 @@ const customForces = [
   }
 ]
 
-function makeGraph(svg, vm) {
+function makeGraph(svg, nodes, links, vm) {
   svg
     .attr('viewBox', [0, 0, width, height])
     .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
+
+  links = links.filter(link => link.domains.some(d => vm.showDomains.includes(d)))
 
   customNodes.forEach(customNode => {
     const node = nodes.find(d => d.name === customNode.name)
@@ -440,12 +373,14 @@ export default {
       id: 'uuid-' + uuidv4(),
       datum: null,
       datumType: null,
-      showDatum: false
+      showDatum: false,
+      domains,
+      showDomains: ['B3', 'B4', 'B5']
     }
   },
   mounted() {
     const svg = d3.select(this.$refs.network).append('svg')
-    makeGraph(svg, this)
+    makeGraph(svg, nodes, links, this)
   },
   methods: {
     nodeClicked(event, d) {
@@ -474,6 +409,31 @@ export default {
 
 .io-network {
   position: relative;
+  > .controls {
+    position: sticky;
+    top: 1rem;
+    left: 0;
+    font-size: 0.875rem;
+    > .panel {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      @include shadow;
+
+      &.domains {
+        display: flex;
+        flex-wrap: wrap;
+        > .domain {
+          &.code {
+            flex-basis: 3rem;
+          }
+          &.text {
+            flex-basis: 6rem;
+          }
+        }
+      }
+    }
+  }
   > .network {
     .nodes {
       > .node {
