@@ -118,7 +118,9 @@ async function get() {
     }
 
     for(const edge of edges) {
-      edge.domains.push(domain)
+      if(!edge.domains.includes(domain)) {
+        edge.domains.push(domain)
+      }
     }
   }
 
