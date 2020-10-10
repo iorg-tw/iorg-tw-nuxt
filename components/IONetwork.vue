@@ -64,6 +64,14 @@ const drag = simulation => {
 const width = 1000
 const height = 800
 const param = {
+  forceAnchor: {
+    r: 4,
+    label: {
+      fontSize: 8,
+      offsetX: 5,
+      offsetY: -5
+    }
+  },
   node: {
     minR: 2,
     charge: -20
@@ -343,15 +351,17 @@ function makeGraph(vm) {
         gs.append('circle')
           .attr('cx', 0)
           .attr('cy', 0)
-          .attr('r', 4)
+          .attr('r', param.forceAnchor.r)
           .attr('fill', 'none')
           .attr('stroke', d => d.color)
           .attr('stroke-width', 2)
           .attr('stroke-opacity', 0.35)
         gs.append('text')
-          .attr('x', 0)
-          .attr('y', 0)
+          .attr('x', param.forceAnchor.label.offsetX)
+          .attr('y', param.forceAnchor.label.offsetY)
           .attr('fill', d => d.color)
+          .attr('fill-opacity', 0.65)
+          .attr('font-size', param.forceAnchor.label.fontSize)
           .text(d => d.name)
         return gs
       })
