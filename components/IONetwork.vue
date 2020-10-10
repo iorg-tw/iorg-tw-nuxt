@@ -203,6 +203,7 @@ const forceStrength = 0.5
 const customForces = [
   {
     id: 'cn-gov',
+    name: '中共、中國政府',
     ...layout.anchor(0, 0),
     r: 40,
     strength: forceStrength,
@@ -212,6 +213,7 @@ const customForces = [
   },
   {
     id: 'cn-ccp-media',
+    name: '中共官媒',
     ...layout.anchor(1, 0),
     r: 40,
     strength: forceStrength,
@@ -221,6 +223,7 @@ const customForces = [
   },
   {
     id: 'tw-rlg-org',
+    name: '宗教組織',
     ...layout.anchor(2, 2),
     r: 10,
     strength: forceStrength,
@@ -229,16 +232,8 @@ const customForces = [
     filter: d => ['宗教'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-cso',
-    ...layout.anchor(3, 2),
-    r: 60,
-    strength: forceStrength,
-    color: scale(textMap.tw),
-    group: textMap.tw,
-    filter: d => ['民間'].some(s => d.category.includes(s))
-  },
-  {
     id: 'tw-academia',
+    name: '學術機構',
     ...layout.anchor(2, 3),
     r: 20,
     strength: forceStrength,
@@ -247,7 +242,28 @@ const customForces = [
     filter: d => ['學術'].some(s => d.category.includes(s))
   },
   {
+    id: 'tw-cso',
+    name: '政府機構',
+    ...layout.anchor(3, 2),
+    r: 60,
+    strength: forceStrength,
+    color: scale(textMap.tw),
+    group: textMap.tw,
+    filter: d => ['政府'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'tw-cso',
+    name: '民間組織',
+    ...layout.anchor(3, 3),
+    r: 60,
+    strength: forceStrength,
+    color: scale(textMap.tw),
+    group: textMap.tw,
+    filter: d => ['民間'].some(s => d.category.includes(s))
+  },
+  {
     id: 'tw-media',
+    name: '媒體',
     ...layout.anchor(3, 4),
     r: 40,
     strength: forceStrength,
@@ -257,6 +273,7 @@ const customForces = [
   },
   {
     id: 'tw-social-media',
+    name: '社交媒體',
     ...layout.anchor(4, 3),
     r: 80,
     strength: forceStrength,
@@ -266,6 +283,7 @@ const customForces = [
   },
   {
     id: 'hk',
+    name: '香港',
     ...layout.anchor(4, 1),
     r: 40,
     strength: forceStrength,
@@ -317,20 +335,27 @@ function makeGraph(vm) {
   })
 
   // force
-  vm.svg.selectAll('g.force')
+  const force = vm.svg.selectAll('g.force')
     .data(customForces, d => d.id)
     .join(
       enter => {
         const gs = enter.append('g').attr('class', 'force')
         gs.append('circle')
-          .attr('cx', d => d.x)
-          .attr('cy', d => d.y)
+          .attr('cx', 0)
+          .attr('cy', 0)
           .attr('r', 4)
           .attr('fill', 'none')
           .attr('stroke', d => d.color)
           .attr('stroke-width', 2)
           .attr('stroke-opacity', 0.35)
+        gs.append('text')
+          .attr('x', 0)
+          .attr('y', 0)
+          .attr('fill', d => d.color)
+          .text(d => d.name)
+        return gs
       })
+  force.attr('transform', d => `translate(${d.x}, ${d.y})`)
 
   const link = vm.svg.selectAll('line.link')
     .data(links, d => d.id)
@@ -356,7 +381,6 @@ function makeGraph(vm) {
           .attr('cy', 0)
           .attr('r', nodeR)
           .attr('fill', color)
-
         gs.append('text')
           .attr('x', param.nodeLabel.offsetX)
           .attr('y', param.nodeLabel.offsetY)
@@ -463,6 +487,9 @@ export default {
     }
   }
   > .network {
+    .force {
+      cursor: default;
+    }
     .node {
       cursor: pointer;
       > text {
