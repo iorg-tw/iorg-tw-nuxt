@@ -202,7 +202,7 @@ const linkLabelAlongLink = false
 const forceStrength = 0.5
 const customForces = [
   {
-    name: 'cn-gov',
+    id: 'cn-gov',
     ...layout.anchor(0, 0),
     r: 40,
     strength: forceStrength,
@@ -211,7 +211,7 @@ const customForces = [
     filter: d => ['中共', '政府'].some(s => d.category.includes(s))
   },
   {
-    name: 'cn-ccp-media',
+    id: 'cn-ccp-media',
     ...layout.anchor(1, 0),
     r: 40,
     strength: forceStrength,
@@ -220,7 +220,7 @@ const customForces = [
     filter: d => ['官媒'].some(s => d.category.includes(s))
   },
   {
-    name: 'tw-rlg-org',
+    id: 'tw-rlg-org',
     ...layout.anchor(2, 2),
     r: 10,
     strength: forceStrength,
@@ -229,7 +229,7 @@ const customForces = [
     filter: d => ['宗教'].some(s => d.category.includes(s))
   },
   {
-    name: 'tw-cso',
+    id: 'tw-cso',
     ...layout.anchor(3, 2),
     r: 60,
     strength: forceStrength,
@@ -238,7 +238,7 @@ const customForces = [
     filter: d => ['民間'].some(s => d.category.includes(s))
   },
   {
-    name: 'tw-academia',
+    id: 'tw-academia',
     ...layout.anchor(2, 3),
     r: 20,
     strength: forceStrength,
@@ -247,7 +247,7 @@ const customForces = [
     filter: d => ['學術'].some(s => d.category.includes(s))
   },
   {
-    name: 'tw-media',
+    id: 'tw-media',
     ...layout.anchor(3, 4),
     r: 40,
     strength: forceStrength,
@@ -256,7 +256,7 @@ const customForces = [
     filter: d => ['主流媒體', '政論節目'].some(s => d.category.includes(s))
   },
   {
-    name: 'tw-social-media',
+    id: 'tw-social-media',
     ...layout.anchor(4, 3),
     r: 80,
     strength: forceStrength,
@@ -265,7 +265,7 @@ const customForces = [
     filter: d => ['社交媒體', 'Fb'].some(s => d.category.includes(s))
   },
   {
-    name: 'hk',
+    id: 'hk',
     ...layout.anchor(4, 1),
     r: 40,
     strength: forceStrength,
@@ -274,16 +274,16 @@ const customForces = [
   }
 ]
 
-function makeGraph(svg, vm) {
-  svg
+function makeGraph(vm) {
+  console.info('make graph', ...vm.showDomains)
+  vm.svg
     .attr('viewBox', [0, 0, width, height])
     .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
-  // TODO: update links & nodes filtering responding to user input
-  const links = allLinks.filter(link => link.domains.some(d => vm.showDomains.includes(d)))
+  const links = allLinks.filter(link => link.domains.some(d => vm.showDomains.includes(d))).map(link => Object.assign({}, link))
   const linkedNodes = links.map(link => [link.source, link.target]).flat()
-  const nodes = allNodes.filter(node => linkedNodes.includes(node.id))
+  const nodes = allNodes.filter(node => linkedNodes.includes(node.id)).map(node => Object.assign({}, node))
 
   customNodes.forEach(customNode => {
     const node = nodes.find(d => d.name === customNode.name)
@@ -313,55 +313,58 @@ function makeGraph(svg, vm) {
       }
       init(nodes)
     }
-    simulation = simulation.force(`force-${customForce.name}`, force)
-    const g = svg.append('g').attr('class', 'force')
-    g.append('circle')
-      .attr('cx', customForce.x)
-      .attr('cy', customForce.y)
-      .attr('r', 4)
-      .attr('fill', 'none')
-      .attr('stroke', customForce.color)
-      .attr('stroke-width', 2)
-      .attr('stroke-opacity', 0.35)
+    simulation = simulation.force(`force-${customForce.id}`, force)
   })
 
-  const link = svg.append('g')
-    .attr('class', 'links')
-    .selectAll('line')
-    .data(links)
+  // force
+  vm.svg.selectAll('g.force')
+    .data(customForces, d => d.id)
+    .join(
+      enter => {
+        const gs = enter.append('g').attr('class', 'force')
+        gs.append('circle')
+          .attr('cx', d => d.x)
+          .attr('cy', d => d.y)
+          .attr('r', 4)
+          .attr('fill', 'none')
+          .attr('stroke', d => d.color)
+          .attr('stroke-width', 2)
+          .attr('stroke-opacity', 0.35)
+      })
+
+  const link = vm.svg.selectAll('line.link')
+    .data(links, d => d.id)
     .join('line')
     .attr('class', 'link')
     .attr('stroke-width', d => param.link.strokeWidth)
     .on('click', vm.linkClicked)
 
-  const linkLabel = svg.append('g')
-    .attr('class', 'link-labels')
-    .selectAll('text')
-    .data(links)
+  const linkLabel = vm.svg.selectAll('text.link-label')
+    .data(links, d => d.id)
     .join('text')
     .text(d => d.action)
     .attr('class', 'link-label')
     .on('click', vm.linkClicked)
 
-  const node = svg.append('g')
-    .attr('class', 'nodes')
-    .selectAll('g')
-    .data(nodes)
-    .join('g')
-    .attr('class', 'node')
+  const node = vm.svg.selectAll('g.node')
+    .data(nodes, d => d.id)
+    .join(
+      enter => {
+        const gs = enter.append('g').attr('class', 'node')
+        gs.append('circle')
+          .attr('cx', 0)
+          .attr('cy', 0)
+          .attr('r', nodeR)
+          .attr('fill', color)
+
+        gs.append('text')
+          .attr('x', param.nodeLabel.offsetX)
+          .attr('y', param.nodeLabel.offsetY)
+          .text(d => d.name)
+        return gs
+      })
     .on('click', vm.nodeClicked)
     .call(drag(simulation))
-
-  node.append('circle')
-    .attr('cx', 0)
-    .attr('cy', 0)
-    .attr('r', nodeR)
-    .attr('fill', color)
-
-  node.append('text')
-    .attr('x', param.nodeLabel.offsetX)
-    .attr('y', param.nodeLabel.offsetY)
-    .text(d => d.name)
 
   simulation.on('tick', () => {
     link
@@ -389,16 +392,22 @@ export default {
   data() {
     return {
       id: 'uuid-' + uuidv4(),
+      svg: null,
       datum: null,
       datumType: null,
       showDatum: false,
       domains,
-      showDomains: ['B3', 'B4', 'B5']
+      showDomains: []
+    }
+  },
+  watch: {
+    showDomains() {
+      makeGraph(this)
     }
   },
   mounted() {
-    const svg = d3.select(this.$refs.network).append('svg')
-    makeGraph(svg, this)
+    this.svg = d3.select(this.$refs.network).append('svg')
+    this.showDomains.push('B3') // init
   },
   methods: {
     nodeClicked(event, d) {
@@ -454,27 +463,21 @@ export default {
     }
   }
   > .network {
-    .nodes {
-      > .node {
-        cursor: pointer;
-        > text {
-          fill: #222;
-        }
+    .node {
+      cursor: pointer;
+      > text {
+        fill: #222;
       }
     }
-    .links {
+    .link {
       stroke: #aaa;
       stroke-opacity: 0.65;
-      > .link {
-        cursor: pointer;
-      }
+      cursor: pointer;
     }
-    .link-labels {
+    .link-label {
       text-anchor: middle;
-      > .link-label {
-        fill: #aaa;
-        cursor: pointer;
-      }
+      fill: #aaa;
+      cursor: pointer;
     }
   }
   > .datum-container {
