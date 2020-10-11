@@ -61,8 +61,8 @@ const drag = simulation => {
     .on('end', dragended)
 }
 
-const width = 1000
-const height = 1000
+const width = 960
+const height = 720
 const param = {
   forceAnchor: {
     label: {
@@ -165,7 +165,7 @@ const customForces = [
   {
     id: 'cn-media',
     name: '媒體',
-    ...layout.anchor(100, 8),
+    ...layout.anchor(100, 12),
     r: 32,
     strength: forceStrength,
     color: scale(textMap.china),
