@@ -9,7 +9,7 @@ const apiKey = process.env.AIRTABLE_API_KEY
 const edgeCategories = [
   {
     id: textMap.command,
-    keywords: ['上級', '組長', '所屬', '主管', '里長', '母集團', '主導', '主任', '領導', '院長', '政治委員']
+    keywords: ['上級', '組長', '所屬', '主管', '里長', '母集團', '主導', '主任', '領導', '院長', '政治委員', '校長', '會長', '董事長', '市長', '理事長', '主席', '擁有', '旗下', '直屬', '指揮', '主辦', '承辦', '協辦', '書記']
   }
 ]
 
@@ -62,7 +62,7 @@ async function get() {
       group = textMap.hk
     } else if(category.includes(textMap.usa)) {
       group = textMap.usa
-    } else if(category === textMap.forum) {
+    } else if(category.includes(textMap.forum)) {
       group = textMap.forum
     }
     return {
