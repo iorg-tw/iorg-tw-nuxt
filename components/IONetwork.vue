@@ -62,19 +62,17 @@ const drag = simulation => {
 }
 
 const width = 1000
-const height = 800
+const height = 1000
 const param = {
   forceAnchor: {
-    r: 4,
     label: {
       fontSize: 8,
-      offsetX: 5,
-      offsetY: -5
+      offsetY: 3
     }
   },
   node: {
     minR: 2,
-    charge: -20
+    charge: -50
   },
   nodeLabel: {
     fontSize: 8,
@@ -88,25 +86,14 @@ const param = {
   }
 }
 const layout = {
-  margin: 80,
-  stepX: 32,
-  stepY: 16,
-  grid: {
-    w: 5,
-    h: 5
-  }
+  margin: 100
 }
-const getAnchorAtGrid = (i, j) => {
-  const xu = (width - layout.margin * 2) / layout.grid.w
-  const yu = (height - layout.margin * 2) / layout.grid.h
-  return {
-    x: layout.margin + (i + 1) * xu - xu / 2,
-    y: layout.margin + (j + 1) * yu - yu / 2
-  }
-}
-layout.anchor = getAnchorAtGrid
+const getAnchorByPercentage = (p, q) => ({
+  x: p / 100 * (width - 2 * layout.margin) + layout.margin,
+  y: q / 100 * (height - 2 * layout.margin) + layout.margin
+})
+layout.anchor = getAnchorByPercentage
 
-const fixedLayoutGroups = []
 const customNodes = [
   {
     name: '海峽論壇',
@@ -117,60 +104,6 @@ const customNodes = [
     highlyConnected: true
   }
 ]
-fixedLayoutGroups.forEach(group => {
-  if(group.bottom !== undefined) {
-    group.array.reverse()
-  }
-
-  let px = 0
-  let qx = 1
-  let rx = 0
-  if(group.left !== undefined) {
-    rx = group.left
-  } else if(group.right !== undefined) {
-    px = width
-    qx = -1
-    rx = group.right
-  } else if(group.center !== undefined) {
-    px = (width - (Math.max(...group.array.map(row => row.length)) - 1) * layout.stepX) / 2
-    qx = 1
-    rx = group.center
-  }
-  const x0 = px + qx * layout.margin + qx * rx * layout.stepX
-
-  let py = 0
-  let qy = 1
-  let ry = 0
-  if(group.top !== undefined) {
-    ry = group.top
-  } else if(group.bottom !== undefined) {
-    py = height
-    qy = -1
-    ry = group.bottom
-  } else if(group.middle !== undefined) {
-    py = (height - (group.array.length - 1) * layout.stepY) / 2
-    qy = 1
-    ry = group.middle
-  }
-  const y0 = py + qy * layout.margin + qy * ry * layout.stepY
-
-  let x = x0
-  let y = y0
-  for(const row of group.array) {
-    for(const nodeName of row) {
-      if(nodeName) {
-        customNodes.push({
-          name: nodeName,
-          x,
-          y
-        })
-      }
-      x += qx * layout.stepX
-    }
-    y += qy * layout.stepY
-    x = x0
-  }
-})
 
 const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected === true).map(n => n.name)
 
@@ -205,15 +138,15 @@ const linkStrength = (link) => {
   return 1 / Math.min(link.source.degree, link.target.degree) / 4
 }
 
-const linkLabelAlongLink = false
+const linkLabelAlongLink = true
 
-const forceStrength = 0.5
+const forceStrength = 0.65
 const customForces = [
   {
     id: 'cn-gov',
-    name: '中共、中國政府',
+    name: '中共、政府',
     ...layout.anchor(0, 0),
-    r: 40,
+    r: 48,
     strength: forceStrength,
     color: scale(textMap.china),
     group: textMap.china,
@@ -221,58 +154,118 @@ const customForces = [
   },
   {
     id: 'cn-ccp-media',
-    name: '中共官媒',
-    ...layout.anchor(1, 0),
-    r: 40,
+    name: '官媒',
+    ...layout.anchor(100, 0),
+    r: 48,
     strength: forceStrength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['官媒'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-rlg-org',
-    name: '宗教組織',
-    ...layout.anchor(2, 2),
-    r: 10,
+    id: 'cn-media',
+    name: '媒體',
+    ...layout.anchor(100, 8),
+    r: 32,
     strength: forceStrength,
-    color: scale(textMap.tw),
-    group: textMap.tw,
+    color: scale(textMap.china),
+    group: textMap.china,
+    filter: d => ['媒體'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'cn-rlg-org',
+    name: '宗教組織',
+    ...layout.anchor(12, 0),
+    r: 28,
+    strength: forceStrength,
+    color: scale(textMap.china),
+    group: textMap.china,
     filter: d => ['宗教'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-academia',
+    id: 'cn-ac',
     name: '學術機構',
-    ...layout.anchor(2, 3),
-    r: 20,
+    ...layout.anchor(25, 0),
+    r: 28,
     strength: forceStrength,
-    color: scale(textMap.tw),
-    group: textMap.tw,
+    color: scale(textMap.china),
+    group: textMap.china,
     filter: d => ['學術'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-cso',
+    id: 'cn-poli',
+    name: '政黨組織',
+    ...layout.anchor(35, 0),
+    r: 28,
+    strength: forceStrength,
+    color: scale(textMap.china),
+    group: textMap.china,
+    filter: d => ['政黨'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'tw-gov',
     name: '政府機構',
-    ...layout.anchor(3, 2),
-    r: 60,
+    ...layout.anchor(0, 100),
+    r: 20,
     strength: forceStrength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['政府'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-cso',
-    name: '民間組織',
-    ...layout.anchor(3, 3),
-    r: 60,
+    id: 'cn-cso',
+    name: '民間',
+    ...layout.anchor(50, 0),
+    r: 68,
+    strength: forceStrength,
+    color: scale(textMap.china),
+    group: textMap.china,
+    filter: d => ['民間', '企業'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'tw-rlg-org',
+    name: '宗教組織',
+    ...layout.anchor(10, 100),
+    r: 40,
     strength: forceStrength,
     color: scale(textMap.tw),
     group: textMap.tw,
-    filter: d => ['民間'].some(s => d.category.includes(s))
+    filter: d => ['宗教'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'tw-ac',
+    name: '學術機構',
+    ...layout.anchor(25, 100),
+    r: 28,
+    strength: forceStrength,
+    color: scale(textMap.tw),
+    group: textMap.tw,
+    filter: d => ['學術'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'tw-poli',
+    name: '政黨組織',
+    ...layout.anchor(35, 100),
+    r: 36,
+    strength: forceStrength,
+    color: scale(textMap.tw),
+    group: textMap.tw,
+    filter: d => ['政黨'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'tw-cso',
+    name: '民間',
+    ...layout.anchor(50, 100),
+    r: 68,
+    strength: forceStrength,
+    color: scale(textMap.tw),
+    group: textMap.tw,
+    filter: d => ['民間', '企業'].some(s => d.category.includes(s))
   },
   {
     id: 'tw-media',
-    name: '媒體',
-    ...layout.anchor(3, 4),
+    name: '主流媒體',
+    ...layout.anchor(80, 100),
     r: 40,
     strength: forceStrength,
     color: scale(textMap.tw),
@@ -282,7 +275,7 @@ const customForces = [
   {
     id: 'tw-social-media',
     name: '社交媒體',
-    ...layout.anchor(4, 3),
+    ...layout.anchor(100, 100),
     r: 80,
     strength: forceStrength,
     color: scale(textMap.tw),
@@ -290,9 +283,18 @@ const customForces = [
     filter: d => ['社交媒體', 'Fb'].some(s => d.category.includes(s))
   },
   {
+    id: 'usa',
+    name: '美國',
+    ...layout.anchor(100, 50),
+    r: 40,
+    strength: forceStrength,
+    color: scale(textMap.usa),
+    group: textMap.usa
+  },
+  {
     id: 'hk',
     name: '香港',
-    ...layout.anchor(4, 1),
+    ...layout.anchor(0, 50),
     r: 40,
     strength: forceStrength,
     color: scale(textMap.hk),
@@ -351,14 +353,15 @@ function makeGraph(vm) {
         gs.append('circle')
           .attr('cx', 0)
           .attr('cy', 0)
-          .attr('r', param.forceAnchor.r)
+          .attr('r', d => d.r)
           .attr('fill', 'none')
           .attr('stroke', d => d.color)
           .attr('stroke-width', 2)
           .attr('stroke-opacity', 0.35)
         gs.append('text')
-          .attr('x', param.forceAnchor.label.offsetX)
+          .attr('x', 0)
           .attr('y', param.forceAnchor.label.offsetY)
+          .attr('text-anchor', 'middle')
           .attr('fill', d => d.color)
           .attr('fill-opacity', 0.65)
           .attr('font-size', param.forceAnchor.label.fontSize)
