@@ -80,7 +80,7 @@ const param = {
     offsetY: 2
   },
   link: {
-    minDist: 20,
+    minDist: 16,
     maxDist: 120,
     strokeWidth: 1
   }
@@ -135,7 +135,7 @@ const linkDist = (link, i) => {
   return dist
 }
 const linkStrength = (link) => {
-  return 1 / Math.min(link.source.degree, link.target.degree) / 4
+  return 1 / Math.min(link.source.degree, link.target.degree) / 8
 }
 
 const linkLabelAlongLink = true
@@ -174,7 +174,7 @@ const customForces = [
   },
   {
     id: 'cn-rlg-org',
-    name: '宗教組織',
+    name: '宗教',
     ...layout.anchor(12, 0),
     r: 28,
     strength: forceStrength,
@@ -184,7 +184,7 @@ const customForces = [
   },
   {
     id: 'cn-ac',
-    name: '學術機構',
+    name: '學術',
     ...layout.anchor(25, 0),
     r: 28,
     strength: forceStrength,
@@ -194,7 +194,7 @@ const customForces = [
   },
   {
     id: 'cn-poli',
-    name: '政黨組織',
+    name: '政黨',
     ...layout.anchor(35, 0),
     r: 28,
     strength: forceStrength,
@@ -204,9 +204,9 @@ const customForces = [
   },
   {
     id: 'tw-gov',
-    name: '政府機構',
+    name: '政府',
     ...layout.anchor(0, 100),
-    r: 20,
+    r: 28,
     strength: forceStrength,
     color: scale(textMap.tw),
     group: textMap.tw,
@@ -224,9 +224,9 @@ const customForces = [
   },
   {
     id: 'tw-rlg-org',
-    name: '宗教組織',
+    name: '宗教',
     ...layout.anchor(10, 100),
-    r: 40,
+    r: 28,
     strength: forceStrength,
     color: scale(textMap.tw),
     group: textMap.tw,
@@ -234,7 +234,7 @@ const customForces = [
   },
   {
     id: 'tw-ac',
-    name: '學術機構',
+    name: '學術',
     ...layout.anchor(25, 100),
     r: 28,
     strength: forceStrength,
@@ -244,9 +244,9 @@ const customForces = [
   },
   {
     id: 'tw-poli',
-    name: '政黨組織',
+    name: '政黨',
     ...layout.anchor(35, 100),
-    r: 36,
+    r: 28,
     strength: forceStrength,
     color: scale(textMap.tw),
     group: textMap.tw,
@@ -363,7 +363,7 @@ function makeGraph(vm) {
           .attr('y', param.forceAnchor.label.offsetY)
           .attr('text-anchor', 'middle')
           .attr('fill', d => d.color)
-          .attr('fill-opacity', 0.65)
+          .attr('fill-opacity', 0.5)
           .attr('font-size', param.forceAnchor.label.fontSize)
           .text(d => d.name)
         return gs
