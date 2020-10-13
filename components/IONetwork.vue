@@ -64,7 +64,8 @@ const drag = simulation => {
 const width = 960
 const height = 720
 const param = {
-  forceAnchor: {
+  anchor: {
+    strength: 0.8,
     label: {
       fontSize: 8,
       offsetY: 3
@@ -82,6 +83,8 @@ const param = {
   link: {
     minDist: 16,
     maxDist: 120,
+    distCoef: 0.15,
+    strengthCoef: 0.1,
     strokeWidth: 1
   }
 }
@@ -127,7 +130,7 @@ const nodeCharge = (node, i) => {
 const linkDist = (link, i) => {
   let dist = param.link.minDist
   if(link.source && link.target && link.source.degree && link.target.degree) {
-    dist = Math.max(Math.max(link.source.degree, link.target.degree) / 10 * param.link.minDist, param.link.minDist)
+    dist = Math.max(Math.max(link.source.degree, link.target.degree) * param.link.distCoef * param.link.minDist, param.link.minDist)
   }
   if(highlyConnectedNodes.includes(link.target.name)) {
     dist = param.link.maxDist
@@ -135,19 +138,18 @@ const linkDist = (link, i) => {
   return dist
 }
 const linkStrength = (link) => {
-  return 1 / Math.min(link.source.degree, link.target.degree) / 8
+  return 1 / Math.min(link.source.degree, link.target.degree) * param.link.strengthCoef
 }
 
 const linkLabelAlongLink = true
 
-const forceStrength = 0.65
 const customForces = [
   {
     id: 'cn-gov',
     name: '中共、政府',
     ...layout.anchor(0, 0),
     r: 48,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['中共', '政府'].some(s => d.category.includes(s))
@@ -157,7 +159,7 @@ const customForces = [
     name: '官媒',
     ...layout.anchor(100, 0),
     r: 48,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['官媒'].some(s => d.category.includes(s))
@@ -167,7 +169,7 @@ const customForces = [
     name: '媒體',
     ...layout.anchor(100, 12),
     r: 32,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['媒體'].some(s => d.category.includes(s))
@@ -177,7 +179,7 @@ const customForces = [
     name: '宗教',
     ...layout.anchor(12, 0),
     r: 28,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['宗教'].some(s => d.category.includes(s))
@@ -187,7 +189,7 @@ const customForces = [
     name: '學術',
     ...layout.anchor(25, 0),
     r: 28,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['學術'].some(s => d.category.includes(s))
@@ -197,7 +199,7 @@ const customForces = [
     name: '政黨',
     ...layout.anchor(35, 0),
     r: 28,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['政黨'].some(s => d.category.includes(s))
@@ -207,7 +209,7 @@ const customForces = [
     name: '政府',
     ...layout.anchor(0, 100),
     r: 28,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['政府'].some(s => d.category.includes(s))
@@ -217,7 +219,7 @@ const customForces = [
     name: '民間',
     ...layout.anchor(50, 0),
     r: 68,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['民間', '企業'].some(s => d.category.includes(s))
@@ -227,7 +229,7 @@ const customForces = [
     name: '宗教',
     ...layout.anchor(10, 100),
     r: 28,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['宗教'].some(s => d.category.includes(s))
@@ -237,7 +239,7 @@ const customForces = [
     name: '學術',
     ...layout.anchor(25, 100),
     r: 28,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['學術'].some(s => d.category.includes(s))
@@ -247,7 +249,7 @@ const customForces = [
     name: '政黨',
     ...layout.anchor(35, 100),
     r: 28,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['政黨'].some(s => d.category.includes(s))
@@ -257,7 +259,7 @@ const customForces = [
     name: '民間',
     ...layout.anchor(50, 100),
     r: 68,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['民間', '企業'].some(s => d.category.includes(s))
@@ -267,7 +269,7 @@ const customForces = [
     name: '主流媒體',
     ...layout.anchor(80, 100),
     r: 40,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['主流媒體', '政論節目'].some(s => d.category.includes(s))
@@ -277,7 +279,7 @@ const customForces = [
     name: '社交媒體',
     ...layout.anchor(100, 100),
     r: 80,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['社交媒體', 'Fb'].some(s => d.category.includes(s))
@@ -287,7 +289,7 @@ const customForces = [
     name: '美國',
     ...layout.anchor(100, 50),
     r: 40,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.usa),
     group: textMap.usa
   },
@@ -296,7 +298,7 @@ const customForces = [
     name: '香港',
     ...layout.anchor(0, 50),
     r: 40,
-    strength: forceStrength,
+    strength: param.anchor.strength,
     color: scale(textMap.hk),
     group: textMap.hk
   }
@@ -360,11 +362,11 @@ function makeGraph(vm) {
           .attr('stroke-opacity', 0.35)
         gs.append('text')
           .attr('x', 0)
-          .attr('y', param.forceAnchor.label.offsetY)
+          .attr('y', param.anchor.label.offsetY)
           .attr('text-anchor', 'middle')
           .attr('fill', d => d.color)
           .attr('fill-opacity', 0.5)
-          .attr('font-size', param.forceAnchor.label.fontSize)
+          .attr('font-size', param.anchor.label.fontSize)
           .text(d => d.name)
         return gs
       })
@@ -444,7 +446,7 @@ export default {
   },
   mounted() {
     this.svg = d3.select(this.$refs.network).append('svg')
-    this.showDomains.push('B3') // init
+    this.showDomains.push('B5') // init
   },
   methods: {
     nodeClicked(event, d) {
