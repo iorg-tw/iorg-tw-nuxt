@@ -42,13 +42,11 @@ async function get() {
     console.error(error)
   }
 
+  allDomains = allDomains.filter(d => d.fields.show)
+  allDomains.sort((a, b) => a.fields.order - b.fields.order)
+
   let domainMap = Object.assign({}, ...allDomains.map(d => ({ [d.id]: d.fields.name })))
   allDomains = Object.values(domainMap)
-  allDomains.sort((a, b) => {
-    const p = +a.substring(1)
-    const q = +b.substring(1)
-    return !Number.isNaN(p) && !Number.isNaN(q) ? p - q : (a > b ? 1 : (a < b ? -1 : 0))
-  })
 
   allNodes = allNodes.filter(d => d.id && d.fields && d.fields.short_name).map(d => {
     const category = d.fields.category ? d.fields.category : 'default'
