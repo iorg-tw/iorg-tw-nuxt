@@ -83,8 +83,8 @@ const param = {
   link: {
     minDist: 16,
     maxDist: 120,
-    distCoef: 0.15,
-    strengthCoef: 0.1,
+    distCoef: 0.05,
+    strengthCoef: 0.2,
     strokeWidth: 1
   }
 }
