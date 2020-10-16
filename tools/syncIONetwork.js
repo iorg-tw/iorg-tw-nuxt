@@ -75,7 +75,7 @@ async function get() {
 
   allEdges = allEdges.filter(d => d.fields && Array.isArray(d.fields.from) && d.fields.from.length > 0 && Array.isArray(d.fields.to) && d.fields.to.length > 0 && d.fields.action).map(d => {
     let action = d.fields.action
-    let domains = d.fields.domains ? d.fields.domains.map(d => domainMap[d]) : []
+    let domains = d.fields.domains ? d.fields.domains.map(d => domainMap[d] ? domainMap[d] : null).filter(d => d !== null) : []
     let category = textMap.default
     for(const cat of edgeCategories) {
       if(cat.keywords.some(k => action.includes(k))) {
