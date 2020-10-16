@@ -6,6 +6,9 @@
         <input v-model="showDomains" :value="d" type="checkbox"> <label>{{ d }}</label>
       </div>
     </div>
+    <div class="panel">
+      <button @click="doExport">EXPLODE</button>
+    </div>
   </div>
   <div ref="network" class="network">
   </div>
@@ -303,6 +306,9 @@ const customForces = [
   }
 ]
 
+let links = []
+let nodes = []
+
 function makeGraph(vm) {
   console.info('make graph', ...vm.showDomains)
   vm.svg
@@ -310,9 +316,12 @@ function makeGraph(vm) {
     .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
-  const links = allLinks.filter(link => link.domains.some(d => vm.showDomains.includes(d))).map(link => Object.assign({}, link))
+  links = allLinks.filter(link => link.domains.some(d => vm.showDomains.includes(d))).map(link => Object.assign({}, link))
   const linkedNodes = links.map(link => [link.source, link.target]).flat()
-  const nodes = allNodes.filter(node => linkedNodes.includes(node.id)).map(node => Object.assign({}, node))
+  nodes = allNodes.filter(node => linkedNodes.includes(node.id)).map(node => Object.assign({}, node, {
+    fx: null,
+    fy: null
+  }))
 
   customNodes.forEach(customNode => {
     const node = nodes.find(d => d.name === customNode.name)
@@ -465,6 +474,14 @@ export default {
     canvasClicked(event, d) {
       this.datumType = null
       this.showDatum = false
+    },
+    doExport() {
+      const fixedNodes = nodes.filter(d => !(d.fx === null && d.fy === null)).map(d => Object.assign({}, {
+        id: d.id,
+        fx: d.fx,
+        fy: d.fy
+      }))
+      console.log(JSON.stringify(fixedNodes))
     }
   }
 }
