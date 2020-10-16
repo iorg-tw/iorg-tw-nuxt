@@ -52,8 +52,7 @@ const drag = simulation => {
     if(!event.active) {
       simulation.alphaTarget(0)
     }
-    event.subject.fx = event.subject.customX ? event.subject.customX : null
-    event.subject.fy = event.subject.customY ? event.subject.customY : null
+    // fix after drag ended
   }
   return d3.drag()
     .on('start', dragstarted)
