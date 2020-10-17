@@ -484,13 +484,20 @@ export default {
       this.showDatum = false
     },
     doExport() {
-      const fixedNodes = nodes.filter(d => !(d.fx === null && d.fy === null)).map(d => Object.assign({}, {
+      // nodes
+      const customizedNodes = []
+      customizedNodes.push(...nodes.filter(d => !(d.fx === null && d.fy === null)).map(d => Object.assign({}, {
         id: d.id,
         fx: d.fx,
         fy: d.fy
-      }))
+      })))
+
+      // links
+      // nothing yet
+
+      // config
       const config = {
-        fixedNodes
+        n: customizedNodes
       }
       console.log(JSON.stringify(config))
     },
