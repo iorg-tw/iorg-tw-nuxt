@@ -2,12 +2,16 @@
 <div :id="id" class="io-network">
   <div class="controls container">
     <div class="domains panel">
-      <div v-for="d of domains" :key="d" class="domain" :class="!Number.isNaN(+d.substring(1)) ? 'code' : 'text'">
-        <input v-model="showDomains" :value="d" type="checkbox"> <label>{{ d }}</label>
-      </div>
+      <label v-for="d of domains" :key="d" class="domain" :class="!Number.isNaN(+d.substring(1)) ? 'code' : 'text'">
+        <input v-model="showDomains" :value="d" type="checkbox"> <span>{{ d }}</span>
+      </label>
     </div>
     <div class="panel">
       <button @click="doExport">EXPLODE</button>
+    </div>
+    <div class="panel">
+      <textarea v-model="userConfig" class="config-editor"></textarea>
+      <button @click="doImport">IMPLODE</button>
     </div>
   </div>
   <div ref="network" class="network">
@@ -444,12 +448,16 @@ export default {
       datumType: null,
       showDatum: false,
       domains,
-      showDomains: []
+      showDomains: [],
+      userConfig: ''
     }
   },
   watch: {
     showDomains() {
       makeGraph(this)
+    },
+    userConfig() {
+      // do nothing for now
     }
   },
   mounted() {
@@ -481,7 +489,32 @@ export default {
         fx: d.fx,
         fy: d.fy
       }))
-      console.log(JSON.stringify(fixedNodes))
+      const config = {
+        fixedNodes
+      }
+      console.log(JSON.stringify(config))
+    },
+    doImport() {
+      let config = {}
+      try {
+        config = JSON.parse(this.userConfig)
+      } catch(e) {
+        console.error(e)
+      }
+      // nodes
+      if(Array.isArray(config.n)) {
+        config.n.filter(n => n !== null && typeof n === 'object').forEach(d => {
+          const targetNode = nodes.find(n => n.id === d.id)
+          if(targetNode) {
+            if(Number.isFinite(d.fx)) {
+              targetNode.fx = d.fx
+            }
+            if(Number.isFinite(d.fy)) {
+              targetNode.fy = d.fy
+            }
+          }
+        })
+      }
     }
   }
 }
@@ -493,9 +526,10 @@ export default {
   position: relative;
   > .controls {
     position: sticky;
-    top: 0;
+    top: 0.5rem;
     left: 0;
-    margin: 0;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
     font-size: 0.875rem;
     > .panel {
       background-color: white;
@@ -515,6 +549,20 @@ export default {
           }
         }
       }
+    }
+    .config-editor {
+      display: block;
+      width: 6rem;
+      height: 3rem;
+      tab-size: 2;
+      font-family: "SF Mono", "Monaco", monospace;
+      font-size: 0.625rem;
+      margin-bottom: 0.25rem;
+    }
+    button {
+      appearance: none;
+      margin: 0;
+      padding: 0.25rem;
     }
   }
   > .network {
