@@ -10,6 +10,12 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+input, button {
+  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 * {
   &, &:before, &:after {
     box-sizing: border-box;
