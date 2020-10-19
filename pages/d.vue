@@ -16,7 +16,7 @@
 <script>
 import home from '~/data/home.js'
 
-const targetID = 'model-1-tw'
+const targetID = 'model-2-tw'
 
 export default {
   data() {
