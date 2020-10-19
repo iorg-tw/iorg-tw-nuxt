@@ -1,17 +1,23 @@
 <template>
 <div :id="id" class="io-network">
   <div class="controls container">
-    <div class="domains panel">
+    <div v-if="!showAdvCtrl" class="panel">
+      <button v-for="d of domains" :key="d" class="domain" @click="switchDomain(d)">{{ d }}</button>
+    </div>
+    <div v-if="showAdvCtrl" class="domains-multiselect panel">
       <label v-for="d of domains" :key="d" class="domain" :class="!Number.isNaN(+d.substring(1)) ? 'code' : 'text'">
         <input v-model="showDomains" :value="d" type="checkbox"> <span>{{ d }}</span>
       </label>
     </div>
-    <div class="panel">
+    <div v-if="showAdvCtrl" class="panel">
       <button @click="doExport">EXPLODE</button>
     </div>
-    <div class="panel">
+    <div v-if="showAdvCtrl" class="panel">
       <textarea v-model="userConfig" class="config-editor"></textarea>
       <button @click="doImport">IMPLODE</button>
+    </div>
+    <div class="panel">
+      <button @click="showAdvCtrl = !showAdvCtrl">{{ showAdvCtrl ? 'BACK' : 'DO NOT PUSH' }}</button>
     </div>
   </div>
   <div ref="network" class="network">
@@ -449,7 +455,8 @@ export default {
       showDatum: false,
       domains,
       showDomains: [],
-      userConfig: ''
+      userConfig: '',
+      showAdvCtrl: false
     }
   },
   watch: {
@@ -482,6 +489,9 @@ export default {
     canvasClicked(event, d) {
       this.datumType = null
       this.showDatum = false
+    },
+    switchDomain(domain) {
+      this.showDomains = [domain]
     },
     doExport() {
       // nodes
@@ -544,7 +554,7 @@ export default {
       border-radius: 0.25rem;
       @include shadow;
 
-      &.domains {
+      &.domains-multiselect {
         display: flex;
         flex-wrap: wrap;
         > .domain {
