@@ -34,19 +34,19 @@ async function get() {
   let allDomains
   let allNodes
   let allEdges
+  let allLayouts
   try {
     allDomains = await getList('domains')
     allNodes = await getList('nodes')
     allEdges = await getList('edges')
+    allLayouts = await getList('layouts')
   } catch(error) {
     console.error(error)
   }
 
   allDomains = allDomains.filter(d => d.fields.show)
   allDomains.sort((a, b) => a.fields.order - b.fields.order)
-
-  let domainMap = Object.assign({}, ...allDomains.map(d => ({ [d.id]: d.fields.name })))
-  allDomains = Object.values(domainMap)
+  allDomains = Object.assign({}, ...allDomains.map(d => ({ [d.id]: d.fields.name })))
 
   allNodes = allNodes.filter(d => d.id && d.fields && d.fields.short_name).map(d => {
     const category = d.fields.category ? d.fields.category : 'default'
@@ -75,7 +75,7 @@ async function get() {
 
   allEdges = allEdges.filter(d => d.fields && Array.isArray(d.fields.from) && d.fields.from.length > 0 && Array.isArray(d.fields.to) && d.fields.to.length > 0 && d.fields.action).map(d => {
     let action = d.fields.action
-    let domains = d.fields.domains ? d.fields.domains.map(d => domainMap[d] ? domainMap[d] : null).filter(d => d !== null) : []
+    let domains = d.fields.domains ? d.fields.domains : []
     let category = textMap.default
     for(const cat of edgeCategories) {
       if(cat.keywords.some(k => action.includes(k))) {
@@ -94,13 +94,14 @@ async function get() {
     }
   })
 
+  // calculate degree for nodes
   for(const node of allNodes) {
     node.degree += allEdges.filter(edge => edge.source === node.id).length
     node.degree += allEdges.filter(edge => edge.target === node.id).length
   }
 
-  for(const domain of allDomains) {
-    const edges = allEdges.filter(edge => edge.domains.some(d => d === domain))
+  for(const domainID in allDomains) {
+    const edges = allEdges.filter(edge => edge.domains.some(d => d === domainID))
 
     // trace up the command chain
     const linkedNodes = edges.map(edge => [edge.source, edge.target]).flat()
@@ -115,17 +116,30 @@ async function get() {
       nc += 1
     }
 
+    // add domains to edges
     for(const edge of edges) {
-      if(!edge.domains.includes(domain)) {
-        edge.domains.push(domain)
+      if(!edge.domains.includes(domainID)) {
+        edge.domains.push(domainID)
       }
     }
   }
+
+  allLayouts.sort((a, b) => a.fields.order - b.fields.order)
+  allLayouts = allLayouts.map(l => {
+    const config = JSON.parse(l.fields.config)
+    return {
+      id: l.fields.id,
+      name: l.fields.name,
+      domains: l.fields.domains ? l.fields.domains : [],
+      ...config
+    }
+  })
 
   try {
     fs.writeFileSync('data/ion/domains.json', JSON.stringify(allDomains, null, '\t'))
     fs.writeFileSync('data/ion/nodes.json', JSON.stringify(allNodes, null, '\t'))
     fs.writeFileSync('data/ion/edges.json', JSON.stringify(allEdges, null, '\t'))
+    fs.writeFileSync('data/ion/layouts.json', JSON.stringify(allLayouts, null, '\t'))
   } catch(error) {
     console.error(error)
   }
