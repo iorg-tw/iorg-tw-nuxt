@@ -1,23 +1,21 @@
 <template>
 <div :id="id" class="io-network">
   <div class="controls container">
-    <div v-if="!showAdvCtrl" class="panel">
-      <button v-for="d of domains" :key="d" class="domain" @click="switchDomain(d)">{{ d }}</button>
+    <div v-if="!isEditMode" class="panel">
+      <button v-for="l of allLayouts" :key="l.id" class="layout" @click="activeLayoutID = l.id" :disabled="activeLayoutID === l.id">{{ l.name }}</button>
     </div>
-    <div v-if="showAdvCtrl" class="domains-multiselect panel">
-      <label v-for="d of domains" :key="d" class="domain" :class="!Number.isNaN(+d.substring(1)) ? 'code' : 'text'">
-        <input v-model="showDomains" :value="d" type="checkbox"> <span>{{ d }}</span>
+    <div v-if="isEditMode" class="domains-multiselect panel">
+      <label v-for="(d, domainID) in allDomains" :key="domainID" class="domain" :class="!Number.isNaN(+d.substring(1)) ? 'code' : 'text'">
+        <input v-model="layoutEditor.domains" :value="domainID" type="checkbox"> <span>{{ d }}</span>
       </label>
     </div>
-    <div v-if="showAdvCtrl" class="panel">
-      <button @click="doExport">EXPLODE</button>
-    </div>
-    <div v-if="showAdvCtrl" class="panel">
-      <textarea v-model="userConfig" class="config-editor"></textarea>
-      <button @click="doImport">IMPLODE</button>
+    <div v-if="isEditMode" class="panel">
+      <textarea v-model="userString" class="layout-editor"></textarea>
+      <button @click="doExport">EXP</button>
+      <button @click="doImport">IMP</button>
     </div>
     <div class="panel">
-      <button @click="showAdvCtrl = !showAdvCtrl">{{ showAdvCtrl ? 'BACK' : 'DO NOT PUSH' }}</button>
+      <button @click="toggleEditMode">{{ isEditMode ? '←' : '→' }}</button>
     </div>
   </div>
   <div ref="network" class="network">
@@ -41,9 +39,10 @@
 <script>
 import { v4 as uuidv4 } from 'uuid'
 import * as d3 from 'd3'
-import domains from '~/data/ion/domains'
+import allDomains from '~/data/ion/domains'
 import allNodes from '~/data/ion/nodes'
 import allLinks from '~/data/ion/edges'
+import allLayouts from '~/data/ion/layouts'
 import { textMap } from '~/lib/const'
 
 // based on https://observablehq.com/@d3/force-directed-graph
@@ -98,16 +97,15 @@ const param = {
     distCoef: 0.05,
     strengthCoef: 0.2,
     strokeWidth: 1
+  },
+  layout: {
+    margin: 100
   }
 }
-const layout = {
-  margin: 100
-}
 const getAnchorByPercentage = (p, q) => ({
-  x: p / 100 * (width - 2 * layout.margin) + layout.margin,
-  y: q / 100 * (height - 2 * layout.margin) + layout.margin
+  x: p / 100 * (width - 2 * param.layout.margin) + param.layout.margin,
+  y: q / 100 * (height - 2 * param.layout.margin) + param.layout.margin
 })
-layout.anchor = getAnchorByPercentage
 
 const customNodes = [
   {
@@ -159,7 +157,7 @@ const customForces = [
   {
     id: 'cn-gov',
     name: '中共、政府',
-    ...layout.anchor(0, 0),
+    ...getAnchorByPercentage(0, 0),
     r: 48,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -169,7 +167,7 @@ const customForces = [
   {
     id: 'cn-ccp-media',
     name: '官媒',
-    ...layout.anchor(100, 0),
+    ...getAnchorByPercentage(100, 0),
     r: 48,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -179,7 +177,7 @@ const customForces = [
   {
     id: 'cn-media',
     name: '媒體',
-    ...layout.anchor(100, 12),
+    ...getAnchorByPercentage(100, 12),
     r: 32,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -189,7 +187,7 @@ const customForces = [
   {
     id: 'cn-rlg-org',
     name: '宗教',
-    ...layout.anchor(12, 0),
+    ...getAnchorByPercentage(12, 0),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -199,7 +197,7 @@ const customForces = [
   {
     id: 'cn-ac',
     name: '學術',
-    ...layout.anchor(25, 0),
+    ...getAnchorByPercentage(25, 0),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -209,7 +207,7 @@ const customForces = [
   {
     id: 'cn-poli',
     name: '政黨',
-    ...layout.anchor(35, 0),
+    ...getAnchorByPercentage(35, 0),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -219,7 +217,7 @@ const customForces = [
   {
     id: 'tw-gov',
     name: '政府',
-    ...layout.anchor(0, 100),
+    ...getAnchorByPercentage(0, 100),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
@@ -229,7 +227,7 @@ const customForces = [
   {
     id: 'cn-cso',
     name: '民間',
-    ...layout.anchor(50, 0),
+    ...getAnchorByPercentage(50, 0),
     r: 68,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -239,7 +237,7 @@ const customForces = [
   {
     id: 'tw-rlg-org',
     name: '宗教',
-    ...layout.anchor(10, 100),
+    ...getAnchorByPercentage(10, 100),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
@@ -249,7 +247,7 @@ const customForces = [
   {
     id: 'tw-ac',
     name: '學術',
-    ...layout.anchor(25, 100),
+    ...getAnchorByPercentage(25, 100),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
@@ -259,7 +257,7 @@ const customForces = [
   {
     id: 'tw-poli',
     name: '政黨',
-    ...layout.anchor(35, 100),
+    ...getAnchorByPercentage(35, 100),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
@@ -269,7 +267,7 @@ const customForces = [
   {
     id: 'tw-cso',
     name: '民間',
-    ...layout.anchor(50, 100),
+    ...getAnchorByPercentage(50, 100),
     r: 68,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
@@ -279,7 +277,7 @@ const customForces = [
   {
     id: 'tw-media',
     name: '主流媒體',
-    ...layout.anchor(80, 100),
+    ...getAnchorByPercentage(80, 100),
     r: 40,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
@@ -289,7 +287,7 @@ const customForces = [
   {
     id: 'tw-social-media',
     name: '社交媒體',
-    ...layout.anchor(100, 100),
+    ...getAnchorByPercentage(100, 100),
     r: 80,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
@@ -299,7 +297,7 @@ const customForces = [
   {
     id: 'usa',
     name: '美國',
-    ...layout.anchor(100, 50),
+    ...getAnchorByPercentage(100, 50),
     r: 40,
     strength: param.anchor.strength,
     color: scale(textMap.usa),
@@ -308,7 +306,7 @@ const customForces = [
   {
     id: 'hk',
     name: '香港',
-    ...layout.anchor(0, 50),
+    ...getAnchorByPercentage(0, 50),
     r: 40,
     strength: param.anchor.strength,
     color: scale(textMap.hk),
@@ -319,14 +317,18 @@ const customForces = [
 let links = []
 let nodes = []
 
-function makeGraph(vm) {
-  console.info('make graph', ...vm.showDomains)
+function draw(vm) {
+  console.info('draw')
+  if(vm.isLocked) {
+    return
+  }
+  vm.isLocked = true
   vm.svg
     .attr('viewBox', [0, 0, width, height])
     .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
-  links = allLinks.filter(link => link.domains.some(d => vm.showDomains.includes(d))).map(link => Object.assign({}, link))
+  links = allLinks.filter(link => link.domains.some(d => vm.layoutEditor.domains.includes(d))).map(link => Object.assign({}, link))
   const linkedNodes = links.map(link => [link.source, link.target]).flat()
   nodes = allNodes.filter(node => linkedNodes.includes(node.id)).map(node => Object.assign({}, node, {
     fx: null,
@@ -344,6 +346,20 @@ function makeGraph(vm) {
       }
     }
   })
+
+  if(Array.isArray(vm.layoutEditor.n)) {
+    vm.layoutEditor.n.filter(n => n !== null && typeof n === 'object').forEach(d => {
+      const targetNode = nodes.find(n => n.id === d.id)
+      if(targetNode) {
+        if(Number.isFinite(d.fx)) {
+          targetNode.fx = d.fx
+        }
+        if(Number.isFinite(d.fy)) {
+          targetNode.fy = d.fy
+        }
+      }
+    })
+  }
 
   let simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(linkDist).strength(linkStrength))
@@ -443,6 +459,15 @@ function makeGraph(vm) {
     node
       .attr('transform', d => `translate(${d.x}, ${d.y})`)
   })
+
+  vm.isLocked = false
+}
+
+function resetLayout() {
+  for(const node of nodes) {
+    node.fx = null
+    node.fy = null
+  }
 }
 
 export default {
@@ -453,23 +478,49 @@ export default {
       datum: null,
       datumType: null,
       showDatum: false,
-      domains,
-      showDomains: [],
-      userConfig: '',
-      showAdvCtrl: false
+      allDomains,
+      allLayouts,
+      activeLayoutID: null,
+      userString: null,
+      isEditMode: false,
+      isLocked: false,
+      layoutEditor: {
+        domains: [],
+        n: []
+      }
     }
   },
   watch: {
-    showDomains() {
-      makeGraph(this)
+    activeLayoutID() {
+      console.log('layout:', this.activeLayoutID)
+      let redraw = false
+      const nextLayout = this.allLayouts.find(l => l.id === this.activeLayoutID)
+      if(nextLayout) {
+        this.layoutEditor.n.length = 0
+        this.layoutEditor.n.push(...nextLayout.n)
+        this.layoutEditor.domains.length = 0
+        this.layoutEditor.domains.push(...nextLayout.domains)
+        redraw = true
+      } else {
+        // ...
+      }
+      if(redraw) {
+        draw(this)
+      }
     },
-    userConfig() {
+    userString() {
       // do nothing for now
+    },
+    'layoutEditor.domains'() {
+      console.log('domains:', this.layoutEditor.domains)
+      if(this.isEditMode && !this.isLocked) {
+        draw(this)
+      }
     }
   },
   mounted() {
     this.svg = d3.select(this.$refs.network).append('svg')
-    this.showDomains.push('B5') // init
+    this.activeLayoutID = 'b5' // default
   },
   methods: {
     nodeClicked(event, d) {
@@ -490,8 +541,30 @@ export default {
       this.datumType = null
       this.showDatum = false
     },
-    switchDomain(domain) {
-      this.showDomains = [domain]
+    toggleEditMode() {
+      const next = !this.isEditMode
+      if(next) {
+        // do something before entering edit mode
+        this.layoutEditor.n.length = 0
+        resetLayout()
+      }
+      this.isEditMode = next
+    },
+    doImport() {
+      let importedLayout = {}
+      try {
+        importedLayout = JSON.parse(this.userString)
+      } catch(e) {
+        console.error(e)
+      }
+
+      if(Array.isArray(importedLayout.domains) && Array.isArray(importedLayout.n)) {
+        this.layoutEditor.n.length = 0
+        this.layoutEditor.n.push(...importedLayout.n)
+        this.layoutEditor.domains.length = 0
+        this.layoutEditor.domains.push(...importedLayout.domains)
+        this.activeLayoutID = 'imported-' + (new Date()).getTime()
+      }
     },
     doExport() {
       // nodes
@@ -505,33 +578,9 @@ export default {
       // links
       // nothing yet
 
-      // config
-      const config = {
-        n: customizedNodes
-      }
-      console.log(JSON.stringify(config))
-    },
-    doImport() {
-      let config = {}
-      try {
-        config = JSON.parse(this.userConfig)
-      } catch(e) {
-        console.error(e)
-      }
-      // nodes
-      if(Array.isArray(config.n)) {
-        config.n.filter(n => n !== null && typeof n === 'object').forEach(d => {
-          const targetNode = nodes.find(n => n.id === d.id)
-          if(targetNode) {
-            if(Number.isFinite(d.fx)) {
-              targetNode.fx = d.fx
-            }
-            if(Number.isFinite(d.fy)) {
-              targetNode.fy = d.fy
-            }
-          }
-        })
-      }
+      // layout
+      this.layoutEditor.n = customizedNodes
+      console.log(JSON.stringify(this.layoutEditor))
     }
   }
 }
@@ -567,9 +616,9 @@ export default {
         }
       }
     }
-    .config-editor {
+    .layout-editor {
       display: block;
-      width: 6rem;
+      width: 100%;
       height: 3rem;
       tab-size: 2;
       font-family: "SF Mono", "Monaco", monospace;
