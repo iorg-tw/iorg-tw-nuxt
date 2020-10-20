@@ -126,11 +126,10 @@ async function get() {
 
   allLayouts.sort((a, b) => a.fields.order - b.fields.order)
   allLayouts = allLayouts.map(l => {
-    const config = JSON.parse(l.fields.config)
+    const config = JSON.parse(l.fields.config ? l.fields.config : '{}')
     return {
       id: l.fields.id,
       name: l.fields.name,
-      domains: l.fields.domains ? l.fields.domains : [],
       ...config
     }
   })
