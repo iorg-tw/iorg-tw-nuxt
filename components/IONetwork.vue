@@ -14,6 +14,9 @@
       <button @click="doExport">EXP</button>
       <button @click="doImport">IMP</button>
     </div>
+    <div v-else class="panel">
+      <button @click="doExport">EXP</button>
+    </div>
     <div class="panel">
       <button @click="toggleEditMode">{{ isEditMode ? '←' : '→' }}</button>
     </div>
