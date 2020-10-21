@@ -17,8 +17,8 @@ export default {
         {
           type: 'report',
           name: '閱讀更多',
-          image: '/images/iorg-model-1-tw-cover.png',
-          url: 'https://github.com/iorg-tw/documents/raw/master/iorg-model-1-tw.pdf'
+          image: '/images/iorg-model-2-tw-cover.png',
+          url: 'https://iorg-tw.github.io/documents/iorg-model-2-tw.pdf'
         }
       ]
     }
