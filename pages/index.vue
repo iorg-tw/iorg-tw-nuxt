@@ -116,10 +116,10 @@ section {
       }
       > h2 {
         margin: 0.5rem 0 0.125rem;
-        font-size: 0.75rem;
+        font-size: 0.875rem;
       }
       > .description {
-        font-size: 0.75rem;
+        font-size: 0.875rem;
       }
     }
   }
