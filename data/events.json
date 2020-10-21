@@ -291,6 +291,26 @@
 	},
 	{
 		"show": true,
+		"area": "桃園",
+		"name": "中大壢中",
+		"loc": null,
+		"year": 2020,
+		"date": "10/14",
+		"dow": "三",
+		"time": "8:00-15:00"
+	},
+	{
+		"show": true,
+		"area": "台中",
+		"name": "豐原高中",
+		"loc": null,
+		"year": 2020,
+		"date": "10/19",
+		"dow": "一",
+		"time": "10:00-12:00"
+	},
+	{
+		"show": true,
 		"area": "苗栗",
 		"name": "聯合大學二坪林校區",
 		"loc": "教學大樓三棟 K3 202",
@@ -301,13 +321,33 @@
 	},
 	{
 		"show": true,
+		"area": "桃園",
+		"name": "中大壢中",
+		"loc": null,
+		"year": 2020,
+		"date": "10/21",
+		"dow": "三",
+		"time": "8:00-15:00"
+	},
+	{
+		"show": true,
 		"area": "高雄",
 		"name": "中山大學學生會",
 		"loc": null,
 		"year": 2020,
-		"date": "10/7",
+		"date": "10/21",
 		"dow": "三",
 		"time": "16:30-18:30"
+	},
+	{
+		"show": true,
+		"area": "新竹",
+		"name": "瓦當人文書屋",
+		"loc": null,
+		"year": 2020,
+		"date": "10/25",
+		"dow": "日",
+		"time": "14:30-17:30"
 	},
 	{
 		"show": true,
