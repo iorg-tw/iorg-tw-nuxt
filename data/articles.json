@@ -1,4 +1,25 @@
 {
+	"chenchu": {
+		"published": true,
+		"type": "article",
+		"id": "chenchu",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRzs-WR1eodNZ8hlGIl2vUiUcSctdRC9f4uvQifz_AFFzrFIeJg4u6MLH__DC0eIITJIqX5XtISwXHI/pub",
+		"publishedAt": "2020/10/21 18:00",
+		"title": "「陳菊貪污」連調查局也看不下去？",
+		"coverImage": "https://lh3.googleusercontent.com/oA3vVs3_P3Bw2cCCUcWnJetvjBTQ5-_NfknCDDvZnBQf9hFg-F-Nv6GEN3F8aE8BQIPB9Zt3s1hZ8lkzaFVIR4mJ61CX9tPbGwDVxWxOTVBfz3BFdYbh3Ygtlm4HJWN-Sg",
+		"authorInfo": [
+			"作者／徐曉強",
+			"編輯／游知澔、IORG 研究總部"
+		],
+		"summary": "2019 年 4 月初，中國類官媒《鳳凰新聞社》刊出一篇指控現任監察院長陳菊在高雄市長任內貪污的文章。文章內容隨後被台灣 Facebook 使用者截取，加上「調查局官員傳出」、「調查局內部官員實在看不下去」等字樣，轉發在其他 Facebook 社團，營造公務人員也不信任政府的觀點。2020 年 1 月台灣總統大選前，只要出現重大政治新聞事件，「陳菊貪污」的訊息就會出現在社交媒體上，儘管調查局在 11/21 日發布新聞稿，澄清「陳菊貪污」相關訊息為假訊息，訊息數量仍在 12 月時達到高峰，選後則回歸常態。根據 IORG 研究調查，「調查局內部官員實在看不下去」的假訊息並未進入台灣主流媒體、 政論節目。",
+		"tags": [
+			"中國對台資訊操弄",
+			"鳳凰新聞社",
+			"陳菊貪污",
+			"調查局內部官員",
+			"實在看不下去"
+		]
+	},
 	"fan-y": {
 		"published": true,
 		"type": "video",
