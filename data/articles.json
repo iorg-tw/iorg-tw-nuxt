@@ -1,4 +1,25 @@
 {
+	"china-russia-us-el": {
+		"published": true,
+		"type": "article",
+		"id": "china-russia-us-el",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT3oHGKhiNFSkB71tV1ACQFeSdWYlEiqwoXxMAQ7Ncc8MBdq9BDDlhVXYDVtoBoQGMlVCTwnihBHtEA/pub",
+		"publishedAt": "2020/10/21 18:00",
+		"title": "一個支持拜登、一個支持川普？中俄「介入」美國選舉方式大不同",
+		"coverImage": "https://lh4.googleusercontent.com/hpa3ojHC4usQpm7ZtsohkaA2FRHEItf1CiifvTB575Y0ZrN4Y1DZnn01PQwOE6Ao4yLTTJ2FtMeJuwVio2LPm5bgKxKVB9WgKf1Lz16T7L_ghFjiXDm10cBfJ8mzkmccLA",
+		"authorInfo": [
+			"作者／李可心、徐曉強",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "根據美國國家反情報和安全中心主任 8 月公布的一份聲明，中國和俄國被點名試圖影響 2020 年美國大選，但其實兩國介入大選的手段和目的大相徑庭。中國欲對美國進行長期的認知戰，建立符合中國利益的穩定友好兩邊關係，因此中國在疫情、選舉期間對美進行的資訊操弄，包括 IORG 先前研究「光復美國」事件所顯示的，並沒有明顯支持或反對特定美國總統候選人，而是藉由大選竊取更多美國人民、政府相關資訊做長期策略規劃。俄國則是基於地緣政治和國家安全考量，更願意透過資訊操弄、駭客等方式積極地介入美國總統大選，以實際行動支持或攻擊特定候選人，以確保符合自身國家利益的候選人當選。",
+		"tags": [
+			"美國大選",
+			"外國干預",
+			"中國",
+			"俄國",
+			"駭客攻擊"
+		]
+	},
 	"chenchu": {
 		"published": true,
 		"type": "article",
