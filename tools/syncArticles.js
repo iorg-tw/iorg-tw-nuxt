@@ -27,6 +27,7 @@ async function sheetToJSON(sheet, type) {
 
 	for(let id in dict) {
 		let article = dict[id]
+		console.info(article.publicURL)
 		let doc = await getDoc(article.publicURL)
 		delete doc.summaryHTML
 		delete doc.html
