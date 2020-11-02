@@ -19,6 +19,7 @@ async function get() {
     area: row.area.trim(),
     name: row.name.trim(),
     loc: row.loc ? row.loc.trim() : null,
+    slogan: row.slogan ? row.slogan.trim(): null,
     year: +row.year,
     date: row.date,
     dow: row.dow,

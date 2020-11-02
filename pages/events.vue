@@ -19,6 +19,7 @@ en:
           <label class="date">{{ event.displayDate }}</label>
           <label class="area">{{ event.area }}</label>
         </div>
+        <div class="slogan">{{ event.slogan }}</div>
         <h3>{{ event.name }}</h3>
         <h4>{{ event.loc }}</h4>
         <p>{{ event.time }}</p>
@@ -75,6 +76,11 @@ export default {
             font-size: 0.875rem;
             margin-left: 0.25rem;
           }
+        }
+        > .slogan {
+          margin-top: 0.125rem;
+          font-size: 0.875rem;
+          color: var(--iorg-accent);
         }
         > h3 {
           margin: 0.125rem 0;
