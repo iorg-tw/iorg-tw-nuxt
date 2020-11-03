@@ -452,6 +452,17 @@
 	},
 	{
 		"show": true,
+		"area": "馬祖",
+		"name": "刺鳥書店",
+		"loc": null,
+		"slogan": null,
+		"year": 2020,
+		"date": "11/15",
+		"dow": "日",
+		"time": "19:00-21:00"
+	},
+	{
+		"show": true,
 		"area": "台南",
 		"name": "台南二中",
 		"loc": null,
@@ -493,6 +504,17 @@
 		"date": "11/25",
 		"dow": "三",
 		"time": "14:00-16:00"
+	},
+	{
+		"show": true,
+		"area": "南投",
+		"name": "縣議員廖梓佑服務處",
+		"loc": null,
+		"slogan": null,
+		"year": 2020,
+		"date": "11/28",
+		"dow": "六",
+		"time": "14:00-17:00"
 	},
 	{
 		"show": true,
