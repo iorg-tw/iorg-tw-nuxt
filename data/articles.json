@@ -1,4 +1,25 @@
 {
+	"audrey-tang": {
+		"published": true,
+		"type": "video",
+		"id": "audrey-tang",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQL9gcgGPIQSgi4PnKtmcDEur_mq_QkmayYPZn_jJkcBgxnfPDODBztJPX_lei3PyvlPh8qNWzlPbH0/pub",
+		"publishedAt": "2020/11/6 18:00",
+		"title": "「資訊操弄」怎麼防治？唐鳳：小學生、中學生都能加入／心慌保全來訪問 Ep.6",
+		"coverImage": "https://lh5.googleusercontent.com/rsBmEPesZr3rXgW4ChdlXQVR7Qhe3nVJo6zumjeNPsriokOMSSK0SSE_eEG1Bacf6okp7S1IlajFKcchGTTb7E5eY7hIyjwdRX-UnXfyOBMi91HEH6Z1Wn0g8P2D1JI49Q",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 6 集，訪問了政務委員唐鳳，她舉例訊息操弄帶來的平行世界讓事實查核變得困難，但只要多做「來源查核」，連小學生都可以加入抵抗的行列，並提出「不活化的病毒就是疫苗」⋯⋯",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"政務委員",
+			"唐鳳",
+			"增幅"
+		]
+	},
 	"ru-collaborators": {
 		"published": true,
 		"type": "article",
