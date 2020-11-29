@@ -474,6 +474,17 @@
 	},
 	{
 		"show": true,
+		"area": "台南",
+		"name": "午營咖啡",
+		"loc": null,
+		"slogan": null,
+		"year": 2020,
+		"date": "11/20",
+		"dow": "五",
+		"time": "19:30-21:30"
+	},
+	{
+		"show": true,
 		"area": "桃園",
 		"name": "南崁國中",
 		"loc": null,
@@ -604,25 +615,26 @@
 		"dow": "六"
 	},
 	{
-		"show": false,
+		"show": true,
 		"area": "苗栗",
 		"name": "苑裡掀海風",
 		"loc": null,
 		"slogan": null,
 		"year": 2020,
 		"date": "12/13",
-		"dow": "日"
+		"dow": "日",
+		"time": "14:00-17:00"
 	},
 	{
 		"show": true,
-		"area": "台中",
-		"name": "台中教育大學學生議會",
+		"area": "高雄",
+		"name": "新莊國中",
 		"loc": null,
 		"slogan": null,
 		"year": 2020,
 		"date": "12/14",
 		"dow": "一",
-		"time": "19:00-21:00"
+		"time": "13:00-15:00"
 	},
 	{
 		"show": true,
@@ -634,5 +646,16 @@
 		"date": "12/16",
 		"dow": "三",
 		"time": "13:30-15:30"
+	},
+	{
+		"show": true,
+		"area": "台中",
+		"name": "台中教育大學學生議會",
+		"loc": null,
+		"slogan": null,
+		"year": 2020,
+		"date": "12/21",
+		"dow": "一",
+		"time": "19:00-21:00"
 	}
 ]
