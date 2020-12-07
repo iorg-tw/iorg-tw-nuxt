@@ -1,4 +1,44 @@
 {
+	"chen-pw": {
+		"published": true,
+		"type": "video",
+		"id": "chen-pw",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCNmhFKD7zxkOChCKYrOgyxuMauiszl35ifvUn1WEA_Tkjjj0H0vnEN2cRPX1U-ML6x-jRs2RyxmIi/pub",
+		"publishedAt": "2020/12/7 19:00",
+		"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄／心慌保全來訪問 Ep.9／",
+		"coverImage": "https://lh3.googleusercontent.com/4mTxkmh-uTeguoJPdCb05qYSpZtTTasr2K3d9XO_ZDiDThDiCDfyn_7DzAp1UujWOjRx1qAXZHabL9ha0dSw4QfF9cicKmfYWvGD2dV8B5HuetORL3u-mY0E2iGIIi8uYQ",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 9 集，我們訪問了立法委員陳柏惟，「中國已經把我們設定為代理人，為什麼我們不把他設定回來？」他提出資金來源、代理人法及公職陽光法案，以三個面向，力斬資訊操弄！",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立法委員",
+			"吳思瑤"
+		]
+	},
+	"wu-sy": {
+		"published": true,
+		"type": "video",
+		"id": "wu-sy",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR9WsAiyUHMAkgiyHWEU3gcCRf34-8b6RQQrrPY61DQBuviX8RUgrRSJTTAuolndd-eaPol__PWwkv-/pub",
+		"publishedAt": "2020/12/7 19:00",
+		"title": "立委吳思瑤：每天開門就要應付資訊操弄，對政府是一種內耗／心慌保全來訪問 Ep.8",
+		"coverImage": "https://lh5.googleusercontent.com/lz3iNeIXKMp9l-k6ImnPuwFAgwsk5ZSSiNb9D5SbCP8w4LpwspqRIQmzmqeQvF2DZfp1MJ5zd-YR_6V_SlUL0Ay6mlNO-IP0hfU-leLPGMgt-sb-arg_DvaQW2PKG67S-g",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 8 集，我們訪問了立法委員吳思瑤，她表示每天睜開眼就有上千通的資訊要協助澄清，對政府來說是一種內耗⋯⋯",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立法委員",
+			"吳思瑤"
+		]
+	},
 	"chen-yu-chen": {
 		"published": true,
 		"type": "video",
