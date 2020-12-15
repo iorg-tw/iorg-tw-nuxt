@@ -605,25 +605,15 @@
 		"time": "19:00-21:00"
 	},
 	{
-		"show": false,
-		"area": "屏東",
-		"name": "潮州",
-		"loc": null,
-		"slogan": null,
-		"year": 2020,
-		"date": "12/12",
-		"dow": "六"
-	},
-	{
 		"show": true,
-		"area": "苗栗",
-		"name": "苑裡掀海風",
+		"area": "台中",
+		"name": "引書店",
 		"loc": null,
 		"slogan": null,
 		"year": 2020,
-		"date": "12/13",
-		"dow": "日",
-		"time": "14:00-17:00"
+		"date": "12/11",
+		"dow": "五",
+		"time": "19:00-21:00"
 	},
 	{
 		"show": true,
@@ -649,6 +639,17 @@
 	},
 	{
 		"show": true,
+		"area": "高雄",
+		"name": "左營高中",
+		"loc": null,
+		"slogan": null,
+		"year": 2020,
+		"date": "12/17",
+		"dow": "四",
+		"time": "13:30-15:30"
+	},
+	{
+		"show": true,
 		"area": "台中",
 		"name": "台中教育大學學生議會",
 		"loc": null,
@@ -657,5 +658,56 @@
 		"date": "12/21",
 		"dow": "一",
 		"time": "19:00-21:00"
+	},
+	{
+		"show": true,
+		"area": "台北",
+		"name": "台北城市科技大學",
+		"loc": null,
+		"slogan": null,
+		"year": 2020,
+		"date": "12/31",
+		"dow": "四"
+	},
+	{
+		"show": true,
+		"area": "金門",
+		"name": "蓊蓊書店",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/9",
+		"dow": "四"
+	},
+	{
+		"show": true,
+		"area": "宜蘭",
+		"name": "民進黨宜蘭縣黨部",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/15",
+		"dow": "三"
+	},
+	{
+		"show": true,
+		"area": "屏東",
+		"name": "屏東青年學院",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/17",
+		"dow": "五"
+	},
+	{
+		"show": true,
+		"area": "桃園",
+		"name": "T h E R E 音樂展演空間",
+		"loc": null,
+		"slogan": "左岸總編輯黃秀如",
+		"year": 2021,
+		"date": "1/23",
+		"dow": "四",
+		"time": "14:00-16:00"
 	}
 ]
