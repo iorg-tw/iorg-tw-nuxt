@@ -1,11 +1,51 @@
 {
+	"chiu-hc": {
+		"published": true,
+		"type": "video",
+		"id": "chiu-hc",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ8EEJxJ-yRvV_Ce-LlzevzmrPxa0TfXKOFMO374WJUQPcCSgcpLOHQ5FNzTd_Y6q7XHdvFLYtCIeQX/pub",
+		"publishedAt": "2020/12/15 19:00",
+		"title": "資訊操弄影響公民社會，立委邱顯智：會造成寒蟬效應／心慌保全來訪問 Ep.11",
+		"coverImage": "https://lh5.googleusercontent.com/scllFlXrvutKW0zv3aGdAyJnh6KFYY1xT7bX5S81XQ8kXVq5ch0vvj-wFVSOIqeeINusoXgipOWJg0KHFHBT5MghhNXdpgT63STDZcMkvflYec6XCd1haf3FAq7P8KIb3w",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 11 集，我們訪問了立法委員邱顯智，他分享自身當律師的經驗，訴說「資訊操弄」如何影響公民社會；談及新聞、電視和 NCC 的職權，舉了更有趣的案例。",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立法委員",
+			"邱顯智"
+		]
+	},
+	"kao-ha": {
+		"published": true,
+		"type": "video",
+		"id": "kao-ha",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNCcBgqsRPNdpUjA2-V5-zuZZNCkNCqaQn39WXNTuAJeVrofyq9EN1jAouIxOurLDYdTOTNhTtqb4k/pub",
+		"publishedAt": "2020/12/15 19:00",
+		"title": "資訊管制 v.s. 言論自由 高虹安：需在天秤兩端取平衡／心慌保全來訪問 Ep.10",
+		"coverImage": "https://lh3.googleusercontent.com/PCo4ruClR3W5e_fI8JQM1qdtRuqheYME0kgXJQhtM9GZcG6CNUARLrzFRuNyA8t98Byi1w9LD2gzw1jSxIFjTNIYROcEO0ANKFMbIqaXlsCSQLCqaM9brJOoYL6BrrLjsFO-Hute",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 10 集，我們訪問了立法委員高虹安，她以電子郵件分類的例子提出，可以用科技的方式訓練出「假消息」的分類器！",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立法委員",
+			"高虹安"
+		]
+	},
 	"chen-pw": {
 		"published": true,
 		"type": "video",
 		"id": "chen-pw",
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCNmhFKD7zxkOChCKYrOgyxuMauiszl35ifvUn1WEA_Tkjjj0H0vnEN2cRPX1U-ML6x-jRs2RyxmIi/pub",
 		"publishedAt": "2020/12/7 19:00",
-		"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄／心慌保全來訪問 Ep.9／",
+		"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄／心慌保全來訪問 Ep.9",
 		"coverImage": "https://lh3.googleusercontent.com/4mTxkmh-uTeguoJPdCb05qYSpZtTTasr2K3d9XO_ZDiDThDiCDfyn_7DzAp1UujWOjRx1qAXZHabL9ha0dSw4QfF9cicKmfYWvGD2dV8B5HuetORL3u-mY0E2iGIIi8uYQ",
 		"authorInfo": [
 			"作者／心慌保全",
