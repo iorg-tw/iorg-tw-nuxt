@@ -1,4 +1,25 @@
 {
+	"disinformed-democracy": {
+		"published": true,
+		"type": "article",
+		"id": "disinformed-democracy",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub",
+		"publishedAt": "2020/12/23 18:00",
+		"title": "開放資料、公民參與、國際連結對抗資訊操弄 歐美學者肯定台灣經驗",
+		"coverImage": "https://lh4.googleusercontent.com/yDUraHGf2TEHuV7RK3ZpB-OCrSMSXP5UFXJabR2mHoiN78NoS37ugPnnL9gVvNELVAQRJDsi5SUtWWdE4WRcrerjybOESTEojbtjYXOlZu9r6BZPXESvifHAmXFaMLUq6J7qMFxm",
+		"authorInfo": [
+			"作者／李可心",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "IORG 於 12 月 7 日舉辦線上討論會，邀請國內外資料科學、跨國衝突及國家安全跨領域學者、專業工作者上線交流。會中提及，由民間自主發起的開放資料專案，是資訊操弄科學研究的重要基石，也是集體民主防衛的具體實踐，而以工作坊等公民參與方式連結研究者與社會大眾，有助公民社會提升防衛意識，受到與會者的肯定。台灣是中國資訊操弄的重要目標，而遠在敘利亞的魯克班難民營也能發現中國資訊操弄的痕跡。面對威權擴張，紐約大學國際關係教授瑪慈伽里指出，唯有強化社會連結和民主韌性才能有效反制。未來，莫楠提出應建立「有責溯源」及「有責臆測」的標準，IORG 亦將持續精進資料科學研究方法，提出資訊操弄研究的開放框架，貢獻「台灣經驗」，供國際友人參考。",
+		"tags": [
+			"資訊操弄",
+			"中國",
+			"國際交流",
+			"開放資料",
+			"公民參與"
+		]
+	},
 	"chiu-hc": {
 		"published": true,
 		"type": "video",
@@ -26,7 +47,7 @@
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNCcBgqsRPNdpUjA2-V5-zuZZNCkNCqaQn39WXNTuAJeVrofyq9EN1jAouIxOurLDYdTOTNhTtqb4k/pub",
 		"publishedAt": "2020/12/15 19:00",
 		"title": "資訊管制 v.s. 言論自由 高虹安：需在天秤兩端取平衡／心慌保全來訪問 Ep.10",
-		"coverImage": "https://lh3.googleusercontent.com/PCo4ruClR3W5e_fI8JQM1qdtRuqheYME0kgXJQhtM9GZcG6CNUARLrzFRuNyA8t98Byi1w9LD2gzw1jSxIFjTNIYROcEO0ANKFMbIqaXlsCSQLCqaM9brJOoYL6BrrLjsFO-Hute",
+		"coverImage": "https://lh6.googleusercontent.com/42QqMJ0Zz-Ul6NGFBbFHPwtl4Nlz_2sk38HE9DBtwgqywL5McAagfRMqEZc-o_B617a84AtbrOrfzzyRAalEzmMgcwrS2eu2vbWfBffqAnRfb2Dlo0FFSxg0LqKOgfYnJg",
 		"authorInfo": [
 			"作者／心慌保全",
 			"編輯／IORG 研究總部"
