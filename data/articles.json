@@ -1,4 +1,24 @@
 {
+	"chen-tf": {
+		"published": true,
+		"type": "video",
+		"id": "chen-tf",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSK4mEnlvkinaB1AWKFcLDqSYImp8O8hehpLbNKFLv5tYEFWduhCouR4Z6N8Poca9EcdJf2JRMcCVBu/pub",
+		"publishedAt": "2020/12/29 12:00",
+		"title": "防資訊操弄內憂外患，陳亭妃：應成立中央專責單位／心慌保全來訪問 Ep.12",
+		"coverImage": "https://lh3.googleusercontent.com/orjiaz3LCZ8ZzbVjYmQMLfs-3kc5p7R4-fb2RagM1Dfu5iDkF0OEBuTY8DyF2EeUwwRiDeqSxw8m_8fiWZsrFo-B7ulJhdbZTxIhGmEWp4I16ZQl_y2M1HJUJTaEfqlzoQ",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 12 集，我們訪問了立法委員邱顯智，他分享自身當律師的經驗，訴說「資訊操弄」如何影響公民社會；談及新聞、電視和 NCC 的職權，舉了更有趣的案例。",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立法委員",
+			"陳亭妃"
+		]
+	},
 	"disinformed-democracy": {
 		"published": true,
 		"type": "article",
@@ -6,7 +26,7 @@
 		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub",
 		"publishedAt": "2020/12/23 18:00",
 		"title": "開放資料、公民參與、國際連結對抗資訊操弄 歐美學者肯定台灣經驗",
-		"coverImage": "https://lh4.googleusercontent.com/yDUraHGf2TEHuV7RK3ZpB-OCrSMSXP5UFXJabR2mHoiN78NoS37ugPnnL9gVvNELVAQRJDsi5SUtWWdE4WRcrerjybOESTEojbtjYXOlZu9r6BZPXESvifHAmXFaMLUq6J7qMFxm",
+		"coverImage": "https://lh4.googleusercontent.com/SkUxHETUkIWntLxcxlA6gyQU36l4DUSHviRudnt5oW_bqweXvX3az87Pgwm9w320-GVOid6JXTeXxy2WoNQLgqMmCM2PfsKtTmHKtULwCEnGkPRuRycZt1uxtd5dzKTFBA",
 		"authorInfo": [
 			"作者／李可心",
 			"編輯／IORG 研究總部"
