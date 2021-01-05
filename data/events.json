@@ -639,6 +639,17 @@
 	},
 	{
 		"show": true,
+		"area": "台北",
+		"name": "東吳大學學生會",
+		"loc": null,
+		"slogan": null,
+		"year": 2020,
+		"date": "12/16",
+		"dow": "三",
+		"time": "19:00-21:00"
+	},
+	{
+		"show": true,
 		"area": "高雄",
 		"name": "左營高中",
 		"loc": null,
@@ -667,7 +678,8 @@
 		"slogan": null,
 		"year": 2020,
 		"date": "12/31",
-		"dow": "四"
+		"dow": "四",
+		"time": "13:00-15:00"
 	},
 	{
 		"show": true,
@@ -677,17 +689,19 @@
 		"slogan": null,
 		"year": 2021,
 		"date": "1/9",
-		"dow": "四"
+		"dow": "六",
+		"time": "15:00-17:00"
 	},
 	{
 		"show": true,
 		"area": "宜蘭",
-		"name": "民進黨宜蘭縣黨部",
+		"name": "舊書櫃",
 		"loc": null,
 		"slogan": null,
 		"year": 2021,
 		"date": "1/15",
-		"dow": "三"
+		"dow": "五",
+		"time": "19:00-21:00"
 	},
 	{
 		"show": true,
@@ -697,7 +711,18 @@
 		"slogan": null,
 		"year": 2021,
 		"date": "1/17",
-		"dow": "五"
+		"dow": "日"
+	},
+	{
+		"show": true,
+		"area": "高雄",
+		"name": "五福國中",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/21",
+		"dow": "四",
+		"time": "9:00-12:00"
 	},
 	{
 		"show": true,
@@ -707,7 +732,18 @@
 		"slogan": "左岸總編輯黃秀如",
 		"year": 2021,
 		"date": "1/23",
-		"dow": "四",
+		"dow": "六",
 		"time": "14:00-16:00"
+	},
+	{
+		"show": true,
+		"area": "澎湖",
+		"name": "草根果子",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/23",
+		"dow": "六",
+		"time": "19:00-21:00"
 	}
 ]
