@@ -48,7 +48,7 @@ export default {
         d: new Date([e.year, e.date].join('/')),
         displayDate: e.date.replace('/', '.')
       }))
-      list.sort((a, b) => b.d - a.d)
+      list.reverse()
       return list
     }
   },
