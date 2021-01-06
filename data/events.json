@@ -770,6 +770,17 @@
 	},
 	{
 		"show": true,
+		"area": "台中",
+		"name": "沙鹿北勢里民活動中心",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/23",
+		"dow": "六",
+		"time": "15:00-17:00"
+	},
+	{
+		"show": true,
 		"area": "澎湖",
 		"name": "草根果子",
 		"loc": null,
@@ -778,16 +789,5 @@
 		"date": "1/23",
 		"dow": "六",
 		"time": "19:00-21:00"
-	},
-	{
-		"show": true,
-		"area": "台中",
-		"name": "沙鹿北勢里民活動中心",
-		"loc": null,
-		"slogan": null,
-		"year": 2021,
-		"date": "1/24",
-		"dow": "日",
-		"time": "15:00-17:00"
 	}
 ]
