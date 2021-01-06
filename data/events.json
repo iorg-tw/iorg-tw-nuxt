@@ -705,6 +705,28 @@
 	},
 	{
 		"show": true,
+		"area": "台中",
+		"name": "立委陳柏惟烏日服務處",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/16",
+		"dow": "六",
+		"time": "19:00-20:30"
+	},
+	{
+		"show": true,
+		"area": "台中",
+		"name": "龍井鄉老人會",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/17",
+		"dow": "日",
+		"time": "14:00-16:00"
+	},
+	{
+		"show": true,
 		"area": "屏東",
 		"name": "屏東青年學院",
 		"loc": null,
@@ -722,6 +744,17 @@
 		"year": 2021,
 		"date": "1/21",
 		"dow": "四",
+		"time": "9:00-12:00"
+	},
+	{
+		"show": true,
+		"area": "台中",
+		"name": "霧峰南柳里社區發展協會",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/22",
+		"dow": "五",
 		"time": "9:00-12:00"
 	},
 	{
@@ -745,5 +778,16 @@
 		"date": "1/23",
 		"dow": "六",
 		"time": "19:00-21:00"
+	},
+	{
+		"show": true,
+		"area": "台中",
+		"name": "沙鹿北勢里民活動中心",
+		"loc": null,
+		"slogan": null,
+		"year": 2021,
+		"date": "1/24",
+		"dow": "日",
+		"time": "15:00-17:00"
 	}
 ]
