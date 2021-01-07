@@ -80,18 +80,20 @@ const height = 720
 const param = {
   anchor: {
     strength: 0.8,
-    label: {
-      fontSize: 8,
-      offsetY: 3
-    }
+    strokeWidth: 4
+  },
+  anchorLabel: {
+    fontSize: 8,
+    offsetY: 3
   },
   node: {
-    minR: 2,
+    minR: 4,
     charge: -50
   },
   nodeLabel: {
+    show: true,
     fontSize: 8,
-    offsetX: 4,
+    offsetX: 6,
     offsetY: 2
   },
   link: {
@@ -100,6 +102,11 @@ const param = {
     distCoef: 0.05,
     strengthCoef: 0.2,
     strokeWidth: 1
+  },
+  linkLabel: {
+    show: true,
+    fontSize: 8,
+    alongLink: true
   },
   layout: {
     margin: 100
@@ -125,10 +132,10 @@ const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected ===
 
 const colorMap = new Map([
   [textMap.nond, 'gray'],
-  [textMap.china, 'red'],
-  [textMap.hk, 'magenta'],
-  [textMap.tw, 'green'],
-  [textMap.usa, 'blue'],
+  [textMap.china, '#ff3030'],
+  [textMap.hk, '#ff40ab'],
+  [textMap.tw, '#0fc456'],
+  [textMap.usa, '#3636ff'],
   [textMap.forum, 'orange']
 ])
 
@@ -153,8 +160,6 @@ const linkDist = (link, i) => {
 const linkStrength = (link) => {
   return 1 / Math.min(link.source.degree, link.target.degree) * param.link.strengthCoef
 }
-
-const linkLabelAlongLink = true
 
 const customForces = [
   {
@@ -328,7 +333,6 @@ function draw(vm) {
   vm.isLocked = true
   vm.svg
     .attr('viewBox', [0, 0, width, height])
-    .attr('font-size', param.nodeLabel.fontSize)
     .on('click', vm.canvasClicked)
 
   links = allLinks.filter(link => link.domains.some(d => vm.layoutEditor.domains.includes(d))).map(link => Object.assign({}, link))
@@ -395,15 +399,15 @@ function draw(vm) {
           .attr('r', d => d.r)
           .attr('fill', 'none')
           .attr('stroke', d => d.color)
-          .attr('stroke-width', 2)
+          .attr('stroke-width', param.anchor.strokeWidth)
           .attr('stroke-opacity', 0.35)
         gs.append('text')
           .attr('x', 0)
-          .attr('y', param.anchor.label.offsetY)
+          .attr('y', param.anchorLabel.offsetY)
           .attr('text-anchor', 'middle')
           .attr('fill', d => d.color)
           .attr('fill-opacity', 0.5)
-          .attr('font-size', param.anchor.label.fontSize)
+          .attr('font-size', param.anchorLabel.fontSize)
           .text(d => d.name)
         return gs
       })
@@ -421,6 +425,8 @@ function draw(vm) {
     .join('text')
     .text(d => d.action)
     .attr('class', 'link-label')
+    .attr('font-size', param.linkLabel.fontSize)
+    .attr('display', param.linkLabel.show ? 'block' : 'none')
     .on('click', vm.linkClicked)
 
   const node = vm.svg.selectAll('g.node')
@@ -436,6 +442,8 @@ function draw(vm) {
         gs.append('text')
           .attr('x', param.nodeLabel.offsetX)
           .attr('y', param.nodeLabel.offsetY)
+          .attr('font-size', param.nodeLabel.fontSize)
+          .attr('display', param.nodeLabel.show ? 'block' : 'none')
           .text(d => d.name)
         return gs
       })
@@ -451,7 +459,7 @@ function draw(vm) {
     linkLabel
       .attr('x', d => (d.source.x + d.target.x) / 2)
       .attr('y', d => (d.source.y + d.target.y) / 2 + param.nodeLabel.offsetY)
-    if(linkLabelAlongLink) {
+    if(param.linkLabel.alongLink) {
       linkLabel.attr('transform', d => {
         const a = Math.atan2(d.target.y - d.source.y, d.target.x - d.source.x) * 180 / Math.PI
         const x0 = (d.source.x + d.target.x) / 2
