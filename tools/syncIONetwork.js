@@ -12,6 +12,48 @@ const edgeCategories = [
     keywords: ['上級', '組長', '所屬', '主管', '里長', '母集團', '母公司', '主導', '主任', '領導', '院長', '政治委員', '校長', '會長', '董事長', '市長', '理事長', '主席', '擁有', '旗下', '直屬', '指揮', '主辦', '承辦', '協辦', '書記', '直接管理', '指導']
   }
 ]
+const edgeCats = {
+  ctrl: 'control',
+  affl: 'affliation',
+  info: 'info',
+  infoRev: 'infoRev',
+  infoBi: 'infoBi',
+  infoFC: 'infoFC'
+}
+const edgeMatchCases = [
+  {
+    exp: ['領導', '管理', '經營', '為母集團', '為所屬政黨', '為主導宮廟', '為上級單位', '擁有', '指導', '建立', '出版', '主管', '主持'],
+    cat: edgeCats.ctrl
+  },
+  {
+    exactMatches: ['邀請前往中國交流', /(為|第\s?[0-9-]*\s?屆)主辦單位/, '相互推薦', '提出糾正案、獲通過', '合作', '參訪', '上節目'],
+    cat: edgeCats.affl
+  },
+  {
+    exactMatches: ['發起請願', '發表論文', '發文'],
+    cat: edgeCats.info
+  },
+  {
+    exactMatches: ['錯誤引用', '轉載', '改作', '引用', '專訪', '報導', '回應報導內容', '分享'],
+    cat: edgeCats.infoRev
+  },
+  {
+    exactMatches: ['貼文含相同關鍵詞', '發表相同內容'],
+    cat: edgeCats.infoBi
+  },
+  {
+    exactMatches: ['查核'],
+    cat: edgeCats.infoFC
+  },
+  {
+    exp: [/^任/],
+    cat: edgeCats.ctrl
+  },
+  {
+    exp: [/^為/, /^參加/],
+    cat: edgeCats.affl
+  }
+]
 
 const linkCats = {
   command: textMap.command
