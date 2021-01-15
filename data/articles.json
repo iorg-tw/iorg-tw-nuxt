@@ -1,4 +1,44 @@
 {
+	"wang-tl": {
+		"published": true,
+		"type": "video",
+		"id": "wang-tl",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRX-CPBBz7a0dip-i2TQa2BRuChSvy5_gpwzuCFpohMqwquiAkoB0gdEvNUOVh9ieog453l4CcvNm9a/pub",
+		"publishedAt": "2021/1/15 18:00",
+		"title": "誰對假訊息抵抗力最弱？學者王泰俐研究發現：年輕人、女性、中間選民易受不實訊息影響／心慌保全來訪問 Ep.20",
+		"coverImage": "https://lh6.googleusercontent.com/QlQirQ2-XtpqcHXvXyIEr7i5tzeEzR5hmOSRvM4A0ei6Bq3N2qTbpHY3sHSxfGpSE6maw_i8q8eZgKvk0Xb72cUS9n4uKvC2H3kMCcxZWxVQXPb3PsOGCEXrb1MhL0bHbg",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 20 集，我們訪問了台大新聞所教授王泰俐，根據研究，她指出：最容易受到資訊操弄的原因與教育程度無關，而是「不關心議題」的族群，例如以 2018 年選舉為例就是女性跟年輕人較容易受到政治不實訊息影響；教授並提出國外研究出的四大方法，供民眾一起以簡單的方式辨認資訊操弄。➤ 影片提到的研究報告，與更多有料文章：https://iorg.tw/➤ Facebook：心慌保全 IORG",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立法委員",
+			"蔡易餘"
+		]
+	},
+	"tsai-yi-yu": {
+		"published": true,
+		"type": "video",
+		"id": "tsai-yi-yu",
+		"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQRYLj3E0aqPlhCMaTtS0k6n770fw_krxYhvWvr29VGzCjb_GWx1_dQaUoBgqmLfsfrPoShSjf0p4eO/pub",
+		"publishedAt": "2021/1/15 18:00",
+		"title": "曾提告造謠人士卻慘遭法院認證！蔡易餘無奈：台灣太輕忽資訊操弄影響／心慌保全來訪問 Ep.19",
+		"coverImage": "https://lh3.googleusercontent.com/XjC7TYPy8KbhVUHCcGwHwRi83Lys1I9TAGyWUJOU7_-1rv7d1TaNgYMzE_yJBv5R1uRlld6ZQdK741TMVJ0uU-Polt6pa2J2sq4yz_HtBJ29A5O6HC-0RZxVuLSADPXH8Q",
+		"authorInfo": [
+			"作者／心慌保全",
+			"編輯／IORG 研究總部"
+		],
+		"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 19 集，我們訪問了立法委員蔡易餘，他以自身提告造謠者的經驗卻敗訴出發，認為台灣在實務上太輕忽資訊操弄的影響，另外也舉出美國總統川普在臉書及推特上被審查的例子，指出民主制度的言論自由也可能因為制度而受衝擊的現象。➤ 影片提到的研究報告，與更多有料文章：https://iorg.tw/➤ Facebook：心慌保全 IORG",
+		"tags": [
+			"資訊操弄",
+			"假訊息",
+			"立法委員",
+			"蔡易餘"
+		]
+	},
 	"teng-hh": {
 		"published": true,
 		"type": "article",
