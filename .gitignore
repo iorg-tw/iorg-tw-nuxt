@@ -90,4 +90,4 @@ sw.*
 *.swp
 
 tools/*.json
-data/ion/*.json
+data/*/*.json
