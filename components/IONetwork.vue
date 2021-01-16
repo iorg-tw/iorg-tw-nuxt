@@ -21,7 +21,8 @@
       <button @click="toggleEditMode">{{ isEditMode ? '←' : '→' }}</button>
     </div>
   </div>
-  <div ref="network" class="network">
+  <div class="network">
+    <svg ref="networkSVG"></svg>
   </div>
   <div v-if="showDatum" class="datum-container">
     <div class="controls"></div>
@@ -93,19 +94,18 @@ const param = {
   nodeLabel: {
     show: true,
     fontSize: 8,
-    offsetX: 6,
+    offsetX: 4,
     offsetY: 2
   },
   link: {
     minDist: 16,
     maxDist: 120,
     distCoef: 0.05,
-    strengthCoef: 0.2,
-    strokeWidth: 1
+    strengthCoef: 0.2
   },
   linkLabel: {
     show: true,
-    fontSize: 8,
+    fontSize: 5,
     alongLink: true
   },
   layout: {
@@ -131,7 +131,7 @@ const customNodes = [
 const highlyConnectedNodes = customNodes.filter(node => node.highlyConnected === true).map(n => n.name)
 
 const colorMap = new Map([
-  [textMap.nond, 'gray'],
+  [textMap.none, 'gray'],
   [textMap.china, '#ff3030'],
   [textMap.hk, '#ff40ab'],
   [textMap.tw, '#0fc456'],
@@ -335,7 +335,10 @@ function draw(vm) {
     .attr('viewBox', [0, 0, width, height])
     .on('click', vm.canvasClicked)
 
-  links = allLinks.filter(link => link.domains.some(d => vm.layoutEditor.domains.includes(d))).map(link => Object.assign({}, link))
+  links = allLinks.filter(link => link.domains.some(d => vm.layoutEditor.domains.includes(d))).map(link => {
+    // do some more pre-processing
+    return Object.assign({}, link)
+  })
   const linkedNodes = links.map(link => [link.source, link.target]).flat()
   nodes = allNodes.filter(node => linkedNodes.includes(node.id)).map(node => Object.assign({}, node, {
     fx: null,
@@ -416,15 +419,14 @@ function draw(vm) {
   const link = vm.svg.selectAll('line.link')
     .data(links, d => d.id)
     .join('line')
-    .attr('class', 'link')
-    .attr('stroke-width', d => param.link.strokeWidth)
+    .attr('class', d => ['link', d.category].join(' '))
     .on('click', vm.linkClicked)
 
   const linkLabel = vm.svg.selectAll('text.link-label')
     .data(links, d => d.id)
     .join('text')
     .text(d => d.action)
-    .attr('class', 'link-label')
+    .attr('class', d => ['link-label', d.category].join(' '))
     .attr('font-size', param.linkLabel.fontSize)
     .attr('display', param.linkLabel.show ? 'block' : 'none')
     .on('click', vm.linkClicked)
@@ -530,7 +532,7 @@ export default {
     }
   },
   mounted() {
-    this.svg = d3.select(this.$refs.network).append('svg')
+    this.svg = d3.select(this.$refs.networkSVG)
     this.activeLayoutID = 'b5' // default
   },
   methods: {
@@ -601,12 +603,13 @@ export default {
 
 .io-network {
   position: relative;
+  background-color: #ddd;
   > .controls {
     position: sticky;
     top: 0.5rem;
     left: 0;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
+    margin: 0;
+    padding: 0.5rem;
     font-size: 0.875rem;
     > .panel {
       background-color: white;
@@ -653,14 +656,26 @@ export default {
       }
     }
     .link {
-      stroke: #aaa;
-      stroke-opacity: 0.65;
+      stroke-width: 1;
       cursor: pointer;
+      & {
+        stroke: #aaa;
+      }
+      &.control {
+        stroke: #aaa;
+        opacity: 0.65;
+        stroke-width: 6;
+      }
     }
     .link-label {
       text-anchor: middle;
-      fill: #aaa;
       cursor: pointer;
+      & {
+        fill: #aaa;
+      }
+      &.control {
+        fill: #aaa;
+      }
     }
   }
   > .datum-container {
