@@ -55,10 +55,6 @@ const edgeMatchCases = [
   }
 ]
 
-const linkCats = {
-  command: textMap.command
-}
-
 async function fetchList(listName) {
   let list = []
   let offset = 0
@@ -154,6 +150,7 @@ async function get(remote = false) {
       })) {
         category = matchCase.cat
         dir = matchCase.dir
+        break
       }
     }
     let notes = d.fields.notes ? d.fields.notes.trim() : null
@@ -182,12 +179,12 @@ async function get(remote = false) {
     const linkedNodes = edges.map(edge => [edge.source, edge.target]).flat()
     let nc = 0
     for(const n of linkedNodes) {
-      const commandingEdges = allEdges.filter(l => l.category === linkCats.command && l.target === n)
-      for(const edge of commandingEdges) {
+      const ctrlEdges = allEdges.filter(edge => edge.category === edgeCats.ctrl && edge.target === n)
+      for(const edge of ctrlEdges) {
         const m = edge.source
         linkedNodes.push(m)
       }
-      edges.push(...commandingEdges)
+      edges.push(...ctrlEdges)
       nc += 1
     }
 
