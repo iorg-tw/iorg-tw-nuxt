@@ -78,7 +78,7 @@ function writeList(listName, list, dir = 'airtable') {
   fs.writeFileSync(`data/${dir}/${listName}.json`, JSON.stringify(list, null, '\t'))
 }
 
-async function get(remote = false) {
+async function get(remote = true) {
   let allDomains
   let allNodes
   let allEdges
@@ -114,10 +114,14 @@ async function get(remote = false) {
     let group = textMap.none
     if([textMap.china, textMap.ccp].some(s => category.includes(s))) {
       group = textMap.china
-    } else if(category.includes(textMap.tw)) {
-      group = textMap.tw
     } else if(category.includes(textMap.hk)) {
       group = textMap.hk
+    } else if(category.includes(textMap.my)) {
+      group = textMap.my
+    } else if(category.includes(textMap.tw)) {
+      group = textMap.tw
+    } else if(category.includes(textMap.jp)) {
+      group = textMap.jp
     } else if(category.includes(textMap.usa)) {
       group = textMap.usa
     } else if(category.includes(textMap.forum)) {

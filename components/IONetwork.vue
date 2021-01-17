@@ -109,7 +109,7 @@ const param = {
     alongLink: true
   },
   layout: {
-    margin: 100
+    margin: 120
   }
 }
 const getAnchorByPercentage = (p, q) => ({
@@ -134,7 +134,9 @@ const colorMap = new Map([
   [textMap.none, 'gray'],
   [textMap.china, '#ff3030'],
   [textMap.hk, '#ff40ab'],
+  [textMap.my, 'gray'],
   [textMap.tw, '#0fc456'],
+  [textMap.jp, 'gray'],
   [textMap.usa, '#3636ff'],
   [textMap.forum, 'orange']
 ])
@@ -163,39 +165,19 @@ const linkStrength = (link) => {
 
 const customForces = [
   {
-    id: 'cn-gov',
-    name: '中共、政府',
+    id: 'gov.cn',
+    name: '中共',
     ...getAnchorByPercentage(0, 0),
-    r: 48,
+    r: 64,
     strength: param.anchor.strength,
     color: scale(textMap.china),
     group: textMap.china,
     filter: d => ['中共', '政府'].some(s => d.category.includes(s))
   },
   {
-    id: 'cn-ccp-media',
-    name: '官媒',
-    ...getAnchorByPercentage(100, 0),
-    r: 48,
-    strength: param.anchor.strength,
-    color: scale(textMap.china),
-    group: textMap.china,
-    filter: d => ['官媒'].some(s => d.category.includes(s))
-  },
-  {
-    id: 'cn-media',
-    name: '媒體',
-    ...getAnchorByPercentage(100, 12),
-    r: 32,
-    strength: param.anchor.strength,
-    color: scale(textMap.china),
-    group: textMap.china,
-    filter: d => ['媒體'].some(s => d.category.includes(s))
-  },
-  {
-    id: 'cn-rlg-org',
+    id: 'religion.cn',
     name: '宗教',
-    ...getAnchorByPercentage(12, 0),
+    ...getAnchorByPercentage(16, 0),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -203,9 +185,9 @@ const customForces = [
     filter: d => ['宗教'].some(s => d.category.includes(s))
   },
   {
-    id: 'cn-ac',
+    id: 'academia.cn',
     name: '學術',
-    ...getAnchorByPercentage(25, 0),
+    ...getAnchorByPercentage(26, 0),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -213,9 +195,9 @@ const customForces = [
     filter: d => ['學術'].some(s => d.category.includes(s))
   },
   {
-    id: 'cn-poli',
+    id: 'parties.cn',
     name: '政黨',
-    ...getAnchorByPercentage(35, 0),
+    ...getAnchorByPercentage(36, 0),
     r: 28,
     strength: param.anchor.strength,
     color: scale(textMap.china),
@@ -223,7 +205,37 @@ const customForces = [
     filter: d => ['政黨'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-gov',
+    id: 'cso.cn',
+    name: '民間',
+    ...getAnchorByPercentage(50, 0),
+    r: 48,
+    strength: param.anchor.strength,
+    color: scale(textMap.china),
+    group: textMap.china,
+    filter: d => ['民間', '企業'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'media.gov.cn',
+    name: '官媒',
+    ...getAnchorByPercentage(100, 0),
+    r: 84,
+    strength: param.anchor.strength,
+    color: scale(textMap.china),
+    group: textMap.china,
+    filter: d => ['官媒'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'media.cn',
+    name: '媒體',
+    ...getAnchorByPercentage(100, 20),
+    r: 32,
+    strength: param.anchor.strength,
+    color: scale(textMap.china),
+    group: textMap.china,
+    filter: d => ['媒體'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'gov.tw',
     name: '政府',
     ...getAnchorByPercentage(0, 100),
     r: 28,
@@ -233,17 +245,7 @@ const customForces = [
     filter: d => ['政府'].some(s => d.category.includes(s))
   },
   {
-    id: 'cn-cso',
-    name: '民間',
-    ...getAnchorByPercentage(50, 0),
-    r: 68,
-    strength: param.anchor.strength,
-    color: scale(textMap.china),
-    group: textMap.china,
-    filter: d => ['民間', '企業'].some(s => d.category.includes(s))
-  },
-  {
-    id: 'tw-rlg-org',
+    id: 'religion.tw',
     name: '宗教',
     ...getAnchorByPercentage(10, 100),
     r: 28,
@@ -253,7 +255,7 @@ const customForces = [
     filter: d => ['宗教'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-ac',
+    id: 'academia.tw',
     name: '學術',
     ...getAnchorByPercentage(25, 100),
     r: 28,
@@ -263,7 +265,7 @@ const customForces = [
     filter: d => ['學術'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-poli',
+    id: 'parties.tw',
     name: '政黨',
     ...getAnchorByPercentage(35, 100),
     r: 28,
@@ -273,7 +275,7 @@ const customForces = [
     filter: d => ['政黨'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-cso',
+    id: 'cso.tw',
     name: '民間',
     ...getAnchorByPercentage(50, 100),
     r: 68,
@@ -283,8 +285,8 @@ const customForces = [
     filter: d => ['民間', '企業'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-media',
-    name: '主流媒體',
+    id: 'media.tw',
+    name: '媒體',
     ...getAnchorByPercentage(80, 100),
     r: 40,
     strength: param.anchor.strength,
@@ -293,14 +295,23 @@ const customForces = [
     filter: d => ['主流媒體', '政論節目'].some(s => d.category.includes(s))
   },
   {
-    id: 'tw-social-media',
+    id: 'social.tw',
     name: '社交媒體',
     ...getAnchorByPercentage(100, 100),
-    r: 80,
+    r: 96,
     strength: param.anchor.strength,
     color: scale(textMap.tw),
     group: textMap.tw,
     filter: d => ['社交媒體', 'Fb'].some(s => d.category.includes(s))
+  },
+  {
+    id: 'jp',
+    name: '日本',
+    ...getAnchorByPercentage(70, 50),
+    r: 40,
+    strength: param.anchor.strength,
+    color: scale(textMap.none),
+    group: textMap.jp
   },
   {
     id: 'usa',
@@ -319,6 +330,15 @@ const customForces = [
     strength: param.anchor.strength,
     color: scale(textMap.hk),
     group: textMap.hk
+  },
+  {
+    id: 'my',
+    name: '大馬',
+    ...getAnchorByPercentage(30, 50),
+    r: 40,
+    strength: param.anchor.strength,
+    color: scale(textMap.none),
+    group: textMap.my
   }
 ]
 
