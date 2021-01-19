@@ -727,16 +727,6 @@
 	},
 	{
 		"show": true,
-		"area": "屏東",
-		"name": "屏東青年學院",
-		"loc": null,
-		"slogan": null,
-		"year": 2021,
-		"date": "1/17",
-		"dow": "日"
-	},
-	{
-		"show": true,
 		"area": "高雄",
 		"name": "五福國中",
 		"loc": null,
@@ -756,17 +746,6 @@
 		"date": "1/22",
 		"dow": "五",
 		"time": "9:00-12:00"
-	},
-	{
-		"show": true,
-		"area": "桃園",
-		"name": "T h E R E 音樂展演空間",
-		"loc": null,
-		"slogan": "左岸總編輯黃秀如",
-		"year": 2021,
-		"date": "1/23",
-		"dow": "六",
-		"time": "14:00-16:00"
 	},
 	{
 		"show": true,
