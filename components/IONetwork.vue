@@ -553,7 +553,7 @@ export default {
   },
   mounted() {
     this.svg = d3.select(this.$refs.networkSVG)
-    this.activeLayoutID = 'b5' // default
+    this.activeLayoutID = 'b4' // default
   },
   methods: {
     nodeClicked(event, d) {
