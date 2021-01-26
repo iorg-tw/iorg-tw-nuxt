@@ -1,3 +1,4 @@
 [
-  { "from": "/i/hong-sh", "to": "/v/hong-sh" }
+  { "from": "/i/hong-sh", "to": "/v/hong-sh" },
+  { "from": "/f/r/covid19", "to": "/r/covid19"}
 ]
