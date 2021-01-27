@@ -15,13 +15,13 @@
     "sync:ion": "node tools/syncIONetwork.js"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/gtm": "^2.2.3",
     "@nuxtjs/markdownit": "^1.2.10",
     "cheerio": "^1.0.0-rc.3",
     "d3": "^6.1.1",
     "dotenv": "^8.2.0",
-    "google-spreadsheet": "^3.0.11",
+    "google-spreadsheet": "^3.1.15",
     "got": "^11.5.2",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.13.12",
