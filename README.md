@@ -10,6 +10,12 @@
 AIRTABLE_API_KEY={key}
 ```
 
+### Get ION data
+
+```bash
+$ npm run sync:ion
+```
+
 ### Use some of these commands
 
 ```bash
