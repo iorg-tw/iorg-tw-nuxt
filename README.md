@@ -2,6 +2,12 @@
 
 > iorg.tw
 
+## `.env`
+
+```txt
+AIRTABLE_API_KEY={key}
+```
+
 ## Build Setup
 
 ```bash
