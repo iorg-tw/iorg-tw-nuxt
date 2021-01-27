@@ -1,14 +1,16 @@
-# iorg-tw-nuxt
+# IORG.tw
 
-> iorg.tw
+> IORG.tw made with Nuxt.js.
 
-## `.env`
+## Build Setup
+
+### Create `.env`
 
 ```txt
 AIRTABLE_API_KEY={key}
 ```
 
-## Build Setup
+### Use some of these commands
 
 ```bash
 # install dependencies
