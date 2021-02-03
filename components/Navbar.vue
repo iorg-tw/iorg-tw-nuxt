@@ -17,9 +17,9 @@ en:
     <img src="/images/logo-tmp-small.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="{ path: '/#r' }" class="item block"><span>{{ $t('reports') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/#a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/#v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/' }" class="item block"><span>{{ $t('reports') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/events' }" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
@@ -60,10 +60,11 @@ $size: 64px;
   > .main-menu {
     > .item {
       @media (max-width: 400px) {
+        padding: 0 0.25rem;
         word-break: break-all;
         max-width: 3.5rem;
         line-height: 1.15;
-        transform: skew(0, -16deg) translateY(0.75rem) scale(0.875);
+        transform: skew(0, -12deg) translateY(0.75rem) scale(0.875);
         transform-origin: bottom left;
       }
     }

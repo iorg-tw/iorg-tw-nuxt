@@ -25,27 +25,30 @@ input, button {
 a {
   text-decoration: none;
   &, &:active, &:visited {
-    color: black;
+    color: var(--iorg-text);
   }
   &:not(.block):not(.inline-block) {
     display: inline;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--iorg-text);
   }
   &.block {
     display: block;
     > span {
       line-height: 1.5;
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid var(--iorg-text);
     }
   }
   &.inline-block {
     display: inline-block;
   }
   &.inverted {
-    color: white;
-    border-bottom-color: white;
+    color: var(--iorg-primary-light-color);
+    border-bottom-color: var(--iorg-primary-light-color);
+    &:not(.block):not(.inline-block) {
+      border-bottom: 2px solid var(--iorg-primary-light-color);
+    }
     &.block > span {
-      border-bottom-color: white;
+      border-bottom-color: var(--iorg-primary-light-color);
     }
   }
   &.minimal {
@@ -159,7 +162,7 @@ $layout-m: 0.75rem;
       max-width: 24rem;
     }
     &.text {
-      max-width: 40rem;
+      max-width: 30rem;
     }
     &.filled {
       overflow: hidden;
