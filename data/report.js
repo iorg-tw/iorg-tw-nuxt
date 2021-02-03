@@ -10,43 +10,63 @@ const articleMap = {
 const topics = [
   {
     id: 'A',
-    title: '中國對台滲透網絡圖',
-    to: '/r/a'
+    to: '/r/a',
+    title: '中國對台滲透網絡',
+    image: '/images/covers/a-h.png'
   },
   {
     id: 'B',
+    to: '/r/b',
     title: '資訊操弄',
-    to: '/r/b'
+    image: '/images/covers/b-h.png'
   },
   {
     id: 'D',
+    to: '/r/d',
     title: '人際滲透',
-    to: '/r/d'
+    image: '/images/covers/d-h.png'
   },
   {
     id: 'P1',
-    title: '事實查核有效性',
-    to: '/r/p/1'
+    to: '/r/p/1',
+    title: '受操弄資訊內容演化',
+    image: '/images/covers/x-h.png'
   },
   {
     id: 'P2',
-    title: '受操弄資訊內容演化',
-    to: '/r/p/2'
+    to: '/r/p/2',
+    title: '事實查核有效性',
+    image: '/images/covers/x-h.png'
   },
   {
     id: 'W',
-    title: '2020 年度全國在地連結成果報告',
-    to: '/community-engagement-2020'
+    to: '/community-engagement-2020',
+    title: '在地連結成果報告',
+    image: '/images/covers/x-h.png'
   },
   {
     id: 'F',
     title: '未來研究',
-    to: '/roadmap'
+    to: '/roadmap',
+    image: '/images/covers/f-h.png'
+  },
+  {
+    id: 'M',
+    to: '/methodologies',
+    title: '研究方法',
+    image: '/images/covers/x-h.png'
   },
   {
     id: 'G',
-    title: '名詞定義',
-    to: '/glossary'
+    to: '/glossary',
+    title: '辭典',
+    image: '/images/covers/x-h.png'
+  },
+  {
+    id: 'X',
+    to: '/exhibition',
+    title: '展覽',
+    image: '/images/covers/x-h.png'
   }
 ]
 

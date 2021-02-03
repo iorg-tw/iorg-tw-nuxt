@@ -1,11 +1,11 @@
 <i18n lang="yaml">
 tw:
-  manifesto: "針對資訊操弄、資訊戰的研究，必須跨領域、資料驅動而嚴謹，方能確實理解認知戰的威脅，並適當應對，以捍衛自由、強化台灣民主。"
+  manifesto: "針對認知戰的研究，必須跨領域、資料驅動、基於嚴謹的科學方法，方能確實了解、適當回應、捍衛公民自由、強化台灣民主。"
   about: "關於我們"
   email: "電子郵件"
   doki: "心慌保全"
 en:
-  manifesto: "A multidisciplinary, data-driven, rigorous understanding of information operation & manipulation is needed in order to devise appropriate responses to respond to cognitive warfare, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy."
+  manifesto: "A multidisciplinary, data-driven, rigorous scientific understanding of cognitive warfare is essential in order to devise appropriate responses, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy."
   about: "About us"
   email: "Email"
   doki: "Dokidoki Safety"
@@ -13,7 +13,7 @@ en:
 
 <template>
 <footer>
-  <section class="text intro">
+  <section class="text manifesto">
     <div class="container">
       <div class="panel text">
         <p>{{ $t('manifesto') }}</p>
@@ -38,9 +38,5 @@ footer {
   margin-top: 6rem;
   border-top: 0.25rem solid var(--iorg-text);
   padding-bottom: 2rem;
-  .intro {
-    font-size: 1.125rem;
-    line-height: 1.375;
-  }
 }
 </style>

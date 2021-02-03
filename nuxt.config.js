@@ -45,7 +45,7 @@ export default {
     dir: 'docs'
   },
   server: {
-    port: 10101,
+    port: 10110,
     host: '0.0.0.0'
   },
   i18n: {

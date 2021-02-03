@@ -1,34 +1,35 @@
 <i18n lang="yaml">
 tw:
-  description: "IORG 於 2019 年成立，由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，目的在於紀錄、研究、理解資訊操弄、加強資訊判讀，以應對認知戰。"
-  intro: "針對資訊操弄、資訊戰的研究，必須跨領域、資料驅動而嚴謹，方能確實了解認知戰，並適當回應，以捍衛自由、強化台灣民主。"
+  conclusion: "IORG 以可公開檢驗的科學方法證實：中國共產黨及中國政府確實參與對台資訊操弄。"
+  intro: "IORG 於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，是以公開資訊、科學方法、在地連結，反制極權擴張的台灣跨領域研究團隊。"
   articles: "報導"
   videos: "影音"
 en:
-  description: "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG researches information manipulation and strengthens information literacy in response to cognitive warfare."
-  intro: "A multidisciplinary, data-driven, rigorous understanding of information operation & manipulation is needed in order to devise appropriate responses to respond to cognitive warfare, protect Taiwan’s civil liberties, and strengthen Taiwan’s democracy."
+  conclusion: "IORG demonstrates that the CCP and Government of China are involved with information manipulation against Taiwan."
+  intro: "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG works to counter authoritarian expansion with public information, scientific methodologies, and grassroots organization."
   articles: "Articles"
   videos: "Videos"
 </i18n>
 
 <template>
 <div class="page index">
-  <section id="r" class="report-list">
-    <div class="reports container">
-      <div v-for="report of reports" :key="report.title" class="report panel tiled compact">
-        <a class="cover block" :href="report.actions[0].url"><img :src="report.image" /></a>
-        <div v-for="(action, actionIndex) of report.actions" :key="action.label" class="action" :class="actionIndex < 1 ? ['primary'] : []">
-          <a :href="action.url" class="block"><span>{{ action.label }}</span></a>
+  <section id="r" class="report">
+    <div class="container">
+      <div class="panel tiled filled">
+        <div class="detail">
+          <h2>{{ $t('conclusion') }}</h2>
         </div>
-        <h2>{{ report.title }}</h2>
-        <p class="description">{{ report.description }}</p>
+      </div>
+      <div class="panel tiled">
+        <nuxt-link class="action" to="/r">線上閱讀報告</nuxt-link>
+        <nuxt-link class="action disabled" to="#">下載 PDF 完整報告內容</nuxt-link>
       </div>
     </div>
   </section>
-  <section class="description">
+  <section class="intro">
     <div class="container">
       <div class="panel text">
-        <p v-html="$t('description')"></p>
+        <p v-html="$t('intro')"></p>
       </div>
     </div>
   </section>
@@ -81,49 +82,26 @@ export default {
 @import '~assets/styles/resources';
 
 section {
-  &.report-list {
-    .report {
-      > .cover {
-        border-radius: 0.25rem;
-        overflow: hidden;
-        background-color: white;
-        @include shadow;
+  &.report {
+    .action {
+      display: inline-block;
+      margin: 0.25rem;
+      padding: 0.75rem;
+      line-height: 1;
+      border-radius: 1.5rem;
+      & {
+        background-color: var(--iorg-primary-dark-color);
+        border: 2px solid var(--iorg-primary-dark-color);
+        color: var(--iorg-primary-light-color);
       }
-      > .action {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0.75rem 0 0;
-        & > a {
-          color: var(--iorg-text);
-          padding: 0.25rem 0.5rem;
-          cursor: pointer;
-          > span {
-            line-height: 1;
-            border-bottom: 2px solid var(--iorg-text);
-          }
-        }
-        &.primary > a {
-          background-color: var(--iorg-primary-dark-color);
-          color: var(--iorg-primary-light-color);
-          line-height: 1;
-          padding: 0.75em 1em;
-          border-radius: 1.25em;
-          > span {
-            border-bottom: none;
-          }
-        }
-      }
-      > h2 {
-        margin: 0.5rem 0 0.125rem;
-        font-size: 0.875rem;
-      }
-      > .description {
-        font-size: 0.875rem;
+      &.disabled {
+        background: none;
+        border: 2px solid #aaa;
+        color: #aaa;
       }
     }
   }
-  &.description {
+  &.intro {
     padding: 1rem;
     background-color: var(--iorg-primary-dark-color);
     font-size: 2rem;

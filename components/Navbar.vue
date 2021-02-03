@@ -17,9 +17,9 @@ en:
     <img src="/images/logo-tmp-small.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="{ path: '/#r' }" class="item block"><span>{{ $t('reports') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/#a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/#v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/r' }" class="item block"><span>{{ $t('reports') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/events' }" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
