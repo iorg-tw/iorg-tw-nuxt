@@ -4,8 +4,7 @@ tw:
   subtitle: "中國對台滲透"
   keyFindings: "研究總結"
   reports: "各項報告"
-  tagline: "IORG 是以公開資訊、科學方法、在地連結，反制極權擴張的台灣跨領域研究團隊。"
-  about: "關於我們"
+  about: "關於 IORG"
   articles: "報導"
   videos: "影音"
 en:
@@ -13,14 +12,13 @@ en:
   subtitle: "Chinese Infiltration Against Taiwan"
   keyFindings: "Key Findings"
   reports: "Reports"
-  tagline: "IORG is a Taiwan-based multidisciplinary research group countering authoritarian expansion with public information, scientific methodologies, and grassroots organization."
-  about: "About us"
+  about: "About IORG"
   articles: "Articles"
   videos: "Videos"
 </i18n>
 
 <template>
-<div class="page">
+<div class="page report-home">
   <div class="section-header">
     <h1>{{ $t('title') }}</h1>
     <h2>{{ $t('subtitle') }}</h2>
@@ -44,23 +42,19 @@ en:
       </div>
     </div>
   </div>
-  <div class="intro">
-    <div class="content">
-      <div class="tagline">{{ $t('tagline') }}</div>
-      <div class="about">
-        <nuxt-link to="/about" class="inverted">{{ $t('about') }}</nuxt-link>
-      </div>
-      <div class="acknowledgement" v-html="docAck.html"></div>
-    </div>
-  </div>
+  <intro k="default" :more="docAck.html" />
 </div>
 </template>
 
 <script>
 import { articleMap, topics } from '~/data/report'
 import { getDoc, toSectionArray } from '~/lib/gdoc'
+import Intro from '~/components/Intro'
 
 export default {
+  components: {
+    Intro
+  },
   async asyncData() {
     const docK = await getDoc(articleMap.keyFindings.publicURL)
     const findings = toSectionArray(docK.html, 'h3')
@@ -79,7 +73,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page {
+.page.report-home {
   > .section-header {
     margin-top: 2rem;
     margin-left: 0.75rem + 0.625rem;
@@ -103,30 +97,6 @@ export default {
       > .detail {
         padding: 0;
         padding-left: 0.75rem;
-      }
-    }
-  }
-  > .intro {
-    margin: 2rem 0 0;
-    padding: 2rem;
-    background-color: var(--iorg-primary-dark-color);
-    color: var(--iorg-primary-light-color);
-    > .content {
-      max-width: 30rem;
-      > .tagline {
-        font-size: 2rem;
-      }
-      > .about {
-        margin: 1rem 0;
-      }
-      > .acknowledgement {
-        color: #aaa;
-        p {
-          line-height: $line-height-default;
-          &:not(:last-of-type) {
-            margin-bottom: 1.375rem;
-          }
-        }
       }
     }
   }
