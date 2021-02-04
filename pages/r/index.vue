@@ -1,7 +1,7 @@
 <i18n lang="yaml">
 tw:
   title: "極權擴張"
-  subtitle: "中國對台滲透"
+  subtitle: "中國對台滲透綜合研究"
   keyFindings: "研究總結"
   reports: "各項報告"
   about: "關於 IORG"
@@ -47,7 +47,7 @@ en:
 </template>
 
 <script>
-import { articleMap, topics } from '~/data/report'
+import { articleMap, topics } from '~/data/research'
 import { getDoc, toSectionArray } from '~/lib/gdoc'
 import Intro from '~/components/Intro'
 
