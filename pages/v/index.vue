@@ -1,5 +1,15 @@
+<i18n lang="yaml">
+tw:
+  videos: "影音"
+en:
+  videos: "Videos"
+</i18n>
+
 <template>
-<div class="page articles">
+<div class="page videos">
+  <div class="section-header first">
+    <p class="section-title-fancy">{{ $t('videos') }}</p>
+  </div>
   <article-list type="video" />
 </div>
 </template>

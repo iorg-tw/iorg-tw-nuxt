@@ -74,16 +74,6 @@ export default {
 @import '~assets/styles/resources';
 
 .page.report-home {
-  > .section-header {
-    margin-top: 2rem;
-    margin-left: 0.75rem + 0.625rem;
-    margin-right: 0.75rem + 0.625rem;
-    overflow: hidden;
-  }
-  > .findings {
-    > .finding {
-    }
-  }
   > .topics {
     > .topic {
       position: relative;

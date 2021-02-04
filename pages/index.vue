@@ -48,18 +48,14 @@ en:
   </section>
   <intro k="long" />
   <section id="a" class="content-list articles">
-    <div class="container">
-      <div class="panel text">
-        <p class="section-title">{{ $t('articles') }}</p>
-      </div>
+    <div class="section-header">
+      <p class="section-title-fancy">{{ $t('articles') }}</p>
     </div>
     <article-list type="article" />
   </section>
   <section id="v" class="content-list videos">
-    <div class="container">
-      <div class="panel text">
-        <p class="section-title">{{ $t('videos') }}</p>
-      </div>
+    <div class="section-header">
+      <p class="section-title-fancy">{{ $t('videos') }}</p>
     </div>
     <article-list type="video" />
   </section>

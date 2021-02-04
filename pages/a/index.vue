@@ -1,5 +1,15 @@
+<i18n lang="yaml">
+tw:
+  articles: "報導"
+en:
+  articles: "Articles"
+</i18n>
+
 <template>
 <div class="page articles">
+  <div class="section-header first">
+    <p class="section-title-fancy">{{ $t('articles') }}</p>
+  </div>
   <article-list type="article" />
 </div>
 </template>

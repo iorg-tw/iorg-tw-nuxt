@@ -8,7 +8,7 @@ en:
 </i18n>
 
 <template>
-<div class="article-list">
+<div class="article-list container-wrapper">
   <div class="articles container">
     <nuxt-link v-for="article of articles" :key="article.id" :to="{ name: contentTypes[article.type].dir + '-id', params: { id: article.id } }" class="article block panel tiled filled">
       <img v-if="article.coverImage" :src="article.coverImage" class="cover" />

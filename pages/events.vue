@@ -1,16 +1,14 @@
 <i18n lang="yaml">
 tw:
-  events: "公開活動"
+  events: "活動"
 en:
-  events: "Public Events"
+  events: "Events"
 </i18n>
 
 <template>
 <div class="page events">
-  <div class="container">
-    <div class="panel text">
-      <p class="section-title">{{ $t('events') }}</p>
-    </div>
+  <div class="section-header first">
+    <p class="section-title-fancy">{{ $t('events') }}</p>
   </div>
   <div class="event-list container">
     <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event panel tiled compact filled small">
@@ -36,8 +34,8 @@ import events from '~/data/events.json'
 export default {
   data() {
     return {
-      title: '公開活動 Public Events',
-      description: 'IORG 資訊判讀、資訊操弄、認知戰相關公開活動資訊',
+      title: '活動 Events',
+      description: 'IORG 資訊判讀、資訊操弄、認知戰相關活動資訊',
       events
     }
   },

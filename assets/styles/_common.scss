@@ -139,13 +139,22 @@ span.punct-l-fbrac {
 
 // project-specific selectors
 
-.section-title {
-  margin-bottom: -3rem;
+.section-header {
+  margin: 2rem 1.5rem -0.5rem;
+
+  &.first {
+    margin-top: 1rem;
+  }
+}
+.section-title-fancy {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
   border-bottom: 2px solid var(--iorg-accent);
   font-size: 1.25rem;
   font-weight: bold;
   color: var(--iorg-accent);
-  transform: skew(0, -16deg) translateY(0.5rem);
+  transform: skew(0, -12deg) translateY(0.5rem);
   transform-origin: bottom left;
 }
 $layout-m: 0.75rem;
@@ -202,6 +211,7 @@ $layout-m: 0.75rem;
     }
   }
 }
-.section-header + .container {
+.section-header + .container,
+.section-header + .container-wrapper > .container {
   margin-top: 0;
 }
