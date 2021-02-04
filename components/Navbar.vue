@@ -1,11 +1,11 @@
 <i18n lang="yaml">
 tw:
-  reports: "報告"
+  research: "研究"
   articles: "報導"
   videos: "影音"
   events: "活動"
 en:
-  reports: "Reports"
+  research: "Research"
   articles: "Articles"
   videos: "Videos"
   events: "Events"
@@ -17,7 +17,7 @@ en:
     <img src="/images/logo-tmp-small.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="{ path: '/' }" class="item block"><span>{{ $t('reports') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/' }" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/events' }" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
