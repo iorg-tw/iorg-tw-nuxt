@@ -70,7 +70,26 @@ const topics = [
   }
 ]
 
+const cases = [
+  {
+    id: 'B1',
+    to: '/r/b/1',
+    title: '關西機場'
+  },
+  {
+    id: 'B2',
+    to: '/r/b/2',
+    title: '陳菊貪污'
+  },
+  {
+    id: 'D1',
+    to: '/r/d/1',
+    title: '村里長滲透'
+  }
+]
+
 module.exports = {
   articleMap,
-  topics
+  topics,
+  cases
 }
