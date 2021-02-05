@@ -187,7 +187,10 @@ export default {
             margin: 0.25rem;
             padding: 0;
             .status {
-              font-size: 75%;
+              display: inline-block;
+              margin-left: 0.125rem;
+              font-size: 0.625rem;
+              line-height: 0.875rem;
               vertical-align: top;
               border-bottom: 1px solid black;
             }
@@ -205,7 +208,6 @@ export default {
             padding: 0.25rem 0.5rem;
             background-color: #ccc;
             border-radius: 1rem;
-
             &.ccp {
               background-color: #FF6464;
             }
