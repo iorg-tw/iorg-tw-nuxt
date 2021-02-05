@@ -179,7 +179,22 @@ export default {
         min-width: 20rem;
         max-width: 40rem;
       }
-      &.ul-set {
+      &.ul-set.simple {
+        ul {
+          list-style: none;
+          padding: 0;
+          > li {
+            margin: 0.25rem;
+            padding: 0;
+            .status {
+              font-size: 75%;
+              vertical-align: top;
+              border-bottom: 1px solid black;
+            }
+          }
+        }
+      }
+      &.ul-set.bubbles {
         ul {
           list-style: none;
           padding: 0;
