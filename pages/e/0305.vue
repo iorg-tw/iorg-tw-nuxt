@@ -27,7 +27,7 @@ export default {
   },
   computed: {
     localizedDoc() {
-      return this.$i18n.locale === 'en' ? this.localizedDocs.en : this.localizedDocs.tw
+      return this.localizedDocs[this.$i18n.locale]
     }
   }
 }
