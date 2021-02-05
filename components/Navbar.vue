@@ -20,7 +20,7 @@ en:
     <nuxt-link :to="{ path: '/' }" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
     <nuxt-link :to="{ path: '/v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/events' }" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
+    <nuxt-link :to="{ path: '/e' }" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
     <a v-for="locale of availableLocales" :key="locale.code" href="#" class="item block inverted minimal" @click.prevent.stop="$i18n.setLocale(locale.code)"><span>{{ locale.name }}</span></a>
