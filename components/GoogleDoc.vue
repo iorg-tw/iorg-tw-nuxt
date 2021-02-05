@@ -2,10 +2,11 @@
 <div class="google-doc">
   <template v-if="options.head !== false">
     <h1 v-html="optimizeTracking(doc.title)"></h1>
+    <p v-if="doc.subtitle" v-html="optimizeTracking(doc.subtitle)" class="subtitle"></p>
     <ul class="author-info">
       <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
     </ul>
-    <div class="summary" v-html="doc.summaryHTML"></div>
+    <div v-if="showSummary" class="summary" v-html="doc.summaryHTML"></div>
     <div class="separator"></div>
   </template>
   <div class="content" v-html="doc.html"></div>
@@ -24,6 +25,11 @@ export default {
     options: {
       type: Object,
       default: () => ({})
+    }
+  },
+  computed: {
+    showSummary() {
+      return this.options && Object.prototype.hasOwnProperty.call(this.options, 'showSummary') ? this.options.showSummary : true
     }
   },
   methods: {
@@ -126,6 +132,11 @@ export default {
   h1, h2, h3 {
     margin-bottom: 0.375rem;
   }
+  .subtitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--iorg-neutral);
+  }
   p {
     margin-bottom: 1.5rem;
     line-height: 1.625;
@@ -147,6 +158,7 @@ export default {
     margin: 1.25rem auto;
   }
   table {
+    width: 100%;
     border-collapse: collapse;
     font-size: 0.875rem;
     th, td {
