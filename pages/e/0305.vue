@@ -1,6 +1,6 @@
 <template>
 <div class="page event-0305">
-  <google-doc :doc="$i18n.locale === 'en' ? localizedDocs.en : localizedDocs.tw" />
+  <google-doc :doc="localizedDoc" :options="{ showSummary: false }" />
 </div>
 </template>
 
@@ -23,6 +23,11 @@ export default {
         tw: docs[0],
         en: docs[1]
       }
+    }
+  },
+  computed: {
+    localizedDoc() {
+      return this.$i18n.locale === 'en' ? this.localizedDocs.en : this.localizedDocs.tw
     }
   }
 }
