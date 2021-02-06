@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import customEvents from '~/data/custom-events'
 import { getDoc } from '~/lib/gdoc'
 import GoogleDoc from '~/components/GoogleDoc'
 
@@ -12,12 +13,18 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData() {
-    const urls = [
-      'https://docs.google.com/document/d/e/2PACX-1vRwnDPBVwOyZQ3sWwgtvmnImWjjco1ynJvMdVr0rY5TxbuUmoaFCqQ00ItV-9NKEjlnAyBw901uISFX/pub',
-      'https://docs.google.com/document/d/e/2PACX-1vQhtioJ53vJGtMK6QQr4Q_6gCOiy9bpn2IjOpa_WPKGJXblb1aBQ7E5YqbsFb7X6f6Jdc7yVb0DxjQN/pub'
+  async asyncData({ params, error }) {
+    const id = params.id
+    const customEvent = customEvents.find(e => e.id === id)
+    if(!customEvent) {
+      error({ statusCode: 404, message: 'Event not found' })
+      return
+    }
+    const docURLs = [
+      customEvent.localizedDocs.tw,
+      customEvent.localizedDocs.en
     ] // 0 = tw; 1 = en
-    const docs = await Promise.all(urls.map(url => getDoc(url)))
+    const docs = await Promise.all(docURLs.map(url => getDoc(url)))
     return {
       localizedDocs: {
         tw: docs[0],
