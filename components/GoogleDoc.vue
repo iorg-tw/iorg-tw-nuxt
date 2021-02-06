@@ -137,7 +137,7 @@ export default {
     font-weight: bold;
     color: var(--iorg-neutral);
   }
-  p {
+  p, ul {
     margin-bottom: 1.5rem;
     line-height: 1.625;
   }
@@ -182,6 +182,7 @@ export default {
       &.ul-set.simple {
         ul {
           list-style: none;
+          margin: 0;
           padding: 0;
           > li {
             margin: 0.25rem;
@@ -200,6 +201,7 @@ export default {
       &.ul-set.bubbles {
         ul {
           list-style: none;
+          margin: 0;
           padding: 0;
           display: flex;
           flex-wrap: wrap;
