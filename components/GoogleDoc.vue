@@ -161,6 +161,9 @@ export default {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.875rem;
+    p, ul {
+      line-height: 1.5;
+    }
     th, td {
       & {
         min-width: 4rem;
@@ -189,11 +192,9 @@ export default {
             padding: 0;
             .status {
               display: inline-block;
-              margin-left: 0.125rem;
               font-size: 0.625rem;
               line-height: 0.875rem;
               vertical-align: top;
-              border-bottom: 1px solid black;
             }
           }
         }
