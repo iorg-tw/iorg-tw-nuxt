@@ -168,39 +168,48 @@ export default {
       & {
         min-width: 4rem;
         max-width: 20rem;
+        vertical-align: top;
+      }
+      &.width-s {
+        min-width: 6rem;
+      }
+      &.width-m {
+        min-width: 10rem;
+      }
+      &.width-l {
+        min-width: 20rem;
+        max-width: 40rem;
       }
       &.datetime {
         min-width: 10rem;
       }
-      &.text-s {
-        min-width: 6rem;
-      }
-      &.text-m {
-        min-width: 10rem;
-      }
-      &.text-l {
-        min-width: 20rem;
-        max-width: 40rem;
-      }
-      &.ul-set.simple {
-        ul {
+      &.list-set.cards {
+        > ul {
           list-style: none;
           margin: 0;
           padding: 0;
           > li {
             margin: 0.25rem;
             padding: 0;
-            .status {
+            > :first-child {
+              display: inline-block;
+              padding: 0.125rem 0.5rem;
+              margin-left: -0.5rem;
+              border-radius: 1rem;
+              background-color: #ccc;
+            }
+            > .status {
               display: inline-block;
               font-size: 0.625rem;
               line-height: 0.875rem;
               vertical-align: top;
+              color: var(--iorg-neutral);
             }
           }
         }
       }
-      &.ul-set.bubbles {
-        ul {
+      &.list-set.bubbles {
+        > ul {
           list-style: none;
           margin: 0;
           padding: 0;
@@ -229,6 +238,12 @@ export default {
           }
         }
       }
+      p {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        padding-right: 0.25rem;
+        padding-left: 0.25rem;
+      }
     }
     th {
       & {
@@ -236,7 +251,7 @@ export default {
         font-weight: bold;
         vertical-align: bottom;
       }
-      &.ul-set {
+      &.list-set {
         ul {
           font-size: 0.75rem;
           font-weight: normal;
@@ -256,17 +271,6 @@ export default {
       }
       &:first-of-type + tr:not(.no-border) {
         border-top: solid 2px var(--iorg-text);
-      }
-    }
-    p {
-      & {
-        margin-bottom: 0.5rem;
-        padding-right: 0.25rem;
-        padding-left: 0.25rem;
-      }
-      &:last-child,
-      &:last-of-type {
-        margin-bottom: 0;
       }
     }
   }
