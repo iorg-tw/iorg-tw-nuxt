@@ -1,7 +1,7 @@
 <i18n lang="yaml">
-tw:
+_tw:
   articles: "報導"
-en:
+_en:
   articles: "Articles"
 </i18n>
 

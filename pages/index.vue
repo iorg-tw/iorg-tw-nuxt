@@ -1,5 +1,5 @@
 <i18n lang="yaml">
-tw:
+_tw:
   science: "IORG 以可公開檢驗的科學方法證實⋯"
   k1: "中國共產黨及中國政府確實參與對台資訊操弄。"
   k2: "在地協力者是中國對台資訊操弄成功的關鍵因素。"
@@ -8,7 +8,7 @@ tw:
   soon: "報告即將開放閱讀"
   articles: "報導"
   videos: "影音"
-en:
+_en:
   science: "IORG confirms with openly verifiable scientific methods that…"
   k1: "The CCP and Government of China are involved in information manipulation against Taiwan."
   k2: "Local collaborators are critical to the success of Chinese information manipulation against Taiwan."
@@ -35,8 +35,8 @@ en:
         </div>
       </div>
       <div class="panel actions">
-        <nuxt-link is="div" class="action disabled" to="#">{{ $t('read') }}</nuxt-link>
-        <nuxt-link is="div" class="action disabled" to="#">{{ $t('download') }}</nuxt-link>
+        <nuxt-link is="div" class="action disabled" :to="localePath('/')">{{ $t('read') }}</nuxt-link>
+        <nuxt-link is="div" class="action disabled" :to="localePath('/')">{{ $t('download') }}</nuxt-link>
         <div class="info">
           <div class="content">
             <span class="emoji">⚠️</span>

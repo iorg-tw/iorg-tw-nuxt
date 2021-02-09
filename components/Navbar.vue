@@ -1,10 +1,10 @@
 <i18n lang="yaml">
-tw:
+_tw:
   research: "研究"
   articles: "報導"
   videos: "影音"
   events: "活動"
-en:
+_en:
   research: "Research"
   articles: "Articles"
   videos: "Videos"
@@ -13,14 +13,14 @@ en:
 
 <template>
 <div class="navbar">
-  <nuxt-link class="go-home block" :to="{ path: '/' }">
+  <nuxt-link class="go-home block" :to="localePath('/')">
     <img src="/images/logo-tmp-small.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="{ path: '/' }" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/a' }" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/v' }" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
-    <nuxt-link :to="{ path: '/e' }" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/')" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/a')" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/v')" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/e')" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
     <a v-for="locale of availableLocales" :key="locale.code" href="#" class="item block inverted minimal" @click.prevent.stop="$i18n.setLocale(locale.code)"><span>{{ locale.name }}</span></a>

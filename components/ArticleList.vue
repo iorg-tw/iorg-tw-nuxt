@@ -1,8 +1,8 @@
 <i18n lang="yaml">
-tw:
+_tw:
   publishedAt: "發佈於"
   updatedAt: "最後更新於"
-en:
+_en:
   publishedAt: "Published at"
   updatedAt: "Last updated at"
 </i18n>
@@ -10,7 +10,7 @@ en:
 <template>
 <div class="article-list container-wrapper">
   <div class="articles container">
-    <nuxt-link v-for="article of articles" :key="article.id" :to="{ name: contentTypes[article.type].dir + '-id', params: { id: article.id } }" class="article block panel tiled filled">
+    <nuxt-link v-for="article of articles" :key="article.id" :to="localeRoute({ name: contentTypes[article.type].dir + '-id', params: { id: article.id } })" class="article block panel tiled filled">
       <img v-if="article.coverImage" :src="article.coverImage" class="cover" />
       <div class="detail">
         <h3 v-html="optimizeTracking(article.title)"></h3>

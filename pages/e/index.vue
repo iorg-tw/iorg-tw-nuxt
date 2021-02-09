@@ -1,7 +1,7 @@
 <i18n lang="yaml">
-tw:
+_tw:
   events: "活動"
-en:
+_en:
   events: "Events"
 </i18n>
 

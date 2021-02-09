@@ -21,14 +21,14 @@ export default {
       return
     }
     const docURLs = [
-      customEvent.localizedDocs.tw,
-      customEvent.localizedDocs.en
-    ] // 0 = tw; 1 = en
+      customEvent.localizedDocs._tw,
+      customEvent.localizedDocs._en
+    ] // 0 = _tw; 1 = _en
     const docs = await Promise.all(docURLs.map(url => getDoc(url)))
     return {
       localizedDocs: {
-        tw: docs[0],
-        en: docs[1]
+        _tw: docs[0],
+        _en: docs[1]
       }
     }
   },

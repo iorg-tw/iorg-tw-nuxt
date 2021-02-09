@@ -41,9 +41,6 @@ export default {
   build: {
     extend(config, ctx) {}
   },
-  generate: {
-    dir: 'docs'
-  },
   server: {
     port: 10101,
     host: '0.0.0.0'
@@ -51,16 +48,16 @@ export default {
   i18n: {
     locales: [
       {
-        code: 'tw',
-        name: '台'
+        code: '_en',
+        name: 'En'
       },
       {
-        code: 'en',
-        name: 'En'
+        code: '_tw',
+        name: '台'
       }
     ],
-    defaultLocale: 'tw',
-    strategy: 'no_prefix',
+    defaultLocale: '_tw',
+    strategy: 'prefix_except_default',
     vueI18nLoader: true
   }
 }

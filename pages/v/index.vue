@@ -1,7 +1,7 @@
 <i18n lang="yaml">
-tw:
+_tw:
   videos: "影音"
-en:
+_en:
   videos: "Videos"
 </i18n>
 

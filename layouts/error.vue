@@ -3,7 +3,7 @@
   <h1>{{ error.statusCode }}</h1>
   <h2>{{ error.message }}</h2>
   <div class="actions">
-    <nuxt-link to="/">Go home</nuxt-link>
+    <nuxt-link :to="localePath('/')">Go home</nuxt-link>
   </div>
 </div>
 </template>

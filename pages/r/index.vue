@@ -1,5 +1,5 @@
 <i18n lang="yaml">
-tw:
+_tw:
   title: "極權擴張"
   subtitle: "中國對台滲透綜合研究"
   keyFindings: "研究總結"
@@ -7,7 +7,7 @@ tw:
   about: "關於 IORG"
   articles: "報導"
   videos: "影音"
-en:
+_en:
   title: "Authoritarian Expansion"
   subtitle: "Chinese Infiltration Against Taiwan"
   keyFindings: "Key Findings"
@@ -38,7 +38,7 @@ en:
       <img class="cover" :src="topic.image" />
       <div class="detail">
         <p>{{ topic.id }}</p>
-        <h3><nuxt-link :to="topic.to">{{ topic.title }}</nuxt-link></h3>
+        <h3><nuxt-link :to="localePath(topic.to)">{{ topic.title }}</nuxt-link></h3>
       </div>
     </div>
   </div>
