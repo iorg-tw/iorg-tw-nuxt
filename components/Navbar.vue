@@ -23,7 +23,7 @@ _en:
     <nuxt-link :to="localePath('/e')" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
-    <a v-for="locale of availableLocales" :key="locale.code" href="#" class="item block inverted minimal" @click.prevent.stop="$i18n.setLocale(locale.code)"><span>{{ locale.name }}</span></a>
+    <a v-for="locale of availableLocales" :key="locale.code" href="#" class="item block minimal" @click.prevent.stop="$i18n.setLocale(locale.code)"><span>{{ locale.name }}</span></a>
   </div>
 </div>
 </template>
@@ -39,8 +39,10 @@ export default {
 </script>
 
 <style lang="scss">
-$size: 64px;
+@import '~assets/styles/resources';
+
 .navbar {
+  $size: 64px;
   display: flex;
   align-items: flex-start;
   > .go-home {
@@ -60,9 +62,9 @@ $size: 64px;
   > .main-menu {
     > .item {
       @media (max-width: 400px) {
-        padding: 0 0.25rem;
+        padding: 0 0.125rem;
         word-break: break-all;
-        max-width: 3.5rem;
+        min-width: 2.5rem;
         line-height: 1.15;
         transform: skew(0, -12deg) translateY(0.75rem) scale(0.875);
         transform-origin: bottom left;
@@ -71,7 +73,11 @@ $size: 64px;
   }
   > .langs {
     margin-left: auto;
-    background-color: var(--iorg-text);
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: var(--iorg-accent);
+    border-radius: $size * 0.625 / 2;
+    @include shadow;
     > .item {
       line-height: $size * 0.625;
     }
