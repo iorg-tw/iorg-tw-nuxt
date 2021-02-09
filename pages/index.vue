@@ -22,7 +22,7 @@ _en:
 <template>
 <div class="page home">
   <section id="r" class="report">
-    <p class="science">{{ $t('science') }}</p>
+    <h3 class="slim science">{{ $t('science') }}</h3>
     <div class="container">
       <div class="panel tiled filled">
         <div class="detail">
