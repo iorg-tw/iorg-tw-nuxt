@@ -1,10 +1,23 @@
-const redirects = require('../301.json')
+const redirects = require('../301.js')
+const locales = require('../nuxt.config.js').default.i18n.locales.map(locale => locale.code)
 
 module.exports = function(req, res, next) {
-  const redirect = redirects.find(r => r.from === req.url)
-  if(redirect) {
-    console.log(`redirect: ${redirect.from} => ${redirect.to}`)
-    res.writeHead(301, { Location: redirect.to })
+  let to = null
+  redirects.some(r => {
+    let from = req.url.substring(1).split('/') // remove leading /
+    let locale = null
+    if(locales.includes(from[0])) { // first part is locale
+      locale = from.shift()
+    }
+    from = '/' + from.join('/')
+    if(from.startsWith(r.from)) {
+      to = from.replace(r.from, r.to)
+    }
+    return to !== null
+  })
+  if(to) {
+    console.log(`${req.url} => ${to}`)
+    res.writeHead(301, { Location: to })
     res.end()
   } else {
     next()
