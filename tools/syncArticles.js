@@ -42,7 +42,6 @@ async function sheetToJSON(sheet) {
 		locales.forEach((locale, i) => {
 			let doc = localizedDocs[i]
 			doc.publicURL = article.publicURLs[locale]
-			delete doc.subtitle
 			delete doc.coverImageDescHTML
 			delete doc.summaryHTML
 			delete doc.html
