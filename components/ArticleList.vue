@@ -14,6 +14,7 @@ _en:
       <img v-if="getLocalizedDoc(article).coverImage" :src="getLocalizedDoc(article).coverImage" class="cover" />
       <div class="detail">
         <h3 v-html="optimizeTracking(getLocalizedDoc(article).title)"></h3>
+        <h4 v-if="getLocalizedDoc(article).subtitle">{{ getLocalizedDoc(article).subtitle }}</h4>
         <div class="dates">
           <div class="published-at">{{ $t('publishedAt') }} {{ article.publishedAt }}</div>
           <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} {{ article.updatedAt }}</div>
@@ -72,8 +73,14 @@ export default {
 .article-list {
   .article {
     > .detail {
+      > h4 { // subtitle
+        margin: 0.125rem 0;
+        font-size: 0.75rem;
+        font-weight: normal;
+        color: var(--iorg-accent);
+      }
       > .dates {
-        margin: 0.25rem 0;
+        margin: 0.125rem 0;
         font-size: 0.75rem;
       }
     }
