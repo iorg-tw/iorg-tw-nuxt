@@ -10,10 +10,10 @@ _en:
 <template>
 <div class="article-list container-wrapper">
   <div class="articles container">
-    <nuxt-link v-for="article of articles" :key="article.id" :to="localeRoute({ name: contentTypes[article.type].dir + '-id', params: { id: article.id } })" class="article block panel tiled filled">
-      <img v-if="article.coverImage" :src="article.coverImage" class="cover" />
+    <nuxt-link v-for="article of articles" :key="article.id" :to="localeRoute({ name: 'a-id', params: { id: article.id } })" class="article block panel tiled filled">
+      <img v-if="getLocalizedDoc(article).coverImage" :src="getLocalizedDoc(article).coverImage" class="cover" />
       <div class="detail">
-        <h3 v-html="optimizeTracking(article.title)"></h3>
+        <h3 v-html="optimizeTracking(getLocalizedDoc(article).title)"></h3>
         <div class="dates">
           <div class="published-at">{{ $t('publishedAt') }} {{ article.publishedAt }}</div>
           <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} {{ article.updatedAt }}</div>
@@ -26,22 +26,14 @@ _en:
 
 <script>
 import { optimizeTracking } from '~/lib/typography'
+import { localizeArticle } from '~/lib/i18n'
 import allArticles from '~/data/articles.json'
-
-const contentTypes = {
-  article: {
-    dir: 'a'
-  },
-  video: {
-    dir: 'v'
-  }
-}
 
 export default {
   props: {
     type: {
       type: String,
-      default: 'article'
+      default: 'all'
     },
     showAll: {
       type: Boolean,
@@ -62,12 +54,14 @@ export default {
       return flag
     }).map(k => ({ [k]: allArticles[k] })))
     return {
-      articles,
-      contentTypes
+      articles
     }
   },
   methods: {
-    optimizeTracking
+    optimizeTracking,
+    getLocalizedDoc(article) {
+      return localizeArticle(article, this.$i18n.locale, this.$i18n.defaultLocale)
+    }
   }
 }
 </script>

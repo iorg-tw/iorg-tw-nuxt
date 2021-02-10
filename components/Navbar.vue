@@ -2,12 +2,10 @@
 _tw:
   research: "研究"
   articles: "報導"
-  videos: "影音"
   events: "活動"
 _en:
   research: "Research"
   articles: "Articles"
-  videos: "Videos"
   events: "Events"
 </i18n>
 
@@ -19,7 +17,6 @@ _en:
   <div class="menu main-menu">
     <nuxt-link :to="localePath('/')" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/a')" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/v')" class="item block"><span>{{ $t('videos') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/e')" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">

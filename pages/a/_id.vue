@@ -7,6 +7,7 @@
 
 <script>
 import { getDoc } from '~/lib/gdoc'
+import { localizeArticle } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 import Actions from '~/components/Actions'
@@ -18,14 +19,14 @@ export default {
     GoogleDoc,
     Actions
   },
-  async asyncData({ params, error }) {
+  async asyncData({ app, params, error }) {
     const id = params.id
     const article = articles[id]
-    if(!(article && article.type === 'article')) {
-      error({ statusCode: 404, message: 'Article not found' })
+    if(!article) {
+      error({ statusCode: 404, message: 'articleNotFound' })
       return
     }
-    const doc = await getDoc(article.publicURL)
+    const doc = await getDoc(localizeArticle(article, app.i18n.locale, app.i18n.defaultLocale).publicURL)
     return {
       article,
       doc

@@ -12,26 +12,45 @@ doc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
 
 let articleDict = {}
 
-async function sheetToJSON(sheet, type) {
+function ok(str) {
+	return str !== null && str !== undefined && str.trim().length > 0
+}
+
+async function sheetToJSON(sheet) {
 	let rows = await sheet.getRows()
 	let dict = Object.assign({}, ...rows.filter(row => row.id && row.publicURL).map(row => ({
 		[row.id]: {
 			published: row.published ? true : false,
-			type,
+			type: row.type,
 			id: row.id,
-			publicURL: row.publicURL,
+			publicURLs: {
+				_tw: row.publicURL_tw,
+				...(ok(row.publicURL_en) ? { _en: row.publicURL_en } : {})
+			},
 			publishedAt: row.publishedAt,
-			...(row.updatedAt ? { updatedAt: row.updatedAt } : {})
+			...(row.updatedAt ? { updatedAt: row.updatedAt } : {}),
+			localizedDocs: {}
 		}
 	})))
 
 	for(let id in dict) {
 		let article = dict[id]
-		console.info(article.publicURL)
-		let doc = await getDoc(article.publicURL)
-		delete doc.summaryHTML
-		delete doc.html
-		dict[id] = Object.assign(article, doc)
+		let locales = Object.keys(article.publicURLs)
+		console.info(article.id, locales)
+		let localizedDocs = await Promise.all(locales.map(locale => getDoc(article.publicURLs[locale])))
+
+		locales.forEach((locale, i) => {
+			let doc = localizedDocs[i]
+			doc.publicURL = article.publicURLs[locale]
+			delete doc.subtitle
+			delete doc.coverImageDescHTML
+			delete doc.summaryHTML
+			delete doc.html
+			article.localizedDocs[locale] = doc
+		})
+
+		delete article.publicURLs
+		dict[id] = article
 	}
 	Object.assign(articleDict, dict)
 }
@@ -41,9 +60,7 @@ async function get() {
 	let sheet
 
 	sheet = doc.sheetsById['0']
-	await sheetToJSON(sheet, 'article')
-	sheet = doc.sheetsById['339912852']
-	await sheetToJSON(sheet, 'video')
+	await sheetToJSON(sheet)
 
 	// sort keys by publishedAt
 	let keys = Object.keys(articleDict)

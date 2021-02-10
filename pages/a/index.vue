@@ -10,7 +10,7 @@ _en:
   <div class="section-header first">
     <p class="section-title-fancy">{{ $t('articles') }}</p>
   </div>
-  <article-list type="article" />
+  <article-list />
 </div>
 </template>
 

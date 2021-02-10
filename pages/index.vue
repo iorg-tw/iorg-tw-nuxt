@@ -51,13 +51,7 @@ _en:
     <div class="section-header">
       <p class="section-title-fancy">{{ $t('articles') }}</p>
     </div>
-    <article-list type="article" />
-  </section>
-  <section id="v" class="content-list videos">
-    <div class="section-header">
-      <p class="section-title-fancy">{{ $t('videos') }}</p>
-    </div>
-    <article-list type="video" />
+    <article-list />
   </section>
 </div>
 </template>
