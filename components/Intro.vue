@@ -10,7 +10,7 @@ _en:
 </i18n>
 
 <template>
-<section class="intro">
+<section class="iorg-intro">
   <div class="content">
     <div class="tagline">{{ $t(k) }}</div>
     <div class="about">
@@ -36,10 +36,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import '~assets/styles/resources';
 
-.intro {
+.iorg-intro {
   margin: 1.5rem 0;
   padding: 1.5rem;
   background-color: var(--iorg-primary-dark-color);
