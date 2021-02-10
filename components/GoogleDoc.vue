@@ -134,8 +134,7 @@ export default {
   }
   .subtitle {
     font-size: 1.25rem;
-    font-weight: bold;
-    color: var(--iorg-neutral);
+    color: var(--iorg-accent);
   }
   p, ul {
     margin-bottom: 1.5rem;
