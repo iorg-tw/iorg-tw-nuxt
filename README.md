@@ -7,6 +7,7 @@
 ### Create `.env`
 
 ```txt
+GOOGLE_SHEET_API_KEY={key}
 AIRTABLE_API_KEY={key}
 ```
 
