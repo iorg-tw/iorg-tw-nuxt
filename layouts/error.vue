@@ -1,9 +1,18 @@
+<i18n lang="yaml">
+_tw:
+  articleNotFound: "查無此報導"
+  goHome: "回到首頁"
+_en:
+  articleNotFound: "Article not found"
+  goHome: "Go home"
+</i18n>
+
 <template>
 <div class="error">
   <h1>{{ error.statusCode }}</h1>
-  <h2>{{ error.message }}</h2>
+  <h2>{{ $t(error.message) }}</h2>
   <div class="actions">
-    <nuxt-link :to="localePath('/')">Go home</nuxt-link>
+    <nuxt-link :to="localePath('/')">{{ $t('goHome') }}</nuxt-link>
   </div>
 </div>
 </template>
