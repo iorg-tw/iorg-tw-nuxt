@@ -38,7 +38,7 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.mainArticle.title, this.mainArticle.summary, this.mainArticle.coverImage)
+    return generateMeta(this.mainArticle.title, null, this.mainArticle.summary, this.mainArticle.coverImage)
   }
 }
 </script>

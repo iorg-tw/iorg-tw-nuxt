@@ -1,8 +1,12 @@
 <i18n lang="yaml">
 _tw:
   events: "活動"
+  title: "活動"
+  description: "IORG 資訊判讀、資訊操弄、認知戰相關活動資訊"
 _en:
   events: "Events"
+  title: "Events"
+  description: "IORG Events"
 </i18n>
 
 <template>
@@ -34,8 +38,6 @@ import events from '~/data/events.json'
 export default {
   data() {
     return {
-      title: '活動 Events',
-      description: 'IORG 資訊判讀、資訊操弄、認知戰相關活動資訊',
       events
     }
   },
@@ -51,7 +53,7 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.title, this.description)
+    return generateMeta(this.$t('title'), null, this.$t('description'))
   }
 }
 </script>
