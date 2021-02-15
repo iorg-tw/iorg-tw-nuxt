@@ -20,7 +20,7 @@ _en:
     <nuxt-link :to="localePath('/e')" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
-    <nuxt-link v-for="locale of availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="item block minimal"><span>文↔︎A</span></nuxt-link><!-- FIXME: assumes only two langs TW & EN -->
+    <nuxt-link v-for="locale of availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="item block minimal"><img src="/images/locales-tw-en.png" width="64"></nuxt-link><!-- FIXME: assumes only two langs TW & EN -->
   </div>
 </div>
 </template>
@@ -80,14 +80,11 @@ export default {
     margin-left: auto;
     padding: 0.5rem 0.5rem 0 0;
     > .item {
-      padding: 0 0.75rem;
+      padding: 0;
       line-height: $size * 0.625;
       background-color: var(--iorg-accent);
       border-radius: $size * 0.625 / 2;
       @include shadow;
-      > span {
-        white-space: nowrap;
-      }
     }
   }
 }
