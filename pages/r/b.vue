@@ -2,7 +2,7 @@
 <div class="page">
   <div class="section-header">
     <h1>B</h1>
-    <div v-for="c of cases" :key="c.id">{{ c }}</div>
+    <div v-for="node of nodes" :key="node.id">{{ node }}</div>
   </div>
   <div></div>
 </div>
@@ -15,9 +15,9 @@ const B_ID = '_R_B'
 
 export default {
   data() {
-    const cases = tree.filter(i => i.parentID === B_ID)
+    const nodes = tree.filter(node => node.parentID === B_ID)
     return {
-      cases
+      nodes
     }
   }
 }
