@@ -78,6 +78,8 @@ export default {
 .page.report-home {
   .subtitle {
     font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--iorg-accent);
   }
   > .key-findings {
     .group-header {
