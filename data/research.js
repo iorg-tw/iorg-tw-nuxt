@@ -2,6 +2,12 @@ const articleMap = {
   keyFindings: {
     publicURL: 'https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub'
   },
+  methodologies: {
+    publicURL: 'https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub'
+  },
+  glossary: {
+    publicURL: 'https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub'
+  },
   acknowledgement: {
     publicURL: 'https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub'
   }
@@ -39,6 +45,12 @@ const topics = [
     image: '/images/covers/x-h.png'
   },
   {
+    id: 'M',
+    to: '/r/m',
+    title: '研究方法',
+    image: '/images/covers/x-h.png'
+  },
+  {
     id: 'W',
     to: '/community-engagement-2020',
     title: '在地連結成果報告',
@@ -49,12 +61,6 @@ const topics = [
     title: '未來研究',
     to: '/roadmap',
     image: '/images/covers/f-h.png'
-  },
-  {
-    id: 'M',
-    to: '/methodologies',
-    title: '研究方法',
-    image: '/images/covers/x-h.png'
   },
   {
     id: 'G',
