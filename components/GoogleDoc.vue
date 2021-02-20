@@ -1,8 +1,8 @@
 <template>
 <div class="google-doc">
   <template v-if="options.head !== false">
-    <h1 v-if="doc.title" :is="doc.titleTag ? doc.titleTag : 'h1'" v-html="optimizeTracking(doc.title)"></h1>
-    <p v-if="doc.subtitle" v-html="optimizeTracking(doc.subtitle)" class="subtitle"></p>
+    <h1 :is="doc.titleTag ? doc.titleTag : 'h1'" v-if="doc.title" v-html="optimizeTracking(doc.title)"></h1>
+    <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
     <ul v-if="doc.authorInfo" class="author-info">
       <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
     </ul>

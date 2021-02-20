@@ -2,7 +2,7 @@
 <div :id="id" class="io-network">
   <div class="controls container">
     <div v-if="!isEditMode" class="panel">
-      <button v-for="l of allLayouts" :key="l.id" class="layout" @click="activeLayoutID = l.id" :disabled="activeLayoutID === l.id">{{ l.name }}</button>
+      <button v-for="l of allLayouts" :key="l.id" class="layout" :disabled="activeLayoutID === l.id" @click="activeLayoutID = l.id">{{ l.name }}</button>
     </div>
     <div v-if="isEditMode" class="domains-multiselect panel">
       <label v-for="(d, domainID) in allDomains" :key="domainID" class="domain" :class="!Number.isNaN(+d.substring(1)) ? 'code' : 'text'">
@@ -40,7 +40,10 @@
   </div>
 </div>
 </template>
+
 <script>
+/* eslint-disable no-console */
+
 import { v4 as uuidv4 } from 'uuid'
 import * as d3 from 'd3'
 import allDomains from '~/data/ion/domains'
