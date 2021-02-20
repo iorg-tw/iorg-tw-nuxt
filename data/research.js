@@ -5,6 +5,9 @@ const articleMap = {
   methodologies: {
     publicURL: 'https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub'
   },
+  openByDefault: {
+    publicURL: 'https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub'
+  },
   glossary: {
     publicURL: 'https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub'
   },
@@ -48,6 +51,12 @@ const topics = [
     id: 'M',
     to: '/r/m',
     title: '研究方法',
+    image: '/images/covers/x-h.png'
+  },
+  {
+    id: 'O',
+    to: '/open-by-default',
+    title: '研究成果授權公開',
     image: '/images/covers/x-h.png'
   },
   {
