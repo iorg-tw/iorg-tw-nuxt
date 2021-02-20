@@ -169,21 +169,18 @@ export default {
         max-width: 20rem;
         vertical-align: top;
       }
-      &.fw-s { // fixed width (experimental)
-        width: 4rem;
-      }
-      &.fw-m {
-        width: 8rem;
-      }
-      &.width-s { // FIXME: could be better
-        min-width: 6rem;
-      }
-      &.width-m {
-        min-width: 10rem;
-      }
-      &.width-l {
-        min-width: 20rem;
-        max-width: 40rem;
+      @each $unit, $width in $td-widths {
+        $w: $width + $td-m;
+        &.w-min-#{$unit} {
+          min-width: $w;
+        }
+        &.w-max-#{$unit} {
+          max-width: $w;
+        }
+        &.w-fixed-#{$unit} {
+          min-width: $w;
+          max-width: $w;
+        }
       }
       &.datetime {
         min-width: 10rem;

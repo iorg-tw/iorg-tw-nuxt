@@ -45,6 +45,21 @@ $unit-lengths: (
   quad: 4rem
 );
 
+$td-m: 0.5rem;
+$td-widths: (
+  2: 2rem,
+  3: 3rem,
+  4: 4rem,
+  6: 6rem,
+  8: 8rem,
+  10: 10rem,
+  12: 12rem,
+  16: 16rem,
+  20: 20rem,
+  24: 24rem,
+  40: 40rem
+);
+
 // Z
 
 $z-nav: 1001;
