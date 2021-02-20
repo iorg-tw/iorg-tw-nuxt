@@ -1,8 +1,10 @@
 <i18n lang="yaml">
 _tw:
+  pageNotFound: "查無此頁面"
   articleNotFound: "查無此報導"
   goHome: "回到首頁"
 _en:
+  pageNotFound: "Page not found"
   articleNotFound: "Article not found"
   goHome: "Go home"
 </i18n>

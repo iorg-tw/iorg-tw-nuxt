@@ -19,7 +19,7 @@ export default {
     const to = '/r/' + id
     const matchingNodes = tree.filter(node => node.to === to && node.isArticle)
     if(matchingNodes.length < 1) {
-      error({ statusCode: 404, message: 'articleNotFound' })
+      error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
     const node = matchingNodes[0]
