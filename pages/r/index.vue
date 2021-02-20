@@ -21,17 +21,18 @@ _en:
 <div class="page report-home">
   <div class="section-header">
     <h1>{{ $t('title') }}</h1>
-    <h2>{{ $t('subtitle') }}</h2>
-    <h2>{{ $t('keyFindings') }}</h2>
+    <p class="subtitle">{{ $t('subtitle') }}</p>
+    <p>{{ $t('keyFindings') }}</p>
   </div>
   <div class="key-findings">
-    <div v-for="objL0 of structuredDocK" :key="objL0.header" class="group">
-      <div v-html="objL0.header"></div>
-      <div v-html="objL0.body"></div>
+    <div v-for="objL0 of structuredDocK" :key="objL0.title" class="group">
+      <div class="section-header">
+        <div :is="objL0.titleTag">{{ objL0.title }}</div>
+        <div v-if="objL0.html" v-html="objL0.html"></div>
+      </div>
       <div v-if="objL0.children" class="findings container">
-        <div v-for="objL1 of objL0.children" :key="objL1.header" class="finding panel filled tiled">
-          <div class="header detail" v-html="objL1.header"></div>
-          <!--<div class="body detail" v-html="objL1.body"></div>-->
+        <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding panel filled tiled">
+          <div class="header detail" :is="objL1.titleTag">{{ objL1.title }}</div>
         </div>
       </div>
     </div>

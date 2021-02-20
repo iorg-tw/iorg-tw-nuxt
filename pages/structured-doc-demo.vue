@@ -1,12 +1,12 @@
 <template>
 <div class="page demo">
   <div v-for="objL0 of structuredDoc" :key="objL0.header" class="objL0">
-    <div v-html="objL0.header"></div>
-    <div v-html="objL0.body"></div>
+    <div :is="objL0.titleTag">{{ objL0.title }}</div>
+    <div v-html="objL0.html"></div>
     <div v-if="objL0.children" class="children">
       <div v-for="objL1 of objL0.children" :key="objL1.header" class="objL1">
-        <div v-html="objL1.header"></div>
-        <div v-html="objL1.body"></div>
+        <div :is="objL1.titleTag">{{ objL1.title }}</div>
+        <div v-html="objL1.html"></div>
       </div>
     </div>
   </div>
