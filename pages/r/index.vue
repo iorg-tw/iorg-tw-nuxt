@@ -1,15 +1,13 @@
 <i18n lang="yaml">
 _tw:
-  title: "極權擴張"
-  subtitle: "中國對台滲透綜合研究"
-  keyFindings: "研究總結"
+  title: "極權擴張與民主防衛"
+  subtitle: "IORG 中國對台滲透跨領域研究"
   reports: "各項報告"
   about: "關於 IORG"
   more: "完整內容"
 _en:
-  title: "Authoritarian Expansion"
-  subtitle: "Chinese Infiltration Against Taiwan"
-  keyFindings: "Key Findings"
+  title: "Defending Democracy Against Authoritarian Expansion"
+  subtitle: "IORG Research on Chinese Infiltration Against Taiwan"
   reports: "Reports"
   about: "About IORG"
   more: "More"
