@@ -35,15 +35,15 @@ const tree = [
     id: '_R_B1',
     to: '/r/b1',
     level: 1,
-    parent: '_R_B',
+    parentID: '_R_B',
     code: 'B.1'
   },
   {
     id: '_R_R1',
     to: '/r/r1',
     level: 1,
-    parent: '_R_B',
-    code: 'B.2'
+    parentID: '_R_B',
+    code: 'R.1'
   },
   {
     id: '_R_D',
@@ -51,6 +51,13 @@ const tree = [
     level: 0,
     code: 'B',
     image: '/images/covers/d-h.png'
+  },
+  {
+    id: '_R_D1',
+    to: '/r/D1',
+    level: 1,
+    parentID: '_R_D',
+    code: 'D.1'
   },
   {
     id: '_R_M',

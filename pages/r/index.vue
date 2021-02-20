@@ -35,12 +35,12 @@ _en:
   <div class="section-header">
     <h2>{{ $t('reports') }}</h2>
   </div>
-  <div class="topics container">
-    <div v-for="page of level0Pages" :key="page.id" class="topic panel tiled">
-      <img class="cover" :src="page.image ? page.image : defaultCover" />
+  <div class="nodes container">
+    <div v-for="node of level0Nodes" :key="node.id" class="node panel tiled">
+      <img class="cover" :src="node.image ? node.image : defaultCover" />
       <div class="detail">
-        <p v-if="page.code">{{ page.code }}</p>
-        <h3><nuxt-link :to="localePath(page.to)">{{ $t(page.id) }}</nuxt-link></h3>
+        <p v-if="node.code">{{ node.code }}</p>
+        <h3><nuxt-link :to="localePath(node.to)">{{ $t(node.id) }}</nuxt-link></h3>
       </div>
     </div>
   </div>
@@ -64,12 +64,12 @@ export default {
     ])
     const structuredDocK = structureDoc(docK.html, ['h2', 'h3'])
 
-    const level0Pages = tree.filter(i => i.level === 0)
+    const level0Nodes = tree.filter(node => node.level === 0)
 
     return {
       structuredDocK,
       docAck,
-      level0Pages,
+      level0Nodes,
       defaultCover
     }
   }
@@ -94,8 +94,8 @@ export default {
       margin: 0 0.25rem;
     }
   }
-  > .topics {
-    > .topic {
+  > .nodes {
+    > .node {
       position: relative;
       display: flex;
       align-items: flex-start;
