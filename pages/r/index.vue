@@ -24,10 +24,16 @@ _en:
     <h2>{{ $t('subtitle') }}</h2>
     <h2>{{ $t('keyFindings') }}</h2>
   </div>
-  <div class="findings container">
-    <div v-for="(finding, findingIndex) of findings" :key="findingIndex" class="finding panel filled tiled">
-      <div class="header detail" v-html="finding.header"></div>
-      <div class="body detail" v-html="finding.body"></div>
+  <div class="key-findings">
+    <div v-for="objL0 of structuredDocK" :key="objL0.header" class="group">
+      <div v-html="objL0.header"></div>
+      <div v-html="objL0.body"></div>
+      <div v-if="objL0.children" class="findings container">
+        <div v-for="objL1 of objL0.children" :key="objL1.header" class="finding panel filled tiled">
+          <div class="header detail" v-html="objL1.header"></div>
+          <!--<div class="body detail" v-html="objL1.body"></div>-->
+        </div>
+      </div>
     </div>
   </div>
   <div class="section-header">
@@ -48,7 +54,7 @@ _en:
 
 <script>
 import { articleMap, topics } from '~/data/research'
-import { getDoc, toSectionArray } from '~/lib/gdoc'
+import { getDoc, structureDoc } from '~/lib/gdoc'
 import Intro from '~/components/Intro'
 
 export default {
@@ -57,12 +63,12 @@ export default {
   },
   async asyncData() {
     const docK = await getDoc(articleMap.keyFindings.publicURL)
-    const findings = toSectionArray(docK.html, 'h3')
+    const structuredDocK = structureDoc(docK.html, ['h2', 'h3'])
 
     const docAck = await getDoc(articleMap.acknowledgement.publicURL)
 
     return {
-      findings,
+      structuredDocK,
       topics,
       docAck
     }
