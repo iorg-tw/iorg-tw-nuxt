@@ -182,7 +182,7 @@ export default {
       &.datetime {
         min-width: 10rem;
       }
-      &.list-set.cards {
+      &.list-set.people {
         > ul,
         > ol {
           list-style: none;
@@ -191,7 +191,7 @@ export default {
           > li {
             margin: 0.25rem;
             padding: 0;
-            > :first-child {
+            > :first-child { // name
               display: inline-block;
               padding: 0.125rem 0.5rem;
               margin-left: -0.5rem;
