@@ -2,20 +2,20 @@
 _tw:
   title: "極權擴張與民主防衛"
   subtitle: "IORG 中國對台滲透跨領域研究"
-  reports: "各項報告"
+  directory: "目錄"
   about: "關於 IORG"
   more: "完整內容"
 _en:
   title: "Defending Democracy Against Authoritarian Expansion"
   subtitle: "IORG Research on Chinese Infiltration Against Taiwan"
-  reports: "Reports"
+  directory: "Directory"
   about: "About IORG"
   more: "More"
 </i18n>
 
 <template>
-<div class="page report-home">
-  <div class="section-header">
+<div class="page research">
+  <div class="page-header section-header">
     <h1>{{ $t('title') }}</h1>
     <p class="subtitle">{{ $t('subtitle') }}</p>
   </div>
@@ -33,17 +33,9 @@ _en:
     </div>
   </div>
   <div class="section-header">
-    <h2>{{ $t('reports') }}</h2>
+    <h2>{{ $t('directory') }}</h2>
   </div>
-  <div class="nodes container">
-    <div v-for="node of level0Nodes" :key="node.id" class="node panel tiled">
-      <img class="cover" :src="node.image ? node.image : defaultCover" />
-      <div class="detail">
-        <p v-if="node.code">{{ node.code }}</p>
-        <h3><nuxt-link :to="localePath(node.to)">{{ $t(node.id) }}</nuxt-link></h3>
-      </div>
-    </div>
-  </div>
+  <node-list :nodes="level0Nodes" :options="{ tiled: true }" />
   <intro k="default" :more="docAck.html" />
 </div>
 </template>
@@ -51,10 +43,12 @@ _en:
 <script>
 import { articleMap, tree, defaultCover } from '~/data/research'
 import { getDoc, structureDoc } from '~/lib/gdoc'
+import NodeList from '~/components/NodeList'
 import Intro from '~/components/Intro'
 
 export default {
   components: {
+    NodeList,
     Intro
   },
   async asyncData() {
@@ -79,11 +73,13 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.report-home {
-  .subtitle {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: var(--iorg-accent);
+.page.research {
+  > .page-header {
+    .subtitle {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--iorg-accent);
+    }
   }
   > .key-findings {
     .group-header {
@@ -92,22 +88,6 @@ export default {
     }
     .more {
       margin: 0 0.25rem;
-    }
-  }
-  > .nodes {
-    > .node {
-      position: relative;
-      display: flex;
-      align-items: flex-start;
-      > .cover {
-        width: 120px;
-        border-radius: 0.5rem;
-        @include shadow;
-      }
-      > .detail {
-        padding: 0;
-        padding-left: 0.75rem;
-      }
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-<div class="page">
+<div class="page research">
   <div class="section-header">
     <h1>D</h1>
     <div v-for="node of nodes" :key="node.id">{{ node }}</div>
@@ -21,5 +21,12 @@ export default {
     }
   }
 }
-
 </script>
+
+<style lang="scss">
+@import '~assets/styles/resources';
+
+.page.research {
+  padding: $default-page-padding;
+}
+</style>
