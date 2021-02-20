@@ -169,15 +169,15 @@ export default {
         max-width: 20rem;
         vertical-align: top;
       }
-      @each $unit, $width in $td-widths {
-        $w: $width + $td-m;
-        &.w-min-#{$unit} {
+      @each $k, $v in $td-widths {
+        $w: $v + $td-m;
+        &.w-min-#{$k} {
           min-width: $w;
         }
-        &.w-max-#{$unit} {
+        &.w-max-#{$k} {
           max-width: $w;
         }
-        &.w-fixed-#{$unit} {
+        &.w-fixed-#{$k} {
           min-width: $w;
           max-width: $w;
         }
