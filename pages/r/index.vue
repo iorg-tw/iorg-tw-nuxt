@@ -36,11 +36,11 @@ _en:
     <h2>{{ $t('reports') }}</h2>
   </div>
   <div class="topics container">
-    <div v-for="topic of topics" :key="topic.id" class="topic panel tiled">
-      <img class="cover" :src="topic.image" />
+    <div v-for="page of level0Pages" :key="page.id" class="topic panel tiled">
+      <img class="cover" :src="page.image ? page.image : defaultCover" />
       <div class="detail">
-        <p>{{ topic.id }}</p>
-        <h3><nuxt-link :to="localePath(topic.to)">{{ topic.title }}</nuxt-link></h3>
+        <p v-if="page.code">{{ page.code }}</p>
+        <h3><nuxt-link :to="localePath(page.to)">{{ $t(page.id) }}</nuxt-link></h3>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ _en:
 </template>
 
 <script>
-import { articleMap, topics } from '~/data/research'
+import { articleMap, tree, defaultCover } from '~/data/research'
 import { getDoc, structureDoc } from '~/lib/gdoc'
 import Intro from '~/components/Intro'
 
@@ -58,15 +58,19 @@ export default {
     Intro
   },
   async asyncData() {
-    const docK = await getDoc(articleMap.keyFindings.publicURL)
+    const [docK, docAck] = await Promise.all([
+      getDoc(articleMap.keyFindings.publicURL),
+      getDoc(articleMap.acknowledgement.publicURL)
+    ])
     const structuredDocK = structureDoc(docK.html, ['h2', 'h3'])
 
-    const docAck = await getDoc(articleMap.acknowledgement.publicURL)
+    const level0Pages = tree.filter(i => i.level === 0)
 
     return {
       structuredDocK,
-      topics,
-      docAck
+      docAck,
+      level0Pages,
+      defaultCover
     }
   }
 }

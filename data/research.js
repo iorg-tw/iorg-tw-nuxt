@@ -16,95 +16,84 @@ const articleMap = {
   }
 }
 
-const topics = [
+const tree = [
   {
-    id: 'A',
+    id: '_R_A',
     to: '/r/a',
-    title: '中國對台滲透網絡',
+    level: 0,
+    code: 'A',
     image: '/images/covers/a-h.png'
   },
   {
-    id: 'B',
+    id: '_R_B',
     to: '/r/b',
-    title: '資訊操弄',
+    level: 0,
+    code: 'B',
     image: '/images/covers/b-h.png'
   },
   {
-    id: 'D',
+    id: '_R_B1',
+    to: '/r/b1',
+    level: 1,
+    parent: '_R_B',
+    code: 'B.1'
+  },
+  {
+    id: '_R_R1',
+    to: '/r/r1',
+    level: 1,
+    parent: '_R_B',
+    code: 'B.2'
+  },
+  {
+    id: '_R_D',
     to: '/r/d',
-    title: '人際滲透',
+    level: 0,
+    code: 'B',
     image: '/images/covers/d-h.png'
   },
   {
-    id: 'P1',
-    to: '/r/p/1',
-    title: '受操弄資訊內容演化',
-    image: '/images/covers/x-h.png'
-  },
-  {
-    id: 'P2',
-    to: '/r/p/2',
-    title: '事實查核有效性',
-    image: '/images/covers/x-h.png'
-  },
-  {
-    id: 'M',
+    id: '_R_M',
     to: '/r/m',
-    title: '研究方法',
-    image: '/images/covers/x-h.png'
+    level: 0,
+    code: 'M'
   },
   {
-    id: 'O',
+    id: '_O',
     to: '/open-by-default',
-    title: '研究成果授權公開',
-    image: '/images/covers/x-h.png'
+    level: 0,
+    code: 'O'
   },
   {
-    id: 'F',
-    title: '未來研究',
+    id: '_F',
     to: '/roadmap',
-    image: '/images/covers/f-h.png'
+    level: 0,
+    code: 'F'
   },
   {
-    id: 'W',
-    to: '/community-engagement-2020',
-    title: '在地連結成果報告',
-    image: '/images/covers/x-h.png'
+    id: '_CE_2020',
+    to: '/ce/2020',
+    level: 0,
+    code: 'CE'
   },
   {
-    id: 'G',
+    id: '_G',
     to: '/glossary',
-    title: '辭典',
-    image: '/images/covers/x-h.png'
+    level: 0,
+    code: 'G'
   },
   {
-    id: 'X',
+    id: '_X',
     to: '/exhibition',
-    title: '展覽',
-    image: '/images/covers/x-h.png'
+    level: 0,
+    code: 'X'
   }
 ]
 
-const cases = [
-  {
-    id: 'B1',
-    to: '/r/b/1',
-    title: '關西機場'
-  },
-  {
-    id: 'B2',
-    to: '/r/b/2',
-    title: '陳菊貪污'
-  },
-  {
-    id: 'D1',
-    to: '/r/d/1',
-    title: '村里長滲透'
-  }
-]
+const defaultCover = '/images/covers/x-h.png'
 
 module.exports = {
   articleMap,
-  topics,
-  cases
+  tree,
+  defaultCover
 }
