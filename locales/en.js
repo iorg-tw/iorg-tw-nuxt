@@ -2,6 +2,7 @@ export default {
   _R_A: 'ION',
   _R_B: 'Information Manipulation',
   _R_B1: 'Kansai Airport',
+  _R_R1: 'Dear America from Weibo',
   _R_D: 'Interpersonal Infiltration',
   _R_M: '研究方法',
   _O: '研究成果授權公開',
