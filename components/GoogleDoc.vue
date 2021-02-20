@@ -169,7 +169,13 @@ export default {
         max-width: 20rem;
         vertical-align: top;
       }
-      &.width-s {
+      &.fw-s { // fixed width (experimental)
+        width: 4rem;
+      }
+      &.fw-m {
+        width: 8rem;
+      }
+      &.width-s { // FIXME: could be better
         min-width: 6rem;
       }
       &.width-m {
@@ -182,9 +188,18 @@ export default {
       &.datetime {
         min-width: 10rem;
       }
+      &.list-set.cards {
+        > ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          > li {
+            margin: 0.25rem;
+          }
+        }
+      }
       &.list-set.people {
-        > ul,
-        > ol {
+        > ul {
           list-style: none;
           margin: 0;
           padding: 0;
@@ -209,8 +224,7 @@ export default {
         }
       }
       &.list-set.bubbles {
-        > ul,
-        > ol {
+        > ul {
           list-style: none;
           margin: 0;
           padding: 0;
@@ -253,7 +267,7 @@ export default {
         vertical-align: bottom;
       }
       &.list-set {
-        ul, ol {
+        ul {
           font-size: 0.75rem;
           font-weight: normal;
           > li {
