@@ -1,13 +1,13 @@
 <template>
 <div class="google-doc">
   <template v-if="options.head !== false">
-    <h1 v-html="optimizeTracking(doc.title)"></h1>
+    <h1 v-if="doc.title" :is="doc.titleTag ? doc.titleTag : 'h1'" v-html="optimizeTracking(doc.title)"></h1>
     <p v-if="doc.subtitle" v-html="optimizeTracking(doc.subtitle)" class="subtitle"></p>
-    <ul class="author-info">
+    <ul v-if="doc.authorInfo" class="author-info">
       <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
     </ul>
     <div v-if="showSummary" class="summary" v-html="doc.summaryHTML"></div>
-    <div class="separator"></div>
+    <div v-if="showSummary && doc.summaryHTML" class="separator"></div>
   </template>
   <div class="content" v-html="doc.html"></div>
   <div class="separator"></div>
@@ -136,7 +136,7 @@ export default {
     font-size: 1.25rem;
     color: var(--iorg-accent);
   }
-  p, ul {
+  p, ul, ol {
     margin-bottom: 1.5rem;
     line-height: 1.625;
   }
@@ -160,7 +160,7 @@ export default {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.875rem;
-    p, ul {
+    p, ul, ol {
       line-height: 1.5;
     }
     th, td {
@@ -183,7 +183,8 @@ export default {
         min-width: 10rem;
       }
       &.list-set.cards {
-        > ul {
+        > ul,
+        > ol {
           list-style: none;
           margin: 0;
           padding: 0;
@@ -208,7 +209,8 @@ export default {
         }
       }
       &.list-set.bubbles {
-        > ul {
+        > ul,
+        > ol {
           list-style: none;
           margin: 0;
           padding: 0;
@@ -251,7 +253,7 @@ export default {
         vertical-align: bottom;
       }
       &.list-set {
-        ul {
+        ul, ol {
           font-size: 0.75rem;
           font-weight: normal;
           > li {

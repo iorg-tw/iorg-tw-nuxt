@@ -154,7 +154,7 @@ span.punct-l-fbrac {
 // project-specific selectors
 
 .section-header {
-  margin: 2rem 1.5rem -0.5rem;
+  margin: 2rem 1.5rem 0rem;
 
   &.first {
     margin-top: 1rem;
@@ -171,7 +171,9 @@ span.punct-l-fbrac {
   transform: skew(0, -12deg) translateY(0.5rem);
   transform-origin: bottom left;
 }
-$layout-m: 0.75rem;
+
+// layout
+
 .container {
   display: flex;
   flex-wrap: wrap;
