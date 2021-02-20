@@ -5,16 +5,14 @@ _tw:
   keyFindings: "研究總結"
   reports: "各項報告"
   about: "關於 IORG"
-  articles: "報導"
-  videos: "影音"
+  more: "完整內容"
 _en:
   title: "Authoritarian Expansion"
   subtitle: "Chinese Infiltration Against Taiwan"
   keyFindings: "Key Findings"
   reports: "Reports"
   about: "About IORG"
-  articles: "Articles"
-  videos: "Videos"
+  more: "More"
 </i18n>
 
 <template>
@@ -22,13 +20,12 @@ _en:
   <div class="section-header">
     <h1>{{ $t('title') }}</h1>
     <p class="subtitle">{{ $t('subtitle') }}</p>
-    <p>{{ $t('keyFindings') }}</p>
   </div>
   <div class="key-findings">
     <div v-for="objL0 of structuredDocK" :key="objL0.title" class="group">
-      <div class="section-header">
+      <div class="group-header section-header ">
         <div :is="objL0.titleTag">{{ objL0.title }}</div>
-        <div v-if="objL0.html" v-html="objL0.html"></div>
+        <nuxt-link to="/r/k" class="more button">{{ $t('more') }}</nuxt-link>
       </div>
       <div v-if="objL0.children" class="findings container">
         <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding panel filled tiled">
@@ -81,6 +78,18 @@ export default {
 @import '~assets/styles/resources';
 
 .page.report-home {
+  .subtitle {
+    font-size: 1.25rem;
+  }
+  > .key-findings {
+    .group-header {
+      display: flex;
+      align-items: center;
+    }
+    .more {
+      margin: 0 0.25rem;
+    }
+  }
   > .topics {
     > .topic {
       position: relative;
