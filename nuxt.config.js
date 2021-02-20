@@ -46,14 +46,18 @@ export default {
     host: '0.0.0.0'
   },
   i18n: {
+    lazy: true,
+    langDir: '/locales/',
     locales: [
       {
         code: '_en',
-        name: 'En'
+        name: 'En',
+        file: 'en.js'
       },
       {
         code: '_tw',
-        name: '台'
+        name: '台',
+        file: 'tw.js'
       }
     ],
     defaultLocale: '_tw',
