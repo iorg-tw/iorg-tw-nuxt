@@ -13,6 +13,12 @@ const articleMap = {
   },
   acknowledgement: {
     publicURL: 'https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub'
+  },
+  _R_B1: {
+    publicURL: 'https://docs.google.com/document/d/e/2PACX-1vSoxqSJ4LfF9Hv9wKT8HQ9icAfgxZooFpY9EsuPdhda-5Hr65m__WBeX15ZkAue6WY8HIZsCvdpT0WH/pub'
+  },
+  _R_R1: {
+    publicURL: 'https://docs.google.com/document/d/e/2PACX-1vTMqwZQFP2n7IK8RrDozn8vfUxo2ku8OEMKnLgRJos2-_HT2z38S6KCE0kK-IwY5JxAx1rWRVtWSZ7N/pub'
   }
 }
 
@@ -36,14 +42,16 @@ const tree = [
     to: '/r/b1',
     level: 1,
     parentID: '_R_B',
-    code: 'B.1'
+    code: 'B.1',
+    isArticle: true
   },
   {
     id: '_R_R1',
     to: '/r/r1',
     level: 1,
     parentID: '_R_B',
-    code: 'R.1'
+    code: 'R.1',
+    isArticle: true
   },
   {
     id: '_R_D',

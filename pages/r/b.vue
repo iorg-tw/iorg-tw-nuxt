@@ -2,7 +2,9 @@
 <div class="page">
   <div class="section-header">
     <h1>B</h1>
-    <div v-for="node of nodes" :key="node.id">{{ node }}</div>
+    <div v-for="node of nodes" :key="node.id">
+      <nuxt-link :to="node.to">{{ $t(node.id) }}</nuxt-link>
+    </div>
   </div>
   <div></div>
 </div>
