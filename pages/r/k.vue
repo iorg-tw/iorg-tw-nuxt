@@ -29,7 +29,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.research-key-findings {
+.page.research {
   padding: $default-page-padding;
 }
 </style>
