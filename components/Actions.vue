@@ -3,7 +3,7 @@
   <a v-for="action of actions" :key="action.name" class="action block" :href="action.url">
     <template v-if="action.type === 'report'">
       <img class="image" :src="action.image" />
-      <a :href="action.url" class="button inline-block">{{ action.name }}</a>
+      <a :href="action.url" class="button primary">{{ action.name }}</a>
     </template>
   </a>
 </div>
@@ -42,11 +42,6 @@ export default {
       @include shadow;
     }
     > .button {
-      background-color: var(--iorg-primary-dark-color);
-      color: var(--iorg-primary-light-color);
-      line-height: 1;
-      padding: 0.75rem 1rem;
-      border-radius: 1.25rem;
       margin-top: -1rem;
     }
   }

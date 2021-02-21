@@ -23,7 +23,7 @@ _en:
     <div v-for="objL0 of structuredDocK" :key="objL0.title" class="group">
       <div class="group-header section-header ">
         <div :is="objL0.titleTag">{{ objL0.title }}</div>
-        <nuxt-link to="/r/k" class="more button">{{ $t('more') }}</nuxt-link>
+        <nuxt-link to="/r/k" class="more button small">{{ $t('more') }}</nuxt-link>
       </div>
       <div v-if="objL0.children" class="findings container">
         <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding panel filled tiled">
