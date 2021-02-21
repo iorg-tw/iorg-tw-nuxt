@@ -57,7 +57,7 @@ const tree = [
     id: '_R_D',
     to: '/r/d',
     level: 0,
-    code: 'B',
+    code: 'D',
     image: '/images/covers/d-h.png'
   },
   {
