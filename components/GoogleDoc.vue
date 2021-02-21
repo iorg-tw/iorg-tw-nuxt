@@ -1,7 +1,7 @@
 <template>
 <div class="google-doc">
   <template v-if="options.head !== false">
-    <h1 :is="doc.titleTag ? doc.titleTag : 'h1'" v-if="doc.title" v-html="optimizeTracking(doc.title)"></h1>
+    <h1 :is="doc.titleTag ? doc.titleTag : 'h1'" v-if="doc.title" class="title" v-html="optimizeTracking(doc.title)"></h1>
     <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
     <ul v-if="doc.authorInfo" class="author-info">
       <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
@@ -72,6 +72,8 @@ export default {
       margin: 0;
       padding-top: 0.75rem;
       padding-bottom: 0.5rem;
+      padding-right: var(--doc-spacing);
+      padding-left: var(--doc-spacing);
       font-size: 0.875rem;
       color: #646464;
     }
@@ -96,6 +98,8 @@ export default {
       margin: 0;
       padding-top: 0.75rem;
       padding-bottom: 0.5rem;
+      padding-right: var(--doc-spacing);
+      padding-left: var(--doc-spacing);
       font-size: 0.875rem;
       color: #646464;
     }
@@ -127,6 +131,34 @@ export default {
         height: 100%;
       }
     }
+  }
+  .gdoc-def,
+  .gdoc-note {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--iorg-background);
+    color: var(--iorg-neutral);
+    overflow: hidden;
+    > .header {
+      padding: 0.75rem;
+      > p {
+        margin-bottom: 0;
+      }
+    }
+    > .detail {
+      font-size: 0.875rem;
+      padding: 0.75rem;
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+    > .header + .detail {
+      padding-top: 0;
+    }
+  }
+  .gdoc-note {
+    background-color: #ddd;
   }
 
   h1, h2, h3 {

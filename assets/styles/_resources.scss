@@ -81,33 +81,42 @@ $layout-m: 0.75rem;
 $doc-max-width: 40rem;
 
 @mixin doc {
-  --padding: 1rem;
+  --doc-spacing: 1rem;
   @media (min-width: 375px) {
-    --padding: 1.5rem;
+    --doc-spacing: 1.5rem;
   }
   @media (min-width: 480px) {
-    --padding: 2.5rem;
+    --doc-spacing: 2.5rem;
   }
   --indent: 1.375rem;
 
   max-width: $doc-max-width;
   margin: 0 auto;
-  padding: var(--padding) 0;
+  padding: var(--doc-spacing) 0;
   background-color: var(--iorg-paper);
   color: var(--iorg-text);
   border-radius: 0.25rem;
   line-height: 1.5;
   
-  > h1, > .author-info {
-    padding-right: var(--padding);
-    padding-left: var(--padding);
+  > h1,
+  > .title,
+  > .subtitle,
+  > .author-info,
+  > .summary {
+    padding-right: var(--doc-spacing);
+    padding-left: var(--doc-spacing);
   }
-  h2, h3, p {
-    padding-right: var(--padding);
-    padding-left: var(--padding);
-  }
-  ul, ol {
-    padding-right: var(--padding);
-    padding-left: calc(var(--padding) + var(--indent));
+  > .content {
+    > h2,
+    > h3,
+    > p {
+      padding-right: var(--doc-spacing);
+      padding-left: var(--doc-spacing);
+    }
+    > ul,
+    > ol {
+      padding-right: var(--doc-spacing);
+      padding-left: calc(var(--doc-spacing) + var(--indent));
+    }
   }
 }
