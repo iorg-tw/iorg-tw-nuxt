@@ -252,6 +252,11 @@ export default {
       &.datetime {
         min-width: 10rem;
       }
+      &.url {
+        a {
+          word-break: break-all;
+        }
+      }
       &.list-set.cards {
         > ul {
           list-style: none;
