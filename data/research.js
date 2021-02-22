@@ -46,6 +46,54 @@ const tree = [
     isArticle: true
   },
   {
+    id: '_R_B2',
+    to: '/r/b2',
+    level: 1,
+    parentID: '_R_B',
+    code: 'B.2',
+    isArticle: true
+  },
+  {
+    id: '_R_B3',
+    to: '/r/b3',
+    level: 1,
+    parentID: '_R_B',
+    code: 'B.3',
+    isArticle: true
+  },
+  {
+    id: '_R_B4',
+    to: '/r/b4',
+    level: 1,
+    parentID: '_R_B',
+    code: 'B.4',
+    isArticle: true
+  },
+  {
+    id: '_R_B5',
+    to: '/r/b5',
+    level: 1,
+    parentID: '_R_B',
+    code: 'B.5',
+    isArticle: true
+  },
+  {
+    id: '_R_B6',
+    to: '/r/b6',
+    level: 1,
+    parentID: '_R_B',
+    code: 'B.6',
+    isArticle: true
+  },
+  {
+    id: '_R_B7',
+    to: '/r/b7',
+    level: 1,
+    parentID: '_R_B',
+    code: 'B.7',
+    isArticle: true
+  },
+  {
     id: '_R_R1',
     to: '/r/r1',
     level: 1,
@@ -62,10 +110,38 @@ const tree = [
   },
   {
     id: '_R_D1',
-    to: '/r/D1',
+    to: '/r/d1',
     level: 1,
     parentID: '_R_D',
     code: 'D.1'
+  },
+  {
+    id: '_R_D2',
+    to: '/r/d2',
+    level: 1,
+    parentID: '_R_D',
+    code: 'D.2'
+  },
+  {
+    id: '_R_D3',
+    to: '/r/d3',
+    level: 1,
+    parentID: '_R_D',
+    code: 'D.3'
+  },
+  {
+    id: '_R_D4',
+    to: '/r/d4',
+    level: 1,
+    parentID: '_R_D',
+    code: 'D.4'
+  },
+  {
+    id: '_R_D5',
+    to: '/r/d5',
+    level: 1,
+    parentID: '_R_D',
+    code: 'D.5'
   },
   {
     id: '_R_M',
@@ -83,7 +159,8 @@ const tree = [
     id: '_F',
     to: '/roadmap',
     level: 0,
-    code: 'F'
+    code: 'F',
+    image: '/images/covers/f-h.png'
   },
   {
     id: '_CE_2020',

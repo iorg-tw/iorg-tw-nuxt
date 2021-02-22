@@ -1,23 +1,31 @@
 <template>
 <div class="page research">
   <div class="section-header">
-    <h1>D</h1>
-    <div v-for="node of nodes" :key="node.id">{{ node }}</div>
+    <h1>{{ CONST.code }} {{ $t(CONST.id) }}</h1>
   </div>
-  <div></div>
+  <node-list :nodes="nodes" />
 </div>
 </template>
 
 <script>
-import { tree } from '~/data/research'
+import { tree, defaultCover } from '~/data/research'
+import NodeList from '~/components/NodeList'
 
-const D_ID = '_R_D'
+const CONST = {
+  id: '_R_D',
+  code: 'D'
+}
 
 export default {
+  components: {
+    NodeList
+  },
   data() {
-    const nodes = tree.filter(node => node.parentID === D_ID)
+    const nodes = tree.filter(node => node.parentID === CONST.id)
     return {
-      nodes
+      nodes,
+      defaultCover,
+      CONST
     }
   }
 }
