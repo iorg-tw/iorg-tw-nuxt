@@ -1,7 +1,7 @@
 <template>
 <div class="nodes container">
   <div v-for="node of nodes" :key="node.id" class="node panel tiled" :class="nodeClasses">
-    <img class="cover" :src="node.image ? node.image : defaultCover" />
+    <img class="cover" :src="node.image" />
     <div class="detail">
       <p v-if="node.code">{{ node.code }}</p>
       <h3><nuxt-link :to="localePath(node.to)">{{ $t(node.id) }}</nuxt-link></h3>
@@ -11,8 +11,6 @@
 </template>
 
 <script>
-import { defaultCover } from '~/data/research'
-
 export default {
   props: {
     nodes: {
@@ -22,11 +20,6 @@ export default {
     options: {
       type: Object,
       default: () => ({})
-    }
-  },
-  data() {
-    return {
-      defaultCover
     }
   },
   computed: {

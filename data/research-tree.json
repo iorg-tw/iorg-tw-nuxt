@@ -1,0 +1,183 @@
+[
+	{
+		"id": "_R_A",
+		"to": "/r/a",
+		"level": 0,
+		"code": "A",
+		"image": "images/covers/a-h.png"
+	},
+	{
+		"id": "_R_B",
+		"to": "/r/b",
+		"level": 0,
+		"code": "B",
+		"image": "images/covers/b-h.png"
+	},
+	{
+		"id": "_R_B1",
+		"to": "/r/b1",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "B.1",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_B2",
+		"to": "/r/b2",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "B.2",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_B3",
+		"to": "/r/b3",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "B.3",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_B4",
+		"to": "/r/b4",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "B.4",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_B5",
+		"to": "/r/b5",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "B.5",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_B6",
+		"to": "/r/b6",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "B.6",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_B7",
+		"to": "/r/b7",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "B.7",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_R1",
+		"to": "/r/r1",
+		"level": 1,
+		"parentID": "_R_B",
+		"code": "R.1",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_D",
+		"to": "/r/d",
+		"level": 0,
+		"code": "D",
+		"image": "images/covers/d-h.png"
+	},
+	{
+		"id": "_R_D1",
+		"to": "/r/d1",
+		"level": 1,
+		"parentID": "_R_D",
+		"code": "D.1",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_D2",
+		"to": "/r/d2",
+		"level": 1,
+		"parentID": "_R_D",
+		"code": "D.2",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_D3",
+		"to": "/r/d3",
+		"level": 1,
+		"parentID": "_R_D",
+		"code": "D.3",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_D4",
+		"to": "/r/d4",
+		"level": 1,
+		"parentID": "_R_D",
+		"code": "D.4",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_D5",
+		"to": "/r/d5",
+		"level": 1,
+		"parentID": "_R_D",
+		"code": "D.5",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_R_M",
+		"to": "/r/m",
+		"level": 0,
+		"code": "M",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
+		"id": "_O",
+		"to": "/open-by-default",
+		"level": 0,
+		"code": "O",
+		"image": "/images/covers/x-h.png"
+	},
+	{
+		"id": "_F",
+		"to": "/roadmap",
+		"level": 0,
+		"code": "F",
+		"image": "images/covers/f-h.png"
+	},
+	{
+		"id": "_CE_2020",
+		"to": "/ce/2020",
+		"level": 0,
+		"code": "CE",
+		"image": "/images/covers/x-h.png"
+	},
+	{
+		"id": "_G",
+		"to": "/glossary",
+		"level": 0,
+		"code": "G",
+		"image": "/images/covers/x-h.png"
+	},
+	{
+		"id": "_X",
+		"to": "/exhibition",
+		"level": 0,
+		"code": "X",
+		"image": "/images/covers/x-h.png"
+	}
+]

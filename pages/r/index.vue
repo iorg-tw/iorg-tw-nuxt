@@ -41,7 +41,8 @@ _en:
 </template>
 
 <script>
-import { articleMap, tree, defaultCover } from '~/data/research'
+import resarchDocMap from '~/data/research-docs'
+import tree from '~/data/research-tree'
 import { getDoc, structureDoc } from '~/lib/gdoc'
 import NodeList from '~/components/NodeList'
 import Intro from '~/components/Intro'
@@ -53,8 +54,8 @@ export default {
   },
   async asyncData() {
     const [docK, docAck] = await Promise.all([
-      getDoc(articleMap.keyFindings.publicURL),
-      getDoc(articleMap.acknowledgement.publicURL)
+      getDoc(resarchDocMap._R_K.publicURLs._tw),
+      getDoc(resarchDocMap.ack.publicURLs._tw)
     ])
     const structuredDocK = structureDoc(docK.html, ['h2', 'h3'])
 
@@ -63,8 +64,7 @@ export default {
     return {
       structuredDocK,
       docAck,
-      level0Nodes,
-      defaultCover
+      level0Nodes
     }
   }
 }

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { articleMap } from '~/data/research'
+import researchDocMap from '~/data/research-docs'
 import { getDoc, structureDoc } from '~/lib/gdoc'
 import GoogleDoc from '~/components/GoogleDoc'
 
@@ -19,7 +19,7 @@ export default {
     GoogleDoc
   },
   async asyncData() {
-    const doc = await getDoc(articleMap.glossary.publicURL)
+    const doc = await getDoc(researchDocMap._G.publicURLs._tw)
     const structuredDoc = structureDoc(doc.html, ['h2'])
     return {
       doc,

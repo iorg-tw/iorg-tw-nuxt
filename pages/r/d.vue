@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { tree, defaultCover } from '~/data/research'
+import tree from '~/data/research-tree'
 import NodeList from '~/components/NodeList'
 
 const CONST = {
@@ -24,7 +24,6 @@ export default {
     const nodes = tree.filter(node => node.parentID === CONST.id)
     return {
       nodes,
-      defaultCover,
       CONST
     }
   }
