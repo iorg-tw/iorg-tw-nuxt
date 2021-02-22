@@ -160,6 +160,24 @@ export default {
   .gdoc-note {
     background-color: #ddd;
   }
+  .gdoc-references {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+    margin-bottom: 1.5rem;
+    font-size: 0.75rem;
+    border: 1px solid var(--iorg-background);
+    color: var(--iorg-neutral);
+    > ul {
+      margin: 1rem;
+      padding: 0;
+      list-style: none;
+      > li {
+        margin: 0.5rem 0;
+        padding-left: 0.75rem;
+        text-indent: -0.75rem;
+      }
+    }
+  }
   .gdoc-actions {
     margin-bottom: 1.5rem;
     display: flex;
