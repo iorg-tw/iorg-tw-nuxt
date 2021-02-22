@@ -1,6 +1,6 @@
 <template>
 <div class="nodes container">
-  <div v-for="node of nodes" :key="node.id" class="node panel" :class="nodeClasses">
+  <div v-for="node of nodes" :key="node.id" class="node panel tiled" :class="nodeClasses">
     <img class="cover" :src="node.image ? node.image : defaultCover" />
     <div class="detail">
       <p v-if="node.code">{{ node.code }}</p>
