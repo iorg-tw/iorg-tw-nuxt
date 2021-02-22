@@ -77,6 +77,13 @@ export default {
       font-size: 0.875rem;
       color: #646464;
     }
+    &.compact > .images {
+      width: 75%;
+      @media (min-width: 768px) {
+        width: 55%;
+      }
+      margin: auto;
+    }
   }
   .gdoc-table-container {
     margin: 0;
