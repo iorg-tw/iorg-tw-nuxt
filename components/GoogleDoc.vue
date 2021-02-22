@@ -160,6 +160,16 @@ export default {
   .gdoc-note {
     background-color: #ddd;
   }
+  .gdoc-actions {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    > .action {
+      margin: 0.25rem;
+    }
+  }
 
   h1, h2, h3 {
     margin-bottom: 0.375rem;

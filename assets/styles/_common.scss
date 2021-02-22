@@ -70,12 +70,19 @@ a {
       border: none;
       border-radius: 1.25rem;
     }
+    &.secondary {
+      font-size: 1rem;
+      line-height: 1;
+      padding: 0.625rem 1rem;
+      border: 0.125rem solid var(--iorg-text);
+      border-radius: 1.25rem;
+    }
     &.small {
       font-size: 0.75rem;
       line-height: 0.75rem;
       font-weight: bold;
       padding: 0.375rem;
-      border: 2px solid var(--iorg-text);
+      border: 0.125rem solid var(--iorg-text);
       border-radius: 0.875rem;
     }
   }
