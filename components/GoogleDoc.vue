@@ -6,7 +6,8 @@
     <ul v-if="doc.authorInfo" class="author-info">
       <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
     </ul>
-    <div v-if="showSummary" class="summary" v-html="doc.summaryHTML"></div>
+    <div v-if="doc.moreInfo" class="more-info">{{ doc.moreInfo }}</div>
+    <div v-if="showSummary && doc.summaryHTML" class="summary" v-html="doc.summaryHTML"></div>
     <div v-if="showSummary && doc.summaryHTML" class="separator"></div>
   </template>
   <div class="content" v-html="doc.html"></div>
@@ -211,6 +212,13 @@ export default {
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     list-style: none;
+  }
+  .more-info {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--iorg-neutral);
   }
   .summary {
     margin-top: 0.5rem;
