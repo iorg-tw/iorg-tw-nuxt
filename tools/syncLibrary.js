@@ -16,12 +16,39 @@ function ok(str) {
 
 const defaultCover = '/images/covers/x-h.png'
 
+function makeLangFile(rows, locale) {
+  return [
+    'export default {',
+    ...rows.map((row, i) => '  ' + `${row.id}: '${row[locale]}'` + (i < rows.length - 1 ? ',' : '')),
+    '}',
+    ''
+  ].join('\n')
+}
+
 async function get() {
   await doc.loadInfo()
-  let sheet, rows, result
+  const sheetIDs = [
+    '14645087', // dict
+    '508756665', // research-docs
+    '76257499' // research-tree
+  ]
+  console.info('request data...')
+  const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
+  let rows, result
 
-  sheet = doc.sheetsById['508756665'] // research-docs
-  rows = await sheet.getRows()
+  console.info('dict...')
+  rows = sheets[0]
+  rows = rows.filter(row => row.id && row._tw).map(row => ({
+    id: row.id,
+    _tw: row._tw,
+    _en: ok(row._en) ? row._en : row._tw
+  }))
+
+  fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
+  fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
+
+  console.info('research-docs...')
+  rows = sheets[1]
   result = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
     published: row.published ? true : false,
     id: row.id,
@@ -35,8 +62,8 @@ async function get() {
   result = Object.assign({}, ...result.map(row => ({ [row.id]: row })))
   fs.writeFileSync('data/research-docs.json', JSON.stringify(result, null, '\t'))
 
-  sheet = doc.sheetsById['76257499'] // research-tree
-  rows = await sheet.getRows()
+  console.info('research-tree...')
+  rows = sheets[2]
   result = rows.map(row => ({
     id: row.id,
     to: row.to,

@@ -1,4 +1,8 @@
 export default {
+  iorg_sci: 'IORG is able to demonstrate, with publicly verifiable scientific methods, that...',
+  iorg_s1: 'The CCP is indeed involved in information manipulation against Taiwan.',
+  iorg_s2: '“Local collaborators” are key to the spread of Chinese information manipulation against Taiwan.',
+  iorg_s3: 'The CCP is proactively infiltrating Taiwan through interpersonal connections.',
   _R_A: 'ION',
   _R_B: 'Information Manipulation',
   _R_B1: 'Kansai Airport',
@@ -11,7 +15,7 @@ export default {
   _R_R1: 'Dear America from Weibo',
   _R_D: 'Interpersonal Infiltration',
   _R_D1: '民間信仰',
-  _R_D2: '青年、創業',
+  _R_D2: '青年',
   _R_D3: '基層村里長',
   _R_D4: '台幹',
   _R_D5: '中國對台經濟滲透',
