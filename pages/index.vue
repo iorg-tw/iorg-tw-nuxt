@@ -1,13 +1,13 @@
 <i18n lang="yaml">
 _tw:
-  read: "線上閱讀研究報告"
+  read: "線上閱讀報告"
   download: "下載各項研究報告 PDF"
-  soon: "報告即將開放閱讀"
+  soon: "報告內容即將開放"
   articles: "報導"
   videos: "影音"
 _en:
-  read: "Read report online"
-  download: "Download full report in PDF"
+  read: "Read more"
+  download: "Download reports in PDF"
   soon: "Available soon"
   articles: "Articles"
   videos: "Videos"
