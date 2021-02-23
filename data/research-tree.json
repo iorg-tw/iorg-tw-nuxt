@@ -4,14 +4,14 @@
 		"to": "/r/a",
 		"level": 0,
 		"code": "A",
-		"image": "images/covers/a-h.png"
+		"image": "/images/covers/a-h.png"
 	},
 	{
 		"id": "_R_B",
 		"to": "/r/b",
 		"level": 0,
 		"code": "B",
-		"image": "images/covers/b-h.png"
+		"image": "/images/covers/b-h.png"
 	},
 	{
 		"id": "_R_B1",
@@ -90,7 +90,7 @@
 		"to": "/r/d",
 		"level": 0,
 		"code": "D",
-		"image": "images/covers/d-h.png"
+		"image": "/images/covers/d-h.png"
 	},
 	{
 		"id": "_R_D1",
@@ -157,7 +157,7 @@
 		"to": "/roadmap",
 		"level": 0,
 		"code": "F",
-		"image": "images/covers/f-h.png"
+		"image": "/images/covers/f-h.png"
 	},
 	{
 		"id": "_CE_2020",

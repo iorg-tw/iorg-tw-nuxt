@@ -3,6 +3,8 @@ export default {
   iorg_s1: 'The CCP is indeed involved in information manipulation against Taiwan.',
   iorg_s2: '“Local collaborators” are key to the spread of Chinese information manipulation against Taiwan.',
   iorg_s3: 'The CCP is proactively infiltrating Taiwan through interpersonal connections.',
+  research_title_1: 'Defending Democracy Against Authoritarian Expansion',
+  research_title_2: 'IORG Research on Chinese Influence Operations Against Taiwan',
   _R_A: 'ION',
   _R_B: 'Information Manipulation',
   _R_B1: 'Kansai Airport',

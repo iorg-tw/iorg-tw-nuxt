@@ -1,13 +1,9 @@
 <i18n lang="yaml">
 _tw:
-  title: "極權擴張與民主防衛"
-  subtitle: "IORG 中國對台滲透跨領域研究"
   directory: "目錄"
   about: "關於 IORG"
   more: "完整內容"
 _en:
-  title: "Defending Democracy Against Authoritarian Expansion"
-  subtitle: "IORG Research on Chinese Infiltration Against Taiwan"
   directory: "Directory"
   about: "About IORG"
   more: "More"
@@ -16,12 +12,12 @@ _en:
 <template>
 <div class="page research">
   <div class="page-header section-header">
-    <h1>{{ $t('title') }}</h1>
-    <p class="subtitle">{{ $t('subtitle') }}</p>
+    <h1>{{ $t('research_title_1') }}</h1>
+    <p class="subtitle">{{ $t('research_title_2') }}</p>
   </div>
   <div class="key-findings">
     <div v-for="objL0 of structuredDocK" :key="objL0.title" class="group">
-      <div class="group-header section-header ">
+      <div class="group-header section-header">
         <div :is="objL0.titleTag">{{ objL0.title }}</div>
         <nuxt-link to="/r/k" class="more button small">{{ $t('more') }}</nuxt-link>
       </div>
