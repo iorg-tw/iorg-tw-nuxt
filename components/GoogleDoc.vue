@@ -44,7 +44,6 @@ export default {
 
 .google-doc {
   @include doc;
-
   .gdoc-photo-container {
     margin: 0;
     margin-bottom: 1.5rem;
@@ -90,7 +89,6 @@ export default {
     margin: 0;
     margin-bottom: 1.5rem;
     padding: 0;
-
     > .table {
       width: 100%;
       padding: 0.5rem;
@@ -98,9 +96,9 @@ export default {
         width: calc(100% + 6rem);
         margin-left: -3rem;
       }
+      overflow: scroll;
       background-color: var(--iorg-paper);
       @include shadow;
-      overflow: scroll;
     }
     > .description {
       margin: 0;
@@ -263,6 +261,18 @@ export default {
       &.url {
         a {
           word-break: break-all;
+        }
+      }
+      &.supplemental {
+        color: var(--iorg-neutral);
+      }
+      &.list-set.points {
+        > ul {
+          list-style: disc;
+          padding-left: 1rem;
+          > li {
+            margin: 0.25rem;
+          }
         }
       }
       &.list-set.cards {
