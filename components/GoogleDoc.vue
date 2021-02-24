@@ -124,6 +124,24 @@ export default {
       }
     }
   }
+  .gdoc-post-container {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--iorg-background);
+
+    --facebook: #5252e8;
+    &.facebook {
+      border-color: var(--facebook);
+      color: var(--facebook);
+    }
+    > .detail {
+      padding: 0.75rem;
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
   .gdoc-table-container {
     margin: 0;
     margin-bottom: 1.5rem;
@@ -307,12 +325,16 @@ export default {
     > .detail {
       font-size: 0.875rem;
       padding: 0.75rem;
+      > p,
+      > ul {
+        margin-bottom: 1.125rem;
+      }
       > :last-child {
         margin-bottom: 0;
       }
     }
     > .header + .detail {
-      padding-top: 0;
+      border-top: 1px solid var(--iorg-background);
     }
   }
   .gdoc-note {
