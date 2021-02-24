@@ -55,9 +55,7 @@ $td-widths: (
   10: 10rem,
   12: 12rem,
   16: 16rem,
-  20: 20rem,
-  24: 24rem,
-  40: 40rem
+  20: 20rem
 );
 
 // Z
@@ -79,6 +77,7 @@ $layout-m: 0.75rem;
 // Doc
 
 $doc-max-width: 40rem;
+$page-max-width: 90rem;
 
 @mixin doc {
   --doc-spacing: 1rem;
@@ -117,6 +116,22 @@ $doc-max-width: 40rem;
     > ol {
       padding-right: var(--doc-spacing);
       padding-left: calc(var(--doc-spacing) + var(--indent));
+    }
+  }
+}
+
+@mixin page {
+  --page-spacing: 1.5rem;
+
+  max-width: $page-max-width;
+  margin: 0;
+
+  > .content {
+    > h2,
+    > h3,
+    > p {
+      padding-right: var(--page-spacing);
+      padding-left: var(--page-spacing);
     }
   }
 }
