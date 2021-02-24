@@ -51,7 +51,8 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.google-doc {
+.google-doc.as-doc,
+.google-doc.as-page {
   h1, h2, h3 {
     margin-bottom: 0.375rem;
   }
