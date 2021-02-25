@@ -213,19 +213,8 @@ span.punct-l-fbrac {
     & {
       display: block;
       margin: $layout-m;
-      max-width: 24rem;
     }
-    &.text {
-      max-width: 30rem;
-    }
-    &.filled {
-      overflow: hidden;
-      border-radius: 0.25rem;
-      background-color: var(--iorg-paper);
-      color: var(--iorg-text);
-      @include shadow;
-    }
-    &.tiled {
+    &.tiled { // panels have equal width
       & {
         flex-basis: 100%;
         @media (min-width: 480px) {
@@ -233,7 +222,7 @@ span.punct-l-fbrac {
         }
       }
       &.compact {
-        flex-basis: calc((100% - #{$layout-m * 4}) / 2);
+        flex-basis: calc((100% - #{$layout-m * 4}) / 2); // 2-up
         @media (min-width: 480px) {
           flex-basis: 14rem;
         }
@@ -243,6 +232,20 @@ span.punct-l-fbrac {
           flex-basis: 10rem;
         }
       }
+      &.large {
+        @media (min-width: 960px) {
+          flex-basis: 18rem;
+        }
+      }
+    }
+    &.filled {
+      overflow: hidden;
+      border-radius: 0.25rem;
+      background-color: var(--iorg-paper);
+      color: var(--iorg-text);
+    }
+    &.raised {
+      @include shadow;
     }
     > .cover {
       display: block;

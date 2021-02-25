@@ -15,7 +15,7 @@ _en:
     <p class="section-title-fancy">{{ $t('events') }}</p>
   </div>
   <div class="event-list container">
-    <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event panel tiled compact filled small">
+    <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event panel tiled compact small filled raised">
       <div class="detail">
         <div class="head">
           <label class="date">{{ event.displayDate }}</label>

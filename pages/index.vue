@@ -18,17 +18,17 @@ _en:
   <section id="r" class="report">
     <h3 class="slim science">{{ $t('iorg_sci') }}</h3>
     <div class="container">
-      <div class="panel tiled filled">
+      <div class="panel tiled filled raised">
         <div class="detail">
           <h3>{{ $t('iorg_s1') }}</h3>
         </div>
       </div>
-      <div class="panel tiled filled">
+      <div class="panel tiled filled raised">
         <div class="detail">
           <h3>{{ $t('iorg_s2') }}</h3>
         </div>
       </div>
-      <div class="panel tiled filled">
+      <div class="panel tiled filled raised">
         <div class="detail">
           <h3>{{ $t('iorg_s3') }}</h3>
         </div>

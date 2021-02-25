@@ -13,23 +13,19 @@ _en:
 
 <template>
 <footer>
-  <section class="text manifesto">
-    <div class="container">
-      <div class="panel text">
-        <p>{{ $t('manifesto') }}</p>
-      </div>
+  <div class="manifesto container">
+    <div class="content panel">
+      <p>{{ $t('manifesto') }}</p>
     </div>
-  </section>
-  <section class="contact">
-    <div class="container">
-      <div class="panel">
-        <p><span class="emoji">👋</span> <nuxt-link :to="localePath('/about')">{{ $t('about') }}</nuxt-link></p>
-        <p><span class="emoji">📬</span> {{ $t('email') }} / <a href="#">io [at] iorg.tw</a></p>
-        <p><span class="emoji">🐦</span> Twitter / <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a></p>
-        <p><span class="emoji">😅</span> Facebook / <a href="https://facebook.com/Dokidokisafety" target="_blank">{{ $t('doki') }}</a></p>
-      </div>
+  </div>
+  <div class="contact container">
+    <div class="panel">
+      <p><span class="emoji">👋</span> <nuxt-link :to="localePath('/about')">{{ $t('about') }}</nuxt-link></p>
+      <p><span class="emoji">📬</span> {{ $t('email') }} / <a href="#">io [at] iorg.tw</a></p>
+      <p><span class="emoji">🐦</span> Twitter / <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a></p>
+      <p><span class="emoji">😅</span> Facebook / <a href="https://facebook.com/Dokidokisafety" target="_blank">{{ $t('doki') }}</a></p>
     </div>
-  </section>
+  </div>
 </footer>
 </template>
 
@@ -41,6 +37,11 @@ footer {
   .emoji {
     font-size: 1.25rem;
     line-height: 1.375rem;
+  }
+  > .manifesto {
+    > .content {
+      max-width: 30rem;
+    }
   }
 }
 </style>
