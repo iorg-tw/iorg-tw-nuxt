@@ -130,6 +130,7 @@ $page-max-width: 90rem;
     }
     > ul,
     > ol {
+      max-width: $doc-max-width;
       padding-right: var(--page-spacing);
       padding-left: calc(var(--page-spacing) + var(--list-indent));
     }
