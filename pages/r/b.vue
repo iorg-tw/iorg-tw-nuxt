@@ -11,6 +11,7 @@
 <script>
 import tree from '~/data/research-tree'
 import { getDoc } from '~/lib/gdoc'
+import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 import NodeList from '~/components/NodeList'
 
@@ -37,6 +38,9 @@ export default {
       nodes,
       CONST
     }
+  },
+  head() {
+    return generateMeta(this.doc.title)
   }
 }
 </script>

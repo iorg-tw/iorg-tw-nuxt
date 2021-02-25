@@ -21,7 +21,7 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.doc.title, this.doc.subtitle, this.doc.summary, this.doc.coverImage)
+    return generateMeta(this.doc.title)
   }
 }
 </script>

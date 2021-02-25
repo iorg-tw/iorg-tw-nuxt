@@ -40,6 +40,7 @@ _en:
 import resarchDocMap from '~/data/research-docs'
 import tree from '~/data/research-tree'
 import { getDoc, structureDoc } from '~/lib/gdoc'
+import { generateMeta } from '~/lib/meta'
 import NodeList from '~/components/NodeList'
 import Intro from '~/components/Intro'
 
@@ -62,6 +63,9 @@ export default {
       docAck,
       level0Nodes
     }
+  },
+  head() {
+    return generateMeta(this.$t('research_title_2'))
   }
 }
 </script>

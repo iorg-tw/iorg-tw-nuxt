@@ -2,7 +2,7 @@
 _tw:
   events: "活動"
   title: "活動"
-  description: "IORG 資訊判讀、資訊操弄、認知戰相關活動資訊"
+  description: "IORG 資訊判讀、民主防衛相關活動資訊"
 _en:
   events: "Events"
   title: "Events"

@@ -7,6 +7,7 @@
 <script>
 import customEvents from '~/data/custom-events'
 import { getDoc } from '~/lib/gdoc'
+import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 
 export default {
@@ -36,6 +37,9 @@ export default {
     localizedDoc() {
       return this.localizedDocs[this.$i18n.locale]
     }
+  },
+  head() {
+    return generateMeta(this.localizedDoc.title)
   }
 }
 </script>
