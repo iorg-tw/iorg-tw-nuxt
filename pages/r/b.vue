@@ -46,5 +46,8 @@ export default {
 
 .page.research {
   padding: $default-page-padding;
+  .section-header {
+    margin-bottom: 0.5rem;
+  }
 }
 </style>
