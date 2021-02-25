@@ -115,6 +115,11 @@ $page-max-width: 90rem;
   max-width: $page-max-width;
   margin: 0;
 
+  > h1,
+  > .title {
+    padding-right: var(--page-spacing);
+    padding-left: var(--page-spacing);
+  }
   > .content {
     > h2,
     > h3,
@@ -122,6 +127,11 @@ $page-max-width: 90rem;
       max-width: $doc-max-width;
       padding-right: var(--page-spacing);
       padding-left: var(--page-spacing);
+    }
+    > ul,
+    > ol {
+      padding-right: var(--page-spacing);
+      padding-left: calc(var(--page-spacing) + var(--list-indent));
     }
   }
 }
