@@ -132,7 +132,7 @@ export default {
 
     --facebook: #5252ff;
     --weibo: #ff5656;
-    --line: #00dd00;
+    --line: #40dd40;
     &.facebook {
       border-color: var(--facebook);
       color: var(--facebook);
