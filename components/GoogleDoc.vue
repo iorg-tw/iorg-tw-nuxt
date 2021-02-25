@@ -130,10 +130,15 @@ export default {
     margin-bottom: 1.5rem;
     border: 1px solid var(--iorg-background);
 
-    --facebook: #5252e8;
+    --facebook: #5252ff;
+    --weibo: #ff5656;
     &.facebook {
       border-color: var(--facebook);
       color: var(--facebook);
+    }
+    &.weibo {
+      border-color: var(--weibo);
+      color: var(--weibo);
     }
     > .detail {
       padding: 0.75rem;
@@ -222,6 +227,12 @@ export default {
         }
         &.supplemental {
           color: var(--iorg-neutral);
+        }
+        &.yes {
+          color: var(--iorg-accent);
+        }
+        &.no {
+          color: var(--iorg-background);
         }
         &.list-set {
           > ul {
