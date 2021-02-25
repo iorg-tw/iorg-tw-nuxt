@@ -80,15 +80,6 @@ $doc-max-width: 40rem;
 $page-max-width: 90rem;
 
 @mixin doc {
-  --doc-spacing: 1rem;
-  @media (min-width: 375px) {
-    --doc-spacing: 1.5rem;
-  }
-  @media (min-width: 480px) {
-    --doc-spacing: 2.5rem;
-  }
-  --indent: 1.375rem;
-
   max-width: $doc-max-width;
   margin: 0 auto;
   padding: var(--doc-spacing) 0;
@@ -115,14 +106,12 @@ $page-max-width: 90rem;
     > ul,
     > ol {
       padding-right: var(--doc-spacing);
-      padding-left: calc(var(--doc-spacing) + var(--indent));
+      padding-left: calc(var(--doc-spacing) + var(--list-indent));
     }
   }
 }
 
 @mixin page {
-  --page-spacing: 1.5rem;
-
   max-width: $page-max-width;
   margin: 0;
 
@@ -130,6 +119,7 @@ $page-max-width: 90rem;
     > h2,
     > h3,
     > p {
+      max-width: $doc-max-width;
       padding-right: var(--page-spacing);
       padding-left: var(--page-spacing);
     }
