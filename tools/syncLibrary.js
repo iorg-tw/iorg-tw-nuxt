@@ -32,7 +32,7 @@ async function get() {
     '508756665', // research-docs
     '76257499' // research-tree
   ]
-  console.info('request data...')
+  console.info('requesting data...')
   const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
   let rows, result
 

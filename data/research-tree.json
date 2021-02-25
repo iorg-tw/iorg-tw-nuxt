@@ -129,11 +129,10 @@
 		"isArticle": true
 	},
 	{
-		"id": "_R_D5",
-		"to": "/r/d5",
-		"level": 1,
-		"parentID": "_R_D",
-		"code": "D.5",
+		"id": "_R_E",
+		"to": "/r/e",
+		"level": 0,
+		"code": "E",
 		"image": "/images/covers/x-h.png",
 		"isArticle": true
 	},
