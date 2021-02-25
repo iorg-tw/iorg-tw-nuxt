@@ -145,25 +145,11 @@
 		"isArticle": true
 	},
 	{
-		"id": "_O",
-		"to": "/open-by-default",
-		"level": 0,
-		"code": "O",
-		"image": "/images/covers/x-h.png"
-	},
-	{
 		"id": "_F",
 		"to": "/roadmap",
 		"level": 0,
 		"code": "F",
 		"image": "/images/covers/f-h.png"
-	},
-	{
-		"id": "_CE_2020",
-		"to": "/ce/2020",
-		"level": 0,
-		"code": "CE",
-		"image": "/images/covers/x-h.png"
 	},
 	{
 		"id": "_G",
@@ -173,10 +159,24 @@
 		"image": "/images/covers/x-h.png"
 	},
 	{
+		"id": "_CE_2020",
+		"to": "/ce/2020",
+		"level": 0,
+		"code": "CE",
+		"image": "/images/covers/x-h.png"
+	},
+	{
 		"id": "_X",
 		"to": "/exhibition",
 		"level": 0,
 		"code": "X",
+		"image": "/images/covers/x-h.png"
+	},
+	{
+		"id": "_O",
+		"to": "/open-by-default",
+		"level": 0,
+		"code": "O",
 		"image": "/images/covers/x-h.png"
 	}
 ]
