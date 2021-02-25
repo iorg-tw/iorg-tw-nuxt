@@ -129,6 +129,8 @@ export default {
     margin-left: var(--doc-spacing);
     margin-bottom: 1.5rem;
     border: 1px solid var(--iorg-background);
+    background-color: white;
+    @include shadow;
 
     --facebook: #5252ff;
     --weibo: #ff5656;
