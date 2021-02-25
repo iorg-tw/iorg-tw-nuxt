@@ -132,6 +132,7 @@ export default {
 
     --facebook: #5252ff;
     --weibo: #ff5656;
+    --line: #00dd00;
     &.facebook {
       border-color: var(--facebook);
       color: var(--facebook);
@@ -139,6 +140,10 @@ export default {
     &.weibo {
       border-color: var(--weibo);
       color: var(--weibo);
+    }
+    &.line {
+      border-color: var(--line);
+      color: var(--line);
     }
     > .detail {
       padding: 0.75rem;
@@ -315,6 +320,12 @@ export default {
               padding: 0.125rem 0.375rem;
             }
           }
+        }
+      }
+      td {
+        &.url,
+        &.small {
+          font-size: 0.75rem;
         }
       }
     }
