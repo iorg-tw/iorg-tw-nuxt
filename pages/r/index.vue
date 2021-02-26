@@ -32,7 +32,7 @@ _en:
     <h2>{{ $t('directory') }}</h2>
   </div>
   <node-list :nodes="level0Nodes" :options="{ tiled: true }" />
-  <intro k="default" :more="docAck.html" />
+  <intro k="iorg_about" :more="docAck.html" />
 </div>
 </template>
 

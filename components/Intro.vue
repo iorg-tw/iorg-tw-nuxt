@@ -1,11 +1,7 @@
 <i18n lang="yaml">
 _tw:
-  default: "IORG 是以公開資訊、科學方法、在地連結，反制極權擴張的台灣跨領域研究團隊。"
-  long: "IORG 於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，是以公開資訊、科學方法、在地連結，反制極權擴張的台灣跨領域研究團隊。"
   about: "關於 IORG"
 _en:
-  default: "IORG is a Taiwan-based multidisciplinary research group countering authoritarian expansion with public information, scientific methodologies, and grassroots organization."
-  long: "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG works to counter authoritarian expansion with public information, scientific methodologies, and grassroots organization."
   about: "About IORG"
 </i18n>
 
@@ -26,7 +22,7 @@ export default {
   props: {
     k: {
       type: String,
-      default: 'default'
+      default: 'iorg_about'
     },
     more: {
       type: String,

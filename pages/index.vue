@@ -45,7 +45,7 @@ _en:
       </div>
     </div>
   </section>
-  <intro k="long" />
+  <intro k="iorg_about_long" />
   <section id="a" class="content-list articles">
     <div class="section-header">
       <p class="section-title-fancy">{{ $t('articles') }}</p>

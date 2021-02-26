@@ -26,5 +26,7 @@ export default {
   _G: '詞彙定義',
   _CE_2020: '在地連結 2020 成果',
   _X: '展覽',
-  _O: '授權公開'
+  _O: '授權公開',
+  iorg_about: 'IORG is a Taiwan-based multidisciplinary research group countering authoritarian expansion with public information, scientific methodologies, and grassroots organization.',
+  iorg_about_long: 'IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG works to counter authoritarian expansion with public information, scientific methodologies, and grassroots organization.'
 }
