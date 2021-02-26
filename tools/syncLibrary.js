@@ -56,6 +56,8 @@ async function get() {
       _tw: row.publicURL_tw,
       ...(ok(row.publicURL_en) ? { _en: row.publicURL_en } : {})
     },
+    publishedAt: row.publishedAt,
+    ...(row.updatedAt ? { updatedAt: row.updatedAt } : {}),
     localizedDocs: {}
   }))
 

@@ -1,3 +1,12 @@
+<i18n lang="yaml">
+_tw:
+  published: "發佈"
+  updated: "更新"
+_en:
+  published: "Published"
+  updated: "Updated"
+</i18n>
+
 <template>
 <div class="google-doc" :class="classes">
   <template v-if="showHead">
@@ -6,10 +15,14 @@
       <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
       <a v-if="enableToggle" class="toggle" @click="toggle = !toggle">⋯</a>
     </div>
-    <ul v-if="doc.authorInfo" class="author-info">
+    <ul v-if="doc.authorInfoItemsHTML" v-html="doc.authorInfoItemsHTML" class="author-info"></ul>
+    <ul v-else-if="doc.authorInfo" class="author-info">
       <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
     </ul>
-    <div v-if="doc.moreInfo" class="more-info">{{ doc.moreInfo }}</div>
+    <ul class="more-info">
+      <li v-if="doc.publishedAt">{{ $t('published') }} = {{ doc.publishedAt.replaceAll('/', '.') }}</li><!-- FIXME: trying this out -->
+      <li v-if="doc.updatedAt">{{ $t('updated') }} = {{ doc.updatedAt.replaceAll('/', '.') }}</li>
+    </ul>
     <div v-if="showSummary && doc.summaryHTML" class="summary" v-html="doc.summaryHTML"></div>
     <div v-if="showSummary && doc.summaryHTML" class="separator"></div>
   </template>
@@ -446,13 +459,13 @@ export default {
   }
   .author-info {
     margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
     list-style: none;
+    font-size: 0.875rem;
+    color: var(--iorg-neutral);
   }
   .more-info {
-    margin-right: var(--doc-spacing);
-    margin-left: var(--doc-spacing);
     margin-bottom: 1.5rem;
+    list-style: none;
     font-size: 0.875rem;
     color: var(--iorg-neutral);
   }
