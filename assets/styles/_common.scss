@@ -263,3 +263,12 @@ span.punct-l-fbrac {
 .section-header + .container-wrapper > .container {
   margin-top: 0;
 }
+
+.doc-header {
+  max-width: $doc-max-width;
+  margin: 0 ($layout-m * 2) 0.5rem;
+  @media (min-width: $doc-max-width) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

@@ -88,9 +88,7 @@ $page-max-width: 90rem;
   border-radius: 0.25rem;
   line-height: 1.5;
   
-  > h1,
   > .title,
-  > .subtitle,
   > .author-info,
   > .summary {
     padding-right: var(--doc-spacing);
@@ -115,7 +113,6 @@ $page-max-width: 90rem;
   max-width: $page-max-width;
   margin: 0;
 
-  > h1,
   > .title {
     padding-right: var(--page-spacing);
     padding-left: var(--page-spacing);

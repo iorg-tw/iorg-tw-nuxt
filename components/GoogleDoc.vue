@@ -1,8 +1,11 @@
 <template>
-<div class="google-doc" :class="asDocOrPage">
+<div class="google-doc" :class="classes">
   <template v-if="showHead">
-    <h1 :is="doc.titleTag ? doc.titleTag : 'h1'" v-if="doc.title" class="title" v-html="optimizeTracking(doc.title)"></h1>
-    <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
+    <div class="title">
+      <h1 :is="doc.titleTag ? doc.titleTag : 'h1'" v-if="doc.title" v-html="optimizeTracking(doc.title)"></h1>
+      <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
+      <a v-if="enableToggle" class="toggle" @click="toggle = !toggle">⋯</a>
+    </div>
     <ul v-if="doc.authorInfo" class="author-info">
       <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
     </ul>
@@ -28,15 +31,26 @@ export default {
       default: () => ({})
     }
   },
+  data() {
+    return {
+      toggle: true
+    }
+  },
   computed: {
-    asDocOrPage() {
-      return 'as-' + (this.shouldSetOption('metaphor') ? this.options.metaphor : 'doc')
+    classes() {
+      return [
+        'as-' + (this.shouldSetOption('metaphor') ? this.options.metaphor : 'doc'),
+        this.enableToggle && this.toggle ? 'title-only' : ''
+      ]
     },
     showHead() {
       return this.shouldSetOption('head') ? this.options.head : true
     },
     showSummary() {
       return this.shouldSetOption('showSummary') ? this.options.showSummary : true
+    },
+    enableToggle() {
+      return this.shouldSetOption('enableToggle') ? this.options.enableToggle : false
     }
   },
   methods: {
@@ -53,16 +67,26 @@ export default {
 
 .google-doc.as-doc,
 .google-doc.as-page {
-  h1, h2, h3 {
-    margin-bottom: 0.375rem;
+  > .title {
+    margin-bottom: 0.5rem;
+    > .subtitle {
+      margin-top: 0.375rem;
+      font-size: 1.25rem;
+      color: var(--iorg-accent);
+    }
+    > .toggle {
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
   }
-  .subtitle {
-    font-size: 1.25rem;
-    color: var(--iorg-accent);
-  }
-  p, ul, ol {
-    margin-bottom: 1.5rem;
-    line-height: 1.625;
+  > .content {
+    h2, h3 {
+      margin-bottom: 0.375rem;
+    }
+    p, ul, ol {
+      margin-bottom: 1.5rem;
+      line-height: 1.625;
+    }
   }
   .gdoc-photo-container {
     margin: 0;
@@ -451,6 +475,11 @@ export default {
       margin-right: var(--page-spacing);
       margin-left: var(--page-spacing);
     }
+  }
+}
+.google-doc.title-only {
+  > :not(.title) {
+    display: none;
   }
 }
 </style>
