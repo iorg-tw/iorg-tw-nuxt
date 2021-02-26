@@ -37,7 +37,7 @@ _en:
 </template>
 
 <script>
-import resarchDocMap from '~/data/research-docs'
+import docMap from '~/data/docs'
 import tree from '~/data/research-tree'
 import { getDoc, structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
@@ -51,8 +51,8 @@ export default {
   },
   async asyncData() {
     const [docK, docAck] = await Promise.all([
-      getDoc(resarchDocMap._R_K.publicURLs._tw),
-      getDoc(resarchDocMap.ack.publicURLs._tw)
+      getDoc(docMap._R_K.publicURLs._tw),
+      getDoc(docMap.ack.publicURLs._tw)
     ])
     const structuredDocK = structureDoc(docK.html, ['h2', 'h3'])
 

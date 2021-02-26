@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import researchDocMap from '~/data/research-docs'
+import docMap from '~/data/docs'
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
@@ -15,7 +15,7 @@ export default {
     GoogleDoc
   },
   async asyncData() {
-    const doc = await getDoc(researchDocMap._O.publicURLs._tw)
+    const doc = await getDoc(docMap._O.publicURLs._tw)
     return {
       doc
     }

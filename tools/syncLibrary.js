@@ -29,7 +29,7 @@ async function get() {
   await doc.loadInfo()
   const sheetIDs = [
     '14645087', // dict
-    '508756665', // research-docs
+    '508756665', // docs
     '76257499' // research-tree
   ]
   console.info('requesting data...')
@@ -47,7 +47,7 @@ async function get() {
   fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
   fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
 
-  console.info('research-docs...')
+  console.info('docs...')
   rows = sheets[1]
   result = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
     published: row.published ? true : false,
@@ -60,7 +60,7 @@ async function get() {
   }))
 
   result = Object.assign({}, ...result.map(row => ({ [row.id]: row })))
-  fs.writeFileSync('data/research-docs.json', JSON.stringify(result, null, '\t'))
+  fs.writeFileSync('data/docs.json', JSON.stringify(result, null, '\t'))
 
   console.info('research-tree...')
   rows = sheets[2]

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import researchDocMap from '~/data/research-docs'
+import docMap from '~/data/docs'
 import tree from '~/data/research-tree'
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
@@ -18,13 +18,13 @@ export default {
   async asyncData({ params, error }) {
     const id = params.id
     const to = '/r/' + id
-    const matchingNodes = tree.filter(node => node.to === to && node.isArticle && researchDocMap[node.id] && researchDocMap[node.id].publicURLs._tw)
+    const matchingNodes = tree.filter(node => node.to === to && node.isArticle && docMap[node.id] && docMap[node.id].publicURLs._tw)
     if(matchingNodes.length < 1) {
       error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
     const node = matchingNodes[0]
-    const doc = await getDoc(researchDocMap[node.id].publicURLs._tw)
+    const doc = await getDoc(docMap[node.id].publicURLs._tw)
     return {
       doc
     }
