@@ -21,9 +21,9 @@ _en:
   <div class="contact container">
     <div class="panel">
       <p><span class="emoji">👋</span> <nuxt-link :to="localePath('/about')">{{ $t('about') }}</nuxt-link></p>
-      <p><span class="emoji">📬</span> {{ $t('email') }} / <a href="#">io [at] iorg.tw</a></p>
-      <p><span class="emoji">🐦</span> Twitter / <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a></p>
-      <p><span class="emoji">😅</span> Facebook / <a href="https://facebook.com/Dokidokisafety" target="_blank">{{ $t('doki') }}</a></p>
+      <p><span class="emoji">📬</span> {{ $t('email') }} = <a href="#">io [at] iorg.tw</a></p>
+      <p><span class="emoji">🐦</span> Twitter = <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a></p>
+      <p><span class="emoji">😅</span> Facebook = <a href="https://facebook.com/Dokidokisafety" target="_blank">{{ $t('doki') }}</a></p>
     </div>
   </div>
 </footer>
