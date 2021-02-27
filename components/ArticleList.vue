@@ -55,7 +55,6 @@ export default {
       if(!this.showAll) {
         flag = flag && a.published
       }
-      console.log(a.id, a.type, a.published, flag)
       return flag
     }).map(k => ({ [k]: allArticles[k] })))
     return {
