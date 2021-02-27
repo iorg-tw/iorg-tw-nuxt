@@ -208,6 +208,7 @@ export default {
           margin-bottom: 0;
         }
         ul {
+          list-style: square;
           padding-left: 1rem;
         }
       }
