@@ -29,12 +29,13 @@ export default {
 
     const doc = await getDoc(localizeArticle(article, app.i18n.locale, app.i18n.defaultLocale).publicURL)
     // FIXME: this is a hack
-    doc.publishedAt = article.publishedAt
+    if(article.publishedAt) {
+      doc.publishedAt = article.publishedAt
+    }
     if(article.updatedAt) {
       doc.updatedAt = article.updatedAt
     }
     return {
-      article,
       doc
     }
   },
