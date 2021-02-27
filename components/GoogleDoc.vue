@@ -15,13 +15,10 @@ _en:
       <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
       <a v-if="enableToggle" class="toggle" @click="toggle = !toggle">⋯</a>
     </div>
-    <ul v-if="doc.authorInfoItemsHTML" v-html="doc.authorInfoItemsHTML" class="author-info"></ul>
-    <ul v-else-if="doc.authorInfo" class="author-info">
-      <li v-for="author of doc.authorInfo" :key="author" class="author">{{ author }}</li>
-    </ul>
+    <ul v-if="doc.authorInfoItemsHTML" class="author-info" v-html="doc.authorInfoItemsHTML"></ul>
     <ul class="more-info">
-      <li v-if="doc.publishedAt">{{ $t('published') }} = {{ doc.publishedAt.replaceAll('/', '.') }}</li><!-- FIXME: trying this out -->
-      <li v-if="doc.updatedAt">{{ $t('updated') }} = {{ doc.updatedAt.replaceAll('/', '.') }}</li>
+      <li v-if="doc.publishedAt">{{ $t('published') }} = {{ doc.publishedAt.replace(/\//g, '.') }}</li><!-- FIXME: trying this out -->
+      <li v-if="doc.updatedAt">{{ $t('updated') }} = {{ doc.updatedAt.replace(/\//g, '.') }}</li>
     </ul>
     <div v-if="showSummary && doc.summaryHTML" class="summary" v-html="doc.summaryHTML"></div>
     <div v-if="showSummary && doc.summaryHTML" class="separator"></div>

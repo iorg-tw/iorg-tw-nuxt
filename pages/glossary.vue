@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import docMap from '~/data/docs'
+import articleMap from '~/data/articles'
 import { getDoc, structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
@@ -22,7 +22,7 @@ export default {
     GoogleDoc
   },
   async asyncData() {
-    const doc = await getDoc(docMap._G.publicURLs._tw)
+    const doc = await getDoc(articleMap._G.publicURLs._tw)
     const structuredDoc = structureDoc(doc.html, ['h2'])
     return {
       doc,

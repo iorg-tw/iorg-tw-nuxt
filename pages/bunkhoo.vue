@@ -7,7 +7,7 @@ _en:
 
 <template>
 <div class="page articles">
-  <article-list type="all" :show-all="true" />
+  <article-list :show-all="true" />
 </div>
 </template>
 

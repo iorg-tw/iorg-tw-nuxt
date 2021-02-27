@@ -47,10 +47,11 @@ async function get() {
   fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
   fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
 
-  console.info('docs...')
+  console.info('articles...')
   rows = sheets[1]
-  result = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
+  rows = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
     published: row.published ? true : false,
+    type: row.type,
     id: row.id,
     publicURLs: {
       _tw: row.publicURL_tw,
@@ -61,8 +62,30 @@ async function get() {
     localizedDocs: {}
   }))
 
-  result = Object.assign({}, ...result.map(row => ({ [row.id]: row })))
-  fs.writeFileSync('data/docs.json', JSON.stringify(result, null, '\t'))
+  for(const row of rows) {
+    const locales = Object.keys(row.publicURLs)
+    console.info(row.id, locales)
+    let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale])))
+
+    locales.forEach((locale, i) => {
+      let doc = localizedDocs[i]
+      doc.publicURL = row.publicURLs[locale]
+      if(row.publishedAt) {
+        doc.publishedAt = row.publishedAt
+      }
+      if(row.updatedAt) {
+        doc.updatedAt = row.updatedAt
+      }
+      delete doc.coverImageDescHTML
+      delete doc.authorInfoItemsHTML
+      delete doc.summaryHTML
+      delete doc.html
+      row.localizedDocs[locale] = doc
+    })
+  }
+
+  result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
+  fs.writeFileSync('data/articles.json', JSON.stringify(result, null, '\t'))
 
   console.info('research-tree...')
   rows = sheets[2]

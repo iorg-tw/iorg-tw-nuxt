@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import docMap from '~/data/docs'
+import articleMap from '~/data/articles'
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
@@ -16,8 +16,8 @@ export default {
   },
   async asyncData() {
     const docURLs = [
-      docMap.about.publicURLs._tw,
-      docMap.about.publicURLs._en
+      articleMap.about.publicURLs._tw,
+      articleMap.about.publicURLs._en
     ] // 0 = _tw; 1 = _en
     const docs = await Promise.all(docURLs.map(url => getDoc(url)))
     return {

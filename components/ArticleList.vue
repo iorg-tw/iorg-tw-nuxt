@@ -1,7 +1,7 @@
 <i18n lang="yaml">
 _tw:
-  publishedAt: "發佈於"
-  updatedAt: "最後更新於"
+  publishedAt: "發佈"
+  updatedAt: "更新"
 _en:
   publishedAt: "Published at"
   updatedAt: "Last updated at"
@@ -16,8 +16,8 @@ _en:
         <h3 v-html="optimizeTracking(getLocalizedDoc(article).title)"></h3>
         <h4 v-if="getLocalizedDoc(article).subtitle">{{ getLocalizedDoc(article).subtitle }}</h4>
         <div class="dates">
-          <div class="published-at">{{ $t('publishedAt') }} {{ article.publishedAt }}</div>
-          <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} {{ article.updatedAt }}</div>
+          <div v-if="article.publishedAt" class="published-at">{{ $t('publishedAt') }} = {{ article.publishedAt.replace(/\//g, '.') }}</div>
+          <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} = {{ article.updatedAt.replace(/\//g, '.') }}</div>
         </div>
       </div>
     </nuxt-link>
@@ -34,7 +34,7 @@ export default {
   props: {
     type: {
       type: String,
-      default: 'all'
+      default: 'article+video' // types = article video research sys
     },
     showAll: {
       type: Boolean,
@@ -42,16 +42,20 @@ export default {
     }
   },
   data() {
+    if(this.showAll) {
+      this.type = 'article+video+research+sys'
+    }
     const keys = Object.keys(allArticles)
     const articles = Object.assign({}, ...keys.filter(k => {
       const a = allArticles[k]
       let flag = true
       if(this.type !== 'all') {
-        flag = flag && a.type === this.type
+        flag = flag && this.type.includes(a.type)
       }
       if(!this.showAll) {
         flag = flag && a.published
       }
+      console.log(a.id, a.type, a.published, flag)
       return flag
     }).map(k => ({ [k]: allArticles[k] })))
     return {
@@ -82,6 +86,7 @@ export default {
       > .dates {
         margin: 0.125rem 0;
         font-size: 0.75rem;
+        color: var(--iorg-neutral);
       }
     }
   }
