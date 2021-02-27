@@ -188,6 +188,31 @@ export default {
       }
     }
   }
+  .gdoc-infobox {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+    margin-bottom: 1.5rem;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      td {
+        padding: 0.5rem;
+        border: 1px solid var(--iorg-background);
+        vertical-align: top;
+        &:first-child {
+          font-weight: bold;
+          white-space: nowrap;
+        }
+        > :last-child {
+          margin-bottom: 0;
+        }
+        ul {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
   .gdoc-table-container {
     margin: 0;
     margin-bottom: 1.5rem;
