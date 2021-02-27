@@ -58,16 +58,8 @@ _en:
 <script>
 import config from '~/data/config.js'
 import home from '~/data/home.js'
-import allArticles from '~/data/articles.json'
 import ArticleList from '~/components/ArticleList'
 import Intro from '~/components/Intro'
-
-const keys = Object.keys(allArticles)
-const articleKeys = keys.filter(id => allArticles[id].type === 'article' && allArticles[id].published)
-const videoKeys = keys.filter(id => allArticles[id].type === 'video' && allArticles[id].published)
-
-const articles = Object.assign({}, ...articleKeys.map(id => ({ [id]: allArticles[id] })))
-const videos = Object.assign({}, ...videoKeys.map(id => ({ [id]: allArticles[id] })))
 
 export default {
   components: {
@@ -75,10 +67,7 @@ export default {
     Intro
   },
   data() {
-    return Object.assign({
-      articles,
-      videos
-    }, config, home)
+    return Object.assign({}, config, home)
   }
 }
 </script>
