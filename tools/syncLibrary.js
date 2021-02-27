@@ -47,6 +47,19 @@ async function get() {
   fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
   fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
 
+  console.info('research-tree...')
+  rows = sheets[2]
+  result = rows.map(row => ({
+    id: row.id,
+    to: row.to,
+    level: +row.level,
+    ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
+    code: row.code,
+    image: row.image ? row.image : defaultCover,
+    ...(ok(row.isArticle) ? { isArticle: true } : {})
+  }))
+  fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
+
   console.info('articles...')
   rows = sheets[1]
   rows = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
@@ -86,19 +99,6 @@ async function get() {
 
   result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
   fs.writeFileSync('data/articles.json', JSON.stringify(result, null, '\t'))
-
-  console.info('research-tree...')
-  rows = sheets[2]
-  result = rows.map(row => ({
-    id: row.id,
-    to: row.to,
-    level: +row.level,
-    ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
-    code: row.code,
-    image: row.image ? row.image : defaultCover,
-    ...(ok(row.isArticle) ? { isArticle: true } : {})
-  }))
-  fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
 }
 
 get()
