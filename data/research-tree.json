@@ -1,5 +1,13 @@
 [
 	{
+		"id": "_R_K",
+		"to": "/r/k",
+		"level": 0,
+		"code": "K",
+		"image": "/images/covers/x-h.png",
+		"isArticle": true
+	},
+	{
 		"id": "_R_A",
 		"to": "/r/a",
 		"level": 0,

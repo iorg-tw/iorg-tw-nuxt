@@ -8,6 +8,7 @@
 import articleMap from '~/data/articles'
 import tree from '~/data/research-tree'
 import { getDoc } from '~/lib/gdoc'
+import { localizeArticle } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 
@@ -15,7 +16,7 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ params, error }) {
+  async asyncData({ app, params, error }) {
     const id = params.id
     const to = '/r/' + id
     const matchingNodes = tree.filter(node => node.to === to && node.isArticle && articleMap[node.id] && articleMap[node.id].publicURLs._tw)
@@ -24,7 +25,15 @@ export default {
       return
     }
     const node = matchingNodes[0]
-    const doc = await getDoc(articleMap[node.id].publicURLs._tw)
+    const article = articleMap[node.id]
+    const doc = await getDoc(localizeArticle(article, app.i18n.locale, app.i18n.defaultLocale).publicURL)
+    // FIXME: this is a hack
+    if(article.publishedAt) {
+      doc.publishedAt = article.publishedAt
+    }
+    if(article.updatedAt) {
+      doc.updatedAt = article.updatedAt
+    }
     return {
       doc
     }

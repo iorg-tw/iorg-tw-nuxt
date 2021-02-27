@@ -19,14 +19,24 @@
 		"type": "research",
 		"id": "_R_K",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub"
 		},
+		"publishedAt": "2021/2/28 20:00",
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 中國對台影響力作戰研究總體研究成果",
 				"summary": "IORG 中國對台影響力作戰研究",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
+				"publishedAt": "2021/2/28 20:00"
+			},
+			"_en": {
+				"title": "IORG Key Research Conclusions on Chinese Influence Operations Against Taiwan ",
+				"summary": "IORG Research on Chinese Influence Operations Against Taiwan",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub",
+				"publishedAt": "2021/2/28 20:00"
 			}
 		}
 	},
