@@ -29,8 +29,9 @@ async function get() {
   await doc.loadInfo()
   const sheetIDs = [
     '14645087', // dict
-    '508756665', // docs
-    '76257499' // research-tree
+    '1342082190', // archive
+    '76257499', // research-tree
+    '508756665' // articles
   ]
   console.info('requesting data...')
   const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
@@ -43,9 +44,18 @@ async function get() {
     _tw: row._tw,
     _en: ok(row._en) ? row._en : row._tw
   }))
-
   fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
   fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
+
+  console.info('archive...')
+  rows = sheets[1]
+  rows = rows.filter(row => row.id && row.type).map(row => ({
+    id: row.id,
+    fileName: row.id + '.' + row.type,
+    ...(ok(row.data) ? { data: row.data } : {})
+  }))
+  result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
+  fs.writeFileSync('data/archive.json', JSON.stringify(result, null, '\t'))
 
   console.info('research-tree...')
   rows = sheets[2]
@@ -61,7 +71,7 @@ async function get() {
   fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
 
   console.info('articles...')
-  rows = sheets[1]
+  rows = sheets[3]
   rows = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
     published: row.published ? true : false,
     type: row.type,
@@ -96,7 +106,6 @@ async function get() {
       row.localizedDocs[locale] = doc
     })
   }
-
   result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
   fs.writeFileSync('data/articles.json', JSON.stringify(result, null, '\t'))
 }
