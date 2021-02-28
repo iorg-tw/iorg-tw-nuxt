@@ -27,7 +27,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "B.1",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -36,7 +36,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "B.2",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -45,7 +45,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "B.3",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -54,7 +54,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "B.4",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -63,7 +63,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "B.5",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -72,7 +72,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "B.6",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -81,7 +81,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "B.7",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -90,7 +90,7 @@
 		"level": 1,
 		"parentID": "_R_B",
 		"code": "R.1",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/b-h.png",
 		"isArticle": true
 	},
 	{
@@ -106,7 +106,7 @@
 		"level": 1,
 		"parentID": "_R_D",
 		"code": "D.1",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/d-h.png",
 		"isArticle": true
 	},
 	{
@@ -115,7 +115,7 @@
 		"level": 1,
 		"parentID": "_R_D",
 		"code": "D.2",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/d-h.png",
 		"isArticle": true
 	},
 	{
@@ -124,7 +124,7 @@
 		"level": 1,
 		"parentID": "_R_D",
 		"code": "D.3",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/d-h.png",
 		"isArticle": true
 	},
 	{
@@ -133,7 +133,7 @@
 		"level": 1,
 		"parentID": "_R_D",
 		"code": "D.4",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/d-h.png",
 		"isArticle": true
 	},
 	{
@@ -141,7 +141,7 @@
 		"to": "/r/e",
 		"level": 0,
 		"code": "E",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/e-h.png",
 		"isArticle": true
 	},
 	{
