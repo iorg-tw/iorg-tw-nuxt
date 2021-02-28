@@ -2,27 +2,39 @@
 <div class="page demo">
   <div v-for="objL0 of structuredDoc" :key="objL0.header" class="objL0">
     <div :is="objL0.titleTag">{{ objL0.title }}</div>
-    <div v-html="objL0.html"></div>
+    <div class="html" v-html="objL0.html"></div>
     <div v-if="objL0.children" class="children">
       <div v-for="objL1 of objL0.children" :key="objL1.header" class="objL1">
         <div :is="objL1.titleTag">{{ objL1.title }}</div>
-        <div v-html="objL1.html"></div>
+        <div class="html" v-html="objL1.html"></div>
       </div>
     </div>
+  </div>
+  <div class="separator"></div>
+  <div class="demo-2">
+    <google-doc :doc="doc" />
+  </div>
+  <div class="demo-3">
+    <google-doc :doc="doc" :options="{ metaphor: 'page' }" />
   </div>
 </div>
 </template>
 
 <script>
 import { getDoc, structureDoc } from '~/lib/gdoc'
+import GoogleDoc from '~/components/GoogleDoc'
 
 export default {
+  components: {
+    GoogleDoc
+  },
   async asyncData() {
     const url = 'https://docs.google.com/document/d/e/2PACX-1vTLvc6G378TNi99QLg06bt8i1W-uNZVFUBwDTVTE-dBxix7lvgVeIJIweeqBXBQez0b3M3U1THvxfik/pub'
 
     const doc = await getDoc(url)
     const structuredDoc = structureDoc(doc.html, ['h2', 'h3'])
     return {
+      doc,
       structuredDoc
     }
   }
