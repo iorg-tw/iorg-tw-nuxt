@@ -51,7 +51,9 @@ async function get() {
   rows = sheets[1]
   rows = rows.filter(row => row.id && row.type).map(row => ({
     id: row.id,
+    type: row.type,
     fileName: row.id + '.' + row.type,
+    ...(ok(row.quickNote) ? { quickNote: row.quickNote } : {}),
     ...(ok(row.data) ? { data: row.data } : {})
   }))
   result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))

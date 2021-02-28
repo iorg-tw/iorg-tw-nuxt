@@ -1,3 +1,10 @@
+<i18n lang="yaml">
+_tw:
+  title: "展覽"
+_en:
+  title: "Exhibition"
+</i18n>
+
 <template>
 <div class="page exhibition">
   <div class="items">
@@ -11,6 +18,7 @@
 
 <script>
 import archive from '~/data/archive.json'
+import { generateMeta } from '~/lib/meta'
 
 const baseURL = 'https://raw.githubusercontent.com/iorg-tw/archive/master/files/'
 
@@ -20,6 +28,9 @@ export default {
       baseURL,
       archive
     }
+  },
+  head() {
+    return generateMeta(this.$t('title'))
   }
 }
 </script>

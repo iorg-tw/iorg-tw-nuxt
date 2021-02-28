@@ -1,10 +1,44 @@
 {
 	"X-2R-32-04": {
 		"id": "X-2R-32-04",
-		"fileName": "X-2R-32-04.jpg"
+		"type": "jpg",
+		"fileName": "X-2R-32-04.jpg",
+		"quickNote": "洪水猛獸 baby"
+	},
+	"X-2R-67-39": {
+		"id": "X-2R-67-39",
+		"type": "png",
+		"fileName": "X-2R-67-39.png",
+		"quickNote": "觀察者網 6park"
 	},
 	"X-2R-36-67": {
 		"id": "X-2R-36-67",
-		"fileName": "X-2R-36-67.jpg"
+		"type": "jpg",
+		"fileName": "X-2R-36-67.jpg",
+		"quickNote": "中國人先上車"
+	},
+	"X-2R-44-97": {
+		"id": "X-2R-44-97",
+		"type": "png",
+		"fileName": "X-2R-44-97.png",
+		"quickNote": "時間視頻 weibo"
+	},
+	"X-2R-61-98": {
+		"id": "X-2R-61-98",
+		"type": "png",
+		"fileName": "X-2R-61-98.png",
+		"quickNote": "战略情报菌 weibo"
+	},
+	"X-2R-73-62": {
+		"id": "X-2R-73-62",
+		"type": "png",
+		"fileName": "X-2R-73-62.png",
+		"quickNote": "觀察者網 weibo"
+	},
+	"X-2R-60-94": {
+		"id": "X-2R-60-94",
+		"type": "png",
+		"fileName": "X-2R-60-94.png",
+		"quickNote": "人民日報 weibo"
 	}
 }
