@@ -607,18 +607,26 @@ export default {
       margin-left: var(--page-spacing);
     }
   }
+  .gdoc-photo-container,
   .gdoc-table-container {
     @media (min-width: 768px) {
       margin-right: var(--page-spacing);
       margin-left: var(--page-spacing);
+      > .description {
+        margin-right: 0;
+        margin-left: 0;
+      }
     }
   }
-  .gdoc-quote {
-    max-width: $doc-max-width;
-  }
+  .gdoc-quote,
+  .gdoc-def,
+  .gdoc-note,
   .gdoc-references {
     max-width: $doc-max-width;
     border-color: var(--iorg-neutral);
+    > .detail {
+      border-top-color: var(--iorg-neutral);
+    }
   }
 }
 .google-doc.title-only {
