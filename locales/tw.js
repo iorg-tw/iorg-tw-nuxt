@@ -5,6 +5,7 @@ export default {
   iorg_s3: '中國共產黨及中國政府正積極滲透台灣各種人際組織。',
   research_title_1: '極權擴張與民主防衛',
   research_title_2: 'IORG 中國對台影響力作戰研究',
+  _R_K: '總體研究成果',
   _R_A: '影響力網絡',
   _R_B: '資訊操弄',
   _R_B1: '關西機場',
