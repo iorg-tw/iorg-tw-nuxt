@@ -11,7 +11,7 @@ _en:
 <div class="google-doc" :class="classes">
   <template v-if="showHead">
     <div class="title">
-      <h1 :is="doc.titleTag ? doc.titleTag : 'h1'" v-if="doc.title" v-html="optimizeTracking(doc.title)"></h1>
+      <h1 :is="titleTag" v-if="doc.title" v-html="optimizeTracking(doc.title)"></h1>
       <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
       <a v-if="enableToggle" class="toggle" @click="toggle = !toggle">⋯</a>
     </div>
@@ -47,9 +47,13 @@ export default {
     }
   },
   computed: {
+    titleTag() {
+      return this.doc.titleTag ? this.doc.titleTag : 'h1'
+    },
     classes() {
       return [
         'as-' + (this.shouldSetOption('metaphor') ? this.options.metaphor : 'doc'),
+        'title-' + this.titleTag,
         this.enableToggle && this.toggle ? 'title-only' : ''
       ]
     },
@@ -75,8 +79,16 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.google-doc.as-doc,
-.google-doc.as-page {
+.google-doc {
+  // variables
+  --doc-spacing: 1rem;
+  @media (min-width: 480px) {
+    --doc-spacing: 1.5rem;
+  }
+  --page-spacing: 1.5rem;
+  --list-indent: 1.375rem;
+
+  // sections
   > .title {
     margin-bottom: 0.5rem;
     > .subtitle {
@@ -89,6 +101,13 @@ export default {
       cursor: pointer;
     }
   }
+  > .author-info,
+  > .more-info {
+    padding: 0;
+    list-style: none;
+    font-size: 0.875rem;
+    color: var(--iorg-neutral);
+  }
   > .content {
     h2, h3 {
       margin-bottom: 0.375rem;
@@ -98,10 +117,12 @@ export default {
       line-height: 1.625;
     }
   }
-  .gdoc-photo-container {
-    margin: 0;
+
+  // content elements
+  [class^=gdoc-] {
     margin-bottom: 1.5rem;
-    padding: 0;
+  }
+  .gdoc-photo-container {
     > .images {
       width: 100%;
       background-color: var(--iorg-neutral);
@@ -119,26 +140,12 @@ export default {
       }
     }
     > .description {
-      margin: 0;
-      padding-top: 0.75rem;
-      padding-bottom: 0.5rem;
-      padding-right: var(--doc-spacing);
-      padding-left: var(--doc-spacing);
+      margin-top: 0.75rem;
       font-size: 0.875rem;
       color: #646464;
     }
-    &.compact > .images {
-      width: 75%;
-      @media (min-width: 768px) {
-        width: 55%;
-      }
-      margin: auto;
-    }
   }
   .gdoc-youtube-container {
-    margin: 0;
-    margin-bottom: 1.5rem;
-    padding: 0;
     > .video {
       position: relative;
       width: 100%;
@@ -158,66 +165,7 @@ export default {
       }
     }
   }
-  .gdoc-post-container {
-    margin-right: var(--doc-spacing);
-    margin-left: var(--doc-spacing);
-    margin-bottom: 1.5rem;
-    border: 1px solid var(--iorg-background);
-    background-color: white;
-    @include shadow;
-
-    --facebook: #5252ff;
-    --weibo: #ff5656;
-    --line: #40dd40;
-    &.facebook {
-      border-color: var(--facebook);
-      color: var(--facebook);
-    }
-    &.weibo {
-      border-color: var(--weibo);
-      color: var(--weibo);
-    }
-    &.line {
-      border-color: var(--line);
-      color: var(--line);
-    }
-    > .detail {
-      padding: 0.75rem;
-      > :last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-  .gdoc-infobox {
-    margin-right: var(--doc-spacing);
-    margin-left: var(--doc-spacing);
-    margin-bottom: 1.5rem;
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.875rem;
-      td {
-        padding: 0.5rem;
-        border: 1px solid var(--iorg-background);
-        vertical-align: top;
-        &:first-child {
-          font-weight: bold;
-          white-space: nowrap;
-        }
-        > :last-child {
-          margin-bottom: 0;
-        }
-        ul {
-          list-style: square;
-          padding-left: 1rem;
-        }
-      }
-    }
-  }
   .gdoc-table-container {
-    margin: 0;
-    margin-bottom: 1.5rem;
-    padding: 0;
     > .table {
       width: 100%;
       padding: 0.5rem;
@@ -227,10 +175,7 @@ export default {
     }
     > .description {
       margin: 0;
-      padding-top: 0.75rem;
-      padding-bottom: 0.5rem;
-      padding-right: var(--doc-spacing);
-      padding-left: var(--doc-spacing);
+      margin-top: 0.75rem;
       font-size: 0.875rem;
       color: #646464;
     }
@@ -392,13 +337,60 @@ export default {
       }
     }
   }
+  .gdoc-infobox {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      td {
+        padding: 0.5rem;
+        border: 1px solid var(--iorg-background);
+        vertical-align: top;
+        &:first-child {
+          font-weight: bold;
+          white-space: nowrap;
+        }
+        > :last-child {
+          margin-bottom: 0;
+        }
+        ul {
+          list-style: square;
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+  .gdoc-post {
+    border: 1px solid var(--iorg-background);
+    background-color: white;
+    @include shadow;
+
+    --facebook: #5252ff;
+    --weibo: #ff5656;
+    --line: #40dd40;
+    &.facebook {
+      border-color: var(--facebook);
+      color: var(--facebook);
+    }
+    &.weibo {
+      border-color: var(--weibo);
+      color: var(--weibo);
+    }
+    &.line {
+      border-color: var(--line);
+      color: var(--line);
+    }
+    > .detail {
+      padding: 0.75rem;
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .gdoc-quote,
   .gdoc-def,
   .gdoc-note {
-    margin-right: var(--doc-spacing);
-    margin-left: var(--doc-spacing);
-    margin-bottom: 1.5rem;
     border: 1px solid var(--iorg-background);
-    color: var(--iorg-neutral);
     overflow: hidden;
     > .header {
       padding: 0.75rem;
@@ -421,13 +413,19 @@ export default {
       border-top: 1px solid var(--iorg-background);
     }
   }
+  .gdoc-quote {
+    > .header {
+      font-size: 1.125rem;
+    }
+  }
+  .gdoc-def,
+  .gdoc-note {
+    color: var(--iorg-neutral);
+  }
   .gdoc-note {
     background-color: #ddd;
   }
   .gdoc-references {
-    margin-right: var(--doc-spacing);
-    margin-left: var(--doc-spacing);
-    margin-bottom: 1.5rem;
     font-size: 0.75rem;
     border: 1px solid var(--iorg-background);
     color: var(--iorg-neutral);
@@ -443,7 +441,6 @@ export default {
     }
   }
   .gdoc-actions {
-    margin-bottom: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -454,20 +451,79 @@ export default {
   }
 }
 .google-doc.as-doc {
-  @include doc;
+  &.title-h1 {
+    @media (min-width: 375px) {
+      --doc-spacing: 1.5rem;
+    }
+    @media (min-width: 480px) {
+      --doc-spacing: 2.5rem;
+    }
+  }
+
+  max-width: $doc-max-width;
+  margin: 0 auto;
+  padding: var(--doc-spacing) 0;
+  background-color: var(--iorg-paper);
+  color: var(--iorg-text);
+  border-radius: 0.25rem;
+  line-height: 1.5;
+
+  > .title,
+  > .author-info,
+  > .more-info,
+  > .summary {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+  }
+  > .content {
+    > h2,
+    > h3,
+    > p {
+      margin-right: var(--doc-spacing);
+      margin-left: var(--doc-spacing);
+    }
+    > ul,
+    > ol {
+      margin-right: var(--doc-spacing);
+      margin-left: var(--doc-spacing);
+      padding-left: var(--list-indent);
+    }
+  }
+  $ext: 6rem;
+  [class^=gdoc-] {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+  }
+  .gdoc-photo-container,
+  .gdoc-youtube-container,
+  .gdoc-table-container {
+    margin-right: 0;
+    margin-left: 0;
+    > .description {
+      margin-right: var(--doc-spacing);
+      margin-left: var(--doc-spacing);
+    }
+  }
   .gdoc-photo-container {
     > .images {
       @media (min-width: 768px) {
-        width: calc(100% + 6rem);
-        margin-left: -3rem;
+        width: calc(100% + #{$ext});
+        margin-left: -$ext / 2;
       }
+    }
+    &.compact > .images {
+      width: 75%;
+      @media (min-width: 768px) {
+        width: 55%;
+      }
+      margin: auto;
     }
   }
   .gdoc-youtube-container {
     > .video {
       @media (min-width: 768px) {
-        width: calc(100% + 6rem);
-        margin-left: -3rem;
+        width: calc(100% + #{$ext});
+        margin-left: -$ext / 2;
         padding-bottom: calc(56.25% + 3.375rem);
       }
     }
@@ -475,22 +531,16 @@ export default {
   .gdoc-table-container {
     > .table {
       @media (min-width: 768px) {
-        width: calc(100% + 6rem);
-        margin-left: -3rem;
+        width: calc(100% + #{$ext});
+        margin-left: -$ext / 2;
       }
     }
   }
   .author-info {
     margin-top: 0.5rem;
-    list-style: none;
-    font-size: 0.875rem;
-    color: var(--iorg-neutral);
   }
   .more-info {
     margin-bottom: 1.5rem;
-    list-style: none;
-    font-size: 0.875rem;
-    color: var(--iorg-neutral);
   }
   .summary {
     margin-top: 0.5rem;
@@ -501,16 +551,58 @@ export default {
     width: 0.5rem;
     height: 0.5rem;
     background-color: var(--iorg-text);
-    margin: 1.25rem auto;
+    margin: var(--doc-spacing) auto;
   }
 }
 .google-doc.as-page {
-  @include page;
+  max-width: $page-max-width;
+  margin: 0;
+
+  > .title,
+  > .author-info,
+  > .more-info,
+  > .summary {
+    margin-right: var(--page-spacing);
+    margin-left: var(--page-spacing);
+  }
+  > .content {
+    > h2,
+    > h3,
+    > p {
+      max-width: $doc-max-width;
+      margin-right: var(--page-spacing);
+      margin-left: var(--page-spacing);
+    }
+    > ul,
+    > ol {
+      max-width: $doc-max-width;
+      margin-right: var(--page-spacing);
+      margin-left: var(--page-spacing);
+      padding-left: var(--list-indent);
+    }
+  }
+  [class^=gdoc-] {
+    margin-right: var(--page-spacing);
+    margin-left: var(--page-spacing);
+  }
+  .gdoc-photo-container,
+  .gdoc-youtube-container,
+  .gdoc-table-container {
+    margin-right: 0;
+    margin-left: 0;
+    > .description {
+      margin-right: var(--page-spacing);
+      margin-left: var(--page-spacing);
+    }
+  }
   .gdoc-table-container {
     @media (min-width: 768px) {
       margin-right: var(--page-spacing);
       margin-left: var(--page-spacing);
     }
+  }
+  .gdoc-quote {
+    max-width: $doc-max-width;
   }
 }
 .google-doc.title-only {

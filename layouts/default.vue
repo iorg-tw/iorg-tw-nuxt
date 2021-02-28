@@ -30,16 +30,5 @@ export default {
   --iorg-background: #D0D0D0;
   --iorg-neutral: #808080;
   --iorg-accent: #2CD086;
-
-  --doc-spacing: 1rem;
-  @media (min-width: 375px) {
-    --doc-spacing: 1.5rem;
-  }
-  @media (min-width: 480px) {
-    --doc-spacing: 2.5rem;
-  }
-  --page-spacing: 1.5rem;
-
-  --list-indent: 1.375rem;
 }
 </style>

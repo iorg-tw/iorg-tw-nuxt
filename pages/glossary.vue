@@ -1,7 +1,9 @@
 <template>
 <div class="page glossary">
-  <div class="doc-header">
-    <h1>{{ doc.title }}</h1>
+  <div class="google-doc as-doc">
+    <div class="title">
+      <h1>{{ doc.title }}</h1>
+    </div>
   </div>
   <div class="terms">
     <div v-for="obj of structuredDoc" :key="obj.title" class="term">
@@ -37,13 +39,6 @@ export default {
 
 <style lang="scss">
 @import '~assets/styles/resources';
-
-// FIXME: this is cheating
-:root {
-  @media (min-width: 480px) {
-    --doc-spacing: 1.5rem;
-  }
-}
 
 .page.glossary {
   padding: $default-page-padding;
