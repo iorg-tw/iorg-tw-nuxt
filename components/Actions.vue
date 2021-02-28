@@ -1,9 +1,16 @@
+<i18n lang="yaml">
+_tw:
+  readMore: "閱讀更多"
+_en:
+  readMore: "Read more"
+</i18n>
+
 <template>
 <div class="actions">
   <a v-for="action of actions" :key="action.name" class="action block" :href="action.url">
     <template v-if="action.type === 'report'">
       <img class="image" :src="action.image" />
-      <a :href="action.url" class="button primary">{{ action.name }}</a>
+      <a :href="action.url" class="button primary">{{ $t(action.name) }}</a>
     </template>
   </a>
 </div>
@@ -16,7 +23,7 @@ export default {
       actions: [
         {
           type: 'report',
-          name: '閱讀更多',
+          name: 'readMore',
           image: '/images/covers/r.png',
           url: 'https://iorg.tw/r'
         }
