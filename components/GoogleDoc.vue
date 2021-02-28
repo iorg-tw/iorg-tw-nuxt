@@ -86,9 +86,12 @@ export default {
   // variables
   --doc-spacing: 1rem;
   @media (min-width: 480px) {
-    --doc-spacing: 1.5rem;
+    --doc-spacing: 1.25rem;
   }
-  --page-spacing: 1.5rem;
+  --page-spacing: 1.25rem;
+  @media (min-width: 480px) {
+    --page-spacing: 1.5rem;
+  }
   --list-indent: 1.375rem;
 
   // sections

@@ -1,7 +1,9 @@
 <template>
 <div class="page research">
-  <div class="section-header">
-    <h1>{{ doc.title }}</h1>
+  <div class="title-doc google-doc as-page">
+    <div class="title">
+      <h1>{{ doc.title }}</h1>
+    </div>
   </div>
   <div v-for="(objL0, indexL0) of structuredDoc" :key="objL0.title" class="group">
     <google-doc :doc="objL0" :options="{ metaphor: 'page' }" />
