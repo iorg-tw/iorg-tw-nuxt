@@ -10,7 +10,6 @@
     "start": "nuxt start",
     "generate": "mv ./docs/CNAME .; nuxt generate; mv ./CNAME ./docs;",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "sync:a": "node tools/syncArticles.js 185VOuOp7vP603U175sCkIkOuJuxANZHN20PVOM5PU28",
     "sync:lib": "node tools/syncLibrary.js 1iLSb3G7nrVjCQZjZ96Hulb6tDNrylu-8cc2PK8Li2kc",
     "sync:events": "node tools/syncEvents.js 1ZgZa7K_BpLBKeId8mXenMU7qwRLqVnVVq3y-4JukJ7Y",
     "sync:ion": "node tools/syncIONetwork.js"
