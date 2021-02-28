@@ -1,14 +1,12 @@
 <template>
 <div class="page glossary">
-  <div class="google-doc as-doc">
+  <div class="title-doc google-doc as-doc">
     <div class="title">
       <h1>{{ doc.title }}</h1>
     </div>
   </div>
   <div class="terms">
-    <div v-for="obj of structuredDoc" :key="obj.title" class="term">
-      <google-doc :doc="obj" :options="{ enableToggle: true }" />
-    </div>
+    <google-doc v-for="obj of structuredDoc" :key="obj.title" :doc="obj" :options="{ enableToggle: true }" class="term" />
   </div>
 </div>
 </template>
@@ -42,9 +40,12 @@ export default {
 
 .page.glossary {
   padding: $default-page-padding;
+  > .title-doc {
+    margin-bottom: 0.5rem;
+  }
   > .terms {
     > .term {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
   }
 }

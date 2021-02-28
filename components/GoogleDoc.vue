@@ -24,7 +24,7 @@ _en:
     <div v-if="showSummary && doc.summaryHTML" class="separator"></div>
   </template>
   <div class="content" v-html="doc.html"></div>
-  <div class="separator"></div>
+  <div v-if="metaphor !== 'page'" class="separator"></div>
 </div>
 </template>
 
@@ -52,10 +52,13 @@ export default {
     },
     classes() {
       return [
-        'as-' + (this.shouldSetOption('metaphor') ? this.options.metaphor : 'doc'),
+        'as-' + this.metaphor,
         'title-' + this.titleTag,
-        this.enableToggle && this.toggle ? 'title-only' : ''
+        ...(this.enableToggle && this.toggle ? ['title-only'] : [])
       ]
+    },
+    metaphor() {
+      return this.shouldSetOption('metaphor') ? this.options.metaphor : 'doc'
     },
     showHead() {
       return this.shouldSetOption('head') ? this.options.head : true
@@ -454,6 +457,16 @@ export default {
       margin: 0.25rem;
     }
   }
+  .separator {
+    &:after {
+      content: '';
+      display: block;
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: var(--iorg-text);
+      margin: 1rem auto;
+    }
+  }
 
   // for demo
   [class^='illegal-'] {
@@ -559,12 +572,6 @@ export default {
     margin-bottom: 0.5rem;
     font-size: 1.125rem;
   }
-  .separator {
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: var(--iorg-text);
-    margin: var(--doc-spacing) auto;
-  }
 }
 .google-doc.as-page {
   max-width: $page-max-width;
@@ -574,6 +581,7 @@ export default {
   > .author-info,
   > .more-info,
   > .summary {
+    max-width: $doc-max-width;
     margin-right: var(--page-spacing);
     margin-left: var(--page-spacing);
   }
@@ -627,6 +635,11 @@ export default {
     > .detail {
       border-top-color: var(--iorg-neutral);
     }
+  }
+  .separator {
+    max-width: $doc-max-width;
+    margin-right: var(--page-spacing);
+    margin-left: var(--page-spacing);
   }
 }
 .google-doc.title-only {

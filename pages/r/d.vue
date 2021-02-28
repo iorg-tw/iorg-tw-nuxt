@@ -3,15 +3,15 @@
   <div class="section-header">
     <h1>{{ doc.title }}</h1>
   </div>
-  <div v-for="objL0 of structuredDoc" :key="objL0.title" class="group">
+  <div v-for="(objL0, indexL0) of structuredDoc" :key="objL0.title" class="group">
     <google-doc :doc="objL0" :options="{ metaphor: 'page' }" />
     <div class="findings">
-      <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding">
-        <google-doc :doc="objL1" :options="{ metaphor: 'page', enableToggle: true }" />
-      </div>
+      <google-doc v-for="objL1 of objL0.children" :key="objL1.title" :doc="objL1" :options="{ enableToggle: true }" class="finding" />
+    </div>
+    <div v-if="indexL0 === 0" class="tree"><!-- FIXME: this is cheating -->
+      <node-list :nodes="nodes" />
     </div>
   </div>
-  <node-list :nodes="nodes" />
 </div>
 </template>
 
@@ -65,6 +65,15 @@ export default {
   > .group {
     > .findings {
       margin-bottom: 1.5rem;
+      > .finding { // FIXME: this is cheating
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+        @media (min-width: 768px) {
+          margin-right: 1.5rem;
+          margin-left: 1.5rem;
+        }
+      }
     }
   }
 }
