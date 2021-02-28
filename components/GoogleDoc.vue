@@ -119,7 +119,7 @@ export default {
   }
 
   // content elements
-  [class^=gdoc-] {
+  [class^='gdoc-'] {
     margin-bottom: 1.5rem;
   }
   .gdoc-photo-container {
@@ -449,6 +449,13 @@ export default {
       margin: 0.25rem;
     }
   }
+
+  // for demo
+  [class^='illegal-'] {
+    text-decoration: line-through;
+    text-decoration-color: #ff2828;
+    text-decoration-thickness: 2px;
+  }
 }
 .google-doc.as-doc {
   &.title-h1 {
@@ -490,7 +497,7 @@ export default {
     }
   }
   $ext: 6rem;
-  [class^=gdoc-] {
+  [class^='gdoc-'] {
     margin-right: var(--doc-spacing);
     margin-left: var(--doc-spacing);
   }
@@ -581,7 +588,7 @@ export default {
       padding-left: var(--list-indent);
     }
   }
-  [class^=gdoc-] {
+  [class^='gdoc-'] {
     margin-right: var(--page-spacing);
     margin-left: var(--page-spacing);
   }
