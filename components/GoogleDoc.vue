@@ -417,6 +417,11 @@ export default {
     > .header {
       font-size: 1.125rem;
     }
+    > .header + .detail {
+      border: none;
+      padding-top: 0;
+      color: var(--iorg-neutral);
+    }
   }
   .gdoc-def,
   .gdoc-note {
@@ -610,6 +615,10 @@ export default {
   }
   .gdoc-quote {
     max-width: $doc-max-width;
+  }
+  .gdoc-references {
+    max-width: $doc-max-width;
+    border-color: var(--iorg-neutral);
   }
 }
 .google-doc.title-only {
