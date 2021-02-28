@@ -14,7 +14,7 @@ function ok(str) {
   return str !== null && str !== undefined && str.trim().length > 0
 }
 
-const defaultCover = '/images/covers/x-h.png'
+const defaultCover = '/images/covers/0-h.png'
 
 function makeLangFile(rows, locale) {
   return [

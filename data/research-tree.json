@@ -4,7 +4,7 @@
 		"to": "/r/k",
 		"level": 0,
 		"code": "K",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/k-h.png",
 		"isArticle": true
 	},
 	{
@@ -149,7 +149,7 @@
 		"to": "/r/m",
 		"level": 0,
 		"code": "M",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/covers/0-h.png",
 		"isArticle": true
 	},
 	{
@@ -164,14 +164,14 @@
 		"to": "/glossary",
 		"level": 0,
 		"code": "G",
-		"image": "/images/covers/x-h.png"
+		"image": "/images/covers/g-h.png"
 	},
 	{
 		"id": "_CE_2020",
 		"to": "/ce/2020",
 		"level": 0,
 		"code": "CE",
-		"image": "/images/covers/x-h.png"
+		"image": "/images/covers/0-h.png"
 	},
 	{
 		"id": "_X",
@@ -185,6 +185,6 @@
 		"to": "/open",
 		"level": 0,
 		"code": "O",
-		"image": "/images/covers/x-h.png"
+		"image": "/images/covers/o-h.png"
 	}
 ]
