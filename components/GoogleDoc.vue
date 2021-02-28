@@ -470,6 +470,11 @@ export default {
       margin: 1rem auto;
     }
   }
+  a.archive {
+    font-size: 0.75rem;
+    border-bottom-color: var(--iorg-neutral);
+    color: var(--iorg-neutral);
+  }
 
   // for demo
   [class^='illegal-'] {
