@@ -1,8 +1,7 @@
 module.exports = [
   { from: '/events', to: '/e' },
-  { from: '/v', to: '/a' },
-  { from: '/i/hong-sh', to: '/a/hong-sh' },
-  { from: '/f/r-covid-19', to: '/r/covid-19' },
-  { from: '/f/r-', to: '/r/' },
-  { from: '/d', to: '/r' }
+  { from: '/d', to: '/r' },
+  { from: '/v', to: '/a', matchStart: true },
+  { from: '/i', to: '/a', matchStart: true },
+  { from: '/f/r-', to: '/r/', matchStart: true }
 ]

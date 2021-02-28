@@ -10,8 +10,10 @@ module.exports = function(req, res, next) {
       locale = from.shift()
     }
     from = '/' + from.join('/')
-    if(from.startsWith(r.from)) {
+    if(r.matchStart && from.startsWith(r.from)) {
       to = from.replace(r.from, r.to)
+    } else if(from === r.from) {
+      to = r.to
     }
     return to !== null
   })
