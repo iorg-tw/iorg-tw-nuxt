@@ -1,14 +1,16 @@
 <i18n lang="yaml">
 _tw:
   read: "線上閱讀報告"
-  download: "下載各項研究報告 PDF"
+  download: "下載各項報告 PDF"
   soon: "報告內容即將開放"
+  underRevision: "報告內容持續更新中"
   articles: "報導"
   videos: "影音"
 _en:
   read: "Read more"
   download: "Download reports in PDF"
   soon: "Available soon"
+  underRevision: "Content under revision"
   articles: "Articles"
   videos: "Videos"
 </i18n>
@@ -34,12 +36,12 @@ _en:
         </div>
       </div>
       <div class="panel actions">
-        <nuxt-link is="div" class="action disabled" :to="localePath('/')">{{ $t('read') }}</nuxt-link>
+        <nuxt-link class="action" :to="localePath('/r')">{{ $t('read') }}</nuxt-link>
         <nuxt-link is="div" class="action disabled" :to="localePath('/')">{{ $t('download') }}</nuxt-link>
         <div class="info">
           <div class="content">
             <span class="emoji">⚠️</span>
-            <span>{{ $t('soon') }}</span>
+            <span>{{ $t('underRevision') }}</span>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ _en:
     <img src="/images/logo-tmp-small.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="localePath('/')" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/r')" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/a')" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/e')" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
   </div>
