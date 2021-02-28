@@ -75,9 +75,11 @@ export default {
 
 .page.research {
   > .page-header {
+    h1 {
+      font-size: 2.25rem;
+    }
     .subtitle {
-      font-size: 1.25rem;
-      font-weight: bold;
+      font-size: 1.375rem;
       color: var(--iorg-accent);
     }
   }
