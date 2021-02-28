@@ -182,7 +182,7 @@
 	},
 	{
 		"id": "_O",
-		"to": "/open-by-default",
+		"to": "/open",
 		"level": 0,
 		"code": "O",
 		"image": "/images/covers/x-h.png"
