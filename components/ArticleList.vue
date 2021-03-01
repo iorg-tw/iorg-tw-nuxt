@@ -3,8 +3,8 @@ _tw:
   publishedAt: "發佈"
   updatedAt: "更新"
 _en:
-  publishedAt: "Published at"
-  updatedAt: "Last updated at"
+  publishedAt: "Published"
+  updatedAt: "Updated"
 </i18n>
 
 <template>
