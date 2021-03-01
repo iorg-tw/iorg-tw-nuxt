@@ -1,6 +1,6 @@
 export default {
   manifesto: 'Research on influence operations must be rigorous, scientific, data-driven, and multidisciplinary. For scientific research is the foundation of the knowledge, policies, and proportional collective response required to protect Taiwan’s civil liberties and strengthen Taiwan’s democracy.',
-  iorg_sci: 'IORG is able to demonstrate, with publicly verifiable scientific methods, that...',
+  iorg_sci: 'IORG is able to confirm, with publicly verifiable scientific methods, that...',
   iorg_s1: 'The CCP is engaged in information manipulation against Taiwan.',
   iorg_s2: '“Local collaborators” are key to the spread of Chinese information manipulation against Taiwan.',
   iorg_s3: 'The CCP is proactively infiltrating Taiwan through interpersonal connections.',
