@@ -471,9 +471,10 @@ export default {
     }
   }
   a.archive {
-    font-size: 0.75rem;
-    border-bottom-color: var(--iorg-neutral);
+    font-size: 0.625rem;
+    border-bottom: 1px solid var(--iorg-neutral);
     color: var(--iorg-neutral);
+    white-space: nowrap;
   }
 
   // for demo
