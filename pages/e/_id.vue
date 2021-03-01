@@ -18,7 +18,7 @@ export default {
     const id = params.id
     const customEvent = customEvents.find(e => e.id === id)
     if(!customEvent) {
-      error({ statusCode: 404, message: 'Event not found' })
+      error({ statusCode: 404, message: 'eventNotFound' })
       return
     }
     const docURLs = [
