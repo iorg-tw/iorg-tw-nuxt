@@ -1,5 +1,5 @@
 <template>
-<div class="page event-0305">
+<div class="page event">
   <google-doc :doc="localizedDoc" :options="{ showSummary: false }" />
 </div>
 </template>
@@ -47,7 +47,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.event-0305 {
+.page.event {
   padding: $default-page-padding;
 }
 </style>

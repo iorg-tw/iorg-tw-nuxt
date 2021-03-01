@@ -1,5 +1,5 @@
 <template>
-<div class="page research">
+<div class="page research-m">
   <google-doc :doc="doc" :options="{ showSummary: false }" />
 </div>
 </template>
@@ -29,7 +29,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.research {
+.page.research-m {
   padding: $default-page-padding;
 }
 </style>

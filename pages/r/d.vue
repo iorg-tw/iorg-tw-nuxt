@@ -1,5 +1,5 @@
 <template>
-<div class="page research">
+<div class="page research-d">
   <div class="title-doc google-doc as-page">
     <div class="title">
       <h1>{{ doc.title }}</h1>
@@ -60,7 +60,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.research {
+.page.research-d {
   padding: $default-page-padding;
   > .section-header {
     margin-bottom: 0.5rem;
