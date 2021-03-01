@@ -53,7 +53,10 @@ async function get() {
     id: row.id,
     type: row.type,
     fileName: row.id + '.' + row.type,
-    ...(ok(row.quickNote) ? { quickNote: row.quickNote } : {}),
+    ...(ok(row.contentInfo) ? { contentInfo: row.contentInfo } : {}),
+    ...(ok(row.platform) ? { platform: row.platform } : {}),
+    ...(ok(row.srcURL) ? { srcURL: row.srcURL } : {}),
+    ...(ok(row.publishedAt) ? { publishedAt: row.publishedAt } : {}),
     ...(ok(row.data) ? { data: row.data } : {})
   }))
   result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))

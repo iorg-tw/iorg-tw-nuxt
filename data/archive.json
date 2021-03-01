@@ -3,102 +3,123 @@
 		"id": "X-2R-32-04",
 		"type": "jpg",
 		"fileName": "X-2R-32-04.jpg",
-		"quickNote": "洪水猛獸 baby"
+		"contentInfo": "洪水猛兽 baby",
+		"platform": "微博"
 	},
 	"X-2R-67-39": {
 		"id": "X-2R-67-39",
 		"type": "png",
 		"fileName": "X-2R-67-39.png",
-		"quickNote": "觀察者網 6park"
+		"contentInfo": "觀察者網 6park",
+		"platform": "6park"
 	},
 	"X-2R-36-67": {
 		"id": "X-2R-36-67",
 		"type": "jpg",
 		"fileName": "X-2R-36-67.jpg",
-		"quickNote": "中國人先上車"
+		"contentInfo": "「中国人先上车」",
+		"platform": "應為微博"
 	},
 	"X-2R-44-97": {
 		"id": "X-2R-44-97",
 		"type": "png",
 		"fileName": "X-2R-44-97.png",
-		"quickNote": "時間視頻 weibo"
+		"contentInfo": "时间视频",
+		"platform": "微博"
 	},
 	"X-2R-61-98": {
 		"id": "X-2R-61-98",
 		"type": "png",
 		"fileName": "X-2R-61-98.png",
-		"quickNote": "战略情报菌 weibo"
+		"contentInfo": "战略情报菌",
+		"platform": "微博"
 	},
 	"X-2R-73-62": {
 		"id": "X-2R-73-62",
 		"type": "png",
 		"fileName": "X-2R-73-62.png",
-		"quickNote": "觀察者網 weibo"
+		"contentInfo": "观察者网",
+		"platform": "微博"
 	},
 	"X-2R-60-94": {
 		"id": "X-2R-60-94",
 		"type": "png",
 		"fileName": "X-2R-60-94.png",
-		"quickNote": "人民日報 weibo"
+		"contentInfo": "人民日報",
+		"platform": "微博"
 	},
 	"X-2R-78-05": {
 		"id": "X-2R-78-05",
 		"type": "png",
 		"fileName": "X-2R-78-05.png",
-		"quickNote": "本-良品mini weibo"
+		"contentInfo": "本-良品mini",
+		"platform": "微博"
 	},
 	"X-2R-71-58": {
 		"id": "X-2R-71-58",
 		"type": "png",
 		"fileName": "X-2R-71-58.png",
-		"quickNote": "日本包车地陪乐程国际 weibo"
+		"contentInfo": "日本包车地陪乐程国际",
+		"platform": "微博"
 	},
 	"X-2R-90-01": {
 		"id": "X-2R-90-01",
 		"type": "png",
 		"fileName": "X-2R-90-01.png",
-		"quickNote": "左奶奶在东京 weibo"
+		"contentInfo": "左奶奶在东京",
+		"platform": "微博"
 	},
 	"X-2R-11-37": {
 		"id": "X-2R-11-37",
 		"type": "png",
 		"fileName": "X-2R-11-37.png",
-		"quickNote": "聚盈传媒 weibo"
+		"contentInfo": "聚盈传媒",
+		"platform": "微博"
 	},
 	"X-2R-88-19": {
 		"id": "X-2R-88-19",
 		"type": "png",
 		"fileName": "X-2R-88-19.png",
-		"quickNote": "青山 czqs2000"
+		"contentInfo": "czqs2000（青山）",
+		"platform": "PTT Gossiping 版",
+		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1536188697.A.CD7.htmll"
 	},
 	"X-2R-15-02": {
 		"id": "X-2R-15-02",
 		"type": "png",
 		"fileName": "X-2R-15-02.png",
-		"quickNote": "zoosleep"
+		"contentInfo": "zoosleep",
+		"platform": "PTT Japan_Travel 版",
+		"srcURL": "https://www.ptt.cc/bbs/Japan_Travel/M.1536199496.A.41D.html"
 	},
 	"X-2R-51-03": {
 		"id": "X-2R-51-03",
 		"type": "png",
 		"fileName": "X-2R-51-03.png",
-		"quickNote": "GuRuGuRu"
+		"contentInfo": "GuRuGuRu",
+		"platform": "PTT Japan_Travel 版",
+		"srcURL": "https://www.ptt.cc/man/Japan_Travel/D9B3/D171/DF13/M.1536249726.A.18B.html"
 	},
 	"X-2R-38-15": {
 		"id": "X-2R-38-15",
 		"type": "png",
 		"fileName": "X-2R-38-15.png",
-		"quickNote": "蘋果"
+		"contentInfo": "蘋果日報",
+		"srcURL": "https://tw.appledaily.com/new/realtime/20180906/1424775/"
 	},
 	"X-2R-31-36": {
 		"id": "X-2R-31-36",
 		"type": "png",
 		"fileName": "X-2R-31-36.png",
-		"quickNote": "青山 DSLR"
+		"contentInfo": "青山",
+		"platform": "PTT DSLR 版",
+		"srcURL": "https://www.ptt.cc/bbs/DSLR/M.1420438843.A.1CD.html"
 	},
 	"X-2R-55-43": {
 		"id": "X-2R-55-43",
 		"type": "png",
 		"fileName": "X-2R-55-43.png",
-		"quickNote": "自由"
+		"contentInfo": "自由時報",
+		"srcURL": "https://news.ltn.com.tw/news/politics/breakingnews/2544608"
 	}
 }
