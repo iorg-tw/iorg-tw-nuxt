@@ -8,9 +8,9 @@ _en:
 <template>
 <div class="page exhibition">
   <div class="items">
-    <div v-for="(obj, id) in archive" :key="id" class="item">
+    <nuxt-link v-for="(obj, id) in archive" :key="id" :to="localePath({ name: 'archive-id', params: { id } })" class="item block">
       <img :src="baseURL + obj.fileName" />
-    </div>
+    </nuxt-link>
     <div v-for="i in 15" :key="i" class="item"></div>
   </div>
 </div>
