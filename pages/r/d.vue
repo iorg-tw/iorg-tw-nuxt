@@ -10,7 +10,8 @@
     <div class="findings">
       <google-doc v-for="objL1 of objL0.children" :key="objL1.title" :doc="objL1" :options="{ enableToggle: true }" class="finding" />
     </div>
-    <div v-if="indexL0 === 0" class="tree"><!-- FIXME: this is cheating -->
+    <!-- FIXME: this 👇 is cheating -->
+    <div v-if="indexL0 === 0" class="tree">
       <node-list :nodes="nodes" />
     </div>
   </div>
