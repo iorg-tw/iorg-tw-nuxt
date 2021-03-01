@@ -39,7 +39,7 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.file.contentInfo)
+    return generateMeta(this.file.id, null, this.file.contentInfo)
   }
 }
 </script>
