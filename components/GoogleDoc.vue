@@ -471,8 +471,8 @@ export default {
     }
   }
   a.archive {
+    border-bottom-width: 1px;
     font-size: 0.625rem;
-    border-bottom: 1px solid var(--iorg-neutral);
     color: var(--iorg-neutral);
     white-space: nowrap;
   }

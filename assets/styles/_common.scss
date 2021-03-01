@@ -23,20 +23,19 @@ input, button {
   }
 }
 a {
-  display: inline;
-  text-decoration: none;
-  border-bottom: 2px solid var(--iorg-text);
-  
   &, &:active, &:visited {
     color: var(--iorg-text);
   }
+  display: inline;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
 
   &.block {
     display: block;
     border: none;
     > span {
       line-height: 1.5;
-      border-bottom: 2px solid var(--iorg-text);
+      border-bottom: 2px solid currentColor;
     }
   }
   &.inline-block {
@@ -45,13 +44,6 @@ a {
   }
   &.inverted {
     color: var(--iorg-primary-light-color);
-    border-bottom-color: var(--iorg-primary-light-color);
-    & {
-      border-bottom: 2px solid var(--iorg-primary-light-color);
-    }
-    &.block > span {
-      border-bottom-color: var(--iorg-primary-light-color);
-    }
   }
   &.minimal {
     border-bottom-color: transparent;
@@ -71,18 +63,20 @@ a {
       border-radius: 1.25rem;
     }
     &.secondary {
+      color: var(--iorg-text);
       font-size: 1rem;
       line-height: 1;
       padding: 0.625rem 1rem;
-      border: 0.125rem solid var(--iorg-text);
+      border: 0.125rem solid currentColor;
       border-radius: 1.25rem;
     }
     &.small {
+      color: var(--iorg-text);
       font-size: 0.75rem;
       line-height: 0.75rem;
       font-weight: bold;
       padding: 0.375rem;
-      border: 0.125rem solid var(--iorg-text);
+      border: 0.125rem solid currentColor;
       border-radius: 0.875rem;
       white-space: nowrap;
     }
