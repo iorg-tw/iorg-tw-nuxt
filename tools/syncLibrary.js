@@ -72,6 +72,10 @@ async function get() {
   }))
   fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
 
+  if(!getArticles) {
+    return
+  }
+
   console.info('articles...')
   rows = sheets[3]
   rows = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
@@ -112,4 +116,5 @@ async function get() {
   fs.writeFileSync('data/articles.json', JSON.stringify(result, null, '\t'))
 }
 
+const getArticles = false
 get()
