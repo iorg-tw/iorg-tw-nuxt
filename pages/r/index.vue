@@ -16,10 +16,10 @@ _en:
     <p class="subtitle">{{ $t('research_title_2') }}</p>
   </div>
   <div class="key-findings">
-    <div v-for="objL0 of structuredDocK" :key="objL0.title" class="group">
+    <div v-for="objL0 of localizedStructuredDocK" :key="objL0.title" class="group">
       <div class="group-header section-header">
         <div :is="objL0.titleTag">{{ objL0.title }}</div>
-        <nuxt-link to="/r/k" class="more button small">{{ $t('more') }}</nuxt-link>
+        <nuxt-link :to="localePath('/r/k')" class="more button small">{{ $t('more') }}</nuxt-link>
       </div>
       <div v-if="objL0.children" class="findings container">
         <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding panel tiled large filled raised">
@@ -32,7 +32,7 @@ _en:
     <h2>{{ $t('directory') }}</h2>
   </div>
   <node-list :nodes="level0Nodes" :options="{ tiled: true }" />
-  <intro k="iorg_about" :more="docAck.html" />
+  <intro k="iorg_about" :more="localizedDocAck.html" />
 </div>
 </template>
 
@@ -50,18 +50,32 @@ export default {
     Intro
   },
   async asyncData() {
-    const [docK, docAck] = await Promise.all([
+    /* eslint-disable camelcase */
+    const [docK_tw, docK_en, docAck_tw, docAck_en] = await Promise.all([
       getDoc(articleMap._R_K.publicURLs._tw),
-      getDoc(articleMap.ack.publicURLs._tw)
+      getDoc(articleMap._R_K.publicURLs._en),
+      getDoc(articleMap.ack.publicURLs._tw),
+      getDoc(articleMap.ack.publicURLs._en)
     ])
-    const structuredDocK = structureDoc(docK.html, ['h2', 'h3'])
-
-    const level0Nodes = tree.filter(node => node.level === 0)
 
     return {
-      structuredDocK,
-      docAck,
-      level0Nodes
+      structuredDocK: {
+        _tw: structureDoc(docK_tw.html, ['h2', 'h3']),
+        _en: structureDoc(docK_en.html, ['h2', 'h3'])
+      },
+      docAck: {
+        _tw: docAck_tw,
+        _en: docAck_en
+      },
+      level0Nodes: tree.filter(node => node.level === 0)
+    }
+  },
+  computed: {
+    localizedStructuredDocK() {
+      return this.structuredDocK[this.$i18n.locale]
+    },
+    localizedDocAck() {
+      return this.docAck[this.$i18n.locale]
     }
   },
   head() {
