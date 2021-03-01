@@ -10,7 +10,7 @@ _en:
 </i18n>
 
 <template>
-<div class="page research">
+<div class="page research-home">
   <div class="page-header section-header">
     <h1>{{ $t('research_title_1') }}</h1>
     <p class="subtitle">{{ $t('research_title_2') }}</p>
@@ -18,7 +18,7 @@ _en:
   <div class="key-findings">
     <div v-for="objL0 of localizedStructuredDocK" :key="objL0.title" class="group">
       <div class="group-header section-header">
-        <div :is="objL0.titleTag">{{ objL0.title }}</div>
+        <div :is="objL0.titleTag" class="group-title">{{ objL0.title }}</div>
         <nuxt-link :to="localePath('/r/k')" class="more button small">{{ $t('more') }}</nuxt-link>
       </div>
       <div v-if="objL0.children" class="findings container">
@@ -87,7 +87,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.research {
+.page.research-home {
   > .page-header {
     .subtitle {
       margin-top: 0.25rem;
@@ -96,12 +96,17 @@ export default {
     }
   }
   > .key-findings {
-    .group-header {
-      display: flex;
-      align-items: center;
-    }
-    .more {
-      margin: 0 0.25rem;
+    > .group {
+      > .group-header {
+        > .group-title {
+          display: inline;
+          vertical-align: middle;
+        }
+        > .more {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
     }
   }
 }
