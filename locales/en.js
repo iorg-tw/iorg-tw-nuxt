@@ -27,7 +27,7 @@ export default {
   _F: 'Roadmap',
   _G: 'Glossary',
   _CE_2020: 'Community Engagement 2020',
-  _X: 'Exhibition',
+  _X: 'Archive',
   _O: 'Open by Default',
   iorg_about: 'IORG is a Taiwan-based multidisciplinary research group countering authoritarian expansion with public information, scientific methodologies, and grassroots organization.',
   iorg_about_long: 'IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG works to counter authoritarian expansion with public information, scientific methodologies, and grassroots organization.'

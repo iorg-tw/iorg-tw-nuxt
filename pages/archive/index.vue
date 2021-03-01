@@ -1,12 +1,5 @@
-<i18n lang="yaml">
-_tw:
-  title: "展覽"
-_en:
-  title: "Exhibition"
-</i18n>
-
 <template>
-<div class="page exhibition">
+<div class="page archive">
   <div class="items">
     <nuxt-link v-for="(obj, id) in archive" :key="id" :to="localePath({ name: 'archive-id', params: { id } })" class="item block">
       <img :src="baseURL + obj.fileName" />
@@ -30,13 +23,13 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.$t('title'))
+    return generateMeta(this.$t('_X'))
   }
 }
 </script>
 
 <style lang="scss">
-.page.exhibition {
+.page.archive {
   > .items {
     --margin-container: 0.875rem;
     --margin-item: 0.375rem;

@@ -175,7 +175,7 @@
 	},
 	{
 		"id": "_X",
-		"to": "/exhibition",
+		"to": "/archive",
 		"level": 0,
 		"code": "X",
 		"image": "/images/covers/x-h.png"
