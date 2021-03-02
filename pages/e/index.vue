@@ -70,7 +70,7 @@ export default {
           align-items: center;
           > .date {
           font-size: 1.5rem;
-            line-height: 1.125;
+            line-height: 1.75rem;
           }
           > .area {
             font-size: 0.875rem;

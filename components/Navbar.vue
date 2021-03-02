@@ -64,9 +64,9 @@ export default {
         padding: 0;
         word-break: break-all;
         min-width: 2.5rem;
-        line-height: 1.15;
+        line-height: $line-height-single;
         transform: skew(0, -12deg) translateY(1rem) scale(0.875);
-        transform-origin: bottom left;
+        transform-origin: top left;
       }
       &:first-child {
         padding-left: 0;

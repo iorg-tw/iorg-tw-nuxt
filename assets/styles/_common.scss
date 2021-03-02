@@ -80,6 +80,11 @@ a {
       border-radius: 0.875rem;
       white-space: nowrap;
     }
+    &.disabled {
+      background: none;
+      color: #aaa;
+      border: 0.125rem solid currentColor;
+    }
   }
 }
 img {
@@ -113,23 +118,6 @@ label {
   h3 {
     font-size: 1.125rem;
   }
-}
-
-// line height
-.lh-single {
-  line-height: 1;
-}
-.lh-tight {
-  line-height: 1.25;
-}
-.lh-compact {
-  line-height: 1.375;
-}
-.lh-default {
-  line-height: 1.5;
-}
-.lh-relaxed {
-  line-height: 1.75;
 }
 
 // tracking optimization

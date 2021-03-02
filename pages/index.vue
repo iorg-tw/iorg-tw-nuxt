@@ -36,8 +36,8 @@ _en:
         </div>
       </div>
       <div class="panel actions">
-        <nuxt-link class="action" :to="localePath('/r')">{{ $t('read') }}</nuxt-link>
-        <nuxt-link is="div" class="action disabled" :to="localePath('/')">{{ $t('download') }}</nuxt-link>
+        <nuxt-link class="button action primary" :to="localePath('/r')">{{ $t('read') }}</nuxt-link>
+        <nuxt-link class="button action secondary disabled" :to="localePath('/')">{{ $t('download') }}</nuxt-link>
         <div class="info">
           <div class="content">
             <span class="emoji">⚠️</span>
@@ -87,22 +87,8 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-    }
-    .action {
-      display: inline-block;
-      margin: 0.25rem;
-      padding: 0.75rem;
-      line-height: 1;
-      border-radius: 1.5rem;
-      & {
-        background-color: var(--iorg-primary-dark-color);
-        border: 2px solid var(--iorg-primary-dark-color);
-        color: var(--iorg-primary-light-color);
-      }
-      &.disabled {
-        background: none;
-        border: 2px solid #aaa;
-        color: #aaa;
+      > .action {
+        margin: 0.25rem;
       }
     }
     .info {
@@ -122,7 +108,7 @@ export default {
         > .emoji {
           margin-right: 0.25rem;
           font-size: 1.25rem;
-          line-height: 1;
+          line-height: 1.25rem;
           vertical-align: baseline;
         }
       }

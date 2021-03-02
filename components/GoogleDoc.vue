@@ -120,7 +120,29 @@ export default {
     }
     p, ul, ol {
       margin-bottom: 1.5rem;
-      line-height: 1.625;
+      line-height: $line-height-comfortable;
+    }
+    a.archive {
+      border-bottom-width: 1px;
+      font-size: 0.625rem;
+      color: var(--iorg-neutral);
+      white-space: nowrap;
+    }
+    .gdoc-list-set {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      line-height: $line-height-compact;
+      &.code {
+        > li {
+          margin: 0.125rem;
+          padding: 0.25rem 0.375rem;
+          background-color: #ddd;
+          border-radius: 0.25rem;
+        }
+      }
     }
   }
 
@@ -203,7 +225,7 @@ export default {
       }
       th, td {
         p, ul, ol {
-          line-height: 1.5;
+          line-height: $line-height-default;
         }
         p {
           margin-top: 0.25rem;
@@ -470,12 +492,6 @@ export default {
       margin: 1rem auto;
     }
   }
-  a.archive {
-    border-bottom-width: 1px;
-    font-size: 0.625rem;
-    color: var(--iorg-neutral);
-    white-space: nowrap;
-  }
 
   // for demo
   [class^='illegal-'] {
@@ -500,7 +516,7 @@ export default {
   background-color: var(--iorg-paper);
   color: var(--iorg-text);
   border-radius: 0.25rem;
-  line-height: 1.5;
+  line-height: $line-height-default;
 
   > .title,
   > .author-info,
