@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import customEvents from '~/data/custom-events'
+import confs from '~/data/confs'
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
@@ -16,14 +16,14 @@ export default {
   },
   async asyncData({ params, error }) {
     const id = params.id
-    const customEvent = customEvents.find(e => e.id === id)
-    if(!customEvent) {
+    const conf = confs[id]
+    if(!conf) {
       error({ statusCode: 404, message: 'eventNotFound' })
       return
     }
     const docURLs = [
-      customEvent.localizedDocs._tw,
-      customEvent.localizedDocs._en
+      conf.publicURLs._tw,
+      conf.publicURLs._en
     ] // 0 = _tw; 1 = _en
     const docs = await Promise.all(docURLs.map(url => getDoc(url)))
     return {

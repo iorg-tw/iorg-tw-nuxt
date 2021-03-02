@@ -1,0 +1,64 @@
+{
+	"305": {
+		"show": true,
+		"id": "305",
+		"area": "台北",
+		"year": 2021,
+		"date": "3/5",
+		"dow": "五",
+		"time": "11:00-12:00",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR9SlDEg0hN0vJx2LHAW06sDbsNGP3oLaq5t3tuazY1kgbltjOCFfVfyViCoGGR9LCM8gdLOSkCP-zY/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSEzqaTYk9HK_wjnP4f7QWk0DMIOlWUf-gtkq-sn5AlEVmPuDyHeXMy04VW5mjFTEz3swrLt7Zqy63l/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "中國對台影響力作戰研究成果發表",
+				"subtitle": "2021.3.5 IORG 記者會",
+				"coverImage": "https://lh6.googleusercontent.com/E8glgeqd-bNtbmgfodl9GU9zC_OrYoOWXs5yrSSMs4ZUN3nn78MfnWa7cxunS8Utd2x4QH4qKm9ThhY9jpWpLLtWPYyfEfyERN1H9-BcUJXlJc40DG3Y15o-hwhc6EFDag",
+				"summary": "2021.3.5 IORG 記者會",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR9SlDEg0hN0vJx2LHAW06sDbsNGP3oLaq5t3tuazY1kgbltjOCFfVfyViCoGGR9LCM8gdLOSkCP-zY/pub"
+			},
+			"_en": {
+				"title": "IORG Press Conference: Research Findings on Chinese Influence Operations Against Taiwan",
+				"subtitle": "2021.3.5 IORG Press Conference",
+				"coverImage": "https://lh5.googleusercontent.com/u-QTdSUs1zW1xjRyTKh_bPvXgIq3r-BaQJcmhJ_JV3GPbfr2EAg1Y7Bkj7ExHkcHZ0N2XFImPJfJFqotI_XyNihVb8udh43W8aPCecbfS7q5EokTC7NBgRVf4yB87gCnjA",
+				"summary": "2021.3.5 IORG Press Conference",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSEzqaTYk9HK_wjnP4f7QWk0DMIOlWUf-gtkq-sn5AlEVmPuDyHeXMy04VW5mjFTEz3swrLt7Zqy63l/pub"
+			}
+		}
+	},
+	"306": {
+		"show": true,
+		"id": "306",
+		"area": "台北",
+		"year": 2021,
+		"date": "3/6",
+		"dow": "六",
+		"time": "10:00-17:15",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSZO665xPuxsc11-ADDzOm8srJ7ZTDjAP7Fhl3rLR4hQX8GWNez8qGu6KQbD4CRTAG7PLTJ9iL4nMR7/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRQRDnBvfsxNN2G9FTH3x_jns5d8kAn39ckejuWHPgnaKKBdjrNE3tLRZqPFcM_puhLOicnGqqzAd-6/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 民主防衛論壇：中國對台影響力作戰研究",
+				"subtitle": "2021.3.6 IORG 研討會",
+				"coverImage": "https://lh4.googleusercontent.com/s7oaRGDyzSHAmB72nkdbaZjEqKbcfH_-WVbl9Gskp1CWjYk-EhCEnJd9ZMhcSYdFy0f04FugPc2YQVlVhwlELrP9kL8i7Z-Ap37-YSxsx6-PDLNwyDej9aqmAqe-WOfhBw",
+				"summary": "2021.3.6 IORG 研討會",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSZO665xPuxsc11-ADDzOm8srJ7ZTDjAP7Fhl3rLR4hQX8GWNez8qGu6KQbD4CRTAG7PLTJ9iL4nMR7/pub"
+			},
+			"_en": {
+				"title": "IORG Defending Democracy Conference: Research on Chinese Influence Operations Against Taiwan",
+				"subtitle": "2021.3.6 IORG Research Conference",
+				"coverImage": "https://lh3.googleusercontent.com/QbP6l7e45-m0IlGNh1BaTPHixpiFIHs6VcV3yW925ElR7oPEmhofGX3IurRTpgMs1tCUampdRK0dlr0MuIX_C2_ldRl032peQ9XEGWjGbrnYaE9RJdcCR6IYcRdjB-yzEQ",
+				"summary": "2021.3.6 IORG Research Conference",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRQRDnBvfsxNN2G9FTH3x_jns5d8kAn39ckejuWHPgnaKKBdjrNE3tLRZqPFcM_puhLOicnGqqzAd-6/pub"
+			}
+		}
+	}
+}

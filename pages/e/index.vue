@@ -1,10 +1,12 @@
 <i18n lang="yaml">
 _tw:
-  events: "活動"
+  confs: "會議"
+  workshops: "社區工作坊"
   title: "活動"
   description: "IORG 資訊判讀、民主防衛相關活動資訊"
 _en:
-  events: "Events"
+  confs: "Conferences"
+  workshops: "Workshops"
   title: "Events"
   description: "IORG Events"
 </i18n>
@@ -12,19 +14,34 @@ _en:
 <template>
 <div class="page events">
   <div class="section-header first">
-    <p class="section-title-fancy">{{ $t('events') }}</p>
+    <p class="section-title-fancy">{{ $t('confs') }}</p>
   </div>
   <div class="event-list container">
-    <div v-for="event of displayEvents" :key="[event.date, event.area, event.name].join('-')" class="event panel tiled compact small filled raised">
+    <div v-for="conf of displayConfs" :key="[conf.date, conf.area, conf.name].join('-')" class="conf event panel tiled compact small filled raised">
       <div class="detail">
         <div class="head">
-          <label class="date">{{ event.displayDate }}</label>
-          <label class="area">{{ event.area }}</label>
+          <label class="date">{{ conf.displayDate }}</label>
+          <label class="area">{{ conf.area }}</label>
         </div>
-        <div class="slogan">{{ event.slogan }}</div>
-        <h3>{{ event.name }}</h3>
-        <h4>{{ event.loc }}</h4>
-        <p>{{ event.time }}</p>
+        <h3><nuxt-link :to="localePath({ name: 'e-id', params: { id: conf.id } })">{{ conf.title }}</nuxt-link></h3>
+        <p>{{ conf.time }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="section-header first">
+    <p class="section-title-fancy">{{ $t('workshops') }}</p>
+  </div>
+  <div class="event-list container">
+    <div v-for="workshop of displayWorkshops" :key="[workshop.date, workshop.area, workshop.name].join('-')" class="workshop event panel tiled compact small filled raised">
+      <div class="detail">
+        <div class="head">
+          <label class="date">{{ workshop.displayDate }}</label>
+          <label class="area">{{ workshop.area }}</label>
+        </div>
+        <div class="slogan">{{ workshop.slogan }}</div>
+        <h3>{{ workshop.name }}</h3>
+        <h4>{{ workshop.loc }}</h4>
+        <p>{{ workshop.time }}</p>
       </div>
     </div>
   </div>
@@ -33,23 +50,35 @@ _en:
 
 <script>
 import { generateMeta } from '~/lib/meta'
-import events from '~/data/events.json'
+import confs from '~/data/confs.json'
+import workshops from '~/data/workshops.json'
 
 export default {
   data() {
     return {
-      events
+      confs,
+      workshops
     }
   },
   computed: {
-    displayEvents() {
-      const list = events.filter(e => e.show).map(e => ({
+    displayConfs() {
+      return Object.values(this.confs).filter(e => e.show).map(e => {
+        const localizedDoc = e.localizedDocs[this.$i18n.locale]
+        return Object.assign({
+          id: e.id,
+          area: e.area,
+          time: e.time,
+          d: new Date([e.year, e.date].join('/')),
+          displayDate: e.date.replace('/', '.')
+        }, localizedDoc)
+      })
+    },
+    displayWorkshops() {
+      return workshops.filter(e => e.show).map(e => ({
         ...e,
         d: new Date([e.year, e.date].join('/')),
         displayDate: e.date.replace('/', '.')
       }))
-      list.reverse()
-      return list
     }
   },
   head() {
