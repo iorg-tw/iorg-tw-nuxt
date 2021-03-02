@@ -63,13 +63,15 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSoxqSJ4LfF9Hv9wKT8HQ9icAfgxZooFpY9EsuPdhda-5Hr65m__WBeX15ZkAue6WY8HIZsCvdpT0WH/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"updatedAt": "2021/3/1 18:00",
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.1 關西機場",
 				"summary": "IORG 中國對台資訊操弄案例研析 B.1",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSoxqSJ4LfF9Hv9wKT8HQ9icAfgxZooFpY9EsuPdhda-5Hr65m__WBeX15ZkAue6WY8HIZsCvdpT0WH/pub",
-				"publishedAt": "2021/2/28 20:00"
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2021/3/1 18:00"
 			}
 		}
 	},
@@ -199,6 +201,70 @@
 			}
 		}
 	},
+	"_R_D1": {
+		"published": true,
+		"type": "research",
+		"id": "_R_D1",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "D.1 青年",
+				"summary": "IORG 中國對台人際滲透研究 D.1",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub"
+			}
+		}
+	},
+	"_R_D2": {
+		"published": true,
+		"type": "research",
+		"id": "_R_D2",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "D.2 民間信仰",
+				"summary": "IORG 中國對台人際滲透研究 D.2",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub"
+			}
+		}
+	},
+	"_R_D3": {
+		"published": true,
+		"type": "research",
+		"id": "_R_D3",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "D.3 村里長",
+				"summary": "IORG 中國對台人際滲透研究 D.3",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub"
+			}
+		}
+	},
+	"_R_D4": {
+		"published": true,
+		"type": "research",
+		"id": "_R_D4",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "D.4 台幹",
+				"summary": "IORG 中國對台人際滲透研究 D.4",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub"
+			}
+		}
+	},
 	"_R_E": {
 		"published": true,
 		"type": "research",
@@ -228,6 +294,21 @@
 				"summary": "IORG 中國對台滲透研究",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
+			}
+		}
+	},
+	"_F": {
+		"published": true,
+		"type": "sys",
+		"id": "_F",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "F",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
 			}
 		}
 	},
@@ -522,7 +603,7 @@
 				"title": "The Roaring Information War: Scholar Huang Jaw-nian proposes 3-dimensional strategy – source, spread & receive",
 				"subtitle": "Dokidoki Interview Ep.16",
 				"coverImage": "https://lh6.googleusercontent.com/MzTIjDYCI29vEtQ4r8PED1oXTSSL9j__EtD4k4DYFbBKHsaV7YkA6UiOomegRXvaewivQlaXiPC36jnnjDjOKZf0VDz6aFQmmHTVgoFnD3XEReySsabfa-XAz4SahpzcZA",
-				"summary": "“In a nutshell, it’s an authoritarian system pitted against a democratic one,” said Huang Jaw-nian (黃兆年), assistant professor at National Chengchi University’s Graduate Institute of National Development. Huang thinks China is using information to manipulate the international community to change its perception of itself in order to forge an acceptance of authoritarianism, or the Chinese model. A recent IORG report reveals the existence of China’s information manipulation in Taiwan, with case studies including: The Kansai Airport Incident, corruption claims for former Kaohsiung mayor Chen Chu (陳菊), claims that the U.S. flu virus is worse than COVID-19, claims that the U.S. released the coronavirus through military games in Wuhan, claims that the U.S. flu virus is actually COVID-19, hijacking the #BlackLivesMatter hashtag with propaganda, claims that Taiwan’s Central Election Commission was involved in voter fraud, among others. Our analysis shows there’s a high similarity in the logic of the narratives coming from China, that democratic government is irresponsible and inefficient. ",
+				"summary": "“In a nutshell, it’s an authoritarian system pitted against a democratic one,” said Huang Jaw-nian (黃兆年), assistant professor at National Chengchi University’s Graduate Institute of National Development. Huang thinks China is using information to manipulate the international community to change its perception of itself in order to forge an acceptance of authoritarianism, or the Chinese model. A recent IORG report reveals the existence of China’s information manipulation in Taiwan, with case studies including: The Kansai Airport Incident, corruption claims for former Kaohsiung mayor Chen Chu (陳菊), claims that the U.S. flu virus is worse than COVID-19, claims that the U.S. released the coronavirus through military games in Wuhan, claims that the U.S. flu virus is actually COVID-19, hijacking the #BlackLivesMatter hashtag with propaganda, claims that Taiwan’s Central Election Commission was involved in voter fraud, among others. Our analysis shows there’s a high similarity in the logic of the narratives coming from China, that democratic government is irresponsible and inefficient.",
 				"tags": [
 					"資訊操弄",
 					"假訊息",
@@ -591,7 +672,7 @@
 				"title": "Exposing enemy in the shadows – Lin Fei-fan: We need “place of origin” labelling for information",
 				"subtitle": "Dokidoki Interview Ep.14",
 				"coverImage": "https://lh3.googleusercontent.com/DMJFTfaLOHX3FmCizOA_UecWSxqOO7IfVSoM-w3ePx7_W0ElQ2gGLfBC00I3FciWs7hIbqRlTlzJojrAEgBfQFQpN9nomDlu8fwF25-zsQl1FPoFRV0EH0lrhxYCeBVQoQ",
-				"summary": "Last year, news of the Wang Liqiang (王立强) spy-case dropped just before Taiwan’s 2020 presidential election. Lin Fei-fan (林飛帆), Deputy Secretary-General of the Democratic Progressive Party (DPP) was also impacted by the case. Web users claimed an old photo of Lin with a friend in Hong Kong was actually Wang, and that the two were close friends. “At the time, we were able to beat back that narrative through an investigation by the Taiwan Fact Checking Center, clarifying it with Facebook as well as lodging a formal complaint,” said Lin. Personal attacks against Lin that use false information seem to arise in an endless stream; depending on the severity of the attack, Lin decides whether he wants to clarify them or not.   ",
+				"summary": "Last year, news of the Wang Liqiang (王立强) spy-case dropped just before Taiwan’s 2020 presidential election. Lin Fei-fan (林飛帆), Deputy Secretary-General of the Democratic Progressive Party (DPP) was also impacted by the case. Web users claimed an old photo of Lin with a friend in Hong Kong was actually Wang, and that the two were close friends. “At the time, we were able to beat back that narrative through an investigation by the Taiwan Fact Checking Center, clarifying it with Facebook as well as lodging a formal complaint,” said Lin. Personal attacks against Lin that use false information seem to arise in an endless stream; depending on the severity of the attack, Lin decides whether he wants to clarify them or not.",
 				"tags": [
 					"資訊操弄",
 					"假訊息",

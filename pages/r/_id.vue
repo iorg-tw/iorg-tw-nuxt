@@ -19,7 +19,7 @@ export default {
   async asyncData({ app, params, error }) {
     const id = params.id
     const to = '/r/' + id
-    const matchingNodes = tree.filter(node => node.to === to && node.isArticle && articleMap[node.id] && articleMap[node.id].publicURLs._tw)
+    const matchingNodes = tree.filter(node => node.to === to && node.isResearchArticle && articleMap[node.id] && articleMap[node.id].publicURLs._tw)
     if(matchingNodes.length < 1) {
       error({ statusCode: 404, message: 'pageNotFound' })
       return

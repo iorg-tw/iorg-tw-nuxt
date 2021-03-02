@@ -167,7 +167,7 @@ async function get() {
     ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
     code: row.code,
     image: row.image ? row.image : defaultCover,
-    ...(ok(row.isArticle) ? { isArticle: true } : {})
+    ...(ok(row.isResearchArticle) ? { isResearchArticle: true } : {})
   }))
   fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
 
@@ -182,6 +182,6 @@ async function get() {
   }
 }
 
-const shouldGetArticles = false
+const shouldGetArticles = true
 const shouldGetEvents = true
 get()
