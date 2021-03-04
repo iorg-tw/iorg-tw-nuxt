@@ -12,14 +12,12 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "鳴謝",
-				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00"
 			},
 			"_en": {
 				"title": "Acknowledgement",
-				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00"
@@ -67,7 +65,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.1 關西機場",
-				"summary": "IORG 中國對台資訊操弄案例研析 B.1",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSoxqSJ4LfF9Hv9wKT8HQ9icAfgxZooFpY9EsuPdhda-5Hr65m__WBeX15ZkAue6WY8HIZsCvdpT0WH/pub",
 				"publishedAt": "2021/2/28 20:00",
@@ -86,7 +84,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.2 陳菊貪污",
-				"summary": "IORG 中國對台資訊操弄案例研析 B.2",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS0830FukuOYyHYv7RVqbBLKu-Ca6EO9f4LxUI4-zcrTGVjvlXNYbCANLm0Qy4ELp5yUXIxKt2lSoWD/pub",
 				"publishedAt": "2021/2/28 20:00"
@@ -104,7 +102,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.3 美國流感比武漢肺炎更致命",
-				"summary": "IORG 中國對台資訊操弄案例研析 B.3",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTXbglqs4FYaNoYSo2NfnFFTSjrRy_UFLK9dm5_o-RBsiifNNNwugTFzfusVGoZ_TJ328s9s3So5zvI/pub",
 				"publishedAt": "2021/2/28 20:00"
@@ -122,7 +120,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.4 美國以武漢軍人運動會散播病毒",
-				"summary": "IORG 中國對台資訊操弄案例研析 B.4",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFRMPFyfFfxj_te0zANqe4pKX5dmlhSHhQJE-kyIPNzta5boc7pdLHQLKx6YPTZu7SVHUgo1LI7q3X/pub",
 				"publishedAt": "2021/2/28 20:00"
@@ -140,7 +138,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.5 美國流感就是武漢肺炎",
-				"summary": "IORG 中國對台資訊操弄案例研析 B.5",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSTynppDAiVWKMeSwvqMhJBFl7ngln-nHwIfXcVfd6HCFQH-SAVNRsv3OecRYoTZVTnohgebkTrFZk7/pub",
 				"publishedAt": "2021/2/28 20:00"
@@ -158,7 +156,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.6 光復美國",
-				"summary": "IORG 中國對台資訊操弄案例研析 B.6",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQjJPZV-_9PoWT74xtK02h5sPNC_I7LIE0YNB4OUV5AXET2pAxImGCx-HoDtyTmpPCV2VlOpN207ff0/pub",
 				"publishedAt": "2021/2/28 20:00"
@@ -176,7 +174,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.7 中選會做票",
-				"summary": "IORG 中國對台資訊操弄案例研析 B.7",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRSC_P1WEfJDW36uc4IXHXoxGjdV0_bTI0eG8MzJDCsG4ts-hlwuosCLOj6-2-jQnxs9bYbR-eYvhcs/pub",
 				"publishedAt": "2021/2/28 20:00"
@@ -194,7 +192,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "R.1 關於美國、來自微博",
-				"summary": "IORG 中國對台資訊操弄案例研析 R.1",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMqwZQFP2n7IK8RrDozn8vfUxo2ku8OEMKnLgRJos2-_HT2z38S6KCE0kK-IwY5JxAx1rWRVtWSZ7N/pub",
 				"publishedAt": "2021/2/28 20:00"
@@ -208,12 +206,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub"
 		},
+		"publishedAt": "2021/3/2 20:00",
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.1 青年",
-				"summary": "IORG 中國對台人際滲透研究 D.1",
+				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub",
+				"publishedAt": "2021/3/2 20:00"
 			}
 		}
 	},
@@ -224,12 +224,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub"
 		},
+		"publishedAt": "2021/3/2 20:00",
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.2 民間信仰",
-				"summary": "IORG 中國對台人際滲透研究 D.2",
+				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub",
+				"publishedAt": "2021/3/2 20:00"
 			}
 		}
 	},
@@ -240,12 +242,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub"
 		},
+		"publishedAt": "2021/3/2 20:00",
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.3 村里長",
-				"summary": "IORG 中國對台人際滲透研究 D.3",
+				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub",
+				"publishedAt": "2021/3/2 20:00"
 			}
 		}
 	},
@@ -256,12 +260,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub"
 		},
+		"publishedAt": "2021/3/2 20:00",
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.4 台幹",
-				"summary": "IORG 中國對台人際滲透研究 D.4",
+				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub",
+				"publishedAt": "2021/3/2 20:00"
 			}
 		}
 	},
@@ -272,12 +278,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRo4uSYCEwhsv8F8cihEiYZlveAHxoLvV_RrQdajc-GBQULMIz1rmNPo9YpfPU7qSdS1I160yurkb_C/pub"
 		},
+		"publishedAt": "2021/3/4 12:00",
 		"localizedDocs": {
 			"_tw": {
 				"title": "E 中國對台經濟影響力作戰",
-				"summary": "IORG 中國對台經濟影響力作戰研究",
+				"subtitle": "IORG 中國對台影響力作戰研究",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRo4uSYCEwhsv8F8cihEiYZlveAHxoLvV_RrQdajc-GBQULMIz1rmNPo9YpfPU7qSdS1I160yurkb_C/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRo4uSYCEwhsv8F8cihEiYZlveAHxoLvV_RrQdajc-GBQULMIz1rmNPo9YpfPU7qSdS1I160yurkb_C/pub",
+				"publishedAt": "2021/3/4 12:00"
 			}
 		}
 	},
