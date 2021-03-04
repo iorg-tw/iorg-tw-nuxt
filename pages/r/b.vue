@@ -3,6 +3,7 @@
   <div class="title-doc google-doc as-page">
     <div class="title">
       <h1>{{ doc.title }}</h1>
+      <p class="subtitle">{{ doc.subtitle }}</p>
     </div>
   </div>
   <google-doc :doc="doc" :options="{ metaphor: 'page', head: false }" class="doc-b-comp" />

@@ -3,6 +3,7 @@
   <div class="title-doc google-doc as-page">
     <div class="title">
       <h1>{{ doc.title }}</h1>
+      <p class="subtitle">{{ doc.subtitle }}</p>
     </div>
   </div>
   <div v-for="(objL0, indexL0) of structuredDoc" :key="objL0.title" class="group">
