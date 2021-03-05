@@ -90,4 +90,5 @@ sw.*
 *.swp
 
 tools/*.json
-data/*/*.json
+data/airtable/*.json
+data/ion/*.json

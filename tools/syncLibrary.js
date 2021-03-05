@@ -36,6 +36,7 @@ async function getArticles(rows) {
     },
     publishedAt: row.publishedAt,
     ...(row.updatedAt ? { updatedAt: row.updatedAt } : {}),
+    cache: row.cache ? true : false,
     localizedDocs: {}
   }))
 
@@ -46,13 +47,18 @@ async function getArticles(rows) {
     let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale])))
 
     locales.forEach((locale, i) => {
-      let doc = localizedDocs[i]
+      const doc = localizedDocs[i]
+      doc.articleID = row.id
       doc.publicURL = row.publicURLs[locale]
       if(row.publishedAt) {
         doc.publishedAt = row.publishedAt
       }
       if(row.updatedAt) {
         doc.updatedAt = row.updatedAt
+      }
+      if(row.cache) {
+        console.info(row.id, locale, 'cached')
+        fs.writeFileSync('data/cached-articles/' + row.id + locale + '.json' , JSON.stringify(doc, null, '\t'))
       }
       delete doc.coverImageDescHTML
       delete doc.authorInfoItemsHTML

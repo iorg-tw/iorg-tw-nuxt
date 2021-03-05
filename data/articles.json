@@ -9,15 +9,18 @@
 		},
 		"publishedAt": "2020/10/20 18:00",
 		"updatedAt": "2021/3/1 14:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "鳴謝",
+				"articleID": "ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00"
 			},
 			"_en": {
 				"title": "Acknowledgement",
+				"articleID": "ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00"
@@ -34,11 +37,13 @@
 		},
 		"publishedAt": "2021/2/28 20:00",
 		"updatedAt": "2021/3/1 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 中國對台影響力作戰研究總體研究成果",
 				"summary": "IORG 中國對台影響力作戰研究",
 				"tags": [],
+				"articleID": "_R_K",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/3/1 18:00"
@@ -47,9 +52,32 @@
 				"title": "IORG Key Research Conclusions on Chinese Influence Operations Against Taiwan",
 				"summary": "IORG Research on Chinese Influence Operations Against Taiwan",
 				"tags": [],
+				"articleID": "_R_K",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/3/1 18:00"
+			}
+		}
+	},
+	"_R_R1": {
+		"published": true,
+		"type": "research",
+		"id": "_R_R1",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTMqwZQFP2n7IK8RrDozn8vfUxo2ku8OEMKnLgRJos2-_HT2z38S6KCE0kK-IwY5JxAx1rWRVtWSZ7N/pub"
+		},
+		"publishedAt": "2021/2/28 20:00",
+		"updatedAt": "2021/3/5 20:15",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "R.1 關於美國、來自微博",
+				"subtitle": "IORG 中國對台資訊操弄案例研析",
+				"tags": [],
+				"articleID": "_R_R1",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMqwZQFP2n7IK8RrDozn8vfUxo2ku8OEMKnLgRJos2-_HT2z38S6KCE0kK-IwY5JxAx1rWRVtWSZ7N/pub",
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2021/3/5 20:15"
 			}
 		}
 	},
@@ -62,11 +90,13 @@
 		},
 		"publishedAt": "2021/2/28 20:00",
 		"updatedAt": "2021/3/1 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.1 關西機場",
 				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
+				"articleID": "_R_B1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSoxqSJ4LfF9Hv9wKT8HQ9icAfgxZooFpY9EsuPdhda-5Hr65m__WBeX15ZkAue6WY8HIZsCvdpT0WH/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/3/1 18:00"
@@ -81,11 +111,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS0830FukuOYyHYv7RVqbBLKu-Ca6EO9f4LxUI4-zcrTGVjvlXNYbCANLm0Qy4ELp5yUXIxKt2lSoWD/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.2 陳菊貪污",
 				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
+				"articleID": "_R_B2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS0830FukuOYyHYv7RVqbBLKu-Ca6EO9f4LxUI4-zcrTGVjvlXNYbCANLm0Qy4ELp5yUXIxKt2lSoWD/pub",
 				"publishedAt": "2021/2/28 20:00"
 			}
@@ -99,11 +131,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTXbglqs4FYaNoYSo2NfnFFTSjrRy_UFLK9dm5_o-RBsiifNNNwugTFzfusVGoZ_TJ328s9s3So5zvI/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.3 美國流感比武漢肺炎更致命",
 				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
+				"articleID": "_R_B3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTXbglqs4FYaNoYSo2NfnFFTSjrRy_UFLK9dm5_o-RBsiifNNNwugTFzfusVGoZ_TJ328s9s3So5zvI/pub",
 				"publishedAt": "2021/2/28 20:00"
 			}
@@ -117,11 +151,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRFRMPFyfFfxj_te0zANqe4pKX5dmlhSHhQJE-kyIPNzta5boc7pdLHQLKx6YPTZu7SVHUgo1LI7q3X/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.4 美國以武漢軍人運動會散播病毒",
 				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
+				"articleID": "_R_B4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFRMPFyfFfxj_te0zANqe4pKX5dmlhSHhQJE-kyIPNzta5boc7pdLHQLKx6YPTZu7SVHUgo1LI7q3X/pub",
 				"publishedAt": "2021/2/28 20:00"
 			}
@@ -135,11 +171,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSTynppDAiVWKMeSwvqMhJBFl7ngln-nHwIfXcVfd6HCFQH-SAVNRsv3OecRYoTZVTnohgebkTrFZk7/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.5 美國流感就是武漢肺炎",
 				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
+				"articleID": "_R_B5",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSTynppDAiVWKMeSwvqMhJBFl7ngln-nHwIfXcVfd6HCFQH-SAVNRsv3OecRYoTZVTnohgebkTrFZk7/pub",
 				"publishedAt": "2021/2/28 20:00"
 			}
@@ -153,11 +191,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQjJPZV-_9PoWT74xtK02h5sPNC_I7LIE0YNB4OUV5AXET2pAxImGCx-HoDtyTmpPCV2VlOpN207ff0/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.6 光復美國",
 				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
+				"articleID": "_R_B6",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQjJPZV-_9PoWT74xtK02h5sPNC_I7LIE0YNB4OUV5AXET2pAxImGCx-HoDtyTmpPCV2VlOpN207ff0/pub",
 				"publishedAt": "2021/2/28 20:00"
 			}
@@ -171,30 +211,14 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRSC_P1WEfJDW36uc4IXHXoxGjdV0_bTI0eG8MzJDCsG4ts-hlwuosCLOj6-2-jQnxs9bYbR-eYvhcs/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.7 中選會做票",
 				"subtitle": "IORG 中國對台資訊操弄案例研析",
 				"tags": [],
+				"articleID": "_R_B7",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRSC_P1WEfJDW36uc4IXHXoxGjdV0_bTI0eG8MzJDCsG4ts-hlwuosCLOj6-2-jQnxs9bYbR-eYvhcs/pub",
-				"publishedAt": "2021/2/28 20:00"
-			}
-		}
-	},
-	"_R_R1": {
-		"published": true,
-		"type": "research",
-		"id": "_R_R1",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTMqwZQFP2n7IK8RrDozn8vfUxo2ku8OEMKnLgRJos2-_HT2z38S6KCE0kK-IwY5JxAx1rWRVtWSZ7N/pub"
-		},
-		"publishedAt": "2021/2/28 20:00",
-		"localizedDocs": {
-			"_tw": {
-				"title": "R.1 關於美國、來自微博",
-				"subtitle": "IORG 中國對台資訊操弄案例研析",
-				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMqwZQFP2n7IK8RrDozn8vfUxo2ku8OEMKnLgRJos2-_HT2z38S6KCE0kK-IwY5JxAx1rWRVtWSZ7N/pub",
 				"publishedAt": "2021/2/28 20:00"
 			}
 		}
@@ -207,11 +231,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub"
 		},
 		"publishedAt": "2021/3/2 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.1 青年",
 				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
+				"articleID": "_R_D1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub",
 				"publishedAt": "2021/3/2 20:00"
 			}
@@ -225,11 +251,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub"
 		},
 		"publishedAt": "2021/3/2 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.2 民間信仰",
 				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
+				"articleID": "_R_D2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub",
 				"publishedAt": "2021/3/2 20:00"
 			}
@@ -243,11 +271,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub"
 		},
 		"publishedAt": "2021/3/2 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.3 村里長",
 				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
+				"articleID": "_R_D3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub",
 				"publishedAt": "2021/3/2 20:00"
 			}
@@ -261,11 +291,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub"
 		},
 		"publishedAt": "2021/3/2 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.4 台幹",
 				"subtitle": "IORG 中國對台人際滲透研究",
 				"tags": [],
+				"articleID": "_R_D4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub",
 				"publishedAt": "2021/3/2 20:00"
 			}
@@ -279,11 +311,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRo4uSYCEwhsv8F8cihEiYZlveAHxoLvV_RrQdajc-GBQULMIz1rmNPo9YpfPU7qSdS1I160yurkb_C/pub"
 		},
 		"publishedAt": "2021/3/4 12:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "E 中國對台經濟影響力作戰",
 				"subtitle": "IORG 中國對台影響力作戰研究",
 				"tags": [],
+				"articleID": "_R_E",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRo4uSYCEwhsv8F8cihEiYZlveAHxoLvV_RrQdajc-GBQULMIz1rmNPo9YpfPU7qSdS1I160yurkb_C/pub",
 				"publishedAt": "2021/3/4 12:00"
 			}
@@ -296,11 +330,13 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
 		},
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "研究方法",
 				"summary": "IORG 中國對台滲透研究",
 				"tags": [],
+				"articleID": "_R_M",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
 			}
 		}
@@ -312,10 +348,12 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
 		},
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "F",
 				"tags": [],
+				"articleID": "_F",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
 			}
 		}
@@ -327,11 +365,13 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
 		},
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "詞彙定義",
 				"summary": "IORG 中國對台影響力作戰研究",
 				"tags": [],
+				"articleID": "_G",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
 			}
 		}
@@ -343,11 +383,13 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub"
 		},
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "研究成果授權公開",
 				"summary": "IORG 中國對台滲透研究",
 				"tags": [],
+				"articleID": "_O",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub"
 			}
 		}
@@ -360,6 +402,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTOuxhaVdwaYbElNZqbbpAqvXsMl0AfhZdjUkRyzfQMmIv_awb7FedJFUP3-XHbEIP0TEXKZjn0Nl6U/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "學者林宗弘：國際間資訊攻擊，都從威權政體投向民主政體",
@@ -374,6 +417,7 @@
 					"民主",
 					"威權"
 				],
+				"articleID": "lin-thung-hong",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTOuxhaVdwaYbElNZqbbpAqvXsMl0AfhZdjUkRyzfQMmIv_awb7FedJFUP3-XHbEIP0TEXKZjn0Nl6U/pub",
 				"publishedAt": "2021/2/10 18:00"
 			}
@@ -387,6 +431,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT_TAk5FRkWShRaTeqSBVwx7U1IYTycaaZkxQLAA0KIEegZRghDsZsXC6d2NcvVHhqTcA4G79yIQla7/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "佛系應對！對抗資訊戰，立委鄭運鵬：無招勝有招",
@@ -399,6 +444,7 @@
 					"立法委員",
 					"鄭運鵬"
 				],
+				"articleID": "cheng-yun-peng",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT_TAk5FRkWShRaTeqSBVwx7U1IYTycaaZkxQLAA0KIEegZRghDsZsXC6d2NcvVHhqTcA4G79yIQla7/pub",
 				"publishedAt": "2021/2/10 18:00"
 			}
@@ -412,6 +458,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTXFtO5Z_oxGtk7hslafSCJhMUfISZ45vJPkY0kqKEv_LQTOI6UxsQrDLT1mwBUasPBYMWfScy5aUnd/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "如何辨別「中共傳聲筒」？林楚茵：需成立專責部會統合規範",
@@ -424,6 +471,7 @@
 					"立法委員",
 					"林楚茵"
 				],
+				"articleID": "lin-chu-yin",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTXFtO5Z_oxGtk7hslafSCJhMUfISZ45vJPkY0kqKEv_LQTOI6UxsQrDLT1mwBUasPBYMWfScy5aUnd/pub",
 				"publishedAt": "2021/2/10 18:00"
 			}
@@ -437,6 +485,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTd7KlvbHPVOPznM590KVJGSZjpibumko3nHwQ2LCZPWd5Lp7L5CsHOONNEVEfC7cO1MxyKC6JXn1Oy/pub"
 		},
 		"publishedAt": "2021/1/26 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "王定宇：新型態「混合型戰爭」，假錯資訊已成武器",
@@ -449,6 +498,7 @@
 					"立法委員",
 					"王定宇"
 				],
+				"articleID": "wang-ting-yu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTd7KlvbHPVOPznM590KVJGSZjpibumko3nHwQ2LCZPWd5Lp7L5CsHOONNEVEfC7cO1MxyKC6JXn1Oy/pub",
 				"publishedAt": "2021/1/26 18:00"
 			}
@@ -462,6 +512,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS1c08dahn9tNuDqBEr8mBxMu2cliHWOc4oAG-gT1dhh3nwVW_qpZptYOxDcBoV2RISK-CvgK7pHV9W/pub"
 		},
 		"publishedAt": "2021/1/19 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊超限戰全球警戒，政委羅秉成：假訊息防制需成全民運動",
@@ -475,6 +526,7 @@
 					"政務委員",
 					"行政"
 				],
+				"articleID": "lo-ping-cheng",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS1c08dahn9tNuDqBEr8mBxMu2cliHWOc4oAG-gT1dhh3nwVW_qpZptYOxDcBoV2RISK-CvgK7pHV9W/pub",
 				"publishedAt": "2021/1/19 18:00"
 			}
@@ -488,6 +540,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRX-CPBBz7a0dip-i2TQa2BRuChSvy5_gpwzuCFpohMqwquiAkoB0gdEvNUOVh9ieog453l4CcvNm9a/pub"
 		},
 		"publishedAt": "2021/1/15 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "誰抵抗力最弱？學者王泰俐研究：年輕人、女性、中間選民易受不實訊息影響",
@@ -500,6 +553,7 @@
 					"立法委員",
 					"蔡易餘"
 				],
+				"articleID": "wang-tai-li",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRX-CPBBz7a0dip-i2TQa2BRuChSvy5_gpwzuCFpohMqwquiAkoB0gdEvNUOVh9ieog453l4CcvNm9a/pub",
 				"publishedAt": "2021/1/15 18:00"
 			}
@@ -513,6 +567,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQRYLj3E0aqPlhCMaTtS0k6n770fw_krxYhvWvr29VGzCjb_GWx1_dQaUoBgqmLfsfrPoShSjf0p4eO/pub"
 		},
 		"publishedAt": "2021/1/15 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "提告造謠人士卻慘遭法院認證！蔡易餘無奈：台灣太輕忽資訊操弄影響",
@@ -525,6 +580,7 @@
 					"立法委員",
 					"蔡易餘"
 				],
+				"articleID": "tsai-yi-yu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQRYLj3E0aqPlhCMaTtS0k6n770fw_krxYhvWvr29VGzCjb_GWx1_dQaUoBgqmLfsfrPoShSjf0p4eO/pub",
 				"publishedAt": "2021/1/15 18:00"
 			}
@@ -538,6 +594,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQdXxO3XKoLpg3qX_AaCFmUEXwyiQQrjYh_d4GNidF3aIar0EExJ4uYLlNc8Zna96jz_U8_7qbWRvKg/pub"
 		},
 		"publishedAt": "2021/1/12 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "電視媒體信任度仍最高！媒觀執行長滕西華：情感影響大過理性判斷",
@@ -551,6 +608,7 @@
 					"NGO",
 					"媒體觀察"
 				],
+				"articleID": "teng-hh",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQdXxO3XKoLpg3qX_AaCFmUEXwyiQQrjYh_d4GNidF3aIar0EExJ4uYLlNc8Zna96jz_U8_7qbWRvKg/pub",
 				"publishedAt": "2021/1/12 18:00"
 			}
@@ -564,6 +622,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ_XmBf9GRrKK5vCryiXGTSQKItlqz9FJ6GcBaI09wJVjM1C6_dTvTkHQpyyIFGMLG5wdHMeTWKO7Al/pub"
 		},
 		"publishedAt": "2021/1/12 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「在地協力者」易成資訊操弄幫凶，王婉諭：嚴格審查是必要的",
@@ -576,6 +635,7 @@
 					"立法委員",
 					"王婉瑜"
 				],
+				"articleID": "wang-wy",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_XmBf9GRrKK5vCryiXGTSQKItlqz9FJ6GcBaI09wJVjM1C6_dTvTkHQpyyIFGMLG5wdHMeTWKO7Al/pub",
 				"publishedAt": "2021/1/12 18:00"
 			}
@@ -591,6 +651,7 @@
 		},
 		"publishedAt": "2021/1/6 18:00",
 		"updatedAt": "2021/2/10 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊戰來勢洶洶！政大學者黃兆年拆解「來源、傳播、接收」3 面向策略",
@@ -603,6 +664,7 @@
 					"黃兆年",
 					"學者"
 				],
+				"articleID": "huang-jn",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTV-uB-1YGl5aSSViD-uUdzTyqni2WcB8mu_-5OnyUlyDfpIbVZ0oAmclxWxI6UmG1GmHs_31mkoLQ-/pub",
 				"publishedAt": "2021/1/6 18:00",
 				"updatedAt": "2021/2/10 18:00"
@@ -618,6 +680,7 @@
 					"黃兆年",
 					"學者"
 				],
+				"articleID": "huang-jn",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ7SvqgLdNnPP3E2Hg4fRNNCfKHKSTKKzOwMcozkle7Od7Fs_YJxwabakiXIFw4qFRdgVIxyAhZIqZR/pub",
 				"publishedAt": "2021/1/6 18:00",
 				"updatedAt": "2021/2/10 18:00"
@@ -632,6 +695,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQOh6NCnKD1aVT8s5aVVnjRG2AFLgQu2EWXzH81C6CGes2AJMWsvqNxTHfJWeZXArctztoj_C3WFQL2/pub"
 		},
 		"publishedAt": "2021/1/6 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "林昶佐：對獨裁國家來說，民主自由社會到處都是漏洞",
@@ -644,6 +708,7 @@
 					"立法委員",
 					"林昶佐"
 				],
+				"articleID": "freddy-lim",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQOh6NCnKD1aVT8s5aVVnjRG2AFLgQu2EWXzH81C6CGes2AJMWsvqNxTHfJWeZXArctztoj_C3WFQL2/pub",
 				"publishedAt": "2021/1/6 18:00"
 			}
@@ -659,6 +724,7 @@
 		},
 		"publishedAt": "2021/1/4 18:00",
 		"updatedAt": "2021/2/10 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "揪出躲在暗處的敵人，林飛帆：建立訊息「產地標示」是當務之急",
@@ -672,6 +738,7 @@
 					"民進黨",
 					"林飛帆"
 				],
+				"articleID": "lin-fei-fan",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS9iiNGmyvVp8sPdDWi18xEVGHGVWMI8RPuc5N9s4jRDD0gTyK8OdIJsj0Qg4sjM3ezecUD1kQmtOcM/pub",
 				"publishedAt": "2021/1/4 18:00",
 				"updatedAt": "2021/2/10 18:00"
@@ -688,6 +755,7 @@
 					"民進黨",
 					"林飛帆"
 				],
+				"articleID": "lin-fei-fan",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQomVhuW6QpAcRw3a3jPQBDntQD-zOrGMeh1ekqsAIDx9epm2uhcABhYTugk67ULszEzGfIiSdcl-0I/pub",
 				"publishedAt": "2021/1/4 18:00",
 				"updatedAt": "2021/2/10 18:00"
@@ -702,6 +770,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQp7vMm8tqHQzJEwUFHN4Fir2fa43B1n2uHXxKlocWsYBGYqydtW8RPKPdmGOAoa2Hbq_luuk_pAC_3/pub"
 		},
 		"publishedAt": "2020/12/29 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣「久病成良醫」？何志偉：資訊操弄影響範圍會慢慢收斂",
@@ -714,6 +783,7 @@
 					"立法委員",
 					"何志偉"
 				],
+				"articleID": "ho-cw",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQp7vMm8tqHQzJEwUFHN4Fir2fa43B1n2uHXxKlocWsYBGYqydtW8RPKPdmGOAoa2Hbq_luuk_pAC_3/pub",
 				"publishedAt": "2020/12/29 18:00"
 			}
@@ -727,6 +797,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSK4mEnlvkinaB1AWKFcLDqSYImp8O8hehpLbNKFLv5tYEFWduhCouR4Z6N8Poca9EcdJf2JRMcCVBu/pub"
 		},
 		"publishedAt": "2020/12/29 12:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "防資訊操弄內憂外患，陳亭妃：應成立中央專責單位",
@@ -739,6 +810,7 @@
 					"立法委員",
 					"陳亭妃"
 				],
+				"articleID": "chen-tf",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSK4mEnlvkinaB1AWKFcLDqSYImp8O8hehpLbNKFLv5tYEFWduhCouR4Z6N8Poca9EcdJf2JRMcCVBu/pub",
 				"publishedAt": "2020/12/29 12:00"
 			}
@@ -752,6 +824,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub"
 		},
 		"publishedAt": "2020/12/23 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放資料、公民參與、國際連結對抗資訊操弄 歐美學者肯定台灣經驗",
@@ -764,6 +837,7 @@
 					"開放資料",
 					"公民參與"
 				],
+				"articleID": "disinformed-democracy",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub",
 				"publishedAt": "2020/12/23 18:00"
 			}
@@ -777,6 +851,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ8EEJxJ-yRvV_Ce-LlzevzmrPxa0TfXKOFMO374WJUQPcCSgcpLOHQ5FNzTd_Y6q7XHdvFLYtCIeQX/pub"
 		},
 		"publishedAt": "2020/12/15 19:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄影響公民社會，立委邱顯智：會造成寒蟬效應",
@@ -789,6 +864,7 @@
 					"立法委員",
 					"邱顯智"
 				],
+				"articleID": "chiu-hc",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ8EEJxJ-yRvV_Ce-LlzevzmrPxa0TfXKOFMO374WJUQPcCSgcpLOHQ5FNzTd_Y6q7XHdvFLYtCIeQX/pub",
 				"publishedAt": "2020/12/15 19:00"
 			}
@@ -802,6 +878,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTNCcBgqsRPNdpUjA2-V5-zuZZNCkNCqaQn39WXNTuAJeVrofyq9EN1jAouIxOurLDYdTOTNhTtqb4k/pub"
 		},
 		"publishedAt": "2020/12/15 19:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊管制 v.s. 言論自由 高虹安：需在天秤兩端取平衡",
@@ -814,6 +891,7 @@
 					"立法委員",
 					"高虹安"
 				],
+				"articleID": "kao-ha",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNCcBgqsRPNdpUjA2-V5-zuZZNCkNCqaQn39WXNTuAJeVrofyq9EN1jAouIxOurLDYdTOTNhTtqb4k/pub",
 				"publishedAt": "2020/12/15 19:00"
 			}
@@ -827,6 +905,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTCNmhFKD7zxkOChCKYrOgyxuMauiszl35ifvUn1WEA_Tkjjj0H0vnEN2cRPX1U-ML6x-jRs2RyxmIi/pub"
 		},
 		"publishedAt": "2020/12/7 19:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄",
@@ -839,6 +918,7 @@
 					"立法委員",
 					"吳思瑤"
 				],
+				"articleID": "chen-pw",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCNmhFKD7zxkOChCKYrOgyxuMauiszl35ifvUn1WEA_Tkjjj0H0vnEN2cRPX1U-ML6x-jRs2RyxmIi/pub",
 				"publishedAt": "2020/12/7 19:00"
 			}
@@ -852,6 +932,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR9WsAiyUHMAkgiyHWEU3gcCRf34-8b6RQQrrPY61DQBuviX8RUgrRSJTTAuolndd-eaPol__PWwkv-/pub"
 		},
 		"publishedAt": "2020/12/7 19:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "立委吳思瑤：每天開門就要應付資訊操弄，對政府是一種內耗",
@@ -864,6 +945,7 @@
 					"立法委員",
 					"吳思瑤"
 				],
+				"articleID": "wu-sy",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR9WsAiyUHMAkgiyHWEU3gcCRf34-8b6RQQrrPY61DQBuviX8RUgrRSJTTAuolndd-eaPol__PWwkv-/pub",
 				"publishedAt": "2020/12/7 19:00"
 			}
@@ -877,6 +959,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQIWpHQTF_m2RypDpAcmObwlGIRIuPFpNP2p324QfF1wyzJ578BhzLald8ch8p8YaW07YnBEuoMaPOW/pub"
 		},
 		"publishedAt": "2020/11/20 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "立委陳玉珍：夾到手為什麼要送醫院？解決資訊操弄端看執政者意願",
@@ -889,6 +972,7 @@
 					"立法委員",
 					"陳玉珍"
 				],
+				"articleID": "chen-yu-chen",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQIWpHQTF_m2RypDpAcmObwlGIRIuPFpNP2p324QfF1wyzJ578BhzLald8ch8p8YaW07YnBEuoMaPOW/pub",
 				"publishedAt": "2020/11/20 18:00"
 			}
@@ -902,6 +986,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQL9gcgGPIQSgi4PnKtmcDEur_mq_QkmayYPZn_jJkcBgxnfPDODBztJPX_lei3PyvlPh8qNWzlPbH0/pub"
 		},
 		"publishedAt": "2020/11/6 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「資訊操弄」怎麼防治？唐鳳：小學生、中學生都能加入",
@@ -915,6 +1000,7 @@
 					"唐鳳",
 					"增幅"
 				],
+				"articleID": "audrey-tang",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQL9gcgGPIQSgi4PnKtmcDEur_mq_QkmayYPZn_jJkcBgxnfPDODBztJPX_lei3PyvlPh8qNWzlPbH0/pub",
 				"publishedAt": "2020/11/6 18:00"
 			}
@@ -928,6 +1014,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRIOJva9Uk5BcsFpgBD17Oe0OHls6KQMe8UM7JZRYYy-89RrbgJAsjWaOTI9dtitFgnU-uvigtdgjnu/pub"
 		},
 		"publishedAt": "2020/11/5 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "俄國干預美國大選的好幫手：在地協力者",
@@ -941,6 +1028,7 @@
 					"在地化",
 					"在地協力者"
 				],
+				"articleID": "ru-collaborators",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRIOJva9Uk5BcsFpgBD17Oe0OHls6KQMe8UM7JZRYYy-89RrbgJAsjWaOTI9dtitFgnU-uvigtdgjnu/pub",
 				"publishedAt": "2020/11/5 18:00"
 			}
@@ -954,6 +1042,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRydbX-nQphyKQSTgaSTzXnBsEqncSWFdTqRaVMntTSpUORhMcu8a60xP4Z95awe5nP_rNN0qMl6TqJ/pub"
 		},
 		"publishedAt": "2020/10/29 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中國銳實力入侵：資訊操弄「說壞」台灣民主",
@@ -965,6 +1054,7 @@
 					"銳實力",
 					"IORG"
 				],
+				"articleID": "iorg-report-2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRydbX-nQphyKQSTgaSTzXnBsEqncSWFdTqRaVMntTSpUORhMcu8a60xP4Z95awe5nP_rNN0qMl6TqJ/pub",
 				"publishedAt": "2020/10/29 18:00"
 			}
@@ -978,6 +1068,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vROUbBeHHhpuJLqLC28oCgS_oFWo40-aqB3x5SJyMIHkQW9rKvPTOk_mGD7XDk3cmaow-BvH5X-P5Yb/pub"
 		},
 		"publishedAt": "2020/10/23 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "對抗資訊操弄＝防疫！苗博雅：專責、宣導缺一不可",
@@ -989,6 +1080,7 @@
 					"假訊息",
 					"議員"
 				],
+				"articleID": "miao-by",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vROUbBeHHhpuJLqLC28oCgS_oFWo40-aqB3x5SJyMIHkQW9rKvPTOk_mGD7XDk3cmaow-BvH5X-P5Yb/pub",
 				"publishedAt": "2020/10/23 18:00"
 			}
@@ -1002,6 +1094,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT3oHGKhiNFSkB71tV1ACQFeSdWYlEiqwoXxMAQ7Ncc8MBdq9BDDlhVXYDVtoBoQGMlVCTwnihBHtEA/pub"
 		},
 		"publishedAt": "2020/10/21 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "一個支持拜登、一個支持川普？中俄「介入」美國選舉方式大不同",
@@ -1015,6 +1108,7 @@
 					"俄國",
 					"駭客攻擊"
 				],
+				"articleID": "china-russia-us-el",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT3oHGKhiNFSkB71tV1ACQFeSdWYlEiqwoXxMAQ7Ncc8MBdq9BDDlhVXYDVtoBoQGMlVCTwnihBHtEA/pub",
 				"publishedAt": "2020/10/21 18:00"
 			}
@@ -1028,6 +1122,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRzs-WR1eodNZ8hlGIl2vUiUcSctdRC9f4uvQifz_AFFzrFIeJg4u6MLH__DC0eIITJIqX5XtISwXHI/pub"
 		},
 		"publishedAt": "2020/10/21 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「陳菊貪污」連調查局也看不下去？",
@@ -1040,6 +1135,7 @@
 					"調查局內部官員",
 					"實在看不下去"
 				],
+				"articleID": "chenchu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRzs-WR1eodNZ8hlGIl2vUiUcSctdRC9f4uvQifz_AFFzrFIeJg4u6MLH__DC0eIITJIqX5XtISwXHI/pub",
 				"publishedAt": "2020/10/21 18:00"
 			}
@@ -1053,6 +1149,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSVC_DyoCVzWgreNLOtss2H-XNtyiS2XlZVWN7_AjW-w5GcCWqDGWO_QrwFnJfHwIXy4YbEmk53uB46/pub"
 		},
 		"publishedAt": "2020/9/29 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄無國界！范雲：修法、NCC、教育「三管齊下」",
@@ -1064,6 +1161,7 @@
 					"假訊息",
 					"立委"
 				],
+				"articleID": "fan-y",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVC_DyoCVzWgreNLOtss2H-XNtyiS2XlZVWN7_AjW-w5GcCWqDGWO_QrwFnJfHwIXy4YbEmk53uB46/pub",
 				"publishedAt": "2020/9/29 18:00"
 			}
@@ -1077,6 +1175,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS3UAQoWq1t22fUEJJPPbm10MeXqJGx1Ptjppl4HMcEMBuHCSYNZoVoaSbt1K2B3OxxrwQDeDBRcZ-L/pub"
 		},
 		"publishedAt": "2020/9/25 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「統戰團」超多！立委賴品妤：從民代下手",
@@ -1088,6 +1187,7 @@
 					"假訊息",
 					"市議員"
 				],
+				"articleID": "lai-py",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS3UAQoWq1t22fUEJJPPbm10MeXqJGx1Ptjppl4HMcEMBuHCSYNZoVoaSbt1K2B3OxxrwQDeDBRcZ-L/pub",
 				"publishedAt": "2020/9/25 18:00"
 			}
@@ -1101,6 +1201,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQG_bkIrdkO9Nw_Zr-J-PVftzOHg50UDx3gEsB2YY6P3ojwvvhKpdA3-2YWXfm-TMPOBb9VR8DAjRRa/pub"
 		},
 		"publishedAt": "2020/9/24 20:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "怎麼和老大人談資訊操弄？銀髮族溝通 3 訣竅與你分享",
@@ -1113,6 +1214,7 @@
 					"數位落差",
 					"面對面溝通"
 				],
+				"articleID": "senior-info-lit",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQG_bkIrdkO9Nw_Zr-J-PVftzOHg50UDx3gEsB2YY6P3ojwvvhKpdA3-2YWXfm-TMPOBb9VR8DAjRRa/pub",
 				"publishedAt": "2020/9/24 20:00"
 			}
@@ -1126,6 +1228,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRVN0xvS22nSx745XS-O6JUDOa4DxmcuKJDRsJyPwHsedL3v2sbmp5rJ7JATPYMcCAOxhfu_CqrSYl4/pub"
 		},
 		"publishedAt": "2020/9/18 18:30",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "海峽論壇網絡分析：朱立倫、侯友宜參加過，慈濟、鎮瀾宮、旺中都是主辦單位",
@@ -1140,6 +1243,7 @@
 					"慈濟",
 					"鎮瀾宮"
 				],
+				"articleID": "straits-forum",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRVN0xvS22nSx745XS-O6JUDOa4DxmcuKJDRsJyPwHsedL3v2sbmp5rJ7JATPYMcCAOxhfu_CqrSYl4/pub",
 				"publishedAt": "2020/9/18 18:30"
 			}
@@ -1153,6 +1257,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRDBAzWLPXSmNkxztdWSoJGFp1cYaNx0_FEgklpQPcSzvj6T2tpPgblY7l-TroboI_trbm0qE5XsxHP/pub"
 		},
 		"publishedAt": "2020/9/17 18:30",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共網軍「戰略支援部隊」的前身：促使 Google 退出中國",
@@ -1166,6 +1271,7 @@
 					"網軍",
 					"戰略支援部隊"
 				],
+				"articleID": "ccp-info-war",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRDBAzWLPXSmNkxztdWSoJGFp1cYaNx0_FEgklpQPcSzvj6T2tpPgblY7l-TroboI_trbm0qE5XsxHP/pub",
 				"publishedAt": "2020/9/17 18:30"
 			}
@@ -1179,6 +1285,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSSYyfYfOx7bb5ohhmp6SBSnTUsjsUZL5xgaNszpckPObbTdf8VeThsf01jOPulsfIpgkLTAwTLiP2C/pub"
 		},
 		"publishedAt": "2020/9/16 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "呱吉：「好人要更強」是對抗資訊操弄的第一步",
@@ -1190,6 +1297,7 @@
 					"假訊息",
 					"市議員"
 				],
+				"articleID": "chiu-wc",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSSYyfYfOx7bb5ohhmp6SBSnTUsjsUZL5xgaNszpckPObbTdf8VeThsf01jOPulsfIpgkLTAwTLiP2C/pub",
 				"publishedAt": "2020/9/16 18:00"
 			}
@@ -1203,6 +1311,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSE2UwUk__A9GdYj-198uHnJsVOfihXHkJYGwa5Zy6Yok1-tZRJ_uBcmxIlph422Mavb3KqSzmTTf9i/pub"
 		},
 		"publishedAt": "2020/9/2 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "美國智庫 IFTF 最新報告：中國網軍操弄選舉及疫情假訊息",
@@ -1219,6 +1328,7 @@
 					"假論文",
 					"資訊判讀"
 				],
+				"articleID": "iftf-graphika-iri",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSE2UwUk__A9GdYj-198uHnJsVOfihXHkJYGwa5Zy6Yok1-tZRJ_uBcmxIlph422Mavb3KqSzmTTf9i/pub",
 				"publishedAt": "2020/9/2 18:00"
 			}
@@ -1232,6 +1342,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTgHTy3Q6K8y4Qxmd1R9zTv7xnkldfMDHZkR8fPRCXAKB6UXCIUxhZ3SevUGTXpCVJmpg4qnbAQRLOY/pub"
 		},
 		"publishedAt": "2020/8/29 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄引爆社會不信任，立委洪申翰：須先凝聚共識",
@@ -1245,6 +1356,7 @@
 					"立法委員",
 					"立法"
 				],
+				"articleID": "hong-sh",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTgHTy3Q6K8y4Qxmd1R9zTv7xnkldfMDHZkR8fPRCXAKB6UXCIUxhZ3SevUGTXpCVJmpg4qnbAQRLOY/pub",
 				"publishedAt": "2020/8/29 18:00"
 			}
@@ -1258,6 +1370,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ_v6-QqXAxE10CcBZ8mjNVL2s2KkU9nI349Fz2KIKWVvJ06-QDd9jm7tiMrr7Ddf3ZSaueHJmtwV94/pub"
 		},
 		"publishedAt": "2020/8/21 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「光復美國」帶風向，中國共青團藉佛洛伊德事件煽動反美情緒",
@@ -1270,6 +1383,7 @@
 					"光復美國",
 					"中國共青團"
 				],
+				"articleID": "stand-with-usa",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_v6-QqXAxE10CcBZ8mjNVL2s2KkU9nI349Fz2KIKWVvJ06-QDd9jm7tiMrr7Ddf3ZSaueHJmtwV94/pub",
 				"publishedAt": "2020/8/21 18:00"
 			}
@@ -1283,6 +1397,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTyjPcJFnYpE8RlQUus6QsPX16qdiJePc18pA7DHuTlGLJ_pvwMmouNNzf-oWlOy7Lt4ZMzv-hPyGik/pub"
 		},
 		"publishedAt": "2020/8/13 19:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣百萬青少年都在用的抖音，成為資訊操弄新戰場",
@@ -1295,6 +1410,7 @@
 					"隱私",
 					"青少年"
 				],
+				"articleID": "tiktok",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTyjPcJFnYpE8RlQUus6QsPX16qdiJePc18pA7DHuTlGLJ_pvwMmouNNzf-oWlOy7Lt4ZMzv-hPyGik/pub",
 				"publishedAt": "2020/8/13 19:00"
 			}
@@ -1308,6 +1424,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRexGAuxiCRwWGNm7h4X9swgV-UBDz7VxEhW6h1bLFGiek4o2EU9gi7ariWHXPYsRV1Al_uAy3WLxGo/pub"
 		},
 		"publishedAt": "2020/8/6 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "你知道中國媒體「姓黨」嗎？",
@@ -1319,6 +1436,7 @@
 					"新聞自由",
 					"認知戰"
 				],
+				"articleID": "ccp-media",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRexGAuxiCRwWGNm7h4X9swgV-UBDz7VxEhW6h1bLFGiek4o2EU9gi7ariWHXPYsRV1Al_uAy3WLxGo/pub",
 				"publishedAt": "2020/8/6 18:00"
 			}
@@ -1332,6 +1450,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS6VQUKtWYV6rNf8sST_wP5g-ZX9HqMjjVufIH2sIJ2DjMQSypdbyn7jnkn_Zc1FGKlo80KFxGTZR-V/pub"
 		},
 		"publishedAt": "2020/7/30 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "5 萬名史密斯夫婦：中國配偶在 Facebook 社團裡的「大內宣」",
@@ -1344,6 +1463,7 @@
 					"臉書社團",
 					"陸配"
 				],
+				"articleID": "chinese-spouses",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS6VQUKtWYV6rNf8sST_wP5g-ZX9HqMjjVufIH2sIJ2DjMQSypdbyn7jnkn_Zc1FGKlo80KFxGTZR-V/pub",
 				"publishedAt": "2020/7/30 18:00"
 			}
@@ -1357,6 +1477,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub"
 		},
 		"publishedAt": "2020/7/23 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "監院報告被加工，高雄市長補選再傳選舉假訊息？",
@@ -1367,6 +1488,7 @@
 					"假訊息",
 					"中選會"
 				],
+				"articleID": "cec-disinfo",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub",
 				"publishedAt": "2020/7/23 18:00"
 			}
@@ -1380,6 +1502,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTCcJnNJLgmWooNnYSWQhG7Q9JsYkJSdCWCzGuewaA7G_1Rox8LqEeO_HTFlVSVZwGpUnNGZzQ49F0m/pub"
 		},
 		"publishedAt": "2020/7/16 19:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "名嘴未經查證帶風向實例：唐湘龍助長「港人割地訴求」假訊息擴散",
@@ -1391,6 +1514,7 @@
 					"名嘴",
 					"不實訊息"
 				],
+				"articleID": "hk-disinfo-tang",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCcJnNJLgmWooNnYSWQhG7Q9JsYkJSdCWCzGuewaA7G_1Rox8LqEeO_HTFlVSVZwGpUnNGZzQ49F0m/pub",
 				"publishedAt": "2020/7/16 19:00"
 			}
@@ -1405,6 +1529,7 @@
 		},
 		"publishedAt": "2020/7/3 18:00",
 		"updatedAt": "2020/7/9 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣疫情越嚴重，LINE 群組親中不實訊息越氾濫",
@@ -1418,6 +1543,7 @@
 					"譚德塞",
 					"認知戰"
 				],
+				"articleID": "pro-china-line-messages",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUGNA1v0cDGObYbHy5RF6kRm5t8UAMQI5GOXV-aztJTB5nuJ1XDJAUKLxFqqMzpVAVxe9ivAGOzHr_/pub",
 				"publishedAt": "2020/7/3 18:00",
 				"updatedAt": "2020/7/9 18:00"
@@ -1433,6 +1559,7 @@
 		},
 		"publishedAt": "2020/7/3 18:00",
 		"updatedAt": "2020/7/3 18:00",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "媒體滲透威脅下，捷克對中立場漸趨強硬",
@@ -1445,6 +1572,7 @@
 					"媒體滲透",
 					"銳實力"
 				],
+				"articleID": "vystrcil",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2CitMDKVH7JddipnkC-Vr40VF--6N3n6ha-OIjQ90pgH1VGbOpjpyhSgSG6OvsF1I2gYqsLM8xXil/pub",
 				"publishedAt": "2020/7/3 18:00",
 				"updatedAt": "2020/7/3 18:00"
@@ -1461,11 +1589,13 @@
 		},
 		"publishedAt": "2020/7/3 18:00",
 		"updatedAt": "2021/2/27 0:30",
+		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "關於 IORG",
 				"summary": "IORG 於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，是以公開資訊、科學方法、在地連結，反制極權擴張的台灣跨領域研究團隊。",
 				"tags": [],
+				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
 				"publishedAt": "2020/7/3 18:00",
 				"updatedAt": "2021/2/27 0:30"
@@ -1474,6 +1604,7 @@
 				"title": "About IORG",
 				"summary": "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG works to counter authoritarian expansion with public information, scientific methodologies, and grassroots organization.",
 				"tags": [],
+				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
 				"publishedAt": "2020/7/3 18:00",
 				"updatedAt": "2021/2/27 0:30"

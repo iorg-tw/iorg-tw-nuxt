@@ -26,7 +26,14 @@ export default {
     }
     const node = matchingNodes[0]
     const article = articleMap[node.id]
-    const doc = await getDoc(localizeArticle(article, app.i18n.locale, app.i18n.defaultLocale).publicURL)
+    const locale = app.i18n.locale
+    let doc = {}
+    if(article.cache) {
+      doc = await import('~/data/cached-articles/' + article.id + locale + '.json')
+      doc = doc.default
+    } else {
+      doc = await getDoc(localizeArticle(article, locale, app.i18n.defaultLocale).publicURL)
+    }
     // FIXME: this is a hack
     if(article.publishedAt) {
       doc.publishedAt = article.publishedAt
