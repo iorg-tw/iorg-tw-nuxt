@@ -26,7 +26,7 @@ _en:
   <div class="content" v-html="doc.html"></div>
   <div v-if="metaphor !== 'page'" class="separator"></div>
   <template v-if="metaphor !== 'page' && showHead">
-    <ul v-if="doc.tags.length > 0" class="tags">
+    <ul v-if="doc.tags && doc.tags.length > 0" class="tags">
       <li v-for="tag of doc.tags" :key="tag" class="tag">{{ tag }}</li>
     </ul>
   </template>
