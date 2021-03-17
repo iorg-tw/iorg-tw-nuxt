@@ -25,6 +25,11 @@ _en:
   </template>
   <div class="content" v-html="doc.html"></div>
   <div v-if="metaphor !== 'page'" class="separator"></div>
+  <template v-if="metaphor !== 'page' && showHead">
+    <ul v-if="doc.tags.length > 0" class="tags">
+      <li v-for="tag of doc.tags" :key="tag" class="tag">{{ tag }}</li>
+    </ul>
+  </template>
 </div>
 </template>
 
@@ -149,6 +154,21 @@ export default {
           border-radius: 0.25rem;
         }
       }
+    }
+  }
+  > .tags {
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    > .tag {
+      margin: 0.25rem;
+      padding: 0.5rem 0.75rem;
+      line-height: 1;
+      color: var(--iorg-accent);
+      border: 2px solid var(--iorg-accent);
+      border-radius: 2rem;
     }
   }
 
@@ -545,6 +565,11 @@ export default {
       padding-left: var(--list-indent);
     }
   }
+  > .tags {
+    margin-right: var(--doc-spacing);
+    margin-left: var(--doc-spacing);
+  }
+
   $ext: 6rem;
   [class^='gdoc-'] {
     margin-right: var(--doc-spacing);
