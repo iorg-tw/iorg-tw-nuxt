@@ -13,6 +13,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "鳴謝",
+				"tags": [],
 				"articleID": "ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 				"publishedAt": "2020/10/20 18:00",
@@ -20,6 +21,7 @@
 			},
 			"_en": {
 				"title": "Acknowledgement",
+				"tags": [],
 				"articleID": "ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
 				"publishedAt": "2020/10/20 18:00",
@@ -411,7 +413,7 @@
 				"summary": "長期研究中國政治輿情的中山大學政治學研究所副教授陳至潔，分享近年來在中國網絡與社群媒體上蹲點觀測的現象，過去他運用前沿方法與大數據分析，取得堅實的數據佐證，這次也針對 IORG《中國對台影響力作戰研究》提出分析與看法。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
+					"學者",
 					"陳志潔",
 					"中國政治輿情",
 					"數據分析"
@@ -439,9 +441,9 @@
 				"summary": "針對假訊息的流傳，民主基金會長期調查追蹤，每年也固定以民調的方式調查現階段民眾對於資訊判讀的意識，基金會副執行長陳婉宜分享上一份委託政大選研中心執行的「2019 臺灣民主價值與治理」民調報告，調查發現民眾看待假訊息，對於自身的影響程度遠低於他人。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
 					"陳婉宜",
-					"民主基金會"
+					"NGO",
+					"台灣民主基金會"
 				],
 				"articleID": "ketty-chen",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTiOS7kCxqXMXcM5a_3F7v3jH07sGMb5Stwwk9rZjlXWjvumuJTdcXXUdygpqKEw2uSrCw4poJXONEL/pub",
@@ -466,10 +468,10 @@
 				"summary": "去年轉任監察院人權委員的葉大華，過去擔任台灣少年權益與福利促進聯盟（台少盟）秘書長，持續推動台灣青少年社會福利與權益的議題，針對台灣目前遭受資訊操弄的情況，她分享在兒少領域的觀察。媒體改革是葉大華自任職台少盟以來，一直積極推動的議題，主要著重在電子與平面媒體，定期和這些媒體交流、協議，要求成立新聞自律委員會，逐步促進媒體自律。但近三年來，葉大華發現在台少盟以及合作的台灣媒體觀察教育基金會（媒觀）監測的結果，網路新聞的佔比逐年攀升。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
 					"葉大華",
 					"監察院",
-					"媒體識讀"
+					"台少盟",
+					"媒觀"
 				],
 				"articleID": "ye-da-hua",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ4TMl2H9qNz0_soxA25XRoZ8GWd26g2TbOw74Ih2jYpGIGZRH88LxtT3uK925GZhArMAjCN1V0CzyO/pub",
@@ -494,11 +496,9 @@
 				"summary": "國防安全研究院去年發布的「2020 中共年報」中，指出中共對台發動的認知戰屬於「灰色地帶衝突」，不僅消耗民主資源，也難分平時、戰時，潛移默化說壞民主，好比「沒有煙硝的戰爭」。「訊息戰一直都是從威權政體朝民主政體擴散。」中央研究院社會學研究員林宗弘開宗明義總結。他在研究中發現，絕大多數假訊息的投放的方向都是一致的，國際間的資訊攻擊，幾乎都是從威權政體投向民主政體，這表示威權政體有系統的想要干預民主政體，利用民主政體本身的弱點──開放、言論自由，鑽漏洞攻擊。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
+					"學者",
 					"林宗弘",
-					"中央研究院",
-					"民主",
-					"威權"
+					"中研院"
 				],
 				"articleID": "lin-thung-hong",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTOuxhaVdwaYbElNZqbbpAqvXsMl0AfhZdjUkRyzfQMmIv_awb7FedJFUP3-XHbEIP0TEXKZjn0Nl6U/pub",
@@ -523,8 +523,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 24集，我們訪問了立法委員鄭運鵬，他認為台灣社會能夠藉由事件培養對抗資訊操弄的抵抗力，認為「無招勝有招」，讓時間來凝聚社會共識。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"鄭運鵬"
 				],
 				"articleID": "cheng-yun-peng",
@@ -550,8 +549,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 23集，我們訪問了立法委員林楚茵，曾為主播的她面對資訊操弄問題，指出了當媒體成為「在地協力」時的辨別準則，並提出主管機關對於 YouTuber、直播主的規範應更加明確的因應方向。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"林楚茵"
 				],
 				"articleID": "lin-chu-yin",
@@ -571,14 +569,13 @@
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
-				"title": "王定宇：新型態「混合型戰爭」，假錯資訊已成武器",
+				"title": "王定宇：新型態「混合型戰爭」，錯假資訊已成武器",
 				"subtitle": "心慌保全來訪問 Ep.22",
 				"coverImage": "https://lh4.googleusercontent.com/UdS-q4KfSNXQogebrMCwqJ7PB3c1On9re7mrG1i9eqp2qRUt3hkjqJTSTL0HXRCD5WEOOk6fR3iKNqgy8aSS4kPJJ3ypsABUPFGNh2A0eVCMRNHO56YJV3gG7Rnl2HsZfQ",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 22 集，我們訪問了立法委員王定宇，他以「關西機場」事件和之後發生的「甲子園」資訊操弄事件作對比，分析民主國家能對抗假訊息的因應方式。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"王定宇"
 				],
 				"articleID": "wang-ting-yu",
@@ -604,10 +601,8 @@
 				"summary": "科技的進步，網路流通加速，讓訊息傳遞已無國界，但這種方便形成兩面刃，雖降低獲取資訊的難易度，也同時讓虛假、惡意的訊息，比以往擴散更快。「它就是一個戰爭，你可以說這是一場競速戰」過去長期在法律扶助基金會救援冤案的人權律師羅秉成，在接下政務委員職務後，首要任務之一，就是處理棘手的資訊戰議題。他引用美國麻省理工學院（MIT）2018 年針對假新聞做的研究說明，該研究用大數據觀測證實，假新聞在網路世界的傳遞速度，比真訊息快整整六倍，由此可知，與假訊息抗衡是一場先天速度落差極大的競速比賽。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
 					"羅秉成",
-					"政務委員",
-					"行政"
+					"政委"
 				],
 				"articleID": "lo-ping-cheng",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS1c08dahn9tNuDqBEr8mBxMu2cliHWOc4oAG-gT1dhh3nwVW_qpZptYOxDcBoV2RISK-CvgK7pHV9W/pub",
@@ -632,9 +627,8 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 20 集，我們訪問了台大新聞所教授王泰俐，根據研究，她指出：最容易受到資訊操弄的原因與教育程度無關，而是「不關心議題」的族群，例如以 2018 年選舉為例就是女性跟年輕人較容易受到政治不實訊息影響；教授並提出國外研究出的四大方法，供民眾一起以簡單的方式辨認資訊操弄。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
-					"蔡易餘"
+					"學者",
+					"王泰俐"
 				],
 				"articleID": "wang-tai-li",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRX-CPBBz7a0dip-i2TQa2BRuChSvy5_gpwzuCFpohMqwquiAkoB0gdEvNUOVh9ieog453l4CcvNm9a/pub",
@@ -659,8 +653,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 19 集，我們訪問了立法委員蔡易餘，他以自身提告造謠者的經驗卻敗訴出發，認為台灣在實務上太輕忽資訊操弄的影響，另外也舉出美國總統川普在臉書及推特上被審查的例子，指出民主制度的言論自由也可能因為制度而受衝擊的現象。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"蔡易餘"
 				],
 				"articleID": "tsai-yi-yu",
@@ -686,10 +679,9 @@
 				"summary": "去年，國家通訊傳播委員會（NCC）首度開鍘，對中天新聞台作出不予換照的決議，如今中天關台轉戰 YouTube 經營頻道已屆滿一個月，針對 NCC 於 2006 年成立以來，第一次大動作規範，是否對「在地協力者」的管理上有所進展，IORG 團隊採訪媒體觀察基金會的執行長滕西華，討論台灣在面臨資訊操弄的現今，媒體有無扮演好第四權角色。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
 					"滕西華",
 					"NGO",
-					"媒體觀察"
+					"媒觀"
 				],
 				"articleID": "teng-hh",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQdXxO3XKoLpg3qX_AaCFmUEXwyiQQrjYh_d4GNidF3aIar0EExJ4uYLlNc8Zna96jz_U8_7qbWRvKg/pub",
@@ -711,12 +703,11 @@
 				"title": "「在地協力者」易成資訊操弄幫凶，王婉諭：嚴格審查是必要的",
 				"subtitle": "心慌保全來訪問 Ep.17",
 				"coverImage": "https://lh6.googleusercontent.com/ItHIK1GK3ZzaIwy1uptu8r-HIEk-bNll-6OlfkGrltmNIHztoyxDDUynArnNZk0D5QAcfKwYMhOLsZhR_lm4W23s2xTHsHmwSbFOXkTrJhRoYu3wy8qrvxozdMp5TvqvRw",
-				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 17 集，我們訪問了立法委員王婉瑜，她舉出目前大家關心的兒少保護方面，在面對假資訊時，已經有相關單位可以協助處理，並提出政府應該做更長遠的準備，以及強調民主深化的重要。",
+				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 17 集，我們訪問了立法委員王婉諭，她舉出目前大家關心的兒少保護方面，在面對假資訊時，已經有相關單位可以協助處理，並提出政府應該做更長遠的準備，以及強調民主深化的重要。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
-					"王婉瑜"
+					"立委",
+					"王婉諭"
 				],
 				"articleID": "wang-wy",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_XmBf9GRrKK5vCryiXGTSQKItlqz9FJ6GcBaI09wJVjM1C6_dTvTkHQpyyIFGMLG5wdHMeTWKO7Al/pub",
@@ -743,7 +734,6 @@
 				"summary": "「簡化來看，這是一個威權的體系，跟民主的體系之間的爭霸。」政大國發所助理教授黃兆年認為，中國利用資訊操弄，讓國際社會改變對中國的認知，目的是要形塑對於威權，或是中國模式的認可。IORG 研究證實，中國對台的資訊操弄確實存在，案例包括 B.1 關西機場「中國人先上車」、B.2 陳菊貪污、B.3 美國流感比武漢肺炎更致命、B.4 美國以武漢軍人運動會散播病毒、B.5 美國流感就是武漢肺炎、B.6 光復美國、B.7 中選會作票。案例中各樣論述，有一個共同的主題：民主體制效率低落、貪污腐敗。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
 					"黃兆年",
 					"學者"
 				],
@@ -753,15 +743,14 @@
 				"updatedAt": "2021/3/17 13:00"
 			},
 			"_en": {
-				"title": "The Roaring Information War: Scholar Huang Jaw-nian proposes 3-part strategy – source, dissemination & reception",
+				"title": "The roaring information war: scholar Huang Jaw-nian proposes 3-part strategy – source, dissemination & reception",
 				"subtitle": "Dokidoki Interview Ep.16",
 				"coverImage": "https://lh6.googleusercontent.com/MzTIjDYCI29vEtQ4r8PED1oXTSSL9j__EtD4k4DYFbBKHsaV7YkA6UiOomegRXvaewivQlaXiPC36jnnjDjOKZf0VDz6aFQmmHTVgoFnD3XEReySsabfa-XAz4SahpzcZA",
-				"summary": "“In a nutshell, this is a competition between an authoritarian system and a democratic one,” said Huang Jaw-nian (黃兆年), assistant professor at National Chengchi University’s Graduate Institute of National Development. Huang thinks that China is using information manipulation to change its image internationally in order to create acceptance of authoritarianism, or the China model. A recent IORG report verifies Chinese information manipulation in Taiwan, with case studies including: Kansai Airport Incident (B.1), corruption claims for former Kaohsiung mayor Chen Chu (陳菊) (B.2), claims that the U.S. flu is worse than COVID-19 (B.3), claims that the U.S. released the coronavirus through military games in Wuhan (B.4), claims that the U.S. flu is actually COVID-19 (B.5), hijacking the #LiberateHongkong hashtag with anti-U.S. propaganda (B.6), and claims that Taiwan’s Central Election Commission was involved in voter fraud (B.7). A common theme can be found from the narratives of these cases: an emphasis of democracy’s inefficiency and corruption.",
+				"summary": "“In a nutshell, this is a competition between an authoritarian system and a democratic one,” said Huang Jaw-nian (黃兆年), assistant professor at National Chengchi University’s Graduate Institute of National Development. Huang thinks that China is using information manipulation to change its image internationally in order to create acceptance of authoritarianism, or the China model. IORG’s research verifies Chinese information manipulation in Taiwan, with case studies including: the Kansai Airport incident (B.1), claims that former Kaohsiung mayor Chen Chu (陳菊) is corrupt (B.2), claims that U.S. flu is more deadly than COVID-19 (B.3), claims that the U.S. released the coronavirus at the Wuhan Military Games (B.4), claims that U.S. flu is actually COVID-19 (B.5), hijacking the #LiberateHongkong hashtag with anti-U.S. propaganda (B.6), and claims that Taiwan’s Central Election Commission was involved in voter fraud (B.7). A common theme can be found from the narratives of these cases: an emphasis of democracy’s inefficiency and corruption.",
 				"tags": [
-					"資訊操弄",
-					"假訊息",
-					"黃兆年",
-					"學者"
+					"Information manipulation",
+					"Huang Jaw-nian",
+					"Scholar"
 				],
 				"articleID": "huang-jn",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ7SvqgLdNnPP3E2Hg4fRNNCfKHKSTKKzOwMcozkle7Od7Fs_YJxwabakiXIFw4qFRdgVIxyAhZIqZR/pub",
@@ -787,8 +776,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 15 集，我們訪問了立法委員林昶佐，他強調世界現在共同面對的是比過去都還龐大的獨裁國家，而且對「它們」來說，民主自由的社會到處都是漏洞！",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"林昶佐"
 				],
 				"articleID": "freddy-lim",
@@ -816,8 +804,6 @@
 				"summary": "去年，在 2020 總統大選前投下的震撼彈「王立強共諜案」，也曾經燒到民進黨副秘書長林飛帆身上，當時，網友用多年前一張林飛帆與香港朋友合照，指稱其中一人就是共諜王立強，誤傳兩人是熟識的朋友。「當時第一時間透過事實查核中心調查，以及臉書澄清與報警，才慢慢把風向轉回來」林飛帆說，針對他個人的假訊息攻擊層出不窮，看攻擊影響嚴重程度，決定澄清與否。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"民主進步黨",
 					"民進黨",
 					"林飛帆"
 				],
@@ -832,11 +818,9 @@
 				"coverImage": "https://lh3.googleusercontent.com/DMJFTfaLOHX3FmCizOA_UecWSxqOO7IfVSoM-w3ePx7_W0ElQ2gGLfBC00I3FciWs7hIbqRlTlzJojrAEgBfQFQpN9nomDlu8fwF25-zsQl1FPoFRV0EH0lrhxYCeBVQoQ",
 				"summary": "Last year, news of the Wang Liqiang (王立强) spy-case dropped just before Taiwan’s 2020 presidential election. Lin Fei-fan (林飛帆), Deputy Secretary-General of the Democratic Progressive Party (DPP) was also impacted by the case. Web users claimed an old photo of Lin with a friend in Hong Kong was actually Wang, and that the two were close friends. “At the time, we were able to beat back that narrative through an investigation by the Taiwan Fact Checking Center, clarifying it with Facebook as well as lodging a formal complaint,” said Lin. Personal attacks against Lin that use false information seem to arise in an endless stream; depending on the severity of the attack, Lin decides whether he wants to clarify them or not.",
 				"tags": [
-					"資訊操弄",
-					"假訊息",
-					"民主進步黨",
-					"民進黨",
-					"林飛帆"
+					"Information manipulation",
+					"DPP",
+					"Lin Fei-fan"
 				],
 				"articleID": "lin-fei-fan",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQomVhuW6QpAcRw3a3jPQBDntQD-zOrGMeh1ekqsAIDx9epm2uhcABhYTugk67ULszEzGfIiSdcl-0I/pub",
@@ -862,8 +846,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 13 集，我們訪問了立法委員何志偉，他抱持相對樂觀的看法，認為台灣因為選舉的關係，「民眾什麼沒聽過？什麼沒看過？」在多方夾擊下能夠久病成良醫，資訊操弄的影響會慢慢收斂！",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"何志偉"
 				],
 				"articleID": "ho-cw",
@@ -889,8 +872,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 12 集，我們訪問了立法委員陳亭妃，她以自身被斷章取義的「一指妃」受害經驗切入，談及個人面對資訊操弄的無力，並認為在地協力者的管制應該更加細緻。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"陳亭妃"
 				],
 				"articleID": "chen-tf",
@@ -904,13 +886,14 @@
 		"type": "article",
 		"id": "disinformed-democracy",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSu7e4xSi_WsgEYHZYSwjYZv38ND66ujI7rr3VQsA_wn6FTmh-nBq7-T0IzRPaRtlG_4LdR7bWQ1Ii5/pub"
 		},
 		"publishedAt": "2020/12/23 18:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
-				"title": "開放資料、公民參與、國際連結對抗資訊操弄 歐美學者肯定台灣經驗",
+				"title": "開放資料、公民參與、國際連結對抗資訊操弄，歐美學者肯定台灣經驗",
 				"coverImage": "https://lh4.googleusercontent.com/SkUxHETUkIWntLxcxlA6gyQU36l4DUSHviRudnt5oW_bqweXvX3az87Pgwm9w320-GVOid6JXTeXxy2WoNQLgqMmCM2PfsKtTmHKtULwCEnGkPRuRycZt1uxtd5dzKTFBA",
 				"summary": "IORG 於 12 月 7 日舉辦線上討論會，邀請國內外資料科學、跨國衝突及國家安全跨領域學者、專業工作者上線交流。會中提及，由民間自主發起的開放資料專案，是資訊操弄科學研究的重要基石，也是集體民主防衛的具體實踐，而以工作坊等公民參與方式連結研究者與社會大眾，有助公民社會提升防衛意識，受到與會者的肯定。台灣是中國資訊操弄的重要目標，而遠在敘利亞的魯克班難民營也能發現中國資訊操弄的痕跡。面對威權擴張，紐約大學國際關係教授瑪慈伽里指出，唯有強化社會連結和民主韌性才能有效反制。未來，莫楠提出應建立「有責溯源」及「有責臆測」的標準，IORG 亦將持續精進資料科學研究方法，提出資訊操弄研究的開放框架，貢獻「台灣經驗」，供國際友人參考。",
 				"tags": [
@@ -922,6 +905,21 @@
 				],
 				"articleID": "disinformed-democracy",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub",
+				"publishedAt": "2020/12/23 18:00"
+			},
+			"_en": {
+				"title": "Countering information manipulation: scholars recognize “Taiwan experience” incorporating open data & civic participation",
+				"coverImage": "https://lh3.googleusercontent.com/Z9dKPN8RsGfF4VBO9P9oAOFiGaYeZkFQbRQJhZVQCSLZGMdNCn5WG2p6nbMYvEY0tdi5m-E4owRn8vs8nzjBa4_VH4vBsmpaLvm7Ojv6OVJr3ZaSYoKwR6smzGvvA67sGA",
+				"summary": "On Dec 7th, IORG held an online discussion, gathering researchers from fields across data science, cross-border conflict, and national security to exchange views on disinformation and information operation studies. In the discussions, participants highlighted the importance of open data as a cornerstone of information manipulation research as well as a manifestation of a collective defense of democracy. Scholars also recognize that civic participation initiatives such as workshops can connect researchers with the general public and increase public awareness on relevant topics.Taiwan is the main target of China’s disinformation campaign, while its fingerprints can also be seen at Rukban refugee camp in Syria. In the face of the expanding authoritarianism, Colette Mazzucelli, Professor at NYU International Relations, pointed out that only by strengthening civil society and democratic resilience can we effectively counter such expansion. Regarding future research, Nick Monaco, Director of the Digital Intelligence Lab at IFTF, proposed to establish standards of responsible attribution and responsible speculation. IORG will work to refine data research methods, propose an open framework for information manipulation study, connect scholars and experts worldwide and share our “Taiwan experience.”",
+				"tags": [
+					"Information manipulation",
+					"China",
+					"International exchange",
+					"Open data",
+					"Civic participation"
+				],
+				"articleID": "disinformed-democracy",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSu7e4xSi_WsgEYHZYSwjYZv38ND66ujI7rr3VQsA_wn6FTmh-nBq7-T0IzRPaRtlG_4LdR7bWQ1Ii5/pub",
 				"publishedAt": "2020/12/23 18:00"
 			}
 		}
@@ -943,8 +941,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 11 集，我們訪問了立法委員邱顯智，他分享自身當律師的經驗，訴說「資訊操弄」如何影響公民社會；談及新聞、電視和 NCC 的職權，舉了更有趣的案例。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"邱顯智"
 				],
 				"articleID": "chiu-hc",
@@ -964,14 +961,13 @@
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
-				"title": "資訊管制 v.s. 言論自由 高虹安：需在天秤兩端取平衡",
+				"title": "資訊管制、言論自由，高虹安：需在天秤兩端取平衡",
 				"subtitle": "心慌保全來訪問 Ep.10",
 				"coverImage": "https://lh6.googleusercontent.com/42QqMJ0Zz-Ul6NGFBbFHPwtl4Nlz_2sk38HE9DBtwgqywL5McAagfRMqEZc-o_B617a84AtbrOrfzzyRAalEzmMgcwrS2eu2vbWfBffqAnRfb2Dlo0FFSxg0LqKOgfYnJg",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 10 集，我們訪問了立法委員高虹安，她以電子郵件分類的例子提出，可以用科技的方式訓練出「假消息」的分類器！",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"高虹安"
 				],
 				"articleID": "kao-ha",
@@ -997,9 +993,8 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 9 集，我們訪問了立法委員陳柏惟，「中國已經把我們設定為代理人，為什麼我們不把他設定回來？」他提出資金來源、代理人法及公職陽光法案，以三個面向，力斬資訊操弄！",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
-					"吳思瑤"
+					"立委",
+					"陳柏惟"
 				],
 				"articleID": "chen-pw",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCNmhFKD7zxkOChCKYrOgyxuMauiszl35ifvUn1WEA_Tkjjj0H0vnEN2cRPX1U-ML6x-jRs2RyxmIi/pub",
@@ -1024,8 +1019,7 @@
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 8 集，我們訪問了立法委員吳思瑤，她表示每天睜開眼就有上千通的資訊要協助澄清，對政府來說是一種內耗⋯⋯",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"吳思瑤"
 				],
 				"articleID": "wu-sy",
@@ -1051,8 +1045,7 @@
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 7 集，訪問了立法委員陳玉珍，她以兩個親身經歷詳細介紹自身遇到資訊操弄的過程，以及帶來的影響，並且指出，她認為要改善資訊操弄端看執政者意願。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立法委員",
+					"立委",
 					"陳玉珍"
 				],
 				"articleID": "chen-yu-chen",
@@ -1078,8 +1071,7 @@
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 6 集，訪問了政務委員唐鳳，她舉例訊息操弄帶來的平行世界讓事實查核變得困難，但只要多做「來源查核」，連小學生都可以加入抵抗的行列，並提出「不活化的病毒就是疫苗」⋯⋯",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"政務委員",
+					"政委",
 					"唐鳳",
 					"增幅"
 				],
@@ -1134,8 +1126,7 @@
 				"tags": [
 					"資訊操弄",
 					"認知戰",
-					"銳實力",
-					"IORG"
+					"銳實力"
 				],
 				"articleID": "iorg-report-2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRydbX-nQphyKQSTgaSTzXnBsEqncSWFdTqRaVMntTSpUORhMcu8a60xP4Z95awe5nP_rNN0qMl6TqJ/pub",
@@ -1160,8 +1151,8 @@
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 5 集，心慌保全訪問了台北市議員苗博雅，她認為媒體識讀是改變社會文化的長期抗戰，並指出對抗資訊操弄就像防疫，需要有政府的專責機關或人物來扛責，不斷提醒大眾。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"議員"
+					"議員",
+					"苗博雅"
 				],
 				"articleID": "miao-by",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vROUbBeHHhpuJLqLC28oCgS_oFWo40-aqB3x5SJyMIHkQW9rKvPTOk_mGD7XDk3cmaow-BvH5X-P5Yb/pub",
@@ -1212,7 +1203,7 @@
 				"coverImage": "https://lh3.googleusercontent.com/oA3vVs3_P3Bw2cCCUcWnJetvjBTQ5-_NfknCDDvZnBQf9hFg-F-Nv6GEN3F8aE8BQIPB9Zt3s1hZ8lkzaFVIR4mJ61CX9tPbGwDVxWxOTVBfz3BFdYbh3Ygtlm4HJWN-Sg",
 				"summary": "2019 年 4 月初，中國媒體《鳳凰新聞社》刊出一篇指控現任監察院長陳菊在高雄市長任內貪污的文章。文章內容隨後被台灣 Facebook 使用者截取，加上「調查局官員傳出」、「調查局內部官員實在看不下去」等字樣，轉發在其他 Facebook 社團，營造公務人員也不信任政府的觀點。2020 年 1 月台灣總統大選前，只要出現重大政治新聞事件，「陳菊貪污」的訊息就會出現在社交媒體上，儘管調查局在 11/21 日發布新聞稿，澄清「陳菊貪污」相關訊息為假訊息，訊息數量仍在 12 月時達到高峰，選後則回歸常態。根據 IORG 研究調查，「調查局內部官員實在看不下去」的假訊息並未進入台灣主流媒體、 政論節目。",
 				"tags": [
-					"中國對台資訊操弄",
+					"資訊操弄",
 					"鳳凰新聞社",
 					"陳菊貪污",
 					"調查局內部官員",
@@ -1241,8 +1232,8 @@
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 4 集，心慌保全訪問了立法委員范雲，她分享了自身對應資訊操弄的經驗，並指出面對無國界的資訊操弄，關鍵有三點：首先是修正使現行法規更加合宜、改善新聞媒體的事實查核機制，以及從教育著手，增強國人的媒體識讀素養。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"立委"
+					"立委",
+					"范雲"
 				],
 				"articleID": "fan-y",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVC_DyoCVzWgreNLOtss2H-XNtyiS2XlZVWN7_AjW-w5GcCWqDGWO_QrwFnJfHwIXy4YbEmk53uB46/pub",
@@ -1267,8 +1258,8 @@
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 3 集，心慌保全訪問了立法委員賴品妤，她不僅直指要對「民代下手」，還提出了連助理在旁邊都緊張的立法方向。",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"市議員"
+					"議員",
+					"賴品妤"
 				],
 				"articleID": "lai-py",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS3UAQoWq1t22fUEJJPPbm10MeXqJGx1Ptjppl4HMcEMBuHCSYNZoVoaSbt1K2B3OxxrwQDeDBRcZ-L/pub",
@@ -1291,7 +1282,7 @@
 				"coverImage": "https://lh5.googleusercontent.com/G9CJDE7NSmsqGRYRBzh3nHzsAcbfCTRu57IJJ0osXF72OJnvHWPNe6bBnXPMXSL5hintUktKEPW2EeW2pyoSpQezASglNayhwBqj0QjTyuxlwl47MBaf8OMaxpW-MEi5bA",
 				"summary": "從是否識字、是否使用網路，到對政府、政治的認知，老大人們都與網路原生世代有著巨大差異。在防治資訊操弄、加強資訊判讀上，理解銀髮族群的認知模式、面對面的溝通，特別重要。以下是我的一些經驗分享，如果你有更好的解方，歡迎一起討論！",
 				"tags": [
-					"資訊操弄防治",
+					"資訊操弄",
 					"資訊判讀",
 					"銀髮族",
 					"數位落差",
@@ -1377,8 +1368,8 @@
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 2 集，心慌保全訪問了台北市議員邱威傑（呱吉），時常做出驚天之舉的他，對現階段資訊操弄的立法表示悲觀？「好人要更強」又是什麼意思？",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"市議員"
+					"議員",
+					"呱吉"
 				],
 				"articleID": "chiu-wc",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSSYyfYfOx7bb5ohhmp6SBSnTUsjsUZL5xgaNszpckPObbTdf8VeThsf01jOPulsfIpgkLTAwTLiP2C/pub",
@@ -1402,8 +1393,8 @@
 				"coverImage": "https://lh5.googleusercontent.com/two25xsoANzfcRxw_q11OLXUg5GICX98UD2yuVLjdYlJxFfHH_NmWIG9C-db6DDjk3ZlHiiWgA2O7jmvh5qsVhGQ2xUV0pwZ_2v0ljvCEvRyDY3MvyX7njtZTssa2y4xRw",
 				"summary": "今（2020）年 8 月，美國智庫未來研究所（IFTF, Institute for The Future）、資料分析公司 Graphika 和非營利組織國際共和學會（IRI, International Republican Institute），聯手發佈研究報告，揭露 2020 台灣總統大選前後針對台灣的假訊息攻擊，並發現中國網軍操作的痕跡。選舉期間，假訊息鎖定投票過程，並質疑中央選舉委員會的獨立性，並有馬來西亞內容農場協同散播假訊息的現象。選後，假訊息攻擊蔡英文「假論文」及民進黨執政的正當性。武漢肺炎疫情爆發後，則為宣稱「病毒來自美國」等疫情相關的假訊息。IFTF 這份研究報告，與 IORG 於 5 月底出版的報告內容不謀而合。",
 				"tags": [
-					"中國資訊作戰",
-					"2020 總統大選",
+					"假訊息",
+					"2020 台灣選舉",
 					"馬來西亞",
 					"內容農場",
 					"跨平台",
@@ -1434,10 +1425,8 @@
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 1 集，心慌保全訪問了立法委員洪申翰，地點在立法院旁的慕哲咖啡。身為 2020 新科立委，洪申翰的觀點是什麼？面對「資訊操弄」，他又提出了哪些解方呢？",
 				"tags": [
 					"資訊操弄",
-					"假訊息",
-					"對立",
-					"立法委員",
-					"立法"
+					"立委",
+					"洪申翰"
 				],
 				"articleID": "hong-sh",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTgHTy3Q6K8y4Qxmd1R9zTv7xnkldfMDHZkR8fPRCXAKB6UXCIUxhZ3SevUGTXpCVJmpg4qnbAQRLOY/pub",
@@ -1464,7 +1453,7 @@
 					"帶風向",
 					"佛洛伊德",
 					"光復美國",
-					"中國共青團"
+					"共青團"
 				],
 				"articleID": "stand-with-usa",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_v6-QqXAxE10CcBZ8mjNVL2s2KkU9nI349Fz2KIKWVvJ06-QDd9jm7tiMrr7Ddf3ZSaueHJmtwV94/pub",
@@ -1543,7 +1532,7 @@
 					"中配",
 					"假訊息",
 					"大內宣",
-					"臉書社團",
+					"Facebook",
 					"陸配"
 				],
 				"articleID": "chinese-spouses",
