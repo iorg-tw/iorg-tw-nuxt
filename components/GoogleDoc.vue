@@ -116,6 +116,9 @@ export default {
   }
   > .summary {
     line-height: $line-height-comfortable;
+    p {
+      margin-bottom: 1.5rem;
+    }
   }
   > .content {
     h2, h3 {
