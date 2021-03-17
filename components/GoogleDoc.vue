@@ -114,6 +114,9 @@ export default {
     font-size: 0.875rem;
     color: var(--iorg-neutral);
   }
+  > .summary {
+    line-height: $line-height-comfortable;
+  }
   > .content {
     h2, h3 {
       margin-bottom: 0.375rem;
