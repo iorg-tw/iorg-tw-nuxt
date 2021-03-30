@@ -173,7 +173,7 @@ async function get() {
     ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
     code: row.code,
     image: row.image ? row.image : defaultCover,
-    ...(ok(row.isResearchArticle) ? { isResearchArticle: true } : {})
+    ...(ok(row.isGenericArticle) ? { isGenericArticle: true } : {})
   }))
   fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
 

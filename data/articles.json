@@ -61,6 +61,64 @@
 			}
 		}
 	},
+	"_R_B": {
+		"published": false,
+		"type": "research",
+		"id": "_R_B",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRD5hKG24sAbqGn5enX-tHf5Cfh3Uv9BKaSBdyMdb7rrLWrSVBrrq2sfgxEbyx-4tIg9AkAghZDqrtD/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSl_l8c3x5iv9CnDXJTzas3gKRw-gKnJlUFBoe0K4GnAttromfzo0LnQm5ujSTXQmeB4ECXPg67OwpX/pub"
+		},
+		"publishedAt": "2021/3/2 20:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "B 中國對台資訊操弄",
+				"subtitle": "IORG 中國對台影響力作戰研究",
+				"tags": [],
+				"articleID": "_R_B",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRD5hKG24sAbqGn5enX-tHf5Cfh3Uv9BKaSBdyMdb7rrLWrSVBrrq2sfgxEbyx-4tIg9AkAghZDqrtD/pub",
+				"publishedAt": "2021/3/2 20:00"
+			},
+			"_en": {
+				"title": "Chinese Information Manipulation Against Taiwan",
+				"subtitle": "IORG Research on Chinese Influence Operations Against Taiwan",
+				"tags": [],
+				"articleID": "_R_B",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSl_l8c3x5iv9CnDXJTzas3gKRw-gKnJlUFBoe0K4GnAttromfzo0LnQm5ujSTXQmeB4ECXPg67OwpX/pub",
+				"publishedAt": "2021/3/2 20:00"
+			}
+		}
+	},
+	"_R_D": {
+		"published": false,
+		"type": "research",
+		"id": "_R_D",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRpuzArr1SgHaSd-sErL_0dM2Fj4fESvM8WMplzhz9nQPaTI57bf7nM4lNWbDvsVkdrKuwXHbn87s2t/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vR2hHZAon3GL-w0GBZ8KQiOEtsP8RUqMbB3xt6ZgAb_EVnZ-HOLM2gGGb-Wt2x4I__InsZWg698UVqw/pub"
+		},
+		"publishedAt": "2021/3/2 20:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "D 中國對台人際滲透",
+				"subtitle": "IORG 中國對台影響力作戰研究",
+				"tags": [],
+				"articleID": "_R_D",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRpuzArr1SgHaSd-sErL_0dM2Fj4fESvM8WMplzhz9nQPaTI57bf7nM4lNWbDvsVkdrKuwXHbn87s2t/pub",
+				"publishedAt": "2021/3/2 20:00"
+			},
+			"_en": {
+				"title": "Chinese Interpersonal Infiltration Against Taiwan",
+				"subtitle": "IORG Research on Chinese Influence Operations Against Taiwan",
+				"tags": [],
+				"articleID": "_R_D",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2hHZAon3GL-w0GBZ8KQiOEtsP8RUqMbB3xt6ZgAb_EVnZ-HOLM2gGGb-Wt2x4I__InsZWg698UVqw/pub",
+				"publishedAt": "2021/3/2 20:00"
+			}
+		}
+	},
 	"_R_R1": {
 		"published": true,
 		"type": "research",

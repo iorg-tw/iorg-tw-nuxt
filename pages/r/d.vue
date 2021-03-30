@@ -2,11 +2,11 @@
 <div class="page research-d">
   <div class="title-doc google-doc as-page">
     <div class="title">
-      <h1>{{ doc.title }}</h1>
-      <p class="subtitle">{{ doc.subtitle }}</p>
+      <h1>{{ localizedDoc.title }}</h1>
+      <p class="subtitle">{{ localizedDoc.subtitle }}</p>
     </div>
   </div>
-  <div v-for="(objL0, indexL0) of structuredDoc" :key="objL0.title" class="group">
+  <div v-for="(objL0, indexL0) of localizedStructuredDoc" :key="objL0.title" class="group">
     <google-doc :doc="objL0" :options="{ metaphor: 'page' }" />
     <div class="findings">
       <google-doc v-for="objL1 of objL0.children" :key="objL1.title" :doc="objL1" :options="{ enableToggle: true }" class="finding" />
@@ -20,6 +20,7 @@
 </template>
 
 <script>
+import articleMap from '~/data/articles'
 import tree from '~/data/research-tree'
 import { getDoc, structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
@@ -37,12 +38,20 @@ export default {
     NodeList
   },
   async asyncData() {
-    const url = 'https://docs.google.com/document/d/e/2PACX-1vRpuzArr1SgHaSd-sErL_0dM2Fj4fESvM8WMplzhz9nQPaTI57bf7nM4lNWbDvsVkdrKuwXHbn87s2t/pub'
-    const doc = await getDoc(url)
-    const structuredDoc = structureDoc(doc.html, ['h2', 'h3'])
+    const docURLs = [
+      articleMap[CONST.id].publicURLs._tw,
+      articleMap[CONST.id].publicURLs._en
+    ] // 0 = _tw; 1 = _en
+    const docs = await Promise.all(docURLs.map(url => getDoc(url)))
     return {
-      doc,
-      structuredDoc
+      localizedDocs: {
+        _tw: docs[0],
+        _en: docs[1]
+      },
+      localizedStructuredDocs: {
+        _tw: structureDoc(docs[0].html, ['h2', 'h3']),
+        _en: structureDoc(docs[1].html, ['h2', 'h3'])
+      }
     }
   },
   data() {
@@ -52,8 +61,16 @@ export default {
       CONST
     }
   },
+  computed: {
+    localizedDoc() {
+      return this.localizedDocs[this.$i18n.locale]
+    },
+    localizedStructuredDoc() {
+      return this.localizedStructuredDocs[this.$i18n.locale]
+    }
+  },
   head() {
-    return generateMeta(this.doc.title)
+    return generateMeta(this.localizedDoc.title)
   }
 }
 </script>

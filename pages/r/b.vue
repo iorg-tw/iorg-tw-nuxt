@@ -2,16 +2,17 @@
 <div class="page research-b">
   <div class="title-doc google-doc as-page">
     <div class="title">
-      <h1>{{ doc.title }}</h1>
-      <p class="subtitle">{{ doc.subtitle }}</p>
+      <h1>{{ localizedDoc.title }}</h1>
+      <p class="subtitle">{{ localizedDoc.subtitle }}</p>
     </div>
   </div>
-  <google-doc :doc="doc" :options="{ metaphor: 'page', head: false }" class="doc-b-comp" />
+  <google-doc :doc="localizedDoc" :options="{ metaphor: 'page', head: false }" class="doc-b-comp" />
   <node-list :nodes="nodes" />
 </div>
 </template>
 
 <script>
+import articleMap from '~/data/articles'
 import tree from '~/data/research-tree'
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
@@ -29,10 +30,16 @@ export default {
     NodeList
   },
   async asyncData() {
-    const url = 'https://docs.google.com/document/d/e/2PACX-1vRD5hKG24sAbqGn5enX-tHf5Cfh3Uv9BKaSBdyMdb7rrLWrSVBrrq2sfgxEbyx-4tIg9AkAghZDqrtD/pub'
-    const doc = await getDoc(url)
+    const docURLs = [
+      articleMap[CONST.id].publicURLs._tw,
+      articleMap[CONST.id].publicURLs._en
+    ] // 0 = _tw; 1 = _en
+    const docs = await Promise.all(docURLs.map(url => getDoc(url)))
     return {
-      doc
+      localizedDocs: {
+        _tw: docs[0],
+        _en: docs[1]
+      }
     }
   },
   data() {
@@ -42,8 +49,13 @@ export default {
       CONST
     }
   },
+  computed: {
+    localizedDoc() {
+      return this.localizedDocs[this.$i18n.locale]
+    }
+  },
   head() {
-    return generateMeta(this.doc.title)
+    return generateMeta(this.localizedDoc.title)
   }
 }
 </script>

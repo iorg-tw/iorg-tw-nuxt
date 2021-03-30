@@ -5,7 +5,7 @@
 		"level": 0,
 		"code": "K",
 		"image": "/images/covers/k-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_A",
@@ -28,7 +28,7 @@
 		"parentID": "_R_B",
 		"code": "B.1",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_B2",
@@ -37,7 +37,7 @@
 		"parentID": "_R_B",
 		"code": "B.2",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_B3",
@@ -46,7 +46,7 @@
 		"parentID": "_R_B",
 		"code": "B.3",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_B4",
@@ -55,7 +55,7 @@
 		"parentID": "_R_B",
 		"code": "B.4",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_B5",
@@ -64,7 +64,7 @@
 		"parentID": "_R_B",
 		"code": "B.5",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_B6",
@@ -73,7 +73,7 @@
 		"parentID": "_R_B",
 		"code": "B.6",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_B7",
@@ -82,7 +82,7 @@
 		"parentID": "_R_B",
 		"code": "B.7",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_R1",
@@ -91,7 +91,7 @@
 		"parentID": "_R_B",
 		"code": "R.1",
 		"image": "/images/covers/b-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_D",
@@ -107,7 +107,7 @@
 		"parentID": "_R_D",
 		"code": "D.1",
 		"image": "/images/covers/d-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_D2",
@@ -116,7 +116,7 @@
 		"parentID": "_R_D",
 		"code": "D.2",
 		"image": "/images/covers/d-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_D3",
@@ -125,7 +125,7 @@
 		"parentID": "_R_D",
 		"code": "D.3",
 		"image": "/images/covers/d-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_D4",
@@ -134,7 +134,7 @@
 		"parentID": "_R_D",
 		"code": "D.4",
 		"image": "/images/covers/d-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_E",
@@ -142,7 +142,7 @@
 		"level": 0,
 		"code": "E",
 		"image": "/images/covers/e-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_R_M",
@@ -150,7 +150,7 @@
 		"level": 0,
 		"code": "M",
 		"image": "/images/covers/m-h.png",
-		"isResearchArticle": true
+		"isGenericArticle": true
 	},
 	{
 		"id": "_F",
