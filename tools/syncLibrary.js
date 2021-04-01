@@ -59,6 +59,7 @@ async function getArticles(rows) {
       if(row.cache) {
         console.info(row.id, locale, 'cached')
         fs.writeFileSync('data/cached-articles/' + row.id + locale + '.json' , JSON.stringify(doc, null, '\t'))
+        doc.cache = row.id + locale
       }
       delete doc.coverImageDescHTML
       delete doc.authorInfoItemsHTML
