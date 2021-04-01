@@ -27,12 +27,13 @@ export default {
     const node = matchingNodes[0]
     const article = articleMap[node.id]
     const locale = app.i18n.locale
+    const localizedDoc = localizeArticle(article, locale, app.i18n.defaultLocale)
     let doc = {}
-    if(article.cache) {
-      doc = await import('~/data/cached-articles/' + article.id + locale + '.json')
+    if(article.cache && localizedDoc.cache) {
+      doc = await import('~/data/cached-articles/' + localizedDoc.cache + '.json')
       doc = doc.default
     } else {
-      doc = await getDoc(localizeArticle(article, locale, app.i18n.defaultLocale).publicURL)
+      doc = await getDoc(localizedDoc.publicURL)
     }
     // FIXME: this is a hack
     if(article.publishedAt) {
