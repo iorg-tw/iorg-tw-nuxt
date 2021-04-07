@@ -457,6 +457,31 @@
 			}
 		}
 	},
+	"chinese-disinfo-xinjiang": {
+		"published": true,
+		"type": "article",
+		"id": "chinese-disinfo-xinjiang",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRT1WtIVNZPecU_8YNAn6_Q1DkZWPW0Zcz3WDtwZdFS7j2pXINiaLIuHL-k5RV1A970ZSywvxYKyvP1/pub"
+		},
+		"publishedAt": "2021/4/7 9:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中國特色 4 ni？新疆棉風暴中的資訊操弄",
+				"coverImage": "https://lh3.googleusercontent.com/t9GsGDupLaLkNjvaE4QHalD9Zdb5we15lOZ9CwhdJ3vbG9-yIVKmHpcwxQIT6xRpYZBgjp2XPymjZ2nUC9S8AGOG2xTDY7mX8N4ZgX1rYfi1gMOjk2x5YS-frnttn_ahzg",
+				"summary": "「新疆棉」這個話題佔據了近期的新聞版面，中國官方積極回應、藝人與服飾品牌解約、中國網民出征，備受討論。從這些論述、行動中，你是不是看出了什麼熟悉的模式呢？上月（3 月）6 日，中山大學政治學研究所副教授陳至潔在 IORG《民主防衛論壇》上提出「有中國特色的 disinformation」一詞，指其內涵遠比「假訊息」豐富，並具備 4 項特色：論述遮蔽最有價值的真相、由官媒主導、對「外國勢力介入」高度敏感、結合身分認同及大眾文化激起愛國心。陳至潔提出的這些特色，在此次新疆棉事件中皆可以觀察到。此外，中國外交官的發言內容亦含有不實訊息，屬於「傳播不實訊息」的「事實內容操弄」。",
+				"tags": [
+					"新疆棉",
+					"資訊操弄",
+					"有中國特色的 disinformation"
+				],
+				"articleID": "chinese-disinfo-xinjiang",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRT1WtIVNZPecU_8YNAn6_Q1DkZWPW0Zcz3WDtwZdFS7j2pXINiaLIuHL-k5RV1A970ZSywvxYKyvP1/pub",
+				"publishedAt": "2021/4/7 9:00"
+			}
+		}
+	},
 	"titus-chen": {
 		"published": true,
 		"type": "article",
