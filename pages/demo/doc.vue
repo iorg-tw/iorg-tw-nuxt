@@ -1,5 +1,14 @@
 <template>
 <div class="page demo">
+  <div class="demo preview">
+    <a class="demo-header block"><span>Preview</span></a>
+    <div class="context social-media">
+      <img class="cover" :src="head._image" />
+      <p class="title">{{ head.title }}</p>
+      <p v-if="!head._description" class="description not-available" >No description</p>
+      <p v-else class="description">{{ head._description }}</p>
+    </div>
+  </div>
   <div class="demo demo-1">
     <a class="demo-header block"><span>Demo 1</span></a>
     <div v-for="objL0 of structuredDoc" :key="objL0.header" class="objL0">
@@ -39,13 +48,15 @@ export default {
 
     const doc = await getDoc(url)
     const structuredDoc = structureDoc(doc.html, ['h2', 'h3'])
+    const head = generateMeta(doc.title, doc.subtitle, doc.summary, doc.coverImage)
     return {
       doc,
-      structuredDoc
+      structuredDoc,
+      head
     }
   },
   head() {
-    return generateMeta(this.doc.title, this.doc.subtitle, this.doc.summary, this.doc.coverImage)
+    return this.head
   }
 }
 </script>
@@ -66,6 +77,27 @@ export default {
         margin: 1rem;
         border: 1px solid black;
         padding: 0.75rem;
+      }
+    }
+  }
+  > .preview {
+    > .context {
+      margin-left: 1rem;
+      &.social-media {
+        max-width: 20rem;
+        > .cover {
+          width: 100%;
+        }
+        > .title {
+          margin-top: 0.25rem;
+          font-weight: bold;
+        }
+        > .description {
+          font-size: 0.875rem;
+          &.not-available {
+            color: var(--iorg-neutral);
+          }
+        }
       }
     }
   }
