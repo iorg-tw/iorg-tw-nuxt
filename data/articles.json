@@ -457,6 +457,60 @@
 			}
 		}
 	},
+	"from-weibo-with-love": {
+		"published": true,
+		"type": "article",
+		"id": "from-weibo-with-love",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRJyoJbOCtKK2nmKzLKGo9re4PM1dTzEWJTQJWJaSuw7kwRCM20nGWHbekohewoLIViYl9s-DBl5OLX/pub"
+		},
+		"publishedAt": "2021/4/8 18:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "Why 抄微博？以資料科學初探 Facebook 粉專經營",
+				"coverImage": "https://lh5.googleusercontent.com/1gfq34HDbdyYN8-TSzogoKqsFPnAaVHnZcWx7NDZYbGi4I1jhRJSHsQbBJuY4uHzinFAf9iu-w1_3Riezir_YwIKoEyLTiaLGNd3hasJb1rijrlUzTI7aKqYGnCsdoEQyg",
+				"tags": [
+					"資料科學",
+					"粉專經營",
+					"抄微博",
+					"從微博到 Facebook"
+				],
+				"articleID": "from-weibo-with-love",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRJyoJbOCtKK2nmKzLKGo9re4PM1dTzEWJTQJWJaSuw7kwRCM20nGWHbekohewoLIViYl9s-DBl5OLX/pub",
+				"publishedAt": "2021/4/8 18:00"
+			}
+		}
+	},
+	"cofacts": {
+		"published": true,
+		"type": "article",
+		"id": "cofacts",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRKfQ7xTeYrQMI50VIm3yom5nNtujDUYBnV2gEfNmtliZqrlfNWcGbOaVluxFUbv9cBq2uPzOIo1krm/pub"
+		},
+		"publishedAt": "2021/4/7 18:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "消除長者資訊焦慮，「Cofacts 真的假的」下一步：擴大線下巡迴宣導",
+				"subtitle": "心慌保全來訪問 Ep.29",
+				"coverImage": "https://lh6.googleusercontent.com/_SBd0_4C7EvdCioJB-ofoedeD-mpQljKLhzBjmFyvSPf7_v1_5qcjLqXElYJYPnI6cB1_BUeVzW_6OOPwJrtYiUhqWF7lBDmJMqv7UUOltgyoixkvdaK2kXz0VWhapaC1Q",
+				"summary": "「喝茶可以消滅冠狀病毒」、「晚上七點喝高粱，可檢驗有無感染武漢肺炎」⋯諸多不知來龍去脈的謠言，有如黴菌菌絲般蔓延，滲透在各個通訊軟體對話框、聊天室中。COVID-19 自 2020 年初大規模爆發，全世界陷入前所未有的恐慌。疫情到底何時能終止，沒有任何人能給答案，籠罩在這看似無盡頭的焦慮情緒，各式各樣的謠言、小道消息，應運而生。心慌保全這次訪問到 Cofacts 真的假的團隊成員們，一起來看看他們是怎麼從「消除資訊焦慮」的初衷開始，建立一個堅持「開放協作」的事實查核社群與科技平台？",
+				"tags": [
+					"資訊操弄",
+					"社群協作",
+					"公民參與",
+					"g0v",
+					"Cofacts",
+					"開放資料"
+				],
+				"articleID": "cofacts",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRKfQ7xTeYrQMI50VIm3yom5nNtujDUYBnV2gEfNmtliZqrlfNWcGbOaVluxFUbv9cBq2uPzOIo1krm/pub",
+				"publishedAt": "2021/4/7 18:00"
+			}
+		}
+	},
 	"chinese-disinfo-xinjiang": {
 		"published": true,
 		"type": "article",
