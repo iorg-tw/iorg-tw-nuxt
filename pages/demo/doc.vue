@@ -4,9 +4,11 @@
     <a class="demo-header block"><span>Preview</span></a>
     <div class="context social-media">
       <img class="cover" :src="head._image" />
-      <p class="title">{{ head.title }}</p>
-      <p v-if="!head._description" class="description not-available" >No description</p>
-      <p v-else class="description">{{ head._description }}</p>
+      <div class="meta">
+        <p class="title">{{ head.title }}</p>
+        <p v-if="!head._description" class="description not-available" >No description</p>
+        <p v-else class="description">{{ head._description }}</p>
+      </div>
     </div>
   </div>
   <div class="demo demo-1">
@@ -88,14 +90,19 @@ export default {
         > .cover {
           width: 100%;
         }
-        > .title {
-          margin-top: 0.25rem;
-          font-weight: bold;
-        }
-        > .description {
-          font-size: 0.875rem;
-          &.not-available {
-            color: var(--iorg-neutral);
+        > .meta {
+          background-color: white;
+          padding: 1rem;
+          > .title {
+            font-size: 1.125rem;
+            font-weight: bold;
+          }
+          > .description {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            &.not-available {
+              color: var(--iorg-neutral);
+            }
           }
         }
       }
