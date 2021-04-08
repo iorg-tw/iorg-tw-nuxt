@@ -33,8 +33,9 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData() {
-    const url = 'https://docs.google.com/document/d/e/2PACX-1vTLvc6G378TNi99QLg06bt8i1W-uNZVFUBwDTVTE-dBxix7lvgVeIJIweeqBXBQez0b3M3U1THvxfik/pub'
+  async asyncData({ query }) {
+    const gid = query.gid ? query.gid : '2PACX-1vTLvc6G378TNi99QLg06bt8i1W-uNZVFUBwDTVTE-dBxix7lvgVeIJIweeqBXBQez0b3M3U1THvxfik'
+    const url = `https://docs.google.com/document/d/e/${gid}/pub`
 
     const doc = await getDoc(url)
     const structuredDoc = structureDoc(doc.html, ['h2', 'h3'])
