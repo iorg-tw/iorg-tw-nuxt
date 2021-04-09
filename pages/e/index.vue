@@ -24,7 +24,7 @@ _en:
           <label class="area">{{ conf.area }}</label>
         </div>
         <h3>{{ conf.title }}</h3>
-        <p>{{ conf.time }}</p>
+        <p class="time">{{ conf.time }}</p>
         <nuxt-link :to="localePath({ name: 'e-id', params: { id: conf.id } })">{{ PUNCT.ELLIPS }}</nuxt-link>
       </div>
     </div>
@@ -42,7 +42,7 @@ _en:
         <div class="slogan">{{ workshop.slogan }}</div>
         <h3>{{ workshop.name }}</h3>
         <h4>{{ workshop.loc }}</h4>
-        <p>{{ workshop.time }}</p>
+        <p class="time">{{ workshop.time }}</p>
       </div>
     </div>
   </div>
@@ -116,6 +116,9 @@ export default {
         }
         > h3 {
           margin: 0.125rem 0;
+        }
+        > .time {
+          font-size: 0.85rem;
         }
       }
     }
