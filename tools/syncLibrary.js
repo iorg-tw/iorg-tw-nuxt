@@ -165,6 +165,11 @@ async function get() {
   result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
   fs.writeFileSync('data/archive.json', JSON.stringify(result, null, '\t'))
 
+  console.info(shouldGetEvents ? 'events...' : 'skip events.')
+  if(shouldGetEvents) {
+    await getEvents(sheets[4])
+  }
+
   console.info('research-tree...')
   rows = sheets[2]
   result = rows.map(row => ({
@@ -181,11 +186,6 @@ async function get() {
   console.info(shouldGetArticles ? 'articles...' : 'skip articles.')
   if(shouldGetArticles) {
     await getArticles(sheets[3])
-  }
-
-  console.info(shouldGetEvents ? 'events...' : 'skip events.')
-  if(shouldGetEvents) {
-    await getEvents(sheets[4])
   }
 }
 
