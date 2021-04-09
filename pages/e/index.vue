@@ -17,14 +17,15 @@ _en:
     <p class="section-title-fancy">{{ $t('confs') }}</p>
   </div>
   <div class="event-list container">
-    <div v-for="conf of displayConfs" :key="[conf.date, conf.area, conf.name].join('-')" class="conf event panel tiled compact small filled raised">
+    <div v-for="conf of displayConfs" :key="[conf.date, conf.area, conf.name].join('-')" class="conf event panel tiled filled raised">
       <div class="detail">
         <div class="head">
           <label class="date">{{ conf.displayDate }}</label>
           <label class="area">{{ conf.area }}</label>
         </div>
-        <h3><nuxt-link :to="localePath({ name: 'e-id', params: { id: conf.id } })">{{ conf.title }}</nuxt-link></h3>
+        <h3>{{ conf.title }}</h3>
         <p>{{ conf.time }}</p>
+        <nuxt-link :to="localePath({ name: 'e-id', params: { id: conf.id } })">{{ PUNCT.ELLIPS }}</nuxt-link>
       </div>
     </div>
   </div>
@@ -49,6 +50,7 @@ _en:
 </template>
 
 <script>
+import { PUNCT } from '~/lib/const'
 import { generateMeta } from '~/lib/meta'
 import confs from '~/data/confs.json'
 import workshops from '~/data/workshops.json'
@@ -57,7 +59,8 @@ export default {
   data() {
     return {
       confs,
-      workshops
+      workshops,
+      PUNCT
     }
   },
   computed: {

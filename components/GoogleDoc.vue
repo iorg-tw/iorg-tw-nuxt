@@ -13,7 +13,7 @@ _en:
     <div class="title">
       <h1 :is="titleTag" v-if="doc.title" v-html="optimizeTracking(doc.title)"></h1>
       <p v-if="doc.subtitle" class="subtitle" v-html="optimizeTracking(doc.subtitle)"></p>
-      <a v-if="enableToggle" class="toggle" @click="toggle = !toggle">⋯</a>
+      <a v-if="enableToggle" class="toggle" @click="toggle = !toggle">{{ PUNCT.ELLIPS }}</a>
     </div>
     <ul v-if="doc.authorInfoItemsHTML" class="author-info" v-html="doc.authorInfoItemsHTML"></ul>
     <ul class="more-info">
@@ -34,7 +34,9 @@ _en:
 </template>
 
 <script>
+import { PUNCT } from '~/lib/const'
 import { optimizeTracking } from '~/lib/typography'
+
 export default {
   props: {
     doc: {
@@ -48,7 +50,8 @@ export default {
   },
   data() {
     return {
-      toggle: true
+      toggle: true,
+      PUNCT
     }
   },
   computed: {
