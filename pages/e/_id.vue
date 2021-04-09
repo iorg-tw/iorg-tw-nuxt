@@ -16,7 +16,7 @@ export default {
   },
   async asyncData({ params, error }) {
     const id = params.id
-    const conf = confs[id]
+    const conf = confs.find(c => c.id === id)
     if(!conf) {
       error({ statusCode: 404, message: 'eventNotFound' })
       return

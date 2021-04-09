@@ -86,7 +86,7 @@ async function getEvents(rows) {
   }))
   fs.writeFileSync('data/workshops.json', JSON.stringify(workshops, null, '\t'))
 
-  let confs = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
+  const confs = rows.filter(row => row.type === 'conf' && row.id && row.publicURL_tw).map(row => ({
     show: row.show ? true : false,
     id: row.id,
     area: row.area.trim(),
@@ -123,8 +123,8 @@ async function getEvents(rows) {
       conf.localizedDocs[locale] = doc
     })
   }
-  confs = Object.assign({}, ...confs.map(conf => ({ [conf.id]: conf })))
   fs.writeFileSync('data/confs.json', JSON.stringify(confs, null, '\t'))
+  // FIXME: this preserves order (js sort numeric keys) but make /e/_id slower
 }
 
 async function get() {
