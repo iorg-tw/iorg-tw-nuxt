@@ -6,7 +6,7 @@
       <img class="cover" :src="head._image" />
       <div class="meta">
         <p class="title">{{ head.title }}</p>
-        <p v-if="!head._description" class="description not-available" >No description</p>
+        <p v-if="!head._description" class="description not-available">No description</p>
         <p v-else class="description">{{ head._description }}</p>
       </div>
     </div>
