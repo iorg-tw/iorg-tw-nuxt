@@ -17,6 +17,7 @@ module.exports = {
     'keyword-spacing': 0,
     'no-unneeded-ternary': 0,
     'space-before-function-paren': ['error', 'never'],
+    'vue/comment-directive': 0,
     'vue/html-indent': 0,
     'vue/html-self-closing': 0,
     'vue/no-v-html': 0,

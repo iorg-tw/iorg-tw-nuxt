@@ -47,7 +47,7 @@ export default {
   },
   i18n: {
     lazy: true,
-    langDir: '/locales/',
+    langDir: '~/locales/',
     locales: [
       {
         code: '_en',
