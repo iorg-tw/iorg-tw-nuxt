@@ -5,8 +5,7 @@
 </template>
 
 <script>
-import articleMap from '~/data/articles'
-import { getDoc } from '~/lib/gdoc'
+import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 
@@ -14,8 +13,8 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData() {
-    const doc = await getDoc(articleMap._R_M.publicURLs._tw)
+  async asyncData({ app }) {
+    const [doc] = await getLocalizedArticles(['_R_M'], app.i18n.locale, app.i18n.defaultLocale)
     return {
       doc
     }

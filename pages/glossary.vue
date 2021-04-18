@@ -12,17 +12,19 @@
 </template>
 
 <script>
-import articleMap from '~/data/articles'
-import { getDoc, structureDoc } from '~/lib/gdoc'
+import { getLocalizedArticles } from '~/lib/i18n'
+import { structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
+
+const ID = '_G'
 
 export default {
   components: {
     GoogleDoc
   },
-  async asyncData() {
-    const doc = await getDoc(articleMap._G.publicURLs._tw)
+  async asyncData({ app }) {
+    const [doc] = await getLocalizedArticles([ID], app.i18n.locale, app.i18n.defaultLocale)
     const structuredDoc = structureDoc(doc.html, ['h2'])
     return {
       doc,

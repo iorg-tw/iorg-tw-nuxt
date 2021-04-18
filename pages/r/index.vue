@@ -16,7 +16,7 @@ _en:
     <p class="subtitle">{{ $t('research_title_2') }}</p>
   </div>
   <div class="key-findings">
-    <div v-for="objL0 of localizedStructuredDocK" :key="objL0.title" class="group">
+    <div v-for="objL0 of structuredDocK" :key="objL0.title" class="group">
       <div class="group-header section-header">
         <div :is="objL0.titleTag" class="group-title">{{ objL0.title }}</div>
         <nuxt-link :to="localePath('/r/k')" class="more button small">{{ $t('more') }}</nuxt-link>
@@ -32,14 +32,14 @@ _en:
     <h2>{{ $t('directory') }}</h2>
   </div>
   <node-list :nodes="level0Nodes" :options="{ tiled: true }" />
-  <intro k="iorg_about" :more="localizedDocAck.html" />
+  <intro k="iorg_about" :more="docAck.html" />
 </div>
 </template>
 
 <script>
-import articleMap from '~/data/articles'
 import tree from '~/data/research-tree'
-import { getDoc, structureDoc } from '~/lib/gdoc'
+import { getLocalizedArticles } from '~/lib/i18n'
+import { structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import NodeList from '~/components/NodeList'
 import Intro from '~/components/Intro'
@@ -49,33 +49,12 @@ export default {
     NodeList,
     Intro
   },
-  async asyncData() {
-    /* eslint-disable camelcase */
-    const [docK_tw, docK_en, docAck_tw, docAck_en] = await Promise.all([
-      getDoc(articleMap._R_K.publicURLs._tw),
-      getDoc(articleMap._R_K.publicURLs._en),
-      getDoc(articleMap.ack.publicURLs._tw),
-      getDoc(articleMap.ack.publicURLs._en)
-    ])
-
+  async asyncData({ app }) {
+    const [docK, docAck] = await getLocalizedArticles(['_R_K', 'ack'], app.i18n.locale, app.i18n.defaultLocale)
     return {
-      structuredDocK: {
-        _tw: structureDoc(docK_tw.html, ['h2', 'h3']),
-        _en: structureDoc(docK_en.html, ['h2', 'h3'])
-      },
-      docAck: {
-        _tw: docAck_tw,
-        _en: docAck_en
-      },
+      structuredDocK: structureDoc(docK.html, ['h2', 'h3']),
+      docAck,
       level0Nodes: tree.filter(node => node.level === 0)
-    }
-  },
-  computed: {
-    localizedStructuredDocK() {
-      return this.structuredDocK[this.$i18n.locale]
-    },
-    localizedDocAck() {
-      return this.docAck[this.$i18n.locale]
     }
   },
   head() {

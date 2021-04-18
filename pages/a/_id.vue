@@ -6,13 +6,12 @@
 </template>
 
 <script>
-import { getDoc } from '~/lib/gdoc'
-import { localizeArticle } from '~/lib/i18n'
+import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 import Actions from '~/components/Actions'
 
-import articles from '~/data/articles.json'
+import articleMap from '~/data/articles'
 
 export default {
   components: {
@@ -21,20 +20,13 @@ export default {
   },
   async asyncData({ app, params, error }) {
     const id = params.id
-    const article = articles[id]
+    const article = articleMap[id]
     if(!article) {
       error({ statusCode: 404, message: 'articleNotFound' })
       return
     }
 
-    const doc = await getDoc(localizeArticle(article, app.i18n.locale, app.i18n.defaultLocale).publicURL)
-    // FIXME: this is a hack
-    if(article.publishedAt) {
-      doc.publishedAt = article.publishedAt
-    }
-    if(article.updatedAt) {
-      doc.updatedAt = article.updatedAt
-    }
+    const [doc] = await getLocalizedArticles([id], app.i18n.locale, app.i18n.defaultLocale)
     return {
       doc
     }

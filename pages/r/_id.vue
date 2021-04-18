@@ -7,8 +7,7 @@
 <script>
 import articleMap from '~/data/articles'
 import tree from '~/data/research-tree'
-import { getDoc } from '~/lib/gdoc'
-import { localizeArticle } from '~/lib/i18n'
+import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 
@@ -24,24 +23,7 @@ export default {
       error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
-    const node = matchingNodes[0]
-    const article = articleMap[node.id]
-    const locale = app.i18n.locale
-    const localizedDoc = localizeArticle(article, locale, app.i18n.defaultLocale)
-    let doc = {}
-    if(article.cache && localizedDoc.cache) {
-      doc = await import('~/data/cached-articles/' + localizedDoc.cache + '.json')
-      doc = doc.default
-    } else {
-      doc = await getDoc(localizedDoc.publicURL)
-    }
-    // FIXME: this is a hack
-    if(article.publishedAt) {
-      doc.publishedAt = article.publishedAt
-    }
-    if(article.updatedAt) {
-      doc.updatedAt = article.updatedAt
-    }
+    const [doc] = await getLocalizedArticles([matchingNodes[0].id], app.i18n.locale, app.i18n.defaultLocale)
     return {
       doc
     }

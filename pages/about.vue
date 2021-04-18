@@ -1,39 +1,28 @@
 <template>
 <div class="page about">
-  <google-doc :doc="localizedDoc" />
+  <google-doc :doc="doc" />
 </div>
 </template>
 
 <script>
-import articleMap from '~/data/articles'
-import { getDoc } from '~/lib/gdoc'
+import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
+
+const ID = 'about'
 
 export default {
   components: {
     GoogleDoc
   },
-  async asyncData() {
-    const docURLs = [
-      articleMap.about.publicURLs._tw,
-      articleMap.about.publicURLs._en
-    ] // 0 = _tw; 1 = _en
-    const docs = await Promise.all(docURLs.map(url => getDoc(url)))
+  async asyncData({ app }) {
+    const [doc] = await getLocalizedArticles([ID], app.i18n.locale, app.i18n.defaultLocale)
     return {
-      localizedDocs: {
-        _tw: docs[0],
-        _en: docs[1]
-      }
-    }
-  },
-  computed: {
-    localizedDoc() {
-      return this.localizedDocs[this.$i18n.locale]
+      doc
     }
   },
   head() {
-    return generateMeta(this.localizedDoc.title)
+    return generateMeta(this.doc.title)
   }
 }
 </script>
