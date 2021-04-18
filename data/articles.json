@@ -393,6 +393,8 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
 		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2021/2/28 20:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
@@ -400,7 +402,9 @@
 				"summary": "IORG 中國對台滲透研究",
 				"tags": [],
 				"articleID": "_R_M",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/2/28 20:00"
 			}
 		}
 	},
@@ -428,14 +432,18 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
 		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2021/4/18 19:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "詞彙定義",
-				"summary": "IORG 中國對台影響力作戰研究",
+				"summary": "詞彙定義，是學術研究、公眾討論的重要基礎工程。IORG 基於科學研究應有的嚴謹態度、預設開放（open by default）精神，於下表列 IORG 研究報告、報導中相關詞彙定義。",
 				"tags": [],
 				"articleID": "_G",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/4/18 19:00"
 			}
 		}
 	},
@@ -444,16 +452,28 @@
 		"type": "sys",
 		"id": "_O",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub"
 		},
+		"publishedAt": "2021/2/28 20:00",
+		"updatedAt": "2021/4/18 19:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "研究成果授權公開",
-				"summary": "IORG 中國對台滲透研究",
 				"tags": [],
 				"articleID": "_O",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2021/4/18 19:00"
+			},
+			"_en": {
+				"title": "Licensing",
+				"tags": [],
+				"articleID": "_O",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2021/4/18 19:00"
 			}
 		}
 	},
