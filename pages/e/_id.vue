@@ -21,6 +21,8 @@ export default {
       error({ statusCode: 404, message: 'eventNotFound' })
       return
     }
+
+    // FIXME: this is the old way
     const docURLs = [
       conf.publicURLs._tw,
       conf.publicURLs._en
