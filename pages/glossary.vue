@@ -1,10 +1,9 @@
 <template>
 <div class="page glossary">
-  <div class="title-doc google-doc as-doc">
+  <div class="title-doc google-doc as-page">
     <div class="title">
       <h1>{{ doc.title }}</h1>
     </div>
-    <div class="separator"></div>
     <div class="content">
       <p>{{ doc.summary }}</p><!-- FIXME: this is a hack -->
     </div>
@@ -36,7 +35,7 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.doc.title)
+    return generateMeta(this.doc.title, '', this.doc.summary)
   }
 }
 </script>
