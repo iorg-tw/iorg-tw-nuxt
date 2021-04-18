@@ -4,6 +4,10 @@
     <div class="title">
       <h1>{{ doc.title }}</h1>
     </div>
+    <div class="separator"></div>
+    <div class="content">
+      <p>{{ doc.summary }}</p><!-- FIXME: this is a hack -->
+    </div>
   </div>
   <div class="terms">
     <google-doc v-for="obj of structuredDoc" :key="obj.title" :doc="obj" :options="{ enableToggle: true }" class="term" />
