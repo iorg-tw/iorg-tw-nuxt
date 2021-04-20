@@ -23,7 +23,7 @@ _en:
       </div>
       <div v-if="objL0.children" class="findings container">
         <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding panel tiled large filled raised">
-          <div class="header detail">{{ objL1.title }}</div>
+          <p class="header detail">{{ objL1.title }}</p>
         </div>
       </div>
     </div>
