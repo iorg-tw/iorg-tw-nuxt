@@ -4,7 +4,7 @@
     <img class="cover" :src="node.image" />
     <div class="detail">
       <p v-if="node.code">{{ node.code }}</p>
-      <h3><nuxt-link :to="localePath(node.to)">{{ $t(node.id) }}</nuxt-link></h3>
+      <nuxt-link :to="localePath(node.to)">{{ $t(node.id) }}</nuxt-link>
     </div>
   </div>
 </div>
@@ -47,6 +47,9 @@ export default {
     > .detail {
       padding: 0;
       padding-left: 0.75rem;
+      > a {
+        font-weight: bold;
+      }
     }
   }
 }
