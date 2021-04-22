@@ -3,7 +3,7 @@
 		"id": "X-2R-32-04",
 		"type": "jpg",
 		"fileName": "X-2R-32-04.jpg",
-		"contentInfo": "洪水猛兽 baby",
+		"author": "洪水猛兽 baby",
 		"platform": "微博",
 		"srcURL": "http://m.weibo.cn/1827049121/4280865775351446"
 	},
@@ -11,7 +11,7 @@
 		"id": "X-2R-67-39",
 		"type": "png",
 		"fileName": "X-2R-67-39.png",
-		"contentInfo": "觀察者網 6park",
+		"author": "觀察者網 6park",
 		"platform": "6park",
 		"srcURL": "https://www.guancha.cn/internation/2018_09_05_470949.shtml"
 	},
@@ -19,7 +19,7 @@
 		"id": "X-2R-36-67",
 		"type": "jpg",
 		"fileName": "X-2R-36-67.jpg",
-		"contentInfo": "「中国人先上车」",
+		"author": "「中国人先上车」",
 		"platform": "應為微博",
 		"srcURL": "https://weibo.com/2161898604/GxXMgEVKo"
 	},
@@ -27,7 +27,7 @@
 		"id": "X-2R-44-97",
 		"type": "png",
 		"fileName": "X-2R-44-97.png",
-		"contentInfo": "时间视频",
+		"author": "时间视频",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/6250824982/GxXAqkwv1"
 	},
@@ -35,7 +35,7 @@
 		"id": "X-2R-61-98",
 		"type": "png",
 		"fileName": "X-2R-61-98.png",
-		"contentInfo": "战略情报菌",
+		"author": "战略情报菌",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/3276757454/GxXJwsDjv"
 	},
@@ -43,7 +43,7 @@
 		"id": "X-2R-73-62",
 		"type": "png",
 		"fileName": "X-2R-73-62.png",
-		"contentInfo": "观察者网",
+		"author": "观察者网",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/1887344341/GxYl46fFE"
 	},
@@ -51,7 +51,7 @@
 		"id": "X-2R-60-94",
 		"type": "png",
 		"fileName": "X-2R-60-94.png",
-		"contentInfo": "人民日報",
+		"author": "人民日報",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/2803301701/GxYpkdaNZ"
 	},
@@ -59,7 +59,7 @@
 		"id": "X-2R-78-05",
 		"type": "png",
 		"fileName": "X-2R-78-05.png",
-		"contentInfo": "本-良品mini",
+		"author": "本-良品mini",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/2161898604/GxXMgEVKo"
 	},
@@ -67,7 +67,7 @@
 		"id": "X-2R-71-58",
 		"type": "png",
 		"fileName": "X-2R-71-58.png",
-		"contentInfo": "日本包车地陪乐程国际",
+		"author": "日本包车地陪乐程国际",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/5404952419/GxYvjE9nB"
 	},
@@ -75,7 +75,7 @@
 		"id": "X-2R-90-01",
 		"type": "png",
 		"fileName": "X-2R-90-01.png",
-		"contentInfo": "左奶奶在东京",
+		"author": "左奶奶在东京",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/3046407527/GxZ5ev8dP"
 	},
@@ -83,7 +83,7 @@
 		"id": "X-2R-11-37",
 		"type": "png",
 		"fileName": "X-2R-11-37.png",
-		"contentInfo": "聚盈传媒",
+		"author": "聚盈传媒",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/3447666002/GxZo0sfaz"
 	},
@@ -91,46 +91,120 @@
 		"id": "X-2R-88-19",
 		"type": "png",
 		"fileName": "X-2R-88-19.png",
-		"contentInfo": "czqs2000（青山）",
-		"platform": "PTT Gossiping 版",
+		"author": "czqs2000（青山）",
+		"group": "Gossiping",
+		"platform": "PTT",
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1536188697.A.CD7.htmll"
 	},
 	"X-2R-15-02": {
 		"id": "X-2R-15-02",
 		"type": "png",
 		"fileName": "X-2R-15-02.png",
-		"contentInfo": "zoosleep",
-		"platform": "PTT Japan_Travel 版",
+		"author": "zoosleep",
+		"group": "Japan_Travel",
+		"platform": "PTT",
 		"srcURL": "https://www.ptt.cc/bbs/Japan_Travel/M.1536199496.A.41D.html"
 	},
 	"X-2R-51-03": {
 		"id": "X-2R-51-03",
 		"type": "png",
 		"fileName": "X-2R-51-03.png",
-		"contentInfo": "GuRuGuRu",
-		"platform": "PTT Japan_Travel 版",
+		"author": "GuRuGuRu",
+		"group": "Japan_Travel",
+		"platform": "PTT",
 		"srcURL": "https://www.ptt.cc/man/Japan_Travel/D9B3/D171/DF13/M.1536249726.A.18B.html"
 	},
 	"X-2R-38-15": {
 		"id": "X-2R-38-15",
 		"type": "png",
 		"fileName": "X-2R-38-15.png",
-		"contentInfo": "蘋果日報",
+		"platform": "蘋果日報",
 		"srcURL": "https://tw.appledaily.com/new/realtime/20180906/1424775/"
 	},
 	"X-2R-31-36": {
 		"id": "X-2R-31-36",
 		"type": "png",
 		"fileName": "X-2R-31-36.png",
-		"contentInfo": "青山",
-		"platform": "PTT DSLR 版",
+		"author": "青山",
+		"group": "DSLR",
+		"platform": "PTT",
 		"srcURL": "https://www.ptt.cc/bbs/DSLR/M.1420438843.A.1CD.html"
 	},
 	"X-2R-55-43": {
 		"id": "X-2R-55-43",
 		"type": "png",
 		"fileName": "X-2R-55-43.png",
-		"contentInfo": "自由時報",
+		"platform": "自由時報",
 		"srcURL": "https://news.ltn.com.tw/news/politics/breakingnews/2544608"
+	},
+	"X-A4-50-15": {
+		"id": "X-A4-50-15",
+		"type": "png",
+		"fileName": "X-A4-50-15.png",
+		"author": "Howard Fang",
+		"group": "中華民國全國公務人員協會",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/925661214211838/permalink/2049727698471845"
+	},
+	"X-A4-94-17": {
+		"id": "X-A4-94-17",
+		"type": "png",
+		"fileName": "X-A4-94-17.png",
+		"author": "Howard Fang",
+		"group": "臺灣退伍軍人權益保障協會",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/374174266020647/permalink/18762291724818088"
+	},
+	"X-A4-41-60": {
+		"id": "X-A4-41-60",
+		"type": "png",
+		"fileName": "X-A4-41-60.png",
+		"author": "Lee Sung Wai",
+		"group": "新聞天地",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/1411485495557508/permalink/2320361898003192"
+	},
+	"X-A4-18-03": {
+		"id": "X-A4-18-03",
+		"type": "png",
+		"fileName": "X-A4-18-03.png",
+		"author": "施傳光",
+		"group": "韓國瑜（北北基）後援會",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/2339330729725913/permalink/2392964761029176"
+	},
+	"X-A4-85-14": {
+		"id": "X-A4-85-14",
+		"type": "png",
+		"fileName": "X-A4-85-14.png",
+		"author": "John Xiao",
+		"group": "台灣第一位女總統！小英粉絲團",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/772248019642831/permalink/11606836974659266"
+	},
+	"X-A4-37-06": {
+		"id": "X-A4-37-06",
+		"type": "png",
+		"fileName": "X-A4-37-06.png",
+		"author": "高雄在地韓國瑜 News",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/HanKuoYuNews/posts/2116240948671504"
+	},
+	"X-A4-42-08": {
+		"id": "X-A4-42-08",
+		"type": "png",
+		"fileName": "X-A4-42-08.png",
+		"author": "Zhinhai Pan",
+		"group": "韓國瑜市長後援會",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/2072874742809044/permalink/2428245553938626"
+	},
+	"X-A4-60-12": {
+		"id": "X-A4-60-12",
+		"type": "png",
+		"fileName": "X-A4-60-12.png",
+		"author": "貝勒爺與涓格格",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/romeolee1014/posts/820446195078295"
 	}
 }

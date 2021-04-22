@@ -12,7 +12,8 @@ _en:
   </div>
   <ul class="file-info">
     <li class="id"><a>{{ file.id }}</a></li>
-    <li v-if="file.contentInfo" class="content-info">{{ file.contentInfo }}</li>
+    <li v-if="file.author" class="author">{{ file.author }}</li>
+    <li v-if="file.group" class="group">{{ file.group }}</li>
     <li v-if="file.platform" class="platform">{{ file.platform }}</li>
     <li v-if="file.srcURL" class="src"><a :href="file.srcURL" target="_blank">{{ $t('source') }}</a></li>
   </ul>
