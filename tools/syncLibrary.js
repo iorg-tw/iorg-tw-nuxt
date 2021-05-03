@@ -151,17 +151,19 @@ async function get() {
   fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
 
   console.info('archive...')
+  const hasFile = ['image', 'video']
   rows = sheets[1]
   rows = rows.filter(row => row.id && row.type).map(row => ({
     id: row.id,
     type: row.type,
-    fileName: row.id + '.' + row.type,
+    ...(hasFile.includes(row.type) && ok(row.ft) ? { fileName: row.id + '.' + row.ft } : {}),
     ...(ok(row.author) ? { author: row.author } : {}),
     ...(ok(row.group) ? { group: row.group } : {}),
     ...(ok(row.platform) ? { platform: row.platform } : {}),
     ...(ok(row.srcURL) ? { srcURL: row.srcURL } : {}),
     ...(ok(row.publishedAt) ? { publishedAt: row.publishedAt } : {}),
-    ...(ok(row.data) ? { data: row.data } : {})
+    ...(ok(row.title) ? { title: row.title } : {}),
+    ...(ok(row.content) ? { content: row.content } : {})
   }))
   result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
   fs.writeFileSync('data/archive.json', JSON.stringify(result, null, '\t'))

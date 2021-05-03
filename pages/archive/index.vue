@@ -1,8 +1,9 @@
 <template>
 <div class="page archive">
   <div class="items">
-    <nuxt-link v-for="(obj, id) in archive" :key="id" :to="localePath({ name: 'archive-id', params: { id } })" class="item block">
-      <img :src="baseURL + obj.fileName" />
+    <nuxt-link v-for="(obj, id) in archive" :key="id" :to="localePath({ name: 'archive-id', params: { id } })" class="item block" :class="obj.type">
+      <img v-if="obj.type === 'image'" :src="baseURL + obj.fileName" class="content" />
+      <div v-else-if="obj.type === 'message' && obj.content" class="content">{{ obj.content.substring(0, 140) }}</div>
     </nuxt-link>
     <div v-for="i in 15" :key="i" class="item"></div>
   </div>
@@ -52,6 +53,17 @@ export default {
       overflow: hidden;
       > img {
         max-width: calc(var(--item-size) * 3);
+      }
+
+      &.message {
+        background-color: var(--iorg-paper);
+        > .content {
+          width: 150%;
+          height: 100%;
+          padding: 0.375rem 0.5rem;
+          font-size: 0.75rem;
+          color: var(--iorg-neutral);
+        }
       }
     }
   }

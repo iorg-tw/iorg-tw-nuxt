@@ -6,16 +6,17 @@ _en:
 </i18n>
 
 <template>
-<div class="page archive-file">
-  <div class="file-container">
-    <img :src="baseURL + file.fileName" class="file" />
+<div class="page archive-entry">
+  <div class="entry-content">
+    <img v-if="entry.type === 'image'" :src="baseURL + entry.fileName" :class="entry.type" />
+    <div v-else-if="entry.type === 'message'" :class="entry.type">{{ entry.content }}</div>
   </div>
-  <ul class="file-info">
-    <li class="id"><a>{{ file.id }}</a></li>
-    <li v-if="file.author" class="author">{{ file.author }}</li>
-    <li v-if="file.group" class="group">{{ file.group }}</li>
-    <li v-if="file.platform" class="platform">{{ file.platform }}</li>
-    <li v-if="file.srcURL" class="src"><a :href="file.srcURL" target="_blank">{{ $t('source') }}</a></li>
+  <ul class="entry-info">
+    <li class="id"><a>{{ entry.id }}</a></li>
+    <li v-if="entry.author" class="author">{{ entry.author }}</li>
+    <li v-if="entry.group" class="group">{{ entry.group }}</li>
+    <li v-if="entry.platform" class="platform">{{ entry.platform }}</li>
+    <li v-if="entry.srcURL" class="src"><a :href="entry.srcURL" target="_blank">{{ $t('source') }}</a></li>
   </ul>
 </div>
 </template>
@@ -29,18 +30,18 @@ const baseURL = 'https://raw.githubusercontent.com/iorg-tw/archive/master/files/
 export default {
   asyncData({ params, error }) {
     const id = params.id
-    const file = archive.[id]
-    if(!file) {
+    const entry = archive.[id]
+    if(!entry) {
       error({ statusCode: 404, message: 'fileNotFound' })
       return
     }
     return {
-      file,
+      entry,
       baseURL
     }
   },
   head() {
-    return generateMeta(this.file.id, this.$t('_X'), this.file.contentInfo)
+    return generateMeta(this.entry.id, this.$t('_X'), this.entry.contentInfo)
   }
 }
 </script>
@@ -48,7 +49,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.archive-file {
+.page.archive-entry {
   padding: $default-page-padding;
   display: flex;
   flex-wrap: wrap;
@@ -56,18 +57,25 @@ export default {
   align-items: flex-end;
 
   $m: 1.25rem;
-  > .file-container {
+  > .entry-content {
     margin: 0 $m;
     padding: 0;
     max-height: 40rem;
-    > .file {
+    > .image {
       display: block;
       max-width: 100%;
       max-height: 40rem;
       @include shadow;
     }
+    > .message {
+      width: 20rem;
+      padding: 1rem;
+      line-height: $line-height-default;
+      background-color: var(--iorg-paper);
+      color: var(--iorg-neutral);
+    }
   }
-  > .file-info {
+  > .entry-info {
     list-style: none;
     width: 16rem;
     margin: $m 0 0;
