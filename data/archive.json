@@ -1,7 +1,7 @@
 {
 	"X-2R-32-04": {
 		"id": "X-2R-32-04",
-		"type": "jpg",
+		"type": "image",
 		"fileName": "X-2R-32-04.jpg",
 		"author": "洪水猛兽 baby",
 		"platform": "微博",
@@ -9,23 +9,22 @@
 	},
 	"X-2R-67-39": {
 		"id": "X-2R-67-39",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-67-39.png",
-		"author": "觀察者網 6park",
-		"platform": "6park",
+		"author": "观察者网",
+		"platform": "留园网",
 		"srcURL": "https://www.guancha.cn/internation/2018_09_05_470949.shtml"
 	},
 	"X-2R-36-67": {
 		"id": "X-2R-36-67",
-		"type": "jpg",
+		"type": "image",
 		"fileName": "X-2R-36-67.jpg",
-		"author": "「中国人先上车」",
 		"platform": "應為微博",
 		"srcURL": "https://weibo.com/2161898604/GxXMgEVKo"
 	},
 	"X-2R-44-97": {
 		"id": "X-2R-44-97",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-44-97.png",
 		"author": "时间视频",
 		"platform": "微博",
@@ -33,7 +32,7 @@
 	},
 	"X-2R-61-98": {
 		"id": "X-2R-61-98",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-61-98.png",
 		"author": "战略情报菌",
 		"platform": "微博",
@@ -41,7 +40,7 @@
 	},
 	"X-2R-73-62": {
 		"id": "X-2R-73-62",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-73-62.png",
 		"author": "观察者网",
 		"platform": "微博",
@@ -49,15 +48,15 @@
 	},
 	"X-2R-60-94": {
 		"id": "X-2R-60-94",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-60-94.png",
-		"author": "人民日報",
+		"author": "人民日报",
 		"platform": "微博",
 		"srcURL": "https://weibo.com/2803301701/GxYpkdaNZ"
 	},
 	"X-2R-78-05": {
 		"id": "X-2R-78-05",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-78-05.png",
 		"author": "本-良品mini",
 		"platform": "微博",
@@ -65,7 +64,7 @@
 	},
 	"X-2R-71-58": {
 		"id": "X-2R-71-58",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-71-58.png",
 		"author": "日本包车地陪乐程国际",
 		"platform": "微博",
@@ -73,7 +72,7 @@
 	},
 	"X-2R-90-01": {
 		"id": "X-2R-90-01",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-90-01.png",
 		"author": "左奶奶在东京",
 		"platform": "微博",
@@ -81,7 +80,7 @@
 	},
 	"X-2R-11-37": {
 		"id": "X-2R-11-37",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-11-37.png",
 		"author": "聚盈传媒",
 		"platform": "微博",
@@ -89,7 +88,7 @@
 	},
 	"X-2R-88-19": {
 		"id": "X-2R-88-19",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-88-19.png",
 		"author": "czqs2000（青山）",
 		"group": "Gossiping",
@@ -98,7 +97,7 @@
 	},
 	"X-2R-15-02": {
 		"id": "X-2R-15-02",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-15-02.png",
 		"author": "zoosleep",
 		"group": "Japan_Travel",
@@ -107,7 +106,7 @@
 	},
 	"X-2R-51-03": {
 		"id": "X-2R-51-03",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-51-03.png",
 		"author": "GuRuGuRu",
 		"group": "Japan_Travel",
@@ -116,14 +115,14 @@
 	},
 	"X-2R-38-15": {
 		"id": "X-2R-38-15",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-38-15.png",
 		"platform": "蘋果日報",
 		"srcURL": "https://tw.appledaily.com/new/realtime/20180906/1424775/"
 	},
 	"X-2R-31-36": {
 		"id": "X-2R-31-36",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-31-36.png",
 		"author": "青山",
 		"group": "DSLR",
@@ -132,14 +131,15 @@
 	},
 	"X-2R-55-43": {
 		"id": "X-2R-55-43",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-2R-55-43.png",
+		"author": "李欣芳",
 		"platform": "自由時報",
 		"srcURL": "https://news.ltn.com.tw/news/politics/breakingnews/2544608"
 	},
 	"X-A4-50-15": {
 		"id": "X-A4-50-15",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-50-15.png",
 		"author": "Howard Fang",
 		"group": "中華民國全國公務人員協會",
@@ -148,7 +148,7 @@
 	},
 	"X-A4-94-17": {
 		"id": "X-A4-94-17",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-94-17.png",
 		"author": "Howard Fang",
 		"group": "臺灣退伍軍人權益保障協會",
@@ -157,7 +157,7 @@
 	},
 	"X-A4-41-60": {
 		"id": "X-A4-41-60",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-41-60.png",
 		"author": "Lee Sung Wai",
 		"group": "新聞天地",
@@ -166,7 +166,7 @@
 	},
 	"X-A4-18-03": {
 		"id": "X-A4-18-03",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-18-03.png",
 		"author": "施傳光",
 		"group": "韓國瑜（北北基）後援會",
@@ -175,7 +175,7 @@
 	},
 	"X-A4-85-14": {
 		"id": "X-A4-85-14",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-85-14.png",
 		"author": "John Xiao",
 		"group": "台灣第一位女總統！小英粉絲團",
@@ -184,7 +184,7 @@
 	},
 	"X-A4-37-06": {
 		"id": "X-A4-37-06",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-37-06.png",
 		"author": "高雄在地韓國瑜 News",
 		"platform": "Facebook",
@@ -192,7 +192,7 @@
 	},
 	"X-A4-42-08": {
 		"id": "X-A4-42-08",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-42-08.png",
 		"author": "Zhinhai Pan",
 		"group": "韓國瑜市長後援會",
@@ -201,10 +201,451 @@
 	},
 	"X-A4-60-12": {
 		"id": "X-A4-60-12",
-		"type": "png",
+		"type": "image",
 		"fileName": "X-A4-60-12.png",
 		"author": "貝勒爺與涓格格",
 		"platform": "Facebook",
 		"srcURL": "https://www.facebook.com/romeolee1014/posts/820446195078295"
+	},
+	"X-86-85-19": {
+		"id": "X-86-85-19",
+		"type": "image",
+		"fileName": "X-86-85-19.png",
+		"author": "U.S. CDC",
+		"srcURL": "https://www.cdc.gov/flu/about/burden/index.html"
+	},
+	"X-86-24-20": {
+		"id": "X-86-24-20",
+		"type": "image",
+		"fileName": "X-86-24-20.png",
+		"author": "Audrey Mcnamara",
+		"platform": "CBS News",
+		"srcURL": "https://www.cbsnews.com/amp/news/flu-season-comes-early-this-year-due-to-unexpected-virus-cdc-says/"
+	},
+	"X-86-86-35": {
+		"id": "X-86-86-35",
+		"type": "message",
+		"platform": "LINE",
+		"content": "知己知彼，保護自己！美國2019年已經開始有將近千人死於流感。16000人需要住院治療。—CBS 新聞報導（12/7/2019） 根據美國疾病管制 中心CDC, 11月底止美國流感病例已經超過1.7百萬例，16000人住院治療，910人因為流感死亡。今年比較特別的是B/Victoria 這株流感病毒出現的較早，一般都在二月才出現的。今年比較嚴重的多在南部的幾個州，像是德州，阿拉巴馬州，路易斯安那州。因為流感大流行的出現很難預測，最好的方法還是打流感疫苗。記得「流感」不是普通的感冒，它是可以致人於命的。許多人覺得流鼻涕發燒咳嗽大概是普通感冒，不會太在意。的確，普通感冒自己會好，但是因為剛開始的症狀和流感很類似，萬一你被感染的是流感病毒，有可能在幾天內會因爲急性呼吸道衰竭引發多重器官壞死而喪命。一個小動作，可以保護自己，也保護家人。 https://www.cbsnews.com/ amp/news/flu-season-comes-early-this-year- due-to-unexpected-virus-cdc-says/"
+	},
+	"X-86-94-04": {
+		"id": "X-86-94-04",
+		"type": "image",
+		"fileName": "X-86-94-04.png",
+		"author": "Taiwan CDC",
+		"srcURL": "https://www.businesstoday.com.tw/article/category/80392/post/201912310037/"
+	},
+	"X-86-57-62": {
+		"id": "X-86-57-62",
+		"type": "image",
+		"fileName": "X-86-57-62.png",
+		"author": "WHO",
+		"srcURL": "https://www.who.int/csr/don/05-january-2020-pneumonia-of-unkown-cause- china/en/"
+	},
+	"X-86-60-11": {
+		"id": "X-86-60-11",
+		"type": "image",
+		"fileName": "X-86-60-11.png",
+		"author": "WHO",
+		"srcURL": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200131-sitrep-11-ncov.pdf"
+	},
+	"X-86-63-12": {
+		"id": "X-86-63-12",
+		"type": "image",
+		"fileName": "X-86-63-12.jpg",
+		"author": "U.S. CDC",
+		"platform": "Twitter",
+		"srcURL": "https://twitter.com/CDCFlu/status/12156892623325511755"
+	},
+	"X-86-87-10": {
+		"id": "X-86-87-10",
+		"type": "image",
+		"fileName": "X-86-87-10.jpg",
+		"author": "U.S. CDC",
+		"platform": "Twitter",
+		"srcURL": "https://twitter.com/CDCFlu/status/12258507252610744344"
+	},
+	"X-86-93-39": {
+		"id": "X-86-93-39",
+		"type": "image",
+		"fileName": "X-86-93-39.png",
+		"author": "王山",
+		"platform": "RFI",
+		"srcURL": "https://amp.rfi.fr/tw/社會/20191224-美國流感大爆發，蔓延30個州，370萬人感染，2000多人死亡"
+	},
+	"X-86-31-66": {
+		"id": "X-86-31-66",
+		"type": "image",
+		"fileName": "X-86-31-66.png",
+		"author": "呂宗緯",
+		"group": "中華民國警察署協會",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/852315508261265/permalink/14111744723753633"
+	},
+	"X-86-66-10": {
+		"id": "X-86-66-10",
+		"type": "image",
+		"fileName": "X-86-66-10.png",
+		"author": "呂宗緯",
+		"group": "中華民國陸軍軍官學校校友總會",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/261355090741587/permalink/11894524279318444"
+	},
+	"X-86-97-75": {
+		"id": "X-86-97-75",
+		"type": "image",
+		"fileName": "X-86-97-75.png",
+		"author": "Alvin Peng",
+		"group": "守護香港聲音同盟討論區",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/378720226156013/permalink/453854728642562",
+		"publishedAt": "2020-01-06 17:54:01"
+	},
+	"X-86-10-81": {
+		"id": "X-86-10-81",
+		"type": "image",
+		"fileName": "X-86-10-81.png",
+		"author": "Alvin Peng",
+		"group": "香港警察，忠誠勇毅，心繫社會，加油。",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/384777578385027/permalink/1231082487087861",
+		"publishedAt": "2020-01-06 17:54:02"
+	},
+	"X-86-21-49": {
+		"id": "X-86-21-49",
+		"type": "image",
+		"fileName": "X-86-21-49.png",
+		"author": "Alvin Peng",
+		"group": "撐警大聯盟唯一官方討論區",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/584788272081910/permalink/595845604309510",
+		"publishedAt": "2020-01-06 17:54:02"
+	},
+	"X-86-63-59": {
+		"id": "X-86-63-59",
+		"type": "image",
+		"fileName": "X-86-63-59.png",
+		"author": "Alvin Peng",
+		"group": "香港行動 HKAT",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/629944217033224/permalink/3174939515867002",
+		"publishedAt": "2020-01-06 17:54:06"
+	},
+	"X-86-35-18": {
+		"id": "X-86-35-18",
+		"type": "image",
+		"fileName": "X-86-35-18.png",
+		"author": "Alvin Peng",
+		"group": "反黑金~反港獨關注組（討論區）",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/329758607208561/permalink/1251419678375778",
+		"publishedAt": "2020-01-06 17:54:07"
+	},
+	"X-86-21-20": {
+		"id": "X-86-21-20",
+		"type": "image",
+		"fileName": "X-86-21-20.png",
+		"author": "Alvin Peng",
+		"group": "撐警大聯盟（盟友討論區）",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/203464160129973/permalink/913946765748372",
+		"publishedAt": "2020-01-06 17:54:07"
+	},
+	"X-86-60-53": {
+		"id": "X-86-60-53",
+		"type": "image",
+		"fileName": "X-86-60-53.png",
+		"author": "Alvin Peng",
+		"group": "Support CY Leung",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/2328988294029472/permalink/2447586012169699",
+		"publishedAt": "2020-01-06 17:54:10"
+	},
+	"X-86-98-54": {
+		"id": "X-86-98-54",
+		"type": "image",
+		"fileName": "X-86-98-54.png",
+		"author": "Alvin Peng",
+		"group": "全民抵制毒果日報商戶",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/697528760355999/permalink/2496089847166539",
+		"publishedAt": "2020-01-06 17:54:11"
+	},
+	"X-86-20-78": {
+		"id": "X-86-20-78",
+		"type": "image",
+		"fileName": "X-86-20-78.png",
+		"author": "時聞香港",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/HongKongGoodNews/posts/3461172217290023",
+		"publishedAt": "2020-01-07 11:01:00"
+	},
+	"X-86-40-43": {
+		"id": "X-86-40-43",
+		"type": "image",
+		"fileName": "X-86-40-43.png",
+		"author": "Pinky Leung",
+		"group": "齊撐特首林鄭月娥，會是好特首。",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/228239677636975/permalink/838636579930612",
+		"publishedAt": "2020-01-07 00:04:05"
+	},
+	"X-86-72-90": {
+		"id": "X-86-72-90",
+		"type": "image",
+		"fileName": "X-86-72-90.png",
+		"author": "Pinky Leung",
+		"group": "香港行動 HKAT",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/629944217033224/permalink/3175655135795440",
+		"publishedAt": "2020-01-07 00:04:08"
+	},
+	"X-86-19-46": {
+		"id": "X-86-19-46",
+		"type": "image",
+		"fileName": "X-86-19-46.png",
+		"author": "Pinky Leung",
+		"group": "全球華人自由談",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/331959467607740/permalink/616355765834774",
+		"publishedAt": "2020-01-07 00:04:09"
+	},
+	"X-86-50-78": {
+		"id": "X-86-50-78",
+		"type": "message",
+		"platform": "LINE",
+		"content": "美國流感蔓延30個州，370多萬人感染，2.000多人死亡！居然都沒有人報導；武漢的流感才幾十個人感染，就被說的好像世紀災情一樣！！！！"
+	},
+	"X-86-13-34": {
+		"id": "X-86-13-34",
+		"type": "image",
+		"fileName": "X-86-13-34.png",
+		"author": "郭匡超",
+		"platform": "中時電子報",
+		"srcURL": "https://www.chinatimes.com/realtimenews/20200116004393-2604077"
+	},
+	"X-86-18-90": {
+		"id": "X-86-18-90",
+		"type": "image",
+		"fileName": "X-86-18-90.png",
+		"author": "医学界",
+		"platform": "腾讯网",
+		"srcURL": "https://new.qq.com/omn/20200115/20200115A0RPZA00.htmll"
+	},
+	"X-86-39-65": {
+		"id": "X-86-39-65",
+		"type": "image",
+		"fileName": "X-86-39-65.jpg",
+		"author": "U.S. CDC",
+		"platform": "Twitter",
+		"srcURL": "https://twitter.com/CDCFlu/status/12182398231752130566"
+	},
+	"X-86-13-82": {
+		"id": "X-86-13-82",
+		"type": "image",
+		"fileName": "X-86-13-82.png",
+		"author": "澎湃新闻",
+		"platform": "新浪科技",
+		"srcURL": "https://tech.sina.com.cn/roll/2020-01-20/doc-iihnzahk5440592.shtmll"
+	},
+	"X-86-70-31": {
+		"id": "X-86-70-31",
+		"type": "image",
+		"fileName": "X-86-70-31.png",
+		"author": "北京新浪網",
+		"platform": "新浪新聞",
+		"srcURL": "https://news.sina.com.tw/article/20200120/34042464.htmll"
+	},
+	"X-86-41-67": {
+		"id": "X-86-41-67",
+		"type": "image",
+		"fileName": "X-86-41-67.png",
+		"author": "央视新闻客户端",
+		"platform": "京报网",
+		"srcURL": "http://www.bjd.com.cn/a/202001/22/WS5e27e808e4b0e6e58393b21c.htmll"
+	},
+	"X-86-85-98": {
+		"id": "X-86-85-98",
+		"type": "image",
+		"fileName": "X-86-85-98.png",
+		"author": "凤凰王冰汝",
+		"platform": "凤凰网",
+		"srcURL": "https://news.ifeng.com/c/7tRzyv3AHJg"
+	},
+	"X-86-33-62": {
+		"id": "X-86-33-62",
+		"type": "image",
+		"fileName": "X-86-33-62.png",
+		"author": "英国报姐",
+		"platform": "凤凰网",
+		"srcURL": "https://news.ifeng.com/c/7tTSqW2kMSx"
+	},
+	"X-86-86-63": {
+		"id": "X-86-86-63",
+		"type": "image",
+		"fileName": "X-86-86-63.png",
+		"author": "股市刀锋",
+		"platform": "新浪博客",
+		"srcURL": "http://blog.sina.com.cn/s/blog_66dd17cd0102z0b8.html",
+		"publishedAt": "2020-01-21 23:49:36"
+	},
+	"X-86-16-13": {
+		"id": "X-86-16-13",
+		"type": "image",
+		"fileName": "X-86-16-13.png",
+		"author": "美国移民",
+		"platform": "微信公众号"
+	},
+	"X-86-10-47": {
+		"id": "X-86-10-47",
+		"type": "image",
+		"fileName": "X-86-10-47.png",
+		"author": "旧金山湾区华人资讯",
+		"platform": "微信公众号"
+	},
+	"X-86-61-68": {
+		"id": "X-86-61-68",
+		"type": "image",
+		"fileName": "X-86-61-68.png",
+		"author": "圣地亚哥华人资讯",
+		"platform": "微信公众号"
+	},
+	"X-86-36-08": {
+		"id": "X-86-36-08",
+		"type": "image",
+		"fileName": "X-86-36-08.png",
+		"author": "这里是美国",
+		"platform": "微博",
+		"srcURL": "https://www.weibo.com/2243807243/IqF47CGjM"
+	},
+	"X-86-96-66": {
+		"id": "X-86-96-66",
+		"type": "image",
+		"fileName": "X-86-96-66.png",
+		"author": "这里是美国",
+		"platform": "微信公众号",
+		"srcURL": "https://mp.weixin.qq.com/s?__biz=MjM5NDE1MDYyMQ==&amp;mid=2651045135&amp;idx=1&amp;sn=77a6d08e430d62c6d461242269365b25"
+	},
+	"X-86-67-64": {
+		"id": "X-86-67-64",
+		"type": "image",
+		"fileName": "X-86-67-64.png",
+		"author": "环球网",
+		"platform": "微信公众号",
+		"srcURL": "https://mp.weixin.qq.com/s?__biz=MTQzMTE0MjcyMQ==&mid=2666627455&idx=5&sn=442cec55c27c810384ecc0e541d5cce7&chksm=667757515100de4724167bee962f0676a193808222352ef593369bb20178bca8783095248213"
+	},
+	"X-86-34-87": {
+		"id": "X-86-34-87",
+		"type": "image",
+		"fileName": "X-86-34-87.png",
+		"author": "張米奇",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/436685729870298/permalink/12095953125793322"
+	},
+	"X-86-58-79": {
+		"id": "X-86-58-79",
+		"type": "image",
+		"fileName": "X-86-58-79.png",
+		"author": "Royabca Roy",
+		"platform": "Facebook",
+		"srcURL": "https://www.facebook.com/groups/2160072764048328/permalink/26679250099297655"
+	},
+	"X-86-99-35": {
+		"id": "X-86-99-35",
+		"type": "image",
+		"fileName": "X-86-99-35.jpg",
+		"author": "U.S. CDC",
+		"platform": "Twitter",
+		"srcURL": "https://twitter.com/CDCFlu/status/12233862350052925477"
+	},
+	"X-86-22-62": {
+		"id": "X-86-22-62",
+		"type": "image",
+		"fileName": "X-86-22-62.png",
+		"author": "野村優子",
+		"platform": "日經中文網",
+		"srcURL": "https://zh.cn.nikkei.com/politicsaeconomy/politicsasociety/39274-2020-02-06-11-24-22.htmll"
+	},
+	"X-86-48-01": {
+		"id": "X-86-48-01",
+		"type": "image",
+		"fileName": "X-86-48-01.png",
+		"author": "zeiou",
+		"platform": "留园网",
+		"srcURL": "https://club.6parkbbs.com/military/index.php?app=forum&act=threadview&tid=155207066"
+	},
+	"X-86-65-42": {
+		"id": "X-86-65-42",
+		"type": "message",
+		"platform": "LINE",
+		"content": "《蔡政府為何隱匿實情？！》「外交部」、「衛福部」甚至連「旅遊警示」都不必發了？美國流感疫情大爆發！美國今年流感季迄今 4800 死， 暴增 65%！ https://udn.com/news/story/6809/4281323"
+	},
+	"X-86-14-63": {
+		"id": "X-86-14-63",
+		"type": "message",
+		"platform": "LINE",
+		"content": "其實現在除了武漢肺炎，還有美國流感，美國流感至今已造成 6600 人死亡，比武漢肺炎更可怕！只是媒體很少報導，只報導中國的可怕，而不告訴國人往返美國更需要注意。政府也沒有加以宣導或防患，我們自己要多注意。 https:// news.ltn.com.tw/news/world/breakingnews/3047332"
+	},
+	"X-86-53-91": {
+		"id": "X-86-53-91",
+		"type": "message",
+		"platform": "LINE",
+		"content": "2019年 愛滋病，台灣300人死亡 ➡ 保險套沒有瘋搶 2015年 中東呼吸系統症候群(MERS)，南韓38人死亡 ➡ 南韓僅列為2級旅遊警戒（特別注意 旅遊安全並檢討應否前往）2003年 SARS，台灣 73人死亡 ➡ 口罩沒有瘋搶，只有N95缺貨 2015年 登革熱，台南+高雄共224人死亡 ➡ 沒有停班/停課/停活動，亦無防蚊液瘋搶 2019年 肺炎及流感，台灣23,475人死亡 ➡ 沒有停班/停課/停活動，亦無口罩瘋搶 2020年 武漢肺炎，台灣0人死亡 ➡ 延課/停活動，口罩瘋搶 媒體瘋狂報導 、社群瘋狂轉傳，造成焦慮感與恐懼感比病毒更可怕！ 美國近4個月流感季節，已逾 8200 人死 亡，卻不見報導！ Mers集中在中東、Sars集中在亞洲、伊波拉病毒集中在非洲，老天鵝啊，這美洲也太幸運了吧!! 這是\"生化戰\"嗎？是媒體集體操作新聞內容嗎？人⺠不是應該有免於恐懼的自由嗎？我花了好多時間上網、上疾病署查詢，突然發現這樣的數據，好弔詭的瘋狂!真希望趕快回歸正常〜"
+	},
+	"X-86-39-43": {
+		"id": "X-86-39-43",
+		"type": "image",
+		"fileName": "X-86-39-43.png",
+		"author": "CTWant 陳儷文",
+		"platform": "LINE Today",
+		"srcURL": "https://today.line.me/TW/article/oQrQmq"
+	},
+	"X-86-23-49": {
+		"id": "X-86-23-49",
+		"type": "image",
+		"fileName": "X-86-23-49.png",
+		"author": "CTWant",
+		"platform": "中時電子報",
+		"srcURL": "https://www.chinatimes.com/realtimenews/20200122000835-2604088"
+	},
+	"X-86-81-29": {
+		"id": "X-86-81-29",
+		"type": "image",
+		"fileName": "X-86-81-29.png",
+		"author": "CTWant 陳儷文",
+		"platform": "Yahoo 新聞",
+		"srcURL": "https://tw.news.yahoo.com/美國流感大爆發-1300萬人感染-6600人死亡-223819920.html"
+	},
+	"X-86-85-87": {
+		"id": "X-86-85-87",
+		"type": "image",
+		"fileName": "X-86-85-87.png",
+		"author": "王致凱",
+		"platform": "ETtoday 新聞雲",
+		"srcURL": "https://www.ettoday.net/news/20200122/1630830.htm"
+	},
+	"X-86-49-53": {
+		"id": "X-86-49-53",
+		"type": "image",
+		"fileName": "X-86-49-53.png",
+		"author": "綜合外電報導",
+		"platform": "中央通訊社",
+		"srcURL": "https://www.cna.com.tw/news/firstnews/202001220130.aspxx"
+	},
+	"X-86-48-32": {
+		"id": "X-86-48-32",
+		"type": "image",
+		"fileName": "X-86-48-32.png",
+		"author": "陳儷文",
+		"platform": "CTWant",
+		"srcURL": "https://www.ctwant.com/article/344499"
+	},
+	"X-86-63-76": {
+		"id": "X-86-63-76",
+		"type": "image",
+		"fileName": "X-86-63-76.png",
+		"author": "黃智賢夜問",
+		"platform": "YouTube",
+		"srcURL": "https://youtu.be/HtWUdLdKyew"
 	}
 }
