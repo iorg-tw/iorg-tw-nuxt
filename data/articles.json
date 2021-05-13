@@ -38,7 +38,7 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
-		"updatedAt": "2021/3/11 16:00",
+		"updatedAt": "2021/5/13 8:00",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
@@ -48,7 +48,7 @@
 				"articleID": "_R_K",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/3/11 16:00",
+				"updatedAt": "2021/5/13 8:00",
 				"cache": "_R_K_tw"
 			},
 			"_en": {
@@ -58,13 +58,13 @@
 				"articleID": "_R_K",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/3/11 16:00",
+				"updatedAt": "2021/5/13 8:00",
 				"cache": "_R_K_en"
 			}
 		}
 	},
 	"_R_B": {
-		"published": false,
+		"published": true,
 		"type": "research",
 		"id": "_R_B",
 		"publicURLs": {
@@ -72,7 +72,8 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vSl_l8c3x5iv9CnDXJTzas3gKRw-gKnJlUFBoe0K4GnAttromfzo0LnQm5ujSTXQmeB4ECXPg67OwpX/pub"
 		},
 		"publishedAt": "2021/3/2 20:00",
-		"cache": false,
+		"updatedAt": "2021/5/13 8:00",
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B 中國對台資訊操弄",
@@ -80,7 +81,9 @@
 				"tags": [],
 				"articleID": "_R_B",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRD5hKG24sAbqGn5enX-tHf5Cfh3Uv9BKaSBdyMdb7rrLWrSVBrrq2sfgxEbyx-4tIg9AkAghZDqrtD/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"updatedAt": "2021/5/13 8:00",
+				"cache": "_R_B_tw"
 			},
 			"_en": {
 				"title": "Chinese Information Manipulation Against Taiwan",
@@ -88,12 +91,14 @@
 				"tags": [],
 				"articleID": "_R_B",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSl_l8c3x5iv9CnDXJTzas3gKRw-gKnJlUFBoe0K4GnAttromfzo0LnQm5ujSTXQmeB4ECXPg67OwpX/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"updatedAt": "2021/5/13 8:00",
+				"cache": "_R_B_en"
 			}
 		}
 	},
 	"_R_D": {
-		"published": false,
+		"published": true,
 		"type": "research",
 		"id": "_R_D",
 		"publicURLs": {
@@ -101,7 +106,8 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vR2hHZAon3GL-w0GBZ8KQiOEtsP8RUqMbB3xt6ZgAb_EVnZ-HOLM2gGGb-Wt2x4I__InsZWg698UVqw/pub"
 		},
 		"publishedAt": "2021/3/2 20:00",
-		"cache": false,
+		"updatedAt": "2021/5/13 8:00",
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D 中國對台人際滲透",
@@ -109,7 +115,9 @@
 				"tags": [],
 				"articleID": "_R_D",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRpuzArr1SgHaSd-sErL_0dM2Fj4fESvM8WMplzhz9nQPaTI57bf7nM4lNWbDvsVkdrKuwXHbn87s2t/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"updatedAt": "2021/5/13 8:00",
+				"cache": "_R_D_tw"
 			},
 			"_en": {
 				"title": "Chinese Interpersonal Infiltration Against Taiwan",
@@ -117,7 +125,9 @@
 				"tags": [],
 				"articleID": "_R_D",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2hHZAon3GL-w0GBZ8KQiOEtsP8RUqMbB3xt6ZgAb_EVnZ-HOLM2gGGb-Wt2x4I__InsZWg698UVqw/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"updatedAt": "2021/5/13 8:00",
+				"cache": "_R_D_en"
 			}
 		}
 	},
@@ -174,6 +184,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS0830FukuOYyHYv7RVqbBLKu-Ca6EO9f4LxUI4-zcrTGVjvlXNYbCANLm0Qy4ELp5yUXIxKt2lSoWD/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"updatedAt": "2021/4/22 10:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
@@ -182,7 +193,8 @@
 				"tags": [],
 				"articleID": "_R_B2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS0830FukuOYyHYv7RVqbBLKu-Ca6EO9f4LxUI4-zcrTGVjvlXNYbCANLm0Qy4ELp5yUXIxKt2lSoWD/pub",
-				"publishedAt": "2021/2/28 20:00"
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2021/4/22 10:00"
 			}
 		}
 	},
@@ -194,6 +206,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTXbglqs4FYaNoYSo2NfnFFTSjrRy_UFLK9dm5_o-RBsiifNNNwugTFzfusVGoZ_TJ328s9s3So5zvI/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
+		"updatedAt": "2021/4/22 10:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
@@ -202,7 +215,8 @@
 				"tags": [],
 				"articleID": "_R_B3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTXbglqs4FYaNoYSo2NfnFFTSjrRy_UFLK9dm5_o-RBsiifNNNwugTFzfusVGoZ_TJ328s9s3So5zvI/pub",
-				"publishedAt": "2021/2/28 20:00"
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2021/4/22 10:00"
 			}
 		}
 	},
@@ -1551,7 +1565,7 @@
 				"title": "美國智庫 IFTF 最新報告：中國網軍操弄選舉及疫情假訊息",
 				"subtitle": "國際觀察",
 				"coverImage": "https://lh5.googleusercontent.com/two25xsoANzfcRxw_q11OLXUg5GICX98UD2yuVLjdYlJxFfHH_NmWIG9C-db6DDjk3ZlHiiWgA2O7jmvh5qsVhGQ2xUV0pwZ_2v0ljvCEvRyDY3MvyX7njtZTssa2y4xRw",
-				"summary": "今（2020）年 8 月，美國智庫未來研究所（IFTF, Institute for The Future）、資料分析公司 Graphika 和非營利組織國際共和學會（IRI, International Republican Institute），聯手發佈研究報告，揭露 2020 台灣總統大選前後針對台灣的假訊息攻擊，並發現中國網軍操作的痕跡。選舉期間，假訊息鎖定投票過程，並質疑中央選舉委員會的獨立性，並有馬來西亞內容農場協同散播假訊息的現象。選後，假訊息攻擊蔡英文「假論文」及民進黨執政的正當性。武漢肺炎疫情爆發後，則為宣稱「病毒來自美國」等疫情相關的假訊息。IFTF 這份研究報告，與 IORG 於 5 月底出版的報告內容不謀而合。",
+				"summary": "今（2020）年 8 月，美國智庫未來研究所（IFTF, Institute for The Future）、資料分析公司 Graphika 和非營利組織國際共和學會（IRI, International Republican Institute），聯手發佈研究報告，揭露 2020 台灣總統大選前後針對台灣的假訊息攻擊，並發現中國網軍操作的痕跡。選舉期間，假訊息鎖定投票過程，並質疑中央選舉委員會的獨立性，並有馬來西亞內容農場協同散播假訊息的現象。選後，假訊息攻擊蔡英文「假論文」及民進黨執政的正當性。武漢肺炎疫情爆發後，則為宣稱「病毒來自美國」等疫情相關的假訊息。IFTF 這份研究報告，與 IORG 報告內容內容不謀而合。",
 				"tags": [
 					"假訊息",
 					"2020 台灣選舉",

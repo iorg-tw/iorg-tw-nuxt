@@ -3,7 +3,7 @@ export default {
   iorg_sci: 'IORG is able to confirm, with publicly verifiable scientific methods, that...',
   iorg_s1: 'The CCP is engaged in information manipulation against Taiwan.',
   iorg_s2: '“Local collaborators” are key to the spread of Chinese information manipulation against Taiwan.',
-  iorg_s3: 'The CCP is proactively infiltrating Taiwan through interpersonal connections.',
+  iorg_s3: 'The CCP is proactively infiltrating Taiwan through interpersonal connections and has gained concrete results.',
   research_title_1: 'Defending Democracy Against Authoritarian Expansion',
   research_title_2: 'IORG Research on Chinese Influence Operations Against Taiwan',
   _R_K: 'Key Research Conclusions',
