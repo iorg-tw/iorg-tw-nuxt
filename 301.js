@@ -7,6 +7,7 @@ module.exports = [
   { from: /^\/f\/r-(.+)$/, to: '/r/$1' },
   // short urls
   { from: '/f/co', to: 'https://docs.google.com/document/d/1jzXzNCLb5NzY8-ZpnKu548NtR3xAsiisGszA-foiFNs/edit'},
+  { from: '/f/dsc', to: 'https://docs.google.com/document/d/1NFFKVFr47-Kzuam8c0Fa7hyq09z-l1iHbMG9vtvOfeA/edit'},
   { from: '/f/sns', to: 'https://docs.google.com/document/d/14LXxlD_hPicVcixhXermPXtaVjso8vASgqRqlhjuui0/edit'},
   { from: '/f/print', to: 'https://drive.google.com/drive/folders/1rhS-SA6rCELnS9XtzByPAHHIe7ymHlEe' }
 ]
