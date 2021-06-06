@@ -3,11 +3,11 @@ const getDoc = require('../lib/gdoc').getDoc
 // https://theoephraim.github.io/node-google-spreadsheet/
 const fs = require('fs')
 const { GoogleSpreadsheet } = require('google-spreadsheet')
-const sheetID = process.argv.slice(2)[0]
 const dotenv = require('dotenv')
 dotenv.config()
 
-const doc = new GoogleSpreadsheet(sheetID)
+const fileID = process.env.LIB_FILE_ID
+const doc = new GoogleSpreadsheet(fileID)
 doc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
 
 function ok(str) {
@@ -131,10 +131,9 @@ async function get() {
   await doc.loadInfo()
   const sheetIDs = [
     '14645087', // dict
-    '1342082190', // archive
+    '1201737578', // events
     '76257499', // research-tree
-    '508756665', // articles
-    '1201737578' // events
+    '508756665' // articles
   ]
   console.info('requesting data...')
   const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
@@ -150,27 +149,9 @@ async function get() {
   fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
   fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
 
-  console.info('archive...')
-  const hasFile = ['image', 'video']
-  rows = sheets[1]
-  rows = rows.filter(row => row.id && row.type).map(row => ({
-    id: row.id,
-    type: row.type,
-    ...(hasFile.includes(row.type) && ok(row.ft) ? { fileName: row.id + '.' + row.ft } : {}),
-    ...(ok(row.author) ? { author: row.author } : {}),
-    ...(ok(row.group) ? { group: row.group } : {}),
-    ...(ok(row.platform) ? { platform: row.platform } : {}),
-    ...(ok(row.srcURL) ? { srcURL: row.srcURL } : {}),
-    ...(ok(row.publishedAt) ? { publishedAt: row.publishedAt } : {}),
-    ...(ok(row.title) ? { title: row.title } : {}),
-    ...(ok(row.content) ? { content: row.content } : {})
-  }))
-  result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
-  fs.writeFileSync('data/archive.json', JSON.stringify(result, null, '\t'))
-
   console.info(shouldGetEvents ? 'events...' : 'skip events.')
   if(shouldGetEvents) {
-    await getEvents(sheets[4])
+    await getEvents(sheets[1])
   }
 
   console.info('research-tree...')

@@ -10,9 +10,9 @@
     "start": "nuxt start",
     "generate": "mv ./docs/CNAME .; nuxt generate; mv ./CNAME ./docs;",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "sync:lib": "node tools/syncLibrary.js 1iLSb3G7nrVjCQZjZ96Hulb6tDNrylu-8cc2PK8Li2kc",
-    "sync:events": "node tools/syncEvents.js 1ZgZa7K_BpLBKeId8mXenMU7qwRLqVnVVq3y-4JukJ7Y",
-    "sync:ion": "node tools/syncIONetwork.js"
+    "sync:archive": "node tools/syncArchive.js",
+    "sync:ion": "node tools/syncIONetwork.js",
+    "sync:lib": "node tools/syncLibrary.js"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
