@@ -1,6 +1,9 @@
 <template>
 <div class="page article">
   <google-doc :doc="doc" />
+  <div class="subscribe">
+    <subscribe-simple context="article" />
+  </div>
   <actions />
 </div>
 </template>
@@ -9,6 +12,7 @@
 import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
+import SubscribeSimple from '~/components/SubscribeSimple'
 import Actions from '~/components/Actions'
 
 import articleMap from '~/data/articles'
@@ -16,6 +20,7 @@ import articleMap from '~/data/articles'
 export default {
   components: {
     GoogleDoc,
+    SubscribeSimple,
     Actions
   },
   async asyncData({ app, params, error }) {
@@ -42,5 +47,12 @@ export default {
 
 .page.article {
   padding: $default-page-padding;
+  .subscribe {
+    margin: 2rem 0;
+    > .subscribe-simple { // FIXME: hack
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
 }
 </style>

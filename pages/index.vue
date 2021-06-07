@@ -15,7 +15,7 @@ _en:
 
 <template>
 <div class="page home">
-  <section id="da" class="weekly">
+  <section class="weekly">
     <article-list type="da" />
   </section>
   <section class="doki-divider">

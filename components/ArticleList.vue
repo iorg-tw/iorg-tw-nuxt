@@ -21,6 +21,9 @@ _en:
         </div>
       </div>
     </nuxt-link>
+    <div v-if="isDAList" class="panel tiled xlarge">
+      <subscribe-simple />
+    </div>
   </div>
 </div>
 </template>
@@ -29,8 +32,12 @@ _en:
 import { optimizeTracking } from '~/lib/typography'
 import { localizeArticle } from '~/lib/i18n'
 import allArticles from '~/data/articles.json'
+import SubscribeSimple from '~/components/SubscribeSimple'
 
 export default {
+  components: {
+    SubscribeSimple
+  },
   props: {
     type: {
       type: String,
@@ -62,9 +69,12 @@ export default {
     }
   },
   computed: {
+    isDAList() {
+      return this.type === 'da'
+    },
     articleClasses() {
       const classes = []
-      if(this.type === 'da') {
+      if(this.isDAList) {
         classes.push('xlarge')
       }
       return classes
