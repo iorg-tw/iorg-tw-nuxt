@@ -10,7 +10,7 @@ _en:
 <template>
 <div class="article-list container-wrapper">
   <div class="articles container">
-    <nuxt-link v-for="article of articles" :key="article.id" :to="localeRoute({ name: 'a-id', params: { id: article.id } })" class="article block panel tiled filled">
+    <nuxt-link v-for="article of articles" :key="article.id" :to="localeRoute(article.path ? { path: article.path } : { name: 'a-id', params: { id: article.id } })" class="article block panel tiled filled" :class="articleClasses">
       <img v-if="getLocalizedDoc(article).coverImage" :src="getLocalizedDoc(article).coverImage" class="cover" />
       <div class="detail">
         <h3 v-html="optimizeTracking(getLocalizedDoc(article).title)"></h3>
@@ -34,7 +34,7 @@ export default {
   props: {
     type: {
       type: String,
-      default: 'article+video' // types = article video research sys
+      default: 'article+video' // types = article video research da sys
     },
     showAll: {
       type: Boolean,
@@ -59,6 +59,15 @@ export default {
     }).map(k => ({ [k]: allArticles[k] })))
     return {
       articles
+    }
+  },
+  computed: {
+    articleClasses() {
+      const classes = []
+      if(this.type === 'da') {
+        classes.push('xlarge')
+      }
+      return classes
     }
   },
   methods: {

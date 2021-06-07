@@ -198,7 +198,7 @@ span.punct-l-fbrac {
       margin: $layout-m;
     }
     &.tiled { // panels have equal width
-      & {
+      & { // default = medium
         flex-basis: 100%;
         @media (min-width: 480px) {
           flex-basis: 14rem;
@@ -216,8 +216,19 @@ span.punct-l-fbrac {
         }
       }
       &.large {
+        @media (min-width: 480px) {
+          flex-basis: 16rem;
+        }
         @media (min-width: 960px) {
           flex-basis: 18rem;
+        }
+      }
+      &.xlarge {
+        @media (min-width: 480px) {
+          flex-basis: 20rem;
+        }
+        @media (min-width: 960px) {
+          flex-basis: 24rem;
         }
       }
     }
