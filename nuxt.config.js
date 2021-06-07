@@ -42,8 +42,8 @@ export default {
     extend(config, ctx) {}
   },
   server: {
-    port: 10101,
-    host: '0.0.0.0'
+    port: process.env.PORT,
+    host: process.env.HOST
   },
   i18n: {
     lazy: true,
