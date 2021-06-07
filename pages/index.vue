@@ -1,14 +1,12 @@
 <i18n lang="yaml">
 _tw:
   read: "線上閱讀報告"
-  download: "下載各項報告 PDF"
   soon: "報告內容即將開放"
   underRevision: "報告內容持續更新中"
   articles: "報導"
   videos: "影音"
 _en:
   read: "Read more"
-  download: "Download reports in PDF"
   soon: "Available soon"
   underRevision: "Content under revision"
   articles: "Articles"
@@ -17,33 +15,32 @@ _en:
 
 <template>
 <div class="page home">
+  <section id="da" class="weekly">
+    <article-list type="da" />
+  </section>
+  <section class="doki-divider">
+    <img src="/images/doki.png" width="320" />
+  </section>
   <section id="r" class="report">
     <h3 class="slim science">{{ $t('iorg_sci') }}</h3>
     <div class="container">
       <div class="panel tiled filled raised">
         <div class="detail">
-          <h3>{{ $t('iorg_s1') }}</h3>
+          <h3 v-html="optimizeTracking($t('iorg_s1'))"></h3>
         </div>
       </div>
       <div class="panel tiled filled raised">
         <div class="detail">
-          <h3>{{ $t('iorg_s2') }}</h3>
+          <h3 v-html="optimizeTracking($t('iorg_s2'))"></h3>
         </div>
       </div>
       <div class="panel tiled filled raised">
         <div class="detail">
-          <h3>{{ $t('iorg_s3') }}</h3>
+          <h3 v-html="optimizeTracking($t('iorg_s3'))"></h3>
         </div>
       </div>
       <div class="panel actions">
-        <nuxt-link class="button action primary" :to="localePath('/r')">{{ $t('read') }}</nuxt-link>
-        <nuxt-link class="button action secondary disabled" :to="localePath('/')">{{ $t('download') }}</nuxt-link>
-        <div class="info">
-          <div class="content">
-            <span class="emoji">⚠️</span>
-            <span>{{ $t('underRevision') }}</span>
-          </div>
-        </div>
+        <nuxt-link class="button action primary read-more" :to="localePath('/r')">{{ $t('read') }}</nuxt-link>
       </div>
     </div>
   </section>
@@ -62,6 +59,7 @@ import config from '~/data/config.js'
 import home from '~/data/home.js'
 import ArticleList from '~/components/ArticleList'
 import Intro from '~/components/Intro'
+import { optimizeTracking } from '~/lib/typography'
 
 export default {
   components: {
@@ -70,6 +68,9 @@ export default {
   },
   data() {
     return Object.assign({}, config, home)
+  },
+  methods: {
+    optimizeTracking
   }
 }
 </script>
@@ -78,6 +79,11 @@ export default {
 @import '~assets/styles/resources';
 
 .page.home > section {
+  &.doki-divider {
+    > img {
+      margin: 2rem auto;
+    }
+  }
   &.report {
     .science {
       margin: 1rem 1.5rem -0.5rem;
@@ -87,9 +93,10 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      > .action {
-        margin: 0.25rem;
-      }
+    }
+    .read-more {
+      margin: 0;
+      color: var(--iorg-accent);
     }
     .info {
       $accent: orange;
@@ -115,5 +122,4 @@ export default {
     }
   }
 }
-
 </style>
