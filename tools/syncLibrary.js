@@ -36,6 +36,7 @@ async function getArticles(rows) {
     },
     publishedAt: row.publishedAt,
     ...(row.updatedAt ? { updatedAt: row.updatedAt } : {}),
+    ...(row.path ? { path: row.path } : {}),
     cache: row.cache ? true : false,
     localizedDocs: {}
   }))
@@ -158,7 +159,7 @@ async function get() {
   rows = sheets[2]
   result = rows.map(row => ({
     id: row.id,
-    to: row.to,
+    path: row.path,
     level: +row.level,
     ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
     code: row.code,
