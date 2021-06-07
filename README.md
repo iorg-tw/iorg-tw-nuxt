@@ -7,6 +7,8 @@
 ### Create `.env`
 
 ```txt
+HOST=0.0.0.0
+PORT=10101
 GOOGLE_SHEET_API_KEY={key}
 AIRTABLE_API_KEY={key}
 ```
@@ -23,15 +25,14 @@ $ npm run sync:ion
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at [HOST]:[PORT]
 $ npm run dev
 
-# build for production and launch server
+# build for production
 $ npm run build
+
+# launch server
 $ npm run start
-
-# generate static project
-$ npm run generate
+# OR
+$ pm2 start npm --name iorg-tw-nuxt -- start
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
