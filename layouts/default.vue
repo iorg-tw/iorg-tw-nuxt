@@ -28,6 +28,7 @@ export default {
   --iorg-text: #303030;
   --iorg-paper: #F5F5F5;
   --iorg-background: #D0D0D0;
+  --iorg-background-code: #DFDFDF;
   --iorg-neutral: #808080;
   --iorg-accent: #2CD086;
 }

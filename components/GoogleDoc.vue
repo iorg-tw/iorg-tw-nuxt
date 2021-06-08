@@ -136,11 +136,24 @@ export default {
       margin-bottom: 1.5rem;
       line-height: $line-height-comfortable;
     }
-    a.archive {
+    a.ioid {
       border-bottom-width: 1px;
       font-size: 0.625rem;
       color: var(--iorg-neutral);
       white-space: nowrap;
+    }
+    img.wp {
+      display: inline-block;
+      width: 4rem;
+      vertical-align: bottom;
+    }
+    div.search {
+      display: inline;
+      background-color: var(--iorg-background-code);
+      padding: 0.125rem 0.25rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      color: var(--iorg-neutral);
     }
     .gdoc-list-set {
       list-style: none;
@@ -153,7 +166,7 @@ export default {
         > li {
           margin: 0.125rem;
           padding: 0.25rem 0.375rem;
-          background-color: #ddd;
+          background-color: var(--iorg-background-code);
           border-radius: 0.25rem;
         }
       }
@@ -462,6 +475,9 @@ export default {
       > ul {
         margin-bottom: 1.125rem;
       }
+      > ul {
+        padding-left: 1.125rem;
+      }
       > :last-child {
         margin-bottom: 0;
       }
@@ -483,9 +499,6 @@ export default {
   .gdoc-def,
   .gdoc-note {
     color: var(--iorg-neutral);
-  }
-  .gdoc-note {
-    background-color: #ddd;
   }
   .gdoc-references {
     font-size: 0.75rem;
