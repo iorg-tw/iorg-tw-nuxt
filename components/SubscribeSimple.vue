@@ -24,7 +24,7 @@ export default {
   width: 320px;
   > .form-container {
     width: 100%;
-    height: 225px;
+    height: 300px;
     outline: 2px solid var(--iorg-accent);
     margin: 0.5rem 0;
     border-radius: 4px;
@@ -34,7 +34,7 @@ export default {
       height: 385px;
       border: 0;
       margin-left: 0px;
-      margin-top: -160px;
+      margin-top: -85px;
     }
   }
 }
