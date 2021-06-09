@@ -148,6 +148,8 @@ export default {
       vertical-align: bottom;
     }
     div.search {
+      position: relative;
+      top: -0.125rem;
       display: inline;
       background-color: var(--iorg-background-code);
       padding: 0.125rem 0.25rem;
