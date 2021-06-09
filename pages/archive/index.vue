@@ -1,11 +1,11 @@
 <template>
 <div class="page archive">
   <div class="items">
-    <nuxt-link v-for="(obj, id) in archive" :key="id" :to="localePath({ name: 'archive-id', params: { id } })" class="item block" :class="obj.type">
-      <img v-if="obj.type === 'image'" :src="baseURL + obj.fileName" class="content" />
-      <div v-else-if="obj.type === 'message' && obj.content" class="content">{{ obj.content.substring(0, 140) }}</div>
+    <nuxt-link v-for="(obj, id) in archive" :key="id" :to="localePath({ name: 'archive-id', params: { id } })" class="item block" :class="obj.displayType">
+      <img v-if="obj.displayType === 'image'" :src="baseURL + obj.fileName" />
+      <div v-else-if="obj.displayType === 'message' && obj.text" class="text">{{ obj.text.substring(0, 140) }}</div>
     </nuxt-link>
-    <div v-for="i in 15" :key="i" class="item"></div>
+    <div v-for="i in 4" :key="i" class="item"></div>
   </div>
 </div>
 </template>
@@ -14,7 +14,7 @@
 import archive from '~/data/archive.json'
 import { generateMeta } from '~/lib/meta'
 
-const baseURL = 'https://raw.githubusercontent.com/iorg-tw/archive/master/files/'
+const baseURL = 'https://raw.githubusercontent.com/iorg-tw/archive/master/thumbs/'
 
 export default {
   data() {
@@ -51,13 +51,14 @@ export default {
       margin: var(--margin-item);
       background-color: #aaa;
       overflow: hidden;
-      > img {
-        max-width: calc(var(--item-size) * 3);
+      &.image {
+        > img {
+          max-width: 100%;
+        }
       }
-
       &.message {
         background-color: var(--iorg-paper);
-        > .content {
+        > .text {
           width: 150%;
           height: 100%;
           padding: 0.375rem 0.5rem;

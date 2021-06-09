@@ -8,11 +8,11 @@ _en:
 <template>
 <div class="page archive-entry">
   <div class="entry-content">
-    <img v-if="entry.type === 'image'" :src="baseURL + entry.fileName" :class="entry.type" />
-    <div v-else-if="entry.type === 'message'" :class="entry.type">{{ entry.content }}</div>
+    <img v-if="entry.displayType === 'image'" :src="baseURL + entry.fileName" :class="entry.displayType" />
+    <div v-else-if="entry.displayType === 'message'" :class="entry.displayType">{{ entry.text }}</div>
   </div>
   <ul class="entry-info">
-    <li class="id"><a>{{ entry.id }}</a></li>
+    <li class="ioid"><a>{{ entry.ioid }}</a></li>
     <li v-if="entry.author" class="author">{{ entry.author }}</li>
     <li v-if="entry.group" class="group">{{ entry.group }}</li>
     <li v-if="entry.platform" class="platform">{{ entry.platform }}</li>
@@ -29,8 +29,8 @@ const baseURL = 'https://raw.githubusercontent.com/iorg-tw/archive/master/files/
 
 export default {
   asyncData({ params, error }) {
-    const id = params.id
-    const entry = archive.[id]
+    const ioid = params.id
+    const entry = archive.[ioid]
     if(!entry) {
       error({ statusCode: 404, message: 'fileNotFound' })
       return
@@ -41,7 +41,7 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.entry.id, this.$t('_X'), this.entry.contentInfo)
+    return generateMeta(this.entry.ioid, this.$t('_X'), this.entry.contentInfo)
   }
 }
 </script>
@@ -83,7 +83,7 @@ export default {
     background-color: var(--iorg-paper);
     border-radius: 0.25rem;
     @include shadow;
-    > .id {
+    > .ioid {
       font-size: 0.75rem;
       margin-bottom: 0.25rem;
     }
