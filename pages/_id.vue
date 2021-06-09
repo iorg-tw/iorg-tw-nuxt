@@ -13,9 +13,13 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ app, params }) {
+  async asyncData({ app, params, error }) {
     const id = params.id
     const [doc] = await getLocalizedArticles([id], app.i18n.locale, app.i18n.defaultLocale)
+    if(!doc) {
+      error({ statusCode: 404, message: 'pageNotFound' })
+      return
+    }
     return {
       doc
     }

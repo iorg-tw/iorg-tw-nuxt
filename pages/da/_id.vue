@@ -27,7 +27,7 @@ export default {
     const id = '_DA_' + params.id // FIXME: hack
     const article = articleMap[id]
     if(!article) {
-      error({ statusCode: 404, message: 'articleNotFound' })
+      error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
 
