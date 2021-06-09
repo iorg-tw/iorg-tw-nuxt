@@ -43,7 +43,7 @@
 			"_tw": {
 				"title": "5 月疫情風暴，疫苗成為中共資訊操弄及外交武器",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 1 期 ﹏ 2021.5.1-31",
-				"coverImage": "https://lh5.googleusercontent.com/cU0a-FfxQSojVMqUjTwE2MyZwicGpvDam35aTxBVk8bzOSuvcbiy8tQNqQyiwLwWQaJNvTGfIZ8UbhCHFy-SOv-avVcChApCNTL75olW_BhjvUVYP9Hwro5JugJKFBQqQA",
+				"coverImage": "https://lh5.googleusercontent.com/ppsQUG7a_Go7rF918kT4KJK0SeMGWNISZ2IRapyKFJOkv5X8xyR8sMw95at0Fz5z-BoAFfKLYYuk4WB83zEhpRFnWeEfzJCojfrczC2R5AbCEBD5LsDCIZNPEVlCkaKvkw",
 				"tags": [
 					"心慌週報"
 				],
@@ -424,32 +424,10 @@
 			}
 		}
 	},
-	"_R_M": {
-		"published": true,
-		"type": "research",
-		"id": "_R_M",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
-		},
-		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/2/28 20:00",
-		"cache": false,
-		"localizedDocs": {
-			"_tw": {
-				"title": "研究方法",
-				"summary": "IORG 中國對台滲透研究",
-				"tags": [],
-				"articleID": "_R_M",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/2/28 20:00"
-			}
-		}
-	},
-	"_F": {
+	"roadmap": {
 		"published": true,
 		"type": "sys",
-		"id": "_F",
+		"id": "roadmap",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
 		},
@@ -458,15 +436,15 @@
 			"_tw": {
 				"title": "IORG 2020-2023 4 年計畫",
 				"tags": [],
-				"articleID": "_F",
+				"articleID": "roadmap",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
 			}
 		}
 	},
-	"_G": {
+	"glossary": {
 		"published": true,
 		"type": "sys",
-		"id": "_G",
+		"id": "glossary",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
 		},
@@ -478,17 +456,17 @@
 				"title": "詞彙定義",
 				"summary": "詞彙定義，是學術研究、公眾討論的重要基礎工程。IORG 基於科學研究應有的嚴謹態度、預設開放（open by default）精神，於下表列 IORG 研究報告、報導中相關詞彙定義。",
 				"tags": [],
-				"articleID": "_G",
+				"articleID": "glossary",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/4/18 19:00"
 			}
 		}
 	},
-	"_O": {
+	"open": {
 		"published": true,
 		"type": "sys",
-		"id": "_O",
+		"id": "open",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub"
@@ -500,7 +478,7 @@
 			"_tw": {
 				"title": "研究成果授權公開",
 				"tags": [],
-				"articleID": "_O",
+				"articleID": "open",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/4/18 19:00"
@@ -508,10 +486,32 @@
 			"_en": {
 				"title": "Licensing",
 				"tags": [],
-				"articleID": "_O",
+				"articleID": "open",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/4/18 19:00"
+			}
+		}
+	},
+	"methods": {
+		"published": true,
+		"type": "sys",
+		"id": "methods",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
+		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2021/6/10 12:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 研究方法",
+				"summary": "IORG 中國對台影響力作戰研究",
+				"tags": [],
+				"articleID": "methods",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/6/10 12:00"
 			}
 		}
 	},

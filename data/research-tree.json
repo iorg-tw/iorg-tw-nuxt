@@ -145,22 +145,22 @@
 		"isGenericArticle": true
 	},
 	{
-		"id": "_R_M",
-		"path": "/r/m",
+		"id": "methods",
+		"path": "/methods",
 		"level": 0,
 		"code": "M",
 		"image": "/images/covers/m-h.png",
 		"isGenericArticle": true
 	},
 	{
-		"id": "_F",
+		"id": "roadmap",
 		"path": "/roadmap",
 		"level": 0,
 		"code": "F",
 		"image": "/images/covers/f-h.png"
 	},
 	{
-		"id": "_G",
+		"id": "glossary",
 		"path": "/glossary",
 		"level": 0,
 		"code": "G",
@@ -181,7 +181,7 @@
 		"image": "/images/covers/x-h.png"
 	},
 	{
-		"id": "_O",
+		"id": "open",
 		"path": "/open",
 		"level": 0,
 		"code": "O",

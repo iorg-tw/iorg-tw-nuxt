@@ -1,6 +1,6 @@
 <template>
-<div class="page open">
-  <google-doc :doc="doc" :options="{ showSummary: false }" />
+<div class="page article sys">
+  <google-doc :doc="doc" />
 </div>
 </template>
 
@@ -9,14 +9,13 @@ import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 
-const ID = '_O'
-
 export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ app }) {
-    const [doc] = await getLocalizedArticles([ID], app.i18n.locale, app.i18n.defaultLocale)
+  async asyncData({ app, params }) {
+    const id = params.id
+    const [doc] = await getLocalizedArticles([id], app.i18n.locale, app.i18n.defaultLocale)
     return {
       doc
     }
@@ -30,7 +29,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.open {
+.page.article.sys {
   padding: $default-page-padding;
 }
 </style>
