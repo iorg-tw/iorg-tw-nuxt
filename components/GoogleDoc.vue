@@ -147,6 +147,11 @@ export default {
       width: 4rem;
       vertical-align: bottom;
     }
+    img.we-ok {
+      display: inline-block;
+      width: 4rem;
+      vertical-align: bottom;
+    }
     div.search {
       position: relative;
       top: -0.125rem;
