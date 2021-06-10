@@ -2037,5 +2037,60 @@
 		"author": "黃止下",
 		"platform": "Twitter",
 		"text": "具体操作，真的很简单：\n就是找到去年台湾绿媒报道大陆方舱医院、健康码等等的新闻，复制粘贴改名字\n不过，主要还是以去年绿蛙的推特言论为主——还是“复制、粘贴、改名字”就行，蛙们为我们创作好了，不必再费力气瞎想。当然，你在蛙蛙创作基础上能更进一步，更好\n一定不要忘“台湾肺炎”，示例⇩"
+	},
+	"X-AK0K-L9G3": {
+		"ioid": "X-AK0K-L9G3",
+		"displayType": "image",
+		"type": "Webpage",
+		"fileName": "X-AK0K-L9G3.png",
+		"srcURL": "https://www.cna.com.tw/news/asoc/202105070248.aspx",
+		"title": "散布蘆洲國小湧蓮寺有疫情 4女到案送法辦",
+		"publishedAt": "2021/5/7 17:40",
+		"author": "記者沈佩瑤",
+		"platform": "中央通訊社"
+	},
+	"X-AKCT-L8DY": {
+		"ioid": "X-AKCT-L8DY",
+		"displayType": "image",
+		"type": "Webpage",
+		"fileName": "X-AKCT-L8DY.png",
+		"srcURL": "https://udn.com/news/story/120940/5456248",
+		"title": "來路不明音檔傳北基有確診？指揮中心深夜駁斥",
+		"publishedAt": "2021/5/13 23:26",
+		"author": "記者邱宜君",
+		"platform": "聯合新聞網"
+	},
+	"X-AKX7-80EI": {
+		"ioid": "X-AKX7-80EI",
+		"displayType": "image",
+		"type": "Webpage",
+		"fileName": "X-AKX7-80EI.png",
+		"srcURL": "https://tw.appledaily.com/life/20210514/ABKT7BL56NFBNOTE5NEILW4DIY/",
+		"title": "墾丁瘋傳「桃園畢旅團確診」音檔　潘孟安也遭炸！運將造謠被捕",
+		"publishedAt": "2021/5/14 13:16",
+		"author": "地方中心陳宏銘",
+		"platform": "蘋果新聞網"
+	},
+	"X-AK9C-0IG0": {
+		"ioid": "X-AK9C-0IG0",
+		"displayType": "image",
+		"type": "Webpage",
+		"fileName": "X-AK9C-0IG0.png",
+		"srcURL": "https://www.ettoday.net/news/20200130/1634736.htm",
+		"title": "台灣「亂傳錄音檔」首例！傳「武漢肺炎在林口長庚」　刑事局逮2網友",
+		"publishedAt": "2020/1/30 20:56",
+		"author": "記者張君豪",
+		"platform": "ETtoday 新聞雲"
+	},
+	"X-AKDJ-QUCT": {
+		"ioid": "X-AKDJ-QUCT",
+		"displayType": "image",
+		"type": "Webpage",
+		"fileName": "X-AKDJ-QUCT.png",
+		"srcURL": "https://news.ltn.com.tw/news/life/breakingnews/3112920",
+		"title": "傳疫情假訊息想博關注 八卦婦人遭法辦爆哭",
+		"publishedAt": "2020/3/26 6:04",
+		"author": "記者王捷",
+		"platform": "自由時報"
 	}
 }
