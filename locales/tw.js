@@ -23,7 +23,6 @@ export default {
   _R_D3: '村里長',
   _R_D4: '台幹',
   _R_E: '經濟影響力作戰',
-  _R_M: '研究方法',
   glossary: '詞彙定義',
   open: '預設公開',
   methods: '研究方法',

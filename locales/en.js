@@ -23,7 +23,6 @@ export default {
   _R_D3: 'Village Chiefs',
   _R_D4: 'Taiwanese Managers in China',
   _R_E: 'Economic Influence Operations',
-  _R_M: 'Research Methodologies',
   glossary: 'Glossary',
   open: 'Open by Default',
   methods: 'Research Methods',
