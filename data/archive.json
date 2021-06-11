@@ -2092,5 +2092,16 @@
 		"publishedAt": "2020/3/26 6:04",
 		"author": "記者王捷",
 		"platform": "自由時報"
+	},
+	"X-AKAM-PCLX": {
+		"ioid": "X-AKAM-PCLX",
+		"displayType": "image",
+		"type": "Twitter tweet",
+		"fileName": "X-AKAM-PCLX.png",
+		"srcURL": "https://twitter.com/ChinaSunSong/status/1401730108260438016",
+		"title": "一個國家，向中國台灣地區運送不要的疫苗。美國自己不用，送給了台灣省。還好意思說，注射完成以後，還在爆發疫情。",
+		"publishedAt": "2021/6/7 10:37",
+		"author": "孫松_Sun Song",
+		"platform": "Twitter"
 	}
 }
