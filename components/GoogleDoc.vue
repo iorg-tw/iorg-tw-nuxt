@@ -142,15 +142,13 @@ export default {
       color: var(--iorg-neutral);
       white-space: nowrap;
     }
-    img.wp {
+    img.sticker.inline {
       display: inline-block;
-      width: 4rem;
+      width: 2.5rem;
       vertical-align: bottom;
     }
-    img.we-ok {
-      display: inline-block;
+    h2 img.sticker.inline {
       width: 4rem;
-      vertical-align: bottom;
     }
     div.search {
       position: relative;
