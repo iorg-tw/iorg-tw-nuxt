@@ -507,6 +507,16 @@ export default {
   .gdoc-note {
     color: var(--iorg-neutral);
   }
+  .gdoc-note {
+    &.info {
+      border-color: var(--iorg-accent);
+      color: var(--iorg-accent);
+    }
+    &.warning {
+      border-color: var(--iorg-warning);
+      color: var(--iorg-warning);
+    }
+  }
   .gdoc-references {
     font-size: 0.75rem;
     border: 1px solid var(--iorg-background);
@@ -538,7 +548,7 @@ export default {
       width: 0.5rem;
       height: 0.5rem;
       background-color: var(--iorg-text);
-      margin: 1rem auto;
+      margin: 1.5rem auto;
     }
   }
 

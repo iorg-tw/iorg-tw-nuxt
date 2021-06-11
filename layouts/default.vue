@@ -31,5 +31,6 @@ export default {
   --iorg-background-code: #DFDFDF;
   --iorg-neutral: #808080;
   --iorg-accent: #2CD086;
+  --iorg-warning: #FF2828;
 }
 </style>
