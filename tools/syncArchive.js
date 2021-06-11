@@ -47,8 +47,8 @@ async function get() {
 
   console.info('Dokidoki Archive...')
 
-  const synchronizedFiles = require('./synchronizedFiles.json')
-  console.info(synchronizedFiles.length, 'files synchronized...')
+  const dkArchiveFiles = JSON.parse(fs.readFileSync(process.env.ARCHIVE_REPO_LOCAL_PATH + 'downloadedFiles.json'))
+  console.info('Add', dkArchiveFiles.length, 'files...')
 
   const dkArchiveDoc = new GoogleSpreadsheet(process.env.DK_ARCHIVE_FILE_ID)
   dkArchiveDoc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
@@ -60,7 +60,7 @@ async function get() {
   sheets = await Promise.all(sheetIDs.map(s => dkArchiveDoc.sheetsById[s].getRows()))
   rows = sheets[0]
   rows = rows.filter(row => row.ioid && row.type).map(row => {
-    const fileName = synchronizedFiles.find(f => f.includes(row.ioid))
+    const fileName = dkArchiveFiles.find(f => f.includes(row.ioid))
     let fileType, displayType
     if(fileName) {
       fileType = fileName.split('.')[1]
