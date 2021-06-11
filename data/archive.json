@@ -659,6 +659,7 @@
 		"fileName": "X-AKT1-MV73.png",
 		"title": "《聯合報》封城時機至為關鍵",
 		"publishedAt": "2021/5/19 18:17",
+		"archivedAt": "2021/5/19 19:17",
 		"author": "0911-514-566"
 	},
 	"X-AKD9-A671": {
@@ -667,6 +668,7 @@
 		"fileName": "X-AKD9-A671.mp4",
 		"title": "一周停電 2 次 蔡英文再度道歉：我也很難接受",
 		"publishedAt": "2021/5/20 19:06",
+		"archivedAt": "2021/5/21 10:41",
 		"author": "楊慧玲",
 		"text": "《聯合報》封城時機至為關鍵：新冠疫情雙北封城與否？點入秒懂各國封城措施 → bit.ly/3u030i3 詳 bit.ly/3v0XL2Q"
 	},
@@ -674,7 +676,8 @@
 		"ioid": "X-AKMG-SSK2",
 		"type": "LINE OpenChat post",
 		"fileName": "X-AKMG-SSK2.aac",
-		"title": "吳老師音檔"
+		"title": "吳老師音檔",
+		"archivedAt": "2021/5/21 10:46"
 	},
 	"X-AK23-7DUV": {
 		"ioid": "X-AK23-7DUV",
@@ -684,6 +687,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/uVlDxEAHwRNMjFQLhLUMFQ?typeid=8772",
 		"title": "網傳「溪湖確診個案足跡」",
 		"publishedAt": "2021/5/21 10:04",
+		"archivedAt": "2021/5/21 10:50",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -695,6 +699,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/Qj25znjhqzqwBEutKhHaZQ?typeid=8772",
 		"title": "網傳「每人補助疫情援助金一萬元」",
 		"publishedAt": "2021/5/21 10:09",
+		"archivedAt": "2021/5/21 10:53",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -706,6 +711,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/Qps7Y3VKHvlwpxXSWYCsKA?typeid=8772",
 		"title": "網傳「政府購買COVID-19疫苗有價差」",
 		"publishedAt": "2021/5/21 10:10",
+		"archivedAt": "2021/5/21 10:55",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -717,6 +723,7 @@
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=4071768246203445&id=903187446394890",
 		"title": "超商店員靠腰",
 		"publishedAt": "2021/5/22 10:46",
+		"archivedAt": "2021/5/22 12:07",
 		"author": "黑框作業",
 		"text": "超商店員靠腰：原本自己超商搞的實名制，掃一下很快就好 結果現在這個，一堆人掃了不能直接傳，還要自己去簡訊那邊寄，不然就是得開Line在那邊找半天 重點是 你不改成他的版本，他要罰店家錢"
 	},
@@ -728,6 +735,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/IVXK4SiJbooB0rGoFsdzJA?typeid=8772",
 		"title": "網傳「為了銷售疫苗，不惜將疫情擴大」",
 		"publishedAt": "2021/5/22 10:26",
+		"archivedAt": "2021/5/24 10:16",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -739,6 +747,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/QqQsGVEL3ZzwBbhk7FjuWg?typeid=8772",
 		"title": "請街友盡量回家用餐",
 		"publishedAt": "2021/5/22 10:29",
+		"archivedAt": "2021/5/24 10:20",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -750,6 +759,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/qvv34nJ7qYzOiPXJoWEumQ?typeid=8772",
 		"title": "網傳「蘇貞昌內線交易防疫股」",
 		"publishedAt": "2021/5/22 10:31",
+		"archivedAt": "2021/5/24 10:22",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -761,6 +771,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/bowkt3T5aWXJLnyhWZ7PPQ?typeid=8772",
 		"title": "網傳「蔡總統已經確診，尚未宣布」",
 		"publishedAt": "2021/5/22 10:34",
+		"archivedAt": "2021/5/24 10:28",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -772,6 +783,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/yP9CPiG87qQiRCm_z3Mytg?typeid=8772",
 		"title": "網傳「簡訊實聯制侵害個人隱私政府借機監控人民行蹤」",
 		"publishedAt": "2021/5/23 9:36",
+		"archivedAt": "2021/5/24 10:34",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -783,6 +795,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/d4-EY-p0NyaToVsM9bMHFQ?typeid=8772",
 		"title": "網傳「醫生聊天紀錄外流數據要開始做假了」",
 		"publishedAt": "2021/5/24 9:43",
+		"archivedAt": "2021/5/24 10:37",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -794,6 +807,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/JCt0DZ6HZV-8sjzuaR19wA?typeid=8772",
 		"title": "網傳「醫院太平間已經收不了那麼多患者了，只能把患者遺體棄在河裏」",
 		"publishedAt": "2021/5/24 9:43",
+		"archivedAt": "2021/5/24 10:40",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -805,6 +819,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/ii8nMyMAVZ4iCjuzQB4e0g?typeid=8772",
 		"title": "網傳「疑似大量萬華肺炎遺體集中焚燒」",
 		"publishedAt": "2021/5/24 9:43",
+		"archivedAt": "2021/5/24 10:43",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -816,6 +831,7 @@
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1621821521.A.F24.html",
 		"title": "[問卦] 疾管家散佈假消息？",
 		"publishedAt": "2021/5/24 9:58",
+		"archivedAt": "2021/5/25 13:16",
 		"group": "Gossiping",
 		"platform": "PTT"
 	},
@@ -827,6 +843,7 @@
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1621828127.A.BF0.html",
 		"title": "[問卦] 有誰移除疾管家？",
 		"publishedAt": "2021/5/24 11:48",
+		"archivedAt": "2021/5/25 13:17",
 		"group": "Gossiping",
 		"platform": "PTT"
 	},
@@ -838,6 +855,7 @@
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1621667068.A.A87.html",
 		"title": "[問卦] 有人也把疾管家封鎖了嗎",
 		"publishedAt": "2021/5/22 15:04",
+		"archivedAt": "2021/5/25 13:17",
 		"group": "Gossiping",
 		"platform": "PTT"
 	},
@@ -849,6 +867,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/g0NoaFoEsIsls37UXblkvQ?typeid=8772",
 		"title": "「疾管署疾管家」冒名社群遂行詐騙行為",
 		"publishedAt": "2021/5/20 9:42",
+		"archivedAt": "2021/5/24 21:21",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -859,6 +878,7 @@
 		"fileName": "X-AKS7-L6VG.jpg",
 		"title": "桃園署立醫院封院了",
 		"publishedAt": "2021/5/20 9:45",
+		"archivedAt": "2021/5/24 21:22",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -870,6 +890,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/EpTB77N_H09Ns-bEUnAM5A?typeid=8772",
 		"title": "請聽民進黨基督教吳老師的真心",
 		"publishedAt": "2021/5/20 10:08",
+		"archivedAt": "2021/5/24 21:23",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -881,6 +902,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/b3MM_yns5reTceaOz_HcKQ?typeid=8772",
 		"title": "網傳：台灣疫情嚴重時一天燒掉100多具屍體",
 		"publishedAt": "2021/5/25 9:50",
+		"archivedAt": "2021/5/25 10:14",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -892,6 +914,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/iOd9DbpsxEA6GwIUPRn_IQ?typeid=8772",
 		"title": "網傳「疫苗為了防腐加汞和鋁，打多會自閉」",
 		"publishedAt": "2021/5/25 9:50",
+		"archivedAt": "2021/5/25 10:17",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -903,6 +926,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/IU5CMLLt8bQqXWHQhil0Aw?typeid=8772",
 		"title": "網現偽冒教育部網站",
 		"publishedAt": "2021/5/25 9:50",
+		"archivedAt": "2021/5/25 10:19",
 		"author": "疾管家",
 		"platform": "LINE"
 	},
@@ -914,6 +938,7 @@
 		"srcURL": "https://twitter.com/huangzhixia/status/1395737949652668425",
 		"title": "给小伙伴们说下现阶段对台斗争方向：台湾肺炎",
 		"publishedAt": "2021/5/21 21:47",
+		"archivedAt": "2021/5/27 0:30",
 		"author": "黄止下",
 		"platform": "Twitter",
 		"text": "给小伙伴们说下现阶段对台斗争方向：台湾肺炎——这里注意用词，有关台湾疫情的所有信息，一定要以“台湾肺炎”称呼——让台湾开始搞【健康码、方舱医院】了，且以每天30人的速度逮捕“造谣者” 明白了吗？民进党去年怎么说武汉方舱、健康码等等的，我们现在就怎么说民进党——民进党已创作好，我们只改几个字"
@@ -925,6 +950,7 @@
 		"fileName": "X-AK9N-AK5D.png",
 		"title": "2021年5月17日 美國空軍學院 查理斯•塞隆教授",
 		"publishedAt": "2021/5/30 17:43",
+		"archivedAt": "2021/5/31 16:26",
 		"author": "David Lee",
 		"platform": "LINE",
 		"text": "2021年5月17日 Charles Salon US Air Force Academy \n美國🇺🇸《華盛頓郵報》網絡 客戶端 發表述評時，沉重地指出，前天中國火星探測\n“ 一步登天 ”的消息，讓世界輿論，包括美國輿論為之轟動。但是美國華盛頓朝野——白宮和國會山，卻出現了罕見的“三天沉默期”！\n美媒說，令人奇怪的是，最近幾天，一向喜歡攻擊中國的政客們，也一反常態滴，“變得突然安靜了許多”！\n整個白宮和國會山，幾乎沒有誰，再主動討論中國的事情與問題。除了幾個年紀大的老政棍，重複喋喋不休的“老掉牙話題”。大家幾乎把中國忘記了。\n作為人類最偉大的創舉，中國“一步登陸火星”的消息，確實讓世界振奮，當其他國家政治領袖和科技領袖賀電，如同雪片一般飛向北京，飛向中南海的時候，白宮和國會山，卻選擇“視而不見，聽而不聞。”這實在令人吃驚！\n “美國的心胸與小氣，著實讓世人大跌眼鏡。”是羨慕？嫉妒？還是恨？ （法國《巴黎時報》評論員埃德爾曼•彼得羅）\n對此，德國《漢莎新聞》認為，這其實並不難理解。因為，中國巨大的航天成功，讓美國人，特別是白宮和國會山，感受到一種“前所未有的挫敗感”。這種巨大的心理衝擊，如同1957年10月蘇聯搶先發射第一顆人造衛星，所帶給美國的衝擊，是類似的！\n只是不同的是，蘇聯人發射第一顆人造衛星，讓美國人更加眾志成城，更加團結起來一致對付蘇聯的挑戰，更加激發美國的豪情與鬥志。而中國的“一步登陸火星”，卻讓許多美國人，特別是國會山的政客們，“像洩了氣的皮球一樣”。\n許多美國人正在懷疑，“曠日持久的對華技術封鎖”，以及對華科技貿易戰，“其成效到底有幾何？”因為，“美國人越是封鎖什麼，中國人就越在哪一個領域裡，表現得越是出色；美國越是打擊中國什麼，中國卻往往在這一領域，越容易出現井噴式的發展。”\n“美國的施壓，不但沒有有效阻止中國的發展，反而成了中國人前進的最大助推器！”原子彈、氫彈、中子彈、核潛艇、衛星、火箭🚀 、量子計算機、深海探測、核電技術……………在這些領域，美國人，相繼被中國人一一追趕上，並且一一地超越。\n有這樣感覺的，不僅僅是《漢莎新聞》一家，其他西方的輿論也表達了類似的迷惑、看法與不安。\n英國《泰晤士報》網絡客戶端，5月16日撰文指出，中國前天發射成功的“天問一號”探測器和“祝融號”火星車，標誌著中國，在該領域已經遠遠超過了美國，並且對美國形成了“後發性超越優勢”！這種優勢，隨著時間的推移，其差距將會繼續拉大！\n英媒說，雖然，在此之前美國和俄羅斯的探測器，也曾經數次登錄到火星上，但是，他們都是經歷了無數次的失敗後才實現的。同時，更為要命的是他們的探測器，基本上還沒有對火星進行完整有效的科學探測前，就因為故障與地球的控制中心失去了聯繫。換句話說，美國和俄羅斯，只把地球上的東西，送到了火星上而已。\n“令人震驚的是，面對中國一路凱歌式的發展，美國人知道，自己的差距到底在哪裡，也明白奮起直追的重要性，但是就是不知道自己怎麼追。”\n“與蘇聯只有軍事領域的挑戰不同，中國的挑戰，則是全方位的。美國沒有辦法動員全國力量和全部盟友力量，來阻擊中國。借用中國民間諺語來說，因為'按下了葫蘆，瓢又起'。\n因為，美國永遠不知道，明天的中國，又在哪一個領域超越美國。”（意大利“米蘭快線”新聞評論家馬賽爾•德山）\n“面對中國的全方位崛起，美國及其西方小伙伴們，就像是塞萬提斯小說裡的唐吉訶德一樣，揮舞著寶劍，對著風車愚蠢地狂吼。”\n“除了人權和民主，美國拿的出手、能夠攻擊中國的招數，已經不多了！現在的拜登總統，肯定是又黔驢技窮的感覺。因為，當美國全國上下，搜腸刮肚、聲嘶力竭怒罵中國的時候，中國一刻也沒有停下前進的腳步！”\n“為什麼當今世界上，只有中國才是成功的？沒有別的，中國把別人，尤其是美國罵別人的功夫上，用在了發展上。”\n“這或許，就是中國崛起的最根本原因之一。”意大利媒體認為，不折騰，不鬥嘴，不浪費無謂的時間，不挖空心思揣摩別人，集中精力辦自己的大事，是中國體制的最大的優點！ “這也讓中國在第五次信息浪潮時代，成功地抓住機遇，並且”迎頭趕上的訣竅。 ”\n這個道理，很多人都懂，很多國家也都懂。但是，能夠做到像中國那樣，雷厲風行，果斷決絕的，卻幾乎沒有！因為這一切，又最終歸結到製度的運行上。\n不僅如此，中國此次“一步登陸火星”所體現出的科技成果，更是輝煌無比。這也是讓美國人如芒在背，如鯁在喉的最大原因之一。\n美國紐約大學政治學家比爾•蓋森教授認為，去年7月發射的天問一號探測器是在前天早上7時18分，經過九分鐘的減速、懸停避障和緩衝後，成功軟著陸於火星烏托邦平原南部預選著陸區。\n這些描述，雖然看起來非常簡單，但是卻彰顯了中國科技，尤其是智能技術、遙控技術、自身循環技術、數據自動處理技術、新材料技術、核心芯片處理技術等等的突飛猛進。而“天問號火星探測器”和“祝融號火星車”，是所有科技的物質載體。\n“如果把這些技術轉化為軍事技術，那麼中國第一次實現了從宇宙，攻擊美國本土的能力。”因為，在中國“一步登陸火星”技術的面前，幾乎所有的美國現有防禦性武器系統，幾乎都出現了巨大的“防禦性漏洞”。\n“面對中國來自於外太空的威脅，美國所有的關於固若金湯、銅牆鐵壁的神話，都在一夜之間，化為泡影！”\n（美國空軍學院\n查理斯•塞隆教授）一"
@@ -937,6 +963,7 @@
 		"srcURL": "https://udn.com/news/story/120940/5456248",
 		"title": "來路不明音檔傳北基有確診？指揮中心深夜駁斥",
 		"publishedAt": "2021/5/13 23:26",
+		"archivedAt": "2021/6/1 11:34",
 		"author": "記者邱宜君",
 		"platform": "聯合新聞網"
 	},
@@ -948,6 +975,7 @@
 		"srcURL": "https://tw.appledaily.com/life/20210514/ABKT7BL56NFBNOTE5NEILW4DIY/",
 		"title": "墾丁瘋傳「桃園畢旅團確診」音檔　潘孟安也遭炸！運將造謠被捕",
 		"publishedAt": "2021/5/14 13:16",
+		"archivedAt": "2021/6/1 11:42",
 		"author": "地方中心陳宏銘",
 		"platform": "蘋果新聞網"
 	},
@@ -959,6 +987,7 @@
 		"srcURL": "https://www.cna.com.tw/news/asoc/202105070248.aspx",
 		"title": "散布蘆洲國小湧蓮寺有疫情 4 女到案送法辦",
 		"publishedAt": "2021/5/7 17:40",
+		"archivedAt": "2021/6/1 11:42",
 		"author": "記者沈佩瑤",
 		"platform": "中央通訊社"
 	},
@@ -970,6 +999,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210531_12356084.htm",
 		"title": "国台办吁民进党当局：去除政治心魔 停止残害岛内民众生命健康",
 		"publishedAt": "2021/5/31 20:43",
+		"archivedAt": "2021/6/4 16:39",
 		"author": "国台办发言人朱凤莲",
 		"platform": "中国国台办"
 	},
@@ -981,6 +1011,7 @@
 		"srcURL": "https://cn.wsj.com/articles/拜登将承诺在6月底前向其他国家出口2,000万剂新冠疫苗-11621300812",
 		"title": "美国迫于压力将增加疫苗出口",
 		"publishedAt": "2021/5/18 16:30",
+		"archivedAt": "2021/6/1 14:05",
 		"author": "Yuka Hayashi / Sabrina Siddiqui / Andrew Restuccia",
 		"platform": "华尔街日报中文"
 	},
@@ -992,6 +1023,7 @@
 		"srcURL": "https://mp.weixin.qq.com/s?__biz=MjM5MDk1NzQzMQ==&mid=2653449575&idx=4&sn=a470f113db17d2777397636126824887&chksm=bd60277f8a17ae698be2791b0f51c6eabb632eff7d34e45d9674a968926c56fec355e3495d0f&scene=0&xtrack=1",
 		"title": "美国刚宣布出口疫苗，美媒就发出这张让人尴尬的对比图",
 		"publishedAt": "2021/5/20",
+		"archivedAt": "2021/6/1 13:43",
 		"author": "环球时报",
 		"platform": "微信公众平台"
 	},
@@ -1003,6 +1035,7 @@
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/IO3F02JMs4pToOM84aXopQ?typeid=8772",
 		"title": "網傳「臺中太原路復健醫院被徵收為方艙醫院」",
 		"publishedAt": "2021/6/1 9:41",
+		"archivedAt": "2021/6/1 14:15",
 		"author": "疾管家",
 		"platform": "LINE",
 		"text": "太原路~復健醫院被市府徵收為方艙醫院，請避開此處，5/27啟用收置外縣市確診個案。沒事請避開！"
@@ -1015,6 +1048,7 @@
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4120809544663359",
 		"title": "《全球疫情、疫苗總整理》（東大寺狗沙發上主播）",
 		"publishedAt": "2021/5/21 14:13",
+		"archivedAt": "2021/6/3 15:09",
 		"author": "文茜的世界周報",
 		"platform": "Facebook"
 	},
@@ -1026,6 +1060,7 @@
 		"srcURL": "https://item.btime.com/45o8udvbrqr9e6qlg4avsgfoo85",
 		"title": "美国疫苗产量世界第二 分享剂量不却到百分之一？！",
 		"publishedAt": "2021/5/20 17:07",
+		"archivedAt": "2021/6/3 15:14",
 		"author": "BRTV 国际",
 		"platform": "北京时间"
 	},
@@ -1037,6 +1072,7 @@
 		"srcURL": "https://twitter.com/airfinity/status/1374775074377588736",
 		"title": "Our #COVID19 vaccine insight of the day is our view on total doses produced and the number of doses that have actually been exported across countries/regions.",
 		"publishedAt": "2021/3/25 1:28",
+		"archivedAt": "2021/6/3 13:21",
 		"author": "Airfinity",
 		"platform": "Twitter"
 	},
@@ -1048,6 +1084,7 @@
 		"srcURL": "https://www.airfinity.com/insights/analysis-1",
 		"title": "Airfinity Insights - COVAX have delivered 27% of the supply committed for the 1st half of 2021.",
 		"publishedAt": "2021/5/26",
+		"archivedAt": "2021/6/3 13:23",
 		"author": "Airfinity",
 		"platform": "Airfinity"
 	},
@@ -1059,6 +1096,7 @@
 		"srcURL": "https://world.huanqiu.com/article/432OuDNWqiz",
 		"title": "美国媒体太酸了：只要我们这么做，中国疫苗就不是对手",
 		"publishedAt": "2021/5/8 13:25",
+		"archivedAt": "2021/6/3 13:26",
 		"author": "环球时报新媒体",
 		"platform": "环球网"
 	},
@@ -1070,6 +1108,7 @@
 		"srcURL": "https://world.huanqiu.com/article/42JGuSABMNE",
 		"title": "全球疫苗博弈愈演愈烈！中国出口反遭抹黑，美国囤货却唱高调被批",
 		"publishedAt": "2021/3/15 7:57",
+		"archivedAt": "2021/6/3 13:29",
 		"author": "李勇 青木 柳玉鹏",
 		"platform": "环球网"
 	},
@@ -1081,6 +1120,7 @@
 		"srcURL": "http://www.xinhuanet.com/world/2021-05/07/c_1127417066.htm",
 		"title": "《自然》报道：中国疫苗有助填补全球疫苗供应缺口",
 		"publishedAt": "2021/5/7 12:36",
+		"archivedAt": "2021/6/3 13:31",
 		"author": "新华网",
 		"platform": "新华网"
 	},
@@ -1092,6 +1132,7 @@
 		"srcURL": "https://www.rfi.fr/tw/中國/20210420-中國科興疫苗出口2-6億劑-日產達600萬",
 		"title": "中國科興疫苗出口2.6億劑 日產達600萬",
 		"publishedAt": "2021/4/20 15:26",
+		"archivedAt": "2021/6/3 17:43",
 		"author": "小山",
 		"platform": "RFI"
 	},
@@ -1103,6 +1144,7 @@
 		"srcURL": "https://udn.com/news/story/7331/5458088",
 		"title": "美國3億人囤26億劑疫苗 華春瑩斥：朱門酒肉臭",
 		"publishedAt": "2021/5/14 17:00",
+		"archivedAt": "2021/6/3 17:47",
 		"author": "記者林汪靜",
 		"platform": "聯合新聞網"
 	},
@@ -1114,6 +1156,7 @@
 		"srcURL": "https://udn.com/news/story/7331/5469653",
 		"title": "趙立堅大罵美國可恥 「搶全球4分之1疫苗、上億劑閒置」",
 		"publishedAt": "2021/5/19 14:30",
+		"archivedAt": "2021/6/3 17:55",
 		"author": "世界日報 / 中國新聞組 / 北京 19 日電",
 		"platform": "聯合新聞網"
 	},
@@ -1125,6 +1168,7 @@
 		"srcURL": "https://www.chinatimes.com/realtimenews/20210514004449-260409?chdtv",
 		"title": "美國3.3億人口囤26億劑疫苗 陸外交部：朱門酒肉臭 路有凍死骨",
 		"publishedAt": "2021/5/14 17:46",
+		"archivedAt": "2021/6/3 17:57",
 		"author": "林勁傑",
 		"platform": "中時新聞網"
 	},
@@ -1136,6 +1180,7 @@
 		"srcURL": "https://www.reuters.com/business/healthcare-pharmaceuticals/sinovac-supplied-260-mln-covid-19-vaccine-doses-globally-2021-04-20/",
 		"title": "Sinovac supplied 260 mln COVID-19 vaccine doses globally",
 		"publishedAt": "2021/4/20 16:29",
+		"archivedAt": "2021/6/3 18:00",
 		"author": "Reuters",
 		"platform": "Reuters"
 	},
@@ -1146,6 +1191,7 @@
 		"fileName": "X-AKOJ-L679.png",
 		"srcURL": "https://s.weibo.com/weibo?q=%23台女子持阳性证明登机抵厦门%23&Refer=top",
 		"title": " #台女子持阳性证明登机抵厦门#",
+		"archivedAt": "2021/6/3 18:06",
 		"platform": "微博"
 	},
 	"X-AKDF-E9C0": {
@@ -1156,6 +1202,7 @@
 		"srcURL": "https://www.bbc.com/zhongwen/trad/world-57185805",
 		"title": "美國「入局」挑戰「疫苗外交」 全球疫苗供應賽進入下半場",
 		"publishedAt": "2021/5/24 9:24",
+		"archivedAt": "2021/6/3 18:17",
 		"author": "斯影",
 		"platform": "BBC 中文"
 	},
@@ -1167,6 +1214,7 @@
 		"srcURL": "https://cnews.com.tw/174210529a03/",
 		"title": "張亞中、蔡正元宣布：孫文學校取得BNT國藥各500萬劑疫苗",
 		"publishedAt": "2021/5/29",
+		"archivedAt": "2021/6/3 22:48",
 		"author": "記者何豪毅",
 		"platform": "匯流新聞網"
 	},
@@ -1178,6 +1226,7 @@
 		"srcURL": "https://udn.com/news/story/121707/5465547",
 		"title": "拜登：將分享2000萬劑美國使用中的三種新冠疫苗",
 		"publishedAt": "2021/5/18 3:18",
+		"archivedAt": "2021/6/3 23:02",
 		"author": "記者張文馨",
 		"platform": "聯合新聞網"
 	},
@@ -1189,6 +1238,7 @@
 		"srcURL": "https://www.fmprc.gov.cn/web/fyrbt_673021/t1876601.shtml",
 		"title": "2021年5月18日外交部发言人赵立坚主持例行记者会",
 		"publishedAt": "2021/5/18",
+		"archivedAt": "2021/6/3 23:05",
 		"author": "赵立坚",
 		"platform": "中国外交部"
 	},
@@ -1200,6 +1250,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210528_12355644.htm",
 		"title": "台陆委会编造理由拒大陆疫苗 国台办批“冷血”",
 		"publishedAt": "2021/5/28 21:36",
+		"archivedAt": "2021/6/4 16:40",
 		"author": "国台办发言人朱凤莲",
 		"platform": "中国国台办"
 	},
@@ -1211,6 +1262,7 @@
 		"srcURL": "https://www.chinatimes.com/realtimenews/20210604001274-260407?chdtv",
 		"title": "本送台疫苗 美女發言人稱幫大陸澄清一件事",
 		"publishedAt": "2021/6/4 9:19",
+		"archivedAt": "2021/6/5 8:20",
 		"author": "陳弘美",
 		"platform": "中時新聞網"
 	},
@@ -1222,6 +1274,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210527_12355405.htm",
 		"title": "国台办：所谓大陆阻碍BNT疫苗售台的说法完全是无中生有",
 		"publishedAt": "2021/5/27 20:51",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AKRA-0E5J": {
@@ -1232,6 +1285,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355056.htm",
 		"title": "国台办：民进党当局不断甩锅大陆坑害台湾百姓",
 		"publishedAt": "2021/5/26 17:29",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AK96-B8VQ": {
@@ -1242,6 +1296,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355054.htm",
 		"title": "国台办：民进党当局应停止借疫情进行政治操弄切实保障台胞生命健康和利益福祉",
 		"publishedAt": "2021/5/26 17:27",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AK5Q-2IOC": {
@@ -1252,6 +1307,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355053.htm",
 		"title": "国台办：民进党当局抹黑大陆疫苗的实质是漠视台胞生命健康",
 		"publishedAt": "2021/5/26 17:27",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AK5M-MCAQ": {
@@ -1262,6 +1318,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355052.htm",
 		"title": "国台办：民进党当局应清楚回应台胞希望使用大陆疫苗愿望",
 		"publishedAt": "2021/5/26 17:26",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AKE2-6Z4P": {
@@ -1272,6 +1329,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355051.htm",
 		"title": "国台办：民进党当局借疫操弄栽赃嫁祸大陆极不道德",
 		"publishedAt": "2021/5/26 17:25",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AK2G-61VI": {
@@ -1282,6 +1340,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210524_12354449.htm",
 		"title": "国台办：愿迅速安排让广大台胞有大陆疫苗可用",
 		"publishedAt": "2021/5/24 22:51",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AKJV-AT6I": {
@@ -1292,6 +1351,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210520_12353554.htm",
 		"title": "国台办吁民进党当局：多把心思放在科学专业防控疫情上",
 		"publishedAt": "2021/5/20 19:17",
+		"archivedAt": "2021/6/4 16:40",
 		"platform": "中国国台办"
 	},
 	"X-AK7Q-W32Q": {
@@ -1302,6 +1362,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210518_12353016.htm",
 		"title": "国台办：愿尽最大努力帮助广大台湾同胞尽快战胜疫情",
 		"publishedAt": "2021/5/18 21:31",
+		"archivedAt": "2021/6/4 16:41",
 		"platform": "中国国台办"
 	},
 	"X-AKME-5OJA": {
@@ -1312,6 +1373,7 @@
 		"srcURL": "https://www.globaltimes.cn/page/202105/1224716.shtml",
 		"title": "US interested in arms sales, not COVID-19 vaccines, to Taiwan",
 		"publishedAt": "2021/5/27 21:59",
+		"archivedAt": "2021/6/4 16:54",
 		"author": "Li Qingqing",
 		"platform": "Global Times"
 	},
@@ -1323,6 +1385,7 @@
 		"srcURL": "https://www.globaltimes.cn/page/202105/1224708.shtml",
 		"title": "DPP’s pursuit of political interests comes at cost of people’s lives amid rampant COVID-19 situation: observers",
 		"publishedAt": "2021/5/27 21:13",
+		"archivedAt": "2021/6/4 16:54",
 		"author": "Wang Qi and Lu Yameng",
 		"platform": "Global Times"
 	},
@@ -1334,6 +1397,7 @@
 		"srcURL": "https://www.globaltimes.cn/page/202105/1224368.shtml",
 		"title": "Vaccine diplomacy exposes fake friendship between Washington and Taiwan",
 		"publishedAt": "2021/5/25 0:44",
+		"archivedAt": "2021/6/4 16:56",
 		"author": "Zhang Hua and Yin Maoxiang",
 		"platform": "Global Times"
 	},
@@ -1345,6 +1409,7 @@
 		"srcURL": "https://www.globaltimes.cn/page/202105/1223948.shtml",
 		"title": "Vaccine will test island of Taiwan’s weight in Washington",
 		"publishedAt": "2021/5/19 22:24",
+		"archivedAt": "2021/6/4 16:57",
 		"author": "Yuan Zheng",
 		"platform": "Global Times"
 	},
@@ -1356,6 +1421,7 @@
 		"srcURL": "https://www.mirrormedia.mg/story/20210603edi035/",
 		"title": "桃園機場驚現「逃亡潮」　陳文茜10點分析：政府不被信任的結果",
 		"publishedAt": "2021/6/3 16:37",
+		"archivedAt": "2021/6/4 22:17",
 		"author": "謝文哲",
 		"platform": "鏡週刊",
 		"text": "國內疫情升溫，在國外旅遊仍是風險之際，桃園機場竟出現「逃亡潮」。陳文茜今（3日）在臉書曬出3張網路照片，是今日的桃園機場景象，可見機場航廈人潮聚集，彷彿回到疫情前。陳文茜以10點分析此現象，都與國內疫苗不足息息相關，「一個不被信任的政府，才會出現在旅遊仍有風險時，機場的逃亡潮」。"
@@ -1368,6 +1434,7 @@
 		"srcURL": "https://www.chinatimes.com/realtimenews/20210604001072-260407?chdtv",
 		"title": "出國打疫苗 陳文茜爆「逃亡潮」真相：政府不被信任的結果",
 		"publishedAt": "2021/6/4 8:57",
+		"archivedAt": "2021/6/4 22:18",
 		"author": "王子瑄",
 		"platform": "中時新聞網",
 		"text": "本土疫情不斷升溫，截至3日已有166人死亡，超越SARS時期紀錄，桃園機場更驚現赴美「逃亡潮」。媒體人陳文茜表示，台灣至今未採購足量疫苗，反觀美國疫苗過剩，凡入境者皆可施打，對經濟佳者而言，花400萬包機換全家的命是很正常的選擇；藝人張小燕與她這樣有能力卻選擇留在台灣者，都是對土地有情的人。此外，尤其AIT等各國代表處工作人員是否已經完成施打？陳意有所指稱：「我有消息來源，但請各位自己依智商判斷。」"
@@ -1380,6 +1447,7 @@
 		"srcURL": "http://bj.crntt.com/doc/1061/0/5/0/106105037.html",
 		"title": "陈文茜：不被信任的政府才会出现机场逃亡潮",
 		"publishedAt": "2021/6/4 10:40",
+		"archivedAt": "2021/6/4 22:20",
 		"author": "中评社台北6月4日电",
 		"platform": "中国评论新闻网"
 	},
@@ -1391,6 +1459,7 @@
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4159829867427993",
 		"title": "當旅遊仍是風險，台灣機場卻出現逃亡潮",
 		"publishedAt": "2021/6/3 14:50",
+		"archivedAt": "2021/6/4 13:25",
 		"author": "文茜的世界周報",
 		"platform": "Facebook"
 	},
@@ -1402,6 +1471,7 @@
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1622690118.A.C35.html",
 		"title": "Re: [問卦] 機場爆大量人潮？",
 		"publishedAt": "2021/6/3 11:15",
+		"archivedAt": "2021/6/4 22:28",
 		"author": "yuzhang (Bumbler Lee)",
 		"group": "Gossiping",
 		"platform": "PTT",
@@ -1415,6 +1485,7 @@
 		"srcURL": "http://www.xinhuanet.com/2021-05/12/c_1127438130.htm",
 		"title": "评民进党当局百般拒绝大陆疫苗 国台办：政治心魔作祟",
 		"publishedAt": "2021/5/12 19:05",
+		"archivedAt": "2021/6/6 11:36",
 		"author": "记者石⻰洪、刘欢、洪泽华",
 		"platform": "新华网"
 	},
@@ -1426,6 +1497,7 @@
 		"srcURL": "https://twitter.com/XinhuaChinese/status/1392437280539770884",
 		"title": "国台办发言人朱凤莲12日在例行新闻发布会上应询表示，在大陆新冠病毒疫苗和检测试剂输台问题上，民进党当局罔顾台湾民众健康福祉，编造各种荒诞理由百般拒绝，完全是政治心魔作祟。http://xhtxs.cn/eP5",
 		"publishedAt": "2021/5/12 19:11",
+		"archivedAt": "2021/6/4 12:51",
 		"author": "New China 中文",
 		"platform": "Twitter"
 	},
@@ -1437,6 +1509,7 @@
 		"srcURL": "https://twitter.com/huangzhixia/status/1392834164240625664",
 		"title": "台湾大停电是天灾还是人祸？ 你很难想象，一个在21世纪不断吹嘘自己是“亚洲文明典范”的“民主地区”，仍无法保障人民稳定电力供应——台湾民进党政府，请等等你的人民！ 台湾政府有钱发展“太空战略”，没钱维护供电系统？ 文明地区的标志，不是看你楼有多高，而是看你的人民有没有电用 #今天台独吃莱猪了吗",
 		"publishedAt": "2021/5/13 21:28",
+		"archivedAt": "2021/6/4 12:51",
 		"author": "黃止下",
 		"platform": "Twitter"
 	},
@@ -1448,6 +1521,7 @@
 		"srcURL": "https://twitter.com/23r0n3/status/1393066905624141826",
 		"title": "台湾疫情危机重重，通过台湾“邦交国”把疫苗转给台湾，这就是大陆的格局，这就是大陆人的血浓于水。 蔡英文你看懂了吗？",
 		"publishedAt": "2021/5/14 12:53",
+		"archivedAt": "2021/6/4 12:51",
 		"author": "深红爱国同盟",
 		"platform": "Twitter"
 	},
@@ -1459,6 +1533,7 @@
 		"srcURL": "https://twitter.com/DiDi11409116/status/1393429979321364481",
 		"title": "#台湾 疫情爆发，中国科兴疫苗被炒到1万新台币一支，约合人民币2300元。 好家伙",
 		"publishedAt": "2021/5/15 12:56",
+		"archivedAt": "2021/6/4 12:50",
 		"author": "中国帝吧",
 		"platform": "Twitter"
 	},
@@ -1470,6 +1545,7 @@
 		"srcURL": "https://twitter.com/fingert51737970/status/1393844000302387204",
 		"title": "为什么不报道台湾疫情原因？！美国宁愿疫苗过期，也不卖给台湾！",
 		"publishedAt": "2021/5/16 16:21",
+		"archivedAt": "2021/6/4 12:50",
 		"author": "倾听指尖",
 		"platform": "Twitter"
 	},
@@ -1481,6 +1557,7 @@
 		"srcURL": "https://twitter.com/PgUpPgDnHoMe/status/1393735639363776514",
 		"title": "台湾不普筛是不是因为不愿意买便宜的中国造测试制剂。用西方造的用不起。大陆卖给巴西，巴西卖给洪都拉斯，洪都拉斯卖给尼加拉瓜，尼加拉瓜卖给台湾。",
 		"publishedAt": "2021/5/16 9:10",
+		"archivedAt": "2021/6/4 12:50",
 		"author": "安哥只想要路灯",
 		"platform": "Twitter"
 	},
@@ -1492,6 +1569,7 @@
 		"srcURL": "https://twitter.com/John17758739/status/1393709976905035777",
 		"title": "来大陆吧，免费打！！！让更多的台湾同胞都来大陆打疫苗吧！！",
 		"publishedAt": "2021/5/16 7:28",
+		"archivedAt": "2021/6/4 12:50",
 		"author": "中国人",
 		"platform": "Twitter"
 	},
@@ -1503,6 +1581,7 @@
 		"srcURL": "https://twitter.com/DiDi11409116/status/1393691659276226560",
 		"title": "台湾疫情失控怎么办？ 甩锅中国大陆：中共网军对台发起“认知作战” 甩锅国民党：国民党跟中共网军如出一辙",
 		"publishedAt": "2021/5/16 6:15",
+		"archivedAt": "2021/6/4 12:49",
 		"author": "中国帝吧",
 		"platform": "Twitter"
 	},
@@ -1514,6 +1593,7 @@
 		"srcURL": "https://twitter.com/DiDi11409116/status/1393879794643726338",
 		"title": "台湾乱了，蔬菜一天一个价，民众忙着自保，台南台北相互喷，物价蹭蹭蹭的涨，很难想象才几百例确诊就能造成这种景象。",
 		"publishedAt": "2021/5/16 18:43",
+		"archivedAt": "2021/6/4 12:49",
 		"author": "中国帝吧",
 		"platform": "Twitter"
 	},
@@ -1525,6 +1605,7 @@
 		"srcURL": "https://twitter.com/DiDi11409116/status/1394036222310289408",
 		"title": "台北一男子确诊竟未收到隔离通知，原来是因为医院没床位了，只能在家里传播病毒。 台湾不是还有一千张负压病床和很多医院么，这是隐瞒了多少？",
 		"publishedAt": "2021/5/17 5:05",
+		"archivedAt": "2021/6/4 12:49",
 		"author": "中国帝吧",
 		"platform": "Twitter"
 	},
@@ -1536,6 +1617,7 @@
 		"srcURL": "https://twitter.com/DiDi11409116/status/1394220001607905281",
 		"title": "台湾疫情爆成这样，台当局不搞普筛、不搞疫苗，陈时中第一时间提高 #认知作战 开始恐吓台湾网民：乱传“假讯息”者最高可罚3年刑期、300万新台币。",
 		"publishedAt": "2021/5/17 17:15",
+		"archivedAt": "2021/6/4 12:49",
 		"author": "中国帝吧",
 		"platform": "Twitter"
 	},
@@ -1547,6 +1629,7 @@
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1394228339825541120",
 		"title": "【“#台灣當局花大把鈔票向美國買武器，#可以救命的疫苗卻是一劑也沒有！”】 #台灣地區新冠確診病例連續3天超過百例，“#台駐美代表”蕭美琴稱，“過去台灣對施打疫苗意願不高，#所以重點都放在幫‘友邦’爭取疫苗上。” 此話一出，蕭美琴的言論被島內輿論炮轟。",
 		"publishedAt": "2021/5/17 17:48",
+		"archivedAt": "2021/6/4 12:48",
 		"author": "通說",
 		"platform": "Twitter"
 	},
@@ -1558,6 +1641,7 @@
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1394229939025584130",
 		"title": "#台灣也搞防疫實名制？台網紅：台灣防疫90%都是“抄”中國大陸！",
 		"publishedAt": "2021/5/17 17:54",
+		"archivedAt": "2021/6/4 12:48",
 		"author": "通說",
 		"platform": "Twitter"
 	},
@@ -1569,6 +1653,7 @@
 		"srcURL": "https://twitter.com/PhoenixTVHK/status/1398198726192111620",
 		"title": "啥？台灣疫苗分配不公！新北市確診超高雄市58倍卻少分3000劑！",
 		"publishedAt": "2021/5/28 16:45",
+		"archivedAt": "2021/6/4 8:29",
 		"author": "PhoenixTV 鳳凰衛視",
 		"platform": "Twitter"
 	},
@@ -1580,6 +1665,7 @@
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1398105605408055296",
 		"title": "為防控變異新冠病毒，澳大利亞人口第二多的維多利亞州自當地時間5月27日晚進入為期一周的封鎖狀態。 這不是該州首次“封城”，且目前確診病例也只是日增十幾例，但這一消息卻在台灣引發熱議。原來，在維多利亞州代理州長詹姆斯的聲明中，台灣是應對變異病毒失敗的典型案例，成了引以為戒的“反面教材”。",
 		"publishedAt": "2021/5/28 10:35",
+		"archivedAt": "2021/6/4 8:29",
 		"author": "通說",
 		"platform": "Twitter"
 	},
@@ -1591,6 +1677,7 @@
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1398168632077606920",
 		"title": "台灣疫情日趨嚴重，疫苗短缺成為島內焦點。28日，多家台媒援引日媒報道稱，日本政府考慮提供已採購的部分英國製阿斯利康（AstraZeneca，AZ）疫苗給台灣，最快6月可以提供。消息傳來，一些綠媒強調是“好消息”，但島內網友卻普遍心中忐忑。",
 		"publishedAt": "2021/5/28 14:45",
+		"archivedAt": "2021/6/4 8:29",
 		"author": "通說",
 		"platform": "Twitter"
 	},
@@ -1602,6 +1689,7 @@
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1398233044868206596",
 		"title": "【美國援台疫苗僅15萬劑？盤點那些年台灣經歷過的美國“套路”……】",
 		"publishedAt": "2021/5/28 19:01",
+		"archivedAt": "2021/6/4 8:28",
 		"author": "通說",
 		"platform": "Twitter"
 	},
@@ -1613,6 +1701,7 @@
 		"srcURL": "https://www.fmprc.gov.cn/web/fyrbt_673021/t1879392.shtml",
 		"title": "2021年5月28日外交部发言人赵立坚主持例行记者会",
 		"publishedAt": "2021/5/28",
+		"archivedAt": "2021/6/6 12:50",
 		"author": "赵立坚",
 		"platform": "中国外交部"
 	},
@@ -1624,6 +1713,7 @@
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210512_12351720.htm",
 		"title": "国台办：民进党当局炒作世卫大会涉台问题目的是“以疫谋独”",
 		"publishedAt": "2021/5/12 15:41",
+		"archivedAt": "2021/6/6 12:51",
 		"author": "国台办发言人朱凤莲",
 		"platform": "中国国台办"
 	},
@@ -1635,6 +1725,7 @@
 		"srcURL": "https://www.facebook.com/TheReacherTW/posts/4546983578664328",
 		"title": "近兩日台灣的新冠疫情迅猛爆發，5/12防疫指揮中心指揮官陳時中終於鬆口承認有社區感染情事。為避免影響股匯市，5/15日早上的疫情臨時記者會才公布新增180例，當天下午雙北市升級至三級警戒；5/16公布新增206例，其中有170例感染源不明。5/17早上，台北市長柯文哲率先宣布高中(含)以下停課兩周，下午便迎來更壞的消息，新增333例本土病例創新高。似乎如柯文哲昨日所言，疫情高峰期尚未到來，台灣已是在劫難逃？",
 		"publishedAt": "2021/5/18 5:12",
+		"archivedAt": "2021/6/6 11:57",
 		"author": "觸極者 The Reacher",
 		"platform": "Facebook"
 	},
@@ -1646,6 +1737,7 @@
 		"srcURL": "https://udn.com/news/story/122173/5470283",
 		"title": "今進40萬疫苗 柯文哲開轟：美國沒有賣任何一支給台灣",
 		"publishedAt": "2021/5/19 16:37",
+		"archivedAt": "2021/6/6 10:06",
 		"author": "記者楊正海",
 		"platform": "聯合新聞網"
 	},
@@ -1657,6 +1749,7 @@
 		"srcURL": "https://twitter.com/huangzhixia/status/1394494300956676112",
 		"title": "#关注台湾疫情 国台办： 病毒无情人有情！海峡两岸同胞都是中华儿女，台湾同胞是我们的骨肉天亲，大陆各界始终心系广大台湾同胞的生命健康安全，我们愿尽最大努力帮助广大台湾同胞尽快战胜疫情。 当务之急是去除岛内人为政治障碍，使广大台胞有大陆疫苗可用，让广大台胞的生命健康利益福祉得到必要保障",
 		"publishedAt": "2021/5/18 11:25",
+		"archivedAt": "2021/6/4 12:48",
 		"author": "黃止下",
 		"platform": "Twitter"
 	},
@@ -1668,6 +1761,7 @@
 		"srcURL": "https://twitter.com/huangzhixia/status/1394591265308745728",
 		"title": "#关注台湾疫情 台湾肺炎能被民进党当局控制住吗？ 希望台湾肺炎不要破坏全球来之不易的防疫成果，早日在岛内自行消化自行解决，台独分子身为“文明人代表”，更该发扬民主地区的“文明精神”，不要向世界传播台湾肺炎",
 		"publishedAt": "2021/5/18 17:50",
+		"archivedAt": "2021/6/4 12:48",
 		"author": "黃止下",
 		"platform": "Twitter"
 	},
@@ -1679,6 +1773,7 @@
 		"srcURL": "https://twitter.com/John17758739/status/1394416381857353730",
 		"title": "大陆对台湾同胞的大门永远敞开着，来大陆打疫苗，免费。否则，不卖！！！",
 		"publishedAt": "2021/5/18 6:15",
+		"archivedAt": "2021/6/4 12:48",
 		"author": "中国人",
 		"platform": "Twitter"
 	},
@@ -1690,6 +1785,7 @@
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1394551389838213125",
 		"title": "【#大陸願向台灣提供疫苗，#台陸委會竟惡語相向 環球時報總編輯：#兩岸政權在道德上高下立現！】 面對大陸願意向台灣同胞提供疫苗的善意，民進黨當局一口拒絕，甚至惡語相加。台陸委會聲稱“對岸不必假好心”，還說“只要中國大陸不阻撓，我們就可以更快速的從國際上取得更多可靠的疫苗”。",
 		"publishedAt": "2021/5/18 15:12",
+		"archivedAt": "2021/6/4 12:47",
 		"author": "通說",
 		"platform": "Twitter"
 	},
@@ -1701,6 +1797,7 @@
 		"srcURL": "https://twitter.com/XinhuaChinese/status/1394553525166772224",
 		"title": "近期台湾新冠肺炎疫情骤然升温，单日新增本土确诊病例17日攀升至333例，防疫形势日趋严峻。连日来，岛内舆论持续发声，批评民进党当局防疫不力是造成此次岛内疫情暴发的要因。http://xhtxs.cn/e4S",
 		"publishedAt": "2021/5/18 15:20",
+		"archivedAt": "2021/6/4 12:47",
 		"author": "New China 中文",
 		"platform": "Twitter"
 	},
@@ -1712,6 +1809,7 @@
 		"srcURL": "https://twitter.com/globaltimesnews/status/1394650190888407040",
 		"title": "#环球时报Editorial: The mainland cares for the Taiwan island’s epidemic out of humanitarianism, but this goodwill cannot reach the Taiwanese people because of the political obstacles set by the DPP authorities.",
 		"publishedAt": "2021/5/18 21:44",
+		"archivedAt": "2021/6/4 12:47",
 		"author": "Global Times",
 		"platform": "Twitter"
 	},
@@ -1723,6 +1821,7 @@
 		"srcURL": "https://twitter.com/Caotongxue2/status/1394799236911304705",
 		"title": "这是公民记者方方将个人生死置之度外，在台湾疫情反弹时亲自去台湾考察当地防疫情况而写下的《方方日记·台湾特辑》。这样一位敢说真话的公民记者，是国家的良心，民族的脊梁，人民的希望！",
 		"publishedAt": "2021/5/19 7:37",
+		"archivedAt": "2021/6/4 9:01",
 		"author": "曹同學 조동학 Mr.Cao Amor (激進改革左派)",
 		"platform": "Twitter"
 	},
@@ -1734,6 +1833,7 @@
 		"srcURL": "https://twitter.com/huangzhixia/status/1394860079803817998",
 		"title": "#民主铁拳 的滋味，总是分外香甜 “自由”就是我可以造谣你大陆疫情失控，你不能说我台湾哪里有确诊，你敢说我就敢抓，说一次抓一个！ 在大陆，民间的消息是“真实”的；在台湾，只有我们台湾CDC的消息才是最权威最可信的！ 台湾群众切莫不知好歹以身试法！ 让台湾人民说话，天塌不下来！ #关注台湾疫情",
 		"publishedAt": "2021/5/19 11:38",
+		"archivedAt": "2021/6/4 9:00",
 		"author": "黃止下",
 		"platform": "Twitter"
 	},
@@ -1745,6 +1845,7 @@
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1395286970411085825",
 		"title": "台北市長柯文哲19日指出，美國至今沒有賣任何一支疫苗給台灣。儘管台灣方面已經確認收到了美國莫德納疫苗的200劑檢驗品，但是按照採購合約，莫德納疫苗到貨至少要等到6月份。 柯文哲說，他不願意給台當局太大壓力，但是事實就是，到現在美國沒有賣給台灣任何一支疫苗。",
 		"publishedAt": "2021/5/20 15:55",
+		"archivedAt": "2021/6/4 8:53",
 		"author": "通說",
 		"platform": "Twitter"
 	},
@@ -1756,6 +1857,7 @@
 		"srcURL": "https://twitter.com/ChinaSunSong/status/1395405969895542790",
 		"title": "美国把假疫苗运送到中国台湾地区。",
 		"publishedAt": "2021/5/20 23:48",
+		"archivedAt": "2021/6/4 8:52",
 		"author": "孫松_Sun Song",
 		"platform": "Twitter"
 	},
@@ -1767,6 +1869,7 @@
 		"srcURL": "https://twitter.com/realGuancha/status/1395263548503191552",
 		"title": "昨天（19日）台湾和安徽的差距有多大？是267例本土单日新增新冠确诊病例：台湾267例，安徽0例。",
 		"publishedAt": "2021/5/20 14:22",
+		"archivedAt": "2021/6/4 8:52",
 		"author": "观察者网",
 		"platform": "Twitter"
 	},
@@ -1778,6 +1881,7 @@
 		"srcURL": "https://twitter.com/realGuancha/status/1395264340274544640",
 		"title": "柯文哲提到，COVAX给台湾的新冠疫苗一共才70万剂，而台湾有2300万人，不知道要如何分配。岛内新冠疫情持续升温，已连续5天新增确诊病例超百例，然而从今年3月疫苗施打至今，疫苗接种率不到1%。",
 		"publishedAt": "2021/5/20 14:25",
+		"archivedAt": "2021/6/4 8:52",
 		"author": "观察者网",
 		"platform": "Twitter"
 	},
@@ -1789,6 +1893,7 @@
 		"srcURL": "https://twitter.com/HuXijin_GT/status/1395377696213929984",
 		"title": "The US hasn’t exported a single COVID-19 vaccine dose to Taiwan. Where is the US’ enthusiasm of arms sale to the island? What the US wants to protect is the Taiwan authorities who serve US interests, not Taiwan people.",
 		"publishedAt": "2021/5/20 21:55",
+		"archivedAt": "2021/6/4 8:52",
 		"author": "Hu Xijin 胡锡进",
 		"platform": "Twitter"
 	},
@@ -1800,6 +1905,7 @@
 		"srcURL": "https://www.facebook.com/DenyARumor/posts/4260427130654152",
 		"title": "台北市長柯文哲開炮：到現在美國沒有賣任何一支疫苗給台灣",
 		"publishedAt": "2021/5/19 20:31",
+		"archivedAt": "2021/6/6 11:59",
 		"author": "DenyARumor",
 		"platform": "Facebook"
 	},
@@ -1811,6 +1917,7 @@
 		"srcURL": "https://www.facebook.com/taiwanheadlines/posts/4044922398962590",
 		"title": "台北市長柯文哲開炮：到現在美國沒有賣任何一支疫苗給台灣",
 		"publishedAt": "2021/5/19 20:30",
+		"archivedAt": "2021/6/6 12:00",
 		"author": "兩岸頭條",
 		"platform": "Facebook"
 	},
@@ -1822,6 +1929,7 @@
 		"srcURL": "https://www.facebook.com/houkongdaily/posts/1512150549124893",
 		"title": "走進台灣：台再增267宗本地感染 全台多地爆發疫情",
 		"publishedAt": "2021/5/19 21:21",
+		"archivedAt": "2021/6/6 12:03",
 		"author": "濠江日報",
 		"platform": "Facebook",
 		"text": "此批疫苗是由歐洲送達台灣，特別的是，台北市長柯文哲被問到疫苗取得議題時，一度在記者會上表示：「忍不住要講，到現在美國沒有賣任何一支疫苗給台灣。」"
@@ -1834,6 +1942,7 @@
 		"srcURL": "https://www.facebook.com/chinanewgeneration/posts/4234102473307915",
 		"title": "“到現在美國沒有賣任何一支疫苗給台灣！” 他忍不住炮轟 節錄自環球網",
 		"publishedAt": "2021/5/20 7:10",
+		"archivedAt": "2021/6/6 12:03",
 		"author": "中國新時代",
 		"platform": "Facebook"
 	},
@@ -1845,6 +1954,7 @@
 		"srcURL": "https://www.facebook.com/realGuancha/posts/844456479489802",
 		"title": "【台北市长忍不住了：美国没有卖任何一支疫苗给台湾】",
 		"publishedAt": "2021/5/20 12:54",
+		"archivedAt": "2021/6/6 12:03",
 		"author": "观察者网",
 		"platform": "Facebook"
 	},
@@ -1856,6 +1966,7 @@
 		"srcURL": "https://www.facebook.com/wenweipo/posts/4278878278809698",
 		"title": "【柯文哲：美國至今沒賣一劑疫苗給台灣】",
 		"publishedAt": "2021/5/20 14:30",
+		"archivedAt": "2021/6/6 12:04",
 		"author": "香港文匯報",
 		"platform": "Facebook"
 	},
@@ -1867,6 +1978,7 @@
 		"srcURL": "https://www.taiwannews.com.tw/en/news/4206858",
 		"title": "Taiwan has not received single COVID dose from US: Taipei mayor",
 		"publishedAt": "2021/5/20 10:26",
+		"archivedAt": "2021/6/6 16:31",
 		"author": "Huang Tzu-ti, Taiwan News, Staff Writer ",
 		"platform": "Taiwan News"
 	},
@@ -1878,6 +1990,7 @@
 		"srcURL": "https://mp.weixin.qq.com/s/IBD1HXHVJ-ps3LcU0FgaAQ",
 		"title": "数量“惊人”！美国如此囤积新冠疫苗，连美国媒体都看不下去了",
 		"publishedAt": "2021/5/18 18:40",
+		"archivedAt": "2021/6/6 16:56",
 		"author": "李志伟",
 		"group": "人民日报国际",
 		"platform": "微信公众平台"
@@ -1890,6 +2003,7 @@
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=993502638142069&id=387030875455918",
 		"title": "全球新冠疫苗出口对比：中国最多，有2.52亿剂！美国仅300万剂？",
 		"publishedAt": "2021/5/20 20:17",
+		"archivedAt": "2021/6/6 16:13",
 		"author": "琪琪看生活",
 		"platform": "Facebook"
 	},
@@ -1901,6 +2015,7 @@
 		"srcURL": "https://hotqiqi.com/archives/177010",
 		"title": "全球新冠疫苗出口对比：中国最多，有2.52亿剂！美国仅300万剂？",
 		"publishedAt": "2021/5/20 20:11",
+		"archivedAt": "2021/6/6 16:13",
 		"author": "qiqiaw",
 		"platform": "琦琦看新聞"
 	},
@@ -1912,6 +2027,7 @@
 		"srcURL": "https://weibo.com/2039753857/KgtxoA4qJ",
 		"title": "【#美国没有卖任何一支疫苗给台湾#】台湾本土疫情持续升温，岛内新冠疫苗“一剂难求”。19日，台北市长柯文哲在防疫记者会中吐槽称，“到现在美国没有卖任何一支疫苗给台湾”。#全球抗疫进行时# CCTV4的微博视频",
 		"publishedAt": "2021/5/21 12:25",
+		"archivedAt": "2021/6/6 22:37",
 		"author": "CCTV4",
 		"platform": "微博"
 	},
@@ -1923,6 +2039,7 @@
 		"srcURL": "https://twitter.com/FWXn631i9hFbyHt/status/1394533303101923331",
 		"title": "台湾到处都是尸体，老人院的老人死了很多，尸体来不及火化，在院子里被老鼠啃噬，非常凄惨，台湾建立集中营，关押感染病毒的患者，限制人身自由，不允许外出，不给药物治疗，任由患者自生自灭，台湾独裁政府，不允许任何媒体报道，否则罚款三百万，收监三年，台湾已经沦为人间地狱，惨绝人寰。",
 		"publishedAt": "2021/5/18 14:00",
+		"archivedAt": "2021/6/7 15:50",
 		"author": "凤凰榛榛",
 		"platform": "Twitter"
 	},
@@ -1933,6 +2050,7 @@
 		"fileName": "X-AKXG-53O6.png",
 		"title": "國民黨三寶特權打疫苗",
 		"publishedAt": "2021/6/8 9:10",
+		"archivedAt": "2021/6/8 9:30",
 		"author": "HAO",
 		"group": "台派小編戰鬥群",
 		"platform": "LINE"
@@ -1945,6 +2063,7 @@
 		"srcURL": "https://www.statista.com/chart/24555/vaccine-doses-produced-and-exported/",
 		"title": "America First? Covid-19 Production & Exports",
 		"publishedAt": "2021/5/19",
+		"archivedAt": "2021/6/8 17:18",
 		"author": "Niall McCarthy",
 		"platform": "Statista"
 	},
@@ -1956,6 +2075,7 @@
 		"srcURL": "https://www.facebook.com/ttksj01/posts/4309638025760888",
 		"title": "【中國網友致信世衛組織 要求徹查美軍德特裏克堡基地】",
 		"publishedAt": "2021/6/3 15:01",
+		"archivedAt": "2021/6/4 22:31",
 		"author": "婷婷看世界",
 		"platform": "Facebook"
 	},
@@ -1967,6 +2087,7 @@
 		"srcURL": "https://www.facebook.com/2100room/posts/1879483248898946",
 		"title": "【不忍了！　防守不會贏、柯文哲：美國沒賣任何一劑疫苗給台灣】",
 		"publishedAt": "2021/5/20 9:30",
+		"archivedAt": "2021/6/8 17:34",
 		"author": "TVBS 少康戰情室",
 		"platform": "Facebook"
 	},
@@ -1978,6 +2099,7 @@
 		"srcURL": "https://www.facebook.com/TongMediaHK/posts/2798697757126821",
 		"title": "【台北市長柯文哲記者會上開炮：到現在美國沒有賣任何一支疫苗給台灣】",
 		"publishedAt": "2021/5/20 8:49",
+		"archivedAt": "2021/6/8 17:37",
 		"author": "通傳媒",
 		"platform": "Facebook"
 	},
@@ -1989,6 +2111,7 @@
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=306215281120332&id=104936044581591",
 		"title": "【台北市長：美國沒賣給台灣一支疫苗！】",
 		"publishedAt": "2021/5/20 17:02",
+		"archivedAt": "2021/6/8 17:37",
 		"author": "人民日報香港",
 		"platform": "Facebook"
 	},
@@ -2000,6 +2123,7 @@
 		"srcURL": "https://www.facebook.com/hkgpaocomhk/posts/336144947945871",
 		"title": "近日台灣疫情肆虐，直到昨日（19日）的275宗，已連續5日確診數字破百；然而，被台灣視為「盟友」的美國，竟然連疫苗都不賣給台灣？",
 		"publishedAt": "2021/5/20 13:56",
+		"archivedAt": "2021/6/8 17:40",
 		"author": "HKG 報 2.0",
 		"platform": "Facebook",
 		"text": "近日台灣疫情肆虐，直到昨日（19日）的275宗，已連續5日確診數字破百；然而，被台灣視為「盟友」的美國，竟然連疫苗都不賣給台灣？\n台北市長柯文哲昨午在防疫記者會中表示，相信疫苗是疫情的最終解決辦法。同時，柯文哲忍不住脫口：「到現在為止，美國沒有賣任何一支疫苗給台灣」。\n疫症當前，各國應守望相助。美國卻袖手旁觀，不把疫苗賣給台灣。對「friend」都係咁，霸權嘅自私可見一斑！\n文章網址：https://www.hkgpao.com/articles/1021532\n#HKG報 #二點零 #台灣 #柯文哲 #美國 #新冠 #疫苗 #自私霸權闊佬懶理\n原圖：無綫新聞截圖\nhttps://news.tvb.com/greaterchina/60a5282a335d197d66697596"
@@ -2012,6 +2136,7 @@
 		"srcURL": "https://www.facebook.com/2031074317195947_2635767803393259",
 		"title": "【#正言焦點】柯文哲點出事實：美國至今沒賣過任何一支疫苗給台灣",
 		"publishedAt": "2021/5/21 9:30",
+		"archivedAt": "2021/6/8 17:38",
 		"author": "今日正言 Today Review",
 		"platform": "Facebook"
 	},
@@ -2023,6 +2148,7 @@
 		"srcURL": "https://www.facebook.com/China.Di8/posts/3815481228580764",
 		"title": "#台湾新冠疫情会失控吗 #台湾新冠疫情是如何变成现在这样的 #柯文哲称美国没有卖一支疫苗给台湾 5月21日，台湾新增本土确诊病例312例，已经是连续七天确诊破百例了。岛内多地，出现了民众疯抢物资的场景，口罩、酒精这些防疫物品，价格水涨船高，医院床位也开始紧缺了。怎么上周缺水停电的问题都还没解决，疫情又紧跟着爆发了呢？本期《消化一下》，就给大家扒一扒，台湾“防疫优等生”的人设，是怎么崩塌的。",
 		"publishedAt": "2021/5/22 21:31",
+		"archivedAt": "2021/6/8 17:41",
 		"author": "帝吧中央集团军（小组）",
 		"platform": "Facebook"
 	},
@@ -2034,6 +2160,7 @@
 		"srcURL": "https://twitter.com/huangzhixia/status/1395752079373729796",
 		"title": "具体操作，真的很简单：就是找到去年台湾绿媒报道大陆方舱医院、健康码等等的新闻，复制粘贴改名字",
 		"publishedAt": "2021/5/21 22:43",
+		"archivedAt": "2021/6/9 15:34",
 		"author": "黃止下",
 		"platform": "Twitter",
 		"text": "具体操作，真的很简单：\n就是找到去年台湾绿媒报道大陆方舱医院、健康码等等的新闻，复制粘贴改名字\n不过，主要还是以去年绿蛙的推特言论为主——还是“复制、粘贴、改名字”就行，蛙们为我们创作好了，不必再费力气瞎想。当然，你在蛙蛙创作基础上能更进一步，更好\n一定不要忘“台湾肺炎”，示例⇩"
@@ -2046,6 +2173,7 @@
 		"srcURL": "https://www.cna.com.tw/news/asoc/202105070248.aspx",
 		"title": "散布蘆洲國小湧蓮寺有疫情 4女到案送法辦",
 		"publishedAt": "2021/5/7 17:40",
+		"archivedAt": "2021/6/10 11:14",
 		"author": "記者沈佩瑤",
 		"platform": "中央通訊社"
 	},
@@ -2057,6 +2185,7 @@
 		"srcURL": "https://udn.com/news/story/120940/5456248",
 		"title": "來路不明音檔傳北基有確診？指揮中心深夜駁斥",
 		"publishedAt": "2021/5/13 23:26",
+		"archivedAt": "2021/6/10 11:14",
 		"author": "記者邱宜君",
 		"platform": "聯合新聞網"
 	},
@@ -2068,6 +2197,7 @@
 		"srcURL": "https://tw.appledaily.com/life/20210514/ABKT7BL56NFBNOTE5NEILW4DIY/",
 		"title": "墾丁瘋傳「桃園畢旅團確診」音檔　潘孟安也遭炸！運將造謠被捕",
 		"publishedAt": "2021/5/14 13:16",
+		"archivedAt": "2021/6/10 11:15",
 		"author": "地方中心陳宏銘",
 		"platform": "蘋果新聞網"
 	},
@@ -2079,6 +2209,7 @@
 		"srcURL": "https://www.ettoday.net/news/20200130/1634736.htm",
 		"title": "台灣「亂傳錄音檔」首例！傳「武漢肺炎在林口長庚」　刑事局逮2網友",
 		"publishedAt": "2020/1/30 20:56",
+		"archivedAt": "2021/6/10 11:20",
 		"author": "記者張君豪",
 		"platform": "ETtoday 新聞雲"
 	},
@@ -2090,6 +2221,7 @@
 		"srcURL": "https://news.ltn.com.tw/news/life/breakingnews/3112920",
 		"title": "傳疫情假訊息想博關注 八卦婦人遭法辦爆哭",
 		"publishedAt": "2020/3/26 6:04",
+		"archivedAt": "2021/6/10 11:22",
 		"author": "記者王捷",
 		"platform": "自由時報"
 	},
@@ -2101,6 +2233,7 @@
 		"srcURL": "https://twitter.com/ChinaSunSong/status/1401730108260438016",
 		"title": "一個國家，向中國台灣地區運送不要的疫苗。美國自己不用，送給了台灣省。還好意思說，注射完成以後，還在爆發疫情。",
 		"publishedAt": "2021/6/7 10:37",
+		"archivedAt": "2021/6/11 0:00",
 		"author": "孫松_Sun Song",
 		"platform": "Twitter"
 	}

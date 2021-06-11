@@ -66,7 +66,11 @@ async function get() {
       fileType = fileName.split('.')[1]
       displayType = displayTypeMap[fileType]
     }
-    return Object.assign(row, fileName ? { fileName } : {}, displayType ? { displayType } : {})
+    let archivedAt = row.archivedAt
+    if(!archivedAt && row['Timestamp']) {
+      archivedAt = row['Timestamp']
+    }
+    return Object.assign(row, fileName ? { fileName } : {}, displayType ? { displayType } : {}, archivedAt ? { archivedAt } : {})
   })
 
   rows = rows.map(row => ({
@@ -77,6 +81,7 @@ async function get() {
     ...(ok(row.srcURL) ? { srcURL: row.srcURL } : {}),
     ...(ok(row.title) ? { title: row.title } : {}),
     ...(ok(row.publishedAt) ? { publishedAt: row.publishedAt } : {}),
+    ...(ok(row.archivedAt) ? { archivedAt: row.archivedAt } : {}),
     ...(ok(row.author) ? { author: row.author } : {}),
     ...(ok(row.group) ? { group: row.group } : {}),
     ...(ok(row.platform) ? { platform: row.platform } : {}),

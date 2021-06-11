@@ -1,8 +1,18 @@
 <i18n lang="yaml">
 _tw:
   source: "原始來源"
+  author: "作者"
+  group: "群組"
+  platform: "平台"
+  publishedAt: "發布"
+  archivedAt: "收錄"
 _en:
   source: "Source"
+  author: "Author"
+  group: "Group"
+  platform: "Platform"
+  publishedAt: "Published"
+  archivedAt: "Archived"
 </i18n>
 
 <template>
@@ -13,9 +23,11 @@ _en:
   </div>
   <ul class="entry-info">
     <li class="ioid"><a>{{ entry.ioid }}</a></li>
-    <li v-if="entry.author" class="author">{{ entry.author }}</li>
-    <li v-if="entry.group" class="group">{{ entry.group }}</li>
-    <li v-if="entry.platform" class="platform">{{ entry.platform }}</li>
+    <li v-if="entry.author" class="author"><label>{{ $t('author') }}</label>{{ entry.author }}</li>
+    <li v-if="entry.group" class="group"><label>{{ $t('group') }}</label>{{ entry.group }}</li>
+    <li v-if="entry.platform" class="platform"><label>{{ $t('platform') }}</label>{{ entry.platform }}</li>
+    <li v-if="entry.publishedAt" class="time"><label>{{ $t('publishedAt') }}</label>{{ entry.publishedAt }}</li>
+    <li v-if="entry.archivedAt" class="time"><label>{{ $t('archivedAt') }}</label>{{ entry.archivedAt }}</li>
     <li v-if="entry.srcURL" class="src"><a :href="entry.srcURL" target="_blank">{{ $t('source') }}</a></li>
   </ul>
 </div>
@@ -85,11 +97,17 @@ export default {
     @include shadow;
     > .ioid {
       font-size: 0.75rem;
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.5rem;
     }
     > .src {
       font-size: 0.75rem;
       margin-top: 0.75rem;
+    }
+    label {
+      display: inline-block;
+      margin-right: 0.5rem;
+      font-size: 0.75rem;
+      vertical-align: top;
     }
   }
 }
