@@ -1,11 +1,26 @@
+<i18n lang="json">
+{
+  "_tw": {
+    "sub": "留下 Email，訂閱 <span class=dokidoki>IORG 資訊操弄心<span class=doki>慌</span>週報</span>。",
+    "sub_after_article": "感謝你閱讀這一期的 <span class=dokidoki>IORG 資訊操弄心<span class=doki>慌</span>週報</span>。<br>覺得不錯嗎？留下 Email 就可以訂閱囉 <span class=yes>✌️</span>",
+    "privacy": "基於隱私保護，你的 Email 僅供 IORG 寄送心慌週報使用，絕不轉作其他用途，絕不轉交其他人。如果你不想再收到 IORG 心慌週報，請隨時寄信至 bye@iorg.tw 取消訂閱，非常感謝。"
+  },
+  "_en": {
+    "sub": "Subscribe to <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert Weekly</span>.",
+    "sub_after_article": "Thank you for reading this <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert Weekly</span>. Like it? Please subscribe <span class=yes>✌️</span>",
+    "privacy": "To protect your privacy, your email will only be used to send you Dokidoki Alert Weekly. It will not be used for any other purpose, nor will it be available to anyone outside IORG. If you want to unsubscribe, please email to bye@iorg.tw. Thank you."
+  }
+}
+</i18n>
+
 <template>
 <div class="subscribe-simple">
-  <p v-if="context === 'default'" class="description">留下 Email，訂閱 <span class="dokidoki">IORG 資訊操弄心<span class="doki">慌</span>週報</span>。</p>
-  <p v-else-if="context === 'article'" class="description">感謝你閱讀這一期的 <span class="dokidoki">IORG 資訊操弄心<span class="doki">慌</span>週報</span>。<br>覺得不錯嗎？留下 Email 就可以訂閱囉 <span class="yes">✌️</span></p>
+  <p v-if="context === 'default'" class="description" v-html="$t('sub')"></p>
+  <p v-else-if="context === 'article'" class="description" v-html="$t('sub_after_article')"></p>
   <div class="form-container">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScW5xxLe4cxfyoXpue2VSWrv0WdZByr6YfwoR8iQD70MOKsXg/viewform"></iframe>
   </div>
-  <p class="privacy">基於隱私保護，你的 Email 僅供 IORG 寄送心慌週報使用，絕不轉作其他用途，絕不轉交其他人。如果你不想再收到 IORG 心慌週報，請隨時寄信至 bye@iorg.tw 取消訂閱，非常感謝。</p>
+  <p class="privacy">{{ $t('privacy') }}</p>
 </div>
 </template>
 
