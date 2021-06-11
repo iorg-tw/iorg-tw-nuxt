@@ -9,7 +9,7 @@
 		},
 		"publishedAt": "2020/10/20 18:00",
 		"updatedAt": "2021/3/1 14:00",
-		"cache": false,
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "鳴謝",
@@ -17,7 +17,8 @@
 				"articleID": "ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/3/1 14:00"
+				"updatedAt": "2021/3/1 14:00",
+				"cache": "ack_tw"
 			},
 			"_en": {
 				"title": "Acknowledgement",
@@ -25,7 +26,8 @@
 				"articleID": "ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/3/1 14:00"
+				"updatedAt": "2021/3/1 14:00",
+				"cache": "ack_en"
 			}
 		}
 	},
