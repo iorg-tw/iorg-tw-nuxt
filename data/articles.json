@@ -531,6 +531,33 @@
 			}
 		}
 	},
+	"cipe-c-tai": {
+		"published": true,
+		"type": "article",
+		"id": "cipe-c-tai",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSl4vztbMnoVuZ2VEpPXaiDpISQQct9WKTi3vRxFG12cem4C7iLzUfZpykUIlx0TRooZ6BGtosI-024/pub"
+		},
+		"publishedAt": "2021/5/18 12:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "糖衣炮彈 incoming！CIPE 研究：極權國家「腐蝕性資本」破壞民主",
+				"subtitle": "心慌保全來訪問 Ep.30",
+				"coverImage": "https://lh4.googleusercontent.com/Z86vlg4FdK2eBXKXKQtqc7s65EKXUPfxN6AuqJxS7eWnHe70YLZskTDqUiBxbvIBHPV4wvC3EVuaYA8IRj6RKSZJJd2rJvTUlRWdVYYcn0iv5q3HqIVP380TNIUggFJuPA",
+				"summary": "「他們打來的炮彈是外層包了糖衣的，先給你個甜頭，然後爆炸，達到征服你的目的。」毛澤東這句著名的譬喻，時空背景是毛澤東為了警告「同志」，當心被西方高檔物質生活、精緻消費品等資本主義價值標準所誘惑，這句話原是作為中共組織建設、思想建設的中心思想，套用到今日，中共反守為攻，也以如「糖衣砲彈」的攻擊，侵蝕民主國家的防禦力。",
+				"tags": [
+					"資訊操弄",
+					"國際觀察",
+					"CIPE",
+					"腐蝕性資本"
+				],
+				"articleID": "cipe-c-tai",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSl4vztbMnoVuZ2VEpPXaiDpISQQct9WKTi3vRxFG12cem4C7iLzUfZpykUIlx0TRooZ6BGtosI-024/pub",
+				"publishedAt": "2021/5/18 12:00"
+			}
+		}
+	},
 	"from-weibo-with-love": {
 		"published": true,
 		"type": "article",
@@ -561,7 +588,7 @@
 		"type": "article",
 		"id": "cofacts",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRKfQ7xTeYrQMI50VIm3yom5nNtujDUYBnV2gEfNmtliZqrlfNWcGbOaVluxFUbv9cBq2uPzOIo1krm/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRqmQLuWSSoWhR6_oIv4bU5xjGwrjB20g3NXlMkLadFzwQCBUa5tdQw2hB_6EcCoNJ6zoUg-neUsL2R/pub"
 		},
 		"publishedAt": "2021/4/7 18:00",
 		"cache": false,
@@ -569,7 +596,7 @@
 			"_tw": {
 				"title": "消除長者資訊焦慮，「Cofacts 真的假的」下一步：擴大線下巡迴宣導",
 				"subtitle": "心慌保全來訪問 Ep.29",
-				"coverImage": "https://lh6.googleusercontent.com/_SBd0_4C7EvdCioJB-ofoedeD-mpQljKLhzBjmFyvSPf7_v1_5qcjLqXElYJYPnI6cB1_BUeVzW_6OOPwJrtYiUhqWF7lBDmJMqv7UUOltgyoixkvdaK2kXz0VWhapaC1Q",
+				"coverImage": "https://lh4.googleusercontent.com/OYYToo7kfON6nnX43SbKOmo7aDuPictBybNzmiR-LWnAXsknIcgOe_5XjVsE-iMWvR041f1KD_1flLJeT8S_bv992NNq8tV_Uc2INPnPrXo3tzwUB9WfWfy7_OL3Q4wQdA",
 				"summary": "「喝茶可以消滅冠狀病毒」、「晚上七點喝高粱，可檢驗有無感染武漢肺炎」⋯諸多不知來龍去脈的謠言，有如黴菌菌絲般蔓延，滲透在各個通訊軟體對話框、聊天室中。COVID-19 自 2020 年初大規模爆發，全世界陷入前所未有的恐慌。疫情到底何時能終止，沒有任何人能給答案，籠罩在這看似無盡頭的焦慮情緒，各式各樣的謠言、小道消息，應運而生。心慌保全這次訪問到 Cofacts 真的假的團隊成員們，一起來看看他們是怎麼從「消除資訊焦慮」的初衷開始，建立一個堅持「開放協作」的事實查核社群與科技平台？",
 				"tags": [
 					"資訊操弄",
@@ -580,7 +607,7 @@
 					"開放資料"
 				],
 				"articleID": "cofacts",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRKfQ7xTeYrQMI50VIm3yom5nNtujDUYBnV2gEfNmtliZqrlfNWcGbOaVluxFUbv9cBq2uPzOIo1krm/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRqmQLuWSSoWhR6_oIv4bU5xjGwrjB20g3NXlMkLadFzwQCBUa5tdQw2hB_6EcCoNJ6zoUg-neUsL2R/pub",
 				"publishedAt": "2021/4/7 18:00"
 			}
 		}
@@ -615,7 +642,7 @@
 		"type": "article",
 		"id": "titus-chen",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQMQgJ1G5FSYES3P5lR1o3mR1Pj6Qik-1l5mM4VnZ46is-VG3Tu-5Fdjdy7VqCk1pYChcMq73LJqcqJ/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRk8hApuM_WExpiLvAu3KI2dPC1cvKDo8Yri_RQQ1R6gzhjV3hbHGZVDDiOqZOmiIltYz8lIaPh7BvW/pub"
 		},
 		"publishedAt": "2021/3/17 12:00",
 		"cache": false,
@@ -623,7 +650,7 @@
 			"_tw": {
 				"title": "從根本抵禦資訊操弄，學者陳至潔：執政者須彌平社會裂痕",
 				"subtitle": "心慌保全來訪問 Ep.28",
-				"coverImage": "https://lh6.googleusercontent.com/R7VPjzytcHuBRnUA_Etv8YRXsDpFvkf524TRQRbMzuqPHUBk0DjlqKiXiE0bJ7EXrFQt0GnA3UgknacbpVa4kw9oYbndYMBT3QljXd7drTcj4xNpc3Ntb3oTTlO1FAGRVQ",
+				"coverImage": "https://lh4.googleusercontent.com/H0w4rSa54zHS5DomVjb7Uu-gOqXpdWTLup_JEdpXCpnmcCaeACU9r10HEuKsh006iIJ61K7hDN1RQsgb3YDtkPpncoOixx-je9CMG32JVm7yOO71XSqAggDw6SPMmW6Mqw",
 				"summary": "長期研究中國政治輿情的中山大學政治學研究所副教授陳至潔，分享近年來在中國網絡與社群媒體上蹲點觀測的現象，過去他運用前沿方法與大數據分析，取得堅實的數據佐證，這次也針對 IORG《中國對台影響力作戰研究》提出分析與看法。",
 				"tags": [
 					"資訊操弄",
@@ -633,7 +660,7 @@
 					"數據分析"
 				],
 				"articleID": "titus-chen",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQMQgJ1G5FSYES3P5lR1o3mR1Pj6Qik-1l5mM4VnZ46is-VG3Tu-5Fdjdy7VqCk1pYChcMq73LJqcqJ/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRk8hApuM_WExpiLvAu3KI2dPC1cvKDo8Yri_RQQ1R6gzhjV3hbHGZVDDiOqZOmiIltYz8lIaPh7BvW/pub",
 				"publishedAt": "2021/3/17 12:00"
 			}
 		}
@@ -643,7 +670,7 @@
 		"type": "article",
 		"id": "ketty-chen",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTiOS7kCxqXMXcM5a_3F7v3jH07sGMb5Stwwk9rZjlXWjvumuJTdcXXUdygpqKEw2uSrCw4poJXONEL/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTVbBdgznJzpqfWZumNiCy5OHTYZBg1imQMXnXob3HekjpSpBC2KRBMaYz5Z-jYSbr5TDPi6ZGuiW3o/pub"
 		},
 		"publishedAt": "2021/3/17 12:00",
 		"cache": false,
@@ -651,7 +678,7 @@
 			"_tw": {
 				"title": "資訊戰型態加速進化，民主基金會副執行長陳婉宜：假訊息越趨「精緻化」",
 				"subtitle": "心慌保全來訪問 Ep.27",
-				"coverImage": "https://lh4.googleusercontent.com/kM2gKoCH4VSvVGFIi5QVnPDk0CKAAyYiDjOijnXU37u3v1qDUqdkVeXt4lFrkCSUiNdao6svx6RTrF8duyDHpcR9o8VAMq_R1r5sjDC_KgFWrPn8h-5X7kOv907oFhW0Og",
+				"coverImage": "https://lh3.googleusercontent.com/WfSs5yfc7P_3IkS-3lr4orqcTjYkqJu7L9GNZ66KMAY9Zyn0zKONX0GedeKyfp-9QCNtsZkNjYIeAK3d4g3FWggUoTM4ByNg8f00pnoF1ULXY4zdUa4Izw9AIoOOf4mLJg",
 				"summary": "針對假訊息的流傳，民主基金會長期調查追蹤，每年也固定以民調的方式調查現階段民眾對於資訊判讀的意識，基金會副執行長陳婉宜分享上一份委託政大選研中心執行的「2019 臺灣民主價值與治理」民調報告，調查發現民眾看待假訊息，對於自身的影響程度遠低於他人。",
 				"tags": [
 					"資訊操弄",
@@ -660,17 +687,17 @@
 					"台灣民主基金會"
 				],
 				"articleID": "ketty-chen",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTiOS7kCxqXMXcM5a_3F7v3jH07sGMb5Stwwk9rZjlXWjvumuJTdcXXUdygpqKEw2uSrCw4poJXONEL/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTVbBdgznJzpqfWZumNiCy5OHTYZBg1imQMXnXob3HekjpSpBC2KRBMaYz5Z-jYSbr5TDPi6ZGuiW3o/pub",
 				"publishedAt": "2021/3/17 12:00"
 			}
 		}
 	},
-	"ye-da-hua": {
+	"yeh-ta-hua": {
 		"published": true,
 		"type": "article",
-		"id": "ye-da-hua",
+		"id": "yeh-ta-hua",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ4TMl2H9qNz0_soxA25XRoZ8GWd26g2TbOw74Ih2jYpGIGZRH88LxtT3uK925GZhArMAjCN1V0CzyO/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTle-MD-PI5Sc9crRBtLGdLvg650KcwN9G2JuenMcL5vpdoMvFkw6xmHXXsMKqMLmWwxKVTi1PLHwOf/pub"
 		},
 		"publishedAt": "2021/3/17 12:00",
 		"cache": false,
@@ -678,7 +705,7 @@
 			"_tw": {
 				"title": "漫天假訊息流竄，監委葉大華：媒體識讀培育需持續進行",
 				"subtitle": "心慌保全來訪問 Ep.26",
-				"coverImage": "https://lh6.googleusercontent.com/unmIGsURt8wJjcRYZw6fm3rnVVz48fYsFHzqsiWDTllI_ABsCXwcy_D1CWVEycByQLWZQoy-iabM6VxlI9ahGbOzXihflsM7oHRsDxhxyxzRayhIOwmFS-tueen_yUYixg",
+				"coverImage": "https://lh6.googleusercontent.com/A5kZOkj9PuWfKyH6J3uQtqfsYz0HDAY68ag5Z1v_i2WWgm_pqbRSdv0-y6IpdLGn0SYS6m3KlUNwnGuCSfKUfGL7yAFL6QO7hdsac4t2yv5EKB26_p14pHI96zqW2Ec07A",
 				"summary": "去年轉任監察院人權委員的葉大華，過去擔任台灣少年權益與福利促進聯盟（台少盟）秘書長，持續推動台灣青少年社會福利與權益的議題，針對台灣目前遭受資訊操弄的情況，她分享在兒少領域的觀察。媒體改革是葉大華自任職台少盟以來，一直積極推動的議題，主要著重在電子與平面媒體，定期和這些媒體交流、協議，要求成立新聞自律委員會，逐步促進媒體自律。但近三年來，葉大華發現在台少盟以及合作的台灣媒體觀察教育基金會（媒觀）監測的結果，網路新聞的佔比逐年攀升。",
 				"tags": [
 					"資訊操弄",
@@ -687,8 +714,8 @@
 					"台少盟",
 					"媒觀"
 				],
-				"articleID": "ye-da-hua",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ4TMl2H9qNz0_soxA25XRoZ8GWd26g2TbOw74Ih2jYpGIGZRH88LxtT3uK925GZhArMAjCN1V0CzyO/pub",
+				"articleID": "yeh-ta-hua",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTle-MD-PI5Sc9crRBtLGdLvg650KcwN9G2JuenMcL5vpdoMvFkw6xmHXXsMKqMLmWwxKVTi1PLHwOf/pub",
 				"publishedAt": "2021/3/17 12:00"
 			}
 		}
@@ -698,7 +725,7 @@
 		"type": "article",
 		"id": "lin-thung-hong",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTOuxhaVdwaYbElNZqbbpAqvXsMl0AfhZdjUkRyzfQMmIv_awb7FedJFUP3-XHbEIP0TEXKZjn0Nl6U/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQNotAhihOfNwakKAvNs54HQJsn5vMyZylpzUx9GcKeUC2m_GSnCxrTp8H0V2YMrysBIInNz2iSI88i/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
@@ -706,7 +733,7 @@
 			"_tw": {
 				"title": "學者林宗弘：國際間資訊攻擊，都從威權政體投向民主政體",
 				"subtitle": "心慌保全來訪問 Ep.25",
-				"coverImage": "https://lh3.googleusercontent.com/afUJqEUJZXI9qTyaVSUKwDOTSwovmJI4692FQ5g19m3q429xfo-DrMOa0s7g-VAYk5rKohW_TQfleTP8nEC-kx9e6fhGTDV6EeVhhqgUO_35LMmVfADYfQFCKS1uVjDM2g",
+				"coverImage": "https://lh3.googleusercontent.com/OEgTQfZtj7vEN6lCSD3-AogkLD84aX0JMXVSvvu-HrxqGOiTn8ZVsACiUqZP51OQaeMaHA3w8B1Y-XGOZxlYXHfPu23-o2CP69QhHYZvyWSnQfk2OdK2h0XzpEdGKZdPSQ",
 				"summary": "國防安全研究院去年發布的「2020 中共年報」中，指出中共對台發動的認知戰屬於「灰色地帶衝突」，不僅消耗民主資源，也難分平時、戰時，潛移默化說壞民主，好比「沒有煙硝的戰爭」。「訊息戰一直都是從威權政體朝民主政體擴散。」中央研究院社會學研究員林宗弘開宗明義總結。他在研究中發現，絕大多數假訊息的投放的方向都是一致的，國際間的資訊攻擊，幾乎都是從威權政體投向民主政體，這表示威權政體有系統的想要干預民主政體，利用民主政體本身的弱點──開放、言論自由，鑽漏洞攻擊。",
 				"tags": [
 					"資訊操弄",
@@ -715,7 +742,7 @@
 					"中研院"
 				],
 				"articleID": "lin-thung-hong",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTOuxhaVdwaYbElNZqbbpAqvXsMl0AfhZdjUkRyzfQMmIv_awb7FedJFUP3-XHbEIP0TEXKZjn0Nl6U/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQNotAhihOfNwakKAvNs54HQJsn5vMyZylpzUx9GcKeUC2m_GSnCxrTp8H0V2YMrysBIInNz2iSI88i/pub",
 				"publishedAt": "2021/2/10 18:00"
 			}
 		}
@@ -725,7 +752,7 @@
 		"type": "video",
 		"id": "cheng-yun-peng",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT_TAk5FRkWShRaTeqSBVwx7U1IYTycaaZkxQLAA0KIEegZRghDsZsXC6d2NcvVHhqTcA4G79yIQla7/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTkVN6eHfd45fIA2ZksuHbteqYbBL8X7_SyS-d3LHN-xJ7yXdNP16aCYObIOFIK48usN7LVnhVoaLvu/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
@@ -733,7 +760,7 @@
 			"_tw": {
 				"title": "佛系應對！對抗資訊戰，立委鄭運鵬：無招勝有招",
 				"subtitle": "心慌保全來訪問 Ep.24",
-				"coverImage": "https://lh4.googleusercontent.com/pR-o4XsrPSTIhXLDEwE9k4sOouBNAsGtiE9E8Zzy2LMGUGdC0M-eyF8zNN60i-GKSq0jZQUMc8Q9yb1bsPPUToYDqqNfrnpzF5ao2Gq-tUhKeyFXjBu-2TpkhJwfGHImeg",
+				"coverImage": "https://lh3.googleusercontent.com/QD1ISyjHUB0DZZFOBA4fX1lv34vTBPjX1lWYKV2LRtlUcETCVMyGxoBm41xnK4U1vMaaNLtNBd6lXzwE_c65_hUX7fe7XPF4p9qBMvLGKvjqL2M-yOVVO_5Vfcce3_T5fA",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 24集，我們訪問了立法委員鄭運鵬，他認為台灣社會能夠藉由事件培養對抗資訊操弄的抵抗力，認為「無招勝有招」，讓時間來凝聚社會共識。",
 				"tags": [
 					"資訊操弄",
@@ -741,7 +768,7 @@
 					"鄭運鵬"
 				],
 				"articleID": "cheng-yun-peng",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT_TAk5FRkWShRaTeqSBVwx7U1IYTycaaZkxQLAA0KIEegZRghDsZsXC6d2NcvVHhqTcA4G79yIQla7/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTkVN6eHfd45fIA2ZksuHbteqYbBL8X7_SyS-d3LHN-xJ7yXdNP16aCYObIOFIK48usN7LVnhVoaLvu/pub",
 				"publishedAt": "2021/2/10 18:00"
 			}
 		}
@@ -751,7 +778,7 @@
 		"type": "video",
 		"id": "lin-chu-yin",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTXFtO5Z_oxGtk7hslafSCJhMUfISZ45vJPkY0kqKEv_LQTOI6UxsQrDLT1mwBUasPBYMWfScy5aUnd/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT7y1ZY3sbp0Uz95VEWn4Al0JjmREKEWSEPuGaxZqsM24CrnRgmZkWLkKtjE8-DIFojOfnwdQBzOgfm/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
@@ -759,7 +786,7 @@
 			"_tw": {
 				"title": "如何辨別「中共傳聲筒」？林楚茵：需成立專責部會統合規範",
 				"subtitle": "心慌保全來訪問 Ep.23",
-				"coverImage": "https://lh4.googleusercontent.com/bs64Yw54mIPo-nEmhLU0s2JvRkBfOFk0NumAyW0nEFhzJyLS_t73T24tJkftAVNT4l7LDbpKiUo0q587jDJqro3jmsiHiSL1vZOobxaLp0-vgEX5RDZzzOOZbDZhFz2e9w",
+				"coverImage": "https://lh4.googleusercontent.com/41XgsE6C9UFxqAoIVILdFjtwATS0xbCfERWMmhnGgcVmkcu6rnduHCackHQT1aUDmmb675rKC77mCCEdueO97okaskLnLSXcO2JA-SecI3mPu7yUEMFO0skNbvK56oGr5Q",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 23集，我們訪問了立法委員林楚茵，曾為主播的她面對資訊操弄問題，指出了當媒體成為「在地協力」時的辨別準則，並提出主管機關對於 YouTuber、直播主的規範應更加明確的因應方向。",
 				"tags": [
 					"資訊操弄",
@@ -767,7 +794,7 @@
 					"林楚茵"
 				],
 				"articleID": "lin-chu-yin",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTXFtO5Z_oxGtk7hslafSCJhMUfISZ45vJPkY0kqKEv_LQTOI6UxsQrDLT1mwBUasPBYMWfScy5aUnd/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7y1ZY3sbp0Uz95VEWn4Al0JjmREKEWSEPuGaxZqsM24CrnRgmZkWLkKtjE8-DIFojOfnwdQBzOgfm/pub",
 				"publishedAt": "2021/2/10 18:00"
 			}
 		}
@@ -777,7 +804,7 @@
 		"type": "video",
 		"id": "wang-ting-yu",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTd7KlvbHPVOPznM590KVJGSZjpibumko3nHwQ2LCZPWd5Lp7L5CsHOONNEVEfC7cO1MxyKC6JXn1Oy/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR1To_J2_dV3MHI8w73qDGnTTFKwGm7Q_4jE1khd-cRgrmCuwCwIAkUCoS7vh4WuPcHFNOLqk378ygb/pub"
 		},
 		"publishedAt": "2021/1/26 18:00",
 		"cache": false,
@@ -785,7 +812,7 @@
 			"_tw": {
 				"title": "王定宇：新型態「混合型戰爭」，錯假資訊已成武器",
 				"subtitle": "心慌保全來訪問 Ep.22",
-				"coverImage": "https://lh4.googleusercontent.com/UdS-q4KfSNXQogebrMCwqJ7PB3c1On9re7mrG1i9eqp2qRUt3hkjqJTSTL0HXRCD5WEOOk6fR3iKNqgy8aSS4kPJJ3ypsABUPFGNh2A0eVCMRNHO56YJV3gG7Rnl2HsZfQ",
+				"coverImage": "https://lh5.googleusercontent.com/OB8q9HJLYgKEPmM-9xGAQH7YEOQIUKBCaYeHjXE_I3nUDVqUaeUl9iVgxzBxxRjh67X5pQZ2MDf5qH4woOWIRbAFy0e90Kvf754Wbm6p0S9djNXmjMGYRLulG72PAajE5Q",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 22 集，我們訪問了立法委員王定宇，他以「關西機場」事件和之後發生的「甲子園」資訊操弄事件作對比，分析民主國家能對抗假訊息的因應方式。",
 				"tags": [
 					"資訊操弄",
@@ -793,7 +820,7 @@
 					"王定宇"
 				],
 				"articleID": "wang-ting-yu",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTd7KlvbHPVOPznM590KVJGSZjpibumko3nHwQ2LCZPWd5Lp7L5CsHOONNEVEfC7cO1MxyKC6JXn1Oy/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR1To_J2_dV3MHI8w73qDGnTTFKwGm7Q_4jE1khd-cRgrmCuwCwIAkUCoS7vh4WuPcHFNOLqk378ygb/pub",
 				"publishedAt": "2021/1/26 18:00"
 			}
 		}
@@ -803,7 +830,7 @@
 		"type": "article",
 		"id": "lo-ping-cheng",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS1c08dahn9tNuDqBEr8mBxMu2cliHWOc4oAG-gT1dhh3nwVW_qpZptYOxDcBoV2RISK-CvgK7pHV9W/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT4IApAqrrU7bCl9zVMlCvhQkdvPHwNVgBfnc4kC0GoDCmPR7kIIKNULX8Ijz05PRYX90fYTuzp6rI8/pub"
 		},
 		"publishedAt": "2021/1/19 18:00",
 		"cache": false,
@@ -811,7 +838,7 @@
 			"_tw": {
 				"title": "資訊超限戰全球警戒，政委羅秉成：假訊息防制需成全民運動",
 				"subtitle": "心慌保全來訪問 Ep.21",
-				"coverImage": "https://lh4.googleusercontent.com/y0Jgr_hHOzklA5aFwRy65GCSf4oOPAQ5GPd8HyRrmXi065KL_s0lO1_3Z6vCJrLcwhttV-eJEMnXAxqNmStY69FDPFbzA6v0WvKYer4NfjSJdtEYKiVkQ09dSKtygi4K3w",
+				"coverImage": "https://lh3.googleusercontent.com/ZhAm4PTppi0WksjMJonnq3gy4v378_xvEWNIoC8uwl1aI5RXkr7JQUGVIvp82_xJSTD41ICBvXD3HpRXzKpY3WsAOoO6DO6FCdQ4-Fu9ZKSI4S1MNKjwO0-iQgvYt1AqRQ",
 				"summary": "科技的進步，網路流通加速，讓訊息傳遞已無國界，但這種方便形成兩面刃，雖降低獲取資訊的難易度，也同時讓虛假、惡意的訊息，比以往擴散更快。「它就是一個戰爭，你可以說這是一場競速戰」過去長期在法律扶助基金會救援冤案的人權律師羅秉成，在接下政務委員職務後，首要任務之一，就是處理棘手的資訊戰議題。他引用美國麻省理工學院（MIT）2018 年針對假新聞做的研究說明，該研究用大數據觀測證實，假新聞在網路世界的傳遞速度，比真訊息快整整六倍，由此可知，與假訊息抗衡是一場先天速度落差極大的競速比賽。",
 				"tags": [
 					"資訊操弄",
@@ -819,7 +846,7 @@
 					"政委"
 				],
 				"articleID": "lo-ping-cheng",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS1c08dahn9tNuDqBEr8mBxMu2cliHWOc4oAG-gT1dhh3nwVW_qpZptYOxDcBoV2RISK-CvgK7pHV9W/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT4IApAqrrU7bCl9zVMlCvhQkdvPHwNVgBfnc4kC0GoDCmPR7kIIKNULX8Ijz05PRYX90fYTuzp6rI8/pub",
 				"publishedAt": "2021/1/19 18:00"
 			}
 		}
@@ -829,7 +856,7 @@
 		"type": "video",
 		"id": "wang-tai-li",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRX-CPBBz7a0dip-i2TQa2BRuChSvy5_gpwzuCFpohMqwquiAkoB0gdEvNUOVh9ieog453l4CcvNm9a/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSftM7S_NxUzSqFexP6PjzFzk0-EOVqVXM_Kh0bj7P9Xbx7K-yZf_YwkrI2lx0n51cdXfsXRBgJhdn3/pub"
 		},
 		"publishedAt": "2021/1/15 18:00",
 		"cache": false,
@@ -837,7 +864,7 @@
 			"_tw": {
 				"title": "誰抵抗力最弱？學者王泰俐研究：年輕人、女性、中間選民易受不實訊息影響",
 				"subtitle": "心慌保全來訪問 Ep.20",
-				"coverImage": "https://lh3.googleusercontent.com/VVqKMNTxZEIXdnVIMgNsg3nMYQXawOKk1J840LqJTLOhRfFbLLwIGZhF7HeuL-fqGUuS9rxr4E9hA9vyoo5Ns-VWwSke9giytOHplJzxbp74S64oSv96oLbKK_Xbu-K3Tw",
+				"coverImage": "https://lh6.googleusercontent.com/UBWdL3n1Owhn5jhn-mjQhp_rZ5iAu4Cn4z9ZmWyLfvcf-jYL090y1GMyIjfaDBHBJ5AUiw1k8L5tB_aox_LRGgNS41N91HvBA6OZS2W-UYUeLelWJPwoWfjxfeH1uK86_A",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 20 集，我們訪問了台大新聞所教授王泰俐，根據研究，她指出：最容易受到資訊操弄的原因與教育程度無關，而是「不關心議題」的族群，例如以 2018 年選舉為例就是女性跟年輕人較容易受到政治不實訊息影響；教授並提出國外研究出的四大方法，供民眾一起以簡單的方式辨認資訊操弄。",
 				"tags": [
 					"資訊操弄",
@@ -845,7 +872,7 @@
 					"王泰俐"
 				],
 				"articleID": "wang-tai-li",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRX-CPBBz7a0dip-i2TQa2BRuChSvy5_gpwzuCFpohMqwquiAkoB0gdEvNUOVh9ieog453l4CcvNm9a/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSftM7S_NxUzSqFexP6PjzFzk0-EOVqVXM_Kh0bj7P9Xbx7K-yZf_YwkrI2lx0n51cdXfsXRBgJhdn3/pub",
 				"publishedAt": "2021/1/15 18:00"
 			}
 		}
@@ -855,7 +882,7 @@
 		"type": "video",
 		"id": "tsai-yi-yu",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQRYLj3E0aqPlhCMaTtS0k6n770fw_krxYhvWvr29VGzCjb_GWx1_dQaUoBgqmLfsfrPoShSjf0p4eO/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQgAi1mon8h5KAgO_skj4CDvi60XU3XWvoOJGNJg9ws3ny5nSOfDFlASjogM4q3q40H1X6_A1rqcWn_/pub"
 		},
 		"publishedAt": "2021/1/15 18:00",
 		"cache": false,
@@ -863,7 +890,7 @@
 			"_tw": {
 				"title": "提告造謠人士卻慘遭法院認證！蔡易餘無奈：台灣太輕忽資訊操弄影響",
 				"subtitle": "心慌保全來訪問 Ep.19",
-				"coverImage": "https://lh3.googleusercontent.com/XjC7TYPy8KbhVUHCcGwHwRi83Lys1I9TAGyWUJOU7_-1rv7d1TaNgYMzE_yJBv5R1uRlld6ZQdK741TMVJ0uU-Polt6pa2J2sq4yz_HtBJ29A5O6HC-0RZxVuLSADPXH8Q",
+				"coverImage": "https://lh4.googleusercontent.com/AL3tFR8GLQ8DdzVtteTX2z9hfzfD4-qmLVLdhc21vySpuGXUpje-O8TgPf3YsmA6rKUBii7gdTc5eTx3jZAOZVm3pvUYvVyxPCdyiakhgztQnA7cCwhtFKbo5mIEdKerUA",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 19 集，我們訪問了立法委員蔡易餘，他以自身提告造謠者的經驗卻敗訴出發，認為台灣在實務上太輕忽資訊操弄的影響，另外也舉出美國總統川普在臉書及推特上被審查的例子，指出民主制度的言論自由也可能因為制度而受衝擊的現象。",
 				"tags": [
 					"資訊操弄",
@@ -871,17 +898,17 @@
 					"蔡易餘"
 				],
 				"articleID": "tsai-yi-yu",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQRYLj3E0aqPlhCMaTtS0k6n770fw_krxYhvWvr29VGzCjb_GWx1_dQaUoBgqmLfsfrPoShSjf0p4eO/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQgAi1mon8h5KAgO_skj4CDvi60XU3XWvoOJGNJg9ws3ny5nSOfDFlASjogM4q3q40H1X6_A1rqcWn_/pub",
 				"publishedAt": "2021/1/15 18:00"
 			}
 		}
 	},
-	"teng-hh": {
+	"teng-hsi-hua": {
 		"published": true,
 		"type": "article",
-		"id": "teng-hh",
+		"id": "teng-hsi-hua",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQdXxO3XKoLpg3qX_AaCFmUEXwyiQQrjYh_d4GNidF3aIar0EExJ4uYLlNc8Zna96jz_U8_7qbWRvKg/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSfWA1Nf5gVp-xlX_90bgn-dgaSy8G3Vnv69I6aAU_ofPOpiamGKApNqrktrplmQBBWobNz9WDMGjCN/pub"
 		},
 		"publishedAt": "2021/1/12 18:00",
 		"cache": false,
@@ -889,7 +916,7 @@
 			"_tw": {
 				"title": "電視媒體信任度仍最高！媒觀執行長滕西華：情感影響大過理性判斷",
 				"subtitle": "心慌保全來訪問 Ep.18",
-				"coverImage": "https://lh6.googleusercontent.com/WStvx0cs-dl0LOKaW7d55d6oHGuoET1rQYLTWsH5ImEmZX2-3sqyqGGPb05SigiKHnXQXe8R4MbfLDovw1bItx7pY0ExJLSgXZfECeodWbtPUDmXcO9PMwxYiQPgR9RBQw",
+				"coverImage": "https://lh4.googleusercontent.com/9EhdZ0sgl17mfMz92_o2INtpSwR6FEwA3k3UZyVMnWLMcHb7xPpjVxCB-n_zTOVWrzj3jqI3pWPF1nrPsi4OF6A1wAJkuSof9RQCRqhxtSmsa7HeFlEzCTkj-n3slgGJWA",
 				"summary": "去年，國家通訊傳播委員會（NCC）首度開鍘，對中天新聞台作出不予換照的決議，如今中天關台轉戰 YouTube 經營頻道已屆滿一個月，針對 NCC 於 2006 年成立以來，第一次大動作規範，是否對「在地協力者」的管理上有所進展，IORG 團隊採訪媒體觀察基金會的執行長滕西華，討論台灣在面臨資訊操弄的現今，媒體有無扮演好第四權角色。",
 				"tags": [
 					"資訊操弄",
@@ -897,18 +924,18 @@
 					"NGO",
 					"媒觀"
 				],
-				"articleID": "teng-hh",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQdXxO3XKoLpg3qX_AaCFmUEXwyiQQrjYh_d4GNidF3aIar0EExJ4uYLlNc8Zna96jz_U8_7qbWRvKg/pub",
+				"articleID": "teng-hsi-hua",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSfWA1Nf5gVp-xlX_90bgn-dgaSy8G3Vnv69I6aAU_ofPOpiamGKApNqrktrplmQBBWobNz9WDMGjCN/pub",
 				"publishedAt": "2021/1/12 18:00"
 			}
 		}
 	},
-	"wang-wy": {
+	"wang-wan-yu": {
 		"published": true,
 		"type": "video",
-		"id": "wang-wy",
+		"id": "wang-wan-yu",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ_XmBf9GRrKK5vCryiXGTSQKItlqz9FJ6GcBaI09wJVjM1C6_dTvTkHQpyyIFGMLG5wdHMeTWKO7Al/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSuzYOdJxKCHunWktmUT02GDvdt8gqhDPAdRHvTa78SAMoBkVBQ3uRlqt3NTI_fD1L58iyEDgIo6y5v/pub"
 		},
 		"publishedAt": "2021/1/12 18:00",
 		"cache": false,
@@ -916,26 +943,26 @@
 			"_tw": {
 				"title": "「在地協力者」易成資訊操弄幫凶，王婉諭：嚴格審查是必要的",
 				"subtitle": "心慌保全來訪問 Ep.17",
-				"coverImage": "https://lh6.googleusercontent.com/ItHIK1GK3ZzaIwy1uptu8r-HIEk-bNll-6OlfkGrltmNIHztoyxDDUynArnNZk0D5QAcfKwYMhOLsZhR_lm4W23s2xTHsHmwSbFOXkTrJhRoYu3wy8qrvxozdMp5TvqvRw",
+				"coverImage": "https://lh5.googleusercontent.com/XW5kr_qGbM-h2rdadrkhFrnjeIYyvxLcWULuTfJUrB5NJloQYqP6m5O4d3TTgg_fb1vpy9oJ9_xws-oGTR_ZUUjFcs_vw9oN17GUsLnKx89bOdos9GxuT32-XB8YqhvVAg",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 17 集，我們訪問了立法委員王婉諭，她舉出目前大家關心的兒少保護方面，在面對假資訊時，已經有相關單位可以協助處理，並提出政府應該做更長遠的準備，以及強調民主深化的重要。",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"王婉諭"
 				],
-				"articleID": "wang-wy",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_XmBf9GRrKK5vCryiXGTSQKItlqz9FJ6GcBaI09wJVjM1C6_dTvTkHQpyyIFGMLG5wdHMeTWKO7Al/pub",
+				"articleID": "wang-wan-yu",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSuzYOdJxKCHunWktmUT02GDvdt8gqhDPAdRHvTa78SAMoBkVBQ3uRlqt3NTI_fD1L58iyEDgIo6y5v/pub",
 				"publishedAt": "2021/1/12 18:00"
 			}
 		}
 	},
-	"huang-jn": {
+	"huang-jaw-nian": {
 		"published": true,
 		"type": "article",
-		"id": "huang-jn",
+		"id": "huang-jaw-nian",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTV-uB-1YGl5aSSViD-uUdzTyqni2WcB8mu_-5OnyUlyDfpIbVZ0oAmclxWxI6UmG1GmHs_31mkoLQ-/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vQ7SvqgLdNnPP3E2Hg4fRNNCfKHKSTKKzOwMcozkle7Od7Fs_YJxwabakiXIFw4qFRdgVIxyAhZIqZR/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSlXpEvkxUjeXRyJ6ZoUVhpcBKHnimdhTOSradv5vR8yxViD96jV9u3_ib8ByoS2bByGMmEk7E24a5-/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTYWtCfKW_cDwY0nkgRdkoeOM5qqRvtyOjlenwjWcvhAokVN_BaGdKk4aJbpGm5XnQPUdnZavDOyXR-/pub"
 		},
 		"publishedAt": "2021/1/6 18:00",
 		"updatedAt": "2021/3/17 13:00",
@@ -944,30 +971,30 @@
 			"_tw": {
 				"title": "資訊戰來勢洶洶！政大學者黃兆年拆解「來源、傳播、接收」3 面向策略",
 				"subtitle": "心慌保全來訪問 Ep.16",
-				"coverImage": "https://lh6.googleusercontent.com/8101piYsJ1TagUMlvINeewqZX9YjtNtmbQji41QRlfasbvhEtM_OwUop2uCxnlM6Ke-BzKqSpYxK5MZiKTn4JEfuM4baSvOKl97gilp0Wa1ugOo_jEMpYEJDUmsGAtHmnQ",
+				"coverImage": "https://lh3.googleusercontent.com/9MuVMxL_DrTTwleEbqLV8G15QGTW2UQVWHMAyzaeySk8tXRotAB0XH5FcvNue25xh_kB-cL6Cv8hSt1QMes8rwW1z72y6SwnKtlDt8xjPmiw1Q9K_ODQTsg-kk3-e7hmEA",
 				"summary": "「簡化來看，這是一個威權的體系，跟民主的體系之間的爭霸。」政大國發所助理教授黃兆年認為，中國利用資訊操弄，讓國際社會改變對中國的認知，目的是要形塑對於威權，或是中國模式的認可。IORG 研究證實，中國對台的資訊操弄確實存在，案例包括 B.1 關西機場「中國人先上車」、B.2 陳菊貪污、B.3 美國流感比武漢肺炎更致命、B.4 美國以武漢軍人運動會散播病毒、B.5 美國流感就是武漢肺炎、B.6 光復美國、B.7 中選會作票。案例中各樣論述，有一個共同的主題：民主體制效率低落、貪污腐敗。",
 				"tags": [
 					"資訊操弄",
 					"黃兆年",
 					"學者"
 				],
-				"articleID": "huang-jn",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTV-uB-1YGl5aSSViD-uUdzTyqni2WcB8mu_-5OnyUlyDfpIbVZ0oAmclxWxI6UmG1GmHs_31mkoLQ-/pub",
+				"articleID": "huang-jaw-nian",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSlXpEvkxUjeXRyJ6ZoUVhpcBKHnimdhTOSradv5vR8yxViD96jV9u3_ib8ByoS2bByGMmEk7E24a5-/pub",
 				"publishedAt": "2021/1/6 18:00",
 				"updatedAt": "2021/3/17 13:00"
 			},
 			"_en": {
-				"title": "The roaring information war: scholar Huang Jaw-nian proposes 3-part strategy – source, dissemination & reception",
+				"title": "The roaring information war: scholar Huang Jaw-Nian proposes 3-part strategy – source, dissemination & reception",
 				"subtitle": "Dokidoki Interview Ep.16",
-				"coverImage": "https://lh6.googleusercontent.com/MzTIjDYCI29vEtQ4r8PED1oXTSSL9j__EtD4k4DYFbBKHsaV7YkA6UiOomegRXvaewivQlaXiPC36jnnjDjOKZf0VDz6aFQmmHTVgoFnD3XEReySsabfa-XAz4SahpzcZA",
-				"summary": "“In a nutshell, this is a competition between an authoritarian system and a democratic one,” said Huang Jaw-nian (黃兆年), assistant professor at National Chengchi University’s Graduate Institute of National Development. Huang thinks that China is using information manipulation to change its image internationally in order to create acceptance of authoritarianism, or the China model. IORG’s research verifies Chinese information manipulation in Taiwan, with case studies including: the Kansai Airport incident (B.1), claims that former Kaohsiung mayor Chen Chu (陳菊) is corrupt (B.2), claims that U.S. flu is more deadly than COVID-19 (B.3), claims that the U.S. released the coronavirus at the Wuhan Military Games (B.4), claims that U.S. flu is actually COVID-19 (B.5), hijacking the #LiberateHongkong hashtag with anti-U.S. propaganda (B.6), and claims that Taiwan’s Central Election Commission was involved in voter fraud (B.7). A common theme can be found from the narratives of these cases: an emphasis of democracy’s inefficiency and corruption.",
+				"coverImage": "https://lh6.googleusercontent.com/FJAj7k4W4XaFi5pgwP2k6bC6TEJKXppoJBpgLzplrLHpPYJ75pJTlL-z6zXyWFf-e7heRtFIiS2OkoT03ElwlMum2cOYAyvDOLrEIX3Qb4hZKOxJ6e8uXkohxDXH-wtUyA",
+				"summary": "“In a nutshell, this is a competition between an authoritarian system and a democratic one,” said Huang Jaw-Nian (黃兆年), Assistant Professor at National Cheng-Chi University’s Graduate Institute of National Development. Huang thinks that China is using information manipulation to change its image internationally in order to create acceptance of authoritarianism, or the China model. IORG’s research verifies Chinese information manipulation in Taiwan, with case studies including: the Kansai Airport incident (B.1), claims that former Kaohsiung mayor Chen Chu (陳菊) is corrupt (B.2), claims that U.S. flu is more deadly than COVID-19 (B.3), claims that the U.S. released the coronavirus at the Wuhan Military Games (B.4), claims that U.S. flu is actually COVID-19 (B.5), hijacking the #LiberateHongkong hashtag with anti-U.S. propaganda (B.6), and claims that Taiwan’s Central Election Commission was involved in voter fraud (B.7). A common theme can be found from the narratives of these cases: an emphasis on democracy’s inefficiency and corruption.",
 				"tags": [
 					"Information manipulation",
-					"Huang Jaw-nian",
+					"Huang Jaw-Nian",
 					"Scholar"
 				],
-				"articleID": "huang-jn",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ7SvqgLdNnPP3E2Hg4fRNNCfKHKSTKKzOwMcozkle7Od7Fs_YJxwabakiXIFw4qFRdgVIxyAhZIqZR/pub",
+				"articleID": "huang-jaw-nian",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTYWtCfKW_cDwY0nkgRdkoeOM5qqRvtyOjlenwjWcvhAokVN_BaGdKk4aJbpGm5XnQPUdnZavDOyXR-/pub",
 				"publishedAt": "2021/1/6 18:00",
 				"updatedAt": "2021/3/17 13:00"
 			}
@@ -978,15 +1005,17 @@
 		"type": "video",
 		"id": "freddy-lim",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQOh6NCnKD1aVT8s5aVVnjRG2AFLgQu2EWXzH81C6CGes2AJMWsvqNxTHfJWeZXArctztoj_C3WFQL2/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRb4zHG6HmEFwEvQUPLwkWuFqWXaBm9pu0yP1MhAMlmNbGPSvqHlJXSxEEZ8cEr_KBHm9sCA_Rnkg_8/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vS2qZ5k8dFBlmmgbd7R88y72yBSAAX005jk4C1S4Tx9w55crWl10sMzkdLolR212eIfCB9w9xwd2Hb4/pub"
 		},
 		"publishedAt": "2021/1/6 18:00",
+		"updatedAt": "2021/6/15 12:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "林昶佐：對獨裁國家來說，民主自由社會到處都是漏洞",
 				"subtitle": "心慌保全來訪問 Ep.15",
-				"coverImage": "https://lh4.googleusercontent.com/ECu9ZwkenE4wBm72KjUa3DO8SVViF9FCw09gaj-reAFIIGN9OPnzgKZ8fiQeYXUqdf5vgaENzh9E8fO1xJuFtNNYaxq8OsnkKZKgt4dEgmUJgghkWvBONEvR3bF4nUME_A",
+				"coverImage": "https://lh6.googleusercontent.com/U0QSpcclCvZ_ww24tX6J3nDYYFAlP53MT0MUdLc-_p6xb_kGHsWeTKUfEv7BJIYoMdYGoYbumZ2HJuP_udr--yh0cBqFCKbN2CsJVxvMkMkA-8bog3asVOChlrgPznk4yg",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 15 集，我們訪問了立法委員林昶佐，他強調世界現在共同面對的是比過去都還龐大的獨裁國家，而且對「它們」來說，民主自由的社會到處都是漏洞！",
 				"tags": [
 					"資訊操弄",
@@ -994,8 +1023,24 @@
 					"林昶佐"
 				],
 				"articleID": "freddy-lim",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQOh6NCnKD1aVT8s5aVVnjRG2AFLgQu2EWXzH81C6CGes2AJMWsvqNxTHfJWeZXArctztoj_C3WFQL2/pub",
-				"publishedAt": "2021/1/6 18:00"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRb4zHG6HmEFwEvQUPLwkWuFqWXaBm9pu0yP1MhAMlmNbGPSvqHlJXSxEEZ8cEr_KBHm9sCA_Rnkg_8/pub",
+				"publishedAt": "2021/1/6 18:00",
+				"updatedAt": "2021/6/15 12:00"
+			},
+			"_en": {
+				"title": "Freddy Lim: In the view of the authoritarians, democracies are full of vulnerabilities",
+				"subtitle": "Dokidoki Interview Ep.15",
+				"coverImage": "https://lh4.googleusercontent.com/snS5luUer7I-wLrIae6aRfZ0W0HaRa36vnZ6ksP-qQ-vPHiLr3GZwetEC8mDQJGs5d_TiA90NKnE19Gz1TYI2R3qTA2H2hiSpieOW1nvtdQFeAt6wPtWm4ojMjTLFmnRNA",
+				"summary": "Starting from IORG’s research report, Dokidoki Safety interviews legislators, councilors, scholars, and experts about Chinese information manipulation against Taiwan.Episode 15, Dokidoki Safety interview Legislator Freddy Lim. He stressed that the world is collectively facing an authoritarian state larger than ever before. To “it,” our liberal, democratic societies are full of vulnerabilities.",
+				"tags": [
+					"Information manipulation",
+					"Freddy Lim",
+					"Legislator"
+				],
+				"articleID": "freddy-lim",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS2qZ5k8dFBlmmgbd7R88y72yBSAAX005jk4C1S4Tx9w55crWl10sMzkdLolR212eIfCB9w9xwd2Hb4/pub",
+				"publishedAt": "2021/1/6 18:00",
+				"updatedAt": "2021/6/15 12:00"
 			}
 		}
 	},
@@ -1004,8 +1049,8 @@
 		"type": "article",
 		"id": "lin-fei-fan",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS9iiNGmyvVp8sPdDWi18xEVGHGVWMI8RPuc5N9s4jRDD0gTyK8OdIJsj0Qg4sjM3ezecUD1kQmtOcM/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vQomVhuW6QpAcRw3a3jPQBDntQD-zOrGMeh1ekqsAIDx9epm2uhcABhYTugk67ULszEzGfIiSdcl-0I/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRX7ayT_Vav95OJKqLexE5xuSLbKIAtFDo08UHzD_xkYvcjCMOh1lbldOhkS-4ETpeSOJTzMOV4Lksx/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRMgYiAc4F451EXadwW_Cm7iEXy0DzpPUjoJ2IZ8fqlmfSyBMM9w0gYuNe9cGHYxN5cMi_6GM7isvA1/pub"
 		},
 		"publishedAt": "2021/1/4 18:00",
 		"updatedAt": "2021/2/10 18:00",
@@ -1014,7 +1059,7 @@
 			"_tw": {
 				"title": "揪出躲在暗處的敵人，林飛帆：建立訊息「產地標示」是當務之急",
 				"subtitle": "心慌保全來訪問 Ep.14",
-				"coverImage": "https://lh4.googleusercontent.com/phCFXtxgNSlGOk2lpgBQ8a7O9eepexfAZY8gZfVgSoR6NwWaCXh1WZ6oVCV3jDS-HJYZvQdrZ2bmk1L_nP0ZU_eRB-k5T6eqalMak-ZpsuUXb-vdaK5dhOpYo6NINCa6og",
+				"coverImage": "https://lh4.googleusercontent.com/KjmKEM6swbHfAc7vcBcQD52FcYFvNdDZJ-8RNzxdKNSQcCqzQ910Hvw0z0umW_EBIr8ikpRVmeEcJTH6qehXb1wcjk-EgUoBK_hQR_WMT00UPfn-zAIeHryE4Ml1f3xbEg",
 				"summary": "去年，在 2020 總統大選前投下的震撼彈「王立強共諜案」，也曾經燒到民進黨副秘書長林飛帆身上，當時，網友用多年前一張林飛帆與香港朋友合照，指稱其中一人就是共諜王立強，誤傳兩人是熟識的朋友。「當時第一時間透過事實查核中心調查，以及臉書澄清與報警，才慢慢把風向轉回來」林飛帆說，針對他個人的假訊息攻擊層出不窮，看攻擊影響嚴重程度，決定澄清與否。",
 				"tags": [
 					"資訊操弄",
@@ -1022,33 +1067,33 @@
 					"林飛帆"
 				],
 				"articleID": "lin-fei-fan",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS9iiNGmyvVp8sPdDWi18xEVGHGVWMI8RPuc5N9s4jRDD0gTyK8OdIJsj0Qg4sjM3ezecUD1kQmtOcM/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRX7ayT_Vav95OJKqLexE5xuSLbKIAtFDo08UHzD_xkYvcjCMOh1lbldOhkS-4ETpeSOJTzMOV4Lksx/pub",
 				"publishedAt": "2021/1/4 18:00",
 				"updatedAt": "2021/2/10 18:00"
 			},
 			"_en": {
-				"title": "Exposing enemy in the shadows – Lin Fei-fan: We need “place of origin” labelling for information",
+				"title": "Exposing enemy in the shadows – Lin Fei-Fan: We need “place of origin” information labelling",
 				"subtitle": "Dokidoki Interview Ep.14",
-				"coverImage": "https://lh3.googleusercontent.com/DMJFTfaLOHX3FmCizOA_UecWSxqOO7IfVSoM-w3ePx7_W0ElQ2gGLfBC00I3FciWs7hIbqRlTlzJojrAEgBfQFQpN9nomDlu8fwF25-zsQl1FPoFRV0EH0lrhxYCeBVQoQ",
-				"summary": "Last year, news of the Wang Liqiang (王立强) spy-case dropped just before Taiwan’s 2020 presidential election. Lin Fei-fan (林飛帆), Deputy Secretary-General of the Democratic Progressive Party (DPP) was also impacted by the case. Web users claimed an old photo of Lin with a friend in Hong Kong was actually Wang, and that the two were close friends. “At the time, we were able to beat back that narrative through an investigation by the Taiwan Fact Checking Center, clarifying it with Facebook as well as lodging a formal complaint,” said Lin. Personal attacks against Lin that use false information seem to arise in an endless stream; depending on the severity of the attack, Lin decides whether he wants to clarify them or not.",
+				"coverImage": "https://lh3.googleusercontent.com/yov4J6CjUl6cadNIBwKEJ_KYhuoQGM55pPDzBOXwp1n_2k0wMAarpBrt5SOFWOTeg0XvFqd1ySY8OXh3-C7okzR7nIQcln7jQ7aiXUq0cwnCiMTM0-7rKu9GtUl-JQ86wg",
+				"summary": "Last year, news of the Wang Li-qiang (王立强) spy-case dropped just before Taiwan’s 2020 presidential election. Lin Fei-Fan (林飛帆), Deputy Secretary-General of the Democratic Progressive Party (DPP) was also impacted by the case. Web users claimed an old photo of Lin with a friend in Hong Kong was actually Wang, and that the two were close friends. “At the time, we were able to beat back that narrative through an investigation by the Taiwan Fact Checking Center, clarifying it with Facebook as well as lodging a formal complaint,” said Lin. Personal attacks against Lin that use false information seem to arise in an endless stream; depending on the severity of the attack, Lin decides whether he wants to clarify them or not.",
 				"tags": [
 					"Information manipulation",
-					"DPP",
-					"Lin Fei-fan"
+					"Lin Fei-Fan",
+					"DPP"
 				],
 				"articleID": "lin-fei-fan",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQomVhuW6QpAcRw3a3jPQBDntQD-zOrGMeh1ekqsAIDx9epm2uhcABhYTugk67ULszEzGfIiSdcl-0I/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRMgYiAc4F451EXadwW_Cm7iEXy0DzpPUjoJ2IZ8fqlmfSyBMM9w0gYuNe9cGHYxN5cMi_6GM7isvA1/pub",
 				"publishedAt": "2021/1/4 18:00",
 				"updatedAt": "2021/2/10 18:00"
 			}
 		}
 	},
-	"ho-cw": {
+	"ho-chih-wei": {
 		"published": true,
 		"type": "video",
-		"id": "ho-cw",
+		"id": "ho-chih-wei",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQp7vMm8tqHQzJEwUFHN4Fir2fa43B1n2uHXxKlocWsYBGYqydtW8RPKPdmGOAoa2Hbq_luuk_pAC_3/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQfy9k3401PL8q7hdt_UioyV9t6htEzjKae7BihAbHgpvlzZkNUb2qanARsZNPoGOf6iHcrAILdW99i/pub"
 		},
 		"publishedAt": "2020/12/29 18:00",
 		"cache": false,
@@ -1056,25 +1101,25 @@
 			"_tw": {
 				"title": "台灣「久病成良醫」？何志偉：資訊操弄影響範圍會慢慢收斂",
 				"subtitle": "心慌保全來訪問 Ep.13",
-				"coverImage": "https://lh4.googleusercontent.com/prRutdkjULCgwMlPFN5M_zyg2MPvSqrhK62PtCbGW7qD_IpSE2Tp_8igSYm_ErIt7fx35TYWzHcUsXqr8cXA8YGDFKlgjFowEmIWjWEgOF2MratTirWD73TuM8xrtE6D9Q",
+				"coverImage": "https://lh4.googleusercontent.com/5SJklpW_c1EuoSJFj6VZhsiONmDL37wVJ8QF5tUieLdFyYPuWRkHWKhmQJTndfk5d-k9kJoDowfuxcVLg8mqF08Fw5mhZoq1GHqVIBRo2k9fonTQ512lYbpiz1X5oSNyjg",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 13 集，我們訪問了立法委員何志偉，他抱持相對樂觀的看法，認為台灣因為選舉的關係，「民眾什麼沒聽過？什麼沒看過？」在多方夾擊下能夠久病成良醫，資訊操弄的影響會慢慢收斂！",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"何志偉"
 				],
-				"articleID": "ho-cw",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQp7vMm8tqHQzJEwUFHN4Fir2fa43B1n2uHXxKlocWsYBGYqydtW8RPKPdmGOAoa2Hbq_luuk_pAC_3/pub",
+				"articleID": "ho-chih-wei",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQfy9k3401PL8q7hdt_UioyV9t6htEzjKae7BihAbHgpvlzZkNUb2qanARsZNPoGOf6iHcrAILdW99i/pub",
 				"publishedAt": "2020/12/29 18:00"
 			}
 		}
 	},
-	"chen-tf": {
+	"chen-ting-fei": {
 		"published": true,
 		"type": "video",
-		"id": "chen-tf",
+		"id": "chen-ting-fei",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSK4mEnlvkinaB1AWKFcLDqSYImp8O8hehpLbNKFLv5tYEFWduhCouR4Z6N8Poca9EcdJf2JRMcCVBu/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTRz0hUNsCha7MQYL6uNWVp_x-7T99PJmEewdv9gg9L4M3YgiPkWX-tpt_h-0Bpzi8he4DCuP8rimyp/pub"
 		},
 		"publishedAt": "2020/12/29 12:00",
 		"cache": false,
@@ -1082,15 +1127,15 @@
 			"_tw": {
 				"title": "防資訊操弄內憂外患，陳亭妃：應成立中央專責單位",
 				"subtitle": "心慌保全來訪問 Ep.12",
-				"coverImage": "https://lh3.googleusercontent.com/orjiaz3LCZ8ZzbVjYmQMLfs-3kc5p7R4-fb2RagM1Dfu5iDkF0OEBuTY8DyF2EeUwwRiDeqSxw8m_8fiWZsrFo-B7ulJhdbZTxIhGmEWp4I16ZQl_y2M1HJUJTaEfqlzoQ",
+				"coverImage": "https://lh3.googleusercontent.com/oP9Ofk6yG0zxQGiIVyXi2HYSY323WsMBQ6iN4mIz4kwt8vTfbwtKwSDr8Ql7VviWZ5fRCIbZ8n9GGxqcFEv7dxx6ViQ2ZqHkvlTxCcJWZL8jta16b69Nu81AttxGjOSM6A",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 12 集，我們訪問了立法委員陳亭妃，她以自身被斷章取義的「一指妃」受害經驗切入，談及個人面對資訊操弄的無力，並認為在地協力者的管制應該更加細緻。",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"陳亭妃"
 				],
-				"articleID": "chen-tf",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSK4mEnlvkinaB1AWKFcLDqSYImp8O8hehpLbNKFLv5tYEFWduhCouR4Z6N8Poca9EcdJf2JRMcCVBu/pub",
+				"articleID": "chen-ting-fei",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTRz0hUNsCha7MQYL6uNWVp_x-7T99PJmEewdv9gg9L4M3YgiPkWX-tpt_h-0Bpzi8he4DCuP8rimyp/pub",
 				"publishedAt": "2020/12/29 12:00"
 			}
 		}
@@ -1138,12 +1183,12 @@
 			}
 		}
 	},
-	"chiu-hc": {
+	"chiu-hsien-chih": {
 		"published": true,
 		"type": "video",
-		"id": "chiu-hc",
+		"id": "chiu-hsien-chih",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ8EEJxJ-yRvV_Ce-LlzevzmrPxa0TfXKOFMO374WJUQPcCSgcpLOHQ5FNzTd_Y6q7XHdvFLYtCIeQX/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRaSDmp-786XN7dtlIu44P6eTXupG-LMzRyWVNWJHlmvn2gnmLn20Z7DGxlKUdqutHLDaXdnU1TRhbJ/pub"
 		},
 		"publishedAt": "2020/12/15 19:00",
 		"cache": false,
@@ -1151,25 +1196,25 @@
 			"_tw": {
 				"title": "資訊操弄影響公民社會，立委邱顯智：會造成寒蟬效應",
 				"subtitle": "心慌保全來訪問 Ep.11",
-				"coverImage": "https://lh5.googleusercontent.com/scllFlXrvutKW0zv3aGdAyJnh6KFYY1xT7bX5S81XQ8kXVq5ch0vvj-wFVSOIqeeINusoXgipOWJg0KHFHBT5MghhNXdpgT63STDZcMkvflYec6XCd1haf3FAq7P8KIb3w",
+				"coverImage": "https://lh4.googleusercontent.com/rr0QqDLthAj-oHBvhZS04tR8asyQ0KW3ntS2b3oeiNJnTvkkze7xWSgZ0QlhGCtmlwFBwBMlianqa-GG0RUlfn0WRdUasG23UeHueoIIOVDup1cPcIBCt05wH93Ij1CiRA",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 11 集，我們訪問了立法委員邱顯智，他分享自身當律師的經驗，訴說「資訊操弄」如何影響公民社會；談及新聞、電視和 NCC 的職權，舉了更有趣的案例。",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"邱顯智"
 				],
-				"articleID": "chiu-hc",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ8EEJxJ-yRvV_Ce-LlzevzmrPxa0TfXKOFMO374WJUQPcCSgcpLOHQ5FNzTd_Y6q7XHdvFLYtCIeQX/pub",
+				"articleID": "chiu-hsien-chih",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRaSDmp-786XN7dtlIu44P6eTXupG-LMzRyWVNWJHlmvn2gnmLn20Z7DGxlKUdqutHLDaXdnU1TRhbJ/pub",
 				"publishedAt": "2020/12/15 19:00"
 			}
 		}
 	},
-	"kao-ha": {
+	"kao-hung-an": {
 		"published": true,
 		"type": "video",
-		"id": "kao-ha",
+		"id": "kao-hung-an",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTNCcBgqsRPNdpUjA2-V5-zuZZNCkNCqaQn39WXNTuAJeVrofyq9EN1jAouIxOurLDYdTOTNhTtqb4k/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRGDKuM1bWUsBqPTScQL9kH_DuqrCFMYHhBYvzPbOpiquxDLS6gfKQxzfk0S4N2zFB2040g05dvpgvU/pub"
 		},
 		"publishedAt": "2020/12/15 19:00",
 		"cache": false,
@@ -1177,25 +1222,25 @@
 			"_tw": {
 				"title": "資訊管制、言論自由，高虹安：需在天秤兩端取平衡",
 				"subtitle": "心慌保全來訪問 Ep.10",
-				"coverImage": "https://lh6.googleusercontent.com/42QqMJ0Zz-Ul6NGFBbFHPwtl4Nlz_2sk38HE9DBtwgqywL5McAagfRMqEZc-o_B617a84AtbrOrfzzyRAalEzmMgcwrS2eu2vbWfBffqAnRfb2Dlo0FFSxg0LqKOgfYnJg",
+				"coverImage": "https://lh3.googleusercontent.com/qnSKg1fwPj2TWC27P_2MsB2JnwXDmmxXGMRVnrC4nHLdoz07uE1YuPalvVM1I3nbIgTwrQSwHrWLjiZmoDpy3wiLhMALfJfOH-3EMuoAltMfpgRqxDE8DUXwMCSZSpeB9w",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 10 集，我們訪問了立法委員高虹安，她以電子郵件分類的例子提出，可以用科技的方式訓練出「假消息」的分類器！",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"高虹安"
 				],
-				"articleID": "kao-ha",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNCcBgqsRPNdpUjA2-V5-zuZZNCkNCqaQn39WXNTuAJeVrofyq9EN1jAouIxOurLDYdTOTNhTtqb4k/pub",
+				"articleID": "kao-hung-an",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRGDKuM1bWUsBqPTScQL9kH_DuqrCFMYHhBYvzPbOpiquxDLS6gfKQxzfk0S4N2zFB2040g05dvpgvU/pub",
 				"publishedAt": "2020/12/15 19:00"
 			}
 		}
 	},
-	"chen-pw": {
+	"chen-po-wei": {
 		"published": true,
 		"type": "video",
-		"id": "chen-pw",
+		"id": "chen-po-wei",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTCNmhFKD7zxkOChCKYrOgyxuMauiszl35ifvUn1WEA_Tkjjj0H0vnEN2cRPX1U-ML6x-jRs2RyxmIi/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTpNwhWiN_cLQxzp-GAfLiX94llgnhmaiBA2_BDiNoEcq90YcGpO54svPj0b8ldmm4vLexRrXFfrHo3/pub"
 		},
 		"publishedAt": "2020/12/7 19:00",
 		"cache": false,
@@ -1203,25 +1248,25 @@
 			"_tw": {
 				"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄",
 				"subtitle": "心慌保全來訪問 Ep.9",
-				"coverImage": "https://lh3.googleusercontent.com/4mTxkmh-uTeguoJPdCb05qYSpZtTTasr2K3d9XO_ZDiDThDiCDfyn_7DzAp1UujWOjRx1qAXZHabL9ha0dSw4QfF9cicKmfYWvGD2dV8B5HuetORL3u-mY0E2iGIIi8uYQ",
+				"coverImage": "https://lh6.googleusercontent.com/0AUmDGoIbzy7pzI9cVUVfnJ0COXYTQyaxQ5bDMgdu9KPueNk0wNXLHr0Ri5N6YF-Y1fO9XATMpOLBywxseMWBlHXlMD9kZnEqvQXgSY3jnFfo9-dASIhmHrEPP4icNWv_g",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 9 集，我們訪問了立法委員陳柏惟，「中國已經把我們設定為代理人，為什麼我們不把他設定回來？」他提出資金來源、代理人法及公職陽光法案，以三個面向，力斬資訊操弄！",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"陳柏惟"
 				],
-				"articleID": "chen-pw",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCNmhFKD7zxkOChCKYrOgyxuMauiszl35ifvUn1WEA_Tkjjj0H0vnEN2cRPX1U-ML6x-jRs2RyxmIi/pub",
+				"articleID": "chen-po-wei",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpNwhWiN_cLQxzp-GAfLiX94llgnhmaiBA2_BDiNoEcq90YcGpO54svPj0b8ldmm4vLexRrXFfrHo3/pub",
 				"publishedAt": "2020/12/7 19:00"
 			}
 		}
 	},
-	"wu-sy": {
+	"wu-szu-yao": {
 		"published": true,
 		"type": "video",
-		"id": "wu-sy",
+		"id": "wu-szu-yao",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR9WsAiyUHMAkgiyHWEU3gcCRf34-8b6RQQrrPY61DQBuviX8RUgrRSJTTAuolndd-eaPol__PWwkv-/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQVeChNjtFZuK0ry4-m7bcsdFGhH1G8SVfHlmZvxeurUpOMADCYsPshZRgMF35xQ5LCT8v0Rs8VOrR-/pub"
 		},
 		"publishedAt": "2020/12/7 19:00",
 		"cache": false,
@@ -1229,15 +1274,15 @@
 			"_tw": {
 				"title": "立委吳思瑤：每天開門就要應付資訊操弄，對政府是一種內耗",
 				"subtitle": "心慌保全來訪問 Ep.8",
-				"coverImage": "https://lh5.googleusercontent.com/lz3iNeIXKMp9l-k6ImnPuwFAgwsk5ZSSiNb9D5SbCP8w4LpwspqRIQmzmqeQvF2DZfp1MJ5zd-YR_6V_SlUL0Ay6mlNO-IP0hfU-leLPGMgt-sb-arg_DvaQW2PKG67S-g",
+				"coverImage": "https://lh5.googleusercontent.com/hw1VjKB934wXTmTGJiSHe7I1Xjw-byOpo6V7iKh6orX_x2Mmtbj3radLanZqQtNlgmoOjNtCFG8M4mvq2Gh5NPFCNHBtHoTuSlHggd5I-gxv2Kq3qNzu19jJFnsqdNUyRw",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 8 集，我們訪問了立法委員吳思瑤，她表示每天睜開眼就有上千通的資訊要協助澄清，對政府來說是一種內耗⋯⋯",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"吳思瑤"
 				],
-				"articleID": "wu-sy",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR9WsAiyUHMAkgiyHWEU3gcCRf34-8b6RQQrrPY61DQBuviX8RUgrRSJTTAuolndd-eaPol__PWwkv-/pub",
+				"articleID": "wu-szu-yao",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQVeChNjtFZuK0ry4-m7bcsdFGhH1G8SVfHlmZvxeurUpOMADCYsPshZRgMF35xQ5LCT8v0Rs8VOrR-/pub",
 				"publishedAt": "2020/12/7 19:00"
 			}
 		}
@@ -1247,7 +1292,7 @@
 		"type": "video",
 		"id": "chen-yu-chen",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQIWpHQTF_m2RypDpAcmObwlGIRIuPFpNP2p324QfF1wyzJ578BhzLald8ch8p8YaW07YnBEuoMaPOW/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTO5ubuc0-xEleRLxXeA8uU35yXorJ0wUhP8Wy7VZ5KxRuZkJPa2IXoRi4_2GHsVv_WLTx9NPgMTodQ/pub"
 		},
 		"publishedAt": "2020/11/20 18:00",
 		"cache": false,
@@ -1255,7 +1300,7 @@
 			"_tw": {
 				"title": "立委陳玉珍：夾到手為什麼要送醫院？解決資訊操弄端看執政者意願",
 				"subtitle": "心慌保全來訪問 Ep.7",
-				"coverImage": "https://lh5.googleusercontent.com/9twt-7VXGPuxr9eqnJJfE0V3Q6My7v0W-8rJ4Knd1ZUs1nfXOnIRNCIgiU56KGoqWNRVRvNzMlrv4JouZKk9up9Kxtpbn-DbldqIjzd-LRD5E_0VTQ09NmPqamVqyf79fg",
+				"coverImage": "https://lh5.googleusercontent.com/W8BBZd-KcS0fU4YbHAvZrZzGMeHwczuiLP0PtN49x2exI4ZeFoCVRVvbZXl1MLHR-nwm8MzN3O0OUs276Yk-ToUpL9tvE7NcqhR5_HUt8a3Sd73MBQIFXUyIXJOhnLY5Zg",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 7 集，訪問了立法委員陳玉珍，她以兩個親身經歷詳細介紹自身遇到資訊操弄的過程，以及帶來的影響，並且指出，她認為要改善資訊操弄端看執政者意願。",
 				"tags": [
 					"資訊操弄",
@@ -1263,7 +1308,7 @@
 					"陳玉珍"
 				],
 				"articleID": "chen-yu-chen",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQIWpHQTF_m2RypDpAcmObwlGIRIuPFpNP2p324QfF1wyzJ578BhzLald8ch8p8YaW07YnBEuoMaPOW/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTO5ubuc0-xEleRLxXeA8uU35yXorJ0wUhP8Wy7VZ5KxRuZkJPa2IXoRi4_2GHsVv_WLTx9NPgMTodQ/pub",
 				"publishedAt": "2020/11/20 18:00"
 			}
 		}
@@ -1273,7 +1318,7 @@
 		"type": "video",
 		"id": "audrey-tang",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQL9gcgGPIQSgi4PnKtmcDEur_mq_QkmayYPZn_jJkcBgxnfPDODBztJPX_lei3PyvlPh8qNWzlPbH0/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRfBVrbBCTyg5fp4Xy91iM7w-QgN_Gcs_aUSkcRm7XbznkrvhFVqdbuPD73RnEoRvCkDxnuMib72hHY/pub"
 		},
 		"publishedAt": "2020/11/6 18:00",
 		"cache": false,
@@ -1281,7 +1326,7 @@
 			"_tw": {
 				"title": "「資訊操弄」怎麼防治？唐鳳：小學生、中學生都能加入",
 				"subtitle": "心慌保全來訪問 Ep.6",
-				"coverImage": "https://lh5.googleusercontent.com/rsBmEPesZr3rXgW4ChdlXQVR7Qhe3nVJo6zumjeNPsriokOMSSK0SSE_eEG1Bacf6okp7S1IlajFKcchGTTb7E5eY7hIyjwdRX-UnXfyOBMi91HEH6Z1Wn0g8P2D1JI49Q",
+				"coverImage": "https://lh4.googleusercontent.com/KlD6t8ZXfQG1dVzfWbes8N4nRCb7_aZ-kYh7wLNo0FZ5A5mXOXwkkiKNalR0UMGK9UYtl62Hw3gwHIpO4Q8FZhlC0r_NPZ48Kb4k5Mdqd_HTwMJb6RRR91PlmEFltITwuQ",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 6 集，訪問了政務委員唐鳳，她舉例訊息操弄帶來的平行世界讓事實查核變得困難，但只要多做「來源查核」，連小學生都可以加入抵抗的行列，並提出「不活化的病毒就是疫苗」⋯⋯",
 				"tags": [
 					"資訊操弄",
@@ -1290,7 +1335,7 @@
 					"增幅"
 				],
 				"articleID": "audrey-tang",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQL9gcgGPIQSgi4PnKtmcDEur_mq_QkmayYPZn_jJkcBgxnfPDODBztJPX_lei3PyvlPh8qNWzlPbH0/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRfBVrbBCTyg5fp4Xy91iM7w-QgN_Gcs_aUSkcRm7XbznkrvhFVqdbuPD73RnEoRvCkDxnuMib72hHY/pub",
 				"publishedAt": "2020/11/6 18:00"
 			}
 		}
@@ -1348,12 +1393,12 @@
 			}
 		}
 	},
-	"miao-by": {
+	"miao-bo-ya": {
 		"published": true,
 		"type": "video",
-		"id": "miao-by",
+		"id": "miao-bo-ya",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vROUbBeHHhpuJLqLC28oCgS_oFWo40-aqB3x5SJyMIHkQW9rKvPTOk_mGD7XDk3cmaow-BvH5X-P5Yb/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ-Uohfwj4SuqA0CYVuUiB6xqu4gemWUeC6vroO93qRE6B2oexqHHT97FFNRx1S1shXt9F4quE4snKH/pub"
 		},
 		"publishedAt": "2020/10/23 18:00",
 		"cache": false,
@@ -1361,15 +1406,15 @@
 			"_tw": {
 				"title": "對抗資訊操弄＝防疫！苗博雅：專責、宣導缺一不可",
 				"subtitle": "心慌保全來訪問 Ep.5",
-				"coverImage": "https://lh5.googleusercontent.com/9GnDKttCTqQbsYehD-v3w53akP5XC-4aI5dAz9OLbrPJRG7M3RBY_fweceTe-kMmURel0DdZvqCWqGQS9y8g3Rgd8H_d_KrGLEXEnzIz_8WaX41CM4TkenJej0bLkuwXMQ",
+				"coverImage": "https://lh3.googleusercontent.com/8kGVlis9bi_-yTEyP__21fFSFWbS6hkhziximBVd2OOiVX4se6xXjEb28hG3zfvmHdNXNiA94UECbB9rvY5W_B43ShXJtJi0yOy3-EOGxqaKRxmxn1u9iIpRGpvC58DKzA",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 5 集，心慌保全訪問了台北市議員苗博雅，她認為媒體識讀是改變社會文化的長期抗戰，並指出對抗資訊操弄就像防疫，需要有政府的專責機關或人物來扛責，不斷提醒大眾。",
 				"tags": [
 					"資訊操弄",
 					"議員",
 					"苗博雅"
 				],
-				"articleID": "miao-by",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vROUbBeHHhpuJLqLC28oCgS_oFWo40-aqB3x5SJyMIHkQW9rKvPTOk_mGD7XDk3cmaow-BvH5X-P5Yb/pub",
+				"articleID": "miao-bo-ya",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ-Uohfwj4SuqA0CYVuUiB6xqu4gemWUeC6vroO93qRE6B2oexqHHT97FFNRx1S1shXt9F4quE4snKH/pub",
 				"publishedAt": "2020/10/23 18:00"
 			}
 		}
@@ -1429,12 +1474,12 @@
 			}
 		}
 	},
-	"fan-y": {
+	"fan-yun": {
 		"published": true,
 		"type": "video",
-		"id": "fan-y",
+		"id": "fan-yun",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSVC_DyoCVzWgreNLOtss2H-XNtyiS2XlZVWN7_AjW-w5GcCWqDGWO_QrwFnJfHwIXy4YbEmk53uB46/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSXDwCAL0Lv6KipDWolIn2HH1ARDURvR2PmK3WQbETWl9J5AnEBl3FWRBxKIfBpJ-EyIolwQA4f7zz2/pub"
 		},
 		"publishedAt": "2020/9/29 18:00",
 		"cache": false,
@@ -1442,25 +1487,25 @@
 			"_tw": {
 				"title": "資訊操弄無國界！范雲：修法、NCC、教育「三管齊下」",
 				"subtitle": "心慌保全來訪問 Ep.4",
-				"coverImage": "https://lh3.googleusercontent.com/Bg_Kit2gu7P9dv47O5ES99xNOeGnwVyKva0Bo9febiNwMlPm6W8hh-uJ0uhF49epeRbfRXpYt1sbnrXEfGrQHPlEeiWocS08c0X3ja7jNe_fwWXfV5e2HrasHUXWUuqIUA",
+				"coverImage": "https://lh3.googleusercontent.com/nqh4JXHoRAUtxL0v74OrNUZZTQ7ZKyMzMz9OpR8tYiMguM_IZNlP04VQSP1oP-XBrF5dx9oBUkOQ0KmIAQrvRTUCklttshIlH0sLvvhvr7-TNQ_9w_I-ei44Bnh2MJkG6g",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 4 集，心慌保全訪問了立法委員范雲，她分享了自身對應資訊操弄的經驗，並指出面對無國界的資訊操弄，關鍵有三點：首先是修正使現行法規更加合宜、改善新聞媒體的事實查核機制，以及從教育著手，增強國人的媒體識讀素養。",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"范雲"
 				],
-				"articleID": "fan-y",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVC_DyoCVzWgreNLOtss2H-XNtyiS2XlZVWN7_AjW-w5GcCWqDGWO_QrwFnJfHwIXy4YbEmk53uB46/pub",
+				"articleID": "fan-yun",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSXDwCAL0Lv6KipDWolIn2HH1ARDURvR2PmK3WQbETWl9J5AnEBl3FWRBxKIfBpJ-EyIolwQA4f7zz2/pub",
 				"publishedAt": "2020/9/29 18:00"
 			}
 		}
 	},
-	"lai-py": {
+	"lai-pin-yu": {
 		"published": true,
 		"type": "video",
-		"id": "lai-py",
+		"id": "lai-pin-yu",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS3UAQoWq1t22fUEJJPPbm10MeXqJGx1Ptjppl4HMcEMBuHCSYNZoVoaSbt1K2B3OxxrwQDeDBRcZ-L/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRetoYj84b80uc6TtkVvmu2hwjK_hGu0rGzjAZDG4DisIU08cbk_4_0zZrDFB2WOz4CjJsngQAm5PtB/pub"
 		},
 		"publishedAt": "2020/9/25 18:00",
 		"cache": false,
@@ -1468,15 +1513,15 @@
 			"_tw": {
 				"title": "「統戰團」超多！立委賴品妤：從民代下手",
 				"subtitle": "心慌保全來訪問 Ep.3",
-				"coverImage": "https://lh4.googleusercontent.com/7pprh10VwQCyRjeJwKSRF0hXUDqCjxTCHyZ4k3DvlhhUbcS8XAcv45H1XKdHOWEwJkpjIWOqKIITsHmd4Atp9VwEg5mJWv3sgtQlVKq89-jISTCNoPG5iIE0V3U15b5Qkw",
+				"coverImage": "https://lh6.googleusercontent.com/nx3Q01dUiaSB_hvXg7ZXyRdlg00xEYfttGlWVNWfdrFdGEEProYBK-cU-GZfcEXbn9Sx0mkjVyge3-hBYySH2EbvnI7UsvXgS8b6dre5apdGNuALBnV-CfapTkALwL475g",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 3 集，心慌保全訪問了立法委員賴品妤，她不僅直指要對「民代下手」，還提出了連助理在旁邊都緊張的立法方向。",
 				"tags": [
 					"資訊操弄",
 					"議員",
 					"賴品妤"
 				],
-				"articleID": "lai-py",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS3UAQoWq1t22fUEJJPPbm10MeXqJGx1Ptjppl4HMcEMBuHCSYNZoVoaSbt1K2B3OxxrwQDeDBRcZ-L/pub",
+				"articleID": "lai-pin-yu",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRetoYj84b80uc6TtkVvmu2hwjK_hGu0rGzjAZDG4DisIU08cbk_4_0zZrDFB2WOz4CjJsngQAm5PtB/pub",
 				"publishedAt": "2020/9/25 18:00"
 			}
 		}
@@ -1565,12 +1610,12 @@
 			}
 		}
 	},
-	"chiu-wc": {
+	"chiu-wei-chieh": {
 		"published": true,
 		"type": "video",
-		"id": "chiu-wc",
+		"id": "chiu-wei-chieh",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSSYyfYfOx7bb5ohhmp6SBSnTUsjsUZL5xgaNszpckPObbTdf8VeThsf01jOPulsfIpgkLTAwTLiP2C/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRqZ4MdwNgaEK5rjehiPOVezVzViGrUXaRDcsqnanskUCAp2_lz5i7_kKdFfgVbz6DeubojC5mNuKGv/pub"
 		},
 		"publishedAt": "2020/9/16 18:00",
 		"cache": false,
@@ -1578,15 +1623,15 @@
 			"_tw": {
 				"title": "呱吉：「好人要更強」是對抗資訊操弄的第一步",
 				"subtitle": "心慌保全來訪問 Ep.2",
-				"coverImage": "https://lh6.googleusercontent.com/O6g9CRZQkur0M5D-wpGQwcbKnEPTScoGuRM7q7TZKxmjpQ2euYoqveuVqOdOn_QBG39trFJLW-zpdtujRPOohFFa3RdjSj-Wb8Nfg-gFGIocmBsL5xAWJm7Dd5IoBs2x0w",
+				"coverImage": "https://lh6.googleusercontent.com/-nd5viENm9LCn22RgYXbwqMIm9qixQvxoTXHMKM06bPDH7XBKyjO7m4Qbt-8U99vwTMZCqinf_fw3_2P6w-cHi4EX8FFNGt0OLRVahV2GSDnCJ04tPKlRJrVblShorV6zA",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 2 集，心慌保全訪問了台北市議員邱威傑（呱吉），時常做出驚天之舉的他，對現階段資訊操弄的立法表示悲觀？「好人要更強」又是什麼意思？",
 				"tags": [
 					"資訊操弄",
 					"議員",
 					"呱吉"
 				],
-				"articleID": "chiu-wc",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSSYyfYfOx7bb5ohhmp6SBSnTUsjsUZL5xgaNszpckPObbTdf8VeThsf01jOPulsfIpgkLTAwTLiP2C/pub",
+				"articleID": "chiu-wei-chieh",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRqZ4MdwNgaEK5rjehiPOVezVzViGrUXaRDcsqnanskUCAp2_lz5i7_kKdFfgVbz6DeubojC5mNuKGv/pub",
 				"publishedAt": "2020/9/16 18:00"
 			}
 		}
@@ -1622,12 +1667,12 @@
 			}
 		}
 	},
-	"hong-sh": {
+	"hung-sun-han": {
 		"published": true,
 		"type": "video",
-		"id": "hong-sh",
+		"id": "hung-sun-han",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTgHTy3Q6K8y4Qxmd1R9zTv7xnkldfMDHZkR8fPRCXAKB6UXCIUxhZ3SevUGTXpCVJmpg4qnbAQRLOY/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQnfB4wQPQuktOfh6PxZyez3HVT37-il1NIq0NRrkEZPTvAfoDuL6FEfVmZ7ZGp-M00St6u9HJPP5ig/pub"
 		},
 		"publishedAt": "2020/8/29 18:00",
 		"cache": false,
@@ -1635,15 +1680,15 @@
 			"_tw": {
 				"title": "資訊操弄引爆社會不信任，立委洪申翰：須先凝聚共識",
 				"subtitle": "心慌保全來訪問 Ep.1",
-				"coverImage": "https://lh3.googleusercontent.com/_BSrFBRHAtcEq5JRtqI1aF7YzghXDMhuN_imw-pQcYYzWoJ7M5oASuhmZYwTlbfdJUJmzvWHUrERqC-WjsoDa1ihp0nTzi_FUpbp0HqkDtPEFVJsAngezTS91HnqxeUHQg",
+				"coverImage": "https://lh5.googleusercontent.com/nl78h-BjeJT1oH8x3NipOUxOEpBh5DpNOyFKZ6MX5yiGtXkm2nV7kB_iZc0HvxNyrmyjhpRMhnYwjO4YYPVm11f4rbMOdmkbR9GvoP75E5pCqEYOq9lFWnkvlMGgxD6qSQ",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 1 集，心慌保全訪問了立法委員洪申翰，地點在立法院旁的慕哲咖啡。身為 2020 新科立委，洪申翰的觀點是什麼？面對「資訊操弄」，他又提出了哪些解方呢？",
 				"tags": [
 					"資訊操弄",
 					"立委",
 					"洪申翰"
 				],
-				"articleID": "hong-sh",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTgHTy3Q6K8y4Qxmd1R9zTv7xnkldfMDHZkR8fPRCXAKB6UXCIUxhZ3SevUGTXpCVJmpg4qnbAQRLOY/pub",
+				"articleID": "hung-sun-han",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQnfB4wQPQuktOfh6PxZyez3HVT37-il1NIq0NRrkEZPTvAfoDuL6FEfVmZ7ZGp-M00St6u9HJPP5ig/pub",
 				"publishedAt": "2020/8/29 18:00"
 			}
 		}
