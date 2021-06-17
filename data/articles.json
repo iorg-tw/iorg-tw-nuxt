@@ -41,29 +41,31 @@
 		},
 		"publishedAt": "2021/6/17 16:00",
 		"path": "/da/2",
-		"cache": false,
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "6 月上半疫情燒，中共宣傳新口號：台灣人到中國打疫苗",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 2 期 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh4.googleusercontent.com/ZY8rN1Ws8vlNWifan0OE41xre4Kxvc7fJv8igLG2bL2ZSk1WGBrN2_YBrsH0Z9MOnRpwzd3Hbit9Jmkf-LhclpjtUduBp8kTNIvk0rYwtyetuxxKMkEE8Vl0m0PCQhtVgw",
+				"coverImage": "https://lh3.googleusercontent.com/hiVXoBnGkPcNwRNluaOcJohJ697R5HELThL5O0HYfqe4nKWJldk0CI5Pz9hyZmQpIut9iF86NfvEEy_0TMqkl1IPXpG-TtnkieDDXwWeDAqhymtMejPnqlJ5hjdFRRCwjA",
 				"tags": [
 					"心慌週報"
 				],
 				"articleID": "_DA_2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQCaEtgkkssWh4RxOCbK-N-Lk2PoG9AyrNh3z-Z4JpwDk_zXmJSYfOoLZKCWH28q_XJwjvK1uEo8XC8/pub",
-				"publishedAt": "2021/6/17 16:00"
+				"publishedAt": "2021/6/17 16:00",
+				"cache": "_DA_2_tw"
 			},
 			"_en": {
-				"title": "Latest CCP Slogan: Taiwanese Go China Get Vaccines",
+				"title": "Latest CCP Slogan: Taiwanese Go China Get Vaccinated",
 				"subtitle": "IORG Dokidoki Alert Weely ﹋ No. 2 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh5.googleusercontent.com/wEi0rdBc5pWaZYP1mlNeH6qa_euDe7e9Je7qG3x8kIhERvm4ZU4vonCn_ginQNmzs_5etgZLj-UlZAB-9xAawboZIgSkiZTRBz0j9uqp-JnfEBcClwQEnBFLxn3WaZjd2Q",
+				"coverImage": "https://lh4.googleusercontent.com/LDHvEzYKtPzI0jPvPkrBnJoE3by7VRsV55CALHUSzYL335n7M3kef1TMbuHSdgov3DWHYtJVKZBE26jNy6ZxYLz9cgOVYYbZAlVk3LJHAyepYA7Yu5dIx5k8YOEA2LTTUQ",
 				"tags": [
 					"Dokidoki Alert"
 				],
 				"articleID": "_DA_2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQqGcjKBoO1p448b977m-YBWLNwTkemAWUubhEan3FA0YPqpt9i9VN2AWHZUqg5hp_dtXjaGI7NBcmC/pub",
-				"publishedAt": "2021/6/17 16:00"
+				"publishedAt": "2021/6/17 16:00",
+				"cache": "_DA_2_en"
 			}
 		}
 	},
