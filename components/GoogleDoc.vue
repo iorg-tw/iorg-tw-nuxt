@@ -364,6 +364,8 @@ export default {
           > ul {
             display: flex;
             flex-wrap: wrap;
+            margin: 0.25rem 0;
+            padding: 0; // FIXME: might be bad
             > li {
               margin: 0.25rem;
               padding: 0.25rem 0.5rem;
@@ -371,6 +373,9 @@ export default {
               border-radius: 1rem;
               &.ccp {
                 background-color: #FF6464;
+              }
+              &.china {
+                background-color: #FFA4A4;
               }
               &.kmt {
                 background-color: #C0C0FF;
@@ -400,6 +405,13 @@ export default {
             font-weight: normal;
             > li {
               padding: 0.125rem 0.375rem;
+            }
+          }
+        }
+        &.list-set.bubbles {
+          ul {
+            > li {
+              margin: 0.125rem;
             }
           }
         }
@@ -572,7 +584,7 @@ export default {
   padding: var(--doc-spacing) 0;
   background-color: var(--iorg-paper);
   color: var(--iorg-text);
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
   line-height: $line-height-default;
 
   > .title,
