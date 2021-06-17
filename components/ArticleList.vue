@@ -10,20 +10,22 @@ _en:
 <template>
 <div class="article-list container-wrapper">
   <div class="articles container">
-    <nuxt-link v-for="article of articles" :key="article.id" :to="localeRoute(article.path ? { path: article.path } : { name: 'a-id', params: { id: article.id } })" class="article block panel tiled filled" :class="articleClasses">
-      <img v-if="getLocalizedDoc(article).coverImage" :src="getLocalizedDoc(article).coverImage" class="cover" />
-      <div class="detail">
-        <h3 v-html="optimizeTracking(getLocalizedDoc(article).title)"></h3>
-        <h4 v-if="getLocalizedDoc(article).subtitle">{{ getLocalizedDoc(article).subtitle }}</h4>
-        <div class="dates">
-          <div v-if="article.publishedAt" class="published-at">{{ $t('publishedAt') }} = {{ article.publishedAt.replace(/\//g, '.') }}</div>
-          <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} = {{ article.updatedAt.replace(/\//g, '.') }}</div>
+    <template v-for="(article, id, index) of articles">
+      <nuxt-link :key="article.id" :to="localeRoute(article.path ? { path: article.path } : { name: 'a-id', params: { id: article.id } })" class="article block panel tiled filled" :class="articleClasses">
+        <img v-if="getLocalizedDoc(article).coverImage" :src="getLocalizedDoc(article).coverImage" class="cover" />
+        <div class="detail">
+          <h3 v-html="optimizeTracking(getLocalizedDoc(article).title)"></h3>
+          <h4 v-if="getLocalizedDoc(article).subtitle">{{ getLocalizedDoc(article).subtitle }}</h4>
+          <div class="dates">
+            <div v-if="article.publishedAt" class="published-at">{{ $t('publishedAt') }} = {{ article.publishedAt.replace(/\//g, '.') }}</div>
+            <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} = {{ article.updatedAt.replace(/\//g, '.') }}</div>
+          </div>
         </div>
+      </nuxt-link>
+      <div v-if="isDAList && index === 0" :key="index" class="panel tiled">
+        <subscribe-simple />
       </div>
-    </nuxt-link>
-    <div v-if="isDAList" class="panel tiled xlarge">
-      <subscribe-simple />
-    </div>
+    </template>
   </div>
 </div>
 </template>
