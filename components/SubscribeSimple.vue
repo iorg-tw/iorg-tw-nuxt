@@ -46,7 +46,7 @@ export default {
     height: 300px;
     outline: 2px solid var(--iorg-accent);
     margin: 0.5rem 0;
-    border-radius: 4px;
+    border-radius: 0.5rem;
     overflow: hidden;
     > iframe {
       width: 320px + 24px;
