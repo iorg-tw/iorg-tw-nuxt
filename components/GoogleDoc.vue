@@ -150,6 +150,14 @@ export default {
     h2 img.sticker.inline {
       width: 4rem;
     }
+    div.label.inline {
+      display: inline-block;
+      background-color: var(--iorg-accent);
+      line-height: 1rem;
+      padding: 0.25rem 0.5rem;
+      margin: 0 0.125rem;
+      border-radius: 0.75rem;
+    }
     div.search {
       position: relative;
       top: -0.125rem;
