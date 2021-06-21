@@ -25,6 +25,29 @@ function makeLangFile(rows, locale) {
   ].join('\n')
 }
 
+async function getDict(rows) {
+  rows = rows.filter(row => row.id && row._tw).map(row => ({
+    id: row.id,
+    _tw: row._tw,
+    _en: ok(row._en) ? row._en : row._tw
+  }))
+  fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
+  fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
+}
+
+async function getTree(rows) {
+  result = rows.map(row => ({
+    id: row.id,
+    path: row.path,
+    level: +row.level,
+    ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
+    code: row.code,
+    image: row.image ? row.image : defaultCover,
+    ...(ok(row.isGenericArticle) ? { isGenericArticle: true } : {})
+  }))
+  fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
+}
+
 async function getArticles(rows) {
   rows = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
     published: row.published ? true : false,
@@ -132,48 +155,34 @@ async function get() {
   await doc.loadInfo()
   const sheetIDs = [
     '14645087', // dict
-    '1201737578', // events
     '76257499', // research-tree
-    '508756665' // articles
+    '508756665', // articles
+    '1201737578' // events
   ]
   console.info('requesting data...')
   const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
   let rows, result
 
-  console.info('dict...')
-  rows = sheets[0]
-  rows = rows.filter(row => row.id && row._tw).map(row => ({
-    id: row.id,
-    _tw: row._tw,
-    _en: ok(row._en) ? row._en : row._tw
-  }))
-  fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
-  fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
-
-  console.info(shouldGetEvents ? 'events...' : 'skip events.')
-  if(shouldGetEvents) {
-    await getEvents(sheets[1])
+  console.info(shouldGetDict ? 'dict...' : 'skip dict')
+  if(shouldGetDict) {
+    await getDict(sheets[0])
   }
-
-  console.info('research-tree...')
-  rows = sheets[2]
-  result = rows.map(row => ({
-    id: row.id,
-    path: row.path,
-    level: +row.level,
-    ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
-    code: row.code,
-    image: row.image ? row.image : defaultCover,
-    ...(ok(row.isGenericArticle) ? { isGenericArticle: true } : {})
-  }))
-  fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
-
-  console.info(shouldGetArticles ? 'articles...' : 'skip articles.')
+  console.info(shouldGetTree ? 'research-tree...' : 'skip tree')
+  if(shouldGetTree) {
+    await getTree(sheets[1])
+  }
+  console.info(shouldGetArticles ? 'articles...' : 'skip articles')
   if(shouldGetArticles) {
-    await getArticles(sheets[3])
+    await getArticles(sheets[2])
+  }
+  console.info(shouldGetEvents ? 'events...' : 'skip events')
+  if(shouldGetEvents) {
+    await getEvents(sheets[3])
   }
 }
 
+const shouldGetDict = true
+const shouldGetTree = true
 const shouldGetArticles = true
 const shouldGetEvents = true
 get()
