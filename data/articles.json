@@ -1,36 +1,4 @@
 {
-	"ack": {
-		"published": true,
-		"type": "sys",
-		"id": "ack",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub"
-		},
-		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/3/1 14:00",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "鳴謝",
-				"tags": [],
-				"articleID": "ack",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/3/1 14:00",
-				"cache": "ack_tw"
-			},
-			"_en": {
-				"title": "Acknowledgement",
-				"tags": [],
-				"articleID": "ack",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/3/1 14:00",
-				"cache": "ack_en"
-			}
-		}
-	},
 	"_DA_2": {
 		"published": true,
 		"type": "da",
@@ -46,7 +14,7 @@
 			"_tw": {
 				"title": "6 月上半疫情燒，中共宣傳新口號：台灣人到中國打疫苗",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 2 期 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh3.googleusercontent.com/hiVXoBnGkPcNwRNluaOcJohJ697R5HELThL5O0HYfqe4nKWJldk0CI5Pz9hyZmQpIut9iF86NfvEEy_0TMqkl1IPXpG-TtnkieDDXwWeDAqhymtMejPnqlJ5hjdFRRCwjA",
+				"coverImage": "https://lh3.googleusercontent.com/_c3EjwvI2mUFzUwTuF0W8kSW1VwhCAnIabEur9xSUv0FSpmiMvZrrYjcAecsEnQAm6p1wpqqPO_t5L2QkkdiEbJ1O8LfFB_p9cPwXgxA1yFJMZcJfGUl2eVKyF6m32OQ2w",
 				"tags": [
 					"心慌週報"
 				],
@@ -58,7 +26,7 @@
 			"_en": {
 				"title": "Latest CCP Slogan: Taiwanese Go China Get Vaccinated",
 				"subtitle": "IORG Dokidoki Alert Weely ﹋ No. 2 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh4.googleusercontent.com/LDHvEzYKtPzI0jPvPkrBnJoE3by7VRsV55CALHUSzYL335n7M3kef1TMbuHSdgov3DWHYtJVKZBE26jNy6ZxYLz9cgOVYYbZAlVk3LJHAyepYA7Yu5dIx5k8YOEA2LTTUQ",
+				"coverImage": "https://lh6.googleusercontent.com/eB5iE4oM7Mhb8jzm2fHcIKhLncKw54P-3ZvFKVguhrrAbQ0qYndtyDqns-H-VeMXgd6s68NGeHgiRwGsDVNMMS9SjKRDZqIxenSrXnxfgmbViEsfbE4kVu8PlsPntV5UMg",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -513,6 +481,38 @@
 				"articleID": "_CE_2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub",
 				"publishedAt": "2021/6/15 14:00"
+			}
+		}
+	},
+	"ack": {
+		"published": true,
+		"type": "sys",
+		"id": "ack",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub"
+		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2021/3/1 14:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "鳴謝",
+				"tags": [],
+				"articleID": "ack",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/3/1 14:00",
+				"cache": "ack_tw"
+			},
+			"_en": {
+				"title": "Acknowledgement",
+				"tags": [],
+				"articleID": "ack",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/3/1 14:00",
+				"cache": "ack_en"
 			}
 		}
 	},
