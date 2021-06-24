@@ -14,7 +14,7 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ params, error }) {
+  async asyncData({ app, params, error }) {
     const id = params.id
     const conf = confs.find(c => c.id === id)
     if(!conf) {
@@ -27,7 +27,7 @@ export default {
       conf.publicURLs._tw,
       conf.publicURLs._en
     ] // 0 = _tw; 1 = _en
-    const docs = await Promise.all(docURLs.map(url => getDoc(url)))
+    const docs = await Promise.all(docURLs.map(url => getDoc(url, app.i18n.locale)))
     return {
       localizedDocs: {
         _tw: docs[0],

@@ -44,11 +44,11 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ query }) {
+  async asyncData({ app, query }) {
     const gid = query.gid ? query.gid : '2PACX-1vTLvc6G378TNi99QLg06bt8i1W-uNZVFUBwDTVTE-dBxix7lvgVeIJIweeqBXBQez0b3M3U1THvxfik'
     const url = `https://docs.google.com/document/d/e/${gid}/pub`
 
-    const doc = await getDoc(url)
+    const doc = await getDoc(url, app.i18n.locale)
     const structuredDoc = structureDoc(doc.html, ['h2', 'h3'])
     const head = generateMeta(doc.title, doc.subtitle, doc.summary, doc.coverImage)
     return {

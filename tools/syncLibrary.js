@@ -68,7 +68,7 @@ async function getArticles(rows) {
     const row = rows[i]
     const locales = Object.keys(row.publicURLs)
     console.info(row.id, locales)
-    let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale])))
+    let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale], locale)))
 
     locales.forEach((locale, i) => {
       const doc = localizedDocs[i]
@@ -85,6 +85,7 @@ async function getArticles(rows) {
         fs.writeFileSync('data/cached-articles/' + row.id + locale + '.json' , JSON.stringify(doc, null, '\t'))
         doc.cache = row.id + locale
       }
+      doc.locale = locale
       delete doc.coverImageDescHTML
       delete doc.authorInfoItemsHTML
       delete doc.summaryHTML
@@ -129,7 +130,7 @@ async function getEvents(rows) {
     const conf = confs[i]
     const locales = Object.keys(conf.publicURLs)
     console.info(conf.id, locales)
-    let localizedDocs = await Promise.all(locales.map(locale => getDoc(conf.publicURLs[locale])))
+    let localizedDocs = await Promise.all(locales.map(locale => getDoc(conf.publicURLs[locale], locale)))
 
     locales.forEach((locale, i) => {
       let doc = localizedDocs[i]
