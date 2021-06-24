@@ -77,6 +77,10 @@ export default {
       max-width: 100%;
       max-height: 50vh;
     }
+    @media (min-width: 768px) {
+      max-width: 36rem;
+      max-height: 36rem;
+    }
     @media (min-width: 960px) {
       max-width: 40rem;
       max-height: 40rem;
