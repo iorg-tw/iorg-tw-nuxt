@@ -21,11 +21,12 @@
 				"articleID": "_DA_3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRwQH7rh4vCZOo3St32pU_J2DjEt8a0jmkFQLKkA_hA-Bf91cLXOiyeZjkKRxhfqT10rEJ4AgFH0foD/pub",
 				"publishedAt": "2021/6/24 13:00",
-				"cache": "_DA_3_tw"
+				"cache": "_DA_3_tw",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Warning: Vaccination Death & Bioweapon Conspiracy Theory Could Amplify Panic",
-				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 3  ﹏ 2021.6.14-20",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 3 ﹏ 2021.6.14-20",
 				"coverImage": "https://lh4.googleusercontent.com/oBQDteJSo6csThBMaLJajaeKI6hqm7vY95a_eJs7NuQ6ncPOvysNlg5P94nmwB_EgY1CGETEevdFMyEwTFPOKciufpg1Cyi_czUeliEN91-j_XGZQOxnKU40rVWyODkg5Q",
 				"tags": [
 					"Dokidoki Alert"
@@ -33,7 +34,8 @@
 				"articleID": "_DA_3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ8Ibk5C-wKME8SvCWx2xCre1Skr2rRHnT0FOVBy6TLFpFCdmTgYCaTbH-rpPFMEiYNK7WcPlisQ3g4/pub",
 				"publishedAt": "2021/6/24 13:00",
-				"cache": "_DA_3_en"
+				"cache": "_DA_3_en",
+				"locale": "_en"
 			}
 		}
 	},
@@ -59,7 +61,8 @@
 				"articleID": "_DA_2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQCaEtgkkssWh4RxOCbK-N-Lk2PoG9AyrNh3z-Z4JpwDk_zXmJSYfOoLZKCWH28q_XJwjvK1uEo8XC8/pub",
 				"publishedAt": "2021/6/17 16:00",
-				"cache": "_DA_2_tw"
+				"cache": "_DA_2_tw",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Latest CCP Slogan: Taiwanese Go China Get Vaccinated",
@@ -71,7 +74,8 @@
 				"articleID": "_DA_2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQqGcjKBoO1p448b977m-YBWLNwTkemAWUubhEan3FA0YPqpt9i9VN2AWHZUqg5hp_dtXjaGI7NBcmC/pub",
 				"publishedAt": "2021/6/17 16:00",
-				"cache": "_DA_2_en"
+				"cache": "_DA_2_en",
+				"locale": "_en"
 			}
 		}
 	},
@@ -97,7 +101,8 @@
 				"articleID": "_DA_1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSWGhtfEUaqQDQbN6RZtMFtc13iMl5fp4CKSBOIO-6Ab4hbMd1NDkVmTx61jtUK1tyERnZFoW_-QqRv/pub",
 				"publishedAt": "2021/6/10 12:00",
-				"cache": "_DA_1_tw"
+				"cache": "_DA_1_tw",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Pandemic Storm Hit Taiwan, Vaccines Weaponized by CCP",
@@ -109,7 +114,8 @@
 				"articleID": "_DA_1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRUwv0cenb9LYvyOpG-24ah-ZRhftMLxyem-qjT_DWEwU4mzJC8cebKbJj04sUWo5y6Rk_HVt7ZPvzs/pub",
 				"publishedAt": "2021/6/10 12:00",
-				"cache": "_DA_1_en"
+				"cache": "_DA_1_en",
+				"locale": "_en"
 			}
 		}
 	},
@@ -133,7 +139,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_K_tw"
+				"cache": "_R_K_tw",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "IORG Key Research Conclusions on Chinese Influence Operations Against Taiwan",
@@ -143,7 +150,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_K_en"
+				"cache": "_R_K_en",
+				"locale": "_en"
 			}
 		}
 	},
@@ -167,7 +175,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRD5hKG24sAbqGn5enX-tHf5Cfh3Uv9BKaSBdyMdb7rrLWrSVBrrq2sfgxEbyx-4tIg9AkAghZDqrtD/pub",
 				"publishedAt": "2021/3/2 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_B_tw"
+				"cache": "_R_B_tw",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Chinese Information Manipulation Against Taiwan",
@@ -177,7 +186,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSl_l8c3x5iv9CnDXJTzas3gKRw-gKnJlUFBoe0K4GnAttromfzo0LnQm5ujSTXQmeB4ECXPg67OwpX/pub",
 				"publishedAt": "2021/3/2 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_B_en"
+				"cache": "_R_B_en",
+				"locale": "_en"
 			}
 		}
 	},
@@ -201,7 +211,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRpuzArr1SgHaSd-sErL_0dM2Fj4fESvM8WMplzhz9nQPaTI57bf7nM4lNWbDvsVkdrKuwXHbn87s2t/pub",
 				"publishedAt": "2021/3/2 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_D_tw"
+				"cache": "_R_D_tw",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Chinese Interpersonal Infiltration Against Taiwan",
@@ -211,7 +222,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2hHZAon3GL-w0GBZ8KQiOEtsP8RUqMbB3xt6ZgAb_EVnZ-HOLM2gGGb-Wt2x4I__InsZWg698UVqw/pub",
 				"publishedAt": "2021/3/2 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_D_en"
+				"cache": "_R_D_en",
+				"locale": "_en"
 			}
 		}
 	},
@@ -234,7 +246,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMqwZQFP2n7IK8RrDozn8vfUxo2ku8OEMKnLgRJos2-_HT2z38S6KCE0kK-IwY5JxAx1rWRVtWSZ7N/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/4/8 18:00",
-				"cache": "_R_R1_tw"
+				"cache": "_R_R1_tw",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -256,7 +269,8 @@
 				"articleID": "_R_B1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSoxqSJ4LfF9Hv9wKT8HQ9icAfgxZooFpY9EsuPdhda-5Hr65m__WBeX15ZkAue6WY8HIZsCvdpT0WH/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/3/1 18:00"
+				"updatedAt": "2021/3/1 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -278,7 +292,8 @@
 				"articleID": "_R_B2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS0830FukuOYyHYv7RVqbBLKu-Ca6EO9f4LxUI4-zcrTGVjvlXNYbCANLm0Qy4ELp5yUXIxKt2lSoWD/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/4/22 10:00"
+				"updatedAt": "2021/4/22 10:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -300,7 +315,8 @@
 				"articleID": "_R_B3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTXbglqs4FYaNoYSo2NfnFFTSjrRy_UFLK9dm5_o-RBsiifNNNwugTFzfusVGoZ_TJ328s9s3So5zvI/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/4/22 10:00"
+				"updatedAt": "2021/4/22 10:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -320,7 +336,8 @@
 				"tags": [],
 				"articleID": "_R_B4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFRMPFyfFfxj_te0zANqe4pKX5dmlhSHhQJE-kyIPNzta5boc7pdLHQLKx6YPTZu7SVHUgo1LI7q3X/pub",
-				"publishedAt": "2021/2/28 20:00"
+				"publishedAt": "2021/2/28 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -340,7 +357,8 @@
 				"tags": [],
 				"articleID": "_R_B5",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSTynppDAiVWKMeSwvqMhJBFl7ngln-nHwIfXcVfd6HCFQH-SAVNRsv3OecRYoTZVTnohgebkTrFZk7/pub",
-				"publishedAt": "2021/2/28 20:00"
+				"publishedAt": "2021/2/28 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -360,7 +378,8 @@
 				"tags": [],
 				"articleID": "_R_B6",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQjJPZV-_9PoWT74xtK02h5sPNC_I7LIE0YNB4OUV5AXET2pAxImGCx-HoDtyTmpPCV2VlOpN207ff0/pub",
-				"publishedAt": "2021/2/28 20:00"
+				"publishedAt": "2021/2/28 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -380,7 +399,8 @@
 				"tags": [],
 				"articleID": "_R_B7",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRSC_P1WEfJDW36uc4IXHXoxGjdV0_bTI0eG8MzJDCsG4ts-hlwuosCLOj6-2-jQnxs9bYbR-eYvhcs/pub",
-				"publishedAt": "2021/2/28 20:00"
+				"publishedAt": "2021/2/28 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -400,7 +420,8 @@
 				"tags": [],
 				"articleID": "_R_D1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRL48eSndElRlBD-EKdYwDvFGbhorgIXIir3jseQlzt1c7wu7g_yxmEJH9Di1X-iX1iBz13ZFKruMca/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -420,7 +441,8 @@
 				"tags": [],
 				"articleID": "_R_D2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSjvk0rgxk7Spza_7LtJM_OFpdzzjknInnr5xGaCdMcAKzkdAvDpBnpb5mrCkwhW7DSEfTlOb0Grr6-/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -440,7 +462,8 @@
 				"tags": [],
 				"articleID": "_R_D3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ4rdOYBjerjOS93bxADEdEb-5Ma9Afl3KdtHRwJW-F4cmasIaQOaLZoYBHwayillY6QJ45pmGC0bkh/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -460,7 +483,8 @@
 				"tags": [],
 				"articleID": "_R_D4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSvB51s0yoD0vhvCYUtn7iJ5pxb-g4wmtP56EvTAR3tEUJC7putOCW3WXg4cfOHaa_S0fb6PW5TaysE/pub",
-				"publishedAt": "2021/3/2 20:00"
+				"publishedAt": "2021/3/2 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -480,7 +504,8 @@
 				"tags": [],
 				"articleID": "_R_E",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRo4uSYCEwhsv8F8cihEiYZlveAHxoLvV_RrQdajc-GBQULMIz1rmNPo9YpfPU7qSdS1I160yurkb_C/pub",
-				"publishedAt": "2021/3/4 12:00"
+				"publishedAt": "2021/3/4 12:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -506,7 +531,8 @@
 				],
 				"articleID": "_CE_2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
-				"publishedAt": "2021/6/15 14:00"
+				"publishedAt": "2021/6/15 14:00",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Fortifying and Defending Democracy Through Stronger Community Engagement",
@@ -518,7 +544,8 @@
 				],
 				"articleID": "_CE_2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub",
-				"publishedAt": "2021/6/15 14:00"
+				"publishedAt": "2021/6/15 14:00",
+				"locale": "_en"
 			}
 		}
 	},
@@ -541,7 +568,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00",
-				"cache": "ack_tw"
+				"cache": "ack_tw",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Acknowledgement",
@@ -550,7 +578,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00",
-				"cache": "ack_en"
+				"cache": "ack_en",
+				"locale": "_en"
 			}
 		}
 	},
@@ -572,7 +601,8 @@
 				"articleID": "glossary",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/4/18 19:00"
+				"updatedAt": "2021/4/18 19:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -594,7 +624,8 @@
 				"articleID": "open",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/4/18 19:00"
+				"updatedAt": "2021/4/18 19:00",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Licensing",
@@ -602,7 +633,8 @@
 				"articleID": "open",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/4/18 19:00"
+				"updatedAt": "2021/4/18 19:00",
+				"locale": "_en"
 			}
 		}
 	},
@@ -624,7 +656,8 @@
 				"articleID": "methods",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/6/10 12:00"
+				"updatedAt": "2021/6/10 12:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -641,7 +674,8 @@
 				"title": "IORG 2020-2023 4 年計畫",
 				"tags": [],
 				"articleID": "roadmap",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -668,7 +702,8 @@
 				],
 				"articleID": "cipe-c-tai",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSl4vztbMnoVuZ2VEpPXaiDpISQQct9WKTi3vRxFG12cem4C7iLzUfZpykUIlx0TRooZ6BGtosI-024/pub",
-				"publishedAt": "2021/5/18 12:00"
+				"publishedAt": "2021/5/18 12:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -693,7 +728,8 @@
 				],
 				"articleID": "from-weibo-with-love",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRJyoJbOCtKK2nmKzLKGo9re4PM1dTzEWJTQJWJaSuw7kwRCM20nGWHbekohewoLIViYl9s-DBl5OLX/pub",
-				"publishedAt": "2021/4/8 18:00"
+				"publishedAt": "2021/4/8 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -722,7 +758,8 @@
 				],
 				"articleID": "cofacts",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRqmQLuWSSoWhR6_oIv4bU5xjGwrjB20g3NXlMkLadFzwQCBUa5tdQw2hB_6EcCoNJ6zoUg-neUsL2R/pub",
-				"publishedAt": "2021/4/7 18:00"
+				"publishedAt": "2021/4/7 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -747,7 +784,8 @@
 				],
 				"articleID": "chinese-disinfo-xinjiang",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRT1WtIVNZPecU_8YNAn6_Q1DkZWPW0Zcz3WDtwZdFS7j2pXINiaLIuHL-k5RV1A970ZSywvxYKyvP1/pub",
-				"publishedAt": "2021/4/7 9:00"
+				"publishedAt": "2021/4/7 9:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -775,7 +813,8 @@
 				],
 				"articleID": "titus-chen",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRk8hApuM_WExpiLvAu3KI2dPC1cvKDo8Yri_RQQ1R6gzhjV3hbHGZVDDiOqZOmiIltYz8lIaPh7BvW/pub",
-				"publishedAt": "2021/3/17 12:00"
+				"publishedAt": "2021/3/17 12:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -802,7 +841,8 @@
 				],
 				"articleID": "ketty-chen",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTVbBdgznJzpqfWZumNiCy5OHTYZBg1imQMXnXob3HekjpSpBC2KRBMaYz5Z-jYSbr5TDPi6ZGuiW3o/pub",
-				"publishedAt": "2021/3/17 12:00"
+				"publishedAt": "2021/3/17 12:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -830,7 +870,8 @@
 				],
 				"articleID": "yeh-ta-hua",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTle-MD-PI5Sc9crRBtLGdLvg650KcwN9G2JuenMcL5vpdoMvFkw6xmHXXsMKqMLmWwxKVTi1PLHwOf/pub",
-				"publishedAt": "2021/3/17 12:00"
+				"publishedAt": "2021/3/17 12:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -857,7 +898,8 @@
 				],
 				"articleID": "lin-thung-hong",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQNotAhihOfNwakKAvNs54HQJsn5vMyZylpzUx9GcKeUC2m_GSnCxrTp8H0V2YMrysBIInNz2iSI88i/pub",
-				"publishedAt": "2021/2/10 18:00"
+				"publishedAt": "2021/2/10 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -883,7 +925,8 @@
 				],
 				"articleID": "cheng-yun-peng",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTkVN6eHfd45fIA2ZksuHbteqYbBL8X7_SyS-d3LHN-xJ7yXdNP16aCYObIOFIK48usN7LVnhVoaLvu/pub",
-				"publishedAt": "2021/2/10 18:00"
+				"publishedAt": "2021/2/10 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -909,7 +952,8 @@
 				],
 				"articleID": "lin-chu-yin",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7y1ZY3sbp0Uz95VEWn4Al0JjmREKEWSEPuGaxZqsM24CrnRgmZkWLkKtjE8-DIFojOfnwdQBzOgfm/pub",
-				"publishedAt": "2021/2/10 18:00"
+				"publishedAt": "2021/2/10 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -935,7 +979,8 @@
 				],
 				"articleID": "wang-ting-yu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR1To_J2_dV3MHI8w73qDGnTTFKwGm7Q_4jE1khd-cRgrmCuwCwIAkUCoS7vh4WuPcHFNOLqk378ygb/pub",
-				"publishedAt": "2021/1/26 18:00"
+				"publishedAt": "2021/1/26 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -961,7 +1006,8 @@
 				],
 				"articleID": "lo-ping-cheng",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT4IApAqrrU7bCl9zVMlCvhQkdvPHwNVgBfnc4kC0GoDCmPR7kIIKNULX8Ijz05PRYX90fYTuzp6rI8/pub",
-				"publishedAt": "2021/1/19 18:00"
+				"publishedAt": "2021/1/19 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -987,7 +1033,8 @@
 				],
 				"articleID": "wang-tai-li",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSftM7S_NxUzSqFexP6PjzFzk0-EOVqVXM_Kh0bj7P9Xbx7K-yZf_YwkrI2lx0n51cdXfsXRBgJhdn3/pub",
-				"publishedAt": "2021/1/15 18:00"
+				"publishedAt": "2021/1/15 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1013,7 +1060,8 @@
 				],
 				"articleID": "tsai-yi-yu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQgAi1mon8h5KAgO_skj4CDvi60XU3XWvoOJGNJg9ws3ny5nSOfDFlASjogM4q3q40H1X6_A1rqcWn_/pub",
-				"publishedAt": "2021/1/15 18:00"
+				"publishedAt": "2021/1/15 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1040,7 +1088,8 @@
 				],
 				"articleID": "teng-hsi-hua",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSfWA1Nf5gVp-xlX_90bgn-dgaSy8G3Vnv69I6aAU_ofPOpiamGKApNqrktrplmQBBWobNz9WDMGjCN/pub",
-				"publishedAt": "2021/1/12 18:00"
+				"publishedAt": "2021/1/12 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1066,7 +1115,8 @@
 				],
 				"articleID": "wang-wan-yu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSuzYOdJxKCHunWktmUT02GDvdt8gqhDPAdRHvTa78SAMoBkVBQ3uRlqt3NTI_fD1L58iyEDgIo6y5v/pub",
-				"publishedAt": "2021/1/12 18:00"
+				"publishedAt": "2021/1/12 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1095,7 +1145,8 @@
 				"articleID": "huang-jaw-nian",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSlXpEvkxUjeXRyJ6ZoUVhpcBKHnimdhTOSradv5vR8yxViD96jV9u3_ib8ByoS2bByGMmEk7E24a5-/pub",
 				"publishedAt": "2021/1/6 18:00",
-				"updatedAt": "2021/3/17 13:00"
+				"updatedAt": "2021/3/17 13:00",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "The roaring information war: scholar Huang Jaw-Nian proposes 3-part strategy – source, dissemination & reception",
@@ -1110,7 +1161,8 @@
 				"articleID": "huang-jaw-nian",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTYWtCfKW_cDwY0nkgRdkoeOM5qqRvtyOjlenwjWcvhAokVN_BaGdKk4aJbpGm5XnQPUdnZavDOyXR-/pub",
 				"publishedAt": "2021/1/6 18:00",
-				"updatedAt": "2021/3/17 13:00"
+				"updatedAt": "2021/3/17 13:00",
+				"locale": "_en"
 			}
 		}
 	},
@@ -1139,7 +1191,8 @@
 				"articleID": "freddy-lim",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRb4zHG6HmEFwEvQUPLwkWuFqWXaBm9pu0yP1MhAMlmNbGPSvqHlJXSxEEZ8cEr_KBHm9sCA_Rnkg_8/pub",
 				"publishedAt": "2021/1/6 18:00",
-				"updatedAt": "2021/6/15 12:00"
+				"updatedAt": "2021/6/15 12:00",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Freddy Lim: In the view of the authoritarians, democracies are full of vulnerabilities",
@@ -1154,7 +1207,8 @@
 				"articleID": "freddy-lim",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS2qZ5k8dFBlmmgbd7R88y72yBSAAX005jk4C1S4Tx9w55crWl10sMzkdLolR212eIfCB9w9xwd2Hb4/pub",
 				"publishedAt": "2021/1/6 18:00",
-				"updatedAt": "2021/6/15 12:00"
+				"updatedAt": "2021/6/15 12:00",
+				"locale": "_en"
 			}
 		}
 	},
@@ -1183,7 +1237,8 @@
 				"articleID": "lin-fei-fan",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRX7ayT_Vav95OJKqLexE5xuSLbKIAtFDo08UHzD_xkYvcjCMOh1lbldOhkS-4ETpeSOJTzMOV4Lksx/pub",
 				"publishedAt": "2021/1/4 18:00",
-				"updatedAt": "2021/2/10 18:00"
+				"updatedAt": "2021/2/10 18:00",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Exposing enemy in the shadows – Lin Fei-Fan: We need “place of origin” information labelling",
@@ -1198,7 +1253,8 @@
 				"articleID": "lin-fei-fan",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRMgYiAc4F451EXadwW_Cm7iEXy0DzpPUjoJ2IZ8fqlmfSyBMM9w0gYuNe9cGHYxN5cMi_6GM7isvA1/pub",
 				"publishedAt": "2021/1/4 18:00",
-				"updatedAt": "2021/2/10 18:00"
+				"updatedAt": "2021/2/10 18:00",
+				"locale": "_en"
 			}
 		}
 	},
@@ -1224,7 +1280,8 @@
 				],
 				"articleID": "ho-chih-wei",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQfy9k3401PL8q7hdt_UioyV9t6htEzjKae7BihAbHgpvlzZkNUb2qanARsZNPoGOf6iHcrAILdW99i/pub",
-				"publishedAt": "2020/12/29 18:00"
+				"publishedAt": "2020/12/29 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1250,7 +1307,8 @@
 				],
 				"articleID": "chen-ting-fei",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTRz0hUNsCha7MQYL6uNWVp_x-7T99PJmEewdv9gg9L4M3YgiPkWX-tpt_h-0Bpzi8he4DCuP8rimyp/pub",
-				"publishedAt": "2020/12/29 12:00"
+				"publishedAt": "2020/12/29 12:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1278,7 +1336,8 @@
 				],
 				"articleID": "disinformed-democracy",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR-LBxFgb4KFvS0GD04aeXlB-_gOVsox2QFEjDOOMARyjCjdG-iEwnkh6gySrfZGRF-nKartCZeI_4R/pub",
-				"publishedAt": "2020/12/23 18:00"
+				"publishedAt": "2020/12/23 18:00",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Countering information manipulation: scholars recognize “Taiwan experience” incorporating open data & civic participation",
@@ -1293,7 +1352,8 @@
 				],
 				"articleID": "disinformed-democracy",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSu7e4xSi_WsgEYHZYSwjYZv38ND66ujI7rr3VQsA_wn6FTmh-nBq7-T0IzRPaRtlG_4LdR7bWQ1Ii5/pub",
-				"publishedAt": "2020/12/23 18:00"
+				"publishedAt": "2020/12/23 18:00",
+				"locale": "_en"
 			}
 		}
 	},
@@ -1319,7 +1379,8 @@
 				],
 				"articleID": "chiu-hsien-chih",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRaSDmp-786XN7dtlIu44P6eTXupG-LMzRyWVNWJHlmvn2gnmLn20Z7DGxlKUdqutHLDaXdnU1TRhbJ/pub",
-				"publishedAt": "2020/12/15 19:00"
+				"publishedAt": "2020/12/15 19:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1345,7 +1406,8 @@
 				],
 				"articleID": "kao-hung-an",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRGDKuM1bWUsBqPTScQL9kH_DuqrCFMYHhBYvzPbOpiquxDLS6gfKQxzfk0S4N2zFB2040g05dvpgvU/pub",
-				"publishedAt": "2020/12/15 19:00"
+				"publishedAt": "2020/12/15 19:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1371,7 +1433,8 @@
 				],
 				"articleID": "chen-po-wei",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpNwhWiN_cLQxzp-GAfLiX94llgnhmaiBA2_BDiNoEcq90YcGpO54svPj0b8ldmm4vLexRrXFfrHo3/pub",
-				"publishedAt": "2020/12/7 19:00"
+				"publishedAt": "2020/12/7 19:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1397,7 +1460,8 @@
 				],
 				"articleID": "wu-szu-yao",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQVeChNjtFZuK0ry4-m7bcsdFGhH1G8SVfHlmZvxeurUpOMADCYsPshZRgMF35xQ5LCT8v0Rs8VOrR-/pub",
-				"publishedAt": "2020/12/7 19:00"
+				"publishedAt": "2020/12/7 19:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1423,7 +1487,8 @@
 				],
 				"articleID": "chen-yu-chen",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTO5ubuc0-xEleRLxXeA8uU35yXorJ0wUhP8Wy7VZ5KxRuZkJPa2IXoRi4_2GHsVv_WLTx9NPgMTodQ/pub",
-				"publishedAt": "2020/11/20 18:00"
+				"publishedAt": "2020/11/20 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1450,7 +1515,8 @@
 				],
 				"articleID": "audrey-tang",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRfBVrbBCTyg5fp4Xy91iM7w-QgN_Gcs_aUSkcRm7XbznkrvhFVqdbuPD73RnEoRvCkDxnuMib72hHY/pub",
-				"publishedAt": "2020/11/6 18:00"
+				"publishedAt": "2020/11/6 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1478,7 +1544,8 @@
 				],
 				"articleID": "ru-collaborators",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRIOJva9Uk5BcsFpgBD17Oe0OHls6KQMe8UM7JZRYYy-89RrbgJAsjWaOTI9dtitFgnU-uvigtdgjnu/pub",
-				"publishedAt": "2020/11/5 18:00"
+				"publishedAt": "2020/11/5 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1503,7 +1570,8 @@
 				],
 				"articleID": "iorg-report-2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRydbX-nQphyKQSTgaSTzXnBsEqncSWFdTqRaVMntTSpUORhMcu8a60xP4Z95awe5nP_rNN0qMl6TqJ/pub",
-				"publishedAt": "2020/10/29 18:00"
+				"publishedAt": "2020/10/29 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1529,7 +1597,8 @@
 				],
 				"articleID": "miao-bo-ya",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ-Uohfwj4SuqA0CYVuUiB6xqu4gemWUeC6vroO93qRE6B2oexqHHT97FFNRx1S1shXt9F4quE4snKH/pub",
-				"publishedAt": "2020/10/23 18:00"
+				"publishedAt": "2020/10/23 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1557,7 +1626,8 @@
 				],
 				"articleID": "china-russia-us-el",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT3oHGKhiNFSkB71tV1ACQFeSdWYlEiqwoXxMAQ7Ncc8MBdq9BDDlhVXYDVtoBoQGMlVCTwnihBHtEA/pub",
-				"publishedAt": "2020/10/21 18:00"
+				"publishedAt": "2020/10/21 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1584,7 +1654,8 @@
 				],
 				"articleID": "chenchu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRzs-WR1eodNZ8hlGIl2vUiUcSctdRC9f4uvQifz_AFFzrFIeJg4u6MLH__DC0eIITJIqX5XtISwXHI/pub",
-				"publishedAt": "2020/10/21 18:00"
+				"publishedAt": "2020/10/21 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1610,7 +1681,8 @@
 				],
 				"articleID": "fan-yun",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSXDwCAL0Lv6KipDWolIn2HH1ARDURvR2PmK3WQbETWl9J5AnEBl3FWRBxKIfBpJ-EyIolwQA4f7zz2/pub",
-				"publishedAt": "2020/9/29 18:00"
+				"publishedAt": "2020/9/29 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1636,7 +1708,8 @@
 				],
 				"articleID": "lai-pin-yu",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRetoYj84b80uc6TtkVvmu2hwjK_hGu0rGzjAZDG4DisIU08cbk_4_0zZrDFB2WOz4CjJsngQAm5PtB/pub",
-				"publishedAt": "2020/9/25 18:00"
+				"publishedAt": "2020/9/25 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1663,7 +1736,8 @@
 				],
 				"articleID": "senior-info-lit",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQG_bkIrdkO9Nw_Zr-J-PVftzOHg50UDx3gEsB2YY6P3ojwvvhKpdA3-2YWXfm-TMPOBb9VR8DAjRRa/pub",
-				"publishedAt": "2020/9/24 20:00"
+				"publishedAt": "2020/9/24 20:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1692,7 +1766,8 @@
 				],
 				"articleID": "straits-forum",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRVN0xvS22nSx745XS-O6JUDOa4DxmcuKJDRsJyPwHsedL3v2sbmp5rJ7JATPYMcCAOxhfu_CqrSYl4/pub",
-				"publishedAt": "2020/9/18 18:30"
+				"publishedAt": "2020/9/18 18:30",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1720,7 +1795,8 @@
 				],
 				"articleID": "ccp-info-war",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRDBAzWLPXSmNkxztdWSoJGFp1cYaNx0_FEgklpQPcSzvj6T2tpPgblY7l-TroboI_trbm0qE5XsxHP/pub",
-				"publishedAt": "2020/9/17 18:30"
+				"publishedAt": "2020/9/17 18:30",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1746,7 +1822,8 @@
 				],
 				"articleID": "chiu-wei-chieh",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRqZ4MdwNgaEK5rjehiPOVezVzViGrUXaRDcsqnanskUCAp2_lz5i7_kKdFfgVbz6DeubojC5mNuKGv/pub",
-				"publishedAt": "2020/9/16 18:00"
+				"publishedAt": "2020/9/16 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1777,7 +1854,8 @@
 				],
 				"articleID": "iftf-graphika-iri",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSE2UwUk__A9GdYj-198uHnJsVOfihXHkJYGwa5Zy6Yok1-tZRJ_uBcmxIlph422Mavb3KqSzmTTf9i/pub",
-				"publishedAt": "2020/9/2 18:00"
+				"publishedAt": "2020/9/2 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1803,7 +1881,8 @@
 				],
 				"articleID": "hung-sun-han",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQnfB4wQPQuktOfh6PxZyez3HVT37-il1NIq0NRrkEZPTvAfoDuL6FEfVmZ7ZGp-M00St6u9HJPP5ig/pub",
-				"publishedAt": "2020/8/29 18:00"
+				"publishedAt": "2020/8/29 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1830,7 +1909,8 @@
 				],
 				"articleID": "stand-with-usa",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_v6-QqXAxE10CcBZ8mjNVL2s2KkU9nI349Fz2KIKWVvJ06-QDd9jm7tiMrr7Ddf3ZSaueHJmtwV94/pub",
-				"publishedAt": "2020/8/21 18:00"
+				"publishedAt": "2020/8/21 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1857,7 +1937,8 @@
 				],
 				"articleID": "tiktok",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTyjPcJFnYpE8RlQUus6QsPX16qdiJePc18pA7DHuTlGLJ_pvwMmouNNzf-oWlOy7Lt4ZMzv-hPyGik/pub",
-				"publishedAt": "2020/8/13 19:00"
+				"publishedAt": "2020/8/13 19:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1883,7 +1964,8 @@
 				],
 				"articleID": "ccp-media",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRexGAuxiCRwWGNm7h4X9swgV-UBDz7VxEhW6h1bLFGiek4o2EU9gi7ariWHXPYsRV1Al_uAy3WLxGo/pub",
-				"publishedAt": "2020/8/6 18:00"
+				"publishedAt": "2020/8/6 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1910,7 +1992,8 @@
 				],
 				"articleID": "chinese-spouses",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS6VQUKtWYV6rNf8sST_wP5g-ZX9HqMjjVufIH2sIJ2DjMQSypdbyn7jnkn_Zc1FGKlo80KFxGTZR-V/pub",
-				"publishedAt": "2020/7/30 18:00"
+				"publishedAt": "2020/7/30 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1935,7 +2018,8 @@
 				],
 				"articleID": "cec-disinfo",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTpMHwlKN41viOAABz7VCyNrGfj7_k9PHhnNkvbEtrhaQUGAacZTj7rbDYzh5SLOsG2E_tFlkbMhflO/pub",
-				"publishedAt": "2020/7/23 18:00"
+				"publishedAt": "2020/7/23 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1961,7 +2045,8 @@
 				],
 				"articleID": "hk-disinfo-tang",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTCcJnNJLgmWooNnYSWQhG7Q9JsYkJSdCWCzGuewaA7G_1Rox8LqEeO_HTFlVSVZwGpUnNGZzQ49F0m/pub",
-				"publishedAt": "2020/7/16 19:00"
+				"publishedAt": "2020/7/16 19:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -1991,7 +2076,8 @@
 				"articleID": "pro-china-line-messages",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUGNA1v0cDGObYbHy5RF6kRm5t8UAMQI5GOXV-aztJTB5nuJ1XDJAUKLxFqqMzpVAVxe9ivAGOzHr_/pub",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2020/7/9 18:00"
+				"updatedAt": "2020/7/9 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -2020,7 +2106,8 @@
 				"articleID": "vystrcil",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2CitMDKVH7JddipnkC-Vr40VF--6N3n6ha-OIjQ90pgH1VGbOpjpyhSgSG6OvsF1I2gYqsLM8xXil/pub",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2020/7/3 18:00"
+				"updatedAt": "2020/7/3 18:00",
+				"locale": "_tw"
 			}
 		}
 	},
@@ -2043,7 +2130,8 @@
 				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2021/2/27 0:30"
+				"updatedAt": "2021/2/27 0:30",
+				"locale": "_tw"
 			},
 			"_en": {
 				"title": "About IORG",
@@ -2052,7 +2140,8 @@
 				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2021/2/27 0:30"
+				"updatedAt": "2021/2/27 0:30",
+				"locale": "_en"
 			}
 		}
 	}
