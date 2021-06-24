@@ -1,4 +1,40 @@
 {
+	"_DA_3": {
+		"published": true,
+		"type": "da",
+		"id": "_DA_3",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRwQH7rh4vCZOo3St32pU_J2DjEt8a0jmkFQLKkA_hA-Bf91cLXOiyeZjkKRxhfqT10rEJ4AgFH0foD/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vQ8Ibk5C-wKME8SvCWx2xCre1Skr2rRHnT0FOVBy6TLFpFCdmTgYCaTbH-rpPFMEiYNK7WcPlisQ3g4/pub"
+		},
+		"publishedAt": "2021/6/24 13:00",
+		"path": "/da/3",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "警告：「打疫苗猝死」碰上「疫苗是生化武器」陰謀論，可能擴大社會恐慌",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 3 期 ﹏ 2021.6.14-20",
+				"coverImage": "https://lh5.googleusercontent.com/A3rAfRUVs2zczTNSiM5ncUPXdKNMkKA2osDOIcBM8Gkzx-nxRjo0lNUZQfMeGKTFaxSY4PwFHjxfz1OLD1BlQ7icA-ae4daFVk-JIW6x9d_5OXktxRr73Sljxn7rsa8PLA",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_3",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRwQH7rh4vCZOo3St32pU_J2DjEt8a0jmkFQLKkA_hA-Bf91cLXOiyeZjkKRxhfqT10rEJ4AgFH0foD/pub",
+				"publishedAt": "2021/6/24 13:00"
+			},
+			"_en": {
+				"title": "Warning: Vaccination Death & Bioweapon Conspiracy Theory Could Amplify Panic",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 3  ﹏ 2021.6.14-20",
+				"coverImage": "https://lh4.googleusercontent.com/oBQDteJSo6csThBMaLJajaeKI6hqm7vY95a_eJs7NuQ6ncPOvysNlg5P94nmwB_EgY1CGETEevdFMyEwTFPOKciufpg1Cyi_czUeliEN91-j_XGZQOxnKU40rVWyODkg5Q",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_3",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ8Ibk5C-wKME8SvCWx2xCre1Skr2rRHnT0FOVBy6TLFpFCdmTgYCaTbH-rpPFMEiYNK7WcPlisQ3g4/pub",
+				"publishedAt": "2021/6/24 13:00"
+			}
+		}
+	},
 	"_DA_2": {
 		"published": true,
 		"type": "da",
