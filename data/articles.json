@@ -9,7 +9,7 @@
 		},
 		"publishedAt": "2021/6/24 13:00",
 		"path": "/da/3",
-		"cache": false,
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "警告：「打疫苗猝死」碰上「疫苗是生化武器」陰謀論，可能擴大社會恐慌",
@@ -20,7 +20,8 @@
 				],
 				"articleID": "_DA_3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRwQH7rh4vCZOo3St32pU_J2DjEt8a0jmkFQLKkA_hA-Bf91cLXOiyeZjkKRxhfqT10rEJ4AgFH0foD/pub",
-				"publishedAt": "2021/6/24 13:00"
+				"publishedAt": "2021/6/24 13:00",
+				"cache": "_DA_3_tw"
 			},
 			"_en": {
 				"title": "Warning: Vaccination Death & Bioweapon Conspiracy Theory Could Amplify Panic",
@@ -31,7 +32,8 @@
 				],
 				"articleID": "_DA_3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ8Ibk5C-wKME8SvCWx2xCre1Skr2rRHnT0FOVBy6TLFpFCdmTgYCaTbH-rpPFMEiYNK7WcPlisQ3g4/pub",
-				"publishedAt": "2021/6/24 13:00"
+				"publishedAt": "2021/6/24 13:00",
+				"cache": "_DA_3_en"
 			}
 		}
 	},
