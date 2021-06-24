@@ -71,12 +71,20 @@ export default {
   $m: 1.25rem;
   > .entry-content {
     margin: 0 $m;
+    border: 1px solid var(--iorg-accent);
     padding: 0;
-    max-height: 40rem;
+    & {
+      max-width: 100%;
+      max-height: 50vh;
+    }
+    @media (min-width: 960px) {
+      max-width: 40rem;
+      max-height: 40rem;
+    }
+    overflow: scroll;
     > .image {
       display: block;
       max-width: 100%;
-      max-height: 40rem;
       @include shadow;
     }
     > .message {
