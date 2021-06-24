@@ -142,21 +142,48 @@ export default {
       color: var(--iorg-neutral);
       white-space: nowrap;
     }
-    img.sticker.inline {
+    .sticker {
       display: inline-block;
-      width: 2.5rem;
-      vertical-align: bottom;
+      > div {
+        display: inline-block;
+        background-color: var(--iorg-accent);
+        font-size: 1rem;
+        line-height: 1.0;
+        padding: 0.25rem 0.5rem;
+        margin: 0 0.125rem;
+        border-radius: 1rem; // overshooting
+        verticle-align: top;
+      }
+      &.alert > div {
+        background-color: var(--iorg-alert);
+      }
+      &.danger > div {
+        background-color: var(--iorg-danger);
+      }
+      &.highlight > div {
+        background-color: white;
+        border: 1px solid var(--iorg-accent);
+      }
     }
-    h2 img.sticker.inline {
-      width: 4rem;
+    h2 .sticker {
+      display: block;
+      margin-left: -0.625rem;
+      margin-bottom: 0.25rem;
+      > div {
+        font-size: 1rem;
+        line-height: 1.0;
+        padding: 0.375rem 0.625rem;
+      }
     }
     div.label.inline {
       display: inline-block;
       background-color: var(--iorg-accent);
-      line-height: 1rem;
+      font-size: 1rem;
+      line-height: 1.0;
       padding: 0.25rem 0.5rem;
       margin: 0 0.125rem;
       border-radius: 0.75rem;
+      verticle-align: middle;
     }
     div.search {
       position: relative;
@@ -530,7 +557,7 @@ export default {
       border-color: var(--iorg-accent);
       color: var(--iorg-accent);
     }
-    &.warning {
+    &.danger {
       border-color: var(--iorg-warning);
       color: var(--iorg-warning);
     }
