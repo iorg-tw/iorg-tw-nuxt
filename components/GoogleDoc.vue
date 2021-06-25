@@ -190,10 +190,12 @@ export default {
       top: -0.125rem;
       display: inline;
       background-color: var(--iorg-background-code);
-      padding: 0.125rem 0.25rem;
-      border-radius: 0.25rem;
+      padding: 0.125rem 0.55rem;
+      border-radius: 0.625rem;
       font-size: 0.75rem;
+      line-height: 1.0;
       color: var(--iorg-neutral);
+      verticle-align: middle;
     }
     .gdoc-list-set {
       list-style: none;
