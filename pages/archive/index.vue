@@ -2,7 +2,7 @@
 <div class="page archive">
   <div class="items">
     <nuxt-link v-for="(obj, id) in archive" :key="id" :to="localePath({ name: 'archive-id', params: { id } })" class="item block" :class="obj.displayType">
-      <img v-if="obj.displayType === 'image'" :src="baseURL + obj.fileName" />
+      <img v-if="obj.displayType === 'image'" :src="baseURL + obj.fileName" loading="lazy" />
       <div v-else-if="obj.displayType === 'message' && obj.text" class="text">{{ obj.text.substring(0, 140) }}</div>
     </nuxt-link>
     <div v-for="i in 4" :key="i" class="item"></div>
@@ -32,23 +32,18 @@ export default {
 <style lang="scss">
 .page.archive {
   > .items {
-    --margin-container: 0.875rem;
-    --margin-item: 0.375rem;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    margin: var(--margin-container);
     > .item {
-      --item-size: 6rem;
-      $u: 120px;
-      @for $i from 2 through 12 {
-        $min-width: $i * $u;
-        @media (min-width: #{$min-width}) {
-          --item-size: calc((100vw - var(--margin-container) * 2 - var(--margin-item) * #{($i + 1) * 2}) / #{$i + 1});
+      --item-size: 25vw;
+      @for $i from 3 through 9 {
+        @media (min-width: #{$i * 160px}) {
+          --item-size: #{(100 / ($i + 1)) * 1vw};
         }
       }
       flex-basis: var(--item-size);
       height: var(--item-size);
-      margin: var(--margin-item);
       background-color: #aaa;
       overflow: hidden;
       &.image {
