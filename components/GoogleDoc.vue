@@ -157,6 +157,9 @@ export default {
       &.alert > div {
         background-color: var(--iorg-alert);
       }
+      &.bad > div {
+        background-color: var(--iorg-bad);
+      }
       &.danger > div {
         background-color: var(--iorg-danger);
       }

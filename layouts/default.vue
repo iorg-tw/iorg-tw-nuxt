@@ -32,6 +32,7 @@ export default {
   --iorg-neutral: #808080;
   --iorg-accent: #2CD086;
   --iorg-alert: #FFCB00;
+  --iorg-bad: #FF8F00;
   --iorg-danger: #FF2828;
 }
 </style>
