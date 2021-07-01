@@ -4,23 +4,41 @@
 		"type": "da",
 		"id": "_DA_4",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRFVeJkOJ4yAf25mkisOzrvocJBI_yUp1Ioz4K44-P8_H329RNkaf5Fz1-6RKdJT0Z62xtKSp-GNHNT/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRFVeJkOJ4yAf25mkisOzrvocJBI_yUp1Ioz4K44-P8_H329RNkaf5Fz1-6RKdJT0Z62xtKSp-GNHNT/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTKmaODboFqLI6qx6t4Q6j5jDUSkEtrxolId1E3WdBZariG4-JDqb9Hmwjs79VEss3y-YnPPzLHTY0f/pub"
 		},
-		"publishedAt": "2021/7/1 12:30",
+		"publishedAt": "2021/7/1 13:00",
+		"updatedAt": "2021/7/1 14:30",
 		"path": "/da/4",
-		"cache": false,
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共嗆台「亂港謀獨」，Delta 襲來，疫苗、篩檢爭議持續",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 4 期 ﹏ 2021.6.21-27",
-				"coverImage": "https://lh6.googleusercontent.com/Ti7SzGX_1JEgpeAdaXelE0eytHURxKSowauLz1-RQDAX8ltU4vB7B6vMbWOcPMxj893rENV_S34_bktQ0oCj0BP7IigKxXKDNIgY-LbAYmy0CAh9MDkhO600CnfEWKQE1g",
+				"coverImage": "https://lh6.googleusercontent.com/PCdvggM8oS2rEdA0ZPlIuZROEWJFfldG3QgmLHXspQx6o_nSA4B7yeemIwg1Ik_C41dRFrCUe-qVm8yhxcttd8T4ofpNfY3Z-vgFQdjP7EPpLn9qzVaSGFS7RRrK7pbswA",
 				"tags": [
 					"心慌週報"
 				],
 				"articleID": "_DA_4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFVeJkOJ4yAf25mkisOzrvocJBI_yUp1Ioz4K44-P8_H329RNkaf5Fz1-6RKdJT0Z62xtKSp-GNHNT/pub",
-				"publishedAt": "2021/7/1 12:30",
+				"publishedAt": "2021/7/1 13:00",
+				"updatedAt": "2021/7/1 14:30",
+				"cache": "_DA_4_tw",
 				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Delta variant hits Taiwan, controversies on vaccines and testing; CCP: DPP intervenes in HK affairs to plot for independence",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 4 ﹏ 2021.6.21-27",
+				"coverImage": "https://lh6.googleusercontent.com/uJ-avWWjNsuzjzA8l8bCoON0FEt7HgiU1R44MXmnuE2E1zR5TfpnKZG4MMQjqbPk-RLEuXIw7IlqcYFpqlHRW25PtZ-pA_sMqgqoE0O8LB121jAevsm_tTmXJdzBgBF7kg",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_4",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTKmaODboFqLI6qx6t4Q6j5jDUSkEtrxolId1E3WdBZariG4-JDqb9Hmwjs79VEss3y-YnPPzLHTY0f/pub",
+				"publishedAt": "2021/7/1 13:00",
+				"updatedAt": "2021/7/1 14:30",
+				"cache": "_DA_4_en",
+				"locale": "_en"
 			}
 		}
 	},
