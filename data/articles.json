@@ -1,4 +1,44 @@
 {
+	"_DA_5": {
+		"published": true,
+		"type": "da",
+		"id": "_DA_5",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTOmbbt0K3Qhhjdx71N3SsvzYxCaJxTMZL-JFjbTeYnEGLhUsPEumf4BjZYopKv6iPF1vkjldytFus0/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRPefXwptCOUey0w5fE188V_FRCvkfyq66xrlFlbmQ0pGImAwaNFydCVInXuRX-yQVh1f-v7BGxa24L/pub"
+		},
+		"publishedAt": "2021/7/8 12:00",
+		"path": "/da/5",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中天變造美商務部長發言：250 萬莫德納疫苗功勞歸台積電",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 5 期 ﹏ 2021.6.28 - 2021.7.4",
+				"coverImage": "https://lh3.googleusercontent.com/pTi_V7oyYWmHHrHPUW4_5yswNnu65BP-n5FMmVHWBonYky6UIZD9mCrAs0bMyvQWKmuZlbBEHIBRPmkEkYdmJNjHeq9s3eNhrLPWiZqjXHFYnsQJcf2xR42F0KPWRfEN_A",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_5",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTOmbbt0K3Qhhjdx71N3SsvzYxCaJxTMZL-JFjbTeYnEGLhUsPEumf4BjZYopKv6iPF1vkjldytFus0/pub",
+				"publishedAt": "2021/7/8 12:00",
+				"cache": "_DA_5_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "CTI distorts U.S. Commerce Chief: TSMC secured 250 Moderna vaccines for Taiwan, not Tsai",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 5 ﹏ 2021.6.28 - 2021.7.4",
+				"coverImage": "https://lh5.googleusercontent.com/3ohwkVn4KPMk1ouK8oFPKc-M1lSdCZuokTQKlZsXH5RsR2qLePE-gVnmTFt4vyX-RSKFkDj1T1xlXYxH6Dw0efCMgO-ALebGKhZ_i_REDvL5XgnvURSyUmXJjPXWWJIwkA",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_5",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRPefXwptCOUey0w5fE188V_FRCvkfyq66xrlFlbmQ0pGImAwaNFydCVInXuRX-yQVh1f-v7BGxa24L/pub",
+				"publishedAt": "2021/7/8 12:00",
+				"cache": "_DA_5_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_4": {
 		"published": true,
 		"type": "da",
