@@ -48,44 +48,49 @@ async function get() {
 
   console.info('Dokidoki Archive...')
 
-  const dkArchiveFiles = JSON.parse(fs.readFileSync(path.resolve(process.env.ARCHIVE_REPO_LOCAL_PATH, 'scripts', 'impored-da-files.json')))
-  console.info('Add', dkArchiveFiles.length, 'files...')
+  const importedDKAFiles = JSON.parse(fs.readFileSync(path.resolve(process.env.ARCHIVE_REPO_LOCAL_PATH, 'scripts', 'import-dka-imported.json'))).map(row => {
+    const [ioid, ext] = row.split('.')
+    return { ioid, ext }
+  })
+  console.info(importedDKAFiles.length, 'imported DKA files...')
 
-  const dkArchiveDoc = new GoogleSpreadsheet(process.env.DK_ARCHIVE_FILE_ID)
-  dkArchiveDoc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
+  const dkaDoc = new GoogleSpreadsheet(process.env.DK_ARCHIVE_FILE_ID)
+  dkaDoc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
 
-  await dkArchiveDoc.loadInfo()
+  await dkaDoc.loadInfo()
   sheetIDs = [
     '966156440'
   ]
-  sheets = await Promise.all(sheetIDs.map(s => dkArchiveDoc.sheetsById[s].getRows()))
+  sheets = await Promise.all(sheetIDs.map(s => dkaDoc.sheetsById[s].getRows()))
   rows = sheets[0]
-  rows = rows.filter(row => row.ioid && row.type).map(row => {
-    const fileName = dkArchiveFiles.find(f => f.includes(row.ioid))
-    let fileType, displayType
-    if(fileName) {
-      fileType = fileName.split('.')[1]
-      displayType = displayTypeMap[fileType]
-    }
-    let publishedAt = (row.publishedAt ? row.publishedAt : '').replace(/\s/g, ' ')
-    let archivedAt = (row.archivedAt ? row.archivedAt : row['Timestamp']).replace(/\s/g, ' ')
-    return Object.assign(row, fileName ? { fileName } : {}, displayType ? { displayType } : {}, publishedAt ? { publishedAt } : {}, archivedAt ? { archivedAt } : {})
-  })
 
-  rows = rows.map(row => ({
-    ioid: row.ioid,
-    displayType: row.displayType,
-    type: row.type,
-    fileName: row.fileName,
-    ...(ok(row.srcURL) ? { srcURL: row.srcURL } : {}),
-    ...(ok(row.title) ? { title: row.title } : {}),
-    ...(ok(row.publishedAt) ? { publishedAt: row.publishedAt } : {}),
-    ...(ok(row.archivedAt) ? { archivedAt: row.archivedAt } : {}),
-    ...(ok(row.author) ? { author: row.author } : {}),
-    ...(ok(row.group) ? { group: row.group } : {}),
-    ...(ok(row.platform) ? { platform: row.platform } : {}),
-    ...(ok(row.text) ? { text: row.text } : {})
-  }))
+  const importedLocalFiles = rows.filter(row => row.ioid && row.archivist_p).map(row => ({ [row.ioid]: { ioid: row.ioid, ext: row.archivist_ext } }))
+  console.info(importedLocalFiles.length, 'imported local files...')
+
+  const importedFileMap = Object.assign({}, ...importedDKAFiles, ...importedLocalFiles)
+
+  rows = rows.filter(row => row.ioid && row.type).map(row => {
+    const importedFile = importedFileMap[row.ioid]
+    const fileName = importedFile ? importedFile.ioid + '.' + importedFile.ext : null
+    const displayType = importedFile ? displayTypeMap[importedFile.ext] : null
+    const publishedAt = (row.publishedAt ? row.publishedAt : '').replace(/\s/g, ' ')
+    const archivedAt = (row.archivedAt ? row.archivedAt : row['Timestamp']).replace(/\s/g, ' ')
+
+    return {
+      ioid: row.ioid,
+      type: row.type,
+      ...(fileName ? { fileName } : {}),
+      ...(displayType ? { displayType } : {}),
+      ...(publishedAt ? { publishedAt } : {}),
+      ...(archivedAt ? { archivedAt } : {}),
+      ...(ok(row.srcURL) ? { srcURL: row.srcURL } : {}),
+      ...(ok(row.title) ? { title: row.title } : {}),
+      ...(ok(row.author) ? { author: row.author } : {}),
+      ...(ok(row.group) ? { group: row.group } : {}),
+      ...(ok(row.platform) ? { platform: row.platform } : {}),
+      ...(ok(row.text) ? { text: row.text } : {})
+    }
+  })
   result = Object.assign(result, ...rows.map(row => ({ [row.ioid]: row })))
 
   // Other data sources
