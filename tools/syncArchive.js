@@ -48,26 +48,26 @@ async function get() {
 
   console.info('Dokidoki Archive...')
 
-  const importedDKAFiles = JSON.parse(fs.readFileSync(path.resolve(process.env.ARCHIVE_REPO_LOCAL_PATH, 'scripts', 'import-dka-imported.json'))).map(row => {
+  const importedDokiFiles = JSON.parse(fs.readFileSync(path.resolve(process.env.ARCHIVE_REPO_LOCAL_PATH, 'scripts', 'import-doki-imported.json'))).map(row => {
     const [ioid, ext] = row.split('.')
     return { ioid, ext }
   })
-  console.info(importedDKAFiles.length, 'imported DKA files...')
+  console.info(importedDokiFiles.length, 'imported Dokidoki Archive files...')
 
-  const dkaDoc = new GoogleSpreadsheet(process.env.DK_ARCHIVE_FILE_ID)
-  dkaDoc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
+  const dokiDoc = new GoogleSpreadsheet(process.env.DK_ARCHIVE_FILE_ID)
+  dokiDoc.useApiKey(process.env.GOOGLE_SHEET_API_KEY)
 
-  await dkaDoc.loadInfo()
+  await dokiDoc.loadInfo()
   sheetIDs = [
     '966156440'
   ]
-  sheets = await Promise.all(sheetIDs.map(s => dkaDoc.sheetsById[s].getRows()))
+  sheets = await Promise.all(sheetIDs.map(s => dokiDoc.sheetsById[s].getRows()))
   rows = sheets[0]
 
   const importedLocalFiles = rows.filter(row => row.ioid && row.archivist_p).map(row => ({ [row.ioid]: { ioid: row.ioid, ext: row.archivist_ext } }))
   console.info(importedLocalFiles.length, 'imported local files...')
 
-  const importedFileMap = Object.assign({}, ...importedDKAFiles, ...importedLocalFiles)
+  const importedFileMap = Object.assign({}, ...importedDokiFiles, ...importedLocalFiles)
 
   rows = rows.filter(row => row.ioid && row.type).map(row => {
     const importedFile = importedFileMap[row.ioid]
