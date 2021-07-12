@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 const { GoogleSpreadsheet } = require('google-spreadsheet')
 const dotenv = require('dotenv')
 dotenv.config()
@@ -47,7 +48,7 @@ async function get() {
 
   console.info('Dokidoki Archive...')
 
-  const dkArchiveFiles = JSON.parse(fs.readFileSync(process.env.ARCHIVE_REPO_LOCAL_PATH + 'downloadedFiles.json'))
+  const dkArchiveFiles = JSON.parse(fs.readFileSync(path.resolve(process.env.ARCHIVE_REPO_LOCAL_PATH, 'scripts', 'impored-da-files.json')))
   console.info('Add', dkArchiveFiles.length, 'files...')
 
   const dkArchiveDoc = new GoogleSpreadsheet(process.env.DK_ARCHIVE_FILE_ID)
@@ -66,11 +67,9 @@ async function get() {
       fileType = fileName.split('.')[1]
       displayType = displayTypeMap[fileType]
     }
-    let archivedAt = row.archivedAt
-    if(!archivedAt && row['Timestamp']) {
-      archivedAt = row['Timestamp']
-    }
-    return Object.assign(row, fileName ? { fileName } : {}, displayType ? { displayType } : {}, archivedAt ? { archivedAt } : {})
+    let publishedAt = (row.publishedAt ? row.publishedAt : '').replace(/\s/g, ' ')
+    let archivedAt = (row.archivedAt ? row.archivedAt : row['Timestamp']).replace(/\s/g, ' ')
+    return Object.assign(row, fileName ? { fileName } : {}, displayType ? { displayType } : {}, publishedAt ? { publishedAt } : {}, archivedAt ? { archivedAt } : {})
   })
 
   rows = rows.map(row => ({
