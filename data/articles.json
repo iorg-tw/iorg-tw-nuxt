@@ -1,4 +1,44 @@
 {
+	"_DA_6": {
+		"published": true,
+		"type": "da",
+		"id": "_DA_6",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRyrnLb5G5d4kD5qM7j-wmm_CgTJdpQLEqcIWaKOnEht7fXGi98ZN7XgLcbWN5gX-SeCtvpjnUJ-Z1Q/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTTgAU9qODQgM15_hKIKSptPLZ3xO-qjoBleKIVb8DU39YKU-OUgHYhQXpXolwz_OZphAQIjYTRtuLE/pub"
+		},
+		"publishedAt": "2021/7/15 17:30",
+		"path": "/da/6",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "韓國「微解封」：「疫苗第一劑打的差不多」的錯誤訊息多達 21 個版本，如病毒變異",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 6 期 ﹏ 2021.7.5-11",
+				"coverImage": "https://lh5.googleusercontent.com/K6vzS5i3y47GTP6V6DMzdSyYF88gBmoyXXuAhFO3NSYYzVwVFAITTLuu9ffSLoOK4S-z0O4chBXdQJF4265bkQrBHN6T5QAUVztZbluDhNu26hrn61TxrFoW5vUbC68lXQ",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_6",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRyrnLb5G5d4kD5qM7j-wmm_CgTJdpQLEqcIWaKOnEht7fXGi98ZN7XgLcbWN5gX-SeCtvpjnUJ-Z1Q/pub",
+				"publishedAt": "2021/7/15 17:30",
+				"cache": "_DA_6_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "21 versions of false information on S. Korea’s “almost complete” first-dose coverage and its “micro-restriction-relaxation”",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 6 ﹏ 2021.7.5-11",
+				"coverImage": "https://lh3.googleusercontent.com/Hv990gG3GKGe42pCqJlPlBk8fIq8aDLiJvJeTBC-sxBjrqw08Y5xO2376UWFtl2wbmYzFgOz1rAobf197fc3o8lfH7jkNsZF9tw1wmYefsLvprLiL23jVgD50OCmOMfPLw",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_6",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTTgAU9qODQgM15_hKIKSptPLZ3xO-qjoBleKIVb8DU39YKU-OUgHYhQXpXolwz_OZphAQIjYTRtuLE/pub",
+				"publishedAt": "2021/7/15 17:30",
+				"cache": "_DA_6_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_5": {
 		"published": true,
 		"type": "da",
@@ -13,8 +53,8 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "中天變造美商務部長發言：250 萬莫德納疫苗功勞歸台積電",
-				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 5 期 ﹏ 2021.6.28 - 2021.7.4",
-				"coverImage": "https://lh3.googleusercontent.com/pTi_V7oyYWmHHrHPUW4_5yswNnu65BP-n5FMmVHWBonYky6UIZD9mCrAs0bMyvQWKmuZlbBEHIBRPmkEkYdmJNjHeq9s3eNhrLPWiZqjXHFYnsQJcf2xR42F0KPWRfEN_A",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 5 期 ﹏ 2021.6.28-7.4",
+				"coverImage": "https://lh4.googleusercontent.com/_9yd1cWCZTAxE3IgjQPnD-zOYw0iCumlJvYG7UjON68GsxvgVW7tNZ8LU1Fl8Ah9OmYfnrW0LHUpFooqPmBZWlWml2buxa1jXWgCHt9_xt4Kd8p_WXTwJYG5aFEzdfsw1g",
 				"tags": [
 					"心慌週報"
 				],
@@ -25,9 +65,9 @@
 				"locale": "_tw"
 			},
 			"_en": {
-				"title": "CTI distorts U.S. Commerce Chief: TSMC secured 250 Moderna vaccines for Taiwan, not Tsai",
-				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 5 ﹏ 2021.6.28 - 2021.7.4",
-				"coverImage": "https://lh5.googleusercontent.com/3ohwkVn4KPMk1ouK8oFPKc-M1lSdCZuokTQKlZsXH5RsR2qLePE-gVnmTFt4vyX-RSKFkDj1T1xlXYxH6Dw0efCMgO-ALebGKhZ_i_REDvL5XgnvURSyUmXJjPXWWJIwkA",
+				"title": "CTI distorts statements of U.S. Commerce Secretary: credit of 2.5 million Moderna vaccines belongs to TSMC",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 5 ﹏ 2021.6.28-7.4",
+				"coverImage": "https://lh6.googleusercontent.com/PbM_K-vhh_T7j5p2X3wao6sP-ZZYva0hgttxQHC27o0FDFGj-L7ZJQYeVC2sCFgywMm5ynpqvpIPXr_ogq0XhDjD1DkQrhJPiRM9dncqbSvYsg2jqGthehJ1Tj_kfRIy3w",
 				"tags": [
 					"Dokidoki Alert"
 				],
