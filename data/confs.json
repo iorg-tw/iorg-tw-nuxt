@@ -1,6 +1,35 @@
 [
 	{
 		"show": true,
+		"id": "summer-2021",
+		"area": "線上",
+		"year": 2021,
+		"date": "7/22",
+		"dow": "四",
+		"time": "22:00-23:30",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQQEU1TjXj9TUcBI5Q5c3IcJVs-N9GRMmb2FAsdPUa368fv1Cre1ulnOa9dx2T_YNkCn2J2dYm2t5KF/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRFyGx3gvj5vmoWpMIp5cNxFVaxvIn7A7JlZQNzl2FfuMZ52OSOIaj3y734Yp3zgZNyGxJ2-gQHstIS/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 夏日小聚",
+				"subtitle": "IORG 民主防衛論壇 – 2021.7.22 – 線上",
+				"coverImage": "https://lh6.googleusercontent.com/bQsz_II0jq60gdaiXjirG5yjaeLeny4FhkYBUrNq2KG8ApnFA7z4L4Rb9VBMuy7Yz8zlFgzrBpr0m42uLq2dVPcFStHSCFi2SeacB1yWPgy-7w-mwHH1KRuZ-6cFmCnaMg",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQQEU1TjXj9TUcBI5Q5c3IcJVs-N9GRMmb2FAsdPUa368fv1Cre1ulnOa9dx2T_YNkCn2J2dYm2t5KF/pub"
+			},
+			"_en": {
+				"title": "IORG Summer Briefing",
+				"subtitle": "IORG Defending Democracy Forum – 2021.7.22 – Online",
+				"coverImage": "https://lh4.googleusercontent.com/yj9gjPPPYhxPQz0tGh6DCwvPZkT-4gyIaI8c3abs5UGRt9DXQOjuB2mYhfeB7mEagaiu8p4IIIGwZM4JdwDFZ1eJCR8jWeWfrP3Y4zT8glJQNQ0ELpTSAQ14v7o6QQjPUg",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFyGx3gvj5vmoWpMIp5cNxFVaxvIn7A7JlZQNzl2FfuMZ52OSOIaj3y734Yp3zgZNyGxJ2-gQHstIS/pub"
+			}
+		}
+	},
+	{
+		"show": true,
 		"id": "306",
 		"area": "台北",
 		"year": 2021,
