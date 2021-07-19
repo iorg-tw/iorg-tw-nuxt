@@ -655,6 +655,8 @@
 	"X-AKT1-MV73": {
 		"ioid": "X-AKT1-MV73",
 		"type": "Text message",
+		"fileName": "X-AKT1-MV73.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 18:17",
 		"archivedAt": "2021/5/19 19:17:25",
 		"title": "《聯合報》封城時機至為關鍵",
@@ -663,6 +665,7 @@
 	"X-AKD9-A671": {
 		"ioid": "X-AKD9-A671",
 		"type": "LINE message",
+		"fileName": "X-AKD9-A671.mp4",
 		"publishedAt": "2021/5/20 19:06",
 		"archivedAt": "2021/5/21 10:41:47",
 		"title": "一周停電 2 次 蔡英文再度道歉：我也很難接受",
@@ -672,12 +675,15 @@
 	"X-AKMG-SSK2": {
 		"ioid": "X-AKMG-SSK2",
 		"type": "LINE OpenChat post",
+		"fileName": "X-AKMG-SSK2.aac",
 		"archivedAt": "2021/5/21 10:46:28",
 		"title": "吳老師音檔"
 	},
 	"X-AK23-7DUV": {
 		"ioid": "X-AK23-7DUV",
 		"type": "CECC fact-checking",
+		"fileName": "X-AK23-7DUV.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 10:04",
 		"archivedAt": "2021/5/21 10:50:25",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/uVlDxEAHwRNMjFQLhLUMFQ?typeid=8772",
@@ -688,6 +694,8 @@
 	"X-AKTL-CMV7": {
 		"ioid": "X-AKTL-CMV7",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKTL-CMV7.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 10:09",
 		"archivedAt": "2021/5/21 10:53:18",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/Qj25znjhqzqwBEutKhHaZQ?typeid=8772",
@@ -698,6 +706,8 @@
 	"X-AKEG-KOVW": {
 		"ioid": "X-AKEG-KOVW",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKEG-KOVW.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 10:10",
 		"archivedAt": "2021/5/21 10:55:02",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/Qps7Y3VKHvlwpxXSWYCsKA?typeid=8772",
@@ -708,6 +718,8 @@
 	"X-AK0X-MIOA": {
 		"ioid": "X-AK0X-MIOA",
 		"type": "Facebook post",
+		"fileName": "X-AK0X-MIOA.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/22 10:46",
 		"archivedAt": "2021/5/22 12:07:50",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=4071768246203445&id=903187446394890",
@@ -718,6 +730,8 @@
 	"X-AKGW-C5LW": {
 		"ioid": "X-AKGW-C5LW",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKGW-C5LW.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/22 10:26",
 		"archivedAt": "2021/5/24 10:16:42",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/IVXK4SiJbooB0rGoFsdzJA?typeid=8772",
@@ -728,6 +742,8 @@
 	"X-AKVI-84IU": {
 		"ioid": "X-AKVI-84IU",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKVI-84IU.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/22 10:29",
 		"archivedAt": "2021/5/24 10:20:05",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/QqQsGVEL3ZzwBbhk7FjuWg?typeid=8772",
@@ -738,6 +754,8 @@
 	"X-AK14-FWLN": {
 		"ioid": "X-AK14-FWLN",
 		"type": "CECC fact-checking",
+		"fileName": "X-AK14-FWLN.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/22 10:31",
 		"archivedAt": "2021/5/24 10:22:03",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/qvv34nJ7qYzOiPXJoWEumQ?typeid=8772",
@@ -748,6 +766,8 @@
 	"X-AK7H-MLIG": {
 		"ioid": "X-AK7H-MLIG",
 		"type": "CECC fact-checking",
+		"fileName": "X-AK7H-MLIG.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/22 10:34",
 		"archivedAt": "2021/5/24 10:28:24",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/bowkt3T5aWXJLnyhWZ7PPQ?typeid=8772",
@@ -758,6 +778,8 @@
 	"X-AKVI-LBHX": {
 		"ioid": "X-AKVI-LBHX",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKVI-LBHX.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/23 9:36",
 		"archivedAt": "2021/5/24 10:34:04",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/yP9CPiG87qQiRCm_z3Mytg?typeid=8772",
@@ -768,6 +790,8 @@
 	"X-AKJP-QJFN": {
 		"ioid": "X-AKJP-QJFN",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKJP-QJFN.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/24 9:43",
 		"archivedAt": "2021/5/24 10:37:54",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/d4-EY-p0NyaToVsM9bMHFQ?typeid=8772",
@@ -778,6 +802,8 @@
 	"X-AKDR-1T6U": {
 		"ioid": "X-AKDR-1T6U",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKDR-1T6U.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/24 9:43",
 		"archivedAt": "2021/5/24 10:40:28",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/JCt0DZ6HZV-8sjzuaR19wA?typeid=8772",
@@ -788,6 +814,8 @@
 	"X-AKSN-MJ38": {
 		"ioid": "X-AKSN-MJ38",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKSN-MJ38.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/24 9:43",
 		"archivedAt": "2021/5/24 10:43:50",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/ii8nMyMAVZ4iCjuzQB4e0g?typeid=8772",
@@ -798,6 +826,8 @@
 	"X-AKLS-R7D1": {
 		"ioid": "X-AKLS-R7D1",
 		"type": "PTT post",
+		"fileName": "X-AKLS-R7D1.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/24 9:58",
 		"archivedAt": "2021/5/25 13:16",
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1621821521.A.F24.html",
@@ -808,6 +838,8 @@
 	"X-AKOZ-6BTW": {
 		"ioid": "X-AKOZ-6BTW",
 		"type": "PTT post",
+		"fileName": "X-AKOZ-6BTW.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/24 11:48",
 		"archivedAt": "2021/5/25 13:17",
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1621828127.A.BF0.html",
@@ -818,6 +850,8 @@
 	"X-AKDM-ENZK": {
 		"ioid": "X-AKDM-ENZK",
 		"type": "PTT post",
+		"fileName": "X-AKDM-ENZK.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/22 15:04",
 		"archivedAt": "2021/5/25 13:17",
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1621667068.A.A87.html",
@@ -828,6 +862,8 @@
 	"X-AK39-FUMA": {
 		"ioid": "X-AK39-FUMA",
 		"type": "CECC fact-checking",
+		"fileName": "X-AK39-FUMA.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 9:42",
 		"archivedAt": "2021/5/24 21:21:37",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/g0NoaFoEsIsls37UXblkvQ?typeid=8772",
@@ -838,6 +874,8 @@
 	"X-AKS7-L6VG": {
 		"ioid": "X-AKS7-L6VG",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKS7-L6VG.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 9:45",
 		"archivedAt": "2021/5/24 21:22:37",
 		"title": "桃園署立醫院封院了",
@@ -847,6 +885,8 @@
 	"X-AKJV-FOCL": {
 		"ioid": "X-AKJV-FOCL",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKJV-FOCL.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 10:08",
 		"archivedAt": "2021/5/24 21:23:32",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/EpTB77N_H09Ns-bEUnAM5A?typeid=8772",
@@ -857,6 +897,8 @@
 	"X-AKGQ-IEKF": {
 		"ioid": "X-AKGQ-IEKF",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKGQ-IEKF.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/25 9:50",
 		"archivedAt": "2021/5/25 10:14:09",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/b3MM_yns5reTceaOz_HcKQ?typeid=8772",
@@ -867,6 +909,8 @@
 	"X-AKHW-MJBE": {
 		"ioid": "X-AKHW-MJBE",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKHW-MJBE.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/25 9:50",
 		"archivedAt": "2021/5/25 10:17:28",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/iOd9DbpsxEA6GwIUPRn_IQ?typeid=8772",
@@ -877,6 +921,8 @@
 	"X-AK8L-WRB5": {
 		"ioid": "X-AK8L-WRB5",
 		"type": "CECC fact-checking",
+		"fileName": "X-AK8L-WRB5.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/5/25 9:50",
 		"archivedAt": "2021/5/25 10:19:36",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/IU5CMLLt8bQqXWHQhil0Aw?typeid=8772",
@@ -887,6 +933,8 @@
 	"X-AKH6-PZTF": {
 		"ioid": "X-AKH6-PZTF",
 		"type": "Twitter tweet",
+		"fileName": "X-AKH6-PZTF.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 21:47",
 		"archivedAt": "2021/5/27 0:30:29",
 		"srcURL": "https://twitter.com/huangzhixia/status/1395737949652668425",
@@ -898,6 +946,8 @@
 	"X-AK9N-AK5D": {
 		"ioid": "X-AK9N-AK5D",
 		"type": "LINE message",
+		"fileName": "X-AK9N-AK5D.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/30 17:43",
 		"archivedAt": "2021/5/31 16:26:57",
 		"title": "2021年5月17日 美國空軍學院 查理斯•塞隆教授",
@@ -908,6 +958,8 @@
 	"X-AKKX-4I10": {
 		"ioid": "X-AKKX-4I10",
 		"type": "Webpage",
+		"fileName": "X-AKKX-4I10.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/13 23:26",
 		"archivedAt": "2021/6/1 11:34",
 		"srcURL": "https://udn.com/news/story/120940/5456248",
@@ -918,6 +970,8 @@
 	"X-AK65-GDAX": {
 		"ioid": "X-AK65-GDAX",
 		"type": "Webpage",
+		"fileName": "X-AK65-GDAX.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/14 13:16",
 		"archivedAt": "2021/6/1 11:42",
 		"srcURL": "https://tw.appledaily.com/life/20210514/ABKT7BL56NFBNOTE5NEILW4DIY/",
@@ -928,6 +982,8 @@
 	"X-AKXE-FT2S": {
 		"ioid": "X-AKXE-FT2S",
 		"type": "Webpage",
+		"fileName": "X-AKXE-FT2S.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/7 17:40",
 		"archivedAt": "2021/6/1 11:42",
 		"srcURL": "https://www.cna.com.tw/news/asoc/202105070248.aspx",
@@ -938,6 +994,8 @@
 	"X-AKRW-XQ8F": {
 		"ioid": "X-AKRW-XQ8F",
 		"type": "Webpage",
+		"fileName": "X-AKRW-XQ8F.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/31 20:43",
 		"archivedAt": "2021/6/4 16:39",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210531_12356084.htm",
@@ -948,6 +1006,8 @@
 	"X-AK28-IC8R": {
 		"ioid": "X-AK28-IC8R",
 		"type": "Webpage",
+		"fileName": "X-AK28-IC8R.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 16:30",
 		"archivedAt": "2021/6/1 14:05",
 		"srcURL": "https://cn.wsj.com/articles/拜登将承诺在6月底前向其他国家出口2,000万剂新冠疫苗-11621300812",
@@ -958,6 +1018,8 @@
 	"X-AKDQ-3X8A": {
 		"ioid": "X-AKDQ-3X8A",
 		"type": "Webpage",
+		"fileName": "X-AKDQ-3X8A.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20",
 		"archivedAt": "2021/6/1 13:43",
 		"srcURL": "https://mp.weixin.qq.com/s?__biz=MjM5MDk1NzQzMQ==&mid=2653449575&idx=4&sn=a470f113db17d2777397636126824887&chksm=bd60277f8a17ae698be2791b0f51c6eabb632eff7d34e45d9674a968926c56fec355e3495d0f&scene=0&xtrack=1",
@@ -968,6 +1030,8 @@
 	"X-AKTZ-E2GU": {
 		"ioid": "X-AKTZ-E2GU",
 		"type": "CECC fact-checking",
+		"fileName": "X-AKTZ-E2GU.jpg",
+		"displayType": "image",
 		"publishedAt": "2021/6/1 9:41",
 		"archivedAt": "2021/6/1 14:15",
 		"srcURL": "https://www.cdc.gov.tw/Bulletin/Detail/IO3F02JMs4pToOM84aXopQ?typeid=8772",
@@ -979,6 +1043,8 @@
 	"X-AKP0-B3F9": {
 		"ioid": "X-AKP0-B3F9",
 		"type": "Facebook post",
+		"fileName": "X-AKP0-B3F9.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 14:13",
 		"archivedAt": "2021/6/3 15:09",
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4120809544663359",
@@ -989,6 +1055,8 @@
 	"X-AKR8-LI2W": {
 		"ioid": "X-AKR8-LI2W",
 		"type": "Webpage",
+		"fileName": "X-AKR8-LI2W.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 17:07",
 		"archivedAt": "2021/6/3 15:14",
 		"srcURL": "https://item.btime.com/45o8udvbrqr9e6qlg4avsgfoo85",
@@ -999,6 +1067,8 @@
 	"X-AK04-4KKD": {
 		"ioid": "X-AK04-4KKD",
 		"type": "Twitter tweet",
+		"fileName": "X-AK04-4KKD.png",
+		"displayType": "image",
 		"publishedAt": "2021/3/25 1:28",
 		"archivedAt": "2021/6/3 13:21",
 		"srcURL": "https://twitter.com/airfinity/status/1374775074377588736",
@@ -1009,6 +1079,8 @@
 	"X-AKNK-ZLN0": {
 		"ioid": "X-AKNK-ZLN0",
 		"type": "Webpage",
+		"fileName": "X-AKNK-ZLN0.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/26",
 		"archivedAt": "2021/6/3 13:23",
 		"srcURL": "https://www.airfinity.com/insights/analysis-1",
@@ -1019,6 +1091,8 @@
 	"X-AKZE-81J3": {
 		"ioid": "X-AKZE-81J3",
 		"type": "Webpage",
+		"fileName": "X-AKZE-81J3.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/8 13:25",
 		"archivedAt": "2021/6/3 13:26",
 		"srcURL": "https://world.huanqiu.com/article/432OuDNWqiz",
@@ -1029,6 +1103,8 @@
 	"X-AKU6-SYCO": {
 		"ioid": "X-AKU6-SYCO",
 		"type": "Webpage",
+		"fileName": "X-AKU6-SYCO.png",
+		"displayType": "image",
 		"publishedAt": "2021/3/15 7:57",
 		"archivedAt": "2021/6/3 13:29",
 		"srcURL": "https://world.huanqiu.com/article/42JGuSABMNE",
@@ -1039,6 +1115,8 @@
 	"X-AKEB-XLSS": {
 		"ioid": "X-AKEB-XLSS",
 		"type": "Webpage",
+		"fileName": "X-AKEB-XLSS.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/7 12:36",
 		"archivedAt": "2021/6/3 13:31",
 		"srcURL": "http://www.xinhuanet.com/world/2021-05/07/c_1127417066.htm",
@@ -1049,6 +1127,8 @@
 	"X-AKGS-S8ON": {
 		"ioid": "X-AKGS-S8ON",
 		"type": "Webpage",
+		"fileName": "X-AKGS-S8ON.png",
+		"displayType": "image",
 		"publishedAt": "2021/4/20 15:26",
 		"archivedAt": "2021/6/3 17:43",
 		"srcURL": "https://www.rfi.fr/tw/中國/20210420-中國科興疫苗出口2-6億劑-日產達600萬",
@@ -1059,6 +1139,8 @@
 	"X-AKUG-VTCL": {
 		"ioid": "X-AKUG-VTCL",
 		"type": "Webpage",
+		"fileName": "X-AKUG-VTCL.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/14 17:00",
 		"archivedAt": "2021/6/3 17:47",
 		"srcURL": "https://udn.com/news/story/7331/5458088",
@@ -1069,6 +1151,8 @@
 	"X-AKLG-ZJIW": {
 		"ioid": "X-AKLG-ZJIW",
 		"type": "Webpage",
+		"fileName": "X-AKLG-ZJIW.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 14:30",
 		"archivedAt": "2021/6/3 17:55",
 		"srcURL": "https://udn.com/news/story/7331/5469653",
@@ -1079,6 +1163,8 @@
 	"X-AK9F-37T3": {
 		"ioid": "X-AK9F-37T3",
 		"type": "Webpage",
+		"fileName": "X-AK9F-37T3.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/14 17:46",
 		"archivedAt": "2021/6/3 17:57",
 		"srcURL": "https://www.chinatimes.com/realtimenews/20210514004449-260409?chdtv",
@@ -1089,6 +1175,8 @@
 	"X-AK1S-LH5Z": {
 		"ioid": "X-AK1S-LH5Z",
 		"type": "Webpage",
+		"fileName": "X-AK1S-LH5Z.png",
+		"displayType": "image",
 		"publishedAt": "2021/4/20 16:29",
 		"archivedAt": "2021/6/3 18:00",
 		"srcURL": "https://www.reuters.com/business/healthcare-pharmaceuticals/sinovac-supplied-260-mln-covid-19-vaccine-doses-globally-2021-04-20/",
@@ -1099,6 +1187,8 @@
 	"X-AKOJ-L679": {
 		"ioid": "X-AKOJ-L679",
 		"type": "Webpage",
+		"fileName": "X-AKOJ-L679.png",
+		"displayType": "image",
 		"archivedAt": "2021/6/3 18:06",
 		"srcURL": "https://s.weibo.com/weibo?q=%23台女子持阳性证明登机抵厦门%23&Refer=top",
 		"title": " #台女子持阳性证明登机抵厦门#",
@@ -1107,6 +1197,8 @@
 	"X-AKDF-E9C0": {
 		"ioid": "X-AKDF-E9C0",
 		"type": "Webpage",
+		"fileName": "X-AKDF-E9C0.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/24 9:24",
 		"archivedAt": "2021/6/3 18:17",
 		"srcURL": "https://www.bbc.com/zhongwen/trad/world-57185805",
@@ -1117,6 +1209,8 @@
 	"X-AKIE-DQ46": {
 		"ioid": "X-AKIE-DQ46",
 		"type": "Webpage",
+		"fileName": "X-AKIE-DQ46.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/29",
 		"archivedAt": "2021/6/3 22:48",
 		"srcURL": "https://cnews.com.tw/174210529a03/",
@@ -1127,6 +1221,8 @@
 	"X-AKQT-TMKO": {
 		"ioid": "X-AKQT-TMKO",
 		"type": "Webpage",
+		"fileName": "X-AKQT-TMKO.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 3:18",
 		"archivedAt": "2021/6/3 23:02",
 		"srcURL": "https://udn.com/news/story/121707/5465547",
@@ -1137,6 +1233,8 @@
 	"X-AKW6-30D3": {
 		"ioid": "X-AKW6-30D3",
 		"type": "Webpage",
+		"fileName": "X-AKW6-30D3.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18",
 		"archivedAt": "2021/6/3 23:05",
 		"srcURL": "https://www.fmprc.gov.cn/web/fyrbt_673021/t1876601.shtml",
@@ -1147,6 +1245,8 @@
 	"X-AK7T-QKMF": {
 		"ioid": "X-AK7T-QKMF",
 		"type": "Webpage",
+		"fileName": "X-AK7T-QKMF.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/28 21:36",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210528_12355644.htm",
@@ -1157,6 +1257,8 @@
 	"X-AK2U-86LP": {
 		"ioid": "X-AK2U-86LP",
 		"type": "Webpage",
+		"fileName": "X-AK2U-86LP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4 9:19",
 		"archivedAt": "2021/6/5 8:20",
 		"srcURL": "https://www.chinatimes.com/realtimenews/20210604001274-260407?chdtv",
@@ -1167,6 +1269,8 @@
 	"X-AK3B-WWLF": {
 		"ioid": "X-AK3B-WWLF",
 		"type": "Webpage",
+		"fileName": "X-AK3B-WWLF.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/27 20:51",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210527_12355405.htm",
@@ -1176,6 +1280,8 @@
 	"X-AKRA-0E5J": {
 		"ioid": "X-AKRA-0E5J",
 		"type": "Webpage",
+		"fileName": "X-AKRA-0E5J.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/26 17:29",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355056.htm",
@@ -1185,6 +1291,8 @@
 	"X-AK96-B8VQ": {
 		"ioid": "X-AK96-B8VQ",
 		"type": "Webpage",
+		"fileName": "X-AK96-B8VQ.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/26 17:27",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355054.htm",
@@ -1194,6 +1302,8 @@
 	"X-AK5Q-2IOC": {
 		"ioid": "X-AK5Q-2IOC",
 		"type": "Webpage",
+		"fileName": "X-AK5Q-2IOC.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/26 17:27",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355053.htm",
@@ -1203,6 +1313,8 @@
 	"X-AK5M-MCAQ": {
 		"ioid": "X-AK5M-MCAQ",
 		"type": "Webpage",
+		"fileName": "X-AK5M-MCAQ.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/26 17:26",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355052.htm",
@@ -1212,6 +1324,8 @@
 	"X-AKE2-6Z4P": {
 		"ioid": "X-AKE2-6Z4P",
 		"type": "Webpage",
+		"fileName": "X-AKE2-6Z4P.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/26 17:25",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210526_12355051.htm",
@@ -1221,6 +1335,8 @@
 	"X-AK2G-61VI": {
 		"ioid": "X-AK2G-61VI",
 		"type": "Webpage",
+		"fileName": "X-AK2G-61VI.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/24 22:51",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210524_12354449.htm",
@@ -1230,6 +1346,8 @@
 	"X-AKJV-AT6I": {
 		"ioid": "X-AKJV-AT6I",
 		"type": "Webpage",
+		"fileName": "X-AKJV-AT6I.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 19:17",
 		"archivedAt": "2021/6/4 16:40",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210520_12353554.htm",
@@ -1239,6 +1357,8 @@
 	"X-AK7Q-W32Q": {
 		"ioid": "X-AK7Q-W32Q",
 		"type": "Webpage",
+		"fileName": "X-AK7Q-W32Q.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 21:31",
 		"archivedAt": "2021/6/4 16:41",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210518_12353016.htm",
@@ -1248,6 +1368,8 @@
 	"X-AKME-5OJA": {
 		"ioid": "X-AKME-5OJA",
 		"type": "Webpage",
+		"fileName": "X-AKME-5OJA.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/27 21:59",
 		"archivedAt": "2021/6/4 16:54",
 		"srcURL": "https://www.globaltimes.cn/page/202105/1224716.shtml",
@@ -1258,6 +1380,8 @@
 	"X-AKOV-5NXR": {
 		"ioid": "X-AKOV-5NXR",
 		"type": "Webpage",
+		"fileName": "X-AKOV-5NXR.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/27 21:13",
 		"archivedAt": "2021/6/4 16:54",
 		"srcURL": "https://www.globaltimes.cn/page/202105/1224708.shtml",
@@ -1268,6 +1392,8 @@
 	"X-AK24-N95E": {
 		"ioid": "X-AK24-N95E",
 		"type": "Webpage",
+		"fileName": "X-AK24-N95E.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/25 0:44",
 		"archivedAt": "2021/6/4 16:56",
 		"srcURL": "https://www.globaltimes.cn/page/202105/1224368.shtml",
@@ -1278,6 +1404,8 @@
 	"X-AKL6-STG6": {
 		"ioid": "X-AKL6-STG6",
 		"type": "Webpage",
+		"fileName": "X-AKL6-STG6.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 22:24",
 		"archivedAt": "2021/6/4 16:57",
 		"srcURL": "https://www.globaltimes.cn/page/202105/1223948.shtml",
@@ -1288,6 +1416,8 @@
 	"X-AKWZ-KBQ9": {
 		"ioid": "X-AKWZ-KBQ9",
 		"type": "Webpage",
+		"fileName": "X-AKWZ-KBQ9.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3 16:37",
 		"archivedAt": "2021/6/4 22:17",
 		"srcURL": "https://www.mirrormedia.mg/story/20210603edi035/",
@@ -1299,6 +1429,8 @@
 	"X-AKDO-QH05": {
 		"ioid": "X-AKDO-QH05",
 		"type": "Webpage",
+		"fileName": "X-AKDO-QH05.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4 8:57",
 		"archivedAt": "2021/6/4 22:18",
 		"srcURL": "https://www.chinatimes.com/realtimenews/20210604001072-260407?chdtv",
@@ -1310,6 +1442,8 @@
 	"X-AK7P-JA79": {
 		"ioid": "X-AK7P-JA79",
 		"type": "Webpage",
+		"fileName": "X-AK7P-JA79.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4 10:40",
 		"archivedAt": "2021/6/4 22:20",
 		"srcURL": "http://bj.crntt.com/doc/1061/0/5/0/106105037.html",
@@ -1320,6 +1454,8 @@
 	"X-AKGK-BJBK": {
 		"ioid": "X-AKGK-BJBK",
 		"type": "Facebook post",
+		"fileName": "X-AKGK-BJBK.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3 14:50",
 		"archivedAt": "2021/6/4 13:25",
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4159829867427993",
@@ -1330,6 +1466,8 @@
 	"X-AKIA-EJ6A": {
 		"ioid": "X-AKIA-EJ6A",
 		"type": "Webpage",
+		"fileName": "X-AKIA-EJ6A.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3 11:15",
 		"archivedAt": "2021/6/4 22:28",
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1622690118.A.C35.html",
@@ -1342,6 +1480,8 @@
 	"X-AKB1-PEMA": {
 		"ioid": "X-AKB1-PEMA",
 		"type": "Webpage",
+		"fileName": "X-AKB1-PEMA.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/12 19:05",
 		"archivedAt": "2021/6/6 11:36",
 		"srcURL": "http://www.xinhuanet.com/2021-05/12/c_1127438130.htm",
@@ -1352,6 +1492,8 @@
 	"X-AKBO-FN6Z": {
 		"ioid": "X-AKBO-FN6Z",
 		"type": "Twitter tweet",
+		"fileName": "X-AKBO-FN6Z.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/12 19:11",
 		"archivedAt": "2021/6/4 12:51",
 		"srcURL": "https://twitter.com/XinhuaChinese/status/1392437280539770884",
@@ -1362,6 +1504,8 @@
 	"X-AKPM-JM0B": {
 		"ioid": "X-AKPM-JM0B",
 		"type": "Twitter tweet",
+		"fileName": "X-AKPM-JM0B.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/13 21:28",
 		"archivedAt": "2021/6/4 12:51",
 		"srcURL": "https://twitter.com/huangzhixia/status/1392834164240625664",
@@ -1372,6 +1516,8 @@
 	"X-AKH7-SNHB": {
 		"ioid": "X-AKH7-SNHB",
 		"type": "Twitter tweet",
+		"fileName": "X-AKH7-SNHB.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/14 12:53",
 		"archivedAt": "2021/6/4 12:51",
 		"srcURL": "https://twitter.com/23r0n3/status/1393066905624141826",
@@ -1382,6 +1528,8 @@
 	"X-AKEJ-XM7W": {
 		"ioid": "X-AKEJ-XM7W",
 		"type": "Twitter tweet",
+		"fileName": "X-AKEJ-XM7W.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/15 12:56",
 		"archivedAt": "2021/6/4 12:50",
 		"srcURL": "https://twitter.com/DiDi11409116/status/1393429979321364481",
@@ -1392,6 +1540,8 @@
 	"X-AKE1-0GCK": {
 		"ioid": "X-AKE1-0GCK",
 		"type": "Twitter tweet",
+		"fileName": "X-AKE1-0GCK.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/16 16:21",
 		"archivedAt": "2021/6/4 12:50",
 		"srcURL": "https://twitter.com/fingert51737970/status/1393844000302387204",
@@ -1402,6 +1552,8 @@
 	"X-AK6W-FUXP": {
 		"ioid": "X-AK6W-FUXP",
 		"type": "Twitter tweet",
+		"fileName": "X-AK6W-FUXP.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/16 9:10",
 		"archivedAt": "2021/6/4 12:50",
 		"srcURL": "https://twitter.com/PgUpPgDnHoMe/status/1393735639363776514",
@@ -1412,6 +1564,8 @@
 	"X-AKGZ-MDXB": {
 		"ioid": "X-AKGZ-MDXB",
 		"type": "Twitter tweet",
+		"fileName": "X-AKGZ-MDXB.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/16 7:28",
 		"archivedAt": "2021/6/4 12:50",
 		"srcURL": "https://twitter.com/John17758739/status/1393709976905035777",
@@ -1422,6 +1576,8 @@
 	"X-AK6Z-FNNM": {
 		"ioid": "X-AK6Z-FNNM",
 		"type": "Twitter tweet",
+		"fileName": "X-AK6Z-FNNM.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/16 6:15",
 		"archivedAt": "2021/6/4 12:49",
 		"srcURL": "https://twitter.com/DiDi11409116/status/1393691659276226560",
@@ -1432,6 +1588,8 @@
 	"X-AKW6-8T7N": {
 		"ioid": "X-AKW6-8T7N",
 		"type": "Twitter tweet",
+		"fileName": "X-AKW6-8T7N.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/16 18:43",
 		"archivedAt": "2021/6/4 12:49",
 		"srcURL": "https://twitter.com/DiDi11409116/status/1393879794643726338",
@@ -1442,6 +1600,8 @@
 	"X-AK2R-AP19": {
 		"ioid": "X-AK2R-AP19",
 		"type": "Twitter tweet",
+		"fileName": "X-AK2R-AP19.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/17 5:05",
 		"archivedAt": "2021/6/4 12:49",
 		"srcURL": "https://twitter.com/DiDi11409116/status/1394036222310289408",
@@ -1452,6 +1612,8 @@
 	"X-AKI8-TDQQ": {
 		"ioid": "X-AKI8-TDQQ",
 		"type": "Twitter tweet",
+		"fileName": "X-AKI8-TDQQ.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/17 17:15",
 		"archivedAt": "2021/6/4 12:49",
 		"srcURL": "https://twitter.com/DiDi11409116/status/1394220001607905281",
@@ -1462,6 +1624,8 @@
 	"X-AKOT-YVMW": {
 		"ioid": "X-AKOT-YVMW",
 		"type": "Twitter tweet",
+		"fileName": "X-AKOT-YVMW.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/17 17:48",
 		"archivedAt": "2021/6/4 12:48",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1394228339825541120",
@@ -1472,6 +1636,8 @@
 	"X-AK4Q-W7LQ": {
 		"ioid": "X-AK4Q-W7LQ",
 		"type": "Twitter tweet",
+		"fileName": "X-AK4Q-W7LQ.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/17 17:54",
 		"archivedAt": "2021/6/4 12:48",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1394229939025584130",
@@ -1482,6 +1648,8 @@
 	"X-AKP9-NXT4": {
 		"ioid": "X-AKP9-NXT4",
 		"type": "Twitter tweet",
+		"fileName": "X-AKP9-NXT4.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/28 16:45",
 		"archivedAt": "2021/6/4 8:29",
 		"srcURL": "https://twitter.com/PhoenixTVHK/status/1398198726192111620",
@@ -1492,6 +1660,8 @@
 	"X-AK8B-ANFB": {
 		"ioid": "X-AK8B-ANFB",
 		"type": "Twitter tweet",
+		"fileName": "X-AK8B-ANFB.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/28 10:35",
 		"archivedAt": "2021/6/4 8:29",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1398105605408055296",
@@ -1502,6 +1672,8 @@
 	"X-AKD6-4P8A": {
 		"ioid": "X-AKD6-4P8A",
 		"type": "Twitter tweet",
+		"fileName": "X-AKD6-4P8A.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/28 14:45",
 		"archivedAt": "2021/6/4 8:29",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1398168632077606920",
@@ -1512,6 +1684,8 @@
 	"X-AKE5-0KTW": {
 		"ioid": "X-AKE5-0KTW",
 		"type": "Twitter tweet",
+		"fileName": "X-AKE5-0KTW.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/28 19:01",
 		"archivedAt": "2021/6/4 8:28",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1398233044868206596",
@@ -1522,6 +1696,8 @@
 	"X-AKFN-FQK0": {
 		"ioid": "X-AKFN-FQK0",
 		"type": "Webpage",
+		"fileName": "X-AKFN-FQK0.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/28",
 		"archivedAt": "2021/6/6 12:50",
 		"srcURL": "https://www.fmprc.gov.cn/web/fyrbt_673021/t1879392.shtml",
@@ -1532,6 +1708,8 @@
 	"X-AKPN-PSWF": {
 		"ioid": "X-AKPN-PSWF",
 		"type": "Webpage",
+		"fileName": "X-AKPN-PSWF.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/12 15:41",
 		"archivedAt": "2021/6/6 12:51",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202105/t20210512_12351720.htm",
@@ -1542,6 +1720,8 @@
 	"X-AK0S-F7X1": {
 		"ioid": "X-AK0S-F7X1",
 		"type": "Facebook post",
+		"fileName": "X-AK0S-F7X1.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 5:12",
 		"archivedAt": "2021/6/6 11:57",
 		"srcURL": "https://www.facebook.com/TheReacherTW/posts/4546983578664328",
@@ -1552,6 +1732,8 @@
 	"X-AK98-3X2B": {
 		"ioid": "X-AK98-3X2B",
 		"type": "Webpage",
+		"fileName": "X-AK98-3X2B.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 16:37",
 		"archivedAt": "2021/6/6 10:06",
 		"srcURL": "https://udn.com/news/story/122173/5470283",
@@ -1562,6 +1744,8 @@
 	"X-AKEP-W70B": {
 		"ioid": "X-AKEP-W70B",
 		"type": "Twitter tweet",
+		"fileName": "X-AKEP-W70B.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 11:25",
 		"archivedAt": "2021/6/4 12:48",
 		"srcURL": "https://twitter.com/huangzhixia/status/1394494300956676112",
@@ -1572,6 +1756,8 @@
 	"X-AK8X-H6T2": {
 		"ioid": "X-AK8X-H6T2",
 		"type": "Twitter tweet",
+		"fileName": "X-AK8X-H6T2.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 17:50",
 		"archivedAt": "2021/6/4 12:48",
 		"srcURL": "https://twitter.com/huangzhixia/status/1394591265308745728",
@@ -1582,6 +1768,8 @@
 	"X-AKB7-IKZ9": {
 		"ioid": "X-AKB7-IKZ9",
 		"type": "Twitter tweet",
+		"fileName": "X-AKB7-IKZ9.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 6:15",
 		"archivedAt": "2021/6/4 12:48",
 		"srcURL": "https://twitter.com/John17758739/status/1394416381857353730",
@@ -1592,6 +1780,8 @@
 	"X-AKQQ-DQ68": {
 		"ioid": "X-AKQQ-DQ68",
 		"type": "Twitter tweet",
+		"fileName": "X-AKQQ-DQ68.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 15:12",
 		"archivedAt": "2021/6/4 12:47",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1394551389838213125",
@@ -1602,6 +1792,8 @@
 	"X-AKRF-NF8N": {
 		"ioid": "X-AKRF-NF8N",
 		"type": "Twitter tweet",
+		"fileName": "X-AKRF-NF8N.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 15:20",
 		"archivedAt": "2021/6/4 12:47",
 		"srcURL": "https://twitter.com/XinhuaChinese/status/1394553525166772224",
@@ -1612,6 +1804,8 @@
 	"X-AKZB-IC48": {
 		"ioid": "X-AKZB-IC48",
 		"type": "Twitter tweet",
+		"fileName": "X-AKZB-IC48.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 21:44",
 		"archivedAt": "2021/6/4 12:47",
 		"srcURL": "https://twitter.com/globaltimesnews/status/1394650190888407040",
@@ -1622,6 +1816,8 @@
 	"X-AKV6-PIR6": {
 		"ioid": "X-AKV6-PIR6",
 		"type": "Twitter tweet",
+		"fileName": "X-AKV6-PIR6.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 7:37",
 		"archivedAt": "2021/6/4 9:01",
 		"srcURL": "https://twitter.com/Caotongxue2/status/1394799236911304705",
@@ -1632,6 +1828,8 @@
 	"X-AKOR-TUA2": {
 		"ioid": "X-AKOR-TUA2",
 		"type": "Twitter tweet",
+		"fileName": "X-AKOR-TUA2.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 11:38",
 		"archivedAt": "2021/6/4 9:00",
 		"srcURL": "https://twitter.com/huangzhixia/status/1394860079803817998",
@@ -1642,6 +1840,8 @@
 	"X-AK9S-YBL6": {
 		"ioid": "X-AK9S-YBL6",
 		"type": "Twitter tweet",
+		"fileName": "X-AK9S-YBL6.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 15:55",
 		"archivedAt": "2021/6/4 8:53",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1395286970411085825",
@@ -1652,6 +1852,8 @@
 	"X-AKXN-30AC": {
 		"ioid": "X-AKXN-30AC",
 		"type": "Twitter tweet",
+		"fileName": "X-AKXN-30AC.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 23:48",
 		"archivedAt": "2021/6/4 8:52",
 		"srcURL": "https://twitter.com/ChinaSunSong/status/1395405969895542790",
@@ -1662,6 +1864,8 @@
 	"X-AKS5-QFO5": {
 		"ioid": "X-AKS5-QFO5",
 		"type": "Twitter tweet",
+		"fileName": "X-AKS5-QFO5.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 14:22",
 		"archivedAt": "2021/6/4 8:52",
 		"srcURL": "https://twitter.com/realGuancha/status/1395263548503191552",
@@ -1672,6 +1876,8 @@
 	"X-AK4C-ZUY4": {
 		"ioid": "X-AK4C-ZUY4",
 		"type": "Twitter tweet",
+		"fileName": "X-AK4C-ZUY4.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 14:25",
 		"archivedAt": "2021/6/4 8:52",
 		"srcURL": "https://twitter.com/realGuancha/status/1395264340274544640",
@@ -1682,6 +1888,8 @@
 	"X-AKW1-JYJJ": {
 		"ioid": "X-AKW1-JYJJ",
 		"type": "Twitter tweet",
+		"fileName": "X-AKW1-JYJJ.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 21:55",
 		"archivedAt": "2021/6/4 8:52",
 		"srcURL": "https://twitter.com/HuXijin_GT/status/1395377696213929984",
@@ -1692,6 +1900,8 @@
 	"X-AKE4-4RY6": {
 		"ioid": "X-AKE4-4RY6",
 		"type": "Facebook post",
+		"fileName": "X-AKE4-4RY6.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 20:31",
 		"archivedAt": "2021/6/6 11:59",
 		"srcURL": "https://www.facebook.com/DenyARumor/posts/4260427130654152",
@@ -1702,6 +1912,8 @@
 	"X-AKCX-OY06": {
 		"ioid": "X-AKCX-OY06",
 		"type": "Facebook post",
+		"fileName": "X-AKCX-OY06.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 20:30",
 		"archivedAt": "2021/6/6 12:00",
 		"srcURL": "https://www.facebook.com/taiwanheadlines/posts/4044922398962590",
@@ -1712,6 +1924,8 @@
 	"X-AKKA-KX49": {
 		"ioid": "X-AKKA-KX49",
 		"type": "Facebook post",
+		"fileName": "X-AKKA-KX49.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19 21:21",
 		"archivedAt": "2021/6/6 12:03",
 		"srcURL": "https://www.facebook.com/houkongdaily/posts/1512150549124893",
@@ -1723,6 +1937,8 @@
 	"X-AKC0-ABYL": {
 		"ioid": "X-AKC0-ABYL",
 		"type": "Facebook post",
+		"fileName": "X-AKC0-ABYL.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 7:10",
 		"archivedAt": "2021/6/6 12:03",
 		"srcURL": "https://www.facebook.com/chinanewgeneration/posts/4234102473307915",
@@ -1733,6 +1949,8 @@
 	"X-AK45-7UGC": {
 		"ioid": "X-AK45-7UGC",
 		"type": "Facebook post",
+		"fileName": "X-AK45-7UGC.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 12:54",
 		"archivedAt": "2021/6/6 12:03",
 		"srcURL": "https://www.facebook.com/realGuancha/posts/844456479489802",
@@ -1743,6 +1961,8 @@
 	"X-AKO9-F1RW": {
 		"ioid": "X-AKO9-F1RW",
 		"type": "Facebook post",
+		"fileName": "X-AKO9-F1RW.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 14:30",
 		"archivedAt": "2021/6/6 12:04",
 		"srcURL": "https://www.facebook.com/wenweipo/posts/4278878278809698",
@@ -1753,6 +1973,8 @@
 	"X-AKBH-6D5Z": {
 		"ioid": "X-AKBH-6D5Z",
 		"type": "Webpage",
+		"fileName": "X-AKBH-6D5Z.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 10:26",
 		"archivedAt": "2021/6/6 16:31",
 		"srcURL": "https://www.taiwannews.com.tw/en/news/4206858",
@@ -1763,6 +1985,8 @@
 	"X-AK67-R7RG": {
 		"ioid": "X-AK67-R7RG",
 		"type": "Webpage",
+		"fileName": "X-AK67-R7RG.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 18:40",
 		"archivedAt": "2021/6/6 16:56",
 		"srcURL": "https://mp.weixin.qq.com/s/IBD1HXHVJ-ps3LcU0FgaAQ",
@@ -1774,6 +1998,8 @@
 	"X-AK2A-XTC8": {
 		"ioid": "X-AK2A-XTC8",
 		"type": "Facebook post",
+		"fileName": "X-AK2A-XTC8.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 20:17",
 		"archivedAt": "2021/6/6 16:13",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=993502638142069&id=387030875455918",
@@ -1784,6 +2010,8 @@
 	"X-AK0I-HDGE": {
 		"ioid": "X-AK0I-HDGE",
 		"type": "Webpage",
+		"fileName": "X-AK0I-HDGE.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 20:11",
 		"archivedAt": "2021/6/6 16:13",
 		"srcURL": "https://hotqiqi.com/archives/177010",
@@ -1794,6 +2022,8 @@
 	"X-AKR0-TPDH": {
 		"ioid": "X-AKR0-TPDH",
 		"type": "Weibo post",
+		"fileName": "X-AKR0-TPDH.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 12:25",
 		"archivedAt": "2021/6/6 22:37",
 		"srcURL": "https://weibo.com/2039753857/KgtxoA4qJ",
@@ -1804,6 +2034,8 @@
 	"X-AK3B-MCVC": {
 		"ioid": "X-AK3B-MCVC",
 		"type": "Twitter tweet",
+		"fileName": "X-AK3B-MCVC.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/18 14:00",
 		"archivedAt": "2021/6/7 15:50",
 		"srcURL": "https://twitter.com/FWXn631i9hFbyHt/status/1394533303101923331",
@@ -1814,6 +2046,8 @@
 	"X-AKXG-53O6": {
 		"ioid": "X-AKXG-53O6",
 		"type": "LINE message",
+		"fileName": "X-AKXG-53O6.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/8 9:10",
 		"archivedAt": "2021/6/8 9:30",
 		"title": "國民黨三寶特權打疫苗",
@@ -1824,6 +2058,8 @@
 	"X-AK4M-BQ42": {
 		"ioid": "X-AK4M-BQ42",
 		"type": "Webpage",
+		"fileName": "X-AK4M-BQ42.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/19",
 		"archivedAt": "2021/6/8 17:18",
 		"srcURL": "https://www.statista.com/chart/24555/vaccine-doses-produced-and-exported/",
@@ -1834,6 +2070,8 @@
 	"X-AKXV-ZUS9": {
 		"ioid": "X-AKXV-ZUS9",
 		"type": "Facebook post",
+		"fileName": "X-AKXV-ZUS9.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3 15:01",
 		"archivedAt": "2021/6/4 22:31",
 		"srcURL": "https://www.facebook.com/ttksj01/posts/4309638025760888",
@@ -1844,6 +2082,8 @@
 	"X-AKPE-I028": {
 		"ioid": "X-AKPE-I028",
 		"type": "Facebook post",
+		"fileName": "X-AKPE-I028.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 9:30",
 		"archivedAt": "2021/6/8 17:34",
 		"srcURL": "https://www.facebook.com/2100room/posts/1879483248898946",
@@ -1854,6 +2094,8 @@
 	"X-AKNO-M6CM": {
 		"ioid": "X-AKNO-M6CM",
 		"type": "Facebook post",
+		"fileName": "X-AKNO-M6CM.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 8:49",
 		"archivedAt": "2021/6/8 17:37",
 		"srcURL": "https://www.facebook.com/TongMediaHK/posts/2798697757126821",
@@ -1864,6 +2106,8 @@
 	"X-AKEL-K3VO": {
 		"ioid": "X-AKEL-K3VO",
 		"type": "Facebook post",
+		"fileName": "X-AKEL-K3VO.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 17:02",
 		"archivedAt": "2021/6/8 17:37",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=306215281120332&id=104936044581591",
@@ -1874,6 +2118,8 @@
 	"X-AKUE-KAYE": {
 		"ioid": "X-AKUE-KAYE",
 		"type": "Facebook post",
+		"fileName": "X-AKUE-KAYE.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/20 13:56",
 		"archivedAt": "2021/6/8 17:40",
 		"srcURL": "https://www.facebook.com/hkgpaocomhk/posts/336144947945871",
@@ -1885,6 +2131,8 @@
 	"X-AKR4-JL12": {
 		"ioid": "X-AKR4-JL12",
 		"type": "Facebook post",
+		"fileName": "X-AKR4-JL12.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 9:30",
 		"archivedAt": "2021/6/8 17:38",
 		"srcURL": "https://www.facebook.com/2031074317195947_2635767803393259",
@@ -1895,6 +2143,8 @@
 	"X-AKJY-U0YU": {
 		"ioid": "X-AKJY-U0YU",
 		"type": "Facebook post",
+		"fileName": "X-AKJY-U0YU.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/22 21:31",
 		"archivedAt": "2021/6/8 17:41",
 		"srcURL": "https://www.facebook.com/China.Di8/posts/3815481228580764",
@@ -1905,6 +2155,8 @@
 	"X-AKB0-KKRO": {
 		"ioid": "X-AKB0-KKRO",
 		"type": "Twitter tweet",
+		"fileName": "X-AKB0-KKRO.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 22:43",
 		"archivedAt": "2021/6/9 15:34",
 		"srcURL": "https://twitter.com/huangzhixia/status/1395752079373729796",
@@ -1916,6 +2168,8 @@
 	"X-AK0K-L9G3": {
 		"ioid": "X-AK0K-L9G3",
 		"type": "Webpage",
+		"fileName": "X-AK0K-L9G3.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/7 17:40",
 		"archivedAt": "2021/6/10 11:14",
 		"srcURL": "https://www.cna.com.tw/news/asoc/202105070248.aspx",
@@ -1926,6 +2180,8 @@
 	"X-AKCT-L8DY": {
 		"ioid": "X-AKCT-L8DY",
 		"type": "Webpage",
+		"fileName": "X-AKCT-L8DY.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/13 23:26",
 		"archivedAt": "2021/6/10 11:14",
 		"srcURL": "https://udn.com/news/story/120940/5456248",
@@ -1936,6 +2192,8 @@
 	"X-AKX7-80EI": {
 		"ioid": "X-AKX7-80EI",
 		"type": "Webpage",
+		"fileName": "X-AKX7-80EI.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/14 13:16",
 		"archivedAt": "2021/6/10 11:15",
 		"srcURL": "https://tw.appledaily.com/life/20210514/ABKT7BL56NFBNOTE5NEILW4DIY/",
@@ -1946,6 +2204,8 @@
 	"X-AK9C-0IG0": {
 		"ioid": "X-AK9C-0IG0",
 		"type": "Webpage",
+		"fileName": "X-AK9C-0IG0.png",
+		"displayType": "image",
 		"publishedAt": "2020/1/30 20:56",
 		"archivedAt": "2021/6/10 11:20",
 		"srcURL": "https://www.ettoday.net/news/20200130/1634736.htm",
@@ -1956,6 +2216,8 @@
 	"X-AKDJ-QUCT": {
 		"ioid": "X-AKDJ-QUCT",
 		"type": "Webpage",
+		"fileName": "X-AKDJ-QUCT.png",
+		"displayType": "image",
 		"publishedAt": "2020/3/26 6:04",
 		"archivedAt": "2021/6/10 11:22",
 		"srcURL": "https://news.ltn.com.tw/news/life/breakingnews/3112920",
@@ -1966,6 +2228,8 @@
 	"X-AKAM-PCLX": {
 		"ioid": "X-AKAM-PCLX",
 		"type": "Twitter tweet",
+		"fileName": "X-AKAM-PCLX.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 10:37",
 		"archivedAt": "2021/6/11 0:00",
 		"srcURL": "https://twitter.com/ChinaSunSong/status/1401730108260438016",
@@ -1976,6 +2240,8 @@
 	"X-B2J2-1DX0": {
 		"ioid": "X-B2J2-1DX0",
 		"type": "Webpage",
+		"fileName": "X-B2J2-1DX0.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 11:56",
 		"archivedAt": "2021/6/17 20:27",
 		"srcURL": "http://www.gwytb.gov.cn/xwdt/xwfb/wyly/202106/t20210611_12358743.htm",
@@ -1986,6 +2252,8 @@
 	"X-B2FW-26HP": {
 		"ioid": "X-B2FW-26HP",
 		"type": "Webpage",
+		"fileName": "X-B2FW-26HP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/8 22:23",
 		"archivedAt": "2021/6/17 20:29",
 		"srcURL": "https://www.globaltimes.cn/page/202106/1225752.shtml",
@@ -1996,6 +2264,8 @@
 	"X-B2XX-7SM8": {
 		"ioid": "X-B2XX-7SM8",
 		"type": "Facebook post",
+		"fileName": "X-B2XX-7SM8.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/9 15:29",
 		"archivedAt": "2021/6/17 20:31",
 		"srcURL": "https://www.facebook.com/Geekfirm/posts/10159323269421460",
@@ -2006,6 +2276,8 @@
 	"X-B24J-K317": {
 		"ioid": "X-B24J-K317",
 		"type": "Weibo post",
+		"fileName": "X-B24J-K317.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/6 1:42",
 		"archivedAt": "2021/6/18 0:19",
 		"srcURL": "https://weibo.com/7010131150/KiQab0NVb",
@@ -2016,6 +2288,8 @@
 	"X-B2JR-GQVV": {
 		"ioid": "X-B2JR-GQVV",
 		"type": "YouTube video",
+		"fileName": "X-B2JR-GQVV.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7",
 		"archivedAt": "2021/6/17 20:38",
 		"srcURL": "https://www.youtube.com/watch?v=OEXPVFLX62o",
@@ -2026,6 +2300,8 @@
 	"X-B2VD-FLH2": {
 		"ioid": "X-B2VD-FLH2",
 		"type": "YouTube video",
+		"fileName": "X-B2VD-FLH2.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7",
 		"archivedAt": "2021/6/17 20:39",
 		"srcURL": "https://www.youtube.com/watch?v=SvyAfPk7jX8",
@@ -2036,6 +2312,8 @@
 	"X-B20T-FJYR": {
 		"ioid": "X-B20T-FJYR",
 		"type": "Facebook post",
+		"fileName": "X-B20T-FJYR.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/8 14:00",
 		"archivedAt": "2021/6/17 20:40",
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4173963362681310",
@@ -2046,6 +2324,8 @@
 	"X-B20J-5ACU": {
 		"ioid": "X-B20J-5ACU",
 		"type": "Facebook post",
+		"fileName": "X-B20J-5ACU.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/9 13:11",
 		"archivedAt": "2021/6/17 20:40",
 		"srcURL": "https://www.facebook.com/HaungZX/posts/333277628159103",
@@ -2056,6 +2336,8 @@
 	"X-B2YE-27LP": {
 		"ioid": "X-B2YE-27LP",
 		"type": "Webpage",
+		"fileName": "X-B2YE-27LP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4",
 		"archivedAt": "2021/6/17 20:41",
 		"srcURL": "https://www.coa.gov.tw/theme_data.php?theme=news&sub_theme=agri&id=8411",
@@ -2065,6 +2347,8 @@
 	"X-B21N-AITK": {
 		"ioid": "X-B21N-AITK",
 		"type": "Webpage",
+		"fileName": "X-B21N-AITK.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/6",
 		"archivedAt": "2021/6/17 20:41",
 		"srcURL": "https://www.mofa.gov.tw/News_Content.aspx?n=95&s=95952",
@@ -2074,6 +2358,8 @@
 	"X-B2QP-ZBJB": {
 		"ioid": "X-B2QP-ZBJB",
 		"type": "Webpage",
+		"fileName": "X-B2QP-ZBJB.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 20:41",
 		"archivedAt": "2021/6/17 20:28",
 		"srcURL": "https://taiwan.huanqiu.com/article/43Pt9GT1ATo",
@@ -2084,6 +2370,8 @@
 	"X-B2ES-R5FD": {
 		"ioid": "X-B2ES-R5FD",
 		"type": "Webpage",
+		"fileName": "X-B2ES-R5FD.png",
+		"displayType": "image",
 		"publishedAt": "2020/11/17 8:16",
 		"archivedAt": "2021/6/17 20:35",
 		"srcURL": "https://www.mirrormedia.mg/story/20201117fin008/",
@@ -2094,6 +2382,8 @@
 	"X-B2P8-Y4H4": {
 		"ioid": "X-B2P8-Y4H4",
 		"type": "Webpage",
+		"fileName": "X-B2P8-Y4H4.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3",
 		"archivedAt": "2021/6/17 20:26",
 		"srcURL": "http://paper.wenweipo.com/2021/06/03/YO2106030001.htm",
@@ -2104,6 +2394,8 @@
 	"X-B2TR-QFE4": {
 		"ioid": "X-B2TR-QFE4",
 		"type": "Webpage",
+		"fileName": "X-B2TR-QFE4.png",
+		"displayType": "image",
 		"publishedAt": "2020/11/25",
 		"archivedAt": "2021/6/17 20:33",
 		"srcURL": "https://www.gvm.com.tw/article/76100",
@@ -2114,6 +2406,8 @@
 	"X-B2R6-6Y9Q": {
 		"ioid": "X-B2R6-6Y9Q",
 		"type": "Webpage",
+		"fileName": "X-B2R6-6Y9Q.png",
+		"displayType": "image",
 		"publishedAt": "2020/11/24 20:25",
 		"archivedAt": "2021/6/17 20:35",
 		"srcURL": "https://www.ntdtv.com.tw/b5/20201124/video/283789.html",
@@ -2124,6 +2418,8 @@
 	"X-B230-Q59N": {
 		"ioid": "X-B230-Q59N",
 		"type": "Weibo post",
+		"fileName": "X-B230-Q59N.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/9 18:19",
 		"archivedAt": "2021/6/18 0:17",
 		"srcURL": "https://weibo.com/5601629229/KjoYzlQ8u",
@@ -2134,6 +2430,8 @@
 	"X-B29I-R1KU": {
 		"ioid": "X-B29I-R1KU",
 		"type": "Weibo post",
+		"fileName": "X-B29I-R1KU.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/15 15:08",
 		"archivedAt": "2021/6/18 0:17",
 		"srcURL": "https://weibo.com/1659893422/KkihP0rRa",
@@ -2144,6 +2442,8 @@
 	"X-B2MC-8SEA": {
 		"ioid": "X-B2MC-8SEA",
 		"type": "Webpage",
+		"fileName": "X-B2MC-8SEA.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 14:39",
 		"archivedAt": "2021/6/18 9:54",
 		"srcURL": "https://www.upmedia.mg/news_info.php?SerialNo=115271",
@@ -2154,6 +2454,8 @@
 	"X-B2X6-5SIV": {
 		"ioid": "X-B2X6-5SIV",
 		"type": "Webpage",
+		"fileName": "X-B2X6-5SIV.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 15:11",
 		"archivedAt": "2021/6/18 9:54",
 		"srcURL": "https://www.ctwant.com/article/121934",
@@ -2164,6 +2466,8 @@
 	"X-B271-1Q6F": {
 		"ioid": "X-B271-1Q6F",
 		"type": "YouTube video",
+		"fileName": "X-B271-1Q6F.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7",
 		"archivedAt": "2021/6/18 9:51",
 		"srcURL": "https://www.youtube.com/watch?v=ZIwPGT5Gug0",
@@ -2174,6 +2478,8 @@
 	"X-B299-8Z4H": {
 		"ioid": "X-B299-8Z4H",
 		"type": "YouTube video",
+		"fileName": "X-B299-8Z4H.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7",
 		"archivedAt": "2021/6/18 9:58",
 		"srcURL": "https://www.youtube.com/watch?v=cGvly5dBLF4",
@@ -2184,6 +2490,8 @@
 	"X-B2TF-ZUFR": {
 		"ioid": "X-B2TF-ZUFR",
 		"type": "Webpage",
+		"fileName": "X-B2TF-ZUFR.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 15:11",
 		"archivedAt": "2021/6/18 9:55",
 		"srcURL": "https://www.hk01.com/台灣新聞/634860/",
@@ -2194,6 +2502,8 @@
 	"X-B2B5-O29E": {
 		"ioid": "X-B2B5-O29E",
 		"type": "Twitter tweet",
+		"fileName": "X-B2B5-O29E.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/6 18:40",
 		"archivedAt": "2021/6/18 9:45",
 		"srcURL": "https://twitter.com/Gandie03/status/1401489123798491137",
@@ -2204,6 +2514,8 @@
 	"X-B2CO-P1U2": {
 		"ioid": "X-B2CO-P1U2",
 		"type": "Twitter tweet",
+		"fileName": "X-B2CO-P1U2.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 19:15",
 		"archivedAt": "2021/6/18 9:46",
 		"srcURL": "https://twitter.com/ChinaSunSong/status/1401860425218629639",
@@ -2214,6 +2526,8 @@
 	"X-B26L-Z7UR": {
 		"ioid": "X-B26L-Z7UR",
 		"type": "Twitter tweet",
+		"fileName": "X-B26L-Z7UR.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 17:26",
 		"archivedAt": "2021/6/18 9:46",
 		"srcURL": "https://twitter.com/raam_beart/status/1401832858650439682",
@@ -2224,6 +2538,8 @@
 	"X-B2W8-FE0A": {
 		"ioid": "X-B2W8-FE0A",
 		"type": "Twitter tweet",
+		"fileName": "X-B2W8-FE0A.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 17:28",
 		"archivedAt": "2021/6/18 9:46",
 		"srcURL": "https://twitter.com/CrabNJ/status/1401833452798758912",
@@ -2234,6 +2550,8 @@
 	"X-B2A0-TC47": {
 		"ioid": "X-B2A0-TC47",
 		"type": "Twitter tweet",
+		"fileName": "X-B2A0-TC47.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 10:57",
 		"archivedAt": "2021/6/18 9:46",
 		"srcURL": "https://twitter.com/globaltimesnews/status/1403184530136059904",
@@ -2244,6 +2562,8 @@
 	"X-B21K-941O": {
 		"ioid": "X-B21K-941O",
 		"type": "Webpage",
+		"fileName": "X-B21K-941O.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 11:34",
 		"archivedAt": "2021/6/18 9:46",
 		"srcURL": "https://twitter.com/CGTNOfficial/status/1403193964665065477",
@@ -2254,6 +2574,8 @@
 	"X-B2EU-CJS0": {
 		"ioid": "X-B2EU-CJS0",
 		"type": "Twitter tweet",
+		"fileName": "X-B2EU-CJS0.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 13:54",
 		"archivedAt": "2021/6/18 9:47",
 		"srcURL": "https://twitter.com/PDChina/status/1403229005109682178",
@@ -2264,6 +2586,8 @@
 	"X-B2IU-E3YO": {
 		"ioid": "X-B2IU-E3YO",
 		"type": "Twitter tweet",
+		"fileName": "X-B2IU-E3YO.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 15:30",
 		"archivedAt": "2021/6/18 9:47",
 		"srcURL": "https://twitter.com/Echinanews/status/1403253165307293697",
@@ -2274,6 +2598,8 @@
 	"X-B2WM-SMDK": {
 		"ioid": "X-B2WM-SMDK",
 		"type": "Twitter tweet",
+		"fileName": "X-B2WM-SMDK.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/12 9:28",
 		"archivedAt": "2021/6/18 9:47",
 		"srcURL": "https://twitter.com/China2ASEAN/status/1403524613397639170",
@@ -2284,6 +2610,8 @@
 	"X-B2DU-D47T": {
 		"ioid": "X-B2DU-D47T",
 		"type": "Webpage",
+		"fileName": "X-B2DU-D47T.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 23:00",
 		"archivedAt": "2021/6/20 15:12",
 		"srcURL": "https://tw.appledaily.com/politics/20210605/W3ZK6UYGQFHYBJHIB6WHA5DLNE/",
@@ -2294,6 +2622,8 @@
 	"X-B2OY-0PW9": {
 		"ioid": "X-B2OY-0PW9",
 		"type": "Facebook post",
+		"fileName": "X-B2OY-0PW9.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 23:34",
 		"archivedAt": "2021/6/20 15:04",
 		"srcURL": "https://www.facebook.com/chinanewgeneration/posts/4284218044963024",
@@ -2304,6 +2634,8 @@
 	"X-B21F-XS3M": {
 		"ioid": "X-B21F-XS3M",
 		"type": "Facebook post",
+		"fileName": "X-B21F-XS3M.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 22:02",
 		"archivedAt": "2021/6/20 15:05",
 		"srcURL": "https://www.facebook.com/knowledge.practice.studio/posts/5703500929722791",
@@ -2314,6 +2646,8 @@
 	"X-B2NT-AO8Y": {
 		"ioid": "X-B2NT-AO8Y",
 		"type": "Facebook post",
+		"fileName": "X-B2NT-AO8Y.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/6 18:37",
 		"archivedAt": "2021/6/20 15:06",
 		"srcURL": "https://www.facebook.com/taiwanheadlines/posts/4100088473445982",
@@ -2324,6 +2658,8 @@
 	"X-B26N-NR3V": {
 		"ioid": "X-B26N-NR3V",
 		"type": "Facebook post",
+		"fileName": "X-B26N-NR3V.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 10:31",
 		"archivedAt": "2021/6/20 15:06",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=322054589296525&id=100157331486253",
@@ -2334,6 +2670,8 @@
 	"X-B2A0-0Z86": {
 		"ioid": "X-B2A0-0Z86",
 		"type": "Weibo post",
+		"fileName": "X-B2A0-0Z86.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 20:44",
 		"archivedAt": "2021/6/20 15:08",
 		"srcURL": "https://weibo.com/1686546714/KiOdiF1pc",
@@ -2344,6 +2682,8 @@
 	"X-B21E-TGJ5": {
 		"ioid": "X-B21E-TGJ5",
 		"type": "Weibo post",
+		"fileName": "X-B21E-TGJ5.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 11:19",
 		"archivedAt": "2021/6/20 15:08",
 		"srcURL": "https://weibo.com/5999251130/Kj3n0j6R2",
@@ -2354,6 +2694,8 @@
 	"X-B2LQ-7VLP": {
 		"ioid": "X-B2LQ-7VLP",
 		"type": "Webpage",
+		"fileName": "X-B2LQ-7VLP.png",
+		"displayType": "image",
 		"publishedAt": "2021/3/16 23:49",
 		"archivedAt": "2021/6/20 15:02",
 		"srcURL": "https://www.storm.mg/article/3542976",
@@ -2364,6 +2706,8 @@
 	"X-B27K-XXDV": {
 		"ioid": "X-B27K-XXDV",
 		"type": "Webpage",
+		"fileName": "X-B27K-XXDV.png",
+		"displayType": "image",
 		"publishedAt": "2021/3/17 10:15",
 		"archivedAt": "2021/6/20 15:03",
 		"srcURL": "https://www.cna.com.tw/news/firstnews/202103170044.aspx",
@@ -2374,6 +2718,8 @@
 	"X-B2MK-XG45": {
 		"ioid": "X-B2MK-XG45",
 		"type": "Webpage",
+		"fileName": "X-B2MK-XG45.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7",
 		"archivedAt": "2021/6/20 15:07",
 		"srcURL": "https://facebook-qiqi.com/archives/191036",
@@ -2384,6 +2730,8 @@
 	"X-B2D7-3203": {
 		"ioid": "X-B2D7-3203",
 		"type": "Facebook post",
+		"fileName": "X-B2D7-3203.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3 9:03",
 		"archivedAt": "2021/6/20 15:32",
 		"srcURL": "https://www.facebook.com/193439447353622/posts/4322145184483007",
@@ -2394,6 +2742,8 @@
 	"X-B2HN-9FX6": {
 		"ioid": "X-B2HN-9FX6",
 		"type": "Webpage",
+		"fileName": "X-B2HN-9FX6.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 8:20",
 		"archivedAt": "2021/6/20 15:39",
 		"srcURL": "https://www.storm.mg/article/3727198",
@@ -2404,6 +2754,8 @@
 	"X-B248-ZWH4": {
 		"ioid": "X-B248-ZWH4",
 		"type": "Webpage",
+		"fileName": "X-B248-ZWH4.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4 22:31",
 		"archivedAt": "2021/6/20 15:34",
 		"srcURL": "https://www.cna.com.tw/news/acn/202106040361.aspx",
@@ -2414,6 +2766,8 @@
 	"X-B22D-450P": {
 		"ioid": "X-B22D-450P",
 		"type": "Weibo post",
+		"fileName": "X-B22D-450P.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3 8:07",
 		"archivedAt": "2021/6/20 15:34",
 		"srcURL": "https://weibo.com/7476748260/KiqoW97wp",
@@ -2424,6 +2778,8 @@
 	"X-B2EW-A7Z7": {
 		"ioid": "X-B2EW-A7Z7",
 		"type": "Facebook post",
+		"fileName": "X-B2EW-A7Z7.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/3 16:49",
 		"archivedAt": "2021/6/20 15:35",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=780524062634924&id=366417997378868",
@@ -2434,6 +2790,8 @@
 	"X-B25Y-2XL6": {
 		"ioid": "X-B25Y-2XL6",
 		"type": "Facebook post",
+		"fileName": "X-B25Y-2XL6.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4 11:59",
 		"archivedAt": "2021/6/20 15:36",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=5526400487434049&id=949685718438905",
@@ -2444,6 +2802,8 @@
 	"X-B2UZ-R3PA": {
 		"ioid": "X-B2UZ-R3PA",
 		"type": "Facebook post",
+		"fileName": "X-B2UZ-R3PA.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4 17:28",
 		"archivedAt": "2021/6/20 15:36",
 		"srcURL": "https://www.facebook.com/president168168/posts/534576631310105",
@@ -2454,6 +2814,8 @@
 	"X-B2QR-A087": {
 		"ioid": "X-B2QR-A087",
 		"type": "Facebook post",
+		"fileName": "X-B2QR-A087.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/6 0:51",
 		"archivedAt": "2021/6/20 15:36",
 		"srcURL": "https://www.facebook.com/guotaiminan/posts/640424234021824",
@@ -2464,6 +2826,8 @@
 	"X-B2XH-Z2YP": {
 		"ioid": "X-B2XH-Z2YP",
 		"type": "Webpage",
+		"fileName": "X-B2XH-Z2YP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 21:54",
 		"archivedAt": "2021/6/20 15:54",
 		"srcURL": "https://www.tkww.hk/a/202106/05/AP60bb8219e4b0c7e5bec11033.html",
@@ -2473,6 +2837,8 @@
 	"X-B2LY-LMPK": {
 		"ioid": "X-B2LY-LMPK",
 		"type": "Webpage",
+		"fileName": "X-B2LY-LMPK.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 21:59",
 		"archivedAt": "2021/6/20 15:55",
 		"srcURL": "https://www.wenweipo.com/a/202106/05/AP60bb8347e4b08d3407c46f8f.html",
@@ -2482,6 +2848,8 @@
 	"X-B268-7BAD": {
 		"ioid": "X-B268-7BAD",
 		"type": "Webpage",
+		"fileName": "X-B268-7BAD.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 3:47",
 		"archivedAt": "2021/6/20 16:23",
 		"srcURL": "https://www.reuters.com/business/healthcare-pharmaceuticals/exclusive-blackwater-founder-prince-takes-role-covid-vaccine-venture-2021-06-04/",
@@ -2492,6 +2860,8 @@
 	"X-B2R5-09ME": {
 		"ioid": "X-B2R5-09ME",
 		"type": "Facebook post",
+		"fileName": "X-B2R5-09ME.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 15:00",
 		"archivedAt": "2021/6/20 16:48",
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4176455029098810",
@@ -2502,6 +2872,8 @@
 	"X-B2CG-FEPZ": {
 		"ioid": "X-B2CG-FEPZ",
 		"type": "YouTube video",
+		"fileName": "X-B2CG-FEPZ.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5",
 		"archivedAt": "2021/6/20 16:58",
 		"srcURL": "https://www.youtube.com/watch?v=JLggmZZpP4o",
@@ -2512,6 +2884,8 @@
 	"X-B2L5-12XQ": {
 		"ioid": "X-B2L5-12XQ",
 		"type": "Facebook post",
+		"fileName": "X-B2L5-12XQ.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/10 16:15",
 		"archivedAt": "2021/6/20 17:06",
 		"srcURL": "https://www.facebook.com/destroyevils/posts/764783890851037",
@@ -2522,6 +2896,8 @@
 	"X-B20W-J8JJ": {
 		"ioid": "X-B20W-J8JJ",
 		"type": "Facebook post",
+		"fileName": "X-B20W-J8JJ.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 9:48",
 		"archivedAt": "2021/6/20 17:07",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=1871360623039276&id=837868789721803",
@@ -2532,6 +2908,8 @@
 	"X-B2B4-9PDH": {
 		"ioid": "X-B2B4-9PDH",
 		"type": "Facebook post",
+		"fileName": "X-B2B4-9PDH.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 11:29",
 		"archivedAt": "2021/6/20 17:07",
 		"srcURL": "https://www.facebook.com/panda.huang.16/posts/4194040727313381",
@@ -2542,6 +2920,8 @@
 	"X-B25Z-UJP8": {
 		"ioid": "X-B25Z-UJP8",
 		"type": "Facebook post",
+		"fileName": "X-B25Z-UJP8.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/12 11:28",
 		"archivedAt": "2021/6/20 17:07",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=327685972141029&id=111785370397758",
@@ -2552,6 +2932,8 @@
 	"X-B2DS-X72N": {
 		"ioid": "X-B2DS-X72N",
 		"type": "Webpage",
+		"fileName": "X-B2DS-X72N.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/29 8:30",
 		"archivedAt": "2021/6/20 17:13",
 		"srcURL": "https://www.storm.mg/new7/article/3711669",
@@ -2562,6 +2944,8 @@
 	"X-B2R5-JN8Y": {
 		"ioid": "X-B2R5-JN8Y",
 		"type": "Webpage",
+		"fileName": "X-B2R5-JN8Y.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 23:43",
 		"archivedAt": "2021/6/20 17:34",
 		"srcURL": "https://www.businesstoday.com.tw/article/category/203946/post/202106070062/",
@@ -2572,6 +2956,8 @@
 	"X-B2PG-M7F0": {
 		"ioid": "X-B2PG-M7F0",
 		"type": "Webpage",
+		"fileName": "X-B2PG-M7F0.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/10 13:09",
 		"archivedAt": "2021/6/20 17:48",
 		"srcURL": "https://tw.appledaily.com/life/20210610/TDEYIT4VXVEMDFW4JV3G7TBDSM/",
@@ -2582,6 +2968,8 @@
 	"X-B2W1-EBNP": {
 		"ioid": "X-B2W1-EBNP",
 		"type": "Webpage",
+		"fileName": "X-B2W1-EBNP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/9 19:16",
 		"archivedAt": "2021/6/20 17:48",
 		"srcURL": "https://www.chinatimes.com/realtimenews/20210609005708-260407?chdtv",
@@ -2592,6 +2980,8 @@
 	"X-B2LV-1WO7": {
 		"ioid": "X-B2LV-1WO7",
 		"type": "Webpage",
+		"fileName": "X-B2LV-1WO7.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/9 19:21",
 		"archivedAt": "2021/6/20 17:48",
 		"srcURL": "https://udn.com/news/story/6656/5521386",
@@ -2602,6 +2992,8 @@
 	"X-B2EG-US78": {
 		"ioid": "X-B2EG-US78",
 		"type": "Webpage",
+		"fileName": "X-B2EG-US78.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/9 23:31",
 		"archivedAt": "2021/6/20 17:48",
 		"srcURL": "https://www.storm.mg/article/3739960",
@@ -2612,6 +3004,8 @@
 	"X-B2KR-FN48": {
 		"ioid": "X-B2KR-FN48",
 		"type": "Webpage",
+		"fileName": "X-B2KR-FN48.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/10 14:08",
 		"archivedAt": "2021/6/20 17:48",
 		"srcURL": "https://news.ltn.com.tw/news/politics/breakingnews/3565048",
@@ -2622,6 +3016,8 @@
 	"X-B2IS-ZZP1": {
 		"ioid": "X-B2IS-ZZP1",
 		"type": "Webpage",
+		"fileName": "X-B2IS-ZZP1.png",
+		"displayType": "image",
 		"publishedAt": "2021/5/21 12:51",
 		"archivedAt": "2021/6/20 18:39",
 		"srcURL": "https://www.cna.com.tw/news/aopl/202105210121.aspx",
@@ -2632,6 +3028,8 @@
 	"X-B2NQ-2BW2": {
 		"ioid": "X-B2NQ-2BW2",
 		"type": "Facebook post",
+		"fileName": "X-B2NQ-2BW2.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 12:55",
 		"archivedAt": "2021/6/20 18:31",
 		"srcURL": "https://www.facebook.com/ChineseHistoryChannel/posts/2845692392359971",
@@ -2642,6 +3040,8 @@
 	"X-B2LM-OA7M": {
 		"ioid": "X-B2LM-OA7M",
 		"type": "Facebook post",
+		"fileName": "X-B2LM-OA7M.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/11 12:58",
 		"archivedAt": "2021/6/20 18:31",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=1457387527946731&id=402091276809700",
@@ -2652,6 +3052,8 @@
 	"X-B23Z-GOMI": {
 		"ioid": "X-B23Z-GOMI",
 		"type": "Twitter tweet",
+		"fileName": "X-B23Z-GOMI.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/4 23:56",
 		"archivedAt": "2021/6/20 18:45",
 		"srcURL": "https://twitter.com/Gandie03/status/1400843910377656321",
@@ -2662,6 +3064,8 @@
 	"X-B2B7-S6XP": {
 		"ioid": "X-B2B7-S6XP",
 		"type": "Twitter tweet",
+		"fileName": "X-B2B7-S6XP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/5 6:23",
 		"archivedAt": "2021/6/20 18:45",
 		"srcURL": "https://twitter.com/ChinaSunSong/status/1400941193840582659",
@@ -2672,6 +3076,8 @@
 	"X-B2Q9-6KHJ": {
 		"ioid": "X-B2Q9-6KHJ",
 		"type": "Twitter tweet",
+		"fileName": "X-B2Q9-6KHJ.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 22:41",
 		"archivedAt": "2021/6/20 18:45",
 		"srcURL": "https://twitter.com/DiDi11409116/status/1401912126797606923",
@@ -2682,6 +3088,8 @@
 	"X-B2HB-MLPC": {
 		"ioid": "X-B2HB-MLPC",
 		"type": "Webpage",
+		"fileName": "X-B2HB-MLPC.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/7 16:59",
 		"archivedAt": "2021/6/20 18:45",
 		"srcURL": "https://twitter.com/zhouguoqing4/status/1401826146136645634",
@@ -2692,6 +3100,8 @@
 	"X-B2JW-7TCM": {
 		"ioid": "X-B2JW-7TCM",
 		"type": "Webpage",
+		"fileName": "X-B2JW-7TCM.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/15 11:23",
 		"archivedAt": "2021/6/20 18:52",
 		"srcURL": "https://www.cna.com.tw/news/firstnews/202106155005.aspx",
@@ -2702,6 +3112,8 @@
 	"X-G3BD-KCFP": {
 		"ioid": "X-G3BD-KCFP",
 		"type": "Webpage",
+		"fileName": "X-G3BD-KCFP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/20 21:24",
 		"archivedAt": "2021/6/24 16:44",
 		"srcURL": "https://www.globaltimes.cn/page/202106/1226628.shtml",
@@ -2712,6 +3124,8 @@
 	"X-G36D-GTAI": {
 		"ioid": "X-G36D-GTAI",
 		"type": "Webpage",
+		"fileName": "X-G36D-GTAI.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/20 22:23",
 		"archivedAt": "2021/6/24 16:44",
 		"srcURL": "https://www.globaltimes.cn/page/202106/1226640.shtml",
@@ -2722,6 +3136,8 @@
 	"X-G3VX-TKAA": {
 		"ioid": "X-G3VX-TKAA",
 		"type": "Webpage",
+		"fileName": "X-G3VX-TKAA.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/20 11:30",
 		"archivedAt": "2021/6/24 16:44",
 		"srcURL": "https://www.globaltimes.cn/page/202106/1226566.shtml",
@@ -2732,6 +3148,8 @@
 	"X-G3FN-T8J1": {
 		"ioid": "X-G3FN-T8J1",
 		"type": "Twitter tweet",
+		"fileName": "X-G3FN-T8J1.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/17 21:24",
 		"archivedAt": "2021/6/24 16:29",
 		"srcURL": "https://twitter.com/Tong_Shuo/status/1405516661348700171",
@@ -2742,6 +3160,8 @@
 	"X-G36L-Q5Y7": {
 		"ioid": "X-G36L-Q5Y7",
 		"type": "Twitter tweet",
+		"fileName": "X-G36L-Q5Y7.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/17 14:10",
 		"archivedAt": "2021/6/24 16:29",
 		"srcURL": "https://twitter.com/PhoenixTVHK/status/1405407474602020866",
@@ -2752,6 +3172,8 @@
 	"X-G309-8LOQ": {
 		"ioid": "X-G309-8LOQ",
 		"type": "Twitter tweet",
+		"fileName": "X-G309-8LOQ.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/17 13:50",
 		"archivedAt": "2021/6/24 16:30",
 		"srcURL": "https://twitter.com/GuanchaNewMedia/status/1405402536543014913",
@@ -2762,6 +3184,8 @@
 	"X-G3GG-Y85U": {
 		"ioid": "X-G3GG-Y85U",
 		"type": "Twitter tweet",
+		"fileName": "X-G3GG-Y85U.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/16 23:03",
 		"archivedAt": "2021/6/24 16:30",
 		"srcURL": "https://twitter.com/XHNews/status/1405179346860470275",
@@ -2772,6 +3196,8 @@
 	"X-G3S8-43IV": {
 		"ioid": "X-G3S8-43IV",
 		"type": "Twitter tweet",
+		"fileName": "X-G3S8-43IV.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/16 23:00",
 		"archivedAt": "2021/6/24 16:30",
 		"srcURL": "https://twitter.com/Echinanews/status/1405178351820619776",
@@ -2782,6 +3208,8 @@
 	"X-G3TC-E84V": {
 		"ioid": "X-G3TC-E84V",
 		"type": "Twitter tweet",
+		"fileName": "X-G3TC-E84V.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/18 15:41",
 		"archivedAt": "2021/6/24 16:31",
 		"srcURL": "https://twitter.com/PhoenixTVHK/status/1405792784531955713",
@@ -2792,6 +3220,8 @@
 	"X-G3CE-GBCG": {
 		"ioid": "X-G3CE-GBCG",
 		"type": "Facebook post",
+		"fileName": "X-G3CE-GBCG.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/18 15:39",
 		"archivedAt": "2021/6/24 16:33",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=4340193609338527&id=191122434245686",
@@ -2802,6 +3232,8 @@
 	"X-G3CX-2BWZ": {
 		"ioid": "X-G3CX-2BWZ",
 		"type": "Facebook post",
+		"fileName": "X-G3CX-2BWZ.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/15 22:11",
 		"archivedAt": "2021/6/24 16:46",
 		"srcURL": "https://www.facebook.com/ttksj01/posts/4344907385567285",
@@ -2812,6 +3244,8 @@
 	"X-G38W-Q0LH": {
 		"ioid": "X-G38W-Q0LH",
 		"type": "Webpage",
+		"fileName": "X-G38W-Q0LH.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/19 2:22",
 		"archivedAt": "2021/6/24 16:38",
 		"srcURL": "https://www.reuters.com/article/factcheck-vaccine-cytotoxic-idUSL2N2O01XP",
@@ -2822,6 +3256,8 @@
 	"X-G32F-Z7HQ": {
 		"ioid": "X-G32F-Z7HQ",
 		"type": "Webpage",
+		"fileName": "X-G32F-Z7HQ.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/12",
 		"archivedAt": "2021/6/24 17:13",
 		"srcURL": "https://www.ixigua.com/6972734183982498316",
@@ -2832,6 +3268,8 @@
 	"X-G3T3-J8F2": {
 		"ioid": "X-G3T3-J8F2",
 		"type": "Webpage",
+		"fileName": "X-G3T3-J8F2.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/15",
 		"archivedAt": "2021/6/24 19:34",
 		"srcURL": "https://www.ixigua.com/6973857845393490464",
@@ -2842,6 +3280,8 @@
 	"X-G39C-HIXG": {
 		"ioid": "X-G39C-HIXG",
 		"type": "Facebook post",
+		"fileName": "X-G39C-HIXG.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/13 14:56",
 		"archivedAt": "2021/6/24 16:33",
 		"srcURL": "https://www.facebook.com/HaungZX/posts/335636137923252",
@@ -2852,6 +3292,8 @@
 	"X-G3CZ-AAHU": {
 		"ioid": "X-G3CZ-AAHU",
 		"type": "YouTube video",
+		"fileName": "X-G3CZ-AAHU.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/13",
 		"archivedAt": "2021/6/24 19:33",
 		"srcURL": "https://www.youtube.com/watch?v=qdxtavq5Eqo",
@@ -2862,6 +3304,8 @@
 	"X-G308-D93N": {
 		"ioid": "X-G308-D93N",
 		"type": "Facebook post",
+		"fileName": "X-G308-D93N.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/12 17:45",
 		"archivedAt": "2021/6/24 19:44",
 		"srcURL": "https://www.facebook.com/permalink.php?story_fbid=123161233262599&id=106328644945858",
@@ -2872,6 +3316,8 @@
 	"X-G3SS-9CRT": {
 		"ioid": "X-G3SS-9CRT",
 		"type": "PTT post",
+		"fileName": "X-G3SS-9CRT.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/16 18:19",
 		"archivedAt": "2021/6/24 19:45",
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1623838748.A.212.html",
@@ -2884,6 +3330,8 @@
 	"X-G37H-OAYP": {
 		"ioid": "X-G37H-OAYP",
 		"type": "Webpage",
+		"fileName": "X-G37H-OAYP.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/16 22:29",
 		"archivedAt": "2021/6/24 19:45",
 		"srcURL": "https://udn.com/news/story/121707/5537338",
@@ -2894,6 +3342,8 @@
 	"X-G3IK-0BWI": {
 		"ioid": "X-G3IK-0BWI",
 		"type": "Webpage",
+		"fileName": "X-G3IK-0BWI.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/23 19:09",
 		"archivedAt": "2021/6/24 20:17",
 		"srcURL": "https://tw.appledaily.com/life/20210623/ANU4WQ33UZFXFKOQ6HWDEGQLQY/",
@@ -2904,6 +3354,8 @@
 	"X-G313-CQB2": {
 		"ioid": "X-G313-CQB2",
 		"type": "Webpage",
+		"fileName": "X-G313-CQB2.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/17 4:10",
 		"archivedAt": "2021/6/24 20:18",
 		"srcURL": "https://www.chinatimes.com/newspapers/20210617000369-260114?chdtv",
@@ -2914,6 +3366,8 @@
 	"X-G3ZC-JC2S": {
 		"ioid": "X-G3ZC-JC2S",
 		"type": "Webpage",
+		"fileName": "X-G3ZC-JC2S.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/19 15:02",
 		"archivedAt": "2021/6/24 20:18",
 		"srcURL": "https://news.yahoo.co.jp/articles/6d4810ba0488fd96a08b2cc872b3977c8ca75fc6",
@@ -2924,6 +3378,8 @@
 	"X-G3U0-BD7M": {
 		"ioid": "X-G3U0-BD7M",
 		"type": "Facebook post",
+		"fileName": "X-G3U0-BD7M.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/19 20:35",
 		"archivedAt": "2021/6/24 20:41",
 		"srcURL": "https://www.facebook.com/AIT.Social.Media/posts/10159196573708490",
@@ -2934,6 +3390,8 @@
 	"X-G3P0-E9CE": {
 		"ioid": "X-G3P0-E9CE",
 		"type": "PTT post",
+		"fileName": "X-G3P0-E9CE.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/20 9:47",
 		"archivedAt": "2021/6/24 20:42",
 		"srcURL": "https://www.ptt.cc/bbs/Gossiping/M.1624153626.A.C7B.html",
@@ -2945,6 +3403,8 @@
 	"X-G318-XLQ3": {
 		"ioid": "X-G318-XLQ3",
 		"type": "Webpage",
+		"fileName": "X-G318-XLQ3.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/20 12:31",
 		"archivedAt": "2021/6/24 20:42",
 		"srcURL": "https://news.pts.org.tw/article/531571",
@@ -2955,6 +3415,8 @@
 	"X-G3XW-679R": {
 		"ioid": "X-G3XW-679R",
 		"type": "Webpage",
+		"fileName": "X-G3XW-679R.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/21 0:25",
 		"archivedAt": "2021/6/24 20:42",
 		"srcURL": "https://news.ltn.com.tw/news/politics/breakingnews/3576505",
@@ -2965,6 +3427,8 @@
 	"X-G3ZN-7T0X": {
 		"ioid": "X-G3ZN-7T0X",
 		"type": "Facebook post",
+		"fileName": "X-G3ZN-7T0X.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/15 13:18",
 		"archivedAt": "2021/6/24 20:53",
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4192918827452430",
@@ -2975,6 +3439,8 @@
 	"X-G33S-1WCV": {
 		"ioid": "X-G33S-1WCV",
 		"type": "Facebook post",
+		"fileName": "X-G33S-1WCV.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/17 15:00",
 		"archivedAt": "2021/6/24 20:53",
 		"srcURL": "https://www.facebook.com/SisyWorldNews/posts/4198569993553980",
@@ -2985,6 +3451,8 @@
 	"X-G3I2-QPIC": {
 		"ioid": "X-G3I2-QPIC",
 		"type": "Webpage",
+		"fileName": "X-G3I2-QPIC.png",
+		"displayType": "image",
 		"publishedAt": "2021/6/13 13:24",
 		"archivedAt": "2021/6/24 21:14",
 		"srcURL": "https://club.6parkbbs.com/finance/index.php?app=forum&act=threadview&tid=14502418",
