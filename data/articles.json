@@ -242,6 +242,26 @@
 			}
 		}
 	},
+	"dokidoki-listing": {
+		"published": false,
+		"type": "article",
+		"id": "dokidoki-listing",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub"
+		},
+		"publishedAt": "",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "心慌列表",
+				"tags": [],
+				"articleID": "dokidoki-listing",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub",
+				"cache": "dokidoki-listing_tw",
+				"locale": "_tw"
+			}
+		}
+	},
 	"_R_K": {
 		"published": true,
 		"type": "research",
@@ -632,16 +652,15 @@
 			}
 		}
 	},
-	"_CE_2020": {
-		"published": false,
+	"ce-2020": {
+		"published": true,
 		"type": "article",
-		"id": "_CE_2020",
+		"id": "ce-2020",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub"
 		},
-		"publishedAt": "2021/6/15 14:00",
-		"path": "/ce/2020",
+		"publishedAt": "2021/7/17 16:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
@@ -652,22 +671,22 @@
 					"在地連結",
 					"民主防衛"
 				],
-				"articleID": "_CE_2020",
+				"articleID": "ce-2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
-				"publishedAt": "2021/6/15 14:00",
+				"publishedAt": "2021/7/17 16:00",
 				"locale": "_tw"
 			},
 			"_en": {
-				"title": "Fortifying and Defending Democracy Through Stronger Community Engagement",
+				"title": "Fortifying and Defending Democracy by Making Communities Stronger",
 				"subtitle": "IORG 2020 Community Engagement Report",
 				"tags": [
 					"Information literacy",
 					"Community engagement",
 					"Defending democracy"
 				],
-				"articleID": "_CE_2020",
+				"articleID": "ce-2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub",
-				"publishedAt": "2021/6/15 14:00",
+				"publishedAt": "2021/7/17 16:00",
 				"locale": "_en"
 			}
 		}
