@@ -653,7 +653,7 @@
 		}
 	},
 	"ce-2020": {
-		"published": true,
+		"published": false,
 		"type": "article",
 		"id": "ce-2020",
 		"publicURLs": {
