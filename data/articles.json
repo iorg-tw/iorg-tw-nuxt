@@ -765,6 +765,24 @@
 			}
 		}
 	},
+	"roadmap": {
+		"published": true,
+		"type": "sys",
+		"id": "roadmap",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
+		},
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 2020-2023 4 年計畫",
+				"tags": [],
+				"articleID": "roadmap",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub",
+				"locale": "_tw"
+			}
+		}
+	},
 	"glossary": {
 		"published": true,
 		"type": "sys",
@@ -788,75 +806,57 @@
 			}
 		}
 	},
-	"open": {
+	"_O": {
 		"published": true,
 		"type": "sys",
-		"id": "open",
+		"id": "_O",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
-		"updatedAt": "2021/4/18 19:00",
+		"updatedAt": "2021/7/22 21:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
-				"title": "研究成果授權公開",
+				"title": "開放 IORG",
 				"tags": [],
-				"articleID": "open",
+				"articleID": "_O",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/4/18 19:00",
+				"updatedAt": "2021/7/22 21:00",
 				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Licensing",
 				"tags": [],
-				"articleID": "open",
+				"articleID": "_O",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
 				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/4/18 19:00",
+				"updatedAt": "2021/7/22 21:00",
 				"locale": "_en"
 			}
 		}
 	},
-	"methods": {
+	"_O_RM": {
 		"published": true,
 		"type": "sys",
-		"id": "methods",
+		"id": "_O_RM",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
 		},
 		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/6/10 12:00",
+		"updatedAt": "2021/7/22 21:00",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 研究方法",
 				"subtitle": "IORG 中國對台影響力作戰研究",
 				"tags": [],
-				"articleID": "methods",
+				"articleID": "_O_RM",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/6/10 12:00",
-				"locale": "_tw"
-			}
-		}
-	},
-	"roadmap": {
-		"published": true,
-		"type": "sys",
-		"id": "roadmap",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
-		},
-		"cache": false,
-		"localizedDocs": {
-			"_tw": {
-				"title": "IORG 2020-2023 4 年計畫",
-				"tags": [],
-				"articleID": "roadmap",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub",
+				"updatedAt": "2021/7/22 21:00",
 				"locale": "_tw"
 			}
 		}
