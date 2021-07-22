@@ -3,6 +3,7 @@ module.exports = [
   { from: '/d', to: '/r' },
   { from: '/v', to: '/a' },
   { from: '/i', to: '/a' },
+  { from: '/methods', to: '/open/research-method' },
   { from: '/a/ye-da-hua', to: '/a/yeh-ta-hua' },
   { from: '/a/teng-hh', to: '/a/teng-hsi-hua' },
   { from: '/a/wang-wy', to: '/a/wang-wan-yu' },
