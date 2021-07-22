@@ -1,4 +1,44 @@
 {
+	"_DA_7": {
+		"published": true,
+		"type": "da",
+		"id": "_DA_7",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRPLVoeCPNWc8rgol07WOESbgLPJP0LMpo502jTiVLPznSV94Lu64EM6yY4cGDfPhPP5X2RDadmqmVY/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vS8yoIwZ3i6xbp6ZD-Nkmn6orKe9CsvC-sSSksAk6w3gHHqYiDW8csYsZNyBW0uqTG5qjQx6CQ2GvQZ/pub"
+		},
+		"publishedAt": "2021/7/22 12:00",
+		"path": "/da/7",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "打疫苗前不要看！13 個「不要打疫苗」的可疑理由",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 7 期 ﹏ 2021.7.12-18",
+				"coverImage": "https://lh6.googleusercontent.com/zVcjhd9sA9b9RUzDfSava-aTBOOT2EMBiTjf2rSzu8X9izNYT022b8WBocJmxfZQuiazZ_tZP46shSI6gPdjjg1vKAS4Ku5u5ZvxgjANOLP_QDzJOPIfC71-UjFgGjyveA",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_7",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRPLVoeCPNWc8rgol07WOESbgLPJP0LMpo502jTiVLPznSV94Lu64EM6yY4cGDfPhPP5X2RDadmqmVY/pub",
+				"publishedAt": "2021/7/22 12:00",
+				"cache": "_DA_7_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Keep an eye out for these 13 suspicious narratives about vaccination",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 7 ﹏ 2021.7.12-18",
+				"coverImage": "https://lh3.googleusercontent.com/wEsE9gOpHro02RIsop_DfqVdGVn0Kz1Nml1MCKWJCh7Hy2ZNPwJ_KsTqBwAr6ek-Z6WbmJiVr-gATNbAh05G3_hhw83jhl89FEFWZL0bcCaBdh1QIAPcayXwZzpP1cGvBg",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_7",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS8yoIwZ3i6xbp6ZD-Nkmn6orKe9CsvC-sSSksAk6w3gHHqYiDW8csYsZNyBW0uqTG5qjQx6CQ2GvQZ/pub",
+				"publishedAt": "2021/7/22 12:00",
+				"cache": "_DA_7_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_6": {
 		"published": true,
 		"type": "da",
