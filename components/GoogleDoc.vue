@@ -488,27 +488,37 @@ export default {
     }
   }
   .gdoc-post {
-    border: 1px solid var(--iorg-background);
-    background-color: white;
-    @include shadow;
-
     --facebook: #5252ff;
     --weibo: #ff5656;
     --line: #40dd40;
+    --border-color: var(--iorg-background);
+    --text-color: var(--iorg-text);
     &.facebook {
-      border-color: var(--facebook);
-      color: var(--facebook);
+      --border-color: var(--facebook);
+      --text-color: var(--facebook);
     }
     &.weibo {
-      border-color: var(--weibo);
-      color: var(--weibo);
+      --border-color: var(--weibo);
+      --text-color: var(--weibo);
     }
     &.line {
-      border-color: var(--line);
-      color: var(--line);
+      --border-color: var(--line);
+      --text-color: var(--line);
     }
     > .detail {
+      border: 1px solid var(--border-color);
       padding: 0.75rem;
+      color: var(--text-color);
+      background-color: white;
+      @include shadow;
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+    > .description {
+      padding: 0.75rem;
+      font-size: 0.875rem;
+      color: #646464;
       > :last-child {
         margin-bottom: 0;
       }
