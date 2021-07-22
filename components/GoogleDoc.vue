@@ -563,8 +563,8 @@ export default {
       color: var(--iorg-accent);
     }
     &.danger {
-      border-color: var(--iorg-warning);
-      color: var(--iorg-warning);
+      border-color: var(--iorg-danger);
+      color: var(--iorg-danger);
     }
   }
   .gdoc-references {
