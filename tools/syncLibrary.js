@@ -155,10 +155,10 @@ async function getEvents(rows) {
 async function get() {
   await doc.loadInfo()
   const sheetIDs = [
-    '14645087', // dict
-    '76257499', // research-tree
-    '508756665', // articles
-    '1201737578' // events
+    process.env.LIB_DICT,
+    process.env.LIB_TREE,
+    process.env.LIB_ARTICLES,
+    process.env.LIB_EVENTS
   ]
   console.info('requesting data...')
   const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
