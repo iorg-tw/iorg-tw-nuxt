@@ -1,4 +1,44 @@
 {
+	"_DA_8": {
+		"published": true,
+		"type": "da",
+		"id": "_DA_8",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT4Fk-3sIbv-9UY5v5gD9VM__7DpULx4xlYZQQDucpVD0jpiHGx_FjSdKAiWaarQcUeJ9Ec4kRWnWAP/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSPFUONWjwXBxUFwnyO3LzhhuDfO8Fn469Ex4Jt2IMx_OsjfMNVXE3-YtcdwHnjKaq4on-zY3BbOS3c/pub"
+		},
+		"publishedAt": "2021/7/29 12:00",
+		"path": "/da/8",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「病毒美國製」又來了！親中人士假借歐巴馬名義傳謠言",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 8 期 ﹏ 2021.7.19-25",
+				"coverImage": "https://lh3.googleusercontent.com/YbI0Vrz6qCCC3j_2EmWs8HjPiEUg_6QSkwxSJwhvyY_nkfsynhWfQFK8F20veDqSlBUyQHQKwUJ4Yj6BITh8TAIo3gt1QTVS8wSe0DlRDmQhK0zydAQg6yAYxfNUVLejxQ",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_8",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT4Fk-3sIbv-9UY5v5gD9VM__7DpULx4xlYZQQDucpVD0jpiHGx_FjSdKAiWaarQcUeJ9Ec4kRWnWAP/pub",
+				"publishedAt": "2021/7/29 12:00",
+				"cache": "_DA_8_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Pro-China group fake Obama’s speech about “American virus”",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 8 ﹏ 2021.7.19-25",
+				"coverImage": "https://lh6.googleusercontent.com/aq706dBOTzNVCqzCMEnhIvSahQAmxbM9v6QVZporPbIy6VC7X4mjgbLcdvuWzby1A6VKIxi9D-g-RtDCpF2bQP73tMvyDJPnyOSc0wV1Z0ZsTsgX_3X_UFp6tDGOH6TzZg",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_8",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSPFUONWjwXBxUFwnyO3LzhhuDfO8Fn469Ex4Jt2IMx_OsjfMNVXE3-YtcdwHnjKaq4on-zY3BbOS3c/pub",
+				"publishedAt": "2021/7/29 12:00",
+				"cache": "_DA_8_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_7": {
 		"published": true,
 		"type": "da",
@@ -25,7 +65,7 @@
 				"locale": "_tw"
 			},
 			"_en": {
-				"title": "Keep an eye out for these 13 suspicious narratives about vaccination",
+				"title": "Keep an eye out for these 13 suspicious “don’t get vaccinated” narratives",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 7 ﹏ 2021.7.12-18",
 				"coverImage": "https://lh5.googleusercontent.com/tHA6gBA0dWRH8EyhB0ja6497Ka5GPx-rjDfQPI7VLUYSq3NX7NQy1KIvas_i65j9xKBA0h7Tq259tLDVArHPO_uEAaq8r1Xi9StFvdpoamoXJp6LdRU8fivbUEixeDclQA",
 				"tags": [
@@ -820,6 +860,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放 IORG",
+				"coverImage": "https://lh5.googleusercontent.com/3GrSk4J9HVVcjWrXim2t-kmODeEjFAYc23CPVfcbKBWs7XLSTqfP5hmInoRNGC53JB-YL4sJWB09DPh5M5c_FMqw_VtiOghyikLt3Cx1au8WISc2smcmBhO5GyNQgp40Qg",
 				"tags": [],
 				"articleID": "_O",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
@@ -828,7 +869,8 @@
 				"locale": "_tw"
 			},
 			"_en": {
-				"title": "Licensing",
+				"title": "Open IORG",
+				"coverImage": "https://lh3.googleusercontent.com/-A9r3BAcPUIzDPA3CXz09hRQsUgbVbT-HTUo7bPtKmH11YEe5O4QipgUd39-gjpzseHqvjMJa6SVL_vN5kOVch_yAZtd9Ca47_Hz4xt26pYIwyMYpzMxrBjHUwHFcvvPxg",
 				"tags": [],
 				"articleID": "_O",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
@@ -852,6 +894,7 @@
 			"_tw": {
 				"title": "IORG 研究方法",
 				"subtitle": "IORG 中國對台影響力作戰研究",
+				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ",
 				"tags": [],
 				"articleID": "_O_RM",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
