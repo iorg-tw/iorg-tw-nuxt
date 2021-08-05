@@ -358,8 +358,11 @@ export default {
         &.yes {
           color: var(--iorg-accent);
         }
-        &.no {
+        &.nil {
           color: var(--iorg-background);
+        }
+        &.danger {
+          color: var(--iorg-danger);
         }
         &.list-set {
           > ul {
