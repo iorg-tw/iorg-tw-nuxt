@@ -1,4 +1,44 @@
 {
+	"_DA_9": {
+		"published": true,
+		"type": "da",
+		"id": "_DA_9",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTKGZ71P5YPlgTQVIenmvugym2hcrpImNy4PSFhsR-gHruj0v9-YFmz90SDmZpzCelNdhe4-31Go0Er/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSou20iZMCkm9ElMDfCnYMq2E9szE9mOwDWvtR1i8CeJAhx72j7l_ALeQX6OTAVl5gymrni7D1kHRQX/pub"
+		},
+		"publishedAt": "2021/8/5 12:00",
+		"path": "/da/9",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共東奧政治宣傳：「中国台北」取代「中華台北」、製造日本負面形象",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 9 期 ﹏ 2021.7.26-8.1",
+				"coverImage": "https://lh4.googleusercontent.com/VCZbQD25wkBRDJj0dTa_bACNxqZmCpRBKBfvb-YLGUOvoJ8o8gD7H5LL5odoifvC1bgSrAIsso1XJYrVAIvykX2f1t16psmy8jqeOJW77lOYrYUPTpP8RVxvS-mXdsaUkA",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_9",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTKGZ71P5YPlgTQVIenmvugym2hcrpImNy4PSFhsR-gHruj0v9-YFmz90SDmZpzCelNdhe4-31Go0Er/pub",
+				"publishedAt": "2021/8/5 12:00",
+				"cache": "_DA_9_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "CCP’s Olympic propaganda: China’s Taipei, Japan’s failures",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 9 ﹏ 2021.7.26-8.1",
+				"coverImage": "https://lh3.googleusercontent.com/YXeuyK-SYMu2vCXBRsB0roZjhJWv8skh7ucDkJIkiDb9ONu9jih8-IH1al7El8bwZn8jFMkvJ0GzYkbXNkLEpLQ74RfbaWfYie1y89rfDeOvwJLJKhB5RxpPHJHCXSBSJw",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_9",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSou20iZMCkm9ElMDfCnYMq2E9szE9mOwDWvtR1i8CeJAhx72j7l_ALeQX6OTAVl5gymrni7D1kHRQX/pub",
+				"publishedAt": "2021/8/5 12:00",
+				"cache": "_DA_9_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_8": {
 		"published": true,
 		"type": "da",
@@ -14,7 +54,7 @@
 			"_tw": {
 				"title": "「病毒美國製」又來了！親中人士假借歐巴馬名義傳謠言",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 8 期 ﹏ 2021.7.19-25",
-				"coverImage": "https://lh4.googleusercontent.com/Do1busHnitQ6Yu8CnQvkCUeyCI14L_9qMTOCeDNNZbRbHxW17XiAudSchAkk1JqwUBwSN5SYNx5f0vtIop01ZIKTbipYqziLdXT8Ubvb-Wr79FFDVOId2ypRaBkMAVLtGg",
+				"coverImage": "https://lh5.googleusercontent.com/0rASPoX34SwH5CDrILo7qSOmnq4hMnJy5PFmBE8NJCglXEHysL22k3ZZOTC7FuLGhSQQOzBNcXYFyf_N8b4IWLugjrwePtMzVtKXXJCWL8JqQBz2_KiAaWDDYraS7XojDg",
 				"tags": [
 					"心慌週報"
 				],
@@ -25,9 +65,9 @@
 				"locale": "_tw"
 			},
 			"_en": {
-				"title": "Pro-China group fakes Obama’s speech about “American virus”",
+				"title": "Pro-China Taiwanese group fakes Obama’s speech about “American virus”",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 8 ﹏ 2021.7.19-25",
-				"coverImage": "https://lh6.googleusercontent.com/bZZZ4OMaRt_torOfCg05vLJmJbs0HLf9w63tefsmKVTLPmS-toe9b7GrscGQGCBdPcrIcksGXs_T1uhjC8TT1T-UcKJ6-l00DtAN3lW9jSRApBfwsN3qHPBvB9qARUyeBQ",
+				"coverImage": "https://lh3.googleusercontent.com/EWRjrfoDdAzfe5tlJ2RsntI7z76wn507KT68EXI0g12dlk368Sz2ZDw4VkMrRdqvq_knga_4jw29PWViTbCoUPpNLTACMXcGnUFMAteQn-egg9X-0EopZhBH-CEF60TAJA",
 				"tags": [
 					"Dokidoki Alert"
 				],
