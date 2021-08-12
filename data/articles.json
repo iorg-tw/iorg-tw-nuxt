@@ -1,4 +1,44 @@
 {
+	"_DA_10": {
+		"published": true,
+		"type": "da",
+		"id": "_DA_10",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQGJ8fv6Wjir7kBGl9fk6Gz4hr2YwdAzjyUV2oIRuwpbswd9lOOgG8U6Mtw5sseBU-JjtjABsyyuF9d/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTICL0brktNVAJ_Ujfg_Q5x0kgwJcFcZgfJJOAVl_twBzrr28EJAbkOSgpRZX_zquqF7r2XpIg8uZr6/pub"
+		},
+		"publishedAt": "2021/8/12 12:00",
+		"path": "/da/10",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共官媒以網友留言代表台灣，評論美台軍售：「要疫苗不要武器」",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 10 期 ﹏ 2021.8.2-8",
+				"coverImage": "https://lh5.googleusercontent.com/KnKg8fpjk7UyiScGPicHNYVzSeQcGG-or-6iBm4WZJ4O2VUxxAznKod4WR7H1nAdswcuqSZEKPK-roN5w18CmG7SkzcSD__5bvqnqHhLrjY9AVmbB_WoUlZXXBbaWrKNew",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_10",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQGJ8fv6Wjir7kBGl9fk6Gz4hr2YwdAzjyUV2oIRuwpbswd9lOOgG8U6Mtw5sseBU-JjtjABsyyuF9d/pub",
+				"publishedAt": "2021/8/12 12:00",
+				"cache": "_DA_10_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "CCP propaganda quotes internet comment, claiming TW people “want vaccines, not weapons”",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 10 ﹏ 2021.8.2-8",
+				"coverImage": "https://lh3.googleusercontent.com/tDnxb1E06BTCuWQERcsdT3fl4y6tmYroip52gFmo1SoGr6MuRa7PvmtvELeSFagxX0uW3xUxP3ZRsx21Kcbu6wUq2WvMF-rbEk5YYNQF-oRAINNsrDqkFwbJBtum5-F8Qw",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_10",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTICL0brktNVAJ_Ujfg_Q5x0kgwJcFcZgfJJOAVl_twBzrr28EJAbkOSgpRZX_zquqF7r2XpIg8uZr6/pub",
+				"publishedAt": "2021/8/12 12:00",
+				"cache": "_DA_10_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_9": {
 		"published": true,
 		"type": "da",
