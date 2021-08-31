@@ -1,4 +1,47 @@
 {
+	"ce-2020": {
+		"published": true,
+		"type": "article",
+		"id": "ce-2020",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub"
+		},
+		"publishedAt": "2021/8/30 13:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "68 場資訊判讀工作坊：更有力的在地連結，更堅強的民主防衛",
+				"subtitle": "IORG 2020 在地連結成果報告",
+				"coverImage": "https://lh4.googleusercontent.com/pnzjBigmhHowa-6VC2sP_iNU_H6AfMztTWdvxfkh88Jkl7FusJ6B0JfSZ7nmECLuFk_y3h5UajyWxpDBvrPWP9DkEYavZS1eecQftwMMXo03qBy5GEWQTUTvHRpqSpPIhg=s0",
+				"tags": [
+					"資訊判讀",
+					"在地連結",
+					"民主防衛"
+				],
+				"articleID": "ce-2020",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
+				"publishedAt": "2021/8/30 13:00",
+				"cache": "ce-2020_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "68 workshops to fortify communities and defend democracy",
+				"subtitle": "IORG 2020 Community Engagement Report",
+				"coverImage": "https://lh6.googleusercontent.com/DoLFCIec2IwFMpXao-nYOtzCS4k6XIQRc70rvAnwH_az_hPG_ckLBoJ2Q1p5IN1O5XdHK1kzZlGkVPjHETxEvnFqk1hldQJGLFbmAoxL07GJYfIcOtPWGMJXp7AQCR7YhQ=s0",
+				"tags": [
+					"Information literacy",
+					"Community engagement",
+					"Defending democracy"
+				],
+				"articleID": "ce-2020",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub",
+				"publishedAt": "2021/8/30 13:00",
+				"cache": "ce-2020_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_10": {
 		"published": true,
 		"type": "da",
@@ -809,49 +852,6 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRo4uSYCEwhsv8F8cihEiYZlveAHxoLvV_RrQdajc-GBQULMIz1rmNPo9YpfPU7qSdS1I160yurkb_C/pub",
 				"publishedAt": "2021/3/4 12:00",
 				"locale": "_tw"
-			}
-		}
-	},
-	"ce-2020": {
-		"published": true,
-		"type": "article",
-		"id": "ce-2020",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub"
-		},
-		"publishedAt": "2021/8/30 13:00",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "68 場資訊判讀工作坊：更有力的在地連結，更堅強的民主防衛",
-				"subtitle": "IORG 2020 在地連結成果報告",
-				"coverImage": "https://lh5.googleusercontent.com/TjFkrbmmhKRgskdwlrZ5kYraEojgFt36_7kY2B_V7lb0o14_saPDfM1bOZ-H6Gyp-zz_43PTtgQY3-LXPzXJCPu39NvQB_OvhcdtNkfkJed4weOiH9URhK4wLO-WePqYdw=s0",
-				"tags": [
-					"資訊判讀",
-					"在地連結",
-					"民主防衛"
-				],
-				"articleID": "ce-2020",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
-				"publishedAt": "2021/8/30 13:00",
-				"cache": "ce-2020_tw",
-				"locale": "_tw"
-			},
-			"_en": {
-				"title": "68 Workshops to Fortify Communities and Defend Democracy",
-				"subtitle": "IORG 2020 Community Engagement Report",
-				"coverImage": "https://lh3.googleusercontent.com/tQSmuHH8pJ5MgNKCT_wqTzPgcHzMr8_k5WCKjojystUJiBF3lw5IGmecis-PlfxBIbGyf5-8JJ6-UTQ_j8gd4KSR01S_q7pj3No5J8ujVF7yHW_CMBQ-TvUrtWtAb0OT0Q=s0",
-				"tags": [
-					"Information literacy",
-					"Community engagement",
-					"Defending democracy"
-				],
-				"articleID": "ce-2020",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub",
-				"publishedAt": "2021/8/30 13:00",
-				"cache": "ce-2020_en",
-				"locale": "_en"
 			}
 		}
 	},
