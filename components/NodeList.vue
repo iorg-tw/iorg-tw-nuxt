@@ -41,7 +41,7 @@ export default {
     align-items: flex-start;
     > .cover {
       width: 120px;
-      border-radius: 0.5rem;
+      border-radius: 0.75rem;
       @include shadow;
     }
     > .detail {
