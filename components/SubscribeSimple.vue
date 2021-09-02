@@ -44,9 +44,10 @@ export default {
   > .form-container {
     width: 100%;
     height: 300px;
-    outline: 2px solid var(--iorg-accent);
     margin: 0.5rem 0;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 0 2px var(--iorg-accent); // instead of outline
+    transform: translateX(0); // HACK!
     overflow: hidden;
     > iframe {
       width: 320px + 24px;

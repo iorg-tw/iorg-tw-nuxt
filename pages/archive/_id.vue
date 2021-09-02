@@ -105,7 +105,7 @@ export default {
     margin: $m 0 0;
     padding: $m;
     background-color: var(--iorg-paper);
-    border-radius: 0.25rem;
+    border-radius: 2px;
     @include shadow;
     > .ioid {
       font-size: 0.75rem;

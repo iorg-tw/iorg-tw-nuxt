@@ -106,7 +106,7 @@ export default {
       padding: 0.5rem 0.75rem;
       background: rgba($accent, 0.25);
       border: 1px solid rgba($accent, 0.25);
-      border-radius: 0.5rem;
+      border-radius: 0.75rem;
       font-size: 0.875rem;
       color: $accent-dark;
       > .content {
