@@ -62,7 +62,7 @@ export default {
         flag = flag && this.type.includes(a.type)
       }
       if(!this.showAll) {
-        flag = flag && a.published
+        flag = flag && a.show
       }
       return flag
     }).map(k => ({ [k]: allArticles[k] })))

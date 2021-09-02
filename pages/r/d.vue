@@ -40,7 +40,7 @@ export default {
   async asyncData({ app }) {
     const [doc] = await getLocalizedArticles([CONST.id], app.i18n.locale, app.i18n.defaultLocale)
     const structuredDoc = structureDoc(doc.html, ['h2', 'h3'])
-    const nodes = tree.filter(node => node.parentID === CONST.id)
+    const nodes = tree.filter(node => node.parent === CONST.id)
     return {
       doc,
       structuredDoc,

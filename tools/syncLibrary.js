@@ -18,8 +18,9 @@ const defaultCover = '/images/covers/0-h.png'
 
 function makeLangFile(rows, locale) {
   return [
+    '/* eslint-disable quote-props */',
     'export default {',
-    ...rows.map((row, i) => '  ' + `${row.id}: '${row[locale]}'` + (i < rows.length - 1 ? ',' : '')),
+    ...rows.map((row, i) => '  ' + `'${row.id}': '${row[locale]}'` + (i < rows.length - 1 ? ',' : '')),
     '}',
     ''
   ].join('\n')
@@ -38,19 +39,18 @@ async function getDict(rows) {
 async function getTree(rows) {
   result = rows.map(row => ({
     id: row.id,
-    path: row.path,
     level: +row.level,
-    ...(ok(row.parentID) ? { parentID: row.parentID } : {}),
+    ...(ok(row.parent) ? { parent: row.parent } : {}),
     code: row.code,
     image: row.image ? row.image : defaultCover,
-    ...(ok(row.isGenericArticle) ? { isGenericArticle: true } : {})
+    ...(ok(row.path) ? { path: row.path } : {}),
   }))
   fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
 }
 
 async function getArticles(rows) {
   rows = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
-    published: row.published ? true : false,
+    show: row.show ? true : false,
     type: row.type,
     id: row.id,
     publicURLs: {
@@ -64,6 +64,37 @@ async function getArticles(rows) {
     localizedDocs: {}
   }))
 
+  // id -> path = idMap
+  // path -> id = pathMap
+  const idMap = {}
+  const pathMap = {}
+  rows.forEach(row => {
+    let path = row.path
+    if(path !== undefined) {
+      pathMap[path] = row.id
+    }
+    if(['article', 'video'].includes(row.type) && row.show === true) {
+      path = '/a/' + row.id
+    }
+    if(path !== undefined) {
+      idMap[row.id] = path
+    }
+  })
+  fs.writeFileSync('data/paths.json', JSON.stringify(pathMap, null, '\t'))
+  console.info('paths.json updated')
+
+  // update trees
+  const researchTree = JSON.parse(fs.readFileSync('data/research-tree.json', 'utf8'))
+  for(let i = 0; i < researchTree.length; i++) {
+    let node = researchTree[i]
+    if(node.path === undefined && idMap[node.id] !== undefined) {
+      node.path = idMap[node.id]
+    }
+  }
+  fs.writeFileSync('data/research-tree.json', JSON.stringify(researchTree, null, '\t'))
+  console.info('research-tree.json updated')
+
+  // get article metadata
   for(let i = 0; i < rows.length; i++) {
     const row = rows[i]
     const locales = Object.keys(row.publicURLs)
@@ -95,6 +126,7 @@ async function getArticles(rows) {
   }
   const result = Object.assign({}, ...rows.map(row => ({ [row.id]: row })))
   fs.writeFileSync('data/articles.json', JSON.stringify(result, null, '\t'))
+  console.info('articles.json updated')
 }
 
 async function getEvents(rows) {

@@ -5,8 +5,7 @@
 </template>
 
 <script>
-import articleMap from '~/data/articles'
-import tree from '~/data/research-tree'
+import pathMap from '~/data/paths'
 import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
@@ -15,15 +14,14 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ app, params, error }) {
-    const id = params.id
-    const path = '/r/' + id
-    const matchingNodes = tree.filter(node => node.path === path && node.isGenericArticle && articleMap[node.id] && articleMap[node.id].publicURLs._tw)
-    if(matchingNodes.length < 1) {
+  async asyncData({ app, route, error }) {
+    const path = route.path
+    const id = pathMap[path]
+    if(!id) {
       error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
-    const [doc] = await getLocalizedArticles([matchingNodes[0].id], app.i18n.locale, app.i18n.defaultLocale)
+    const [doc] = await getLocalizedArticles([id], app.i18n.locale, app.i18n.defaultLocale)
     return {
       doc
     }
