@@ -1021,7 +1021,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
 		},
 		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/7/22 21:00",
+		"updatedAt": "2021/9/7 16:30",
 		"path": "/open/research-method",
 		"cache": false,
 		"localizedDocs": {
@@ -1033,7 +1033,7 @@
 				"articleID": "_O_RM",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/7/22 21:00",
+				"updatedAt": "2021/9/7 16:30",
 				"locale": "_tw"
 			}
 		}
@@ -1048,6 +1048,7 @@
 		},
 		"publishedAt": "2020/7/3 18:00",
 		"updatedAt": "2021/2/27 0:30",
+		"path": "/about",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
