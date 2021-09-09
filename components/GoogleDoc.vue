@@ -139,8 +139,13 @@ export default {
     a.ioid {
       border-bottom-width: 1px;
       font-size: 0.625rem;
+      line-height: 0.75rem;
+      vertical-align: baseline;
       color: var(--iorg-neutral);
       white-space: nowrap;
+      & > span + span {
+        display: none;
+      }
     }
     .sticker {
       display: inline-block;
