@@ -42,6 +42,29 @@
 			}
 		}
 	},
+	"dokidoki-listing": {
+		"show": false,
+		"type": "article",
+		"id": "dokidoki-listing",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub"
+		},
+		"publishedAt": "2021/7/24 12:00",
+		"updatedAt": "2021/9/10 8:30",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "心慌列表",
+				"tags": [],
+				"articleID": "dokidoki-listing",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub",
+				"publishedAt": "2021/7/24 12:00",
+				"updatedAt": "2021/9/10 8:30",
+				"cache": "dokidoki-listing_tw",
+				"locale": "_tw"
+			}
+		}
+	},
 	"_DA_10": {
 		"show": true,
 		"type": "da",
@@ -51,6 +74,7 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vTICL0brktNVAJ_Ujfg_Q5x0kgwJcFcZgfJJOAVl_twBzrr28EJAbkOSgpRZX_zquqF7r2XpIg8uZr6/pub"
 		},
 		"publishedAt": "2021/8/12 12:00",
+		"updatedAt": "2021/9/10 8:30",
 		"path": "/da/10",
 		"cache": true,
 		"localizedDocs": {
@@ -64,6 +88,7 @@
 				"articleID": "_DA_10",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQGJ8fv6Wjir7kBGl9fk6Gz4hr2YwdAzjyUV2oIRuwpbswd9lOOgG8U6Mtw5sseBU-JjtjABsyyuF9d/pub",
 				"publishedAt": "2021/8/12 12:00",
+				"updatedAt": "2021/9/10 8:30",
 				"cache": "_DA_10_tw",
 				"locale": "_tw"
 			},
@@ -77,6 +102,7 @@
 				"articleID": "_DA_10",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTICL0brktNVAJ_Ujfg_Q5x0kgwJcFcZgfJJOAVl_twBzrr28EJAbkOSgpRZX_zquqF7r2XpIg8uZr6/pub",
 				"publishedAt": "2021/8/12 12:00",
+				"updatedAt": "2021/9/10 8:30",
 				"cache": "_DA_10_en",
 				"locale": "_en"
 			}
@@ -91,6 +117,7 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vSou20iZMCkm9ElMDfCnYMq2E9szE9mOwDWvtR1i8CeJAhx72j7l_ALeQX6OTAVl5gymrni7D1kHRQX/pub"
 		},
 		"publishedAt": "2021/8/5 12:00",
+		"updatedAt": "2021/9/10 8:30",
 		"path": "/da/9",
 		"cache": true,
 		"localizedDocs": {
@@ -104,6 +131,7 @@
 				"articleID": "_DA_9",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTKGZ71P5YPlgTQVIenmvugym2hcrpImNy4PSFhsR-gHruj0v9-YFmz90SDmZpzCelNdhe4-31Go0Er/pub",
 				"publishedAt": "2021/8/5 12:00",
+				"updatedAt": "2021/9/10 8:30",
 				"cache": "_DA_9_tw",
 				"locale": "_tw"
 			},
@@ -117,6 +145,7 @@
 				"articleID": "_DA_9",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSou20iZMCkm9ElMDfCnYMq2E9szE9mOwDWvtR1i8CeJAhx72j7l_ALeQX6OTAVl5gymrni7D1kHRQX/pub",
 				"publishedAt": "2021/8/5 12:00",
+				"updatedAt": "2021/9/10 8:30",
 				"cache": "_DA_9_en",
 				"locale": "_en"
 			}
@@ -442,27 +471,6 @@
 				"publishedAt": "2021/6/10 12:00",
 				"cache": "_DA_1_en",
 				"locale": "_en"
-			}
-		}
-	},
-	"dokidoki-listing": {
-		"show": false,
-		"type": "article",
-		"id": "dokidoki-listing",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub"
-		},
-		"publishedAt": "2021/7/24 12:00",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "心慌列表",
-				"tags": [],
-				"articleID": "dokidoki-listing",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub",
-				"publishedAt": "2021/7/24 12:00",
-				"cache": "dokidoki-listing_tw",
-				"locale": "_tw"
 			}
 		}
 	},
@@ -941,7 +949,8 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
 		},
-		"publishedAt": "",
+		"publishedAt": "2021/4/1 12:00",
+		"updatedAt": "2021/9/10 8:30",
 		"path": "/roadmap",
 		"cache": false,
 		"localizedDocs": {
@@ -950,6 +959,8 @@
 				"tags": [],
 				"articleID": "roadmap",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub",
+				"publishedAt": "2021/4/1 12:00",
+				"updatedAt": "2021/9/10 8:30",
 				"locale": "_tw"
 			}
 		}
