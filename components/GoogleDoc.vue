@@ -174,7 +174,7 @@ export default {
       }
       &.fb > div {
         padding: 0.25rem 0.375rem;
-        background-color: blue;
+        background-color: #1877F2;
         font-size: 0.625rem;
         color: white;
       }
