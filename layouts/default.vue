@@ -34,5 +34,16 @@ export default {
   --iorg-alert: #FFCB00;
   --iorg-bad: #FF8F00;
   --iorg-danger: #FF2828;
+
+  --fb: #3C30F4;
+  --wb: #FF3232;
+  --ccp: #FF6464;
+  --ccp-affiliated: #FFA4A4;
+  --china: #FFA4A4;
+
+  --kmt: #C0C0FF;
+  --dpp: #99FF99;
+  --pfp: #FFCF78;
+  --np: #FFFF64;
 }
 </style>

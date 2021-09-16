@@ -173,29 +173,36 @@ export default {
         border: 1px solid var(--iorg-accent);
       }
       &.fb > div {
-        padding: 0.25rem 0.375rem;
-        background-color: #1877F2;
-        font-size: 0.625rem;
+        width: 1.375rem;
+        padding: 0.375rem 0;
+        text-align: center;
+        background-color: var(--fb);
         color: white;
+        font-size: 0.625rem;
+        line-height: 1;
       }
       &.wb > div {
-        padding: 0.25rem 0.375rem;
-        background-color: #FF6464;
+        width: 1.375rem;
+        padding: 0.25rem 0;
+        text-align: center;
+        background-color: white;
+        border: 0.125rem solid var(--wb);
         font-size: 0.625rem;
+        line-height: 1;
       }
       &.ccp > div {
         padding: 0.25rem 0.375rem;
-        background-color: #FF6464;
+        background-color: var(--ccp);
         font-size: 0.625rem;
       }
       &.red > div {
         padding: 0.25rem 0.375rem;
-        background-color: #FF6464;
+        background-color: var(--ccp-affiliated);
         font-size: 0.625rem;
       }
       &.pink > div {
         padding: 0.25rem 0.375rem;
-        background-color: #FFA4A4;
+        background-color: var(--china);
         font-size: 0.625rem;
       }
     }
@@ -446,28 +453,28 @@ export default {
               background-color: #ccc;
               border-radius: 1rem;
               &.ccp {
-                background-color: #FF6464;
+                background-color: var(--ccp);
               }
               &.red {
-                background-color: #FFA4A4;
+                background-color: var(--ccp-affiliated);
               }
               &.pink {
-                background-color: #FFA4A4;
+                background-color: var(--china);
               }
               &.china {
-                background-color: #FFA4A4;
+                background-color: var(--china);
               }
               &.kmt {
-                background-color: #C0C0FF;
+                background-color: var(--kmt);
               }
               &.dpp {
-                background-color: #99FF99;
+                background-color: var(--dpp);
               }
               &.pfp {
-                background-color: #FFCF78;
+                background-color: var(--pfp);
               }
               &.np {
-                background-color: #FFFF64;
+                background-color: var(--np);
               }
             }
           }
