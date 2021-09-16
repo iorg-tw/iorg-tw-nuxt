@@ -172,6 +172,32 @@ export default {
         background-color: white;
         border: 1px solid var(--iorg-accent);
       }
+      &.fb > div {
+        padding: 0.25rem 0.375rem;
+        background-color: blue;
+        font-size: 0.625rem;
+        color: white;
+      }
+      &.wb > div {
+        padding: 0.25rem 0.375rem;
+        background-color: #FF6464;
+        font-size: 0.625rem;
+      }
+      &.ccp > div {
+        padding: 0.25rem 0.375rem;
+        background-color: #FF6464;
+        font-size: 0.625rem;
+      }
+      &.red > div {
+        padding: 0.25rem 0.375rem;
+        background-color: #FF6464;
+        font-size: 0.625rem;
+      }
+      &.pink > div {
+        padding: 0.25rem 0.375rem;
+        background-color: #FFA4A4;
+        font-size: 0.625rem;
+      }
     }
     h2 .sticker {
       display: block;
@@ -421,6 +447,12 @@ export default {
               border-radius: 1rem;
               &.ccp {
                 background-color: #FF6464;
+              }
+              &.red {
+                background-color: #FFA4A4;
+              }
+              &.pink {
+                background-color: #FFA4A4;
               }
               &.china {
                 background-color: #FFA4A4;
