@@ -1,4 +1,45 @@
 {
+	"_DA_11": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_11",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRnsRyfw-rWNMR_bgjk1YxGfBcm-EzZvrjwgyuPfIKL9nIAEgb2djYpBeTtXusZ3-lk2t26rSCgV_vP/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vQkke6u4-Xpatgex8_rnjiCDE02xXO7TAv9SYRUvIyDmMxBNxoA67Woa8unGP5G2JEZV2-N7Q-HAjzR/pub"
+		},
+		"publishedAt": "2021/9/16 12:00",
+		"path": "/da/11",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "8 月阿富汗出大事：台灣民間發起、中共官媒接棒，另類「官民」協力傳播「疑美論」",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 11 期 ﹏ 2021.8.1-31",
+				"coverImage": "https://lh4.googleusercontent.com/vBFpcvLPOaW1ZSHv_eh-fDI6Ju6obFpd8-FVP8egk22lLuQNMhuq-TOJN62cP6wQM_j4daZd1EPDixNCOSxD16TUK_kSxvT14NI4oERq0456N8rDFSqrLnCm58woOgfIuA=s0",
+				"summary": "2021 年 8 月，美軍撤離阿富汗，引起台灣社會對美國是否也會放棄台灣的爭論。例如「今日阿富汗、明日台灣」、「阿富汗是台灣的前車之鑑」這樣的論述可能並非由中國發起，而是來自台灣內部，中共再針對特定論述協力傳播，分化台美關係、指責美國為動亂的源頭。從阿富汗事件的例子來看，中共的資訊操弄並非僅有一種特定模式，也可能轉為協力者，甚至藉由台灣媒體與中共官媒之間的「交互引用」擴大傳播。另一方面，從訊息數量佔每日比例來看，疑美論在 8 月 15 日開始快速增加並佔多數，但是 8 月 20 日以後反對疑美論則大幅反超，其內容多為分享美國總統拜登對台承諾的發言。可見反駁疑美論的最有力論述，還是來自美國的官方承諾。",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_11",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRnsRyfw-rWNMR_bgjk1YxGfBcm-EzZvrjwgyuPfIKL9nIAEgb2djYpBeTtXusZ3-lk2t26rSCgV_vP/pub",
+				"publishedAt": "2021/9/16 12:00",
+				"cache": "_DA_11_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Taiwanese U.S. skepticism, CCP follows",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 11 ﹏ 2021.8.1-31",
+				"coverImage": "https://lh6.googleusercontent.com/QErmIdyqdqpt1C6z4ZXH_fQHKkDg4bbYC3NlcGPjunRGtQ5NaZ8T2BO0CfwINIKopS3JQ5KGIq-fkC6S5Uiah7M943hnmEqYukTSrlg4yo10qNA45FOlbFpvBop14hCQ8Q=s0",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_11",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQkke6u4-Xpatgex8_rnjiCDE02xXO7TAv9SYRUvIyDmMxBNxoA67Woa8unGP5G2JEZV2-N7Q-HAjzR/pub",
+				"publishedAt": "2021/9/16 12:00",
+				"cache": "_DA_11_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"ce-2020": {
 		"show": true,
 		"type": "article",
