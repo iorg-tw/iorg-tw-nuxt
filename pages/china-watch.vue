@@ -1,12 +1,12 @@
 <i18n lang="yaml">
 _tw:
-  chinaWatch: "中國觀察清單"
+  chinaWatch: "IORG 中國觀察清單"
   licensing: "IORG 中國觀察清單以「創用 CC 姓名標示 4.0 IORG 及匿名貢獻者」條款授權釋出。"
   add: "你可以用下方的表單增加新的觀察對象，IORG 研究員會確認你提供的資訊，並將新的觀察對象加入清單。"
 _en:
-  chinaWatch: "China Watch List"
-  licensing: "IORG China Watch List is released under a CC BY 4.0 IORG & Anonymous Contributors license."
-  add: "You can add a new target with the form below. IORG researcher will verify information you provided, and add new target the List."
+  chinaWatch: "IORG China Watch List"
+  licensing: "Content of IORG China Watch List is released under a CC BY 4.0 IORG & Anonymous Contributors license."
+  add: "You can contribute to this list with the form below. IORG researcher will verify information provided, and add new targets to the List."
 </i18n>
 
 <template>
