@@ -41,20 +41,22 @@ export default {
   > .description {
     margin-bottom: 0.25rem;
   }
+  $y1: 20px;
+  $y2: -8px;
   > .form-container {
     width: 100%;
-    height: 300px;
+    height: 320px + $y1;
     margin: 0.5rem 0;
     border-radius: 0.75rem;
     box-shadow: 0 0 0 2px var(--iorg-accent); // instead of outline
     transform: translateX(0); // HACK!
     overflow: hidden;
     > iframe {
-      width: 320px + 24px;
-      height: 385px;
-      border: 0;
+      width: 480px;
+      height: 404px + $y1 - $y2;
+      margin-top: -84px + $y2;
       margin-left: 0px;
-      margin-top: -85px;
+      border: 0;
     }
   }
   > .privacy {
