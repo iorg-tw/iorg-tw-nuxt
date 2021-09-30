@@ -1,4 +1,44 @@
 {
+	"_DA_12": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_12",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTRYkoqoyzTgXpfsDyIZB-kJ0pw6tRDMrLFab1Z-2UdTFEGmml6FXnBiMTWQAurwIFQJlPZRSZHk3ox/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vS-OEhcDTKWeBTKc_ha0lvER2A_SqLb0B601AccN8IUU3o5Jx6euQrjtsODDTi2wj6w5QuzAaaI6a9D/pub"
+		},
+		"publishedAt": "2021/9/30 12:00",
+		"path": "/da/12",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共對台疫苗論述分工：官方宣傳、官媒操弄",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 12 期 ﹏ 2021.4.1-8.31",
+				"coverImage": "https://lh6.googleusercontent.com/o6nNAyneBhPMP7tsMHpn4mfhbbuH5PII6e1EO0oXef3MshjbF4nZ-P1WsdmCG7I9rO5w3JOi3bknVn_ISsfB90Io1wpXAPFOaaersgtofmuQ6CmTBlU8BOrYkeqCuRP3pg=s0",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_12",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTRYkoqoyzTgXpfsDyIZB-kJ0pw6tRDMrLFab1Z-2UdTFEGmml6FXnBiMTWQAurwIFQJlPZRSZHk3ox/pub",
+				"publishedAt": "2021/9/30 12:00",
+				"cache": "_DA_12_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "China’s division of labor on vaccine narratives against Taiwan: state’s propaganda & state media’s information manipulation",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 12 ﹏ 2021.4.1-8.31",
+				"coverImage": "https://lh5.googleusercontent.com/UoiFu876RhAeGpPZDEEcNYP_hnJ5W2aQX1Dfhz3GlTvrf2Q8SDZUJ3q7WOe9k7DSUPTD-vWqslooAi8MQLLxLQpt0A20_miZZjRr8lv3pTZ15tW55MPRIOjouQ-bG0xtOw=s0",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_12",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS-OEhcDTKWeBTKc_ha0lvER2A_SqLb0B601AccN8IUU3o5Jx6euQrjtsODDTi2wj6w5QuzAaaI6a9D/pub",
+				"publishedAt": "2021/9/30 12:00",
+				"cache": "_DA_12_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_11": {
 		"show": true,
 		"type": "da",
