@@ -240,8 +240,6 @@ export default {
     }
     .gdoc-list-set {
       list-style: none;
-      margin: 0;
-      padding: 0;
       display: flex;
       flex-wrap: wrap;
       line-height: $line-height-compact;

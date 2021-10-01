@@ -1,4 +1,30 @@
 {
+	"_O_RM": {
+		"show": false,
+		"type": "sys",
+		"id": "_O_RM",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
+		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2021/10/1 12:00",
+		"path": "/open/research-method",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 研究方法",
+				"subtitle": "IORG 中國對台影響力作戰研究",
+				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ=s0",
+				"tags": [],
+				"articleID": "_O_RM",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/10/1 12:00",
+				"cache": "_O_RM_tw",
+				"locale": "_tw"
+			}
+		}
+	},
 	"_DA_12": {
 		"show": true,
 		"type": "da",
@@ -14,7 +40,7 @@
 			"_tw": {
 				"title": "中共對台疫苗論述分工：官方宣傳、官媒操弄",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 12 期 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh6.googleusercontent.com/o6nNAyneBhPMP7tsMHpn4mfhbbuH5PII6e1EO0oXef3MshjbF4nZ-P1WsdmCG7I9rO5w3JOi3bknVn_ISsfB90Io1wpXAPFOaaersgtofmuQ6CmTBlU8BOrYkeqCuRP3pg=s0",
+				"coverImage": "https://lh6.googleusercontent.com/pHtmjcB6oaB_tzAiKQMElWv2K1Ej4LD_Ksdled8AEVMYkrG5qKyTS8imlhSDU6mglICuIkEVEM_Z8L94NROsoJt4HJN1PMrN1ccm5UxXwuXNp-i6JkDPBWlnHN87D-ZVdA=s0",
 				"tags": [
 					"心慌週報"
 				],
@@ -26,8 +52,8 @@
 			},
 			"_en": {
 				"title": "China’s division of labor on vaccine narratives against Taiwan: state’s propaganda & state media’s information manipulation",
-				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 12 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh5.googleusercontent.com/UoiFu876RhAeGpPZDEEcNYP_hnJ5W2aQX1Dfhz3GlTvrf2Q8SDZUJ3q7WOe9k7DSUPTD-vWqslooAi8MQLLxLQpt0A20_miZZjRr8lv3pTZ15tW55MPRIOjouQ-bG0xtOw=s0",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 12 ﹏ 2021.4.1-8.31",
+				"coverImage": "https://lh3.googleusercontent.com/IRFpbdO_7DH179sKf7GwvPdUbKgVQOVFCCFMazGCHY7KIl0xMjd7pbOzXqCa-XnbZkvQwYiyBX44-d8G3VpMdGv2vkkdy_cmjyVipQTCUCMkKT5VqYga5V8tYnJlDhV3LQ=s0",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -67,7 +93,7 @@
 			},
 			"_en": {
 				"title": "U.S. skepticism originates from Taiwan, CCP follows, amid U.S. Afghan withdrawal",
-				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 11 ﹏ 2021.8.1-31",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 11 ﹏ 2021.8.1-31",
 				"coverImage": "https://lh4.googleusercontent.com/5hE57iEqkwMHtmgCnOwYG3RtpUfCoi71l-hp4Hj8aMsq9606UC8tzaYxbuGcNDqIHvhxbJONH8vmw7zxNEU3nAgkk-7lxyRHJHUfA-kd951Ui_CBA-CdUuM74wrKSo_pFA=s0",
 				"tags": [
 					"Dokidoki Alert"
@@ -1102,31 +1128,6 @@
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/7/22 21:00",
 				"locale": "_en"
-			}
-		}
-	},
-	"_O_RM": {
-		"show": false,
-		"type": "sys",
-		"id": "_O_RM",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
-		},
-		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/9/7 16:30",
-		"path": "/open/research-method",
-		"cache": false,
-		"localizedDocs": {
-			"_tw": {
-				"title": "IORG 研究方法",
-				"subtitle": "IORG 中國對台影響力作戰研究",
-				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ=s0",
-				"tags": [],
-				"articleID": "_O_RM",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/9/7 16:30",
-				"locale": "_tw"
 			}
 		}
 	},
