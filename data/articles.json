@@ -1,4 +1,28 @@
 {
+	"pub-0-intro": {
+		"show": false,
+		"type": "article",
+		"id": "pub-0-intro",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS5GOnoXAWKZE5QZn4vVIPFRdNdJ5tLHCICmcmRldSc7B26zQ_lR2On-Q3VRGWX9g/pub"
+		},
+		"publishedAt": "2021/10/8 12:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 發論文！2020 上半年 COVID-19 謠言分群及案例分析",
+				"coverImage": "https://lh6.googleusercontent.com/CbvPpPGzS2TBovaLbX1sX1BmUvIm4mMUmNhujZrnduVI_fj0ZnOO2EsBbBfAeD4hi6QmbH3ZJ6OcAlhEL27JsTgc5pT8v6Q-SW3LS19i3YSiJByjiq2GFEE=s0",
+				"summary": "當代，許多人習慣利用社交媒體平台取得新聞、醫療健康資訊。2020 年起，COVID-19 疫情肆虐全球，許多關於疫情的訊息，無論內容正確與否，在社交媒體平台上廣為流傳。目前，已有許多學術研究論文，利用機器學習、深度學習研究關於疫情的訊息內容及傳播，不過，絕大部分都是針對公開平台像是 Twitter、Facebook 所做的研究。IORG 希望能更深入瞭解封閉平台上疫情「謠言」的傳播情形，因此，我們選擇台灣人最常使用的通訊軟體 LINE，在 2021 年完成研究，是我國第一篇，關於 COVID-19、針對封閉平台、發表於國際醫學期刊的學術論文。",
+				"tags": [
+					"資料科學"
+				],
+				"articleID": "pub-0-intro",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS5GOnoXAWKZE5QZn4vVIPFRdNdJ5tLHCICmcmRldSc7B26zQ_lR2On-Q3VRGWX9g/pub",
+				"publishedAt": "2021/10/8 12:00",
+				"locale": "_tw"
+			}
+		}
+	},
 	"_O_RM": {
 		"show": false,
 		"type": "sys",
