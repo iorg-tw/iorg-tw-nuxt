@@ -1,4 +1,44 @@
 {
+	"_DA_13": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_13",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS1eKpcBu1XmRHChN18K5RrRzwbw0yd0Q1uPSK7UZqgwaRh55mIJx1_cnlU8MnpMqaZSIvjsk5qg3Ju/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vQzYq10geheZdSyIZvKFM5Iuvzx-y-TUcIKvMVKZ_yUgcJAf68abCGw7ClYdhOJjPZjnGubEvLiO2V9/pub"
+		},
+		"publishedAt": "2021/10/7 13:00",
+		"path": "/da/13",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "跑跑資料：疫苗傳播熱度、內容來源分析",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 13 期 ﹏ 2021.4.1-8.31",
+				"coverImage": "https://lh6.googleusercontent.com/bhsWaWS1T7inpVkjpq6ufMrQjtjDb_0tOWA-4W47k6ZqZgnNpkOh91Mku3T2KLijPFR-TbAX_Arw8_bhKjEy6oMrDrrRMFvwaaSjvNvC5sbClShUmv2V_NAx02XD14dYQQ=s0",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_13",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS1eKpcBu1XmRHChN18K5RrRzwbw0yd0Q1uPSK7UZqgwaRh55mIJx1_cnlU8MnpMqaZSIvjsk5qg3Ju/pub",
+				"publishedAt": "2021/10/7 13:00",
+				"cache": "_DA_13_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Run run data: vaccine and analysis on content sources",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 13 ﹏ 2021.4.1-8.31",
+				"coverImage": "https://lh5.googleusercontent.com/LlKN6POK4XoHex7Xlmwj7WPWqTXD9b8dGrd1DoCWFLiJim8j7uPyI3T9vhqwBZ9bYcBBEieQOkcRGq6Jtl8GkqMRVceenFLcoi1CIGi_09qmXYRIOJf7-MSHAt_2hxGXmg=s0",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_13",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQzYq10geheZdSyIZvKFM5Iuvzx-y-TUcIKvMVKZ_yUgcJAf68abCGw7ClYdhOJjPZjnGubEvLiO2V9/pub",
+				"publishedAt": "2021/10/7 13:00",
+				"cache": "_DA_13_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"pub-0-intro": {
 		"show": false,
 		"type": "article",
@@ -12,7 +52,7 @@
 			"_tw": {
 				"title": "IORG 發論文！2020 上半年 COVID-19 謠言分群及案例分析",
 				"coverImage": "https://lh6.googleusercontent.com/CbvPpPGzS2TBovaLbX1sX1BmUvIm4mMUmNhujZrnduVI_fj0ZnOO2EsBbBfAeD4hi6QmbH3ZJ6OcAlhEL27JsTgc5pT8v6Q-SW3LS19i3YSiJByjiq2GFEE=s0",
-				"summary": "當代，許多人習慣利用社交媒體平台取得新聞、醫療健康資訊。2020 年起，COVID-19 疫情肆虐全球，許多關於疫情的訊息，無論內容正確與否，在社交媒體平台上廣為流傳。目前，已有許多學術研究論文，利用機器學習、深度學習研究關於疫情的訊息內容及傳播，不過，絕大部分都是針對公開平台像是 Twitter、Facebook 所做的研究。IORG 希望能更深入瞭解封閉平台上疫情「謠言」的傳播情形，因此，我們選擇台灣人最常使用的通訊軟體 LINE，在 2021 年完成研究，是我國第一篇，關於 COVID-19、針對封閉平台、發表於國際醫學期刊的學術論文。",
+				"summary": "2020 年起，COVID-19 疫情肆虐全球，許多關於疫情的新聞、醫療健康資訊，無論內容正確與否，皆在社交媒體平台上廣為流傳。目前已有許多學術論文利用機器學習、深度學習研究關於疫情的訊息內容及傳播，不過絕大部分都是針對公開平台像是 Twitter、Facebook 所做的研究。IORG 希望能更深入瞭解封閉平台上疫情「謠言」的傳播情形，因此，我們選擇台灣人最常使用的通訊軟體 LINE，在 2021 年完成研究，是我國第一篇針對封閉平台內 COVID-19 訊息傳播的研究、發表於國際醫學期刊的學術論文。",
 				"tags": [
 					"資料科學"
 				],
