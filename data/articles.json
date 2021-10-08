@@ -39,10 +39,10 @@
 			}
 		}
 	},
-	"pub-0-intro": {
+	"pub-0": {
 		"show": false,
 		"type": "article",
-		"id": "pub-0-intro",
+		"id": "pub-0",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS5GOnoXAWKZE5QZn4vVIPFRdNdJ5tLHCICmcmRldSc7B26zQ_lR2On-Q3VRGWX9g/pub"
 		},
@@ -56,7 +56,7 @@
 				"tags": [
 					"資料科學"
 				],
-				"articleID": "pub-0-intro",
+				"articleID": "pub-0",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS5GOnoXAWKZE5QZn4vVIPFRdNdJ5tLHCICmcmRldSc7B26zQ_lR2On-Q3VRGWX9g/pub",
 				"publishedAt": "2021/10/8 12:00",
 				"locale": "_tw"
