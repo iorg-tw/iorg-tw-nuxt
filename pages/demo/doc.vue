@@ -12,7 +12,15 @@
     </div>
   </div>
   <div class="demo demo-1">
-    <a class="demo-header block"><span>Demo 1</span></a>
+    <a class="demo-header block"><span>Demo 1 = doc</span></a>
+    <google-doc :doc="doc" />
+  </div>
+  <div class="demo demo-2">
+    <a class="demo-header block"><span>Demo 2 = page</span></a>
+    <google-doc :doc="doc" :options="{ metaphor: 'page' }" />
+  </div>
+  <div class="demo demo-3">
+    <a class="demo-header block"><span>Demo 3 = structured doc</span></a>
     <div v-for="objL0 of structuredDoc" :key="objL0.header" class="objL0">
       <div :is="objL0.titleTag">{{ objL0.title }}</div>
       <div class="html" v-html="objL0.html"></div>
@@ -23,14 +31,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="demo demo-2">
-    <a class="demo-header block"><span>Demo 2</span></a>
-    <google-doc :doc="doc" />
-  </div>
-  <div class="demo demo-3">
-    <a class="demo-header block"><span>Demo 3</span></a>
-    <google-doc :doc="doc" :options="{ metaphor: 'page' }" />
   </div>
 </div>
 </template>
