@@ -149,30 +149,30 @@ export default {
     }
     .sticker {
       display: inline-block;
-      > div {
+      & > .content {
         display: inline-block;
         background-color: var(--iorg-accent);
         font-size: 1rem;
         line-height: 1.0;
-        padding: 0.25rem 0.5rem;
+        padding: 0.25rem 0.625rem;
         margin: 0 0.125rem;
         border-radius: 1rem; // overshooting
         verticle-align: top;
       }
-      &.alert > div {
+      &.alert > .content {
         background-color: var(--iorg-alert);
       }
-      &.bad > div {
+      &.bad > .content {
         background-color: var(--iorg-bad);
       }
-      &.danger > div {
+      &.danger > .content {
         background-color: var(--iorg-danger);
       }
-      &.highlight > div {
+      &.highlight > .content {
         background-color: white;
         border: 1px solid var(--iorg-accent);
       }
-      &.fb > div {
+      &.fb > .content {
         width: 1.375rem;
         padding: 0.375rem 0;
         text-align: center;
@@ -181,7 +181,7 @@ export default {
         font-size: 0.625rem;
         line-height: 1;
       }
-      &.wb > div {
+      &.wb > .content {
         width: 1.375rem;
         padding: 0.25rem 0;
         text-align: center;
@@ -190,17 +190,17 @@ export default {
         font-size: 0.625rem;
         line-height: 1;
       }
-      &.ccp > div {
+      &.ccp > .content {
         padding: 0.25rem 0.375rem;
         background-color: var(--ccp);
         font-size: 0.625rem;
       }
-      &.red > div {
+      &.red > .content {
         padding: 0.25rem 0.375rem;
         background-color: var(--ccp-affiliated);
         font-size: 0.625rem;
       }
-      &.pink > div {
+      &.pink > .content {
         padding: 0.25rem 0.375rem;
         background-color: var(--china);
         font-size: 0.625rem;
@@ -226,7 +226,7 @@ export default {
       border-radius: 0.75rem;
       verticle-align: middle;
     }
-    div.search {
+    div.query {
       position: relative;
       top: -0.125rem;
       display: inline;
@@ -505,6 +505,12 @@ export default {
         &.url,
         &.small {
           font-size: 0.75rem;
+        }
+        &.max {
+          color: var(--iorg-max);
+        }
+        &.min {
+          color: var(--iorg-min);
         }
       }
     }

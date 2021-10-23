@@ -34,6 +34,8 @@ export default {
   --iorg-alert: #FFCB00;
   --iorg-bad: #FF8F00;
   --iorg-danger: #FF2828;
+  --iorg-max: #2CD086;
+  --iorg-min: #FF2828;
 
   --fb: #3C30F4;
   --wb: #FF3232;
