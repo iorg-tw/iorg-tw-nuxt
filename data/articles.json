@@ -1,4 +1,44 @@
 {
+	"_DA_15": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_15",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT1lfSX-kHj-Ibx-Tm3kAxDVK740Q3tAqFa0Je9Fka94rHZO5PFRSOnu_q-Vzw-o5Xd14UExMv4DA19/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSeersvxNw-hhRYCEPcShsZF7hC6Wn2WkJijO-lMie8cIhwP5ORU8AALCDTUAXFYUGlC6V1q0OUBrvA/pub"
+		},
+		"publishedAt": "2021/10/28 12:00",
+		"path": "/da/15",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣加入 CPTPP 的認知障礙賽：怠惰、倉促、核食、一中",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 15 期 ﹏ 2021.9.1-10.17",
+				"coverImage": "https://lh3.googleusercontent.com/jAwgHmNAjNysZ3RDm7UKux4u2HP3QLCTtDOOCyKojhkrlhWSqdfTN89h02K3k6kyMr-BQeHKacuqBy_yvouhltdujVP-k_8PE_yhJyUAhvHN7dXbtZAi9o2SZ19XcSo4Pw",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_15",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT1lfSX-kHj-Ibx-Tm3kAxDVK740Q3tAqFa0Je9Fka94rHZO5PFRSOnu_q-Vzw-o5Xd14UExMv4DA19/pub",
+				"publishedAt": "2021/10/28 12:00",
+				"cache": "_DA_15_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Taiwan’s road to CPTPP obstructed by information manipulation",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 15 ﹏ 2021.9.1-10.17",
+				"coverImage": "https://lh4.googleusercontent.com/NaYF35f-hBDzXsSgmFFG-T7Fepz6V5jkO_SLfChA4iOSmuxv6DKEhg15beLadrW0WToGrCWJuf4_xrHsvhm_HBsUKtUbJ_ZgSt7l8Cq7CwWP5bVzElC9pmYab11oDTdB2g",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_15",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSeersvxNw-hhRYCEPcShsZF7hC6Wn2WkJijO-lMie8cIhwP5ORU8AALCDTUAXFYUGlC6V1q0OUBrvA/pub",
+				"publishedAt": "2021/10/28 12:00",
+				"cache": "_DA_15_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_14": {
 		"show": true,
 		"type": "da",
@@ -14,7 +54,7 @@
 			"_tw": {
 				"title": "中國國民黨主席選舉怪象：挺韓粉專盜圖扮美女，衝高張亞中傳播熱度",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 14 期 ﹏ 2021.9.1-30",
-				"coverImage": "https://lh6.googleusercontent.com/u51gpAk-5m1hZD3tt8ha9uasLidHQ0xPwxV0FgrFwexbvzq2-0Lm1mYN3TDDMOeRZrKQ8BCjCErRO3MZgyKNithxqeXYVZJdw1akNYHr50d-d53qnAuyruLv5Sg10CAc5g=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/u51gpAk-5m1hZD3tt8ha9uasLidHQ0xPwxV0FgrFwexbvzq2-0Lm1mYN3TDDMOeRZrKQ8BCjCErRO3MZgyKNithxqeXYVZJdw1akNYHr50d-d53qnAuyruLv5Sg10CAc5g",
 				"tags": [
 					"心慌週報"
 				],
@@ -27,7 +67,7 @@
 			"_en": {
 				"title": "CNP/KMT chair election: suspicious “beautiful woman” Facebook pages boost pro-China candidate",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 14 ﹏ 2021.9.1-30",
-				"coverImage": "https://lh6.googleusercontent.com/zi34JB8Ahuj-gCcIKD4nh57DwEZyR1F5xQps0353wAdBNzyBr8YzIegBpbVE2GbRyTsytevh3yySOPAwzIYGs-XIjn_6530mRKIdHEM0NQHNrhEefRIsXj1i0BvVlwFBXg=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/zi34JB8Ahuj-gCcIKD4nh57DwEZyR1F5xQps0353wAdBNzyBr8YzIegBpbVE2GbRyTsytevh3yySOPAwzIYGs-XIjn_6530mRKIdHEM0NQHNrhEefRIsXj1i0BvVlwFBXg",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -54,7 +94,7 @@
 			"_tw": {
 				"title": "跑跑資料：疫苗傳播熱度、內容來源分析",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 13 期 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh4.googleusercontent.com/a3YdTSvL1FG5dpFedjE2zl7F3BkKeiA1VNS9aT80xmK-5mgNM247pl5FgMhiggdgHwgxcGFzzxeGD7KH_ZSyDCmRuqrBdu2FqTyYXiUc1cUN-UQQ_hb7spDOcI7XhRfIkg=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/a3YdTSvL1FG5dpFedjE2zl7F3BkKeiA1VNS9aT80xmK-5mgNM247pl5FgMhiggdgHwgxcGFzzxeGD7KH_ZSyDCmRuqrBdu2FqTyYXiUc1cUN-UQQ_hb7spDOcI7XhRfIkg",
 				"tags": [
 					"心慌週報"
 				],
@@ -67,7 +107,7 @@
 			"_en": {
 				"title": "Run run data: vaccine public discourse liveliness and content source",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 13 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh4.googleusercontent.com/C7dcLy0-E_9BAoZBtMk8XUG9rEygr7Ur5xdUoNiu69wy1MFBaq0gED5FwhwE2-1GBjjVojDzvJe8LTO1y5mPWfiCmu9DDwBh4PYKyoh4plyF3wixMGcZGGNMhn3c0oEv-w=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/C7dcLy0-E_9BAoZBtMk8XUG9rEygr7Ur5xdUoNiu69wy1MFBaq0gED5FwhwE2-1GBjjVojDzvJe8LTO1y5mPWfiCmu9DDwBh4PYKyoh4plyF3wixMGcZGGNMhn3c0oEv-w",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -91,7 +131,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 發論文！2020 上半年 COVID-19 謠言分群及案例分析",
-				"coverImage": "https://lh6.googleusercontent.com/CbvPpPGzS2TBovaLbX1sX1BmUvIm4mMUmNhujZrnduVI_fj0ZnOO2EsBbBfAeD4hi6QmbH3ZJ6OcAlhEL27JsTgc5pT8v6Q-SW3LS19i3YSiJByjiq2GFEE=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/CbvPpPGzS2TBovaLbX1sX1BmUvIm4mMUmNhujZrnduVI_fj0ZnOO2EsBbBfAeD4hi6QmbH3ZJ6OcAlhEL27JsTgc5pT8v6Q-SW3LS19i3YSiJByjiq2GFEE",
 				"summary": "2020 年起，COVID-19 疫情肆虐全球，許多關於疫情的新聞、醫療健康資訊，無論內容正確與否，皆在社交媒體平台上廣為流傳。目前已有許多學術論文利用機器學習、深度學習研究關於疫情的訊息內容及傳播，不過絕大部分都是針對公開平台像是 Twitter、Facebook 所做的研究。IORG 希望能更深入瞭解封閉平台上疫情「謠言」的傳播情形，因此，我們選擇台灣人最常使用的通訊軟體 LINE，在 2021 年完成研究，是我國第一篇針對封閉平台內 COVID-19 訊息傳播的研究、發表於國際醫學期刊的學術論文。",
 				"tags": [
 					"資料科學"
@@ -119,7 +159,7 @@
 			"_tw": {
 				"title": "IORG 研究方法",
 				"subtitle": "IORG 中國對台影響力作戰研究",
-				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ",
 				"tags": [],
 				"articleID": "_O_RM",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
@@ -145,7 +185,7 @@
 			"_tw": {
 				"title": "中共對台疫苗論述分工：官方宣傳、官媒操弄",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 12 期 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh6.googleusercontent.com/pHtmjcB6oaB_tzAiKQMElWv2K1Ej4LD_Ksdled8AEVMYkrG5qKyTS8imlhSDU6mglICuIkEVEM_Z8L94NROsoJt4HJN1PMrN1ccm5UxXwuXNp-i6JkDPBWlnHN87D-ZVdA=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/pHtmjcB6oaB_tzAiKQMElWv2K1Ej4LD_Ksdled8AEVMYkrG5qKyTS8imlhSDU6mglICuIkEVEM_Z8L94NROsoJt4HJN1PMrN1ccm5UxXwuXNp-i6JkDPBWlnHN87D-ZVdA",
 				"tags": [
 					"心慌週報"
 				],
@@ -158,7 +198,7 @@
 			"_en": {
 				"title": "China’s division of labor on vaccine narratives against Taiwan: state’s propaganda & state media’s information manipulation",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 12 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh5.googleusercontent.com/K92RPgvY30pQxIXws3CaEuNGlZAEPtLmbFttahNIIs94zlrMlgO4agpXw59zi-3OIhQEHPoOlRtUGKL-MHSoZlEzFwDmsPvThTdhhgjBPSQD4iU1h8NgkBntQFAwyPO8rQ=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/K92RPgvY30pQxIXws3CaEuNGlZAEPtLmbFttahNIIs94zlrMlgO4agpXw59zi-3OIhQEHPoOlRtUGKL-MHSoZlEzFwDmsPvThTdhhgjBPSQD4iU1h8NgkBntQFAwyPO8rQ",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -185,7 +225,7 @@
 			"_tw": {
 				"title": "8 月阿富汗出大事：台灣民間發起、中共官媒接棒，另類「官民」協力傳播「疑美論」",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 11 期 ﹏ 2021.8.1-31",
-				"coverImage": "https://lh6.googleusercontent.com/JjekJ0vgeP23GeMyJEK47EBfm2idHF8FkfBj-TJSpZN0PGUJXgiwUSc2iUD9tRHaVS9bN7wjNFZwM9DfccC3bn9E_baWxHtseFIq5-Tcl_6dmRDsDAFSwBEkZC_GDhf5VQ=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/JjekJ0vgeP23GeMyJEK47EBfm2idHF8FkfBj-TJSpZN0PGUJXgiwUSc2iUD9tRHaVS9bN7wjNFZwM9DfccC3bn9E_baWxHtseFIq5-Tcl_6dmRDsDAFSwBEkZC_GDhf5VQ",
 				"summary": "2021 年 8 月，美軍撤離阿富汗，引起台灣社會對美國「是否也會放棄台灣」的爭論。IORG 發現，「疑美論」相關的論述，例如「今日阿富汗，明日台灣」、「阿富汗是台灣的前車之鑑」可能並非由中國發起，而是來自台灣，中共再協力傳播。此次事件顯示，中國並不只是對台資訊操弄的「發起者」，也可能是「協力者」。更有證據顯示，台灣新聞媒體、中共官媒之間「交互引用」，擴大特定論述傳播。觀察整體傳播情形，「疑美論」在 8 月 15 日開始快速增加並佔多數，20 日後，「反對疑美論」「反超」，內容多為美國總統拜登對台發言。可見，反駁「疑美論」最有力的論述，還是來自美國的承諾。",
 				"tags": [
 					"心慌週報"
@@ -199,7 +239,7 @@
 			"_en": {
 				"title": "U.S. skepticism originates from Taiwan, CCP follows, amid U.S. Afghan withdrawal",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 11 ﹏ 2021.8.1-31",
-				"coverImage": "https://lh4.googleusercontent.com/5hE57iEqkwMHtmgCnOwYG3RtpUfCoi71l-hp4Hj8aMsq9606UC8tzaYxbuGcNDqIHvhxbJONH8vmw7zxNEU3nAgkk-7lxyRHJHUfA-kd951Ui_CBA-CdUuM74wrKSo_pFA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/5hE57iEqkwMHtmgCnOwYG3RtpUfCoi71l-hp4Hj8aMsq9606UC8tzaYxbuGcNDqIHvhxbJONH8vmw7zxNEU3nAgkk-7lxyRHJHUfA-kd951Ui_CBA-CdUuM74wrKSo_pFA",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -225,7 +265,7 @@
 			"_tw": {
 				"title": "68 場資訊判讀工作坊：更有力的在地連結，更堅強的民主防衛",
 				"subtitle": "IORG 2020 在地連結成果報告",
-				"coverImage": "https://lh5.googleusercontent.com/rU8nQUiuHosxKE64sL2P3fM69NqHN3d34YEMnUfyd2Ww1zF80Dx5SJUqvXztT-TRkpx6rZj29RYM-4UvmR5Jn0jo7iejIN0wo2cXzTPBxXaCXYUcQGfWmumnSro_xZkM9g=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/rU8nQUiuHosxKE64sL2P3fM69NqHN3d34YEMnUfyd2Ww1zF80Dx5SJUqvXztT-TRkpx6rZj29RYM-4UvmR5Jn0jo7iejIN0wo2cXzTPBxXaCXYUcQGfWmumnSro_xZkM9g",
 				"tags": [
 					"資訊判讀",
 					"在地連結",
@@ -240,7 +280,7 @@
 			"_en": {
 				"title": "68 workshops to fortify communities and defend democracy",
 				"subtitle": "IORG 2020 Community Engagement Report",
-				"coverImage": "https://lh5.googleusercontent.com/avyS3GIJzljeB2Iv5wPgnk7Jdj4rKhI6fk7j4F464Un1NJlhkNEw88B_y9sk1XQmAreQSyenAd82lcJC2iNdHTCkFHRLpCVVUgDxBRCKcJ3zcONKOUseD5rWNYTNjYaR0A=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/avyS3GIJzljeB2Iv5wPgnk7Jdj4rKhI6fk7j4F464Un1NJlhkNEw88B_y9sk1XQmAreQSyenAd82lcJC2iNdHTCkFHRLpCVVUgDxBRCKcJ3zcONKOUseD5rWNYTNjYaR0A",
 				"tags": [
 					"Information literacy",
 					"Community engagement",
@@ -293,7 +333,7 @@
 			"_tw": {
 				"title": "中共官媒以網友留言代表台灣，評論美台軍售：「要疫苗不要武器」",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 10 期 ﹏ 2021.8.2-8",
-				"coverImage": "https://lh5.googleusercontent.com/KnKg8fpjk7UyiScGPicHNYVzSeQcGG-or-6iBm4WZJ4O2VUxxAznKod4WR7H1nAdswcuqSZEKPK-roN5w18CmG7SkzcSD__5bvqnqHhLrjY9AVmbB_WoUlZXXBbaWrKNew=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/KnKg8fpjk7UyiScGPicHNYVzSeQcGG-or-6iBm4WZJ4O2VUxxAznKod4WR7H1nAdswcuqSZEKPK-roN5w18CmG7SkzcSD__5bvqnqHhLrjY9AVmbB_WoUlZXXBbaWrKNew",
 				"tags": [
 					"心慌週報"
 				],
@@ -307,7 +347,7 @@
 			"_en": {
 				"title": "CCP propaganda quotes internet comment in criticizing U.S.-Taiwan arms sale: TW people “want vaccines, not weapons”",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 10 ﹏ 2021.8.2-8",
-				"coverImage": "https://lh3.googleusercontent.com/tDnxb1E06BTCuWQERcsdT3fl4y6tmYroip52gFmo1SoGr6MuRa7PvmtvELeSFagxX0uW3xUxP3ZRsx21Kcbu6wUq2WvMF-rbEk5YYNQF-oRAINNsrDqkFwbJBtum5-F8Qw=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/tDnxb1E06BTCuWQERcsdT3fl4y6tmYroip52gFmo1SoGr6MuRa7PvmtvELeSFagxX0uW3xUxP3ZRsx21Kcbu6wUq2WvMF-rbEk5YYNQF-oRAINNsrDqkFwbJBtum5-F8Qw",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -336,7 +376,7 @@
 			"_tw": {
 				"title": "中共東奧政治宣傳：「中国台北」取代「中華台北」、製造日本負面形象",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 9 期 ﹏ 2021.7.26-8.1",
-				"coverImage": "https://lh4.googleusercontent.com/VCZbQD25wkBRDJj0dTa_bACNxqZmCpRBKBfvb-YLGUOvoJ8o8gD7H5LL5odoifvC1bgSrAIsso1XJYrVAIvykX2f1t16psmy8jqeOJW77lOYrYUPTpP8RVxvS-mXdsaUkA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/VCZbQD25wkBRDJj0dTa_bACNxqZmCpRBKBfvb-YLGUOvoJ8o8gD7H5LL5odoifvC1bgSrAIsso1XJYrVAIvykX2f1t16psmy8jqeOJW77lOYrYUPTpP8RVxvS-mXdsaUkA",
 				"tags": [
 					"心慌週報"
 				],
@@ -350,7 +390,7 @@
 			"_en": {
 				"title": "CCP’s Olympic propaganda: China’s Taipei, Japan’s failure",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 9 ﹏ 2021.7.26-8.1",
-				"coverImage": "https://lh3.googleusercontent.com/ZSQpOzeOnclSLbPzca2gPdHT9bCjj6fU7m21RNcqdfe7Q8RcAOcrBW6ZKRse_Sgti2iixwyKC4kNnwGr0DjmZ6bpU1dvElAY8RiDfnifOF0TtHmGY8B3L4BxMbSAisH6eQ=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/ZSQpOzeOnclSLbPzca2gPdHT9bCjj6fU7m21RNcqdfe7Q8RcAOcrBW6ZKRse_Sgti2iixwyKC4kNnwGr0DjmZ6bpU1dvElAY8RiDfnifOF0TtHmGY8B3L4BxMbSAisH6eQ",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -378,7 +418,7 @@
 			"_tw": {
 				"title": "「病毒美國製」又來了！親中人士假借歐巴馬名義傳謠言",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 8 期 ﹏ 2021.7.19-25",
-				"coverImage": "https://lh4.googleusercontent.com/y7u2YLs18nJ_i3s84fTdJekNLqWwQ1WE0ds2kaHLG7Z8cZyy5IWiQhOcPHvMor3ezijWsHHF7eQ9b-lvOxktmkt8IofIWshAsGGTQcSj8_pbkYvW6z9W8DHIy6TZVrC_aA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/y7u2YLs18nJ_i3s84fTdJekNLqWwQ1WE0ds2kaHLG7Z8cZyy5IWiQhOcPHvMor3ezijWsHHF7eQ9b-lvOxktmkt8IofIWshAsGGTQcSj8_pbkYvW6z9W8DHIy6TZVrC_aA",
 				"tags": [
 					"心慌週報"
 				],
@@ -391,7 +431,7 @@
 			"_en": {
 				"title": "Pro-China Taiwanese group fakes Obama’s speech about “American virus”",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 8 ﹏ 2021.7.19-25",
-				"coverImage": "https://lh6.googleusercontent.com/Iv_e0Dns4HvJIQMwpF0Ne_u2QyFwVZmIO0sVBljE62SkDhq5Uz07et-oOsgzvCid_w7bE9O-w2t1aHgqnt6BlJgTr50YT3bK5ep27QiAjs0rmnQt0zSgsmejpybF3tH0dg=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/Iv_e0Dns4HvJIQMwpF0Ne_u2QyFwVZmIO0sVBljE62SkDhq5Uz07et-oOsgzvCid_w7bE9O-w2t1aHgqnt6BlJgTr50YT3bK5ep27QiAjs0rmnQt0zSgsmejpybF3tH0dg",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -418,7 +458,7 @@
 			"_tw": {
 				"title": "打疫苗前不要看！13 個「不要打疫苗」的可疑理由",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 7 期 ﹏ 2021.7.12-18",
-				"coverImage": "https://lh5.googleusercontent.com/eNaHha0RNDecfiopu6xtPqsXIm66PvRQUR-3xdhFHZFLV0rLF0ssfqJTpPkzsAK9IbScqgVKmnu7CcZurTZmNDOc0A6Oo-o8FkxOAJoY-ccl4hdovcPB-mu_D78edm8QTA=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/eNaHha0RNDecfiopu6xtPqsXIm66PvRQUR-3xdhFHZFLV0rLF0ssfqJTpPkzsAK9IbScqgVKmnu7CcZurTZmNDOc0A6Oo-o8FkxOAJoY-ccl4hdovcPB-mu_D78edm8QTA",
 				"tags": [
 					"心慌週報"
 				],
@@ -431,7 +471,7 @@
 			"_en": {
 				"title": "Keep an eye out for these 13 suspicious “don’t get vaccinated” narratives",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 7 ﹏ 2021.7.12-18",
-				"coverImage": "https://lh5.googleusercontent.com/tHA6gBA0dWRH8EyhB0ja6497Ka5GPx-rjDfQPI7VLUYSq3NX7NQy1KIvas_i65j9xKBA0h7Tq259tLDVArHPO_uEAaq8r1Xi9StFvdpoamoXJp6LdRU8fivbUEixeDclQA=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/tHA6gBA0dWRH8EyhB0ja6497Ka5GPx-rjDfQPI7VLUYSq3NX7NQy1KIvas_i65j9xKBA0h7Tq259tLDVArHPO_uEAaq8r1Xi9StFvdpoamoXJp6LdRU8fivbUEixeDclQA",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -458,7 +498,7 @@
 			"_tw": {
 				"title": "韓國「微解封」：錯誤訊息「疫苗第一劑打的差不多」的 21 個版本，如病毒變異",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 6 期 ﹏ 2021.7.5-11",
-				"coverImage": "https://lh5.googleusercontent.com/K6vzS5i3y47GTP6V6DMzdSyYF88gBmoyXXuAhFO3NSYYzVwVFAITTLuu9ffSLoOK4S-z0O4chBXdQJF4265bkQrBHN6T5QAUVztZbluDhNu26hrn61TxrFoW5vUbC68lXQ=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/K6vzS5i3y47GTP6V6DMzdSyYF88gBmoyXXuAhFO3NSYYzVwVFAITTLuu9ffSLoOK4S-z0O4chBXdQJF4265bkQrBHN6T5QAUVztZbluDhNu26hrn61TxrFoW5vUbC68lXQ",
 				"tags": [
 					"心慌週報"
 				],
@@ -471,7 +511,7 @@
 			"_en": {
 				"title": "21 versions of false information on S. Korea’s “almost complete” first-dose coverage and its “restriction micro-relaxation”",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 6 ﹏ 2021.7.5-11",
-				"coverImage": "https://lh4.googleusercontent.com/9yPFSFM-7ur8I1004lMlQ52NN8N-XDHzrQUlIyTpOXSJGra3EKK5EILCBzXL1TMXWca7hppQu74v1qoXBXC4qR428gehvPFild77TYwzB77uSxrZRYZosVWlq_N-8gIeGw=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/9yPFSFM-7ur8I1004lMlQ52NN8N-XDHzrQUlIyTpOXSJGra3EKK5EILCBzXL1TMXWca7hppQu74v1qoXBXC4qR428gehvPFild77TYwzB77uSxrZRYZosVWlq_N-8gIeGw",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -498,7 +538,7 @@
 			"_tw": {
 				"title": "中天變造美商務部長發言：250 萬莫德納疫苗功勞歸台積電",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 5 期 ﹏ 2021.6.28-7.4",
-				"coverImage": "https://lh4.googleusercontent.com/_9yd1cWCZTAxE3IgjQPnD-zOYw0iCumlJvYG7UjON68GsxvgVW7tNZ8LU1Fl8Ah9OmYfnrW0LHUpFooqPmBZWlWml2buxa1jXWgCHt9_xt4Kd8p_WXTwJYG5aFEzdfsw1g=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/_9yd1cWCZTAxE3IgjQPnD-zOYw0iCumlJvYG7UjON68GsxvgVW7tNZ8LU1Fl8Ah9OmYfnrW0LHUpFooqPmBZWlWml2buxa1jXWgCHt9_xt4Kd8p_WXTwJYG5aFEzdfsw1g",
 				"tags": [
 					"心慌週報"
 				],
@@ -511,7 +551,7 @@
 			"_en": {
 				"title": "CTI distorts statements of U.S. Commerce Secretary: credit of 2.5 million Moderna vaccines belongs to TSMC",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 5 ﹏ 2021.6.28-7.4",
-				"coverImage": "https://lh6.googleusercontent.com/PbM_K-vhh_T7j5p2X3wao6sP-ZZYva0hgttxQHC27o0FDFGj-L7ZJQYeVC2sCFgywMm5ynpqvpIPXr_ogq0XhDjD1DkQrhJPiRM9dncqbSvYsg2jqGthehJ1Tj_kfRIy3w=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/PbM_K-vhh_T7j5p2X3wao6sP-ZZYva0hgttxQHC27o0FDFGj-L7ZJQYeVC2sCFgywMm5ynpqvpIPXr_ogq0XhDjD1DkQrhJPiRM9dncqbSvYsg2jqGthehJ1Tj_kfRIy3w",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -539,7 +579,7 @@
 			"_tw": {
 				"title": "中共嗆台「亂港謀獨」，Delta 襲來，疫苗、篩檢爭議持續",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 4 期 ﹏ 2021.6.21-27",
-				"coverImage": "https://lh6.googleusercontent.com/7IUd3rMXvL7P5ywxEbiOL6hrA1E-0P6dhTXlfmC6FtpBweHDnwAAWPKo1pi4-lkxjxvzh0n5VUrb5_Ul_-wZuiSMx4FAtaveq7VoELvax06VwSKF16KvFmMgzk49uM70Uw=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/7IUd3rMXvL7P5ywxEbiOL6hrA1E-0P6dhTXlfmC6FtpBweHDnwAAWPKo1pi4-lkxjxvzh0n5VUrb5_Ul_-wZuiSMx4FAtaveq7VoELvax06VwSKF16KvFmMgzk49uM70Uw",
 				"tags": [
 					"心慌週報"
 				],
@@ -553,7 +593,7 @@
 			"_en": {
 				"title": "Delta variant hits Taiwan, controversies on vaccines and testing; CCP: DPP creates disorder in HK to plot for independence",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 4 ﹏ 2021.6.21-27",
-				"coverImage": "https://lh4.googleusercontent.com/c_aK9ApqEQLOgcZp8hhIV_-5K5mQ_KUvM0AVMNYaXNqfhyY8Sn7_UQ8EoFGkfsbFUec7kyXTThUOepxmszP9eZi1DX4X1g4nvUWwAxhEm2p62ucYRN1j_G0NIOcVS1ymJg=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/c_aK9ApqEQLOgcZp8hhIV_-5K5mQ_KUvM0AVMNYaXNqfhyY8Sn7_UQ8EoFGkfsbFUec7kyXTThUOepxmszP9eZi1DX4X1g4nvUWwAxhEm2p62ucYRN1j_G0NIOcVS1ymJg",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -581,7 +621,7 @@
 			"_tw": {
 				"title": "警告：「打疫苗猝死」碰上「疫苗是生化武器」陰謀論，可能擴大社會恐慌",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 3 期 ﹏ 2021.6.14-20",
-				"coverImage": "https://lh5.googleusercontent.com/A3rAfRUVs2zczTNSiM5ncUPXdKNMkKA2osDOIcBM8Gkzx-nxRjo0lNUZQfMeGKTFaxSY4PwFHjxfz1OLD1BlQ7icA-ae4daFVk-JIW6x9d_5OXktxRr73Sljxn7rsa8PLA=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/A3rAfRUVs2zczTNSiM5ncUPXdKNMkKA2osDOIcBM8Gkzx-nxRjo0lNUZQfMeGKTFaxSY4PwFHjxfz1OLD1BlQ7icA-ae4daFVk-JIW6x9d_5OXktxRr73Sljxn7rsa8PLA",
 				"tags": [
 					"心慌週報"
 				],
@@ -594,7 +634,7 @@
 			"_en": {
 				"title": "Warning: Vaccination death & bioweapon conspiracy theory could amplify panic",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 3 ﹏ 2021.6.14-20",
-				"coverImage": "https://lh4.googleusercontent.com/oBQDteJSo6csThBMaLJajaeKI6hqm7vY95a_eJs7NuQ6ncPOvysNlg5P94nmwB_EgY1CGETEevdFMyEwTFPOKciufpg1Cyi_czUeliEN91-j_XGZQOxnKU40rVWyODkg5Q=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/oBQDteJSo6csThBMaLJajaeKI6hqm7vY95a_eJs7NuQ6ncPOvysNlg5P94nmwB_EgY1CGETEevdFMyEwTFPOKciufpg1Cyi_czUeliEN91-j_XGZQOxnKU40rVWyODkg5Q",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -621,7 +661,7 @@
 			"_tw": {
 				"title": "6 月上半疫情燒，中共宣傳新口號：台灣人到中國打疫苗",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 2 期 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh3.googleusercontent.com/_c3EjwvI2mUFzUwTuF0W8kSW1VwhCAnIabEur9xSUv0FSpmiMvZrrYjcAecsEnQAm6p1wpqqPO_t5L2QkkdiEbJ1O8LfFB_p9cPwXgxA1yFJMZcJfGUl2eVKyF6m32OQ2w=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/_c3EjwvI2mUFzUwTuF0W8kSW1VwhCAnIabEur9xSUv0FSpmiMvZrrYjcAecsEnQAm6p1wpqqPO_t5L2QkkdiEbJ1O8LfFB_p9cPwXgxA1yFJMZcJfGUl2eVKyF6m32OQ2w",
 				"tags": [
 					"心慌週報"
 				],
@@ -634,7 +674,7 @@
 			"_en": {
 				"title": "Latest CCP slogan: Taiwanese Go China Get Vaccinated",
 				"subtitle": "IORG Dokidoki Alert Weely ﹋ No. 2 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh6.googleusercontent.com/eB5iE4oM7Mhb8jzm2fHcIKhLncKw54P-3ZvFKVguhrrAbQ0qYndtyDqns-H-VeMXgd6s68NGeHgiRwGsDVNMMS9SjKRDZqIxenSrXnxfgmbViEsfbE4kVu8PlsPntV5UMg=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/eB5iE4oM7Mhb8jzm2fHcIKhLncKw54P-3ZvFKVguhrrAbQ0qYndtyDqns-H-VeMXgd6s68NGeHgiRwGsDVNMMS9SjKRDZqIxenSrXnxfgmbViEsfbE4kVu8PlsPntV5UMg",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -661,7 +701,7 @@
 			"_tw": {
 				"title": "5 月疫情風暴，疫苗成為中共資訊操弄及外交武器",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 1 期 ﹏ 2021.5.1-31",
-				"coverImage": "https://lh6.googleusercontent.com/-PT_NBnM7nDfyQkr_9s8MAhRGnCN8jcvUmQvSSE8HUYB8sYqKVte8lDpPTnVLeaqCb8ida9F4Nym_1ZZyOGSBSPVYC7Dk-v6PuxAw4MzoeF8GDuaipWR8rXjK_ewyvPRtg=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/-PT_NBnM7nDfyQkr_9s8MAhRGnCN8jcvUmQvSSE8HUYB8sYqKVte8lDpPTnVLeaqCb8ida9F4Nym_1ZZyOGSBSPVYC7Dk-v6PuxAw4MzoeF8GDuaipWR8rXjK_ewyvPRtg",
 				"tags": [
 					"心慌週報"
 				],
@@ -674,7 +714,7 @@
 			"_en": {
 				"title": "Pandemic storm hit Taiwan, vaccines weaponized by CCP",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 1 ﹏ 2021.5.1-31",
-				"coverImage": "https://lh4.googleusercontent.com/3kxsPdXGlDqi2DQ3sCOWrMTj6RlR-EWThI8ryQ0DktS2D5LHRo3KJgLEx3DN8vFyVrnh1RJidsw5jajWQHkVS2BpZ2Xhb9yNyql2hWtagWXlSnGYy6dcYDGvbL2oqzTqUg=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/3kxsPdXGlDqi2DQ3sCOWrMTj6RlR-EWThI8ryQ0DktS2D5LHRo3KJgLEx3DN8vFyVrnh1RJidsw5jajWQHkVS2BpZ2Xhb9yNyql2hWtagWXlSnGYy6dcYDGvbL2oqzTqUg",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -1216,7 +1256,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放 IORG",
-				"coverImage": "https://lh5.googleusercontent.com/3GrSk4J9HVVcjWrXim2t-kmODeEjFAYc23CPVfcbKBWs7XLSTqfP5hmInoRNGC53JB-YL4sJWB09DPh5M5c_FMqw_VtiOghyikLt3Cx1au8WISc2smcmBhO5GyNQgp40Qg=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/3GrSk4J9HVVcjWrXim2t-kmODeEjFAYc23CPVfcbKBWs7XLSTqfP5hmInoRNGC53JB-YL4sJWB09DPh5M5c_FMqw_VtiOghyikLt3Cx1au8WISc2smcmBhO5GyNQgp40Qg",
 				"tags": [],
 				"articleID": "_O",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
@@ -1226,7 +1266,7 @@
 			},
 			"_en": {
 				"title": "Open IORG",
-				"coverImage": "https://lh3.googleusercontent.com/-A9r3BAcPUIzDPA3CXz09hRQsUgbVbT-HTUo7bPtKmH11YEe5O4QipgUd39-gjpzseHqvjMJa6SVL_vN5kOVch_yAZtd9Ca47_Hz4xt26pYIwyMYpzMxrBjHUwHFcvvPxg=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/-A9r3BAcPUIzDPA3CXz09hRQsUgbVbT-HTUo7bPtKmH11YEe5O4QipgUd39-gjpzseHqvjMJa6SVL_vN5kOVch_yAZtd9Ca47_Hz4xt26pYIwyMYpzMxrBjHUwHFcvvPxg",
 				"tags": [],
 				"articleID": "_O",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
@@ -1284,7 +1324,7 @@
 			"_tw": {
 				"title": "糖衣炮彈 incoming！CIPE 研究：極權國家「腐蝕性資本」破壞民主",
 				"subtitle": "心慌保全來訪問 Ep.30",
-				"coverImage": "https://lh4.googleusercontent.com/Z86vlg4FdK2eBXKXKQtqc7s65EKXUPfxN6AuqJxS7eWnHe70YLZskTDqUiBxbvIBHPV4wvC3EVuaYA8IRj6RKSZJJd2rJvTUlRWdVYYcn0iv5q3HqIVP380TNIUggFJuPA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/Z86vlg4FdK2eBXKXKQtqc7s65EKXUPfxN6AuqJxS7eWnHe70YLZskTDqUiBxbvIBHPV4wvC3EVuaYA8IRj6RKSZJJd2rJvTUlRWdVYYcn0iv5q3HqIVP380TNIUggFJuPA",
 				"summary": "「他們打來的炮彈是外層包了糖衣的，先給你個甜頭，然後爆炸，達到征服你的目的。」毛澤東這句著名的譬喻，時空背景是毛澤東為了警告「同志」，當心被西方高檔物質生活、精緻消費品等資本主義價值標準所誘惑，這句話原是作為中共組織建設、思想建設的中心思想，套用到今日，中共反守為攻，也以如「糖衣砲彈」的攻擊，侵蝕民主國家的防禦力。",
 				"tags": [
 					"資訊操弄",
@@ -1311,7 +1351,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "Why 抄微博？以資料科學初探 Facebook 粉專經營",
-				"coverImage": "https://lh3.googleusercontent.com/NkDd8cRLRQSVFzQ0nJYH1PZqB4E16bItDJLQ93qJUpRmRN1_HrUXBJWiWKtMM5TMSJDYVR4hRZTfrslSHuWg8UV4db0VAXn8vSFqPyvnJ6v-f9l9QyrIuzte-GtM73h4bg=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/NkDd8cRLRQSVFzQ0nJYH1PZqB4E16bItDJLQ93qJUpRmRN1_HrUXBJWiWKtMM5TMSJDYVR4hRZTfrslSHuWg8UV4db0VAXn8vSFqPyvnJ6v-f9l9QyrIuzte-GtM73h4bg",
 				"tags": [
 					"資料科學",
 					"粉專經營",
@@ -1338,7 +1378,7 @@
 			"_tw": {
 				"title": "消除長者資訊焦慮，「Cofacts 真的假的」下一步：擴大線下巡迴宣導",
 				"subtitle": "心慌保全來訪問 Ep.29",
-				"coverImage": "https://lh4.googleusercontent.com/OYYToo7kfON6nnX43SbKOmo7aDuPictBybNzmiR-LWnAXsknIcgOe_5XjVsE-iMWvR041f1KD_1flLJeT8S_bv992NNq8tV_Uc2INPnPrXo3tzwUB9WfWfy7_OL3Q4wQdA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/OYYToo7kfON6nnX43SbKOmo7aDuPictBybNzmiR-LWnAXsknIcgOe_5XjVsE-iMWvR041f1KD_1flLJeT8S_bv992NNq8tV_Uc2INPnPrXo3tzwUB9WfWfy7_OL3Q4wQdA",
 				"summary": "「喝茶可以消滅冠狀病毒」、「晚上七點喝高粱，可檢驗有無感染武漢肺炎」⋯諸多不知來龍去脈的謠言，有如黴菌菌絲般蔓延，滲透在各個通訊軟體對話框、聊天室中。COVID-19 自 2020 年初大規模爆發，全世界陷入前所未有的恐慌。疫情到底何時能終止，沒有任何人能給答案，籠罩在這看似無盡頭的焦慮情緒，各式各樣的謠言、小道消息，應運而生。心慌保全這次訪問到 Cofacts 真的假的團隊成員們，一起來看看他們是怎麼從「消除資訊焦慮」的初衷開始，建立一個堅持「開放協作」的事實查核社群與科技平台？",
 				"tags": [
 					"資訊操弄",
@@ -1367,7 +1407,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "中國特色 4 ni？新疆棉風暴中的資訊操弄",
-				"coverImage": "https://lh4.googleusercontent.com/73WwjK8Y28QyRChTJnG5uOM4QxxofcNZehUCMKqqClIpYEDVIfR8j25ctNUO7CDjtSTdTz6p4rhIjSKbfm22sM4uZkW3Izzy6T1ER0B-YHrF50q1R7H76CZI4z21mH51Tg=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/73WwjK8Y28QyRChTJnG5uOM4QxxofcNZehUCMKqqClIpYEDVIfR8j25ctNUO7CDjtSTdTz6p4rhIjSKbfm22sM4uZkW3Izzy6T1ER0B-YHrF50q1R7H76CZI4z21mH51Tg",
 				"summary": "「新疆棉」這個話題佔據了近期的新聞版面，中國官方積極回應、藝人與服飾品牌解約、中國網民出征，備受討論。不過，從這些論述、行動中，你是不是看出了什麼熟悉的模式呢？上月（3 月）6 日，中山大學政治學研究所副教授陳至潔在 IORG《民主防衛論壇》上提出「有中國特色的 disinformation」一詞，指其內涵遠比「假訊息」豐富，並具備 4 項特色：論述遮蔽最有價值的真相、由官媒主導、對「外國勢力介入」高度敏感、結合身分認同及大眾文化激起愛國心。陳至潔提出的這些特色，在此次新疆棉事件中皆可以觀察到。此外，中國外交官的發言內容亦含有不實訊息，屬於「傳播不實訊息」的「事實內容操弄」。",
 				"tags": [
 					"新疆棉",
@@ -1394,7 +1434,7 @@
 			"_tw": {
 				"title": "從根本抵禦資訊操弄，學者陳至潔：執政者須彌平社會裂痕",
 				"subtitle": "心慌保全來訪問 Ep.28",
-				"coverImage": "https://lh4.googleusercontent.com/H0w4rSa54zHS5DomVjb7Uu-gOqXpdWTLup_JEdpXCpnmcCaeACU9r10HEuKsh006iIJ61K7hDN1RQsgb3YDtkPpncoOixx-je9CMG32JVm7yOO71XSqAggDw6SPMmW6Mqw=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/H0w4rSa54zHS5DomVjb7Uu-gOqXpdWTLup_JEdpXCpnmcCaeACU9r10HEuKsh006iIJ61K7hDN1RQsgb3YDtkPpncoOixx-je9CMG32JVm7yOO71XSqAggDw6SPMmW6Mqw",
 				"summary": "長期研究中國政治輿情的中山大學政治學研究所副教授陳至潔，分享近年來在中國網絡與社群媒體上蹲點觀測的現象，過去他運用前沿方法與大數據分析，取得堅實的數據佐證，這次也針對 IORG《中國對台影響力作戰研究》提出分析與看法。",
 				"tags": [
 					"資訊操弄",
@@ -1423,7 +1463,7 @@
 			"_tw": {
 				"title": "資訊戰型態加速進化，民主基金會副執行長陳婉宜：假訊息越趨「精緻化」",
 				"subtitle": "心慌保全來訪問 Ep.27",
-				"coverImage": "https://lh3.googleusercontent.com/WfSs5yfc7P_3IkS-3lr4orqcTjYkqJu7L9GNZ66KMAY9Zyn0zKONX0GedeKyfp-9QCNtsZkNjYIeAK3d4g3FWggUoTM4ByNg8f00pnoF1ULXY4zdUa4Izw9AIoOOf4mLJg=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/WfSs5yfc7P_3IkS-3lr4orqcTjYkqJu7L9GNZ66KMAY9Zyn0zKONX0GedeKyfp-9QCNtsZkNjYIeAK3d4g3FWggUoTM4ByNg8f00pnoF1ULXY4zdUa4Izw9AIoOOf4mLJg",
 				"summary": "針對假訊息的流傳，民主基金會長期調查追蹤，每年也固定以民調的方式調查現階段民眾對於資訊判讀的意識，基金會副執行長陳婉宜分享上一份委託政大選研中心執行的「2019 臺灣民主價值與治理」民調報告，調查發現民眾看待假訊息，對於自身的影響程度遠低於他人。",
 				"tags": [
 					"資訊操弄",
@@ -1451,7 +1491,7 @@
 			"_tw": {
 				"title": "漫天假訊息流竄，監委葉大華：媒體識讀培育需持續進行",
 				"subtitle": "心慌保全來訪問 Ep.26",
-				"coverImage": "https://lh6.googleusercontent.com/A5kZOkj9PuWfKyH6J3uQtqfsYz0HDAY68ag5Z1v_i2WWgm_pqbRSdv0-y6IpdLGn0SYS6m3KlUNwnGuCSfKUfGL7yAFL6QO7hdsac4t2yv5EKB26_p14pHI96zqW2Ec07A=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/A5kZOkj9PuWfKyH6J3uQtqfsYz0HDAY68ag5Z1v_i2WWgm_pqbRSdv0-y6IpdLGn0SYS6m3KlUNwnGuCSfKUfGL7yAFL6QO7hdsac4t2yv5EKB26_p14pHI96zqW2Ec07A",
 				"summary": "去年轉任監察院人權委員的葉大華，過去擔任台灣少年權益與福利促進聯盟（台少盟）秘書長，持續推動台灣青少年社會福利與權益的議題，針對台灣目前遭受資訊操弄的情況，她分享在兒少領域的觀察。媒體改革是葉大華自任職台少盟以來，一直積極推動的議題，主要著重在電子與平面媒體，定期和這些媒體交流、協議，要求成立新聞自律委員會，逐步促進媒體自律。但近三年來，葉大華發現在台少盟以及合作的台灣媒體觀察教育基金會（媒觀）監測的結果，網路新聞的佔比逐年攀升。",
 				"tags": [
 					"資訊操弄",
@@ -1480,7 +1520,7 @@
 			"_tw": {
 				"title": "學者林宗弘：國際間資訊攻擊，都從威權政體投向民主政體",
 				"subtitle": "心慌保全來訪問 Ep.25",
-				"coverImage": "https://lh3.googleusercontent.com/OEgTQfZtj7vEN6lCSD3-AogkLD84aX0JMXVSvvu-HrxqGOiTn8ZVsACiUqZP51OQaeMaHA3w8B1Y-XGOZxlYXHfPu23-o2CP69QhHYZvyWSnQfk2OdK2h0XzpEdGKZdPSQ=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/OEgTQfZtj7vEN6lCSD3-AogkLD84aX0JMXVSvvu-HrxqGOiTn8ZVsACiUqZP51OQaeMaHA3w8B1Y-XGOZxlYXHfPu23-o2CP69QhHYZvyWSnQfk2OdK2h0XzpEdGKZdPSQ",
 				"summary": "國防安全研究院去年發布的「2020 中共年報」中，指出中共對台發動的認知戰屬於「灰色地帶衝突」，不僅消耗民主資源，也難分平時、戰時，潛移默化說壞民主，好比「沒有煙硝的戰爭」。「訊息戰一直都是從威權政體朝民主政體擴散。」中央研究院社會學研究員林宗弘開宗明義總結。他在研究中發現，絕大多數假訊息的投放的方向都是一致的，國際間的資訊攻擊，幾乎都是從威權政體投向民主政體，這表示威權政體有系統的想要干預民主政體，利用民主政體本身的弱點──開放、言論自由，鑽漏洞攻擊。",
 				"tags": [
 					"資訊操弄",
@@ -1508,7 +1548,7 @@
 			"_tw": {
 				"title": "佛系應對！對抗資訊戰，立委鄭運鵬：無招勝有招",
 				"subtitle": "心慌保全來訪問 Ep.24",
-				"coverImage": "https://lh3.googleusercontent.com/QD1ISyjHUB0DZZFOBA4fX1lv34vTBPjX1lWYKV2LRtlUcETCVMyGxoBm41xnK4U1vMaaNLtNBd6lXzwE_c65_hUX7fe7XPF4p9qBMvLGKvjqL2M-yOVVO_5Vfcce3_T5fA=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/QD1ISyjHUB0DZZFOBA4fX1lv34vTBPjX1lWYKV2LRtlUcETCVMyGxoBm41xnK4U1vMaaNLtNBd6lXzwE_c65_hUX7fe7XPF4p9qBMvLGKvjqL2M-yOVVO_5Vfcce3_T5fA",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 24集，我們訪問了立法委員鄭運鵬，他認為台灣社會能夠藉由事件培養對抗資訊操弄的抵抗力，認為「無招勝有招」，讓時間來凝聚社會共識。",
 				"tags": [
 					"資訊操弄",
@@ -1535,7 +1575,7 @@
 			"_tw": {
 				"title": "如何辨別「中共傳聲筒」？林楚茵：需成立專責部會統合規範",
 				"subtitle": "心慌保全來訪問 Ep.23",
-				"coverImage": "https://lh4.googleusercontent.com/41XgsE6C9UFxqAoIVILdFjtwATS0xbCfERWMmhnGgcVmkcu6rnduHCackHQT1aUDmmb675rKC77mCCEdueO97okaskLnLSXcO2JA-SecI3mPu7yUEMFO0skNbvK56oGr5Q=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/41XgsE6C9UFxqAoIVILdFjtwATS0xbCfERWMmhnGgcVmkcu6rnduHCackHQT1aUDmmb675rKC77mCCEdueO97okaskLnLSXcO2JA-SecI3mPu7yUEMFO0skNbvK56oGr5Q",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 23集，我們訪問了立法委員林楚茵，曾為主播的她面對資訊操弄問題，指出了當媒體成為「在地協力」時的辨別準則，並提出主管機關對於 YouTuber、直播主的規範應更加明確的因應方向。",
 				"tags": [
 					"資訊操弄",
@@ -1562,7 +1602,7 @@
 			"_tw": {
 				"title": "王定宇：新型態「混合型戰爭」，錯假資訊已成武器",
 				"subtitle": "心慌保全來訪問 Ep.22",
-				"coverImage": "https://lh5.googleusercontent.com/OB8q9HJLYgKEPmM-9xGAQH7YEOQIUKBCaYeHjXE_I3nUDVqUaeUl9iVgxzBxxRjh67X5pQZ2MDf5qH4woOWIRbAFy0e90Kvf754Wbm6p0S9djNXmjMGYRLulG72PAajE5Q=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/OB8q9HJLYgKEPmM-9xGAQH7YEOQIUKBCaYeHjXE_I3nUDVqUaeUl9iVgxzBxxRjh67X5pQZ2MDf5qH4woOWIRbAFy0e90Kvf754Wbm6p0S9djNXmjMGYRLulG72PAajE5Q",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 22 集，我們訪問了立法委員王定宇，他以「關西機場」事件和之後發生的「甲子園」資訊操弄事件作對比，分析民主國家能對抗假訊息的因應方式。",
 				"tags": [
 					"資訊操弄",
@@ -1589,7 +1629,7 @@
 			"_tw": {
 				"title": "資訊超限戰全球警戒，政委羅秉成：假訊息防制需成全民運動",
 				"subtitle": "心慌保全來訪問 Ep.21",
-				"coverImage": "https://lh3.googleusercontent.com/ZhAm4PTppi0WksjMJonnq3gy4v378_xvEWNIoC8uwl1aI5RXkr7JQUGVIvp82_xJSTD41ICBvXD3HpRXzKpY3WsAOoO6DO6FCdQ4-Fu9ZKSI4S1MNKjwO0-iQgvYt1AqRQ=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/ZhAm4PTppi0WksjMJonnq3gy4v378_xvEWNIoC8uwl1aI5RXkr7JQUGVIvp82_xJSTD41ICBvXD3HpRXzKpY3WsAOoO6DO6FCdQ4-Fu9ZKSI4S1MNKjwO0-iQgvYt1AqRQ",
 				"summary": "科技的進步，網路流通加速，讓訊息傳遞已無國界，但這種方便形成兩面刃，雖降低獲取資訊的難易度，也同時讓虛假、惡意的訊息，比以往擴散更快。「它就是一個戰爭，你可以說這是一場競速戰」過去長期在法律扶助基金會救援冤案的人權律師羅秉成，在接下政務委員職務後，首要任務之一，就是處理棘手的資訊戰議題。他引用美國麻省理工學院（MIT）2018 年針對假新聞做的研究說明，該研究用大數據觀測證實，假新聞在網路世界的傳遞速度，比真訊息快整整六倍，由此可知，與假訊息抗衡是一場先天速度落差極大的競速比賽。",
 				"tags": [
 					"資訊操弄",
@@ -1616,7 +1656,7 @@
 			"_tw": {
 				"title": "誰抵抗力最弱？學者王泰俐研究：年輕人、女性、中間選民易受不實訊息影響",
 				"subtitle": "心慌保全來訪問 Ep.20",
-				"coverImage": "https://lh6.googleusercontent.com/UBWdL3n1Owhn5jhn-mjQhp_rZ5iAu4Cn4z9ZmWyLfvcf-jYL090y1GMyIjfaDBHBJ5AUiw1k8L5tB_aox_LRGgNS41N91HvBA6OZS2W-UYUeLelWJPwoWfjxfeH1uK86_A=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/UBWdL3n1Owhn5jhn-mjQhp_rZ5iAu4Cn4z9ZmWyLfvcf-jYL090y1GMyIjfaDBHBJ5AUiw1k8L5tB_aox_LRGgNS41N91HvBA6OZS2W-UYUeLelWJPwoWfjxfeH1uK86_A",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 20 集，我們訪問了台大新聞所教授王泰俐，根據研究，她指出：最容易受到資訊操弄的原因與教育程度無關，而是「不關心議題」的族群，例如以 2018 年選舉為例就是女性跟年輕人較容易受到政治不實訊息影響；教授並提出國外研究出的四大方法，供民眾一起以簡單的方式辨認資訊操弄。",
 				"tags": [
 					"資訊操弄",
@@ -1643,7 +1683,7 @@
 			"_tw": {
 				"title": "提告造謠人士卻慘遭法院認證！蔡易餘無奈：台灣太輕忽資訊操弄影響",
 				"subtitle": "心慌保全來訪問 Ep.19",
-				"coverImage": "https://lh4.googleusercontent.com/AL3tFR8GLQ8DdzVtteTX2z9hfzfD4-qmLVLdhc21vySpuGXUpje-O8TgPf3YsmA6rKUBii7gdTc5eTx3jZAOZVm3pvUYvVyxPCdyiakhgztQnA7cCwhtFKbo5mIEdKerUA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/AL3tFR8GLQ8DdzVtteTX2z9hfzfD4-qmLVLdhc21vySpuGXUpje-O8TgPf3YsmA6rKUBii7gdTc5eTx3jZAOZVm3pvUYvVyxPCdyiakhgztQnA7cCwhtFKbo5mIEdKerUA",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 19 集，我們訪問了立法委員蔡易餘，他以自身提告造謠者的經驗卻敗訴出發，認為台灣在實務上太輕忽資訊操弄的影響，另外也舉出美國總統川普在臉書及推特上被審查的例子，指出民主制度的言論自由也可能因為制度而受衝擊的現象。",
 				"tags": [
 					"資訊操弄",
@@ -1670,7 +1710,7 @@
 			"_tw": {
 				"title": "電視媒體信任度仍最高！媒觀執行長滕西華：情感影響大過理性判斷",
 				"subtitle": "心慌保全來訪問 Ep.18",
-				"coverImage": "https://lh4.googleusercontent.com/9EhdZ0sgl17mfMz92_o2INtpSwR6FEwA3k3UZyVMnWLMcHb7xPpjVxCB-n_zTOVWrzj3jqI3pWPF1nrPsi4OF6A1wAJkuSof9RQCRqhxtSmsa7HeFlEzCTkj-n3slgGJWA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/9EhdZ0sgl17mfMz92_o2INtpSwR6FEwA3k3UZyVMnWLMcHb7xPpjVxCB-n_zTOVWrzj3jqI3pWPF1nrPsi4OF6A1wAJkuSof9RQCRqhxtSmsa7HeFlEzCTkj-n3slgGJWA",
 				"summary": "去年，國家通訊傳播委員會（NCC）首度開鍘，對中天新聞台作出不予換照的決議，如今中天關台轉戰 YouTube 經營頻道已屆滿一個月，針對 NCC 於 2006 年成立以來，第一次大動作規範，是否對「在地協力者」的管理上有所進展，IORG 團隊採訪媒體觀察基金會的執行長滕西華，討論台灣在面臨資訊操弄的現今，媒體有無扮演好第四權角色。",
 				"tags": [
 					"資訊操弄",
@@ -1698,7 +1738,7 @@
 			"_tw": {
 				"title": "「在地協力者」易成資訊操弄幫凶，王婉諭：嚴格審查是必要的",
 				"subtitle": "心慌保全來訪問 Ep.17",
-				"coverImage": "https://lh5.googleusercontent.com/XW5kr_qGbM-h2rdadrkhFrnjeIYyvxLcWULuTfJUrB5NJloQYqP6m5O4d3TTgg_fb1vpy9oJ9_xws-oGTR_ZUUjFcs_vw9oN17GUsLnKx89bOdos9GxuT32-XB8YqhvVAg=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/XW5kr_qGbM-h2rdadrkhFrnjeIYyvxLcWULuTfJUrB5NJloQYqP6m5O4d3TTgg_fb1vpy9oJ9_xws-oGTR_ZUUjFcs_vw9oN17GUsLnKx89bOdos9GxuT32-XB8YqhvVAg",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 17 集，我們訪問了立法委員王婉諭，她舉出目前大家關心的兒少保護方面，在面對假資訊時，已經有相關單位可以協助處理，並提出政府應該做更長遠的準備，以及強調民主深化的重要。",
 				"tags": [
 					"資訊操弄",
@@ -1727,7 +1767,7 @@
 			"_tw": {
 				"title": "資訊戰來勢洶洶！政大學者黃兆年拆解「來源、傳播、接收」3 面向策略",
 				"subtitle": "心慌保全來訪問 Ep.16",
-				"coverImage": "https://lh3.googleusercontent.com/9MuVMxL_DrTTwleEbqLV8G15QGTW2UQVWHMAyzaeySk8tXRotAB0XH5FcvNue25xh_kB-cL6Cv8hSt1QMes8rwW1z72y6SwnKtlDt8xjPmiw1Q9K_ODQTsg-kk3-e7hmEA=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/9MuVMxL_DrTTwleEbqLV8G15QGTW2UQVWHMAyzaeySk8tXRotAB0XH5FcvNue25xh_kB-cL6Cv8hSt1QMes8rwW1z72y6SwnKtlDt8xjPmiw1Q9K_ODQTsg-kk3-e7hmEA",
 				"summary": "「簡化來看，這是一個威權的體系，跟民主的體系之間的爭霸。」政大國發所助理教授黃兆年認為，中國利用資訊操弄，讓國際社會改變對中國的認知，目的是要形塑對於威權，或是中國模式的認可。IORG 研究證實，中國對台的資訊操弄確實存在，案例包括 B.1 關西機場「中國人先上車」、B.2 陳菊貪污、B.3 美國流感比武漢肺炎更致命、B.4 美國以武漢軍人運動會散播病毒、B.5 美國流感就是武漢肺炎、B.6 光復美國、B.7 中選會作票。案例中各樣論述，有一個共同的主題：民主體制效率低落、貪污腐敗。",
 				"tags": [
 					"資訊操弄",
@@ -1743,7 +1783,7 @@
 			"_en": {
 				"title": "The roaring information war: scholar Huang Jaw-Nian proposes 3-part strategy – source, dissemination & reception",
 				"subtitle": "Dokidoki Interview Ep.16",
-				"coverImage": "https://lh6.googleusercontent.com/FJAj7k4W4XaFi5pgwP2k6bC6TEJKXppoJBpgLzplrLHpPYJ75pJTlL-z6zXyWFf-e7heRtFIiS2OkoT03ElwlMum2cOYAyvDOLrEIX3Qb4hZKOxJ6e8uXkohxDXH-wtUyA=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/FJAj7k4W4XaFi5pgwP2k6bC6TEJKXppoJBpgLzplrLHpPYJ75pJTlL-z6zXyWFf-e7heRtFIiS2OkoT03ElwlMum2cOYAyvDOLrEIX3Qb4hZKOxJ6e8uXkohxDXH-wtUyA",
 				"summary": "“In a nutshell, this is a competition between an authoritarian system and a democratic one,” said Huang Jaw-Nian (黃兆年), Assistant Professor at National Cheng-Chi University’s Graduate Institute of National Development. Huang thinks that China is using information manipulation to change its image internationally in order to create acceptance of authoritarianism, or the China model. IORG’s research verifies Chinese information manipulation in Taiwan, with case studies including: the Kansai Airport incident (B.1), claims that former Kaohsiung mayor Chen Chu (陳菊) is corrupt (B.2), claims that U.S. flu is more deadly than COVID-19 (B.3), claims that the U.S. released the coronavirus at the Wuhan Military Games (B.4), claims that U.S. flu is actually COVID-19 (B.5), hijacking the #LiberateHongkong hashtag with anti-U.S. propaganda (B.6), and claims that Taiwan’s Central Election Commission was involved in voter fraud (B.7). A common theme can be found from the narratives of these cases: an emphasis on democracy’s inefficiency and corruption.",
 				"tags": [
 					"Information manipulation",
@@ -1773,7 +1813,7 @@
 			"_tw": {
 				"title": "林昶佐：對獨裁國家來說，民主自由社會到處都是漏洞",
 				"subtitle": "心慌保全來訪問 Ep.15",
-				"coverImage": "https://lh6.googleusercontent.com/U0QSpcclCvZ_ww24tX6J3nDYYFAlP53MT0MUdLc-_p6xb_kGHsWeTKUfEv7BJIYoMdYGoYbumZ2HJuP_udr--yh0cBqFCKbN2CsJVxvMkMkA-8bog3asVOChlrgPznk4yg=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/U0QSpcclCvZ_ww24tX6J3nDYYFAlP53MT0MUdLc-_p6xb_kGHsWeTKUfEv7BJIYoMdYGoYbumZ2HJuP_udr--yh0cBqFCKbN2CsJVxvMkMkA-8bog3asVOChlrgPznk4yg",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 15 集，我們訪問了立法委員林昶佐，他強調世界現在共同面對的是比過去都還龐大的獨裁國家，而且對「它們」來說，民主自由的社會到處都是漏洞！",
 				"tags": [
 					"資訊操弄",
@@ -1789,7 +1829,7 @@
 			"_en": {
 				"title": "Freddy Lim: In the view of the authoritarians, democracies are full of vulnerabilities",
 				"subtitle": "Dokidoki Interview Ep.15",
-				"coverImage": "https://lh4.googleusercontent.com/snS5luUer7I-wLrIae6aRfZ0W0HaRa36vnZ6ksP-qQ-vPHiLr3GZwetEC8mDQJGs5d_TiA90NKnE19Gz1TYI2R3qTA2H2hiSpieOW1nvtdQFeAt6wPtWm4ojMjTLFmnRNA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/snS5luUer7I-wLrIae6aRfZ0W0HaRa36vnZ6ksP-qQ-vPHiLr3GZwetEC8mDQJGs5d_TiA90NKnE19Gz1TYI2R3qTA2H2hiSpieOW1nvtdQFeAt6wPtWm4ojMjTLFmnRNA",
 				"summary": "Starting from IORG’s research report, Dokidoki Safety interviews legislators, councilors, scholars, and experts about Chinese information manipulation against Taiwan.Episode 15, Dokidoki Safety interview Legislator Freddy Lim. He stressed that the world is collectively facing an authoritarian state larger than ever before. To “it,” our liberal, democratic societies are full of vulnerabilities.",
 				"tags": [
 					"Information manipulation",
@@ -1819,7 +1859,7 @@
 			"_tw": {
 				"title": "揪出躲在暗處的敵人，林飛帆：建立訊息「產地標示」是當務之急",
 				"subtitle": "心慌保全來訪問 Ep.14",
-				"coverImage": "https://lh4.googleusercontent.com/KjmKEM6swbHfAc7vcBcQD52FcYFvNdDZJ-8RNzxdKNSQcCqzQ910Hvw0z0umW_EBIr8ikpRVmeEcJTH6qehXb1wcjk-EgUoBK_hQR_WMT00UPfn-zAIeHryE4Ml1f3xbEg=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/KjmKEM6swbHfAc7vcBcQD52FcYFvNdDZJ-8RNzxdKNSQcCqzQ910Hvw0z0umW_EBIr8ikpRVmeEcJTH6qehXb1wcjk-EgUoBK_hQR_WMT00UPfn-zAIeHryE4Ml1f3xbEg",
 				"summary": "去年，在 2020 總統大選前投下的震撼彈「王立強共諜案」，也曾經燒到民進黨副秘書長林飛帆身上，當時，網友用多年前一張林飛帆與香港朋友合照，指稱其中一人就是共諜王立強，誤傳兩人是熟識的朋友。「當時第一時間透過事實查核中心調查，以及臉書澄清與報警，才慢慢把風向轉回來」林飛帆說，針對他個人的假訊息攻擊層出不窮，看攻擊影響嚴重程度，決定澄清與否。",
 				"tags": [
 					"資訊操弄",
@@ -1835,7 +1875,7 @@
 			"_en": {
 				"title": "Exposing enemy in the shadows – Lin Fei-Fan: We need “place of origin” information labelling",
 				"subtitle": "Dokidoki Interview Ep.14",
-				"coverImage": "https://lh3.googleusercontent.com/yov4J6CjUl6cadNIBwKEJ_KYhuoQGM55pPDzBOXwp1n_2k0wMAarpBrt5SOFWOTeg0XvFqd1ySY8OXh3-C7okzR7nIQcln7jQ7aiXUq0cwnCiMTM0-7rKu9GtUl-JQ86wg=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/yov4J6CjUl6cadNIBwKEJ_KYhuoQGM55pPDzBOXwp1n_2k0wMAarpBrt5SOFWOTeg0XvFqd1ySY8OXh3-C7okzR7nIQcln7jQ7aiXUq0cwnCiMTM0-7rKu9GtUl-JQ86wg",
 				"summary": "Last year, news of the Wang Li-qiang (王立强) spy-case dropped just before Taiwan’s 2020 presidential election. Lin Fei-Fan (林飛帆), Deputy Secretary-General of the Democratic Progressive Party (DPP) was also impacted by the case. Web users claimed an old photo of Lin with a friend in Hong Kong was actually Wang, and that the two were close friends. “At the time, we were able to beat back that narrative through an investigation by the Taiwan Fact Checking Center, clarifying it with Facebook as well as lodging a formal complaint,” said Lin. Personal attacks against Lin that use false information seem to arise in an endless stream; depending on the severity of the attack, Lin decides whether he wants to clarify them or not.",
 				"tags": [
 					"Information manipulation",
@@ -1863,7 +1903,7 @@
 			"_tw": {
 				"title": "台灣「久病成良醫」？何志偉：資訊操弄影響範圍會慢慢收斂",
 				"subtitle": "心慌保全來訪問 Ep.13",
-				"coverImage": "https://lh4.googleusercontent.com/5SJklpW_c1EuoSJFj6VZhsiONmDL37wVJ8QF5tUieLdFyYPuWRkHWKhmQJTndfk5d-k9kJoDowfuxcVLg8mqF08Fw5mhZoq1GHqVIBRo2k9fonTQ512lYbpiz1X5oSNyjg=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/5SJklpW_c1EuoSJFj6VZhsiONmDL37wVJ8QF5tUieLdFyYPuWRkHWKhmQJTndfk5d-k9kJoDowfuxcVLg8mqF08Fw5mhZoq1GHqVIBRo2k9fonTQ512lYbpiz1X5oSNyjg",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 13 集，我們訪問了立法委員何志偉，他抱持相對樂觀的看法，認為台灣因為選舉的關係，「民眾什麼沒聽過？什麼沒看過？」在多方夾擊下能夠久病成良醫，資訊操弄的影響會慢慢收斂！",
 				"tags": [
 					"資訊操弄",
@@ -1890,7 +1930,7 @@
 			"_tw": {
 				"title": "防資訊操弄內憂外患，陳亭妃：應成立中央專責單位",
 				"subtitle": "心慌保全來訪問 Ep.12",
-				"coverImage": "https://lh3.googleusercontent.com/oP9Ofk6yG0zxQGiIVyXi2HYSY323WsMBQ6iN4mIz4kwt8vTfbwtKwSDr8Ql7VviWZ5fRCIbZ8n9GGxqcFEv7dxx6ViQ2ZqHkvlTxCcJWZL8jta16b69Nu81AttxGjOSM6A=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/oP9Ofk6yG0zxQGiIVyXi2HYSY323WsMBQ6iN4mIz4kwt8vTfbwtKwSDr8Ql7VviWZ5fRCIbZ8n9GGxqcFEv7dxx6ViQ2ZqHkvlTxCcJWZL8jta16b69Nu81AttxGjOSM6A",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 12 集，我們訪問了立法委員陳亭妃，她以自身被斷章取義的「一指妃」受害經驗切入，談及個人面對資訊操弄的無力，並認為在地協力者的管制應該更加細緻。",
 				"tags": [
 					"資訊操弄",
@@ -1917,7 +1957,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放資料、公民參與、國際連結對抗資訊操弄，歐美學者肯定台灣經驗",
-				"coverImage": "https://lh6.googleusercontent.com/m3Xck-Hd1ZMFXIcP8LPou0d56sUtKqfj8YIPuYxy3MKs1T7PcV-4JmcThBHShFId1F-WRTFX_lVT1wuW6IlpBFBnJpL8odQJOOIhH3LP7F-tCcc2CPZidXE29WdSsx408A=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/m3Xck-Hd1ZMFXIcP8LPou0d56sUtKqfj8YIPuYxy3MKs1T7PcV-4JmcThBHShFId1F-WRTFX_lVT1wuW6IlpBFBnJpL8odQJOOIhH3LP7F-tCcc2CPZidXE29WdSsx408A",
 				"summary": "IORG 於 12 月 7 日舉辦線上討論會，邀請國內外資料科學、跨國衝突及國家安全跨領域學者、專業工作者上線交流。會中提及，由民間自主發起的開放資料專案，是資訊操弄科學研究的重要基石，也是集體民主防衛的具體實踐，而以工作坊等公民參與方式連結研究者與社會大眾，有助公民社會提升防衛意識，受到與會者的肯定。台灣是中國資訊操弄的重要目標，而遠在敘利亞的魯克班難民營也能發現中國資訊操弄的痕跡。面對威權擴張，紐約大學國際關係教授瑪慈伽里指出，唯有強化社會連結和民主韌性才能有效反制。未來，莫楠提出應建立「有責溯源」及「有責臆測」的標準，IORG 亦將持續精進資料科學研究方法，提出資訊操弄研究的開放框架，貢獻「台灣經驗」，供國際友人參考。",
 				"tags": [
 					"資訊操弄",
@@ -1933,7 +1973,7 @@
 			},
 			"_en": {
 				"title": "Countering information manipulation: scholars recognize “Taiwan experience” incorporating open data & civic participation",
-				"coverImage": "https://lh4.googleusercontent.com/1hFBUdVcUsDck--5RdispKMgDpFyM9_oyul49WnPk_HixrV-BbvnH9Oj5LRylvhESBz2_13McsDT9p9wHlK_OCsX8uJISjhCYvlc3VAxKDxXjvvr2G1gSWXKwJQO33zPNA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/1hFBUdVcUsDck--5RdispKMgDpFyM9_oyul49WnPk_HixrV-BbvnH9Oj5LRylvhESBz2_13McsDT9p9wHlK_OCsX8uJISjhCYvlc3VAxKDxXjvvr2G1gSWXKwJQO33zPNA",
 				"summary": "On Dec 7th, IORG held an online discussion, gathering researchers from fields across data science, cross-border conflict, and national security to exchange views on disinformation and information operation studies. In the discussions, participants highlighted the importance of open data as a cornerstone of information manipulation research as well as a manifestation of a collective defense of democracy. Scholars also recognize that civic participation initiatives such as workshops can connect researchers with the general public and increase public awareness on relevant topics.Taiwan is the main target of China’s disinformation campaign, while its fingerprints can also be seen at Rukban refugee camp in Syria. In the face of the expanding authoritarianism, Colette Mazzucelli, Professor at NYU International Relations, pointed out that only by strengthening civil society and democratic resilience can we effectively counter such expansion. Regarding future research, Nick Monaco, Director of the Digital Intelligence Lab at IFTF, proposed to establish standards of responsible attribution and responsible speculation. IORG will work to refine data research methods, propose an open framework for information manipulation study, connect scholars and experts worldwide and share our “Taiwan experience.”",
 				"tags": [
 					"Information manipulation",
@@ -1962,7 +2002,7 @@
 			"_tw": {
 				"title": "資訊操弄影響公民社會，立委邱顯智：會造成寒蟬效應",
 				"subtitle": "心慌保全來訪問 Ep.11",
-				"coverImage": "https://lh4.googleusercontent.com/rr0QqDLthAj-oHBvhZS04tR8asyQ0KW3ntS2b3oeiNJnTvkkze7xWSgZ0QlhGCtmlwFBwBMlianqa-GG0RUlfn0WRdUasG23UeHueoIIOVDup1cPcIBCt05wH93Ij1CiRA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/rr0QqDLthAj-oHBvhZS04tR8asyQ0KW3ntS2b3oeiNJnTvkkze7xWSgZ0QlhGCtmlwFBwBMlianqa-GG0RUlfn0WRdUasG23UeHueoIIOVDup1cPcIBCt05wH93Ij1CiRA",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 11 集，我們訪問了立法委員邱顯智，他分享自身當律師的經驗，訴說「資訊操弄」如何影響公民社會；談及新聞、電視和 NCC 的職權，舉了更有趣的案例。",
 				"tags": [
 					"資訊操弄",
@@ -1989,7 +2029,7 @@
 			"_tw": {
 				"title": "資訊管制、言論自由，高虹安：需在天秤兩端取平衡",
 				"subtitle": "心慌保全來訪問 Ep.10",
-				"coverImage": "https://lh3.googleusercontent.com/qnSKg1fwPj2TWC27P_2MsB2JnwXDmmxXGMRVnrC4nHLdoz07uE1YuPalvVM1I3nbIgTwrQSwHrWLjiZmoDpy3wiLhMALfJfOH-3EMuoAltMfpgRqxDE8DUXwMCSZSpeB9w=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/qnSKg1fwPj2TWC27P_2MsB2JnwXDmmxXGMRVnrC4nHLdoz07uE1YuPalvVM1I3nbIgTwrQSwHrWLjiZmoDpy3wiLhMALfJfOH-3EMuoAltMfpgRqxDE8DUXwMCSZSpeB9w",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 10 集，我們訪問了立法委員高虹安，她以電子郵件分類的例子提出，可以用科技的方式訓練出「假消息」的分類器！",
 				"tags": [
 					"資訊操弄",
@@ -2016,7 +2056,7 @@
 			"_tw": {
 				"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄",
 				"subtitle": "心慌保全來訪問 Ep.9",
-				"coverImage": "https://lh6.googleusercontent.com/0AUmDGoIbzy7pzI9cVUVfnJ0COXYTQyaxQ5bDMgdu9KPueNk0wNXLHr0Ri5N6YF-Y1fO9XATMpOLBywxseMWBlHXlMD9kZnEqvQXgSY3jnFfo9-dASIhmHrEPP4icNWv_g=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/0AUmDGoIbzy7pzI9cVUVfnJ0COXYTQyaxQ5bDMgdu9KPueNk0wNXLHr0Ri5N6YF-Y1fO9XATMpOLBywxseMWBlHXlMD9kZnEqvQXgSY3jnFfo9-dASIhmHrEPP4icNWv_g",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 9 集，我們訪問了立法委員陳柏惟，「中國已經把我們設定為代理人，為什麼我們不把他設定回來？」他提出資金來源、代理人法及公職陽光法案，以三個面向，力斬資訊操弄！",
 				"tags": [
 					"資訊操弄",
@@ -2043,7 +2083,7 @@
 			"_tw": {
 				"title": "立委吳思瑤：每天開門就要應付資訊操弄，對政府是一種內耗",
 				"subtitle": "心慌保全來訪問 Ep.8",
-				"coverImage": "https://lh5.googleusercontent.com/hw1VjKB934wXTmTGJiSHe7I1Xjw-byOpo6V7iKh6orX_x2Mmtbj3radLanZqQtNlgmoOjNtCFG8M4mvq2Gh5NPFCNHBtHoTuSlHggd5I-gxv2Kq3qNzu19jJFnsqdNUyRw=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/hw1VjKB934wXTmTGJiSHe7I1Xjw-byOpo6V7iKh6orX_x2Mmtbj3radLanZqQtNlgmoOjNtCFG8M4mvq2Gh5NPFCNHBtHoTuSlHggd5I-gxv2Kq3qNzu19jJFnsqdNUyRw",
 				"summary": "心慌保全以 IORG 的研究報告為出發點，約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 8 集，我們訪問了立法委員吳思瑤，她表示每天睜開眼就有上千通的資訊要協助澄清，對政府來說是一種內耗⋯⋯",
 				"tags": [
 					"資訊操弄",
@@ -2070,7 +2110,7 @@
 			"_tw": {
 				"title": "立委陳玉珍：夾到手為什麼要送醫院？解決資訊操弄端看執政者意願",
 				"subtitle": "心慌保全來訪問 Ep.7",
-				"coverImage": "https://lh5.googleusercontent.com/W8BBZd-KcS0fU4YbHAvZrZzGMeHwczuiLP0PtN49x2exI4ZeFoCVRVvbZXl1MLHR-nwm8MzN3O0OUs276Yk-ToUpL9tvE7NcqhR5_HUt8a3Sd73MBQIFXUyIXJOhnLY5Zg=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/W8BBZd-KcS0fU4YbHAvZrZzGMeHwczuiLP0PtN49x2exI4ZeFoCVRVvbZXl1MLHR-nwm8MzN3O0OUs276Yk-ToUpL9tvE7NcqhR5_HUt8a3Sd73MBQIFXUyIXJOhnLY5Zg",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 7 集，訪問了立法委員陳玉珍，她以兩個親身經歷詳細介紹自身遇到資訊操弄的過程，以及帶來的影響，並且指出，她認為要改善資訊操弄端看執政者意願。",
 				"tags": [
 					"資訊操弄",
@@ -2097,7 +2137,7 @@
 			"_tw": {
 				"title": "「資訊操弄」怎麼防治？唐鳳：小學生、中學生都能加入",
 				"subtitle": "心慌保全來訪問 Ep.6",
-				"coverImage": "https://lh5.googleusercontent.com/iApe_O0enY3-GilGgpbrKIVdAgZMMBHDKYBUqaBcCzIY-2fjAH-lBrksbeHtROrm-jqFgyN9uiW_t9dspaEzHeuFQYkLhUQzqoSxjbRwbE05zT2e4xYdJ3tkFLOGzoa0Mw=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/iApe_O0enY3-GilGgpbrKIVdAgZMMBHDKYBUqaBcCzIY-2fjAH-lBrksbeHtROrm-jqFgyN9uiW_t9dspaEzHeuFQYkLhUQzqoSxjbRwbE05zT2e4xYdJ3tkFLOGzoa0Mw",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 6 集，訪問了政務委員唐鳳，她舉例訊息操弄帶來的平行世界讓事實查核變得困難，但只要多做「來源查核」，連小學生都可以加入抵抗的行列，並提出「不活化的病毒就是疫苗」⋯⋯",
 				"tags": [
 					"資訊操弄",
@@ -2125,7 +2165,7 @@
 			"_tw": {
 				"title": "俄國干預美國大選的好幫手：在地協力者",
 				"subtitle": "國際觀察",
-				"coverImage": "https://lh4.googleusercontent.com/EUNlmckSXP8lrO8sWTnZVmA0ZS3QfgEAhrw0cJWJobr-Xh6sBSpg6H5IWRffka59yfNesQAokZszlxM3ZyKQXOo5EC197gS65W2uZndEjCRrNBP_WTtooJqXlEnK62mO1g=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/EUNlmckSXP8lrO8sWTnZVmA0ZS3QfgEAhrw0cJWJobr-Xh6sBSpg6H5IWRffka59yfNesQAokZszlxM3ZyKQXOo5EC197gS65W2uZndEjCRrNBP_WTtooJqXlEnK62mO1g",
 				"summary": "俄國積極介入美國 2020 總統大選，除了讓自己偏好的候選人當選，更要造成美國社會持續分化、動盪，削弱美國人民對民主制度運行要素的信任感。與 2016 年相比，俄國這次干預選舉故技重施，但手法更在地化，更依賴在地協力者，以迴避社群媒體平台刪除假帳號、要求揭露廣告資金來源等措施。在地協力者日漸重要的地位與 IORG 研究中國對台資訊戰的結論一致。經過四年美國雖然更加了解俄國干預大選的方法，但兩黨政治的極化和人民對主流媒體信任度的下降，無疑增加美國抵禦俄國干預大選的困難。台灣若要避免落入相同情況，提升公民資訊判讀能力之外，加強政府部門、特別是選務機關的資安防禦，要求社群媒體平台定期對協同不實行為做更多資訊揭露，培養社會對不同意見的包容性等都是必要之務。",
 				"tags": [
 					"選舉干預",
@@ -2153,7 +2193,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "中國銳實力入侵：資訊操弄「說壞」台灣民主",
-				"coverImage": "https://lh4.googleusercontent.com/SFcTHzv1urb35-t3PrDlOqT_97mcbGyxYTLALKvhOwki4hezI9b5odH_FAgE1CtNJ8kCxdreeClmn1xZClhz259HAwSIlDvx8XL9toAtpdq-pl7-PNWzw-Oyd2X1wU2FvA=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/SFcTHzv1urb35-t3PrDlOqT_97mcbGyxYTLALKvhOwki4hezI9b5odH_FAgE1CtNJ8kCxdreeClmn1xZClhz259HAwSIlDvx8XL9toAtpdq-pl7-PNWzw-Oyd2X1wU2FvA",
 				"summary": "2017 年，「銳實力」一詞被提出，指的是威權國家透過侵略性的對外政策，將權力滲入民主國家，達到滲透、混亂和顛覆民主國家主權目的。而中國對台的資訊操弄和認知戰，即是銳實力投射的一環，假新聞僅僅是冰山一角。IORG 20 日發佈最新研究報告，透過公開、可驗證的資料科學方式，證實中國對台的資訊操弄，並繪製出網絡圖，呈現中國傳遞假訊息、改變台人認知的路徑。學者黃兆年指出，中國對台資訊操弄的目的是講述「中國的威權模式比西方的民主模式更好」，並試圖「說壞」台灣故事和民主故事。IORG 呼籲，提升民眾對認知戰的防衛意識與資訊判讀能力，並推動資訊公開、公民參與，是防衛台灣主權、嚴防銳實力入侵的根本解方。美國在台協會發言人孟雨荷也表示，IORG 的報告是台灣貢獻國際的好例子，若他國能借鑑台灣的經驗與研究，就是一種 Taiwan Can Help。",
 				"tags": [
 					"資訊操弄",
@@ -2180,7 +2220,7 @@
 			"_tw": {
 				"title": "對抗資訊操弄＝防疫！苗博雅：專責、宣導缺一不可",
 				"subtitle": "心慌保全來訪問 Ep.5",
-				"coverImage": "https://lh3.googleusercontent.com/8kGVlis9bi_-yTEyP__21fFSFWbS6hkhziximBVd2OOiVX4se6xXjEb28hG3zfvmHdNXNiA94UECbB9rvY5W_B43ShXJtJi0yOy3-EOGxqaKRxmxn1u9iIpRGpvC58DKzA=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/8kGVlis9bi_-yTEyP__21fFSFWbS6hkhziximBVd2OOiVX4se6xXjEb28hG3zfvmHdNXNiA94UECbB9rvY5W_B43ShXJtJi0yOy3-EOGxqaKRxmxn1u9iIpRGpvC58DKzA",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 5 集，心慌保全訪問了台北市議員苗博雅，她認為媒體識讀是改變社會文化的長期抗戰，並指出對抗資訊操弄就像防疫，需要有政府的專責機關或人物來扛責，不斷提醒大眾。",
 				"tags": [
 					"資訊操弄",
@@ -2207,7 +2247,7 @@
 			"_tw": {
 				"title": "一個支持拜登、一個支持川普？中俄「介入」美國選舉方式大不同",
 				"subtitle": "國際觀察",
-				"coverImage": "https://lh5.googleusercontent.com/EtiPJ5QDTO7Wh8CHOOhZvgjmMxsVokmjsvX3tnTdKRrTqbWOq8OwS98S2XG61CdlKcDI3CvnDc4mF76-8kZGtiWpmj5McqC3bSkdcB2j9EanPTcLojZBCsy_obSyh605Aw=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/EtiPJ5QDTO7Wh8CHOOhZvgjmMxsVokmjsvX3tnTdKRrTqbWOq8OwS98S2XG61CdlKcDI3CvnDc4mF76-8kZGtiWpmj5McqC3bSkdcB2j9EanPTcLojZBCsy_obSyh605Aw",
 				"summary": "根據美國國家反情報和安全中心主任 8 月公布的一份聲明，中國和俄國被點名試圖影響 2020 年美國大選，但其實兩國介入大選的手段和目的大相徑庭。中國欲對美國進行長期的認知戰，建立符合中國利益的穩定友好兩邊關係，因此中國在疫情、選舉期間對美進行的資訊操弄，包括 IORG 先前研究「光復美國」事件所顯示的，並沒有明顯支持或反對特定美國總統候選人，而是藉由大選竊取更多美國人民、政府相關資訊做長期策略規劃。俄國則是基於地緣政治和國家安全考量，更願意透過資訊操弄、駭客等方式積極地介入美國總統大選，以實際行動支持或攻擊特定候選人，以確保符合自身國家利益的候選人當選。",
 				"tags": [
 					"美國大選",
@@ -2235,7 +2275,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "「陳菊貪污」連調查局也看不下去？",
-				"coverImage": "https://lh3.googleusercontent.com/oA3vVs3_P3Bw2cCCUcWnJetvjBTQ5-_NfknCDDvZnBQf9hFg-F-Nv6GEN3F8aE8BQIPB9Zt3s1hZ8lkzaFVIR4mJ61CX9tPbGwDVxWxOTVBfz3BFdYbh3Ygtlm4HJWN-Sg=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/oA3vVs3_P3Bw2cCCUcWnJetvjBTQ5-_NfknCDDvZnBQf9hFg-F-Nv6GEN3F8aE8BQIPB9Zt3s1hZ8lkzaFVIR4mJ61CX9tPbGwDVxWxOTVBfz3BFdYbh3Ygtlm4HJWN-Sg",
 				"summary": "2019 年 4 月初，中國媒體《鳳凰新聞社》刊出一篇指控現任監察院長陳菊在高雄市長任內貪污的文章。文章內容隨後被台灣 Facebook 使用者截取，加上「調查局官員傳出」、「調查局內部官員實在看不下去」等字樣，轉發在其他 Facebook 社團，營造公務人員也不信任政府的觀點。2020 年 1 月台灣總統大選前，只要出現重大政治新聞事件，「陳菊貪污」的訊息就會出現在社交媒體上，儘管調查局在 11/21 日發布新聞稿，澄清「陳菊貪污」相關訊息為假訊息，訊息數量仍在 12 月時達到高峰，選後則回歸常態。根據 IORG 研究調查，「調查局內部官員實在看不下去」的假訊息並未進入台灣主流媒體、 政論節目。",
 				"tags": [
 					"資訊操弄",
@@ -2264,7 +2304,7 @@
 			"_tw": {
 				"title": "資訊操弄無國界！范雲：修法、NCC、教育「三管齊下」",
 				"subtitle": "心慌保全來訪問 Ep.4",
-				"coverImage": "https://lh3.googleusercontent.com/nqh4JXHoRAUtxL0v74OrNUZZTQ7ZKyMzMz9OpR8tYiMguM_IZNlP04VQSP1oP-XBrF5dx9oBUkOQ0KmIAQrvRTUCklttshIlH0sLvvhvr7-TNQ_9w_I-ei44Bnh2MJkG6g=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/nqh4JXHoRAUtxL0v74OrNUZZTQ7ZKyMzMz9OpR8tYiMguM_IZNlP04VQSP1oP-XBrF5dx9oBUkOQ0KmIAQrvRTUCklttshIlH0sLvvhvr7-TNQ_9w_I-ei44Bnh2MJkG6g",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 4 集，心慌保全訪問了立法委員范雲，她分享了自身對應資訊操弄的經驗，並指出面對無國界的資訊操弄，關鍵有三點：首先是修正使現行法規更加合宜、改善新聞媒體的事實查核機制，以及從教育著手，增強國人的媒體識讀素養。",
 				"tags": [
 					"資訊操弄",
@@ -2291,7 +2331,7 @@
 			"_tw": {
 				"title": "「統戰團」超多！立委賴品妤：從民代下手",
 				"subtitle": "心慌保全來訪問 Ep.3",
-				"coverImage": "https://lh6.googleusercontent.com/nx3Q01dUiaSB_hvXg7ZXyRdlg00xEYfttGlWVNWfdrFdGEEProYBK-cU-GZfcEXbn9Sx0mkjVyge3-hBYySH2EbvnI7UsvXgS8b6dre5apdGNuALBnV-CfapTkALwL475g=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/nx3Q01dUiaSB_hvXg7ZXyRdlg00xEYfttGlWVNWfdrFdGEEProYBK-cU-GZfcEXbn9Sx0mkjVyge3-hBYySH2EbvnI7UsvXgS8b6dre5apdGNuALBnV-CfapTkALwL475g",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 3 集，心慌保全訪問了立法委員賴品妤，她不僅直指要對「民代下手」，還提出了連助理在旁邊都緊張的立法方向。",
 				"tags": [
 					"資訊操弄",
@@ -2317,7 +2357,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "怎麼和老大人談資訊操弄？銀髮族溝通 3 訣竅與你分享",
-				"coverImage": "https://lh5.googleusercontent.com/EqD-5CR_9mUEeutuScBrdPrbhpRIos1y1GxFvpYryUgicS3Op_UWCBDnbDkK_kJfHnsN_A0hW2nywTiOnDmdDeLXJ4mcTdRT9LtkTUftFN_wc4ggqC4_aY-VJf4lJVRTaw=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/EqD-5CR_9mUEeutuScBrdPrbhpRIos1y1GxFvpYryUgicS3Op_UWCBDnbDkK_kJfHnsN_A0hW2nywTiOnDmdDeLXJ4mcTdRT9LtkTUftFN_wc4ggqC4_aY-VJf4lJVRTaw",
 				"summary": "從是否識字、是否使用網路，到對政府、政治的認知，老大人們都與網路原生世代有著巨大差異。在防治資訊操弄、加強資訊判讀上，理解銀髮族群的認知模式、面對面的溝通，特別重要。以下是我的一些經驗分享，如果你有更好的解方，歡迎一起討論！",
 				"tags": [
 					"資訊操弄",
@@ -2345,7 +2385,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "海峽論壇網絡分析：朱立倫、侯友宜參加過，慈濟、鎮瀾宮、旺中都是主辦單位",
-				"coverImage": "https://lh4.googleusercontent.com/OB0lGHq-iulDjr3TJLucPaII8JO8lc1OEnJivWExIWZSR6aZd5Fy5vvfPUZbhJwsAG_MKLgr5P9fl0nj7RmW142FOVgUNnOTFQJInZaMUDKLGyx0WeKj8-yuZcqaNHYkkQ=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/OB0lGHq-iulDjr3TJLucPaII8JO8lc1OEnJivWExIWZSR6aZd5Fy5vvfPUZbhJwsAG_MKLgr5P9fl0nj7RmW142FOVgUNnOTFQJInZaMUDKLGyx0WeKj8-yuZcqaNHYkkQ",
 				"summary": "由國台辦主辦的海峽論壇，因央視主播一句「求和之旅」引起軒然大波，今年其實已經邁向第 12 年。IORG 整理海峽論壇的參與名單與主辦單位，描繪網絡關係，可以看出中共撒下的大網。其中國民黨出席過的政治人物，包含朱立倫、侯友宜、胡志強、郝龍斌、洪秀柱、傅崐萁等大咖。其他政黨方面，台北市長柯文哲任內的副市長鄧家基也已經連續三年出席，新黨、親民黨更是幾乎從未缺席過。民進黨也曾有執政縣市的政府官員出席，在第 1 屆也曾有前民進黨主席許信良參加。經過國台辦 11 年的努力，海峽論壇已經成為台灣親中政治人物的固定盛會。同時值得注意的是，慈濟、由大甲鎮瀾宮發起創立的台灣媽祖聯誼會，從第 1 屆開始已經連續 11 年作為海峽論壇的主辦單位，甚至如旺旺中時、聯合報系、TVBS、東森電視等主流媒體也都是多年的主辦單位。台灣私立科技大學校院協進會不僅是主辦單位，也曾有多所私立大學校長親自出席相關活動。根據海峽論壇的官方宣稱，歷年來參與論壇的台灣人已經超過十萬人次，可見其影響力。連台灣媒體人黃智賢都在唱和中共「一國兩制是對台灣體貼」時，海峽論壇從來就不是單純交流，而是中共企圖從經濟、宗教、文化、校園、媒體等各方面滲透台灣的統戰武器。",
 				"tags": [
 					"海峽論壇",
@@ -2375,7 +2415,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共網軍「戰略支援部隊」的前身：促使 Google 退出中國",
-				"coverImage": "https://lh6.googleusercontent.com/TtUaAWsxQf3vBco7dVJdl3_bhsX1l0vPI-JCLz7KZbd-98iqlSyBLV5V25EYChL1aeXBcvSsz_lp-mw-40Sb0ZnGpv61djP5sbT-Z2PxSbEa9ij2tma53XS76v2xwl7Klw=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/TtUaAWsxQf3vBco7dVJdl3_bhsX1l0vPI-JCLz7KZbd-98iqlSyBLV5V25EYChL1aeXBcvSsz_lp-mw-40Sb0ZnGpv61djP5sbT-Z2PxSbEa9ij2tma53XS76v2xwl7Klw",
 				"summary": "中共的「資訊戰」，受到西方國家啟發、美國波灣戰爭刺激而逐漸進化，內涵包含了心理戰、輿論戰、法律戰等三戰的運用，如今年 6 月通過的港版國安法就是一個鮮明的法律戰實例。中共組織的網軍，曾在 2005 年針對美國不同目標產業進行網路攻擊，包括針對 Google 的極光行動、能源產業的夜龍行動、國防產業與智庫的驟雨行動和暗鼠行動，其中以極光行動效果最明顯，促使拒絕中國網路言論審查的 Google 直接退出中國。到了 2016 年，這些網軍重新整合成為「戰略支援部隊」，其能力已超越我們過去所認知的「五毛黨」，是一支成為能夠深入台灣、有能力進行「制腦作戰」的專業軍隊。",
 				"tags": [
 					"資訊戰",
@@ -2405,7 +2445,7 @@
 			"_tw": {
 				"title": "呱吉：「好人要更強」是對抗資訊操弄的第一步",
 				"subtitle": "心慌保全來訪問 Ep.2",
-				"coverImage": "https://lh6.googleusercontent.com/-nd5viENm9LCn22RgYXbwqMIm9qixQvxoTXHMKM06bPDH7XBKyjO7m4Qbt-8U99vwTMZCqinf_fw3_2P6w-cHi4EX8FFNGt0OLRVahV2GSDnCJ04tPKlRJrVblShorV6zA=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/-nd5viENm9LCn22RgYXbwqMIm9qixQvxoTXHMKM06bPDH7XBKyjO7m4Qbt-8U99vwTMZCqinf_fw3_2P6w-cHi4EX8FFNGt0OLRVahV2GSDnCJ04tPKlRJrVblShorV6zA",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 2 集，心慌保全訪問了台北市議員邱威傑（呱吉），時常做出驚天之舉的他，對現階段資訊操弄的立法表示悲觀？「好人要更強」又是什麼意思？",
 				"tags": [
 					"資訊操弄",
@@ -2432,7 +2472,7 @@
 			"_tw": {
 				"title": "美國智庫 IFTF 最新報告：中國網軍操弄選舉及疫情假訊息",
 				"subtitle": "國際觀察",
-				"coverImage": "https://lh5.googleusercontent.com/two25xsoANzfcRxw_q11OLXUg5GICX98UD2yuVLjdYlJxFfHH_NmWIG9C-db6DDjk3ZlHiiWgA2O7jmvh5qsVhGQ2xUV0pwZ_2v0ljvCEvRyDY3MvyX7njtZTssa2y4xRw=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/two25xsoANzfcRxw_q11OLXUg5GICX98UD2yuVLjdYlJxFfHH_NmWIG9C-db6DDjk3ZlHiiWgA2O7jmvh5qsVhGQ2xUV0pwZ_2v0ljvCEvRyDY3MvyX7njtZTssa2y4xRw",
 				"summary": "今（2020）年 8 月，美國智庫未來研究所（IFTF, Institute for The Future）、資料分析公司 Graphika 和非營利組織國際共和學會（IRI, International Republican Institute），聯手發佈研究報告，揭露 2020 台灣總統大選前後針對台灣的假訊息攻擊，並發現中國網軍操作的痕跡。選舉期間，假訊息鎖定投票過程，並質疑中央選舉委員會的獨立性，並有馬來西亞內容農場協同散播假訊息的現象。選後，假訊息攻擊蔡英文「假論文」及民進黨執政的正當性。武漢肺炎疫情爆發後，則為宣稱「病毒來自美國」等疫情相關的假訊息。IFTF 這份研究報告，與 IORG 報告內容內容不謀而合。",
 				"tags": [
 					"假訊息",
@@ -2464,7 +2504,7 @@
 			"_tw": {
 				"title": "資訊操弄引爆社會不信任，立委洪申翰：須先凝聚共識",
 				"subtitle": "心慌保全來訪問 Ep.1",
-				"coverImage": "https://lh5.googleusercontent.com/nl78h-BjeJT1oH8x3NipOUxOEpBh5DpNOyFKZ6MX5yiGtXkm2nV7kB_iZc0HvxNyrmyjhpRMhnYwjO4YYPVm11f4rbMOdmkbR9GvoP75E5pCqEYOq9lFWnkvlMGgxD6qSQ=s1600",
+				"coverImage": "https://lh5.googleusercontent.com/nl78h-BjeJT1oH8x3NipOUxOEpBh5DpNOyFKZ6MX5yiGtXkm2nV7kB_iZc0HvxNyrmyjhpRMhnYwjO4YYPVm11f4rbMOdmkbR9GvoP75E5pCqEYOq9lFWnkvlMGgxD6qSQ",
 				"summary": "以 IORG 的研究報告為出發點，心慌保全約訪多位立法委員、議員、學者、專家，詢問他們對「中國對台資訊操弄」的看法。第 1 集，心慌保全訪問了立法委員洪申翰，地點在立法院旁的慕哲咖啡。身為 2020 新科立委，洪申翰的觀點是什麼？面對「資訊操弄」，他又提出了哪些解方呢？",
 				"tags": [
 					"資訊操弄",
@@ -2490,7 +2530,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "「光復美國」帶風向，中國共青團藉佛洛伊德事件煽動反美情緒",
-				"coverImage": "https://lh4.googleusercontent.com/CFGEUgW5ftXwSnsFgPRx4Pef98RUZyZ6FtELvSoWty0DS4howW1sNA5dM5ZSp-95EFfVIugoDmGUlB2Npf-3H-TNJ5zcjxvrcAJnm7T4RL0yslCM02o4Jcu4gA42btHcAQ=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/CFGEUgW5ftXwSnsFgPRx4Pef98RUZyZ6FtELvSoWty0DS4howW1sNA5dM5ZSp-95EFfVIugoDmGUlB2Npf-3H-TNJ5zcjxvrcAJnm7T4RL0yslCM02o4Jcu4gA42btHcAQ",
 				"summary": "美國發生「佛洛伊德」事件後，Facebook、Twitter 上隨即出現包含「光復美國」、「StandWithUSA」、「沒有暴徒，只有暴政」等關鍵字的貼文。其中「光復美國」貼文不但在網民討論「佛洛伊德」事件初期就大量出現，累積互動和分享的速度也是平常貼文的 8-10 倍，加上親中 Facebook 粉絲專頁協同貼文的現象，令人懷疑這是一起試圖帶風向的資訊操弄，要繼續妖魔化香港反送中抗爭、打擊民主派人士，也加強美國種族歧視的形象，煽動反美情緒。IORG 調查結果指出，「光復美國」用語的最早出現於中國共青團的《中國青年網》，整起事件可能是中國共青團的資訊操弄行為。",
 				"tags": [
 					"資訊操弄",
@@ -2518,7 +2558,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣百萬青少年都在用的抖音，成為資訊操弄新戰場",
-				"coverImage": "https://lh3.googleusercontent.com/WwQNvq7qmgAv4fdP9_lBflag1TcxCa0J4dMyg06NqcfM9hTrx2x0LOz0TlO3LprSpANCixShE6_HsFA7lzyLR0AeF7uWy-MxAqmkRkcrGdaFNKgVBJR8GzbNSCb57TGBOQ=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/WwQNvq7qmgAv4fdP9_lBflag1TcxCa0J4dMyg06NqcfM9hTrx2x0LOz0TlO3LprSpANCixShE6_HsFA7lzyLR0AeF7uWy-MxAqmkRkcrGdaFNKgVBJR8GzbNSCb57TGBOQ",
 				"summary": "近期傳出侵犯隱私疑慮的抖音（TikTok），你需要知道這些關鍵數字。「8 億」：抖音全球活躍使用者數量。「300 萬」：台灣每月活躍使用者數量。「27%」：13-17 歲族群佔全球使用者比例。「42%」：18-24 歲族群佔全球使用者比例。這些數字證明，抖音正在迅速成為年輕人最愛使用的社交媒體。更重要的是，抖音的短影片不只是單純的唱歌跳舞，還包含了許多不實訊息，包括讚揚中國防疫、中國解放軍的統戰資訊。台灣每天有近百萬的小學生、國高中生，沈浸在抖音的世界裡，他們可能正暴露在資安漏洞與不實資訊的危險之下。中國資訊操弄的手法不斷進化，抖音已經成為資訊操弄的新戰場。",
 				"tags": [
 					"抖音",
@@ -2546,7 +2586,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "你知道中國媒體「姓黨」嗎？",
-				"coverImage": "https://lh3.googleusercontent.com/pE03t9Q8j9NLF-sWf1cLd-CckNcHmYdjmMT9R_9_JokKHL5Hbi8WjnOWFFlYn7F11izfN7X44HdeHdUiwACygVmnARDYkZordczWc1bVTE-x4luoOHpeRKaGAExFnl2wCw=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/pE03t9Q8j9NLF-sWf1cLd-CckNcHmYdjmMT9R_9_JokKHL5Hbi8WjnOWFFlYn7F11izfN7X44HdeHdUiwACygVmnARDYkZordczWc1bVTE-x4luoOHpeRKaGAExFnl2wCw",
 				"summary": "先講結論：中國不只官媒「姓黨」，幾乎大部分媒體都姓黨。中國媒體幾無新聞自由可言，而黨媒作為中國大外宣的工具，台灣正是其重要的戰略目標。因此，看到中國新聞，不要轉傳！",
 				"tags": [
 					"中國媒體姓黨",
@@ -2573,7 +2613,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "5 萬名史密斯夫婦：中國配偶在 Facebook 社團裡的「大內宣」",
-				"coverImage": "https://lh6.googleusercontent.com/qxQem-JheaemVbuHWZIcE3Eg2eQXWChTt-eeeILxVTPHigjQKPR8f2MgOEGKltj1NLxxjdXcE5X2x06yPOHpVIOPDG3SHGS-TlPJOeC0AYe7dMyjAwhpW9HikAVK4Y9tMw=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/qxQem-JheaemVbuHWZIcE3Eg2eQXWChTt-eeeILxVTPHigjQKPR8f2MgOEGKltj1NLxxjdXcE5X2x06yPOHpVIOPDG3SHGS-TlPJOeC0AYe7dMyjAwhpW9HikAVK4Y9tMw",
 				"summary": "在台中國籍配偶的網路社群規模頗為可觀，但因為加入資格限制，一般人難以窺其堂奧。我們追蹤觀察 Facebook 上兩個最大中配社團兩個月後發現，雖然社團內的政治討論比重少，內容以生活瑣事、情感交流為主，但也有社團的管理者及特定帳號會刻意散布政治宣傳或引導輿論方向。這類內容多數並非假訊息，而屬於政治宣傳，著重的面相與藍營媒體有所不同，比起批評蔡政府，更常出現耿爽、華春瑩慷慨激昂的發言，或宣揚中共抗疫成功、官方領導英明的短影片，可以說是在台灣發生的中國大內宣。",
 				"tags": [
 					"中配",
@@ -2601,7 +2641,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "監院報告被加工，高雄市長補選再傳選舉假訊息？",
-				"coverImage": "https://lh3.googleusercontent.com/CCFkxx9AsG4LBEUEpHt-9_YEDf50C10B3ULAm6JTNYkdu5nOIfG4QVjXS6VQDw9QoUIHiP0dK8GpHFvZvSpzCKBoTBQM9bt_wMIeKJZRYQQSQSudM1KnaTB6DjkUkytlMw=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/CCFkxx9AsG4LBEUEpHt-9_YEDf50C10B3ULAm6JTNYkdu5nOIfG4QVjXS6VQDw9QoUIHiP0dK8GpHFvZvSpzCKBoTBQM9bt_wMIeKJZRYQQSQSudM1KnaTB6DjkUkytlMw",
 				"summary": "2020 年總統大選期間各種假訊息中，「中選會以空白票灌票」這則假訊息傳播最多，傷害選舉公信力。這則假訊息誤用 2018 年台北市長選舉的監察院糾正報告，質疑政府「選舉舞弊」，《中國時報》、名嘴彭文正《政經關不了》節目皆有報導。持續散佈這則假消息的 YouTube 頻道《108 演播室》，頻道主陳衛平出身北京，加拿大籍，中國官媒《人民日報》稱其為「加拿大华人建党第一人」。早在總統大選前，台灣事實查核中心即查證此為不實訊息，但媒體、名嘴推波助瀾，假訊息持續流傳至今，並於 2020 年 6 月高雄市長韓國瑜罷免期間，再現傳播高峰。根據經驗，IORG 認為相關假訊息可能在高雄市長補選期間捲土重來，公民社會不能不小心提防。",
 				"tags": [
 					"2020 台灣選舉",
@@ -2627,7 +2667,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "名嘴未經查證帶風向實例：唐湘龍助長「港人割地訴求」假訊息擴散",
-				"coverImage": "https://lh6.googleusercontent.com/Kr0AzLMaRtv8L-evN7FNHxsLOcs2aIFsdShIFE0s162Ns4NyDGdVOigO4jz2Uz13FSzBFrVuVS8iKrP46mTnEd1ewUMQc2ZvtFOjOwD5V9JkxtL42tdzW8Ewyx4JYZET6A=s1600",
+				"coverImage": "https://lh6.googleusercontent.com/Kr0AzLMaRtv8L-evN7FNHxsLOcs2aIFsdShIFE0s162Ns4NyDGdVOigO4jz2Uz13FSzBFrVuVS8iKrP46mTnEd1ewUMQc2ZvtFOjOwD5V9JkxtL42tdzW8Ewyx4JYZET6A",
 				"summary": "名嘴唐湘龍日前（7 月 7 日）在廣播節目「飛碟早餐：唐湘龍時間」，當中表示「我昨天看到有朋友從網路上面轉來的一些香港年輕人的留話」，引用 ID 為 Mary Schulz 在今年 5 月 26 日的 Twitter 推文提及的「港人五大訴求」，包含給予香港人永久居住權、規劃港人特區等。但早在 5 月底《香港蘋果日報》報導即質疑此推文內容為中國網軍的造謠分化，原發文者 Mary Schulz 也早已自承是蘇州人而非香港人。事隔一個多月，唐湘龍卻在廣播節目上重提此訊息，未查證原發文者並非香港人，甚至稱「我如果是民進黨政府我全答應，我通通答應你，你們讓蔡英文高票當選」，不僅助長假訊息擴散，更藉以帶風向，批評蔡政府，也增加聽眾對香港人的負面觀感。名嘴無論是刻意或無心，但利用自己的輿論影響力傳播未經證實的消息，堪稱是假訊息的「在地協力者」，也是台灣當前防制不實訊息的一大難題。",
 				"tags": [
 					"香港國安法",
@@ -2656,7 +2696,7 @@
 			"_tw": {
 				"title": "台灣疫情越嚴重，LINE 群組親中不實訊息越氾濫",
 				"subtitle": "中國大外宣調查",
-				"coverImage": "https://lh4.googleusercontent.com/4kGIM9w_A6FWAUWGqPAXR-GzSJvxDkakxOkIKZUZ-5hPlCwopFtGX30GGPKI4tNN5Jtl6UrQD86rXTPHOjhsfeEIwcEBtGEllFU-YieLHLKUmDeFBzO0lvNHzmQt-pQt2g=s1600",
+				"coverImage": "https://lh4.googleusercontent.com/4kGIM9w_A6FWAUWGqPAXR-GzSJvxDkakxOkIKZUZ-5hPlCwopFtGX30GGPKI4tNN5Jtl6UrQD86rXTPHOjhsfeEIwcEBtGEllFU-YieLHLKUmDeFBzO0lvNHzmQt-pQt2g",
 				"summary": "台灣過去半年來針對武漢肺炎的防疫成績斐然，但根據統計資料顯示，每當疫情出現重大事件，LINE 群組裡就會出現大量親中不實訊息，內容包含捏造不實訊息指控美國為武漢肺炎的發源地、以無法判斷真假的故事為譚德塞辯護。這種不尋常的訊息傳播情形，應非單純巧合，很可能是「中國大外宣」的資訊操弄，其意圖應是轉移焦點、改變台灣大眾對武漢肺炎與中國責任的「認知戰」。不同於在 Facebook、Twitter 等公開網路平台的宣傳言論，這類在 LINE 封閉群組裡的中國宣傳訊息，操作更細膩，也更難以追蹤。LINE 使用者在分享這類訊息時，很可能不自覺成為中國大外宣的「幫凶」。",
 				"tags": [
 					"武漢肺炎",
@@ -2687,7 +2727,7 @@
 			"_tw": {
 				"title": "媒體滲透威脅下，捷克對中立場漸趨強硬",
 				"subtitle": "國際觀察",
-				"coverImage": "https://lh3.googleusercontent.com/i84l4YMA2Rk7Dh1o4qHVDxhZWuRkn6c4OmSK27TpHvIsGbv20Q258t2yosHeYF3vftPF4WwtyX8v1OO0uxqeB7fNiiQP-ZJBwsQtDoSqUKJFZQxpdHoNWnhP8lpiau0JBw=s1600",
+				"coverImage": "https://lh3.googleusercontent.com/i84l4YMA2Rk7Dh1o4qHVDxhZWuRkn6c4OmSK27TpHvIsGbv20Q258t2yosHeYF3vftPF4WwtyX8v1OO0uxqeB7fNiiQP-ZJBwsQtDoSqUKJFZQxpdHoNWnhP8lpiau0JBw",
 				"summary": "過去十年隨著中國政經實力增強，捷克智庫「國際關係協會」的《販賣中歐：中國的政治影響》報告顯示，捷克政、商界對中國越來越友善，不過共產威權的記憶卻使捷克媒體普遍對中國的批評多於讚賞，高達 41% 的報導對中國的態度負面，正面的報導僅有 14%。對此，中國試圖影響、控制捷克媒體，並取得一定成效。例如今年四月，中資進入捷克最大的媒體集團 Médea，成為最大股東，引起憂慮。但中國強硬的外交手法和「看得到、吃不到」的經濟利益，已經讓捷克開始警覺到中國鋭實力的真面目。",
 				"tags": [
 					"捷克",
