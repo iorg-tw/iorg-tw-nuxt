@@ -226,7 +226,7 @@ export default {
       border-radius: 0.75rem;
       verticle-align: middle;
     }
-    div.query {
+    .query {
       position: relative;
       top: -0.125rem;
       display: inline;
@@ -707,6 +707,11 @@ export default {
       margin-right: var(--doc-spacing);
       margin-left: var(--doc-spacing);
       padding-left: var(--list-indent);
+    }
+    > .stickers {
+      margin-right: var(--doc-spacing);
+      margin-bottom: 0.25rem;
+      margin-left: calc(var(--doc-spacing) - 0.5rem);
     }
   }
   > .tags {
