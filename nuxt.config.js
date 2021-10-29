@@ -1,7 +1,6 @@
 const config = require('./data/config.js')
 
 export default {
-  mode: 'universal',
   head: {
     title: config.title,
     meta: [
