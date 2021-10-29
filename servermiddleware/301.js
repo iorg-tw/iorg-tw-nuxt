@@ -1,5 +1,8 @@
-const redirects = require('../301.js')
 const locales = require('../nuxt.config.js').default.i18n.locales.map(locale => locale.code)
+const redirects = require('../301.js')
+const libRedirects = require('../data/redirects.json')
+
+redirects.push(...libRedirects.filter(entry => entry.active))
 
 module.exports = function(req, res, next) {
   let to = null

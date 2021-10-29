@@ -26,6 +26,19 @@ function makeLangFile(rows, locale) {
   ].join('\n')
 }
 
+async function getRedirects(rows) {
+  result = rows.filter(row => row.from && row.to).map(row => ({
+    active: row.active ? true : false,
+    from: row.from,
+    to: row.to,
+    ...(ok(row.type) ? { type: row.type } : {}),
+    ...(ok(row.title) ? { title: row.title } : {}),
+    ...(ok(row.publishedAt) ? { publishedAt: row.publishedAt } : {}),
+    ...(ok(row.updatedAt) ? { updatedAt: row.updatedAt } : {})
+  }))
+  fs.writeFileSync('data/redirects.json', JSON.stringify(result))
+}
+
 async function getDict(rows) {
   rows = rows.filter(row => row.id && row._tw).map(row => ({
     id: row.id,
@@ -187,6 +200,7 @@ async function getEvents(rows) {
 async function get() {
   await doc.loadInfo()
   const sheetIDs = [
+    process.env.LIB_REDIRECTS,
     process.env.LIB_DICT,
     process.env.LIB_TREE,
     process.env.LIB_ARTICLES,
@@ -196,24 +210,29 @@ async function get() {
   const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
   let rows, result
 
+  console.info(shouldGetRedirects ? 'redirects...' : 'skip redirects')
+  if(shouldGetRedirects) {
+    await getRedirects(sheets[0])
+  }
   console.info(shouldGetDict ? 'dict...' : 'skip dict')
   if(shouldGetDict) {
-    await getDict(sheets[0])
+    await getDict(sheets[1])
   }
   console.info(shouldGetTree ? 'research-tree...' : 'skip tree')
   if(shouldGetTree) {
-    await getTree(sheets[1])
+    await getTree(sheets[2])
   }
   console.info(shouldGetArticles ? 'articles...' : 'skip articles')
   if(shouldGetArticles) {
-    await getArticles(sheets[2])
+    await getArticles(sheets[3])
   }
   console.info(shouldGetEvents ? 'events...' : 'skip events')
   if(shouldGetEvents) {
-    await getEvents(sheets[3])
+    await getEvents(sheets[4])
   }
 }
 
+const shouldGetRedirects = true
 const shouldGetDict = true
 const shouldGetTree = true
 const shouldGetArticles = true
