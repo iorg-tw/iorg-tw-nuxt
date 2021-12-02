@@ -1,4 +1,44 @@
 {
+	"_DA_16": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_16",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSECYbP0oW7BaeUx_jEBbLcMw_SanCQ10qtHJFRQu72Lh01Njwev4DZYmO_CerFptisyYfAbNfnrI1Y/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTclUmbNrefJqlImaSPoCkL0JhB-eOthUx8oHAU5ELf5mhPcKH3V7CyLx9xBJA2uvfHd1lEvdG0CtBn/pub"
+		},
+		"publishedAt": "2021/12/2 12:00",
+		"path": "/da/16",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "公投專題：中共最關心萊豬，用反萊豬引導反美",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 16 期 ﹏ 2021.4.1-11.21",
+				"coverImage": "https://lh6.googleusercontent.com/6NwjBjFrMX8y30rA3VPURa1UiCizo01zkgv-LlxukDWgVQxF4GD_GnX57g75K_f3E6_vOslCaikLu3OoXLzNwfVhUez_vknQp2mw8UZP4Bo9vSSG_ARl26kiZlqxl7IKvw",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_16",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSECYbP0oW7BaeUx_jEBbLcMw_SanCQ10qtHJFRQu72Lh01Njwev4DZYmO_CerFptisyYfAbNfnrI1Y/pub",
+				"publishedAt": "2021/12/2 12:00",
+				"cache": "_DA_16_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Referendums 2021: CCP links Ractopamine pork to anti-U.S. rhetoric",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 16 ﹏ 2021.4.1-11.21",
+				"coverImage": "https://lh6.googleusercontent.com/eOjMiJAeaH3SvapbPl4ckSHxmV9ulrI8D0FkokylEhIe6Fxb_f_CbhiYu1K4ZnRymtEDGRgTnQ7L6a0qCtL3ui-y6Orax7zOwi8PcKAdGYF9tMIxTZrUcDrlDj5jy37QoA",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_16",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTclUmbNrefJqlImaSPoCkL0JhB-eOthUx8oHAU5ELf5mhPcKH3V7CyLx9xBJA2uvfHd1lEvdG0CtBn/pub",
+				"publishedAt": "2021/12/2 12:00",
+				"cache": "_DA_16_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_15": {
 		"show": true,
 		"type": "da",
