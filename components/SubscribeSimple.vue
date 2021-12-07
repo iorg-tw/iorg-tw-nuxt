@@ -6,9 +6,9 @@
     "privacy": "基於隱私保護，你的 Email 僅供 IORG 寄送心慌週報使用，絕不轉作其他用途，絕不轉交其他人。如果你不想再收到 IORG 心慌週報，請隨時寄信至 bye@iorg.tw 取消訂閱，非常感謝。"
   },
   "_en": {
-    "sub": "Subscribe to <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert Weekly</span>.",
-    "sub_after_article": "Thank you for reading this <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert Weekly</span>. Like it? Please subscribe <span class=yes>✌️</span>",
-    "privacy": "To protect your privacy, your email will only be used to send you Dokidoki Alert Weekly. It will not be used for any other purpose, nor will it be available to anyone outside IORG. If you want to unsubscribe, please email to bye@iorg.tw. Thank you."
+    "sub": "Subscribe to <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert</span>.",
+    "sub_after_article": "Thank you for reading this <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert</span>. Like it? Please subscribe <span class=yes>✌️</span>",
+    "privacy": "To protect your privacy, your email will only be used to send you Dokidoki Alert. It will not be used for any other purpose, nor will it be available to anyone outside IORG. If you want to unsubscribe, please email to bye@iorg.tw. Thank you."
   }
 }
 </i18n>
