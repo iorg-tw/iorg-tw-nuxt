@@ -1,4 +1,44 @@
 {
+	"_DA_17": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_17",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTHDa9jGVAe51O3UV-Bez8MDJuuUcAYZfv2rlHSsjbguW8rYdScY_1C-FUfiUqaWWz6H8YGsB-4uJsI/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSQZrEeETT4HSWLXr3dYYifH9H0xIgkmiihZJfyglhQTW-oAUb4gaeppVfAXL8sKCGewNnebPUb-Zze/pub"
+		},
+		"publishedAt": "2021/12/9 12:00",
+		"path": "/da/17",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "公投數據分析：民進黨口號熱度高於國民黨",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 17 期 ﹏ 2021.4.1-11.21",
+				"coverImage": "https://lh5.googleusercontent.com/OJqOzdl3O6dyMB0kGcXwi3T0oBOXn6hGeVBLZ3q7MOYXAs6rbOS5SJ8UYshinrwcDI8G3GncBnCjoH5LLq5XEcpxJtRJzrNQkrwm7Y1TY9EBNF70AVx5S_jGIeo6w5PG1Q",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_17",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTHDa9jGVAe51O3UV-Bez8MDJuuUcAYZfv2rlHSsjbguW8rYdScY_1C-FUfiUqaWWz6H8YGsB-4uJsI/pub",
+				"publishedAt": "2021/12/9 12:00",
+				"cache": "_DA_17_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Referendums 2021: Nuclear Over Pork, Slogan Over Discourse",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 17 ﹏ 2021.4.1-11.21",
+				"coverImage": "https://lh5.googleusercontent.com/YQ-bkBRxRI4WoWLhspvd_TIdW97KkGcG3NN4ggkQnG5lQsrxAwBDnYsXvl37X2aJK4E1C7uScm-EAgIB9np1R3icVvXKXPqGZchYEtFQZlsuw3SvDXx92nQq1sLSUP_SyA",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_17",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSQZrEeETT4HSWLXr3dYYifH9H0xIgkmiihZJfyglhQTW-oAUb4gaeppVfAXL8sKCGewNnebPUb-Zze/pub",
+				"publishedAt": "2021/12/9 12:00",
+				"cache": "_DA_17_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_16": {
 		"show": true,
 		"type": "da",
@@ -92,9 +132,9 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "中國國民黨主席選舉怪象：挺韓粉專盜圖扮美女，衝高張亞中傳播熱度",
+				"title": "國民黨主席選舉怪象：挺韓粉專盜圖扮美女，衝高張亞中傳播熱度",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 14 期 ﹏ 2021.9.1-30",
-				"coverImage": "https://lh6.googleusercontent.com/u51gpAk-5m1hZD3tt8ha9uasLidHQ0xPwxV0FgrFwexbvzq2-0Lm1mYN3TDDMOeRZrKQ8BCjCErRO3MZgyKNithxqeXYVZJdw1akNYHr50d-d53qnAuyruLv5Sg10CAc5g",
+				"coverImage": "https://lh3.googleusercontent.com/UfCEYM3FjAkE_9sGLPkaeu89BdKFU_PmbnZgH5KaaPF4lP4IAyk_IL4PDItjxYfMkBM-uR2iwoDfQ60O9z8-QvcioLhM3q9BnKMEv28qq14CgOGemtOciNryF1gaAu9cXA",
 				"tags": [
 					"心慌週報"
 				],
@@ -107,7 +147,7 @@
 			"_en": {
 				"title": "CNP/KMT chair election: suspicious “beautiful woman” Facebook pages boost pro-China candidate",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 14 ﹏ 2021.9.1-30",
-				"coverImage": "https://lh6.googleusercontent.com/zi34JB8Ahuj-gCcIKD4nh57DwEZyR1F5xQps0353wAdBNzyBr8YzIegBpbVE2GbRyTsytevh3yySOPAwzIYGs-XIjn_6530mRKIdHEM0NQHNrhEefRIsXj1i0BvVlwFBXg",
+				"coverImage": "https://lh4.googleusercontent.com/BAiCAUTLo3ABzWE7j5s6OTCuC3p6t7Jsd48er_ujYURsQKxUF9ueqD_EjbCHf6a2ejCTRRXp3oWuWMPhM5rw-yXXQdcjhWPybxtgvzjvVKp2_XYw46XYuf-XNNsnYYG3qA",
 				"tags": [
 					"Dokidoki Alert"
 				],
