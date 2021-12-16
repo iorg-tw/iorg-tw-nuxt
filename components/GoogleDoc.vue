@@ -765,6 +765,11 @@ export default {
         margin-left: -$ext / 2;
       }
     }
+    [class^="gdoc-"] {
+      margin-right: 0;
+      margin-left: 0;
+      padding-left: 0;
+    }
   }
   .author-info {
     margin-top: 0.5rem;
