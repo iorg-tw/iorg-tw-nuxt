@@ -1,4 +1,44 @@
 {
+	"_DA_18": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_18",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQLP8G4-9miEwZM8uMlsGxkSTZXGSwuI1LRrTtRw2vMTJhwIIVlJaS4ZWRjaHcFcxRHrbgFLiUqlTTj/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTLNu8I_jzs0x1KJm2cO9oqrK8q-OwsHBI5GW6MRjtziRKHO09ABFgDhYUekB0EE9Kqxy9guSoS9sV2/pub"
+		},
+		"publishedAt": "2021/12/16 12:00",
+		"path": "/da/18",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共看台灣公投：批民進黨網軍、濫權，助國民黨公投宣傳，每 4 則就有 1 則引用旺中",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 18 期 ﹏ 2021.4.1-12.12",
+				"coverImage": "https://lh3.googleusercontent.com/6fQoFeRhmYXxl_r8Z0TRoeCrulIGRB4qHsKUSESFwBWxl7Amw12qJI04KJ1gajOS4o2HhywwNObiGXxNh2SY3jwmxsb04PIsYmt-27hCsEzoOvOFTrEGzmDplhzPfWPb9A",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_18",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQLP8G4-9miEwZM8uMlsGxkSTZXGSwuI1LRrTtRw2vMTJhwIIVlJaS4ZWRjaHcFcxRHrbgFLiUqlTTj/pub",
+				"publishedAt": "2021/12/16 12:00",
+				"cache": "_DA_18_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Referendums 2021: Final countdown",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 18 ﹏ 2021.4.1-12.12",
+				"coverImage": "https://lh6.googleusercontent.com/UiybBJRTwqzK0-OreWjV2-uKNKh8H6oqcIaJZfhtaHmFuB3YghiDKzapNCtI7DljCgnMsI52NvUd66uezBcfNz62_2e070eabY_nT-G0GSzq3CITJPpmt-Kg_U0f9YvHkQ",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_18",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTLNu8I_jzs0x1KJm2cO9oqrK8q-OwsHBI5GW6MRjtziRKHO09ABFgDhYUekB0EE9Kqxy9guSoS9sV2/pub",
+				"publishedAt": "2021/12/16 12:00",
+				"cache": "_DA_18_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_17": {
 		"show": true,
 		"type": "da",
