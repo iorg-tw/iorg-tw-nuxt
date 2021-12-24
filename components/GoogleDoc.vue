@@ -512,6 +512,9 @@ export default {
         &.min {
           color: var(--iorg-min);
         }
+        &.number {
+          text-align: right;
+        }
       }
     }
   }
