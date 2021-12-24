@@ -247,6 +247,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS5GOnoXAWKZE5QZn4vVIPFRdNdJ5tLHCICmcmRldSc7B26zQ_lR2On-Q3VRGWX9g/pub"
 		},
 		"publishedAt": "2021/10/8 12:00",
+		"updatedAt": "2021/12/24 14:35",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
@@ -259,6 +260,7 @@
 				"articleID": "pub-0",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS5GOnoXAWKZE5QZn4vVIPFRdNdJ5tLHCICmcmRldSc7B26zQ_lR2On-Q3VRGWX9g/pub",
 				"publishedAt": "2021/10/8 12:00",
+				"updatedAt": "2021/12/24 14:35",
 				"cache": "pub-0_tw",
 				"locale": "_tw"
 			}
