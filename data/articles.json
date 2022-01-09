@@ -1,4 +1,41 @@
 {
+	"about": {
+		"show": false,
+		"type": "sys",
+		"id": "about",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
+		},
+		"publishedAt": "2020/7/3 18:00",
+		"updatedAt": "2022/1/10 0:50",
+		"path": "/about",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "關於 IORG",
+				"summary": "IORG 於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，是以公開資訊、科學方法、在地連結，反制極權擴張的台灣跨領域研究團隊。",
+				"tags": [],
+				"articleID": "about",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
+				"publishedAt": "2020/7/3 18:00",
+				"updatedAt": "2022/1/10 0:50",
+				"cache": "about_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "About IORG",
+				"summary": "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and community activists. IORG works to counter authoritarian expansion with open data, scientific method, and grassroots organization.",
+				"tags": [],
+				"articleID": "about",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
+				"publishedAt": "2020/7/3 18:00",
+				"updatedAt": "2022/1/10 0:50",
+				"cache": "about_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_18": {
 		"show": true,
 		"type": "da",
@@ -1394,41 +1431,6 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/7/22 21:00",
-				"locale": "_en"
-			}
-		}
-	},
-	"about": {
-		"show": false,
-		"type": "sys",
-		"id": "about",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
-		},
-		"publishedAt": "2020/7/3 18:00",
-		"updatedAt": "2021/2/27 0:30",
-		"path": "/about",
-		"cache": false,
-		"localizedDocs": {
-			"_tw": {
-				"title": "關於 IORG",
-				"summary": "IORG 於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成，是以公開資訊、科學方法、在地連結，反制極權擴張的台灣跨領域研究團隊。",
-				"tags": [],
-				"articleID": "about",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
-				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2021/2/27 0:30",
-				"locale": "_tw"
-			},
-			"_en": {
-				"title": "About IORG",
-				"summary": "IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG works to counter authoritarian expansion with public information, scientific methodologies, and grassroots organization.",
-				"tags": [],
-				"articleID": "about",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
-				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2021/2/27 0:30",
 				"locale": "_en"
 			}
 		}
