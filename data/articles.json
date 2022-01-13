@@ -1,4 +1,44 @@
 {
+	"_DA_19": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_19",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQukOP9gu0HmRulT4RQDnABxQUVJjhgp5VvoHxTKuAhin49IRUo-592mToFXzin-xDfhX22wAQOYmiU/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vQpEqsG9DWMM60NDe7I9d7cUGdcn9yKTVRIaSLveRft2OhvcNOitkTloc4TMQtLFm-q8ZxKpEr6vxjY/pub"
+		},
+		"publishedAt": "2022/1/13 12:00",
+		"path": "/da/19",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "公投前後的資訊操弄：2020 後每逢投票，就有「做票」訊息",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 19 期 ﹏ 2021.12.1-12.31",
+				"coverImage": "https://lh3.googleusercontent.com/_qD10TZLkZfgnFdNhF1_zoex0GZIYzXTttVVFAX2FOBvFiTR93bYyR66DxQkVhRvYcicxAsiWEWRR_JGNgW0UyOOlfDQOyd84uJXI73ATPxwiJ5OCCWAsqdeRaLN-oUfbQ",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_19",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQukOP9gu0HmRulT4RQDnABxQUVJjhgp5VvoHxTKuAhin49IRUo-592mToFXzin-xDfhX22wAQOYmiU/pub",
+				"publishedAt": "2022/1/13 12:00",
+				"cache": "_DA_19_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "“Rigged votes” information manipulation recurrent since 2020 presidential election, again during 2021 referendums",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 19 ﹏ 2021.12.1-12.31",
+				"coverImage": "https://lh5.googleusercontent.com/dDY8Bvj66dqi_pmd5DaP5634ZZzTZgBn-I5Ye5hX67MBo1yiMo2CGlkUmr2g6igaWrvuUQbngJErpWDDcjHrawTRVlcjhNEvA-X3mlS49p7YEjRBU-LxaUbQBjp2Mb60Dw",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_19",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpEqsG9DWMM60NDe7I9d7cUGdcn9yKTVRIaSLveRft2OhvcNOitkTloc4TMQtLFm-q8ZxKpEr6vxjY/pub",
+				"publishedAt": "2022/1/13 12:00",
+				"cache": "_DA_19_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"about": {
 		"show": false,
 		"type": "sys",
