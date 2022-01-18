@@ -1,4 +1,44 @@
 {
+	"_DA_20": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_20",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTQLs3y14js2CMBa0zAkl3N7mqGa45u6-Tc5mu5W_z_bVUxxmA2rxdpOBHRgE-igrF65O9G_zar62S-/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vR1fI8NFzX1ambBdcrotmxOktqqHhGDGgcBV2flXbxEDuvUGxE_g4fSRlC2laOQeL_fys7Ds3NjstdA/pub"
+		},
+		"publishedAt": "2022/1/18 12:00",
+		"path": "/da/20",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "公投前後數據分析：中共強化同溫層，大多引用旺中、聯合",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 20 期 ﹏ 2021.12.1-12.31",
+				"coverImage": "https://lh5.googleusercontent.com/wvqriZ-TW4c-8fy5oSufNEAoHbnJ2MmnOd0GelhXE_qe2Kmc5gogXaL0lN8blRUSEx0jS1nm_zQfrLB3_6Z6iI-0u7HDVybqdL4a0VTRBFTxko0coUabjr6d6GnGkZ_9HQ",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_20",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTQLs3y14js2CMBa0zAkl3N7mqGa45u6-Tc5mu5W_z_bVUxxmA2rxdpOBHRgE-igrF65O9G_zar62S-/pub",
+				"publishedAt": "2022/1/18 12:00",
+				"cache": "_DA_20_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "CCP reinforce its “echo chamber” quoting Taiwan’s Want Want Group and United Daily after Taiwan referendums",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 20 ﹏ 2021.12.1-12.31",
+				"coverImage": "https://lh3.googleusercontent.com/svRJGiTQqquLnQLp3jufk-VreqDKEuS7PuyhmHxkc6tM3HFXXVhuBc8q-CRfInUOAwzpAD1zt3K4DDWlQJdhx629ad6m6nntDO-QYutmyhJgCCzMxwO4sv5-Y-OV-SEEYw",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_20",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR1fI8NFzX1ambBdcrotmxOktqqHhGDGgcBV2flXbxEDuvUGxE_g4fSRlC2laOQeL_fys7Ds3NjstdA/pub",
+				"publishedAt": "2022/1/18 12:00",
+				"cache": "_DA_20_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_19": {
 		"show": true,
 		"type": "da",
@@ -12,7 +52,7 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "公投前後的資訊操弄：2020 後每逢投票，就有「做票」訊息",
+				"title": "公投前後資訊操弄：2020 後每逢投票，就有「做票」訊息",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 19 期 ﹏ 2021.12.1-12.31",
 				"coverImage": "https://lh5.googleusercontent.com/WUQJo_i4UvNgx23_BKwhp-Sh37vBG0MC-cYTtBWnEX4n9OzGhmHwDXgM2t-JExky70_GdY0fmwlyV4Sh2QvLqfxv6HdtavifctxscsgSXSHOvTYZu80C07jRc2LfP2QSew",
 				"tags": [
