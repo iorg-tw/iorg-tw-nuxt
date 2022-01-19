@@ -14,7 +14,7 @@ _en:
 <template>
 <div class="navbar">
   <nuxt-link class="go-home block" :to="localePath('/')">
-    <img src="/images/logo-tmp-small.png" width="64" />
+    <img src="/images/logo-2022.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
     <nuxt-link :to="localePath('/da')" class="item block"><span>{{ $t('weekly') }}</span></nuxt-link>
