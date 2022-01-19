@@ -88,7 +88,7 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
 		},
 		"publishedAt": "2020/7/3 18:00",
-		"updatedAt": "2022/1/10 0:50",
+		"updatedAt": "2022/1/19 17:00",
 		"path": "/about",
 		"cache": true,
 		"localizedDocs": {
@@ -99,7 +99,7 @@
 				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2022/1/10 0:50",
+				"updatedAt": "2022/1/19 17:00",
 				"cache": "about_tw",
 				"locale": "_tw"
 			},
@@ -110,7 +110,7 @@
 				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2022/1/10 0:50",
+				"updatedAt": "2022/1/19 17:00",
 				"cache": "about_en",
 				"locale": "_en"
 			}
