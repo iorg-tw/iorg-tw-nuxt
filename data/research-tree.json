@@ -134,15 +134,13 @@
 		"id": "_O_GS",
 		"level": 0,
 		"code": "G",
-		"image": "/images/covers/g-h.png",
-		"path": "/open/glossary"
+		"image": "/images/covers/g-h.png"
 	},
 	{
 		"id": "_O_RM",
 		"level": 0,
 		"code": "M",
-		"image": "/images/covers/m-h.png",
-		"path": "/open/research-method"
+		"image": "/images/covers/m-h.png"
 	},
 	{
 		"id": "_X",

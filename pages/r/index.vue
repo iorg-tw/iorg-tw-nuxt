@@ -50,7 +50,7 @@ export default {
     Intro
   },
   async asyncData({ app }) {
-    const [docK, docAck] = await getLocalizedArticles(['_R_K', 'ack'], app.i18n.locale, app.i18n.defaultLocale)
+    const [docK, docAck] = await getLocalizedArticles(['_R_K', '_ack'], app.i18n.locale, app.i18n.defaultLocale)
     return {
       structuredDocK: structureDoc(docK.html, ['h2', 'h3']),
       docAck,

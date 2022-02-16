@@ -1,14 +1,14 @@
 {
+	"/open/rm": "_rm",
+	"/about": "about",
 	"/da/20": "_DA_20",
 	"/da/19": "_DA_19",
-	"/about": "about",
 	"/da/18": "_DA_18",
 	"/da/17": "_DA_17",
 	"/da/16": "_DA_16",
 	"/da/15": "_DA_15",
 	"/da/14": "_DA_14",
 	"/da/13": "_DA_13",
-	"/open/research-method": "_O_RM",
 	"/da/12": "_DA_12",
 	"/da/11": "_DA_11",
 	"/da/10": "_DA_10",
@@ -38,7 +38,7 @@
 	"/r/d3": "_R_D3",
 	"/r/d4": "_R_D4",
 	"/r/e": "_R_E",
-	"/roadmap": "roadmap",
-	"/open/glossary": "_O_GS",
+	"/open/roadmap": "_roadmap",
+	"/open/glossary": "_glossary",
 	"/open": "_O"
 }

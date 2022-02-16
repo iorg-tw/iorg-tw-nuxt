@@ -1,4 +1,90 @@
 {
+	"_rm": {
+		"show": false,
+		"type": "sys",
+		"id": "_rm",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
+		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2021/10/1 12:00",
+		"path": "/open/rm",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 研究方法",
+				"subtitle": "IORG 中國對台影響力作戰研究",
+				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ",
+				"tags": [],
+				"articleID": "_rm",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/10/1 12:00",
+				"cache": "_rm_tw",
+				"locale": "_tw"
+			}
+		}
+	},
+	"dokidoki-listing": {
+		"show": false,
+		"type": "article",
+		"id": "dokidoki-listing",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub"
+		},
+		"publishedAt": "2021/7/24 12:00",
+		"updatedAt": "2021/9/10 8:30",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "心慌列表",
+				"tags": [],
+				"articleID": "dokidoki-listing",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub",
+				"publishedAt": "2021/7/24 12:00",
+				"updatedAt": "2021/9/10 8:30",
+				"cache": "dokidoki-listing_tw",
+				"locale": "_tw"
+			}
+		}
+	},
+	"about": {
+		"show": false,
+		"type": "sys",
+		"id": "about",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
+		},
+		"publishedAt": "2020/7/3 18:00",
+		"updatedAt": "2022/1/19 17:00",
+		"path": "/about",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "關於 IORG",
+				"summary": "IORG 是以科學研究、在地連結，強化台灣公民社會資訊判讀力，反制極權擴張的台灣民間跨領域研究團隊，於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成。",
+				"tags": [],
+				"articleID": "about",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
+				"publishedAt": "2020/7/3 18:00",
+				"updatedAt": "2022/1/19 17:00",
+				"cache": "about_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "About IORG",
+				"summary": "IORG is a civilian research organization working to strengthen information literacy and counter authoritarian expansion with scientific research and grassroots organization. IORG was formed in 2019 in Taiwan by media workers, social scientists, data scientists, and community activists.",
+				"tags": [],
+				"articleID": "about",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
+				"publishedAt": "2020/7/3 18:00",
+				"updatedAt": "2022/1/19 17:00",
+				"cache": "about_en",
+				"locale": "_en"
+			}
+		}
+	},
 	"_DA_20": {
 		"show": true,
 		"type": "da",
@@ -75,43 +161,6 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpEqsG9DWMM60NDe7I9d7cUGdcn9yKTVRIaSLveRft2OhvcNOitkTloc4TMQtLFm-q8ZxKpEr6vxjY/pub",
 				"publishedAt": "2022/1/13 12:00",
 				"cache": "_DA_19_en",
-				"locale": "_en"
-			}
-		}
-	},
-	"about": {
-		"show": false,
-		"type": "sys",
-		"id": "about",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
-		},
-		"publishedAt": "2020/7/3 18:00",
-		"updatedAt": "2022/1/19 17:00",
-		"path": "/about",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "關於 IORG",
-				"summary": "IORG 是以科學研究、在地連結，強化台灣公民社會資訊判讀力，反制極權擴張的台灣民間跨領域研究團隊，於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成。",
-				"tags": [],
-				"articleID": "about",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
-				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2022/1/19 17:00",
-				"cache": "about_tw",
-				"locale": "_tw"
-			},
-			"_en": {
-				"title": "About IORG",
-				"summary": "IORG is a civilian research organization working to strengthen information literacy and counter authoritarian expansion with scientific research and grassroots organization. IORG was formed in 2019 in Taiwan by media workers, social scientists, data scientists, and community activists.",
-				"tags": [],
-				"articleID": "about",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
-				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2022/1/19 17:00",
-				"cache": "about_en",
 				"locale": "_en"
 			}
 		}
@@ -383,32 +432,6 @@
 			}
 		}
 	},
-	"_O_RM": {
-		"show": false,
-		"type": "sys",
-		"id": "_O_RM",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
-		},
-		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/10/1 12:00",
-		"path": "/open/research-method",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "IORG 研究方法",
-				"subtitle": "IORG 中國對台影響力作戰研究",
-				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ",
-				"tags": [],
-				"articleID": "_O_RM",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/10/1 12:00",
-				"cache": "_O_RM_tw",
-				"locale": "_tw"
-			}
-		}
-	},
 	"_DA_12": {
 		"show": true,
 		"type": "da",
@@ -530,29 +553,6 @@
 				"publishedAt": "2021/8/30 13:00",
 				"cache": "ce-2020_en",
 				"locale": "_en"
-			}
-		}
-	},
-	"dokidoki-listing": {
-		"show": false,
-		"type": "article",
-		"id": "dokidoki-listing",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub"
-		},
-		"publishedAt": "2021/7/24 12:00",
-		"updatedAt": "2021/9/10 8:30",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "心慌列表",
-				"tags": [],
-				"articleID": "dokidoki-listing",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQDx5wEIM_2FA0BPZGxoPLSALJtl_0AsTaDEFiT1BND3F7_Wsm6JkesTBhNOzyCX-IlICLhZ9eYNPbr/pub",
-				"publishedAt": "2021/7/24 12:00",
-				"updatedAt": "2021/9/10 8:30",
-				"cache": "dokidoki-listing_tw",
-				"locale": "_tw"
 			}
 		}
 	},
@@ -1399,10 +1399,10 @@
 			}
 		}
 	},
-	"ack": {
+	"_ack": {
 		"show": false,
 		"type": "sys",
-		"id": "ack",
+		"id": "_ack",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub"
@@ -1414,41 +1414,41 @@
 			"_tw": {
 				"title": "鳴謝",
 				"tags": [],
-				"articleID": "ack",
+				"articleID": "_ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00",
-				"cache": "ack_tw",
+				"cache": "_ack_tw",
 				"locale": "_tw"
 			},
 			"_en": {
 				"title": "Acknowledgement",
 				"tags": [],
-				"articleID": "ack",
+				"articleID": "_ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/3/1 14:00",
-				"cache": "ack_en",
+				"cache": "_ack_en",
 				"locale": "_en"
 			}
 		}
 	},
-	"roadmap": {
+	"_roadmap": {
 		"show": false,
 		"type": "sys",
-		"id": "roadmap",
+		"id": "_roadmap",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
 		},
 		"publishedAt": "2021/4/1 12:00",
 		"updatedAt": "2021/9/10 8:30",
-		"path": "/roadmap",
+		"path": "/open/roadmap",
 		"cache": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 2020-2023 4 年計畫",
 				"tags": [],
-				"articleID": "roadmap",
+				"articleID": "_roadmap",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub",
 				"publishedAt": "2021/4/1 12:00",
 				"updatedAt": "2021/9/10 8:30",
@@ -1456,10 +1456,10 @@
 			}
 		}
 	},
-	"_O_GS": {
+	"_glossary": {
 		"show": false,
 		"type": "sys",
-		"id": "_O_GS",
+		"id": "_glossary",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
 		},
@@ -1472,7 +1472,7 @@
 				"title": "詞彙定義",
 				"summary": "詞彙定義，是學術研究、公眾討論的重要基礎工程。IORG 基於科學研究應有的嚴謹態度、預設開放（open by default）精神，於下表列 IORG 研究報告、報導中相關詞彙定義。",
 				"tags": [],
-				"articleID": "_O_GS",
+				"articleID": "_glossary",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub",
 				"publishedAt": "2020/10/20 18:00",
 				"updatedAt": "2021/4/18 19:00",
@@ -1491,7 +1491,7 @@
 		"publishedAt": "2021/2/28 20:00",
 		"updatedAt": "2021/7/22 21:00",
 		"path": "/open",
-		"cache": false,
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放 IORG",
@@ -1501,6 +1501,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/7/22 21:00",
+				"cache": "_O_tw",
 				"locale": "_tw"
 			},
 			"_en": {
@@ -1511,6 +1512,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/7/22 21:00",
+				"cache": "_O_en",
 				"locale": "_en"
 			}
 		}
