@@ -39,16 +39,6 @@ async function getRedirects(rows) {
   fs.writeFileSync('data/redirects.json', JSON.stringify(result))
 }
 
-async function getDict(rows) {
-  rows = rows.filter(row => row.id && row._tw).map(row => ({
-    id: row.id,
-    _tw: row._tw,
-    _en: ok(row._en) ? row._en : row._tw
-  }))
-  fs.writeFileSync('locales/tw.js', makeLangFile(rows, '_tw'))
-  fs.writeFileSync('locales/en.js', makeLangFile(rows, '_en'))
-}
-
 async function getTree(rows) {
   const tree = rows.filter(row => row.id && row.group && row.level).map(row => ({
     id: row.id,
@@ -207,7 +197,6 @@ async function get() {
   await doc.loadInfo()
   const sheetIDs = [
     process.env.LIB_REDIRECTS,
-    process.env.LIB_DICT,
     process.env.LIB_TREE,
     process.env.LIB_ARTICLES,
     process.env.LIB_EVENTS
@@ -220,26 +209,21 @@ async function get() {
   if(shouldGetRedirects) {
     await getRedirects(sheets[0])
   }
-  console.info(shouldGetDict ? 'dict...' : 'skip dict')
-  if(shouldGetDict) {
-    await getDict(sheets[1])
-  }
   console.info(shouldGetTree ? 'tree...' : 'skip tree')
   if(shouldGetTree) {
-    await getTree(sheets[2])
+    await getTree(sheets[1])
   }
   console.info(shouldGetArticles ? 'articles...' : 'skip articles')
   if(shouldGetArticles) {
-    await getArticles(sheets[3])
+    await getArticles(sheets[2])
   }
   console.info(shouldGetEvents ? 'events...' : 'skip events')
   if(shouldGetEvents) {
-    await getEvents(sheets[4])
+    await getEvents(sheets[3])
   }
 }
 
 const shouldGetRedirects = true
-const shouldGetDict = true
 const shouldGetTree = true
 const shouldGetArticles = true
 const shouldGetEvents = true
