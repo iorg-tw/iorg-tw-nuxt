@@ -1,11 +1,11 @@
 <i18n lang="yaml">
 _tw:
-  weekly: "週報"
+  da: "週報"
   research: "研究"
   articles: "報導"
   events: "活動"
 _en:
-  weekly: "D.A."
+  da: "Alert"
   research: "Research"
   articles: "Articles"
   events: "Events"
@@ -17,7 +17,7 @@ _en:
     <img src="/images/logo-2022.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="localePath('/da')" class="item block"><span>{{ $t('weekly') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/da')" class="item block"><span>{{ $t('da') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/r')" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/a')" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/e')" class="item block"><span>{{ $t('events') }}</span></nuxt-link>

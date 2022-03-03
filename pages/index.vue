@@ -15,12 +15,10 @@ _en:
 
 <template>
 <div class="page home">
-  <section class="weekly">
+  <section class="da">
     <article-list type="da" />
   </section>
-  <section class="doki-divider">
-    <img src="/images/doki.png" width="320" />
-  </section>
+  <div class="divider"></div>
   <section id="r" class="report">
     <h3 class="slim science">{{ $t('iorg_sci') }}</h3>
     <div class="container">
@@ -79,11 +77,6 @@ export default {
 @import '~assets/styles/resources';
 
 .page.home > section {
-  &.doki-divider {
-    > img {
-      margin: 2rem auto;
-    }
-  }
   &.report {
     .science {
       margin: 1rem 1.5rem -0.5rem;

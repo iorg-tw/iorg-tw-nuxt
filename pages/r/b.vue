@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import tree from '~/data/research-tree'
+import tree from '~/data/tree'
 import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'

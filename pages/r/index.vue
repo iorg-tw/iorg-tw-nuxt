@@ -1,9 +1,13 @@
 <i18n lang="yaml">
 _tw:
+  key_research_conclusions: "總體研究成果"
+  resources: "資源"
   directory: "目錄"
   about: "關於 IORG"
   more: "完整內容"
 _en:
+  key_research_conclusions: "Key Research Conclusions"
+  resources: "Resources"
   directory: "Directory"
   about: "About IORG"
   more: "More"
@@ -12,11 +16,22 @@ _en:
 <template>
 <div class="page research-home">
   <div class="page-header section-header">
-    <h1>{{ $t('research_title_1') }}</h1>
-    <p class="subtitle">{{ $t('research_title_2') }}</p>
+    <h1>{{ $t('r_title_2021') }}</h1>
+    <p class="subtitle">{{ $t('r_subtitle_2021') }}</p>
+  </div>
+  <div class="key-findings"></div>
+  <div class="divider"></div>
+  <div class="section-header">
+    <h2>{{ $t('resources') }}</h2>
+  </div>
+  <node-list :nodes="level0NodesSys" :options="{ tiled: true }" />
+  <div class="divider"></div>
+  <div class="page-header section-header">
+    <h1>{{ $t('r_title_1') }}</h1>
+    <p class="subtitle">{{ $t('r_title_2') }}</p>
   </div>
   <div class="key-findings">
-    <div v-for="objL0 of structuredDocK" :key="objL0.title" class="group">
+    <div v-for="objL0 of structuredDocK2020" :key="objL0.title" class="group">
       <div class="group-header section-header">
         <div :is="objL0.titleTag" class="group-title">{{ objL0.title }}</div>
         <nuxt-link :to="localePath('/r/k')" class="more button small">{{ $t('more') }}</nuxt-link>
@@ -31,13 +46,13 @@ _en:
   <div class="section-header">
     <h2>{{ $t('directory') }}</h2>
   </div>
-  <node-list :nodes="level0Nodes" :options="{ tiled: true }" />
+  <node-list :nodes="level0Nodes2020" :options="{ tiled: true }" />
   <intro k="iorg_about" :more="docAck.html" />
 </div>
 </template>
 
 <script>
-import tree from '~/data/research-tree'
+import tree from '~/data/tree'
 import { getLocalizedArticles } from '~/lib/i18n'
 import { structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
@@ -50,15 +65,16 @@ export default {
     Intro
   },
   async asyncData({ app }) {
-    const [docK, docAck] = await getLocalizedArticles(['_R_K', '_ack'], app.i18n.locale, app.i18n.defaultLocale)
+    const [docK2020, docAck] = await getLocalizedArticles(['_R_2020', '_ack'], app.i18n.locale, app.i18n.defaultLocale)
     return {
-      structuredDocK: structureDoc(docK.html, ['h2', 'h3']),
-      docAck,
-      level0Nodes: tree.filter(node => node.level === 0)
+      structuredDocK2020: structureDoc(docK2020.html, ['h2', 'h3']),
+      level0Nodes2020: tree.filter(node => node.group === 2020 && node.level === 0),
+      level0NodesSys: tree.filter(node => node.group === 0 && node.level === 0),
+      docAck
     }
   },
   head() {
-    return generateMeta(this.$t('research_title_2'))
+    return generateMeta(this.$t('key_research_conclusions'))
   }
 }
 </script>

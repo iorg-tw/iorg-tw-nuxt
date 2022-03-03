@@ -50,15 +50,21 @@ async function getDict(rows) {
 }
 
 async function getTree(rows) {
-  result = rows.map(row => ({
+  const tree = rows.filter(row => row.id && row.group && row.level).map(row => ({
     id: row.id,
+    group: +row.group,
     level: +row.level,
     ...(ok(row.parent) ? { parent: row.parent } : {}),
-    code: row.code,
+    ...(ok(row.code) ? { code: row.code } : {}),
     image: row.image ? row.image : defaultCover,
-    ...(ok(row.path) ? { path: row.path } : {}),
+    ...(ok(row.path) ? { path: row.path } : {})
   }))
-  fs.writeFileSync('data/research-tree.json', JSON.stringify(result, null, '\t'))
+  const locale_tw = Object.assign({}, ...rows.filter(row => row.id && row._tw).map(row => ({ [row.id]: row._tw })))
+  const locale_en = Object.assign({}, ...rows.filter(row => row.id && row._en).map(row => ({ [row.id]: row._en })))
+
+  fs.writeFileSync('data/tree.json', JSON.stringify(tree, null, '\t'))
+  fs.writeFileSync('locales/tw.json', JSON.stringify(locale_tw, null, '\t'))
+  fs.writeFileSync('locales/en.json', JSON.stringify(locale_en, null, '\t'))
 }
 
 async function getArticles(rows) {
@@ -96,16 +102,16 @@ async function getArticles(rows) {
   fs.writeFileSync('data/paths.json', JSON.stringify(pathMap, null, '\t'))
   console.info('paths.json updated')
 
-  // update trees
-  const researchTree = JSON.parse(fs.readFileSync('data/research-tree.json', 'utf8'))
-  for(let i = 0; i < researchTree.length; i++) {
-    let node = researchTree[i]
+  // update tree
+  const tree = JSON.parse(fs.readFileSync('data/tree.json', 'utf8'))
+  for(let i = 0; i < tree.length; i++) {
+    let node = tree[i]
     if(node.path === undefined && idMap[node.id] !== undefined) {
       node.path = idMap[node.id]
     }
   }
-  fs.writeFileSync('data/research-tree.json', JSON.stringify(researchTree, null, '\t'))
-  console.info('research-tree.json updated')
+  fs.writeFileSync('data/tree.json', JSON.stringify(tree, null, '\t'))
+  console.info('tree.json updated')
 
   // get article metadata
   for(let i = 0; i < rows.length; i++) {
@@ -218,7 +224,7 @@ async function get() {
   if(shouldGetDict) {
     await getDict(sheets[1])
   }
-  console.info(shouldGetTree ? 'research-tree...' : 'skip tree')
+  console.info(shouldGetTree ? 'tree...' : 'skip tree')
   if(shouldGetTree) {
     await getTree(sheets[2])
   }

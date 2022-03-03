@@ -257,3 +257,14 @@ span.punct-l-fbrac {
 .section-header + .container-wrapper > .container {
   margin-top: 0;
 }
+
+.divider {
+  &:after {
+    content: '';
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--iorg-text);
+    margin: 2rem auto;
+  }
+}

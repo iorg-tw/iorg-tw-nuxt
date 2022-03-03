@@ -1,4 +1,66 @@
 {
+	"_DA_21": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_21",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSWJLPPbUUWG4Wkmc8pQbSQhwDUDO_0JDroGDhjf95IE23J9bs2JemiYzY24PfXvslOYwstHIOycins/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRbpCvztdZIPcGKeP7zhjat9Okbx_TCgaGA3NjL_WVfa2aMvLfKg4udg90ccWATknfYmF9-YFH2UodB/pub"
+		},
+		"publishedAt": "2022/3/3 12:30",
+		"path": "/da/21",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "烏俄戰爭下的資訊操弄：批烏、批美、挺俄、棄台",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 21 期 ﹏ 2021.11.1 - 2022.2.28",
+				"coverImage": "https://lh4.googleusercontent.com/2dHmq73vHw1prwrTdwnTwC2f-ys46qEDzu_7sdCatV55-8lWR7gwIFh_8aSJhRLU38ZxVYocHurptlma45NMdGKpM-mUsj2abIAZAoOBvOcGKsPHLqSlIVFsGVw2cyEIXLKMRdHf",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_21",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSWJLPPbUUWG4Wkmc8pQbSQhwDUDO_0JDroGDhjf95IE23J9bs2JemiYzY24PfXvslOYwstHIOycins/pub",
+				"publishedAt": "2022/3/3 12:30",
+				"cache": "_DA_21_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Manipulated warfare: Ukraine bad, US bad, Russia good, abandon Taiwan",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 21 ﹏ 2021.11.1-2022.2.28",
+				"coverImage": "https://lh4.googleusercontent.com/F_YsHUbDN1piUERvk5QiY9Al07ylWbNzYP2ve6Q14TxZ083J0ABSZR4VO8eYd-vGJY_5OrFKiFq1RLcRqbdz32uvEUpcRGHlr0f2GKDL0YreGhQkKBKU9wl6dk44bZBH6cDhcfv-",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_21",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRbpCvztdZIPcGKeP7zhjat9Okbx_TCgaGA3NjL_WVfa2aMvLfKg4udg90ccWATknfYmF9-YFH2UodB/pub",
+				"publishedAt": "2022/3/3 12:30",
+				"cache": "_DA_21_en",
+				"locale": "_en"
+			}
+		}
+	},
+	"_R_2021": {
+		"show": false,
+		"type": "article",
+		"id": "_R_2021",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub"
+		},
+		"publishedAt": "2022/3/3 12:30",
+		"path": "/r/2021",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 2021 總體研究成果",
+				"subtitle": "2021 IORG 台灣資訊環境資訊科學研究 2021.4.1-12.31",
+				"tags": [],
+				"articleID": "_R_2021",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub",
+				"publishedAt": "2022/3/3 12:30",
+				"locale": "_tw"
+			}
+		}
+	},
 	"_rm": {
 		"show": false,
 		"type": "sys",
@@ -912,7 +974,7 @@
 			},
 			"_en": {
 				"title": "Latest CCP slogan: Taiwanese Go China Get Vaccinated",
-				"subtitle": "IORG Dokidoki Alert Weely ﹋ No. 2 ﹏ 2021.5.31-6.13",
+				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 2 ﹏ 2021.5.31-6.13",
 				"coverImage": "https://lh6.googleusercontent.com/eB5iE4oM7Mhb8jzm2fHcIKhLncKw54P-3ZvFKVguhrrAbQ0qYndtyDqns-H-VeMXgd6s68NGeHgiRwGsDVNMMS9SjKRDZqIxenSrXnxfgmbViEsfbE4kVu8PlsPntV5UMg",
 				"tags": [
 					"Dokidoki Alert"
@@ -965,39 +1027,39 @@
 			}
 		}
 	},
-	"_R_K": {
+	"_R_2020": {
 		"show": false,
 		"type": "research",
-		"id": "_R_K",
+		"id": "_R_2020",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub"
 		},
 		"publishedAt": "2021/2/28 20:00",
 		"updatedAt": "2021/5/13 8:00",
-		"path": "/r/k",
+		"path": "/r/2020",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 中國對台影響力作戰研究總體研究成果",
 				"summary": "IORG 中國對台影響力作戰研究",
 				"tags": [],
-				"articleID": "_R_K",
+				"articleID": "_R_2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_K_tw",
+				"cache": "_R_2020_tw",
 				"locale": "_tw"
 			},
 			"_en": {
 				"title": "IORG Key Research Conclusions on Chinese Influence Operations Against Taiwan",
 				"summary": "IORG Research on Chinese Influence Operations Against Taiwan",
 				"tags": [],
-				"articleID": "_R_K",
+				"articleID": "_R_2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/5/13 8:00",
-				"cache": "_R_K_en",
+				"cache": "_R_2020_en",
 				"locale": "_en"
 			}
 		}
@@ -1408,7 +1470,7 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub"
 		},
 		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/3/1 14:00",
+		"updatedAt": "2022/3/3 0:30",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
@@ -1417,7 +1479,7 @@
 				"articleID": "_ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbqKB1uun54pSxk6lD-I_NhpGxyYFEc2jsw-KPT-fY9JVNk_NsveMJwVGpYqIC5GcSerugWMhDOrfC/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/3/1 14:00",
+				"updatedAt": "2022/3/3 0:30",
 				"cache": "_ack_tw",
 				"locale": "_tw"
 			},
@@ -1427,7 +1489,7 @@
 				"articleID": "_ack",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ3LFbTf49t8LYAWBaObJAdBruuBFEfF28XLeakaWfHR5zW7980NnGxM_goW20YZmo24jb-zxQMMKw-/pub",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/3/1 14:00",
+				"updatedAt": "2022/3/3 0:30",
 				"cache": "_ack_en",
 				"locale": "_en"
 			}

@@ -136,7 +136,8 @@ export default {
       margin-bottom: 1.5rem;
       line-height: $line-height-comfortable;
     }
-    a.ioid {
+    a.ioid,
+    a.da {
       border-bottom-width: 1px;
       font-size: 0.625rem;
       line-height: 0.75rem;

@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import tree from '~/data/research-tree'
+import tree from '~/data/tree'
 import { getLocalizedArticles } from '~/lib/i18n'
 import { structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'

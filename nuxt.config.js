@@ -51,12 +51,12 @@ export default {
       {
         code: '_en',
         name: 'En',
-        file: 'en.js'
+        file: 'en.json'
       },
       {
         code: '_tw',
         name: '台',
-        file: 'tw.js'
+        file: 'tw.json'
       }
     ],
     defaultLocale: '_tw',

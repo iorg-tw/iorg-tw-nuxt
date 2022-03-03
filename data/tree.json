@@ -1,20 +1,23 @@
 [
 	{
-		"id": "_R_K",
+		"id": "_R_2021",
+		"group": 2021,
 		"level": 0,
 		"code": "K",
 		"image": "/images/covers/k-h.png",
-		"path": "/r/k"
+		"path": "/r/2021"
 	},
 	{
-		"id": "_R_A",
+		"id": "_R_2020",
+		"group": 2020,
 		"level": 0,
-		"code": "A",
-		"image": "/images/covers/a-h.png",
-		"path": "/r/a"
+		"code": "K",
+		"image": "/images/covers/k-h.png",
+		"path": "/r/2020"
 	},
 	{
 		"id": "_R_B",
+		"group": 2020,
 		"level": 0,
 		"code": "B",
 		"image": "/images/covers/b-h.png",
@@ -22,6 +25,7 @@
 	},
 	{
 		"id": "_R_B1",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.1",
@@ -30,6 +34,7 @@
 	},
 	{
 		"id": "_R_B2",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.2",
@@ -38,6 +43,7 @@
 	},
 	{
 		"id": "_R_B3",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.3",
@@ -46,6 +52,7 @@
 	},
 	{
 		"id": "_R_B4",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.4",
@@ -54,6 +61,7 @@
 	},
 	{
 		"id": "_R_B5",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.5",
@@ -62,6 +70,7 @@
 	},
 	{
 		"id": "_R_B6",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.6",
@@ -70,6 +79,7 @@
 	},
 	{
 		"id": "_R_B7",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.7",
@@ -78,6 +88,7 @@
 	},
 	{
 		"id": "_R_R1",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_B",
 		"code": "R.1",
@@ -86,6 +97,7 @@
 	},
 	{
 		"id": "_R_D",
+		"group": 2020,
 		"level": 0,
 		"code": "D",
 		"image": "/images/covers/d-h.png",
@@ -93,6 +105,7 @@
 	},
 	{
 		"id": "_R_D1",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.1",
@@ -101,6 +114,7 @@
 	},
 	{
 		"id": "_R_D2",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.2",
@@ -109,6 +123,7 @@
 	},
 	{
 		"id": "_R_D3",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.3",
@@ -117,6 +132,7 @@
 	},
 	{
 		"id": "_R_D4",
+		"group": 2020,
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.4",
@@ -125,25 +141,39 @@
 	},
 	{
 		"id": "_R_E",
+		"group": 2020,
 		"level": 0,
 		"code": "E",
 		"image": "/images/covers/e-h.png",
 		"path": "/r/e"
 	},
 	{
-		"id": "_O_GS",
+		"id": "ce-2020",
+		"group": 2020,
 		"level": 0,
-		"code": "G",
-		"image": "/images/covers/g-h.png"
+		"code": "CE",
+		"image": "/images/covers/ce-h.png",
+		"path": "/a/ce-2020"
 	},
 	{
-		"id": "_O_RM",
+		"id": "_glossary",
+		"group": 0,
+		"level": 0,
+		"code": "G",
+		"image": "/images/covers/g-h.png",
+		"path": "/open/glossary"
+	},
+	{
+		"id": "_rm",
+		"group": 0,
 		"level": 0,
 		"code": "M",
-		"image": "/images/covers/m-h.png"
+		"image": "/images/covers/m-h.png",
+		"path": "/open/rm"
 	},
 	{
 		"id": "_X",
+		"group": 0,
 		"level": 0,
 		"code": "X",
 		"image": "/images/covers/x-h.png",
@@ -151,16 +181,10 @@
 	},
 	{
 		"id": "_O",
+		"group": 0,
 		"level": 0,
 		"code": "O",
 		"image": "/images/covers/o-h.png",
 		"path": "/open"
-	},
-	{
-		"id": "ce-2020",
-		"level": 0,
-		"code": "CE",
-		"image": "/images/covers/ce-h.png",
-		"path": "/a/ce-2020"
 	}
 ]
