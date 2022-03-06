@@ -1,6 +1,6 @@
 const config = {
-  title: 'IORG – Information Operations Research Group',
-  description: 'IORG is a Taiwan-based multidisciplinary research group formed in 2019 by media workers, social scientists, data scientists, and local activists. IORG researches information manipulation and strengthens information literacy in response to cognitive warfare.',
+  title: 'IORG 台灣資訊環境研究中心',
+  description: 'IORG studies Taiwan’s information environment and defends Taiwan’s democracy.',
   cover: 'https://iorg.tw/images/cover-2-1.png'
 }
 
