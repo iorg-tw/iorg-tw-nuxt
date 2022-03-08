@@ -70,6 +70,7 @@ async function getArticles(rows) {
     ...(row.updatedAt ? { updatedAt: row.updatedAt } : {}),
     ...(row.path ? { path: row.path } : {}),
     cache: row.cache ? true : false,
+    reload: row.reload ? true : false,
     localizedDocs: {}
   }))
 
@@ -103,11 +104,19 @@ async function getArticles(rows) {
   fs.writeFileSync('data/tree.json', JSON.stringify(tree, null, '\t'))
   console.info('tree.json updated')
 
+  const oldArticles = JSON.parse(fs.readFileSync('data/articles.json', 'utf8'))
+
   // get article metadata
   for(let i = 0; i < rows.length; i++) {
     const row = rows[i]
+    if(!row.reload) {
+      console.info(row.id)
+      Object.assign(row, oldArticles[row.id])
+      continue
+    }
+
     const locales = Object.keys(row.publicURLs)
-    console.info(row.id, locales)
+    console.info(row.id, 'reload', locales)
     let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale], locale)))
 
     locales.forEach((locale, i) => {
