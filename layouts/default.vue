@@ -14,6 +14,15 @@ export default {
   components: {
     Navbar,
     Foooter
+  },
+  head() {
+    let locale = this.$i18n.locales.filter(loc => loc.code === this.$i18n.locale)
+    locale = locale.length > 0 ? locale[0] : null
+    return {
+      htmlAttrs: {
+        ...(locale ? { lang: locale.iso } : {})
+      }
+    }
   }
 }
 </script>
@@ -47,5 +56,21 @@ export default {
   --dpp: #99FF99;
   --pfp: #FFCF78;
   --np: #FFFF64;
+
+  & {
+    --facebook: #5252ff;
+    --weibo: #ff5656;
+    --line: #40dd40;
+    --gdoc-post-post: "Post";
+    --gdoc-post-facebook: "Facebook";
+    --gdoc-post-weibo: "Weibo";
+    --gdoc-post-line: "LINE";
+  }
+  &[lang="zh-Hant-TW"] {
+    --gdoc-post-post: "文章";
+    --gdoc-post-facebook: "Facebook";
+    --gdoc-post-weibo: "微博";
+    --gdoc-post-line: "LINE";
+  }
 }
 </style>

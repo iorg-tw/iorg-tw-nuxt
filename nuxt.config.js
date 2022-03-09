@@ -50,11 +50,13 @@ export default {
     locales: [
       {
         code: '_en',
+        iso: 'en-US',
         name: 'En',
         file: 'en.json'
       },
       {
         code: '_tw',
+        iso: 'zh-Hant-TW',
         name: '台',
         file: 'tw.json'
       }

@@ -544,13 +544,10 @@ export default {
   }
   .gdoc-post {
     position: relative;
-    --facebook: #5252ff;
-    --weibo: #ff5656;
-    --line: #40dd40;
     --border-color: var(--iorg-background);
     --text-color: var(--iorg-text);
     &:before {
-      content: "文章";
+      content: var(--gdoc-post-post);
       display: inline-block;
       color: white;
       position: relative;
@@ -568,7 +565,7 @@ export default {
       --border-color: var(--facebook);
       --text-color: var(--facebook);
       &:before {
-        content: "Facebook";
+        content: var(--gdoc-post-facebook);
         background-color: var(--facebook);
       }
     }
@@ -576,7 +573,7 @@ export default {
       --border-color: var(--weibo);
       --text-color: var(--weibo);
       &:before {
-        content: "微博";
+        content: var(--gdoc-post-weibo);
         background-color: var(--weibo);
       }
     }
@@ -584,7 +581,7 @@ export default {
       --border-color: var(--line);
       --text-color: var(--line);
       &:before {
-        content: "LINE";
+        content: var(--gdoc-post-line);
         background-color: var(--line);
       }
     }
