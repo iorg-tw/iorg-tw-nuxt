@@ -543,6 +543,7 @@ export default {
     }
   }
   .gdoc-post {
+    position: relative;
     --facebook: #5252ff;
     --weibo: #ff5656;
     --line: #40dd40;
@@ -559,6 +560,7 @@ export default {
       border: none;
       border-radius: 1rem;
       padding: 0.25rem 0.5rem;
+      background-color: var(--iorg-background);
       line-height: 1;
       font-size: 0.75rem;
     }
