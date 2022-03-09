@@ -548,17 +548,43 @@ export default {
     --line: #40dd40;
     --border-color: var(--iorg-background);
     --text-color: var(--iorg-text);
+    &:before {
+      content: "文章";
+      display: inline-block;
+      color: white;
+      position: relative;
+      top: 0.5rem;
+      left: -0.5rem;
+      margin: 0;
+      border: none;
+      border-radius: 1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      font-size: 0.75rem;
+    }
     &.facebook {
       --border-color: var(--facebook);
       --text-color: var(--facebook);
+      &:before {
+        content: "Facebook";
+        background-color: var(--facebook);
+      }
     }
     &.weibo {
       --border-color: var(--weibo);
       --text-color: var(--weibo);
+      &:before {
+        content: "微博";
+        background-color: var(--weibo);
+      }
     }
     &.line {
       --border-color: var(--line);
       --text-color: var(--line);
+      &:before {
+        content: "LINE";
+        background-color: var(--line);
+      }
     }
     > .detail {
       border: 1px solid var(--border-color);
@@ -626,6 +652,10 @@ export default {
     &.info {
       border-color: var(--iorg-accent);
       color: var(--iorg-accent);
+    }
+    &.warning {
+      border-color: var(--iorg-bad);
+      color: var(--iorg-bad);
     }
     &.danger {
       border-color: var(--iorg-danger);
