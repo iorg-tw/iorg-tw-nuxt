@@ -1,7 +1,7 @@
 <i18n lang="yaml">
 _tw:
-  chinaWatch: "IORG 中國觀察清單"
-  licensing: "IORG 中國觀察清單以「創用 CC 姓名標示 4.0 IORG 及匿名貢獻者」條款授權釋出。"
+  chinaWatch: "IORG 中國觀察"
+  licensing: "IORG 中國觀察清單內容以「創用 CC 姓名標示 4.0 IORG 及匿名貢獻者」條款授權釋出。"
   add: "你可以用下方的表單增加新的觀察對象，IORG 研究員會確認你提供的資訊，並將新的觀察對象加入清單。"
 _en:
   chinaWatch: "IORG China Watch"

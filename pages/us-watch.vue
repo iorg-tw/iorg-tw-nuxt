@@ -1,6 +1,6 @@
 <i18n lang="yaml">
 _tw:
-  usWatch: "IORG 美國觀察清單"
+  usWatch: "IORG 美國觀察"
 _en:
   usWatch: "IORG U.S. Watch"
 </i18n>
