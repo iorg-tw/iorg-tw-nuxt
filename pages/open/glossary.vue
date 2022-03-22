@@ -20,7 +20,7 @@ import { structureDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
 
-const ID = '_O_GS'
+const ID = '_glossary'
 
 export default {
   components: {
