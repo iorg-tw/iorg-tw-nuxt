@@ -19,7 +19,19 @@ _en:
     <h1>{{ $t('r_title_2021') }}</h1>
     <p class="subtitle">{{ $t('r_subtitle_2021') }}</p>
   </div>
-  <div class="key-findings"></div>
+  <div class="key-findings">
+    <div v-for="objL0 of structuredDocK2021" :key="objL0.title" class="group">
+      <div class="group-header section-header">
+        <div :is="objL0.titleTag" class="group-title">{{ objL0.title }}</div>
+        <nuxt-link :to="localePath('/r/2021')" class="more button small">{{ $t('more') }}</nuxt-link>
+      </div>
+      <div v-if="objL0.children" class="findings container">
+        <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding panel tiled large filled raised">
+          <p class="header detail">{{ objL1.title }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="divider"></div>
   <div class="section-header">
     <h2>{{ $t('resources') }}</h2>
@@ -65,10 +77,12 @@ export default {
     Intro
   },
   async asyncData({ app }) {
-    const [docK2020, docAck] = await getLocalizedArticles(['_R_2020', '_ack'], app.i18n.locale, app.i18n.defaultLocale)
+    const [docK2020, docK2021, docAck] = await getLocalizedArticles(['_R_2020', '_R_2021', '_ack'], app.i18n.locale, app.i18n.defaultLocale)
     return {
       structuredDocK2020: structureDoc(docK2020.html, ['h2', 'h3']),
       level0Nodes2020: tree.filter(node => node.group === 2020 && node.level === 0),
+      structuredDocK2021: structureDoc(docK2021.html, ['h2', 'h3']),
+      level0Nodes2021: tree.filter(node => node.group === 2021 && node.level === 0),
       level0NodesSys: tree.filter(node => node.group === 0 && node.level === 0),
       docAck
     }
