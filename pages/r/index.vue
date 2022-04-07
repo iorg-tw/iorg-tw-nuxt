@@ -34,7 +34,7 @@ _en:
     <div v-for="objL0 of structuredDocK2020" :key="objL0.title" class="group">
       <div class="group-header section-header">
         <div :is="objL0.titleTag" class="group-title">{{ objL0.title }}</div>
-        <nuxt-link :to="localePath('/r/k')" class="more button small">{{ $t('more') }}</nuxt-link>
+        <nuxt-link :to="localePath('/r/2020')" class="more button small">{{ $t('more') }}</nuxt-link>
       </div>
       <div v-if="objL0.children" class="findings container">
         <div v-for="objL1 of objL0.children" :key="objL1.title" class="finding panel tiled large filled raised">
