@@ -1,4 +1,69 @@
 {
+	"_DA_23": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_23",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vT7zPyxsiR1fD42Mu63OpTPScciZuKAVep7f3xWXgYVF59al6PnksyT-Fh6b7ZPzqhKhDfP8Uid7BA9/pub"
+		},
+		"publishedAt": "2022/4/28 12:30",
+		"path": "/da/23",
+		"cache": true,
+		"reload": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "上海疫情下的中共宣傳：讚中國「動態清零」、批西方「躺平共存」",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 23 期 ﹏ 中國 COVID-19 疫情特別報吿",
+				"coverImage": "https://lh5.googleusercontent.com/yiXCtMCTB6fwLugPrwibKcxaetyUTf1_cZC6wXRE5bTYBsqSHxK3pmkyHx5jLnJYKwSQf0gx0eIr0tzT7DUWtrIvsDMSKoVeALm-svRzSJFQoNeS24MFkzMyvE8PSrrdnw",
+				"tags": [
+					"心慌特報"
+				],
+				"articleID": "_DA_23",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub",
+				"publishedAt": "2022/4/28 12:30",
+				"cache": "_DA_23_tw",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "CCP propaganda praises China’s “dynamic COVID-zero” strategy, Western “coexist” policy is “lying flat”",
+				"subtitle": "IORG Dokidoki Alert ﹋ No. 23 ﹏ COVID-19 in China Special Report",
+				"coverImage": "https://lh6.googleusercontent.com/tARhiq9tvt33aZP1IQ10fwFuAi2y2FX0KUaYJjsNuIZgN1OZODOQPyyyYoZlAOqSpY0MKsmHBsegLaVl2w4ZQcmQzd9jaWR-aEKdKZ36KByJqn-0gwSuEIlx8qr5mIM4Mw",
+				"tags": [
+					"Dokidoki Alert"
+				],
+				"articleID": "_DA_23",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7zPyxsiR1fD42Mu63OpTPScciZuKAVep7f3xWXgYVF59al6PnksyT-Fh6b7ZPzqhKhDfP8Uid7BA9/pub",
+				"publishedAt": "2022/4/28 12:30",
+				"cache": "_DA_23_en",
+				"locale": "_en"
+			}
+		}
+	},
+	"_R_2021": {
+		"show": false,
+		"type": "article",
+		"id": "_R_2021",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub"
+		},
+		"publishedAt": "2022/3/3 12:30",
+		"path": "/r/2021",
+		"cache": true,
+		"reload": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 2021 總體研究成果",
+				"subtitle": "2021 IORG 台灣資訊環境資訊科學研究 2021.4.1-12.31",
+				"tags": [],
+				"articleID": "_R_2021",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub",
+				"publishedAt": "2022/3/3 12:30",
+				"cache": "_R_2021_tw",
+				"locale": "_tw"
+			}
+		}
+	},
 	"_DA_22": {
 		"show": true,
 		"type": "da",
@@ -15,7 +80,7 @@
 			"_tw": {
 				"title": "烏克蘭教台灣的事：開戰時刻，我們該提防的資訊操弄",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 22 期 ﹏ 俄烏戰爭特別報吿",
-				"coverImage": "https://lh5.googleusercontent.com/l11iTW_5m8nM4f19_b5rEJ5tXmK1U1fbmMGL042wObddUFJf7jnApfxcktBpA83vJe-zLxB_94fIxC6SiWDnhNG9cZwKA1rtbPQj0LT9Mw4WOTVK1aet7RHnesnOfP4nGg",
+				"coverImage": "https://lh3.googleusercontent.com/N9Wd_psSTvNL73GikFcNQUoUH-TMORWJMyyQypGMwu_XmHeXOF8GxzXx1bhHLBub7jmoxOW63w5WuXtZEoOb5jK9beQK7_uh1Vc3hT3-9-9UYIIBVDEBCYEvXGYjxGfdKA",
 				"tags": [
 					"心慌週報"
 				],
@@ -26,7 +91,7 @@
 				"locale": "_tw"
 			},
 			"_en": {
-				"title": "Manipulated warfare: a lesson for Taiwan’s cognitive defense",
+				"title": "Manipulated warfare: a Ukrainian lesson for Taiwan’s cognitive defense",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 22 ﹏ Russian-Ukrainian War Special Report",
 				"coverImage": "https://lh6.googleusercontent.com/3SSGm3fROnJtjm5q1KAy5DEs_F5MO6tSiOPBwqwTK7Y-5z2J0Z0jXrLopFNtjGrrkCJgByY8DnphmBNGKyRYGFN0C7MBYA09LNxVqYqO3h-oiOdAnWNM11QqRgeE9kG6tA",
 				"tags": [
@@ -78,30 +143,6 @@
 				"publishedAt": "2022/3/3 12:30",
 				"cache": "_DA_21_en",
 				"locale": "_en"
-			}
-		}
-	},
-	"_R_2021": {
-		"show": false,
-		"type": "article",
-		"id": "_R_2021",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub"
-		},
-		"publishedAt": "2022/3/3 12:30",
-		"path": "/r/2021",
-		"cache": true,
-		"reload": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "IORG 2021 總體研究成果",
-				"subtitle": "2021 IORG 台灣資訊環境資訊科學研究 2021.4.1-12.31",
-				"tags": [],
-				"articleID": "_R_2021",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub",
-				"publishedAt": "2022/3/3 12:30",
-				"cache": "_R_2021_tw",
-				"locale": "_tw"
 			}
 		}
 	},
