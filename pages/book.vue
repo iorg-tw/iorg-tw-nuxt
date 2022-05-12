@@ -50,6 +50,7 @@ _en:
 <script>
 import { PUNCT } from '~/lib/const'
 import { generateMeta } from '~/lib/meta'
+import coverBook from '~/static/images/cover-book.png'
 import bookImage from '~/static/images/book.png'
 
 export default {
@@ -60,7 +61,7 @@ export default {
     }
   },
   head() {
-    return generateMeta(this.$t('bookTitle'), this.$t('bookSubtitle'))
+    return generateMeta(this.$t('bookTitle'), this.$t('bookSubtitle'), '', coverBook)
   }
 }
 </script>
