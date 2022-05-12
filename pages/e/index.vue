@@ -19,6 +19,7 @@ _en:
   <div class="event-list container">
     <div v-for="conf of displayConfs" :key="[conf.date, conf.area, conf.name].join('-')" class="conf event panel tiled filled raised">
       <div class="detail">
+        <label class="year">{{ conf.year }}</label>
         <div class="head">
           <label class="date">{{ conf.displayDate }}</label>
           <label class="area">{{ conf.area }}</label>
@@ -35,6 +36,7 @@ _en:
   <div class="event-list container">
     <div v-for="workshop of displayWorkshops" :key="[workshop.date, workshop.area, workshop.name].join('-')" class="workshop event panel tiled compact small filled raised">
       <div class="detail">
+        <label class="year">{{ workshop.year }}</label>
         <div class="head">
           <label class="date">{{ workshop.displayDate }}</label>
           <label class="area">{{ workshop.area }}</label>
@@ -72,6 +74,7 @@ export default {
           area: e.area,
           time: e.time,
           d: new Date([e.year, e.date].join('/')),
+          year: e.year,
           displayDate: e.date.replace('/', '.')
         }, localizedDoc)
       })
@@ -80,6 +83,7 @@ export default {
       return workshops.filter(e => e.show).map(e => ({
         ...e,
         d: new Date([e.year, e.date].join('/')),
+        year: e.year,
         displayDate: e.date.replace('/', '.')
       }))
     }
@@ -96,7 +100,15 @@ export default {
 .page.events {
   > .event-list {
     > .event {
+      position: relative;
       > .detail {
+        > .year {
+          position: absolute;
+          top: 0.5rem;
+          right: 0.625rem;
+          font-size: 0.75rem;
+          color: var(--iorg-accent);
+        }
         > .head {
           display: flex;
           align-items: center;
