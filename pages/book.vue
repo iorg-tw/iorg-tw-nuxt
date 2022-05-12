@@ -69,12 +69,14 @@ export default {
 @import '~assets/styles/resources';
 
 .page.book {
-  h3 {
-    margin-top: 0.25rem;
+  h1 {
+    line-height: $line-height-compressed;
   }
   h4 {
-    margin-top: 0.25rem;
     font-weight: normal;
+  }
+  h1, h3, h4 {
+    margin-top: 0.25rem;
   }
   > .book {
     margin: -4rem auto 1rem auto;
