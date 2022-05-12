@@ -1,10 +1,12 @@
 <i18n lang="yaml">
 _tw:
+  book: "出版"
   da: "週報"
   research: "研究"
   articles: "報導"
   events: "活動"
 _en:
+  book: "Book"
   da: "Alert"
   research: "Research"
   articles: "Articles"
@@ -17,10 +19,11 @@ _en:
     <img src="/images/logo-2022.png" width="64" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="localePath('/da')" class="item block"><span>{{ $t('da') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/r')" class="item block"><span>{{ $t('research') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/a')" class="item block"><span>{{ $t('articles') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/e')" class="item block"><span>{{ $t('events') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/book')" class="item block"><span class="emoji">📙</span><span class="text">{{ $t('book') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/da')" class="item block"><span class="emoji">🔔</span><span class="text">{{ $t('da') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/r')" class="item block"><span class="emoji">🧬</span><span class="text">{{ $t('research') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/a')" class="item block"><span class="emoji kerning-right-2">🖋</span><span class="text">{{ $t('articles') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/e')" class="item block"><span class="emoji kerning-right-4">📍</span><span class="text">{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
     <nuxt-link v-for="locale of availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="item block minimal"><img src="/images/locales-tw-en.png" width="64"></nuxt-link><!-- FIXME: assumes only two langs TW & EN -->
@@ -57,25 +60,45 @@ export default {
     > .item {
       display: block;
       margin: 0;
-      padding: 0 0.375rem;
+      padding: 0;
       line-height: $size;
     }
   }
   > .main-menu {
     > .item {
-      @media (max-width: 400px) {
-        padding: 0;
-        word-break: break-all;
+      & {
+        width: 2.75rem;
+        padding: 0 0.125rem;
+        text-align: center;
+        > span {
+          line-height: $line-height-tight;
+        }
+        > .emoji {
+          display: inline-block;
+          font-size: 1.5rem;
+          padding: 0.25rem;
+          border-bottom: none;
+        }
+        > .text {
+          display: none;
+        }
+      }
+      @media (min-width: 640px) { // add text label
+        width: auto;
         min-width: 2.5rem;
-        line-height: $line-height-single;
-        transform: skew(0, -12deg) translateY(1rem) scale(0.875);
-        transform-origin: top left;
-      }
-      &:first-child {
-        padding-left: 0;
-      }
-      &:last-child {
-        padding-right: 0;
+        padding-right: 0.375rem;
+        text-align: auto;
+        > .text {
+          display: inline-block;
+        }
+        > .emoji {
+          &.kerning-right-2 {
+            margin-right: -0.125rem;
+          }
+          &.kerning-right-4 {
+            margin-right: -0.25rem;
+          }
+        }
       }
     }
   }
