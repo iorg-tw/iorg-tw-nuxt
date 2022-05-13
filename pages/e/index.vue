@@ -67,7 +67,7 @@ export default {
   },
   computed: {
     displayConfs() {
-      return Object.values(this.confs).filter(e => e.show).map(e => {
+      const displayConfs = Object.values(this.confs).filter(e => e.show).map(e => {
         const localizedDoc = e.localizedDocs[this.$i18n.locale]
         return Object.assign({
           id: e.id,
@@ -78,9 +78,11 @@ export default {
           displayDate: e.date.replace('/', '.')
         }, localizedDoc)
       })
+      displayConfs.sort((a, b) => b.d - a.d)
+      return displayConfs
     },
     displayWorkshops() {
-      return workshops.filter(e => e.show).map(e => ({
+      return this.workshops.filter(e => e.show).map(e => ({
         ...e,
         d: new Date([e.year, e.date].join('/')),
         year: e.year,

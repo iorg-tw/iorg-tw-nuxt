@@ -112,6 +112,7 @@ async function getArticles(rows) {
     if(!row.reload) {
       console.info(row.id)
       Object.assign(row, oldArticles[row.id])
+      row.reload = false
       continue
     }
 
@@ -185,6 +186,7 @@ async function getEvents(rows) {
     if(!conf.reload) {
       console.info(conf.id)
       Object.assign(conf, oldConfs[conf.id])
+      conf.reload = false
       continue
     }
 
@@ -213,7 +215,8 @@ async function getEvents(rows) {
       conf.localizedDocs[locale] = doc
     })
   }
-  fs.writeFileSync('data/confs.json', JSON.stringify(confs, null, '\t'))
+  const confMap = Object.assign({}, ...confs.map(conf => ({ [conf.id]: conf })))
+  fs.writeFileSync('data/confs.json', JSON.stringify(confMap, null, '\t'))
   // FIXME: this preserves order (js sort numeric keys) but make /e/_id slower
 }
 
