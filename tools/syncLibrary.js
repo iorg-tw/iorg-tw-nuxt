@@ -173,13 +173,23 @@ async function getEvents(rows) {
       _tw: row.publicURL_tw,
       ...(ok(row.publicURL_en) ? { _en: row.publicURL_en } : {})
     },
+    cache: row.cache ? true : false,
+    reload: row.reload ? true : false,
     localizedDocs: {}
   }))
 
+  const oldConfs = JSON.parse(fs.readFileSync('data/confs.json', 'utf8'))
+
   for(let i = 0; i < confs.length; i++) {
     const conf = confs[i]
+    if(!conf.reload) {
+      console.info(conf.id)
+      Object.assign(conf, oldConfs[conf.id])
+      continue
+    }
+
     const locales = Object.keys(conf.publicURLs)
-    console.info(conf.id, locales)
+    console.info(conf.id, 'reload', locales)
     let localizedDocs = await Promise.all(locales.map(locale => getDoc(conf.publicURLs[locale], locale)))
 
     locales.forEach((locale, i) => {
@@ -190,6 +200,11 @@ async function getEvents(rows) {
       }
       if(conf.updatedAt) {
         doc.updatedAt = conf.updatedAt
+      }
+      if(conf.cache) {
+        console.info(conf.id, locale, 'cached')
+        fs.writeFileSync('data/cached-events/' + conf.id + locale + '.json' , JSON.stringify(doc, null, '\t'))
+        doc.cache = conf.id + locale
       }
       delete doc.coverImageDescHTML
       delete doc.authorInfoItemsHTML

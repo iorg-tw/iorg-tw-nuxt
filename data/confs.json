@@ -11,20 +11,24 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQQEU1TjXj9TUcBI5Q5c3IcJVs-N9GRMmb2FAsdPUa368fv1Cre1ulnOa9dx2T_YNkCn2J2dYm2t5KF/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vRFyGx3gvj5vmoWpMIp5cNxFVaxvIn7A7JlZQNzl2FfuMZ52OSOIaj3y734Yp3zgZNyGxJ2-gQHstIS/pub"
 		},
+		"cache": true,
+		"reload": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 夏日小聚",
 				"subtitle": "IORG 民主防衛論壇 – 2021.7.22 – 線上",
-				"coverImage": "https://lh6.googleusercontent.com/bQsz_II0jq60gdaiXjirG5yjaeLeny4FhkYBUrNq2KG8ApnFA7z4L4Rb9VBMuy7Yz8zlFgzrBpr0m42uLq2dVPcFStHSCFi2SeacB1yWPgy-7w-mwHH1KRuZ-6cFmCnaMg",
+				"coverImage": "https://lh5.googleusercontent.com/ZXtpHZm4d1-V9OKgdDjy4gmSgyAxxrnlOKgw7PbYoMeMhmhvUhX0UplI6D7JWfZe4hzx0_I1SXZxjFrisjC0EcgGn71OqwkFmfAHsNE9rrm78fcsg7Mxia-o-txyYoh88nkAhiY4-Qs",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQQEU1TjXj9TUcBI5Q5c3IcJVs-N9GRMmb2FAsdPUa368fv1Cre1ulnOa9dx2T_YNkCn2J2dYm2t5KF/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQQEU1TjXj9TUcBI5Q5c3IcJVs-N9GRMmb2FAsdPUa368fv1Cre1ulnOa9dx2T_YNkCn2J2dYm2t5KF/pub",
+				"cache": "summer-2021_tw"
 			},
 			"_en": {
 				"title": "IORG Summer Briefing",
 				"subtitle": "IORG Defending Democracy Forum – 2021.7.22 – Online",
-				"coverImage": "https://lh4.googleusercontent.com/yj9gjPPPYhxPQz0tGh6DCwvPZkT-4gyIaI8c3abs5UGRt9DXQOjuB2mYhfeB7mEagaiu8p4IIIGwZM4JdwDFZ1eJCR8jWeWfrP3Y4zT8glJQNQ0ELpTSAQ14v7o6QQjPUg",
+				"coverImage": "https://lh5.googleusercontent.com/_f6pJNAkufpW71p39BEI-VSjJkgfa81N_X7Ns9ySeSB94MF5cdTQR3xUR4r2BdKbVsdzeSogcjaalUcTa1W_txX1Oc5sOJv_lAtuJ64Q8td_c4Ac02QqPRpu05o2Ssagtlh_OzLPbCc",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFyGx3gvj5vmoWpMIp5cNxFVaxvIn7A7JlZQNzl2FfuMZ52OSOIaj3y734Yp3zgZNyGxJ2-gQHstIS/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFyGx3gvj5vmoWpMIp5cNxFVaxvIn7A7JlZQNzl2FfuMZ52OSOIaj3y734Yp3zgZNyGxJ2-gQHstIS/pub",
+				"cache": "summer-2021_en"
 			}
 		}
 	},
@@ -40,22 +44,26 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSZO665xPuxsc11-ADDzOm8srJ7ZTDjAP7Fhl3rLR4hQX8GWNez8qGu6KQbD4CRTAG7PLTJ9iL4nMR7/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vRQRDnBvfsxNN2G9FTH3x_jns5d8kAn39ckejuWHPgnaKKBdjrNE3tLRZqPFcM_puhLOicnGqqzAd-6/pub"
 		},
+		"cache": true,
+		"reload": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 民主防衛論壇：中國對台影響力作戰研究",
 				"subtitle": "2021.3.6 IORG 研討會",
-				"coverImage": "https://lh4.googleusercontent.com/OQ_u6-k5WiIQzHFviW4laYn6p4ReEgv7hZ_a1QxiLbWCbhZxzRJp-ra_3-VlICuMcbyZkzRbKZ3-zrINpiBTiKZEBZVNH2m0bL-bmUGugyFN3UsCV_hKXXwfu0hqY27bCE5Smp7hJqI",
+				"coverImage": "https://lh3.googleusercontent.com/edcoHTP5Aw43byDIHilO0HlOcyAJgQ2SCwQXkQPwCIMLDo7-3aIzXUJzSi0iRxUQbSaRbWg8b73FTSxoLjIuQbV73Plw-aV8KzVLgd3RqLv1-sXJqEMvikpFPZdZXz94mZzWslmH_SI",
 				"summary": "2021.3.6 IORG 研討會",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSZO665xPuxsc11-ADDzOm8srJ7ZTDjAP7Fhl3rLR4hQX8GWNez8qGu6KQbD4CRTAG7PLTJ9iL4nMR7/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSZO665xPuxsc11-ADDzOm8srJ7ZTDjAP7Fhl3rLR4hQX8GWNez8qGu6KQbD4CRTAG7PLTJ9iL4nMR7/pub",
+				"cache": "306_tw"
 			},
 			"_en": {
 				"title": "IORG Defending Democracy Forum: Research on Chinese Influence Operations Against Taiwan",
 				"subtitle": "2021.3.6 IORG Research Forum",
-				"coverImage": "https://lh3.googleusercontent.com/QbP6l7e45-m0IlGNh1BaTPHixpiFIHs6VcV3yW925ElR7oPEmhofGX3IurRTpgMs1tCUampdRK0dlr0MuIX_C2_ldRl032peQ9XEGWjGbrnYaE9RJdcCR6IYcRdjB-yzEQ",
+				"coverImage": "https://lh5.googleusercontent.com/zLPcCltk0Qv_Ns6yoVBfyRCRNiENmd8T2cQ6hpetkNSEgB4EpaZoIIlkBYb1IIXGE54V4_5scnX_THwiOkuTe7MsqrrOtgZkwKN9LwICNUOcu9Iu4Y9X75XkLITLj-WO3XIIUP_fykY",
 				"summary": "2021.3.6 IORG Research Forum",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRQRDnBvfsxNN2G9FTH3x_jns5d8kAn39ckejuWHPgnaKKBdjrNE3tLRZqPFcM_puhLOicnGqqzAd-6/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRQRDnBvfsxNN2G9FTH3x_jns5d8kAn39ckejuWHPgnaKKBdjrNE3tLRZqPFcM_puhLOicnGqqzAd-6/pub",
+				"cache": "306_en"
 			}
 		}
 	},
@@ -71,22 +79,26 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR9SlDEg0hN0vJx2LHAW06sDbsNGP3oLaq5t3tuazY1kgbltjOCFfVfyViCoGGR9LCM8gdLOSkCP-zY/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vSEzqaTYk9HK_wjnP4f7QWk0DMIOlWUf-gtkq-sn5AlEVmPuDyHeXMy04VW5mjFTEz3swrLt7Zqy63l/pub"
 		},
+		"cache": true,
+		"reload": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中國對台影響力作戰研究成果發表",
 				"subtitle": "2021.3.5 IORG 記者會",
-				"coverImage": "https://lh6.googleusercontent.com/E8glgeqd-bNtbmgfodl9GU9zC_OrYoOWXs5yrSSMs4ZUN3nn78MfnWa7cxunS8Utd2x4QH4qKm9ThhY9jpWpLLtWPYyfEfyERN1H9-BcUJXlJc40DG3Y15o-hwhc6EFDag",
+				"coverImage": "https://lh3.googleusercontent.com/4chHVtW3qh2nmo_eL0333qTR0-R7iG5o2wZy8t1r_JOzYLGcHCuLZY1H2LuRKLUGqGaN9ceMn-ES5iT3vKxyartKMnYwzhHbzs795cE_F43cYTZ1aEoB1EooGgqxxGLX8zMGEjGq0jo",
 				"summary": "2021.3.5 IORG 記者會",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR9SlDEg0hN0vJx2LHAW06sDbsNGP3oLaq5t3tuazY1kgbltjOCFfVfyViCoGGR9LCM8gdLOSkCP-zY/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR9SlDEg0hN0vJx2LHAW06sDbsNGP3oLaq5t3tuazY1kgbltjOCFfVfyViCoGGR9LCM8gdLOSkCP-zY/pub",
+				"cache": "305_tw"
 			},
 			"_en": {
 				"title": "IORG Press Conference: Research Findings on Chinese Influence Operations Against Taiwan",
 				"subtitle": "2021.3.5 IORG Press Conference",
-				"coverImage": "https://lh5.googleusercontent.com/u-QTdSUs1zW1xjRyTKh_bPvXgIq3r-BaQJcmhJ_JV3GPbfr2EAg1Y7Bkj7ExHkcHZ0N2XFImPJfJFqotI_XyNihVb8udh43W8aPCecbfS7q5EokTC7NBgRVf4yB87gCnjA",
+				"coverImage": "https://lh4.googleusercontent.com/SC6CR49-WgrnqMJ-ZNKcDTsjKRaZXZ7Axy0adTikqPE-l715PO5Sh-9plU9srADGk-LrniGnF4-Jct_5AFr7DsShzzbCR-b0-jUEu4rnjQ0aMiNkxShT64W882Da3v6h3VImVJi-GUM",
 				"summary": "2021.3.5 IORG Press Conference",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSEzqaTYk9HK_wjnP4f7QWk0DMIOlWUf-gtkq-sn5AlEVmPuDyHeXMy04VW5mjFTEz3swrLt7Zqy63l/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSEzqaTYk9HK_wjnP4f7QWk0DMIOlWUf-gtkq-sn5AlEVmPuDyHeXMy04VW5mjFTEz3swrLt7Zqy63l/pub",
+				"cache": "305_en"
 			}
 		}
 	},
@@ -102,22 +114,26 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQkmyIqFmiiaTej7TXcP21D6Veqr-HOP7ywD1AwUnkTHLmCzhE6M-mAku9eOoqSPPuqyYofbQJYxhLF/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vTPLYoFQnGAsyKfMQ52YbQsOsEP6BSXeLuxDispivzDD6mbt6qk6L9bkybAAhNl1A5VBYvM-xVG6TlE/pub"
 		},
+		"cache": true,
+		"reload": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "民主，disinformed：資訊操弄作為科學研究",
 				"subtitle": "2020.12.7 IORG 研討會",
-				"coverImage": "https://lh4.googleusercontent.com/AsvBzWDrmVjlxxo4kSlA2QTz1M540c9vsWXvbmnTLr0qJ-Fi-rz8d69ukD95c-WZABm_pD-eZPBRHycv5U_bzEPYlVNiFX0ztZqHtAL2lNHT6_ukdp-_A949oCOfHhhjew",
+				"coverImage": "https://lh3.googleusercontent.com/rY4qMsnuM7WRplRe7BFLwek0lpdDT_Ml9XeFdmPLh-LQsUi9Wv0morB_BYy5M5mWum-SqX7U_CsqN80S_8gyuf3xjtP6laBsK9R_4eQaGT04Mrox9af3nB7cZFSjTxX_gGKwPg73OVM",
 				"summary": "2020.12.7 IORG 研討會",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQkmyIqFmiiaTej7TXcP21D6Veqr-HOP7ywD1AwUnkTHLmCzhE6M-mAku9eOoqSPPuqyYofbQJYxhLF/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQkmyIqFmiiaTej7TXcP21D6Veqr-HOP7ywD1AwUnkTHLmCzhE6M-mAku9eOoqSPPuqyYofbQJYxhLF/pub",
+				"cache": "2020-1207_tw"
 			},
 			"_en": {
 				"title": "Disinformed Democracy: Information Manipulation as Scientific Studies",
 				"subtitle": "2020.12.7 IORG Research Forum",
-				"coverImage": "https://lh6.googleusercontent.com/blcgyIEPppKGwH31iMXQnIM01Nzax9xPoVU1Lz_ylmFxDfLHggdhM0F756k9Yg5u1WvfxM3kr4EL5h1KpiL-iOeLjugHR8jIVP4uOBKgSFOjpm_8WS_cQXrQipArsdOsEg",
+				"coverImage": "https://lh3.googleusercontent.com/jD9z1t0rVtnZjp4t5ZYsjCbd9_jLs0POXeJxrQ9TRUWOgWu7NkxBNA7de099-JzOkqrm9neVpEwRp4FFXBz5bokZG4T125YIN4izUiFZUVsbd-hBGat-XfTHhzhqIJMIeYAwQSQnCR0",
 				"summary": "2020.12.7 IORG Research Forum",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTPLYoFQnGAsyKfMQ52YbQsOsEP6BSXeLuxDispivzDD6mbt6qk6L9bkybAAhNl1A5VBYvM-xVG6TlE/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTPLYoFQnGAsyKfMQ52YbQsOsEP6BSXeLuxDispivzDD6mbt6qk6L9bkybAAhNl1A5VBYvM-xVG6TlE/pub",
+				"cache": "2020-1207_en"
 			}
 		}
 	},
@@ -133,22 +149,26 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTu4f9ItzxuK25LUw8NUlCjPI_8yC9IQqqMMihKN0lGdXeyn-ztvZvcYXapgi0lFI-LxGaM8CibAH8G/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vR87FvtydLc8E9U6e3agIHy3bnmbS2Rcrj9S62QHP-ey32CiJDZBoHRCfBG3ZkQUStQyHZsUfD0gsxo/pub"
 		},
+		"cache": true,
+		"reload": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "解密中國對台認知戰：資訊操弄及網絡分析",
 				"subtitle": "2020.10.20 IORG 記者會",
-				"coverImage": "https://lh4.googleusercontent.com/QCioMU5GgORyvTsZQIjVRKegzGXAJoTWi3ThRTfTtlrCsvdLJe2whksfBKaMKmwYERRBO7joIovpYxoRh6UlNoP8bIvZW-vKZrV9PBJ8xlJTx2-uMUI6NXLjW_rfTsvkTg",
+				"coverImage": "https://lh3.googleusercontent.com/_aoPB7n_FWRpxFSIKRC4XnGALz4xtYzjpBWTLblx3OeP5M02GVEuP7rW_27w7Yyj78Kwdv7SAYTgfM1moRyNgM_2yIw6ymzrW_OmUrjLQgdtpYO4YfYJlv7fSK27sYDpiFB-29LFGLE",
 				"summary": "2020.10.20 IORG 記者會",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTu4f9ItzxuK25LUw8NUlCjPI_8yC9IQqqMMihKN0lGdXeyn-ztvZvcYXapgi0lFI-LxGaM8CibAH8G/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTu4f9ItzxuK25LUw8NUlCjPI_8yC9IQqqMMihKN0lGdXeyn-ztvZvcYXapgi0lFI-LxGaM8CibAH8G/pub",
+				"cache": "2020-1020_tw"
 			},
 			"_en": {
 				"title": "Decrypt Chinese Cognitive Operations: Information Manipulation and Network Analysis",
 				"subtitle": "2020.10.20 IORG Press Conference",
-				"coverImage": "https://lh6.googleusercontent.com/F-wtYpGC4uIglGCzdWCkfVYv4G57sKhRPBxS0ZPg3Uk97rTyESkMn--d7ph3gYrOJ2hCngP0s0f-wfo50zqWXaweas-DM70ZAelMUd5IP1c0d0pxijTJEcyw23UhGoJybg",
+				"coverImage": "https://lh5.googleusercontent.com/3xF3ZlGleGLeDtt3IWQ8qmP3NAdezvbkFyqewWaiU45_sS29qpziwpIYRjcJiNgoWY19fcT5n1d3iE21XKQ-dCnZvaOuLHmcwislaVxpv3ihB76Imjjrhob-k8KiBO9_VeXM5F_mS-M",
 				"summary": "2020.10.20 IORG Press Conference",
 				"tags": [],
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR87FvtydLc8E9U6e3agIHy3bnmbS2Rcrj9S62QHP-ey32CiJDZBoHRCfBG3ZkQUStQyHZsUfD0gsxo/pub"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR87FvtydLc8E9U6e3agIHy3bnmbS2Rcrj9S62QHP-ey32CiJDZBoHRCfBG3ZkQUStQyHZsUfD0gsxo/pub",
+				"cache": "2020-1020_en"
 			}
 		}
 	}

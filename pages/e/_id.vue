@@ -1,6 +1,6 @@
 <template>
 <div class="page event">
-  <google-doc :doc="localizedDoc" :options="{ showSummary: false }" />
+  <google-doc :doc="doc" :options="{ showSummary: false }" />
 </div>
 </template>
 
@@ -22,26 +22,22 @@ export default {
       return
     }
 
-    // FIXME: this is the old way
-    const docURLs = [
-      conf.publicURLs._tw,
-      conf.publicURLs._en
-    ] // 0 = _tw; 1 = _en
-    const docs = await Promise.all(docURLs.map(url => getDoc(url, app.i18n.locale)))
-    return {
-      localizedDocs: {
-        _tw: docs[0],
-        _en: docs[1]
-      }
+    const defaultLocale = app.i18n.defaultLocale
+    const locale = app.i18n.locale
+    const localizedDoc = conf.localizedDocs[conf.localizedDocs[locale] ? locale : defaultLocale]
+    let [doc] = await Promise.all([conf.cache
+      ? import('~/data/cached-events/' + localizedDoc.cache + '.json')
+      : getDoc(conf.publicURLs[locale])
+    ])
+    if(conf.cache) {
+      doc = doc.default
     }
-  },
-  computed: {
-    localizedDoc() {
-      return this.localizedDocs[this.$i18n.locale]
+    return {
+      doc
     }
   },
   head() {
-    return generateMeta(this.localizedDoc.title)
+    return generateMeta(this.doc.title)
   }
 }
 </script>
