@@ -82,7 +82,7 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vRFyGx3gvj5vmoWpMIp5cNxFVaxvIn7A7JlZQNzl2FfuMZ52OSOIaj3y734Yp3zgZNyGxJ2-gQHstIS/pub"
 		},
 		"cache": true,
-		"reload": true,
+		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 夏日小聚",

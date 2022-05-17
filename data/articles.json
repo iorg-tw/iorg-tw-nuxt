@@ -10,7 +10,7 @@
 		"publishedAt": "2022/4/28 12:30",
 		"path": "/da/23",
 		"cache": true,
-		"reload": true,
+		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "上海疫情下的中共宣傳：讚中國「動態清零」、批西方「躺平共存」",
@@ -50,11 +50,11 @@
 		"publishedAt": "2022/3/3 12:30",
 		"path": "/r/2021",
 		"cache": true,
-		"reload": false,
+		"reload": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 2021 總體研究成果",
-				"subtitle": "2021 IORG 台灣資訊環境資訊科學研究 2021.4.1-12.31",
+				"subtitle": "2021 IORG 台灣資訊環境資料科學研究 2021.4.1-12.31",
 				"tags": [],
 				"articleID": "_R_2021",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub",
