@@ -6,6 +6,10 @@ _tw:
   eslite: "誠品"
   taaze: "讀冊"
   RiveGauche: "左岸文化"
+  events: "近期活動"
+  practice: "訊息可信度評量練習題"
+  notes: "註釋"
+  addendum: "補充資訊"
 _en:
   bookTitle: "A Guide to Information Literacy"
   bookSubtitle: "Exploration and Survival in Taiwan’s Information Environment"
@@ -13,6 +17,10 @@ _en:
   eslite: "Eslite"
   taaze: "Taaze"
   RiveGauche: "Rive Gauche Publishing"
+  events: "Events"
+  practice: "Practice"
+  notes: "Notes"
+  addendum: "Addendum"
 </i18n>
 
 <template>
@@ -31,18 +39,10 @@ _en:
     </div>
   </div>
   <div class="container">
-    <div class="panel tiled filled">
-      近期活動
-    </div>
-    <div class="panel tiled filled">
-      訊息可信度評量練習題
-    </div>
-    <div class="panel tiled filled">
-      註釋
-    </div>
-    <div class="panel tiled filled">
-      補充資訊
-    </div>
+    <div class="panel tiled filled">{{ $t('events') }}</div>
+    <div class="panel tiled filled">{{ $t('practice')}}</div>
+    <div class="panel tiled filled">{{ $t('notes') }}</div>
+    <div class="panel tiled filled">{{ $t('addendum') }}</div>
   </div>
 </div>
 </template>
