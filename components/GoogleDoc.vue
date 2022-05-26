@@ -140,6 +140,7 @@ export default {
     a.da {
       border-bottom-width: 1px;
       font-size: 0.625rem;
+      font-weight: normal;
       line-height: 0.75rem;
       vertical-align: baseline;
       color: var(--iorg-neutral);
