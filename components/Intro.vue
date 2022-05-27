@@ -43,7 +43,7 @@ export default {
   > .content {
     max-width: 44rem;
     > .tagline {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
     > .about {
       margin: 1rem 0;
