@@ -504,6 +504,8 @@ export default {
         }
       }
       td {
+        &.col-url,
+        &.col-small,
         &.url,
         &.small {
           font-size: 0.75rem;
