@@ -30,7 +30,7 @@ _en:
     <a class="button action primary" href="https://www.eslite.com/product/1001141162682168849004" target="_blank">{{ $t('eslite') }}</a>
     <a class="button action primary" href="https://www.taaze.tw/products/11100982245.html" target="_blank">{{ $t('taaze') }}</a>
   </div>
-  <img class="book" :src="bookImage" :alt="$t('bookTitle') + PUNCT.COLON + $t('bookSubtitle') "/>
+  <img class="book" :src="bookImage" :alt="$t('bookTitle') + PUNCT.COLON + $t('bookSubtitle') " />
   <div class="container">
     <div class="panel tiled xlarge description">
       <h1>{{ $t('bookTitle') }}</h1>
@@ -40,7 +40,7 @@ _en:
   </div>
   <div class="container">
     <div class="panel tiled filled">{{ $t('events') }}</div>
-    <div class="panel tiled filled">{{ $t('practice')}}</div>
+    <div class="panel tiled filled">{{ $t('practice') }}</div>
     <div class="panel tiled filled">{{ $t('notes') }}</div>
     <div class="panel tiled filled">{{ $t('addendum') }}</div>
   </div>
