@@ -11,11 +11,10 @@
 		"updatedAt": "2022/1/19 17:00",
 		"path": "/about",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "關於 IORG",
-				"summary": "IORG 是以科學研究、在地連結，強化台灣公民社會資訊判讀力，反制極權擴張的台灣民間跨領域研究團隊，於 2019 年由新聞媒體工作者、社會科學家、資料科學家、社會運動者組成。",
+				"summary": "IORG 是以開放資料、科學研究、判讀教育、在地連結，強化台灣資訊環境，反制威權擴張的台灣民間跨領域研究組織，於 2019 年由新聞媒體工作者、社會科學家、資料工程師、社會運動者組成。",
 				"tags": [],
 				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
@@ -26,7 +25,7 @@
 			},
 			"_en": {
 				"title": "About IORG",
-				"summary": "IORG is a civilian research organization working to strengthen information literacy and counter authoritarian expansion with scientific research and grassroots organization. IORG was formed in 2019 in Taiwan by media workers, social scientists, data scientists, and community activists.",
+				"summary": "IORG is a multidisciplinary civilian research organization. We are media professionals, social scientists, data engineers, and community activists in Taiwan. We work to safeguard Taiwan’s information environment against authoritarian expansion with open data, scientific research, literacy education, and grassroots organization.",
 				"tags": [],
 				"articleID": "about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
@@ -47,7 +46,6 @@
 		"publishedAt": "2022/3/3 12:30",
 		"path": "/r/2021",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 2021 總體研究成果",
@@ -71,7 +69,6 @@
 		"publishedAt": "2022/5/27 18:30",
 		"path": "/da/24",
 		"cache": true,
-		"reload": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「很多孩子走了！」Facebook 粉專群聚發文、留言內容農場連結",
@@ -99,7 +96,6 @@
 		"publishedAt": "2022/4/28 12:30",
 		"path": "/da/23",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "上海疫情下的中共宣傳：讚中國「動態清零」、批西方「躺平共存」",
@@ -140,7 +136,6 @@
 		"publishedAt": "2022/3/9 12:30",
 		"path": "/da/22",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "烏克蘭教台灣的事：開戰時刻，我們該提防的資訊操弄",
@@ -181,7 +176,6 @@
 		"publishedAt": "2022/3/3 12:30",
 		"path": "/da/21",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "俄烏戰爭下的資訊操弄：批烏、批美、挺俄、棄台",
@@ -222,7 +216,6 @@
 		"updatedAt": "2021/10/1 12:00",
 		"path": "/open/rm",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 研究方法",
@@ -248,7 +241,6 @@
 		"publishedAt": "2021/7/24 12:00",
 		"updatedAt": "2021/9/10 8:30",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "心慌列表",
@@ -273,7 +265,6 @@
 		"publishedAt": "2022/1/18 12:00",
 		"path": "/da/20",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "公投前後數據分析：中共強化同溫層，大多引用旺中、聯合",
@@ -314,7 +305,6 @@
 		"publishedAt": "2022/1/13 12:00",
 		"path": "/da/19",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "公投前後資訊操弄：2020 後每逢投票，就有「做票」訊息",
@@ -355,7 +345,6 @@
 		"publishedAt": "2021/12/16 12:00",
 		"path": "/da/18",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共看台灣公投：批民進黨網軍、濫權，助國民黨公投宣傳，每 4 則就有 1 則引用旺中",
@@ -396,7 +385,6 @@
 		"publishedAt": "2021/12/9 12:00",
 		"path": "/da/17",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "公投數據分析：民進黨口號熱度高於國民黨",
@@ -437,7 +425,6 @@
 		"publishedAt": "2021/12/2 12:00",
 		"path": "/da/16",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "公投專題：中共最關心萊豬，用反萊豬引導反美",
@@ -478,7 +465,6 @@
 		"publishedAt": "2021/10/28 12:00",
 		"path": "/da/15",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣加入 CPTPP 的認知障礙賽：怠惰、倉促、核食、一中",
@@ -519,7 +505,6 @@
 		"publishedAt": "2021/10/21 12:00",
 		"path": "/da/14",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "國民黨主席選舉怪象：挺韓粉專盜圖扮美女，衝高張亞中傳播熱度",
@@ -560,7 +545,6 @@
 		"publishedAt": "2021/10/7 13:00",
 		"path": "/da/13",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "跑跑資料：疫苗傳播熱度、內容來源分析",
@@ -600,7 +584,6 @@
 		"publishedAt": "2021/10/8 12:00",
 		"updatedAt": "2021/12/24 14:35",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 發論文！2020 上半年 COVID-19 謠言分群及案例分析",
@@ -629,7 +612,6 @@
 		"publishedAt": "2021/9/30 12:00",
 		"path": "/da/12",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共對台疫苗論述分工：官方宣傳、官媒操弄",
@@ -670,7 +652,6 @@
 		"publishedAt": "2021/9/16 12:00",
 		"path": "/da/11",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "8 月阿富汗出大事：台灣民間發起、中共官媒接棒，另類「官民」協力傳播「疑美論」",
@@ -711,7 +692,6 @@
 		},
 		"publishedAt": "2021/8/30 13:00",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "68 場資訊判讀工作坊：更有力的在地連結，更堅強的民主防衛",
@@ -757,7 +737,6 @@
 		"updatedAt": "2021/9/10 8:30",
 		"path": "/da/10",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共官媒以網友留言代表台灣，評論美台軍售：「要疫苗不要武器」",
@@ -801,7 +780,6 @@
 		"updatedAt": "2021/9/10 8:30",
 		"path": "/da/9",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共東奧政治宣傳：「中国台北」取代「中華台北」、製造日本負面形象",
@@ -844,7 +822,6 @@
 		"publishedAt": "2021/7/29 12:00",
 		"path": "/da/8",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「病毒美國製」又來了！親中人士假借歐巴馬名義傳謠言",
@@ -885,7 +862,6 @@
 		"publishedAt": "2021/7/22 12:00",
 		"path": "/da/7",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "打疫苗前不要看！13 個「不要打疫苗」的可疑理由",
@@ -926,7 +902,6 @@
 		"publishedAt": "2021/7/15 17:30",
 		"path": "/da/6",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "韓國「微解封」：錯誤訊息「疫苗第一劑打的差不多」的 21 個版本，如病毒變異",
@@ -967,7 +942,6 @@
 		"publishedAt": "2021/7/8 12:00",
 		"path": "/da/5",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中天變造美商務部長發言：250 萬莫德納疫苗功勞歸台積電",
@@ -1009,7 +983,6 @@
 		"updatedAt": "2021/7/4 7:30",
 		"path": "/da/4",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共嗆台「亂港謀獨」，Delta 襲來，疫苗、篩檢爭議持續",
@@ -1052,7 +1025,6 @@
 		"publishedAt": "2021/6/24 13:00",
 		"path": "/da/3",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "警告：「打疫苗猝死」碰上「疫苗是生化武器」陰謀論，可能擴大社會恐慌",
@@ -1093,7 +1065,6 @@
 		"publishedAt": "2021/6/17 16:00",
 		"path": "/da/2",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "6 月上半疫情燒，中共宣傳新口號：台灣人到中國打疫苗",
@@ -1134,7 +1105,6 @@
 		"publishedAt": "2021/6/10 12:00",
 		"path": "/da/1",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "5 月疫情風暴，疫苗成為中共資訊操弄及外交武器",
@@ -1176,7 +1146,6 @@
 		"updatedAt": "2021/5/13 8:00",
 		"path": "/r/2020",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 中國對台影響力作戰研究總體研究成果",
@@ -1213,7 +1182,6 @@
 		"publishedAt": "",
 		"path": "/r/a",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "影響力網絡",
@@ -1243,7 +1211,6 @@
 		"updatedAt": "2021/5/13 8:00",
 		"path": "/r/b",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B 中國對台資訊操弄",
@@ -1280,7 +1247,6 @@
 		"updatedAt": "2021/4/8 18:00",
 		"path": "/r/r1",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "R.1 關於美國、來自微博",
@@ -1306,7 +1272,6 @@
 		"updatedAt": "2021/3/1 18:00",
 		"path": "/r/b1",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.1 關西機場",
@@ -1331,7 +1296,6 @@
 		"updatedAt": "2021/4/22 10:00",
 		"path": "/r/b2",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.2 陳菊貪污",
@@ -1356,7 +1320,6 @@
 		"updatedAt": "2021/4/22 10:00",
 		"path": "/r/b3",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.3 美國流感比武漢肺炎更致命",
@@ -1380,7 +1343,6 @@
 		"publishedAt": "2021/2/28 20:00",
 		"path": "/r/b4",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.4 美國以武漢軍人運動會散播病毒",
@@ -1403,7 +1365,6 @@
 		"publishedAt": "2021/2/28 20:00",
 		"path": "/r/b5",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.5 美國流感就是武漢肺炎",
@@ -1426,7 +1387,6 @@
 		"publishedAt": "2021/2/28 20:00",
 		"path": "/r/b6",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.6 光復美國",
@@ -1449,7 +1409,6 @@
 		"publishedAt": "2021/2/28 20:00",
 		"path": "/r/b7",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "B.7 中選會做票",
@@ -1474,7 +1433,6 @@
 		"updatedAt": "2021/5/13 8:00",
 		"path": "/r/d",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D 中國對台人際滲透",
@@ -1510,7 +1468,6 @@
 		"publishedAt": "2021/3/2 20:00",
 		"path": "/r/d1",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.1 青年",
@@ -1533,7 +1490,6 @@
 		"publishedAt": "2021/3/2 20:00",
 		"path": "/r/d2",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.2 民間信仰",
@@ -1556,7 +1512,6 @@
 		"publishedAt": "2021/3/2 20:00",
 		"path": "/r/d3",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.3 村里長",
@@ -1579,7 +1534,6 @@
 		"publishedAt": "2021/3/2 20:00",
 		"path": "/r/d4",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "D.4 台幹",
@@ -1602,7 +1556,6 @@
 		"publishedAt": "2021/3/4 12:00",
 		"path": "/r/e",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "E 中國對台經濟影響力作戰",
@@ -1626,7 +1579,6 @@
 		"publishedAt": "2020/10/20 18:00",
 		"updatedAt": "2022/3/3 0:30",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "鳴謝",
@@ -1661,7 +1613,6 @@
 		"updatedAt": "2021/9/10 8:30",
 		"path": "/open/roadmap",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 2020-2023 4 年計畫",
@@ -1685,7 +1636,6 @@
 		"updatedAt": "2021/4/18 19:00",
 		"path": "/open/glossary",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "詞彙定義",
@@ -1711,7 +1661,6 @@
 		"updatedAt": "2021/7/22 21:00",
 		"path": "/open",
 		"cache": true,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放 IORG",
@@ -1746,7 +1695,6 @@
 		},
 		"publishedAt": "2021/5/18 12:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "糖衣炮彈 incoming！CIPE 研究：極權國家「腐蝕性資本」破壞民主",
@@ -1775,7 +1723,6 @@
 		},
 		"publishedAt": "2021/4/8 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "Why 抄微博？以資料科學初探 Facebook 粉專經營",
@@ -1802,7 +1749,6 @@
 		},
 		"publishedAt": "2021/4/7 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "消除長者資訊焦慮，「Cofacts 真的假的」下一步：擴大線下巡迴宣導",
@@ -1833,7 +1779,6 @@
 		},
 		"publishedAt": "2021/4/7 9:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中國特色 4 ni？新疆棉風暴中的資訊操弄",
@@ -1860,7 +1805,6 @@
 		},
 		"publishedAt": "2021/3/17 12:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "從根本抵禦資訊操弄，學者陳至潔：執政者須彌平社會裂痕",
@@ -1890,7 +1834,6 @@
 		},
 		"publishedAt": "2021/3/17 12:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊戰型態加速進化，民主基金會副執行長陳婉宜：假訊息越趨「精緻化」",
@@ -1919,7 +1862,6 @@
 		},
 		"publishedAt": "2021/3/17 12:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "漫天假訊息流竄，監委葉大華：媒體識讀培育需持續進行",
@@ -1949,7 +1891,6 @@
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "學者林宗弘：國際間資訊攻擊，都從威權政體投向民主政體",
@@ -1978,7 +1919,6 @@
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "佛系應對！對抗資訊戰，立委鄭運鵬：無招勝有招",
@@ -2006,7 +1946,6 @@
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "如何辨別「中共傳聲筒」？林楚茵：需成立專責部會統合規範",
@@ -2034,7 +1973,6 @@
 		},
 		"publishedAt": "2021/1/26 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "王定宇：新型態「混合型戰爭」，錯假資訊已成武器",
@@ -2062,7 +2000,6 @@
 		},
 		"publishedAt": "2021/1/19 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊超限戰全球警戒，政委羅秉成：假訊息防制需成全民運動",
@@ -2090,7 +2027,6 @@
 		},
 		"publishedAt": "2021/1/15 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "誰抵抗力最弱？學者王泰俐研究：年輕人、女性、中間選民易受不實訊息影響",
@@ -2118,7 +2054,6 @@
 		},
 		"publishedAt": "2021/1/15 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "提告造謠人士卻慘遭法院認證！蔡易餘無奈：台灣太輕忽資訊操弄影響",
@@ -2146,7 +2081,6 @@
 		},
 		"publishedAt": "2021/1/12 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "電視媒體信任度仍最高！媒觀執行長滕西華：情感影響大過理性判斷",
@@ -2175,7 +2109,6 @@
 		},
 		"publishedAt": "2021/1/12 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「在地協力者」易成資訊操弄幫凶，王婉諭：嚴格審查是必要的",
@@ -2205,7 +2138,6 @@
 		"publishedAt": "2021/1/6 18:00",
 		"updatedAt": "2021/3/17 13:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊戰來勢洶洶！政大學者黃兆年拆解「來源、傳播、接收」3 面向策略",
@@ -2252,7 +2184,6 @@
 		"publishedAt": "2021/1/6 18:00",
 		"updatedAt": "2021/6/15 12:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "林昶佐：對獨裁國家來說，民主自由社會到處都是漏洞",
@@ -2299,7 +2230,6 @@
 		"publishedAt": "2021/1/4 18:00",
 		"updatedAt": "2021/2/10 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "揪出躲在暗處的敵人，林飛帆：建立訊息「產地標示」是當務之急",
@@ -2344,7 +2274,6 @@
 		},
 		"publishedAt": "2020/12/29 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣「久病成良醫」？何志偉：資訊操弄影響範圍會慢慢收斂",
@@ -2372,7 +2301,6 @@
 		},
 		"publishedAt": "2020/12/29 12:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "防資訊操弄內憂外患，陳亭妃：應成立中央專責單位",
@@ -2401,7 +2329,6 @@
 		},
 		"publishedAt": "2020/12/23 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放資料、公民參與、國際連結對抗資訊操弄，歐美學者肯定台灣經驗",
@@ -2446,7 +2373,6 @@
 		},
 		"publishedAt": "2020/12/15 19:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄影響公民社會，立委邱顯智：會造成寒蟬效應",
@@ -2474,7 +2400,6 @@
 		},
 		"publishedAt": "2020/12/15 19:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊管制、言論自由，高虹安：需在天秤兩端取平衡",
@@ -2502,7 +2427,6 @@
 		},
 		"publishedAt": "2020/12/7 19:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄",
@@ -2530,7 +2454,6 @@
 		},
 		"publishedAt": "2020/12/7 19:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "立委吳思瑤：每天開門就要應付資訊操弄，對政府是一種內耗",
@@ -2558,7 +2481,6 @@
 		},
 		"publishedAt": "2020/11/20 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "立委陳玉珍：夾到手為什麼要送醫院？解決資訊操弄端看執政者意願",
@@ -2586,7 +2508,6 @@
 		},
 		"publishedAt": "2020/11/6 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「資訊操弄」怎麼防治？唐鳳：小學生、中學生都能加入",
@@ -2615,7 +2536,6 @@
 		},
 		"publishedAt": "2020/11/5 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "俄國干預美國大選的好幫手：在地協力者",
@@ -2645,7 +2565,6 @@
 		},
 		"publishedAt": "2020/10/29 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中國銳實力入侵：資訊操弄「說壞」台灣民主",
@@ -2672,7 +2591,6 @@
 		},
 		"publishedAt": "2020/10/23 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "對抗資訊操弄＝防疫！苗博雅：專責、宣導缺一不可",
@@ -2700,7 +2618,6 @@
 		},
 		"publishedAt": "2020/10/21 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "一個支持拜登、一個支持川普？中俄「介入」美國選舉方式大不同",
@@ -2730,7 +2647,6 @@
 		},
 		"publishedAt": "2020/10/21 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「陳菊貪污」連調查局也看不下去？",
@@ -2759,7 +2675,6 @@
 		},
 		"publishedAt": "2020/9/29 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄無國界！范雲：修法、NCC、教育「三管齊下」",
@@ -2787,7 +2702,6 @@
 		},
 		"publishedAt": "2020/9/25 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「統戰團」超多！立委賴品妤：從民代下手",
@@ -2815,7 +2729,6 @@
 		},
 		"publishedAt": "2020/9/24 20:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "怎麼和老大人談資訊操弄？銀髮族溝通 3 訣竅與你分享",
@@ -2844,7 +2757,6 @@
 		},
 		"publishedAt": "2020/9/18 18:30",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "海峽論壇網絡分析：朱立倫、侯友宜參加過，慈濟、鎮瀾宮、旺中都是主辦單位",
@@ -2875,7 +2787,6 @@
 		},
 		"publishedAt": "2020/9/17 18:30",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "中共網軍「戰略支援部隊」的前身：促使 Google 退出中國",
@@ -2905,7 +2816,6 @@
 		},
 		"publishedAt": "2020/9/16 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "呱吉：「好人要更強」是對抗資訊操弄的第一步",
@@ -2933,7 +2843,6 @@
 		},
 		"publishedAt": "2020/9/2 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "美國智庫 IFTF 最新報告：中國網軍操弄選舉及疫情假訊息",
@@ -2966,7 +2875,6 @@
 		},
 		"publishedAt": "2020/8/29 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄引爆社會不信任，立委洪申翰：須先凝聚共識",
@@ -2994,7 +2902,6 @@
 		},
 		"publishedAt": "2020/8/21 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「光復美國」帶風向，中國共青團藉佛洛伊德事件煽動反美情緒",
@@ -3023,7 +2930,6 @@
 		},
 		"publishedAt": "2020/8/13 19:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣百萬青少年都在用的抖音，成為資訊操弄新戰場",
@@ -3052,7 +2958,6 @@
 		},
 		"publishedAt": "2020/8/6 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "你知道中國媒體「姓黨」嗎？",
@@ -3080,7 +2985,6 @@
 		},
 		"publishedAt": "2020/7/30 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "5 萬名史密斯夫婦：中國配偶在 Facebook 社團裡的「大內宣」",
@@ -3109,7 +3013,6 @@
 		},
 		"publishedAt": "2020/7/23 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "監院報告被加工，高雄市長補選再傳選舉假訊息？",
@@ -3136,7 +3039,6 @@
 		},
 		"publishedAt": "2020/7/16 19:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "名嘴未經查證帶風向實例：唐湘龍助長「港人割地訴求」假訊息擴散",
@@ -3165,7 +3067,6 @@
 		"publishedAt": "2020/7/3 18:00",
 		"updatedAt": "2020/7/9 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣疫情越嚴重，LINE 群組親中不實訊息越氾濫",
@@ -3197,7 +3098,6 @@
 		"publishedAt": "2020/7/3 18:00",
 		"updatedAt": "2020/7/3 18:00",
 		"cache": false,
-		"reload": false,
 		"localizedDocs": {
 			"_tw": {
 				"title": "媒體滲透威脅下，捷克對中立場漸趨強硬",

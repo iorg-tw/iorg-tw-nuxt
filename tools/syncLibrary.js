@@ -109,10 +109,12 @@ async function getArticles(rows) {
   // get article metadata
   for(let i = 0; i < rows.length; i++) {
     const row = rows[i]
-    if(!row.reload) {
+    const reload = row.reload
+    delete row.reload
+    if(!reload) {
       console.info(row.id)
       Object.assign(row, oldArticles[row.id])
-      row.reload = false
+      delete row.reload
       continue
     }
 
@@ -183,10 +185,12 @@ async function getEvents(rows) {
 
   for(let i = 0; i < confs.length; i++) {
     const conf = confs[i]
-    if(!conf.reload) {
+    const reload = conf.reload
+    delete conf.reload
+    if(!reload) {
       console.info(conf.id)
       Object.assign(conf, oldConfs[conf.id])
-      conf.reload = false
+      delete conf.reload
       continue
     }
 
