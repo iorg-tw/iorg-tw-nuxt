@@ -10,6 +10,7 @@ _tw:
   practice: "訊息可信度評量練習題"
   notes: "註釋"
   addendum: "補充資訊"
+  more: "更多資訊"
 _en:
   bookTitle: "A Guide to Information Literacy"
   bookSubtitle: "Exploration and Survival in Taiwan’s Information Environment"
@@ -21,6 +22,7 @@ _en:
   practice: "Practice"
   notes: "Notes"
   addendum: "Addendum"
+  more: "More"
 </i18n>
 
 <template>
@@ -38,8 +40,14 @@ _en:
       <h4>IORG {{ PUNCT.MULTIPLY }} {{ $t('RiveGauche') }} </h4>
     </div>
   </div>
-  <div class="container">
-    <div class="panel tiled filled">{{ $t('events') }}</div>
+  <div class="section-header first">
+    <p class="section-title-fancy">{{ $t('events') }}</p>
+  </div>
+  <event-list type="conf" series="book" :sort="1" />
+  <div class="section-header first">
+    <p class="section-title-fancy">{{ $t('more') }}</p>
+  </div>
+  <div class="extra container">
     <div class="panel tiled filled">{{ $t('practice') }}</div>
     <div class="panel tiled filled">{{ $t('notes') }}</div>
     <div class="panel tiled filled">{{ $t('addendum') }}</div>
@@ -52,8 +60,12 @@ import { PUNCT } from '~/lib/const'
 import { generateMeta } from '~/lib/meta'
 import coverBook from '~/static/images/cover-book.png'
 import bookImage from '~/static/images/book.png'
+import EventList from '~/components/EventList'
 
 export default {
+  components: {
+    EventList
+  },
   data() {
     return {
       bookImage,
@@ -92,7 +104,7 @@ export default {
 
     }
   }
-  > .container {
+  > .extra.container {
     > .panel {
       padding: 1rem;
     }

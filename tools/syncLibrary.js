@@ -151,45 +151,89 @@ async function getArticles(rows) {
 }
 
 async function getEvents(rows) {
-  const workshops = rows.filter(row => row.type === 'workshop' && row.area && row.name && row.date).map(row => ({
-    show: row.show ? true : false,
-    area: row.area.trim(),
-    name: row.name.trim(),
-    loc: row.loc ? row.loc.trim() : null,
-    slogan: row.slogan ? row.slogan.trim(): null,
-    year: +row.year,
-    date: row.date,
-    dow: row.dow,
-    time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : row.time
-  }))
-  fs.writeFileSync('data/workshops.json', JSON.stringify(workshops, null, '\t'))
+  const oldEvents = JSON.parse(fs.readFileSync('data/events.json', 'utf8'))
 
-  const confs = rows.filter(row => row.type === 'conf' && row.id && row.publicURL_tw).map(row => ({
+  const workshops = rows.filter(row => row.type === 'workshop' && row.id && row.area && row.title_tw && row.date).map(row => ({
     show: row.show ? true : false,
+    type: 'workshop',
     id: row.id,
     area: row.area.trim(),
+    hasPage: false,
+    localizedDocs: { // FIXME: localize
+      _tw: {
+        title: row.title_tw.trim(),
+        loc: row.loc_tw ? row.loc_tw.trim() : null,
+        slogan: row.slogan_tw ? row.slogan_tw.trim(): null,
+      }
+    },
     year: +row.year,
     date: row.date,
     dow: row.dow,
-    time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : row.time,
-    publicURLs: {
-      _tw: row.publicURL_tw,
-      ...(ok(row.publicURL_en) ? { _en: row.publicURL_en } : {})
-    },
-    cache: row.cache ? true : false,
-    reload: row.reload ? true : false,
-    localizedDocs: {}
+    time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') + (row.tz ? ` ${row.tz}` : '') : null,
+    ...(row.time_alt ? { time_alt: row.time_alt } : {})
   }))
 
-  const oldConfs = JSON.parse(fs.readFileSync('data/confs.json', 'utf8'))
+  const confs = rows.filter(row => row.type === 'conf' && row.id).map(row => {
+    const conf = { // default
+      show: row.show ? true : false,
+      type: 'conf',
+      ...(row.series ? { series: row.series } : {}),
+      id: row.id,
+      area: row.area.trim(),
+      year: +row.year,
+      date: row.date,
+      time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') + (row.tz ? ` ${row.tz}` : '') : null,
+      ...(row.time_alt ? { time_alt: row.time_alt } : {}),
+      cache: row.cache ? true : false,
+      reload: row.reload ? true : false
+    }
+    if(row.publicURL_tw) { // has page
+      return Object.assign(conf, {
+        hasPage: true,
+        publicURLs: {
+          _tw: row.publicURL_tw,
+          ...(ok(row.publicURL_en) ? { _en: row.publicURL_en } : {})
+        },
+        localizedDocs: {}
+      })
+    } else if(row.title_tw) { // does not have page
+      const locales = ['_tw', '_en']
+      const localizedDocs = {}
+      for(const locale of locales) {
+        if(row['title' + locale]) {
+          localizedDocs[locale] = {
+            title: row['title' + locale],
+            ...(row['loc' + locale] ? { loc: row['loc' + locale] } : {}),
+            ...(row['slogan' + locale] ? { slogan: row['slogan' + locale] } : {}),
+          }
+        }
+      }
+      return Object.assign(conf, {
+        hasPage: false,
+        localizedDocs
+      })
+    } else {
+      return null
+    }
+  }).filter(row => row !== null)
 
   for(let i = 0; i < confs.length; i++) {
     const conf = confs[i]
     const reload = conf.reload
-    delete conf.reload
     if(!reload) {
       console.info(conf.id)
-      Object.assign(conf, oldConfs[conf.id])
+      const oldConf = oldEvents[conf.id]
+      if(conf.hasPage) {
+        Object.assign(conf, oldConf)
+        if(oldConf.hasOwnProperty('publicURLs')) {
+          conf.publicURLs = Object.assign({}, oldConf.publicURLs)
+        }
+        if(oldConf.hasOwnProperty('localizedDocs')) {
+          for(const locale in oldConf.localizedDocs) {
+            conf.localizedDocs[locale] = oldConf.localizedDocs[locale]
+          }
+        }
+      }
       delete conf.reload
       continue
     }
@@ -218,10 +262,11 @@ async function getEvents(rows) {
       delete doc.html
       conf.localizedDocs[locale] = doc
     })
+
+    delete conf.reload
   }
-  const confMap = Object.assign({}, ...confs.map(conf => ({ [conf.id]: conf })))
-  fs.writeFileSync('data/confs.json', JSON.stringify(confMap, null, '\t'))
-  // FIXME: this preserves order (js sort numeric keys) but make /e/_id slower
+  const eventMap = Object.assign({}, ...confs.map(conf => ({ [conf.id]: conf })), ...workshops.map(workshop => ({ [workshop.id]: workshop })))
+  fs.writeFileSync('data/events.json', JSON.stringify(eventMap, null, '\t'))
 }
 
 async function get() {
