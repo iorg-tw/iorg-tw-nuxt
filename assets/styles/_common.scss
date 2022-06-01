@@ -53,6 +53,14 @@ a {
   }
   &.button {
     display: inline-block;
+    & {
+      color: var(--iorg-text);
+      font-size: 1rem;
+      line-height: 1;
+      padding: 0.625rem 1rem;
+      border: 0.125rem solid currentColor;
+      border-radius: 1.25rem;
+    }
     &.primary {
       background-color: var(--iorg-text);
       color: var(--iorg-paper);
@@ -60,14 +68,6 @@ a {
       line-height: 1;
       padding: 0.75rem 1rem;
       border: none;
-      border-radius: 1.25rem;
-    }
-    &.secondary {
-      color: var(--iorg-text);
-      font-size: 1rem;
-      line-height: 1;
-      padding: 0.625rem 1rem;
-      border: 0.125rem solid currentColor;
       border-radius: 1.25rem;
     }
     &.small {
