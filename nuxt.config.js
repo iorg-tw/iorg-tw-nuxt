@@ -63,6 +63,10 @@ export default {
     ],
     defaultLocale: '_tw',
     strategy: 'prefix_except_default',
-    vueI18nLoader: true
+    vueI18nLoader: true,
+    vueI18n: {
+      silentTranslationWarn: true,
+      silentFallbackWarn: true
+    }
   }
 }
