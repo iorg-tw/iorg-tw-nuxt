@@ -42,7 +42,7 @@ const baseURL = 'https://raw.githubusercontent.com/iorg-tw/archive/master/files/
 export default {
   asyncData({ params, error }) {
     const ioid = params.id
-    const entry = archive.[ioid]
+    const entry = archive[ioid]
     if(!entry) {
       error({ statusCode: 404, message: 'fileNotFound' })
       return
