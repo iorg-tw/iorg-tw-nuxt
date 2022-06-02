@@ -78,12 +78,6 @@ export default {
       return this.shouldSetOption('enableToggle') ? this.options.enableToggle : false
     }
   },
-  methods: {
-    optimizeTracking,
-    shouldSetOption(k) {
-      return this.options && Object.prototype.hasOwnProperty.call(this.options, k)
-    }
-  },
   mounted() {
     const handles = document.querySelectorAll('.gdoc-post > .handle')
     handles.forEach(function(el) {
@@ -91,6 +85,12 @@ export default {
         e.target.parentNode.classList.toggle('expanded')
       })
     })
+  },
+  methods: {
+    optimizeTracking,
+    shouldSetOption(k) {
+      return this.options && Object.prototype.hasOwnProperty.call(this.options, k)
+    }
   }
 }
 </script>
