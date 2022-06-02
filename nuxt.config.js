@@ -47,26 +47,14 @@ export default {
   i18n: {
     lazy: true,
     langDir: '~/locales/',
-    locales: [
-      {
-        code: '_en',
-        iso: 'en-US',
-        name: 'En',
-        file: 'en.json'
-      },
-      {
-        code: '_tw',
-        iso: 'zh-Hant-TW',
-        name: '台',
-        file: 'tw.json'
-      }
-    ],
-    defaultLocale: '_tw',
+    locales: config.locales,
+    defaultLocale: config.defaultLocale,
     strategy: 'prefix_except_default',
     vueI18nLoader: true,
     vueI18n: {
       silentTranslationWarn: true,
-      silentFallbackWarn: true
+      silentFallbackWarn: true,
+      fallbackLocale: config.localeFallbackMap
     }
   }
 }

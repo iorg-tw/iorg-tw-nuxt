@@ -16,7 +16,7 @@ _en:
 <template>
 <div class="navbar">
   <nuxt-link class="go-home block" :to="localePath('/')">
-    <img src="/images/logo-2022.png" width="64" />
+    <img src="/images/logo-2022.png" />
   </nuxt-link>
   <div class="menu main-menu">
     <nuxt-link :to="localePath('/book')" class="item block"><span class="emoji">📙</span><span class="text">{{ $t('book') }}</span></nuxt-link>
@@ -26,7 +26,7 @@ _en:
     <nuxt-link :to="localePath('/e')" class="item block"><span class="emoji kerning-right-4">📍</span><span class="text">{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
-    <nuxt-link v-for="locale of availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="item block minimal"><img src="/images/locales-tw-en.png" width="64"></nuxt-link><!-- FIXME: assumes only two langs TW & EN -->
+    <nuxt-link v-for="locale of availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="item block minimal"><img :src="`/images/locale${locale.code}.png`" /></nuxt-link>
   </div>
 </div>
 </template>
@@ -45,7 +45,7 @@ export default {
 @import '~assets/styles/resources';
 
 .navbar {
-  $size: 64px;
+  $size: 54px;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -53,6 +53,10 @@ export default {
     flex-grow: 0;
     flex-shrink: 0;
     width: $size;
+    > img {
+      width: $size;
+      height: $size;
+    }
   }
   > .menu {
     display: flex;
@@ -70,14 +74,12 @@ export default {
         width: 2.75rem;
         padding: 0 0.125rem;
         text-align: center;
-        > span {
-          line-height: $line-height-tight;
-        }
         > .emoji {
           display: inline-block;
           font-size: 1.5rem;
-          padding: 0.25rem;
+          padding-right: 0.25rem;
           border-bottom: none;
+          line-height: $size;
         }
         > .text {
           display: none;
@@ -86,11 +88,8 @@ export default {
       @media (min-width: 640px) { // add text label
         width: auto;
         min-width: 2.5rem;
-        padding-right: 0.375rem;
-        text-align: auto;
-        > .text {
-          display: inline-block;
-        }
+        padding: 0 0.375rem;
+        text-align: left;
         > .emoji {
           &.kerning-right-2 {
             margin-right: -0.125rem;
@@ -99,18 +98,32 @@ export default {
             margin-right: -0.25rem;
           }
         }
+        > .text {
+          display: inline-block;
+          transform: translateY(-0.25rem);
+          line-height: $line-height-tight;
+        }
       }
     }
   }
   > .langs {
-    margin-left: auto;
-    padding: 0.5rem 0.5rem 0 0;
+    $size: 2.5rem;
+    $offset: 0.5rem;
+    $gap: 0.25rem;
+    position: absolute;
+    top: $offset;
+    right: $offset;
+    padding: 0;
     > .item {
+      margin-left: $gap;
       padding: 0;
-      line-height: $size * 0.625;
       background-color: var(--iorg-accent);
-      border-radius: $size * 0.625 / 2;
+      border-radius: $size;
       @include shadow;
+      > img {
+        width: $size;
+        height: $size;
+      }
     }
   }
 }

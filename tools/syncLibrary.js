@@ -51,20 +51,23 @@ async function getTree(rows) {
   }))
   const locale_tw = Object.assign({}, ...rows.filter(row => row.id && row._tw).map(row => ({ [row.id]: row._tw })))
   const locale_en = Object.assign({}, ...rows.filter(row => row.id && row._en).map(row => ({ [row.id]: row._en })))
+  const locale_ua = Object.assign({}, ...rows.filter(row => row.id && row._ua).map(row => ({ [row.id]: row._ua })))
 
   fs.writeFileSync('data/tree.json', JSON.stringify(tree, null, '\t'))
   fs.writeFileSync('locales/tw.json', JSON.stringify(locale_tw, null, '\t'))
   fs.writeFileSync('locales/en.json', JSON.stringify(locale_en, null, '\t'))
+  fs.writeFileSync('locales/ua.json', JSON.stringify(locale_ua, null, '\t'))
 }
 
 async function getArticles(rows) {
-  rows = rows.filter(row => row.id && row.publicURL_tw).map(row => ({
+  rows = rows.filter(row => row.id && [row.publicURL_tw, row.publicURL_en].some(url => url !== undefined)).map(row => ({
     show: row.show ? true : false,
     type: row.type,
     id: row.id,
     publicURLs: {
       _tw: row.publicURL_tw,
-      ...(ok(row.publicURL_en) ? { _en: row.publicURL_en } : {})
+      ...(ok(row.publicURL_en) ? { _en: row.publicURL_en } : {}),
+      ...(ok(row.publicURL_ua) ? { _ua: row.publicURL_ua } : {})
     },
     publishedAt: row.publishedAt,
     ...(row.updatedAt ? { updatedAt: row.updatedAt } : {}),
@@ -126,6 +129,7 @@ async function getArticles(rows) {
       const doc = localizedDocs[i]
       doc.articleID = row.id
       doc.publicURL = row.publicURLs[locale]
+      doc.locale = locale
       if(row.publishedAt) {
         doc.publishedAt = row.publishedAt
       }
@@ -137,7 +141,6 @@ async function getArticles(rows) {
         fs.writeFileSync('data/cached-articles/' + row.id + locale + '.json' , JSON.stringify(doc, null, '\t'))
         doc.cache = row.id + locale
       }
-      doc.locale = locale
       delete doc.coverImageDescHTML
       delete doc.authorInfoItemsHTML
       delete doc.summaryHTML
@@ -164,6 +167,7 @@ async function getEvents(rows) {
         title: row.title_tw.trim(),
         loc: row.loc_tw ? row.loc_tw.trim() : null,
         slogan: row.slogan_tw ? row.slogan_tw.trim(): null,
+        locale: '_tw'
       }
     },
     year: +row.year,
@@ -205,6 +209,7 @@ async function getEvents(rows) {
             title: row['title' + locale],
             ...(row['loc' + locale] ? { loc: row['loc' + locale] } : {}),
             ...(row['slogan' + locale] ? { slogan: row['slogan' + locale] } : {}),
+            locale
           }
         }
       }
@@ -245,6 +250,7 @@ async function getEvents(rows) {
     locales.forEach((locale, i) => {
       let doc = localizedDocs[i]
       doc.publicURL = conf.publicURLs[locale]
+      doc.locale = locale
       if(conf.publishedAt) {
         doc.publishedAt = conf.publishedAt
       }
