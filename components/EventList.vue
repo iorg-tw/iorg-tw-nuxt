@@ -1,6 +1,6 @@
 <template>
 <div class="event-list container">
-  <div v-for="(event, eventID) of events" :key="event.id" class="event panel tiled filled raised" :class="panelClasses">
+  <div v-for="event of events" :key="event.id" class="event panel tiled filled raised" :class="panelClasses">
     <div class="detail">
       <label class="year">{{ event.year }}</label>
       <div class="head">
@@ -12,15 +12,14 @@
       <p class="loc">{{ event.loc }}</p>
       <p class="time">{{ event.time }}</p>
       <p v-if="event.time_alt" class="time_alt">{{ event.time_alt }}</p>
-      <template v-if="event.hasPage">
-        <nuxt-link :to="localePath({ name: 'e-id', params: { id: eventID } })">{{ PUNCT.ELLIPS }}</nuxt-link>
-      </template>
+      <nuxt-link v-if="event.hasPage" :to="localePath({ name: 'e-id', params: { id: event.id } })">{{ PUNCT.ELLIPS }}</nuxt-link>
     </div>
   </div>
 </div>
 </template>
 
 <script>
+import { PUNCT } from '~/lib/const'
 import allEvents from '~/data/events.json'
 
 export default {
@@ -47,18 +46,15 @@ export default {
       const defaultLocale = this.$i18n.defaultLocale
       const locale = this.$i18n.locale
       const localizedDoc = e.localizedDocs[e.localizedDocs[locale] ? locale : defaultLocale]
-      return Object.assign({
-        id: e.id,
-        area: e.area,
-        time: e.time,
+      return Object.assign(e, {
         d: new Date([e.year, e.date].join('/')),
-        year: e.year,
         displayDate: e.date.replace('/', '.')
       }, localizedDoc)
     })
     events.sort((a, b) => (a.d - b.d) * this.sort)
     return {
-      events
+      events,
+      PUNCT
     }
   }
 }
