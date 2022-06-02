@@ -15,7 +15,7 @@ export default {
   },
   async asyncData({ app, params, error }) {
     const id = '_O'
-    const [doc] = await getLocalizedArticles([id], app.i18n.locale, app.i18n.defaultLocale)
+    const [doc] = await getLocalizedArticles([id], app.i18n.locale)
     if(!doc) {
       error({ statusCode: 404, message: 'pageNotFound' })
       return

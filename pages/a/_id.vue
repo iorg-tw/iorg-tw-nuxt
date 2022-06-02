@@ -26,7 +26,7 @@ export default {
       return
     }
 
-    const [doc] = await getLocalizedArticles([id], app.i18n.locale, app.i18n.defaultLocale)
+    const [doc] = await getLocalizedArticles([id], app.i18n.locale)
     return {
       doc
     }

@@ -21,7 +21,7 @@ export default {
       error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
-    const [doc] = await getLocalizedArticles([id], app.i18n.locale, app.i18n.defaultLocale)
+    const [doc] = await getLocalizedArticles([id], app.i18n.locale)
     return {
       doc
     }

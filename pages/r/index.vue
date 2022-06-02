@@ -77,7 +77,7 @@ export default {
     Intro
   },
   async asyncData({ app }) {
-    const [docK2020, docK2021, docAck] = await getLocalizedArticles(['_R_2020', '_R_2021', '_ack'], app.i18n.locale, app.i18n.defaultLocale)
+    const [docK2020, docK2021, docAck] = await getLocalizedArticles(['_R_2020', '_R_2021', '_ack'], app.i18n.locale)
     return {
       structuredDocK2020: structureDoc(docK2020.html, ['h2', 'h3']),
       level0Nodes2020: tree.filter(node => node.group === 2020 && node.level === 0),

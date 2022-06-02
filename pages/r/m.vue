@@ -14,7 +14,7 @@ export default {
     GoogleDoc
   },
   async asyncData({ app }) {
-    const [doc] = await getLocalizedArticles(['_R_M'], app.i18n.locale, app.i18n.defaultLocale)
+    const [doc] = await getLocalizedArticles(['_R_M'], app.i18n.locale)
     return {
       doc
     }

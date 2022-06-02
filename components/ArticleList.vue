@@ -85,7 +85,7 @@ export default {
   methods: {
     optimizeTracking,
     getLocalizedDoc(article) {
-      return localizeArticle(article, this.$i18n.locale, this.$i18n.defaultLocale)
+      return localizeArticle(article, this.$i18n.locale)
     }
   }
 }

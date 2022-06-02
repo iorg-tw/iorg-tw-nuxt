@@ -27,7 +27,7 @@ export default {
     GoogleDoc
   },
   async asyncData({ app }) {
-    const [doc] = await getLocalizedArticles([ID], app.i18n.locale, app.i18n.defaultLocale)
+    const [doc] = await getLocalizedArticles([ID], app.i18n.locale)
     const structuredDoc = structureDoc(doc.html, ['h2'])
     return {
       doc,
