@@ -65,12 +65,16 @@ export default {
     --gdoc-post-facebook: "Facebook";
     --gdoc-post-weibo: "Weibo";
     --gdoc-post-line: "LINE";
+    --gdoc-post-handle-show: "More";
+    --gdoc-post-handle-hide: "Less";
   }
   &[lang="zh-Hant-TW"] {
     --gdoc-post-post: "文章";
     --gdoc-post-facebook: "Facebook";
     --gdoc-post-weibo: "微博";
     --gdoc-post-line: "LINE";
+    --gdoc-post-handle-show: "展開";
+    --gdoc-post-handle-hide: "收合";
   }
 }
 </style>

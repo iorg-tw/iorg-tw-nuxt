@@ -83,6 +83,14 @@ export default {
     shouldSetOption(k) {
       return this.options && Object.prototype.hasOwnProperty.call(this.options, k)
     }
+  },
+  mounted() {
+    const handles = document.querySelectorAll('.gdoc-post > .handle')
+    handles.forEach(function(el) {
+      el.addEventListener('click', function(e) {
+        e.target.parentNode.classList.toggle('expanded')
+      })
+    })
   }
 }
 </script>
@@ -240,17 +248,79 @@ export default {
       color: var(--iorg-neutral);
       verticle-align: middle;
     }
-    .gdoc-list-set {
+    ul.gdoc-list-set {
       list-style: none;
       display: flex;
       flex-wrap: wrap;
       line-height: $line-height-compact;
+      // default: bubbles
+      & {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.25rem 0;
+        padding: 0; // FIXME: might be bad
+        > li {
+          margin: 0.25rem;
+          padding: 0.25rem 0.5rem;
+          background-color: #ccc;
+          border-radius: 1rem;
+          &.ccp {
+            background-color: var(--ccp);
+          }
+          &.red {
+            background-color: var(--ccp-affiliated);
+          }
+          &.pink {
+            background-color: var(--china);
+          }
+          &.china {
+            background-color: var(--china);
+          }
+          &.kmt {
+            background-color: var(--kmt);
+          }
+          &.dpp {
+            background-color: var(--dpp);
+          }
+          &.pfp {
+            background-color: var(--pfp);
+          }
+          &.np {
+            background-color: var(--np);
+          }
+        }
+      }
+      &.list-people,
+      &.people {
+        > li {
+          margin: 0.25rem;
+          border: 1px solid var(--iorg-text);
+          border-radius: 0;
+          background: white;
+          > :first-child { // assume this is name
+            display: inline-block;
+            padding: 0.125rem 0.5rem;
+            margin-left: -0.5rem;
+            font-weight: bold;
+          }
+          > .status {
+            display: inline-block;
+            font-size: 0.625rem;
+            line-height: 0.875rem;
+            vertical-align: top;
+            color: var(--iorg-neutral);
+          }
+        }
+      }
+      &.list-code,
       &.code {
         > li {
           margin: 0.125rem;
           padding: 0.25rem 0.375rem;
           background-color: var(--iorg-background-code);
           border-radius: 0.25rem;
+          color: var(--iorg-neutral);
         }
       }
     }
@@ -402,104 +472,18 @@ export default {
         &.danger {
           color: var(--iorg-danger);
         }
-        &.list-set {
-          > ul {
-            list-style: none;
-            margin: 0 0.25rem;
-            padding: 0 0.25rem;
-            > li {
-              margin: 0;
-              padding: 0;
-            }
-          }
-        }
-        &.list-set.cards {
-          > ul {
-            > li {
-              margin: 0.25rem;
-            }
-          }
-        }
-        &.list-set.people {
-          > ul {
-            > li {
-              margin: 0.25rem;
-              > :first-child { // assume this is name
-                display: inline-block;
-                padding: 0.125rem 0.5rem;
-                margin-left: -0.5rem;
-                border-radius: 1rem;
-                background-color: #ccc;
-              }
-              > .status {
-                display: inline-block;
-                font-size: 0.625rem;
-                line-height: 0.875rem;
-                vertical-align: top;
-                color: var(--iorg-neutral);
-              }
-            }
-          }
-        }
-        &.list-set.bubbles {
-          > ul {
-            display: flex;
-            flex-wrap: wrap;
-            margin: 0.25rem 0;
-            padding: 0; // FIXME: might be bad
-            > li {
-              margin: 0.25rem;
-              padding: 0.25rem 0.5rem;
-              background-color: #ccc;
-              border-radius: 1rem;
-              &.ccp {
-                background-color: var(--ccp);
-              }
-              &.red {
-                background-color: var(--ccp-affiliated);
-              }
-              &.pink {
-                background-color: var(--china);
-              }
-              &.china {
-                background-color: var(--china);
-              }
-              &.kmt {
-                background-color: var(--kmt);
-              }
-              &.dpp {
-                background-color: var(--dpp);
-              }
-              &.pfp {
-                background-color: var(--pfp);
-              }
-              &.np {
-                background-color: var(--np);
-              }
-            }
-          }
-        }
       }
       th {
-        & {
-          text-align: left;
-          font-weight: bold;
-          vertical-align: bottom;
-        }
-        &.list-set {
-          ul {
-            font-size: 0.75rem;
-            font-weight: normal;
-            > li {
-              padding: 0.125rem 0.375rem;
-            }
-          }
-        }
-        &.list-set.bubbles {
-          ul {
-            > li {
-              margin: 0.125rem;
-            }
+        text-align: left;
+        font-weight: bold;
+        vertical-align: bottom;
+
+        > ul.gdoc-list-set {
+          font-size: 0.75rem;
+          font-weight: normal;
+          > li {
+            margin: 0.125rem;
+            padding: 0.125rem 0.375rem;
           }
         }
       }
@@ -549,20 +533,45 @@ export default {
     position: relative;
     --border-color: var(--iorg-background);
     --text-color: var(--iorg-text);
-    &:before {
-      content: var(--gdoc-post-post);
-      display: inline-block;
-      color: white;
-      position: relative;
-      top: 0.5rem;
-      left: -0.5rem;
-      margin: 0;
-      border: none;
-      border-radius: 1rem;
-      padding: 0.25rem 0.5rem;
-      background-color: var(--iorg-background);
-      line-height: 1;
-      font-size: 0.75rem;
+    & {
+      &:before {
+        content: var(--gdoc-post-post);
+        display: inline-block;
+        color: white;
+        position: relative;
+        top: 0.5rem;
+        left: -0.5rem;
+        margin: 0;
+        border: none;
+        border-radius: 1rem;
+        padding: 0.25rem 0.5rem;
+        background-color: var(--iorg-background);
+        line-height: 1;
+        font-size: 0.75rem;
+        z-index: 1;
+      }
+      > .detail {
+        border: 1px solid var(--border-color);
+        padding: 0.75rem;
+        line-height: $line-height-comfortable;
+        color: var(--text-color);
+        background-color: white;
+        @include shadow;
+        > :last-child {
+          margin-bottom: 0;
+        }
+      }
+      > .handle {
+        display: none;
+      }
+      > .description {
+        padding: 0.75rem;
+        font-size: 0.875rem;
+        color: #646464;
+        > :last-child {
+          margin-bottom: 0;
+        }
+      }
     }
     &.facebook {
       --border-color: var(--facebook);
@@ -588,22 +597,31 @@ export default {
         background-color: var(--line);
       }
     }
-    > .detail {
-      border: 1px solid var(--border-color);
-      padding: 0.75rem;
-      color: var(--text-color);
-      background-color: white;
-      @include shadow;
-      > :last-child {
-        margin-bottom: 0;
+    &.collapsable {
+      & {
+        > .detail {
+          max-height: 1rem * $line-height-comfortable * 5;
+          overflow: hidden;
+        }
+        > .handle {
+          display: block;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, calc(-100% - 0.5rem));
+          background: white;
+          cursor: pointer;
+        }
+        > .handle:after {
+          content: var(--gdoc-post-handle-show);
+        }
       }
-    }
-    > .description {
-      padding: 0.75rem;
-      font-size: 0.875rem;
-      color: #646464;
-      > :last-child {
-        margin-bottom: 0;
+      &.expanded {
+        > .detail {
+           max-height: none;
+        }
+        > .handle:after {
+          content: var(--gdoc-post-handle-hide);
+        }
       }
     }
   }
@@ -665,7 +683,7 @@ export default {
     }
   }
   .gdoc-references {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     border: 1px solid var(--iorg-background);
     color: var(--iorg-neutral);
     > ul {
