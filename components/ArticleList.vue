@@ -104,7 +104,7 @@ export default {
         color: var(--iorg-accent);
       }
       > .dates {
-        margin: 0.125rem 0;
+        margin: 0.25rem 0 0.125rem;
         font-size: 0.75rem;
         color: var(--iorg-neutral);
       }
