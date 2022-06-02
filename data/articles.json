@@ -1,4 +1,57 @@
 {
+	"china-russia-propaganda": {
+		"show": true,
+		"type": "article",
+		"id": "china-russia-propaganda",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRD6eK74YTqWFHxs4nv6466crm4IvBUilBBR6lW0Y5Jjj_eL3L_p0-A8VaSaG-WYPZj-BmXjjUKKTcM/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vQDMUWcylEuD8EiAU8-VycW9hC4GeEdehmquED-B-2MKzR-SCo1jJx2CQsRXI9arJYoHtB3XBEZgphn/pub",
+			"_ua": "https://docs.google.com/document/d/e/2PACX-1vRD6eK74YTqWFHxs4nv6466crm4IvBUilBBR6lW0Y5Jjj_eL3L_p0-A8VaSaG-WYPZj-BmXjjUKKTcM/pub"
+		},
+		"publishedAt": "2022/6/2 20:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "Як Китай сприяв поширенню кремлівської пропаганди та анти-тайванської дезінформації в часи російсько-української війни",
+				"coverImage": "https://lh5.googleusercontent.com/cI6Sk-NgShXfVgwv13Pb49oryzo69GqS8Lx9XPFHUtt-bm2E237QDrtZt6CccCfxjW3NKUjf0-SVKI-UdDIXOygrgzBaCwHbI-LiPGMHaNuxT_YSkjmR6UWtDtqt3crz9veaOqYL_Pc",
+				"tags": [
+					"Ukraine",
+					"China"
+				],
+				"articleID": "china-russia-propaganda",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRD6eK74YTqWFHxs4nv6466crm4IvBUilBBR6lW0Y5Jjj_eL3L_p0-A8VaSaG-WYPZj-BmXjjUKKTcM/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/6/2 20:00",
+				"cache": "china-russia-propaganda_tw"
+			},
+			"_en": {
+				"title": "China helped spread Kremlin propaganda and manipulative information against Taiwan amid Russia-Ukraine war",
+				"coverImage": "https://lh3.googleusercontent.com/6q8EcPsAIbcGy3yBix9VLDRcKs3qywkahYch7BBXEjcu7maAeSW-lQGEr68cvI8hhRx9Xg5bp-EEBgoDebDeFGzKERrGt_-fuZ524tc8q5QbaVxSwZ0drY_xoztXb5unED73_5qsI9M",
+				"tags": [
+					"Ukraine",
+					"China"
+				],
+				"articleID": "china-russia-propaganda",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQDMUWcylEuD8EiAU8-VycW9hC4GeEdehmquED-B-2MKzR-SCo1jJx2CQsRXI9arJYoHtB3XBEZgphn/pub",
+				"locale": "_en",
+				"publishedAt": "2022/6/2 20:00",
+				"cache": "china-russia-propaganda_en"
+			},
+			"_ua": {
+				"title": "Як Китай сприяв поширенню кремлівської пропаганди та анти-тайванської дезінформації в часи російсько-української війни",
+				"coverImage": "https://lh5.googleusercontent.com/cI6Sk-NgShXfVgwv13Pb49oryzo69GqS8Lx9XPFHUtt-bm2E237QDrtZt6CccCfxjW3NKUjf0-SVKI-UdDIXOygrgzBaCwHbI-LiPGMHaNuxT_YSkjmR6UWtDtqt3crz9veaOqYL_Pc",
+				"tags": [
+					"Ukraine",
+					"China"
+				],
+				"articleID": "china-russia-propaganda",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRD6eK74YTqWFHxs4nv6466crm4IvBUilBBR6lW0Y5Jjj_eL3L_p0-A8VaSaG-WYPZj-BmXjjUKKTcM/pub",
+				"locale": "_ua",
+				"publishedAt": "2022/6/2 20:00",
+				"cache": "china-russia-propaganda_ua"
+			}
+		}
+	},
 	"about": {
 		"show": false,
 		"type": "sys",
