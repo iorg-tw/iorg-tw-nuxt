@@ -672,14 +672,23 @@ export default {
     &.info {
       border-color: var(--iorg-accent);
       color: var(--iorg-accent);
+      > .header + .detail {
+        border-top-color: var(--iorg-accent);
+      }
     }
     &.warning {
       border-color: var(--iorg-bad);
       color: var(--iorg-bad);
+      > .header + .detail {
+        border-top-color: var(--iorg-bad);
+      }
     }
     &.danger {
       border-color: var(--iorg-danger);
       color: var(--iorg-danger);
+      > .header + .detail {
+        border-top-color: var(--iorg-danger);
+      }
     }
   }
   .gdoc-references {
