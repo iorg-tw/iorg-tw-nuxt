@@ -8,6 +8,7 @@
 import events from '~/data/events'
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/lib/meta'
+import { localizeArticle } from '~/lib/i18n'
 import GoogleDoc from '~/components/GoogleDoc'
 
 export default {
@@ -22,12 +23,10 @@ export default {
       return
     }
 
-    const defaultLocale = app.i18n.defaultLocale
-    const locale = app.i18n.locale
-    const localizedDoc = event.localizedDocs[event.localizedDocs[locale] ? locale : defaultLocale]
+    const localizedDoc = localizeArticle(event, app.i18n.locale)
     let [doc] = await Promise.all([event.cache
       ? import('~/data/cached-events/' + localizedDoc.cache + '.json')
-      : getDoc(event.publicURLs[locale])
+      : getDoc(localizedDoc.publicURL)
     ])
     if(event.cache) {
       doc = doc.default

@@ -20,6 +20,7 @@
 
 <script>
 import { PUNCT } from '~/lib/const'
+import { localizeArticle } from '~/lib/i18n'
 import allEvents from '~/data/events.json'
 
 export default {
@@ -43,9 +44,7 @@ export default {
   },
   data() {
     const events = Object.values(allEvents).filter(e => e.show && e.type === this.type).filter(e => this.series !== undefined ? e.series === this.series : true).map(e => {
-      const defaultLocale = this.$i18n.defaultLocale
-      const locale = this.$i18n.locale
-      const localizedDoc = e.localizedDocs[e.localizedDocs[locale] ? locale : defaultLocale]
+      const localizedDoc = localizeArticle(e, this.$i18n.locale)
       return Object.assign(e, {
         d: new Date([e.year, e.date].join('/')),
         displayDate: e.date.replace('/', '.')
