@@ -173,8 +173,8 @@ async function getEvents(rows) {
     year: +row.year,
     date: row.date,
     dow: row.dow,
-    time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') + (row.tz ? ` ${row.tz}` : '') : null,
-    ...(row.time_alt ? { time_alt: row.time_alt } : {})
+    time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null,
+    ...(row.timeAlt ? { timeAlt: row.timeAlt } : {})
   }))
 
   const confs = rows.filter(row => row.type === 'conf' && row.id).map(row => {
@@ -186,8 +186,10 @@ async function getEvents(rows) {
       area: row.area.trim(),
       year: +row.year,
       date: row.date,
-      time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') + (row.tz ? ` ${row.tz}` : '') : null,
-      ...(row.time_alt ? { time_alt: row.time_alt } : {}),
+      time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null,
+      ...(row.timeAlt ? { timeAlt: row.timeAlt } : {}),
+      ...(row.upNext ? { upNext: true } : {}),
+      ...(row.signUpURL ? { signUpURL: row.signUpURL } : {}),
       cache: row.cache ? true : false,
       reload: row.reload ? true : false
     }

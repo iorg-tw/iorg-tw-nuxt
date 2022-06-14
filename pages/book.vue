@@ -40,11 +40,11 @@ _en:
       <h4>IORG {{ PUNCT.MULTIPLY }} {{ $t('RiveGauche') }} </h4>
     </div>
   </div>
-  <div class="section-header first">
+  <div class="section-header">
     <p class="section-title-fancy">{{ $t('events') }}</p>
   </div>
-  <event-list type="conf" series="book" :sort="1" />
-  <div class="section-header first">
+  <event-list type="conf" series="book" :show-sign-up="true" :sort="1" />
+  <div class="section-header">
     <p class="section-title-fancy">{{ $t('more') }}</p>
   </div>
   <div class="extra container">

@@ -251,6 +251,10 @@ span.punct-l-fbrac {
     > .detail {
       padding: $layout-m;
     }
+    > .actions {
+      padding: $layout-m;
+      padding-top: 0;
+    }
   }
 }
 .section-header + .container,

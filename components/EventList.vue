@@ -1,3 +1,10 @@
+<i18n lang="yaml">
+_tw:
+  signUp: "馬上報名"
+_en:
+  signUp: "Sign Up Now"
+</i18n>
+
 <template>
 <div class="event-list container">
   <div v-for="event of events" :key="event.id" class="event panel tiled filled raised" :class="panelClasses">
@@ -13,6 +20,9 @@
       <p class="time">{{ event.time }}</p>
       <p v-if="event.time_alt" class="time_alt">{{ event.time_alt }}</p>
       <nuxt-link v-if="event.hasPage" :to="localePath({ name: 'e-id', params: { id: event.id } })">{{ PUNCT.ELLIPS }}</nuxt-link>
+    </div>
+    <div v-if="showSignUp && event.signUpURL" class="actions">
+      <a :href="event.signUpURL" target="_blank" class="button primary">{{ $t('signUp') }}</a>
     </div>
   </div>
 </div>
@@ -33,6 +43,14 @@ export default {
       type: String,
       default: undefined
     },
+    upNextOnly: {
+      type: Boolean,
+      default: false
+    },
+    showSignUp: {
+      type: Boolean,
+      default: false
+    },
     sort: {
       type: Number,
       default: -1
@@ -43,7 +61,7 @@ export default {
     }
   },
   data() {
-    const events = Object.values(allEvents).filter(e => e.show && e.type === this.type).filter(e => this.series !== undefined ? e.series === this.series : true).map(e => {
+    const events = Object.values(allEvents).filter(e => e.show && e.type === this.type).filter(e => this.series !== undefined ? e.series === this.series : true).filter(e => this.upNextOnly ? e.upNext === true : true).map(e => {
       const localizedDoc = localizeArticle(e, this.$i18n.locale)
       return Object.assign(e, {
         d: new Date([e.year, e.date].join('/')),

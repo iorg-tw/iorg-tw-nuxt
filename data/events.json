@@ -142,6 +142,8 @@
 		"year": 2022,
 		"date": "6/25",
 		"time": "14:00-17:00",
+		"upNext": true,
+		"signUpURL": "https://forms.gle/mnACxmGgP6mxM3Pj8",
 		"cache": false,
 		"hasPage": false,
 		"localizedDocs": {
@@ -321,9 +323,9 @@
 		"id": "2020-1207",
 		"area": "online",
 		"year": 2020,
-		"date": "12/7",
-		"time": "11:00 UTC-4",
-		"time_alt": "12.8 0:00 UTC+8",
+		"date": "12/8",
+		"time": "0:00-1:30",
+		"timeAlt": "12.7 11:00 UTC-4",
 		"cache": true,
 		"hasPage": true,
 		"publicURLs": {
