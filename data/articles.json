@@ -1,4 +1,30 @@
 {
+	"eval-003": {
+		"show": true,
+		"type": "article",
+		"id": "eval-003",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS02eLaby71zC9c6eqNQHTEBc7Lwh0jC91a73ZEbyM6xGLD8Msk13y-7M9lJWq_IVKC_zzhzF9sJd-2/pub"
+		},
+		"publishedAt": "2022/6/22 12:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「我的鄰居養石斑」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹏ 時事練習題 ﹏ 第 3 題",
+				"coverImage": "https://lh4.googleusercontent.com/GSPpnbWsLWo2hXrMU-lhX8EXy4Crr_pxrWj1Vj6eBrAmLVJ-_VxsFbaKydguB5NYcfDc1RCRfzWSeZhbO6QuEmgFvfQj_Tm4Sy9akANBg_yJecvHM86AzNi0kV-BWhQ_wy2-E65NyeY",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-003",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS02eLaby71zC9c6eqNQHTEBc7Lwh0jC91a73ZEbyM6xGLD8Msk13y-7M9lJWq_IVKC_zzhzF9sJd-2/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/6/22 12:00",
+				"cache": "eval-003_tw"
+			}
+		}
+	},
 	"china-russia-propaganda": {
 		"show": true,
 		"type": "article",
