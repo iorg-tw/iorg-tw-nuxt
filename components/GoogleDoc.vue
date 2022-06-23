@@ -597,6 +597,14 @@ export default {
         background-color: var(--line);
       }
     }
+    &.ccp {
+      --border-color: var(--ccp-media);
+      --text-color: var(--ccp-media);
+      &:before {
+        content: var(--gdoc-post-ccp-media);
+        background-color: var(--ccp-media);
+      }
+    }
     &.collapsable {
       & {
         > .detail {

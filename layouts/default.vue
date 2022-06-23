@@ -58,13 +58,15 @@ export default {
   --np: #FFFF64;
 
   & {
-    --facebook: #5252ff;
+    --facebook: #5252FF;
     --weibo: #ff5656;
-    --line: #40dd40;
+    --line: #40DD40;
+    --ccp-media: #FF6464;
     --gdoc-post-post: "Post";
     --gdoc-post-facebook: "Facebook";
     --gdoc-post-weibo: "Weibo";
     --gdoc-post-line: "LINE";
+    --gdoc-post-ccp-media: "CCP";
     --gdoc-post-handle-show: "More";
     --gdoc-post-handle-hide: "Less";
   }
@@ -73,6 +75,7 @@ export default {
     --gdoc-post-facebook: "Facebook";
     --gdoc-post-weibo: "微博";
     --gdoc-post-line: "LINE";
+    --gdoc-post-ccp-media: "中共";
     --gdoc-post-handle-show: "展開";
     --gdoc-post-handle-hide: "收合";
   }

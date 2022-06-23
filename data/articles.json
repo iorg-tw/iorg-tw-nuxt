@@ -1,4 +1,30 @@
 {
+	"_DA_26": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_26",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQuGgIqTtqHOxSXCQnOyYZUDYTk18bl2J9Vyrv74ywGyOTHE2WeP8yqwfs8KLIO4jtJroH7E3rqG_7-/pub"
+		},
+		"publishedAt": "2022/6/23 12:00",
+		"path": "/da/26",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣未納印太經濟架構，中共引網友宣傳台灣「又買軍火又吃萊豬」「又被拋棄」",
+				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 26 期 ﹏ 2021.10.1-2022.5.31",
+				"coverImage": "https://lh5.googleusercontent.com/exvgnAIxFlOGNV2nguyzJToyjjQUXKubYLfNBVJUEWEgx3RAJviaB48EDikkkSVeea8eYOjdgajsRjp8_3QTyd9rNQUs5OGqxKS9kz64CNm2-rlGQEJmDQ6ibOHHdteR-DzTJE2_mWA",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_26",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQuGgIqTtqHOxSXCQnOyYZUDYTk18bl2J9Vyrv74ywGyOTHE2WeP8yqwfs8KLIO4jtJroH7E3rqG_7-/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/6/23 12:00",
+				"cache": "_DA_26_tw"
+			}
+		}
+	},
 	"eval-003": {
 		"show": true,
 		"type": "article",
