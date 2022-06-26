@@ -69,6 +69,7 @@ export default {
       }, localizedDoc)
     })
     events.sort((a, b) => (a.d - b.d) * this.sort)
+    this.$emit('counted', events.length)
     return {
       events,
       PUNCT

@@ -15,10 +15,10 @@ _en:
 
 <template>
 <div class="page events">
-  <div class="section-header first">
+  <div class="section-header first" v-if="upNextEventCount > 0">
     <p class="section-title-fancy">{{ $t('upNext') }}</p>
   </div>
-  <event-list type="conf" :up-next-only="true" :show-sign-up="true" />
+  <event-list type="conf" :up-next-only="true" :show-sign-up="true" @counted="upNextCounted" />
   <div class="section-header">
     <p class="section-title-fancy">{{ $t('confs') }}</p>
   </div>
@@ -37,6 +37,16 @@ import EventList from '~/components/EventList'
 export default {
   components: {
     EventList
+  },
+  data() {
+    return {
+      upNextEventCount: 0
+    }
+  },
+  methods: {
+    upNextCounted(count) {
+      this.upNextEventCount = count
+    }
   },
   head() {
     return generateMeta(this.$t('title'), null, this.$t('description'))
