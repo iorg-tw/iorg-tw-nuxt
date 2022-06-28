@@ -122,6 +122,8 @@
 		"year": 2022,
 		"date": "7/11",
 		"time": "19:00-21:00",
+		"upNext": true,
+		"signUpURL": "https://forms.gle/8fet7oTRanShrD5L6",
 		"cache": false,
 		"hasPage": false,
 		"localizedDocs": {
