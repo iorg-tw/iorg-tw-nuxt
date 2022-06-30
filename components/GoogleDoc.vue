@@ -178,6 +178,10 @@ export default {
       &.danger > .content {
         background-color: var(--iorg-danger);
       }
+      &.step > .content {
+        background-color: var(--iorg-text);
+        color: white;
+      }
       &.highlight > .content {
         background-color: white;
         border: 1px solid var(--iorg-accent);
