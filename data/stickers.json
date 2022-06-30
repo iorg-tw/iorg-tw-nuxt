@@ -1,0 +1,410 @@
+{
+	"preview": {
+		"id": "preview",
+		"classes": "ok",
+		"_tw": "IORG 預報",
+		"_en": "Preview"
+	},
+	"da-preview": {
+		"id": "da-preview",
+		"classes": "ok",
+		"_tw": "IORG 預報",
+		"_en": "Preview"
+	},
+	"pooh-says": {
+		"id": "pooh-says",
+		"classes": "danger",
+		"_tw": "中共宣傳",
+		"_en": "CCP says"
+	},
+	"pooh-also": {
+		"id": "pooh-also",
+		"classes": "danger",
+		"_tw": "中共協力",
+		"_en": "CCP also says"
+	},
+	"ccp-init": {
+		"id": "ccp-init",
+		"classes": "danger",
+		"_tw": "中共發起",
+		"_en": "CCP initiation"
+	},
+	"ccp-part": {
+		"id": "ccp-part",
+		"classes": "danger",
+		"_tw": "中共協力",
+		"_en": "CCP participation"
+	},
+	"ccp-ext": {
+		"id": "ccp-ext",
+		"classes": "danger",
+		"_tw": "中共論述延伸",
+		"_en": "CCP extension"
+	},
+	"gov": {
+		"id": "gov",
+		"classes": "alert",
+		"_tw": "政府宣傳",
+		"_en": "Government"
+	},
+	"true": {
+		"id": "true",
+		"classes": "ok",
+		"_tw": "正確資訊",
+		"_en": "Truthful info"
+	},
+	"status-quo": {
+		"id": "status-quo",
+		"classes": "ok",
+		"_tw": "符合現況",
+		"_en": "Status quo"
+	},
+	"simplification": {
+		"id": "simplification",
+		"classes": "alert",
+		"_tw": "簡化",
+		"_en": "Simplification"
+	},
+	"simplif": {
+		"id": "simplif",
+		"classes": "alert",
+		"_tw": "簡化",
+		"_en": "Simplification"
+	},
+	"falsif": {
+		"id": "falsif",
+		"classes": "alert",
+		"_tw": "無法證偽",
+		"_en": "Cannot falsify"
+	},
+	"wait-science": {
+		"id": "wait-science",
+		"classes": "bad",
+		"_tw": "尚待科學驗證",
+		"_en": "Wait for science"
+	},
+	"lack-science": {
+		"id": "lack-science",
+		"classes": "bad",
+		"_tw": "沒有科學證據",
+		"_en": "Lack science"
+	},
+	"no-evidence": {
+		"id": "no-evidence",
+		"classes": "danger",
+		"_tw": "沒有證據",
+		"_en": "No evidence"
+	},
+	"lack-evidence": {
+		"id": "lack-evidence",
+		"classes": "danger",
+		"_tw": "證據不足",
+		"_en": "Lack evidence"
+	},
+	"suspicious": {
+		"id": "suspicious",
+		"classes": "bad",
+		"_tw": "可疑訊息",
+		"_en": "Suspicious info"
+	},
+	"info-manipulation": {
+		"id": "info-manipulation",
+		"classes": "danger",
+		"_tw": "資訊操弄",
+		"_en": "Info manipulation"
+	},
+	"no-src": {
+		"id": "no-src",
+		"classes": "bad",
+		"_tw": "沒有提供來源",
+		"_en": "No source"
+	},
+	"unverifiable-src": {
+		"id": "unverifiable-src",
+		"classes": "bad",
+		"_tw": "無法證實的來源",
+		"_en": "Unverifable source"
+	},
+	"false-src": {
+		"id": "false-src",
+		"classes": "bad",
+		"_tw": "錯誤來源",
+		"_en": "Bad source"
+	},
+	"bad-src": {
+		"id": "bad-src",
+		"classes": "bad",
+		"_tw": "錯誤來源",
+		"_en": "Bad source"
+	},
+	"src-not-qualified": {
+		"id": "src-not-qualified",
+		"classes": "bad",
+		"_tw": "來源不具專業背景",
+		"_en": "Source not qualified"
+	},
+	"src-not-credible": {
+		"id": "src-not-credible",
+		"classes": "bad",
+		"_tw": "經驗上來源不可信",
+		"_en": "Source not credible"
+	},
+	"masq-origin": {
+		"id": "masq-origin",
+		"classes": "danger",
+		"_tw": "假造來源",
+		"_en": "Masqueraded source"
+	},
+	"masq-src": {
+		"id": "masq-src",
+		"classes": "danger",
+		"_tw": "假造來源",
+		"_en": "Masqueraded source"
+	},
+	"unverified": {
+		"id": "unverified",
+		"classes": "bad",
+		"_tw": "無法證實的內容",
+		"_en": "Unverifable info"
+	},
+	"unverifiable": {
+		"id": "unverifiable",
+		"classes": "bad",
+		"_tw": "無法證實的內容",
+		"_en": "Unverifable info"
+	},
+	"false": {
+		"id": "false",
+		"classes": "danger",
+		"_tw": "錯誤",
+		"_en": "False"
+	},
+	"part-false": {
+		"id": "part-false",
+		"classes": "danger",
+		"_tw": "包含錯誤內容",
+		"_en": "Partially false"
+	},
+	"distorted-content": {
+		"id": "distorted-content",
+		"classes": "danger",
+		"_tw": "變造內容",
+		"_en": "Distorted content"
+	},
+	"no-causality": {
+		"id": "no-causality",
+		"classes": "danger",
+		"_tw": "沒有因果關係",
+		"_en": "No causality"
+	},
+	"generalization": {
+		"id": "generalization",
+		"classes": "danger",
+		"_tw": "以偏概全",
+		"_en": "Generalization"
+	},
+	"false-eq": {
+		"id": "false-eq",
+		"classes": "danger",
+		"_tw": "錯誤類比",
+		"_en": "False equivalence"
+	},
+	"logical-error": {
+		"id": "logical-error",
+		"classes": "danger",
+		"_tw": "邏輯錯誤",
+		"_en": "Logical error"
+	},
+	"conspiracy": {
+		"id": "conspiracy",
+		"classes": "danger",
+		"_tw": "陰謀論",
+		"_en": "Conspiracy"
+	},
+	"bad-causality": {
+		"id": "bad-causality",
+		"classes": "bad",
+		"_tw": "不當因果關係",
+		"_en": "Bad causality"
+	},
+	"appeal-auth": {
+		"id": "appeal-auth",
+		"classes": "alert",
+		"_tw": "訴諸權威",
+		"_en": "Appeal to authority"
+	},
+	"bad-auth": {
+		"id": "bad-auth",
+		"classes": "bad",
+		"_tw": "不當訴諸權威",
+		"_en": "Bad authority"
+	},
+	"appeal-emotion": {
+		"id": "appeal-emotion",
+		"classes": "bad",
+		"_tw": "引起情緒",
+		"_en": "Appeal to emotion"
+	},
+	"appeal-distrust": {
+		"id": "appeal-distrust",
+		"classes": "bad",
+		"_tw": "引起不信任",
+		"_en": "Appeal to distrust"
+	},
+	"appeal-fear": {
+		"id": "appeal-fear",
+		"classes": "bad",
+		"_tw": "引起恐懼",
+		"_en": "Appeal to fear"
+	},
+	"clustered-posting": {
+		"id": "clustered-posting",
+		"classes": "alert",
+		"_tw": "協同發文",
+		"_en": "Clustered posting"
+	},
+	"recur-rumor": {
+		"id": "recur-rumor",
+		"classes": "alert",
+		"_tw": "舊謠言",
+		"_en": "Recurring rumor"
+	},
+	"dehuman": {
+		"id": "dehuman",
+		"classes": "alert",
+		"_tw": "非人化",
+		"_en": "Dehumanization"
+	},
+	"claim-long-term": {
+		"id": "claim-long-term",
+		"classes": "alert",
+		"_tw": "宣稱長期現象",
+		"_en": "Claiming long-term effect"
+	},
+	"call-share": {
+		"id": "call-share",
+		"classes": "alert",
+		"_tw": "呼籲轉傳",
+		"_en": "Call to share"
+	},
+	"claim-straightforward": {
+		"id": "claim-straightforward",
+		"classes": "alert",
+		"_tw": "宣稱簡單易懂",
+		"_en": "Claiming straightforwardness"
+	},
+	"simplified-chi": {
+		"id": "simplified-chi",
+		"classes": "alert",
+		"_tw": "簡化字",
+		"_en": "Simplified Chinese"
+	},
+	"misspelling": {
+		"id": "misspelling",
+		"classes": "alert",
+		"_tw": "錯別字",
+		"_en": "Mispelling"
+	},
+	"variant-char": {
+		"id": "variant-char",
+		"classes": "alert",
+		"_tw": "異體字",
+		"_en": "Variant characters"
+	},
+	"chi-exp": {
+		"id": "chi-exp",
+		"classes": "alert",
+		"_tw": "中國用語",
+		"_en": "Chinese expression"
+	},
+	"run-data": {
+		"id": "run-data",
+		"classes": "highlight",
+		"_tw": "資料分析",
+		"_en": "Data analysis"
+	},
+	"follow-up": {
+		"id": "follow-up",
+		"classes": "highlight",
+		"_tw": "IORG 追蹤",
+		"_en": "Follow-up"
+	},
+	"op": {
+		"id": "op",
+		"classes": "ok",
+		"_tw": "IORG 觀點",
+		"_en": "IORG opinion"
+	},
+	"opinion": {
+		"id": "opinion",
+		"classes": "ok",
+		"_tw": "IORG 觀點",
+		"_en": "IORG opinion"
+	},
+	"step-1": {
+		"id": "step-1",
+		"classes": "step",
+		"_tw": "第 1 步",
+		"_en": "Step 1"
+	},
+	"step-2": {
+		"id": "step-2",
+		"classes": "step",
+		"_tw": "第 2 步",
+		"_en": "Step 2"
+	},
+	"step-3": {
+		"id": "step-3",
+		"classes": "step",
+		"_tw": "第 3 步",
+		"_en": "Step 3"
+	},
+	"step-4": {
+		"id": "step-4",
+		"classes": "step",
+		"_tw": "第 4 步",
+		"_en": "Step 4"
+	},
+	"step-5": {
+		"id": "step-5",
+		"classes": "step",
+		"_tw": "第 5 步",
+		"_en": "Step 5"
+	},
+	"extra-step": {
+		"id": "extra-step",
+		"classes": "step",
+		"_tw": "追加步驟",
+		"_en": "Extra"
+	},
+	"fb": {
+		"id": "fb",
+		"classes": "fb",
+		"_tw": "臉",
+		"_en": "F"
+	},
+	"wb": {
+		"id": "wb",
+		"classes": "wb",
+		"_tw": "微",
+		"_en": "W"
+	},
+	"ccp": {
+		"id": "ccp",
+		"classes": "ccp",
+		"_tw": "中共",
+		"_en": "CCP"
+	},
+	"red": {
+		"id": "red",
+		"classes": "red",
+		"_tw": "類官媒",
+		"_en": "CCP-AFF"
+	},
+	"pink": {
+		"id": "pink",
+		"classes": "pink",
+		"_tw": "中國",
+		"_en": "China"
+	}
+}

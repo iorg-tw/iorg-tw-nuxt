@@ -59,6 +59,19 @@ async function getTree(rows) {
   fs.writeFileSync('locales/ua.json', JSON.stringify(locale_ua, null, '\t'))
 }
 
+async function getStickers(rows) {
+  const stickers = Object.assign({}, ...rows.filter(row => row.id).map(row => ({
+    [row.id]: {
+      id: row.id,
+      classes: row.classes,
+      _tw: row._tw,
+      _en: row._en
+    }
+  })))
+
+  fs.writeFileSync('data/stickers.json', JSON.stringify(stickers, null, '\t'))
+}
+
 async function getArticles(rows) {
   rows = rows.filter(row => row.id && [row.publicURL_tw, row.publicURL_en].some(url => url !== undefined)).map(row => ({
     show: row.show ? true : false,
@@ -282,6 +295,7 @@ async function get() {
   const sheetIDs = [
     process.env.LIB_REDIRECTS,
     process.env.LIB_TREE,
+    process.env.LIB_STICKERS,
     process.env.LIB_ARTICLES,
     process.env.LIB_EVENTS
   ]
@@ -297,18 +311,23 @@ async function get() {
   if(shouldGetTree) {
     await getTree(sheets[1])
   }
+  console.info(shouldGetStickers ? 'stickers...' : 'skip stickers')
+  if(shouldGetStickers) {
+    await getStickers(sheets[2])
+  }
   console.info(shouldGetArticles ? 'articles...' : 'skip articles')
   if(shouldGetArticles) {
-    await getArticles(sheets[2])
+    await getArticles(sheets[3])
   }
   console.info(shouldGetEvents ? 'events...' : 'skip events')
   if(shouldGetEvents) {
-    await getEvents(sheets[3])
+    await getEvents(sheets[4])
   }
 }
 
 const shouldGetRedirects = true
 const shouldGetTree = true
+const shouldGetStickers = true
 const shouldGetArticles = true
 const shouldGetEvents = true
 get()
