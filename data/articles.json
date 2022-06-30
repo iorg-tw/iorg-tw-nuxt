@@ -25,6 +25,32 @@
 			}
 		}
 	},
+	"eval-004": {
+		"show": true,
+		"type": "article",
+		"id": "eval-004",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR_3heanwHOhKJxr_zOySRPzGH2W1zSZ8k1QsIKEvIZ-MwcwcNEzeE9CIYgLrMkLc6BuqXD8QQY-JOO/pub"
+		},
+		"publishedAt": "2022/6/30 18:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「猴痘生化戰」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 4 題",
+				"coverImage": "https://lh4.googleusercontent.com/C7a96PVytnAC_c0pswniC3NAlHtBAr2B019vXXp_8DImdjAmah3ZAALA5RUt3qjvYvlrs7NYXX57nrKTWDxI2ECeGLoP2ueIB7K78aWMo2BlHFcIEldyE0jx7lGRQrnFQqYn-q7qVL8j",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-004",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR_3heanwHOhKJxr_zOySRPzGH2W1zSZ8k1QsIKEvIZ-MwcwcNEzeE9CIYgLrMkLc6BuqXD8QQY-JOO/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/6/30 18:00",
+				"cache": "eval-004_tw"
+			}
+		}
+	},
 	"eval-003": {
 		"show": true,
 		"type": "article",
@@ -37,8 +63,8 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "「我的鄰居養石斑」可判定為資訊操弄",
-				"subtitle": "IORG 訊息可信度評量 ﹏ 時事練習題 ﹏ 第 3 題",
-				"coverImage": "https://lh4.googleusercontent.com/GSPpnbWsLWo2hXrMU-lhX8EXy4Crr_pxrWj1Vj6eBrAmLVJ-_VxsFbaKydguB5NYcfDc1RCRfzWSeZhbO6QuEmgFvfQj_Tm4Sy9akANBg_yJecvHM86AzNi0kV-BWhQ_wy2-E65NyeY",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 3 題",
+				"coverImage": "https://lh3.googleusercontent.com/mhg-9ZdmgCcnvHL1NbLMxNhm5R7lo0EQorHabKiBMcPpvBVx-jn1pIqWSbb9WRrij9ah-93w2ljXoTqhVmIxWt6U4mrXphfUKrn3tIpbud1G9I7xzqNf4BTeog5Bpq9jDNFs7JBEiog",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
