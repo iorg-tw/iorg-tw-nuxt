@@ -14,14 +14,14 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ app, route, error }) {
-    const path = route.path
-    const id = pathMap[path]
-    if(!id) {
+  async asyncData({ app, params, error }) {
+    const path = '/r/' + params.id // FIXME: hot fix
+    const articleID = pathMap[path]
+    if(!articleID) {
       error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
-    const [doc] = await getLocalizedArticles([id], app.i18n.locale)
+    const [doc] = await getLocalizedArticles([articleID], app.i18n.locale)
     return {
       doc
     }
