@@ -77,6 +77,12 @@
 		"_tw": "無法證偽",
 		"_en": "Cannot falsify"
 	},
+	"wait-investigation": {
+		"id": "wait-investigation",
+		"classes": "bad",
+		"_tw": "尚待司法調查",
+		"_en": "Wait for investigation"
+	},
 	"wait-science": {
 		"id": "wait-science",
 		"classes": "bad",
