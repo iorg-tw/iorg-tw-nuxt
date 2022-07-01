@@ -77,6 +77,58 @@
 			}
 		}
 	},
+	"eval-002": {
+		"show": true,
+		"type": "article",
+		"id": "eval-002",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSPDMeH5XCYChxJZznAuO3rT_3XdaoBxnPonQ2mZjFogfNE6Tol8ajv2YTyPzDO0OoxhvfK-CHVc9u5/pub"
+		},
+		"publishedAt": "2022/6/16 12:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「BT 釣魚」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 2 題",
+				"coverImage": "https://lh5.googleusercontent.com/753Qfl8cmjQpEHlfjrpEzoiLKvpus8QAzPgFHg8zC-u1E52laBixsmzPbqUbV_X4V0U3eG9ZlyLb3WEmIytLSVKymIir_9LLfzQPdnRRMP1mDv8oTNEew3OlcFmJTERqbgjO8MO2A69M",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-002",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSPDMeH5XCYChxJZznAuO3rT_3XdaoBxnPonQ2mZjFogfNE6Tol8ajv2YTyPzDO0OoxhvfK-CHVc9u5/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/6/16 12:00",
+				"cache": "eval-002_tw"
+			}
+		}
+	},
+	"eval-001": {
+		"show": true,
+		"type": "article",
+		"id": "eval-001",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRn_POsLh_uNVDbj7aISoDRMLaQgNWuELbZertY4Yy_qKmFHi7gzPBd2vu_QDyrXt3i_B62pdxYGHH1/pub"
+		},
+		"publishedAt": "2022/6/9 12:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「端午節別出門」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 1 題",
+				"coverImage": "https://lh3.googleusercontent.com/_j_poSNmfi4Bgw04vs3OIR3Eg23TwCKUpcHDbl4C06V6FNGmGk9T46XClZ9WxqGnJ8IbnN5XIgB3MGKPIePuifdxDG2P0UU0yfxp37QmI8FKwQ-mH3-w9_0yVVRWiolxqp2qxbRq2gC3",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-001",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRn_POsLh_uNVDbj7aISoDRMLaQgNWuELbZertY4Yy_qKmFHi7gzPBd2vu_QDyrXt3i_B62pdxYGHH1/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/6/9 12:00",
+				"cache": "eval-001_tw"
+			}
+		}
+	},
 	"china-russia-propaganda": {
 		"show": true,
 		"type": "article",
