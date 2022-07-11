@@ -102,6 +102,9 @@
 		"year": 2022,
 		"date": "7/17",
 		"time": "14:00-17:00",
+		"upNext": true,
+		"signUpOpen": true,
+		"signUpURL": "https://forms.gle/ay5LpMg8kTpPjqzA9",
 		"cache": false,
 		"hasPage": false,
 		"localizedDocs": {
@@ -122,7 +125,6 @@
 		"year": 2022,
 		"date": "7/11",
 		"time": "19:00-21:00",
-		"upNext": true,
 		"signUpURL": "https://forms.gle/8fet7oTRanShrD5L6",
 		"cache": false,
 		"hasPage": false,

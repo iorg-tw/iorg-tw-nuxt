@@ -21,7 +21,7 @@ _en:
       <p v-if="event.time_alt" class="time_alt">{{ event.time_alt }}</p>
       <nuxt-link v-if="event.hasPage" :to="localePath({ name: 'e-id', params: { id: event.id } })">{{ PUNCT.ELLIPS }}</nuxt-link>
     </div>
-    <div v-if="showSignUp && event.signUpURL" class="actions">
+    <div v-if="showSignUp && event.signUpURL && event.signUpOpen" class="actions">
       <a :href="event.signUpURL" target="_blank" class="button primary">{{ $t('signUp') }}</a>
     </div>
   </div>

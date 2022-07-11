@@ -202,6 +202,7 @@ async function getEvents(rows) {
       time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null,
       ...(row.timeAlt ? { timeAlt: row.timeAlt } : {}),
       ...(row.upNext ? { upNext: true } : {}),
+      ...(row.signUpOpen ? { signUpOpen: true } : {}),
       ...(row.signUpURL ? { signUpURL: row.signUpURL } : {}),
       cache: row.cache ? true : false,
       reload: row.reload ? true : false
