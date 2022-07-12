@@ -9,7 +9,7 @@ _en:
 <div class="event-list container">
   <div v-for="event of events" :key="event.id" class="event panel tiled filled raised" :class="panelClasses">
     <div class="detail">
-      <label class="year">{{ event.year }}</label>
+      <label class="year">{{ event.displayYear }}</label>
       <div class="head">
         <label class="date">{{ event.displayDate }}</label>
         <label class="area">{{ $t(event.area) }}</label>
@@ -63,12 +63,18 @@ export default {
   data() {
     const events = Object.values(allEvents).filter(e => e.show && e.type === this.type).filter(e => this.series !== undefined ? e.series === this.series : true).filter(e => this.upNextOnly ? e.upNext === true : true).map(e => {
       const localizedDoc = localizeArticle(e, this.$i18n.locale)
+      const dateObj = new Date(e.date)
+      const displayYear = e.date.split('/', 2)[0]
+      const displayDate = e.date.split('/', 2)[1]
+      const signUpOpen = new Date() < new Date(e.signUpUntil)
       return Object.assign(e, {
-        d: new Date([e.year, e.date].join('/')),
-        displayDate: e.date.replace('/', '.')
+        dateObj,
+        displayYear,
+        displayDate,
+        signUpOpen
       }, localizedDoc)
     })
-    events.sort((a, b) => (a.d - b.d) * this.sort)
+    events.sort((a, b) => (a.dateObj - b.dateObj) * this.sort)
     this.$emit('counted', events.length)
     return {
       events,

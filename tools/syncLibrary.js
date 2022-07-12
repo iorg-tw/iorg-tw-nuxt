@@ -183,7 +183,6 @@ async function getEvents(rows) {
         locale: '_tw'
       }
     },
-    year: +row.year,
     date: row.date,
     dow: row.dow,
     time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null,
@@ -197,12 +196,11 @@ async function getEvents(rows) {
       ...(row.series ? { series: row.series } : {}),
       id: row.id,
       area: row.area.trim(),
-      year: +row.year,
       date: row.date,
       time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null,
       ...(row.timeAlt ? { timeAlt: row.timeAlt } : {}),
       ...(row.upNext ? { upNext: true } : {}),
-      ...(row.signUpOpen ? { signUpOpen: true } : {}),
+      ...(row.signUpUntil ? { signUpUntil: row.signUpUntil } : {}),
       ...(row.signUpURL ? { signUpURL: row.signUpURL } : {}),
       cache: row.cache ? true : false,
       reload: row.reload ? true : false
