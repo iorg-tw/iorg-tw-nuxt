@@ -65,7 +65,7 @@ export default {
       const localizedDoc = localizeArticle(e, this.$i18n.locale)
       const dateObj = new Date(e.date)
       const displayYear = e.date.split('/', 2)[0]
-      const displayDate = e.date.split('/', 2)[1]
+      const displayDate = e.date.replace(displayYear + '/', '').replace('/', '.')
       const signUpOpen = new Date() < new Date(e.signUpUntil)
       return Object.assign(e, {
         dateObj,

@@ -129,7 +129,7 @@ async function getArticles(rows) {
     delete row.reload
     if(!reload) {
       console.info(row.id)
-      Object.assign(row, oldArticles[row.id])
+      Object.assign(row, oldArticles[row.id]) // FIXME: should merge new and old meta instead of overriding everything
       delete row.reload
       continue
     }
@@ -243,7 +243,7 @@ async function getEvents(rows) {
       console.info(conf.id)
       const oldConf = oldEvents[conf.id]
       if(conf.hasPage) {
-        Object.assign(conf, oldConf)
+        Object.assign(conf, oldConf) // FIXME: should merge new and old meta instead of overriding everything
         if(oldConf.hasOwnProperty('publicURLs')) {
           conf.publicURLs = Object.assign({}, oldConf.publicURLs)
         }
