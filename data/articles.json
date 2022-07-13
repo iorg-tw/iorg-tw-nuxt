@@ -25,6 +25,32 @@
 			}
 		}
 	},
+	"eval-006": {
+		"show": true,
+		"type": "article",
+		"id": "eval-006",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT7YHC61vs3IkvsDe1jKV-MREpHaMnvVXrUO0AXmwQk8aDHfxpSmDlWwkVdAu4PNWgHEbKXiZ0gui0n/pub"
+		},
+		"publishedAt": "2022/7/14 9:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「安倍遭天譴」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 6 題",
+				"coverImage": "https://lh3.googleusercontent.com/7HFtifEe32i2Xaau58aSvMAs8e0iYBdCdg-KTiXwsujSleLh9iKnqsGQZNJkmSgq2m5W_KFw3Wj68XZjMPuMox97Zy4P0GyDkvN3hwweX97YGdKJeamprWWVVMbsFja3uZAMSaBG5EYG",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-006",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7YHC61vs3IkvsDe1jKV-MREpHaMnvVXrUO0AXmwQk8aDHfxpSmDlWwkVdAu4PNWgHEbKXiZ0gui0n/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/7/14 9:00",
+				"cache": "eval-006_tw"
+			}
+		}
+	},
 	"eval-004": {
 		"show": true,
 		"type": "article",

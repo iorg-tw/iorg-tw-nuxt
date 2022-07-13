@@ -59,6 +59,18 @@
 		"_tw": "符合現況",
 		"_en": "Status quo"
 	},
+	"suspicious": {
+		"id": "suspicious",
+		"classes": "bad",
+		"_tw": "可疑訊息",
+		"_en": "Suspicious info"
+	},
+	"info-manipulation": {
+		"id": "info-manipulation",
+		"classes": "danger",
+		"_tw": "資訊操弄",
+		"_en": "Info manipulation"
+	},
 	"simplification": {
 		"id": "simplification",
 		"classes": "alert",
@@ -106,18 +118,6 @@
 		"classes": "danger",
 		"_tw": "證據不足",
 		"_en": "Lack evidence"
-	},
-	"suspicious": {
-		"id": "suspicious",
-		"classes": "bad",
-		"_tw": "可疑訊息",
-		"_en": "Suspicious info"
-	},
-	"info-manipulation": {
-		"id": "info-manipulation",
-		"classes": "danger",
-		"_tw": "資訊操弄",
-		"_en": "Info manipulation"
 	},
 	"no-src": {
 		"id": "no-src",
@@ -189,7 +189,7 @@
 		"id": "part-false",
 		"classes": "danger",
 		"_tw": "包含錯誤內容",
-		"_en": "Partially false"
+		"_en": "False"
 	},
 	"distorted-content": {
 		"id": "distorted-content",
@@ -322,6 +322,12 @@
 		"classes": "alert",
 		"_tw": "中國用語",
 		"_en": "Chinese expression"
+	},
+	"religious-exp": {
+		"id": "religious-exp",
+		"classes": "alert",
+		"_tw": "宗教用語",
+		"_en": "Religious expression"
 	},
 	"run-data": {
 		"id": "run-data",
