@@ -50,8 +50,8 @@
 	"true": {
 		"id": "true",
 		"classes": "ok",
-		"_tw": "正確資訊",
-		"_en": "Truthful info"
+		"_tw": "正確內容",
+		"_en": "True"
 	},
 	"status-quo": {
 		"id": "status-quo",
