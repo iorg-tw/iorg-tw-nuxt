@@ -305,17 +305,23 @@
 		"_tw": "簡化字",
 		"_en": "Simplified Chinese"
 	},
+	"variant-char": {
+		"id": "variant-char",
+		"classes": "alert",
+		"_tw": "異體字",
+		"_en": "Variant characters"
+	},
 	"misspelling": {
 		"id": "misspelling",
 		"classes": "alert",
 		"_tw": "錯別字",
 		"_en": "Mispelling"
 	},
-	"variant-char": {
-		"id": "variant-char",
+	"homophone": {
+		"id": "homophone",
 		"classes": "alert",
-		"_tw": "異體字",
-		"_en": "Variant characters"
+		"_tw": "諧音詞",
+		"_en": "Homophonic pun"
 	},
 	"chi-exp": {
 		"id": "chi-exp",
