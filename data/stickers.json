@@ -266,7 +266,7 @@
 	"clustered-posting": {
 		"id": "clustered-posting",
 		"classes": "alert",
-		"_tw": "協同發文",
+		"_tw": "群聚發文",
 		"_en": "Clustered posting"
 	},
 	"recur-rumor": {
