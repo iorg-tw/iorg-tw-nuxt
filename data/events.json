@@ -134,6 +134,22 @@
 			}
 		}
 	},
+	"summer-2022": {
+		"show": true,
+		"type": "conf",
+		"id": "summer-2022",
+		"area": "online",
+		"date": "2022/6/29",
+		"time": "13:00-14:30",
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG × TAEF Summer Briefing on Information Manipulation in the Indo-Pacific Region",
+				"locale": "_tw"
+			}
+		}
+	},
 	"book-3": {
 		"show": true,
 		"type": "conf",
