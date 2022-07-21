@@ -67,6 +67,7 @@ export default {
     --gdoc-post-weibo: "Weibo";
     --gdoc-post-line: "LINE";
     --gdoc-post-ccp-media: "CCP";
+    --gdoc-post-mail: "Mail";
     --gdoc-post-handle-show: "More";
     --gdoc-post-handle-hide: "Less";
   }
@@ -76,6 +77,7 @@ export default {
     --gdoc-post-weibo: "微博";
     --gdoc-post-line: "LINE";
     --gdoc-post-ccp-media: "中共";
+    --gdoc-post-mail: "信件";
     --gdoc-post-handle-show: "展開";
     --gdoc-post-handle-hide: "收合";
   }

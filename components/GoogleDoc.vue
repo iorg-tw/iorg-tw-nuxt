@@ -609,6 +609,11 @@ export default {
         background-color: var(--ccp-media);
       }
     }
+    &.mail {
+      &:before {
+        content: var(--gdoc-post-mail);
+      }
+    }
     &.collapsable {
       & {
         > .detail {
