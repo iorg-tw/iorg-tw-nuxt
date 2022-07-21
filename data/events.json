@@ -209,13 +209,30 @@
 			}
 		}
 	},
+	"2022-0328": {
+		"show": true,
+		"type": "conf",
+		"id": "2022-0328",
+		"area": "tc",
+		"date": "2022/3/28",
+		"time": null,
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "媒體識讀到資訊判讀：訊息可信度評量",
+				"loc": "國家教育研究院台中院區",
+				"locale": "_tw"
+			}
+		}
+	},
 	"2021-1125": {
 		"show": true,
 		"type": "conf",
 		"id": "2021-1125",
 		"area": "online",
 		"date": "2021/11/25",
-		"time": null,
+		"time": "9:30-12:00",
 		"cache": false,
 		"hasPage": false,
 		"localizedDocs": {
