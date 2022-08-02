@@ -51,185 +51,230 @@
 			}
 		}
 	},
-	"eval-007": {
+	"eval-7": {
 		"show": true,
-		"type": "article",
-		"id": "eval-007",
+		"type": "eval",
+		"id": "eval-7",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR5CjVlHidf__054XXLkuKDl8wHEd6FmzvevbPX6LjjgdQTL43CyLjyW_mNN_7c-wp7FHmzdrKlfm4k/pub"
 		},
 		"publishedAt": "2022/7/22 9:00",
+		"path": "/eval/7",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「南非名校警告」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 7 題",
-				"coverImage": "https://lh4.googleusercontent.com/6oIMMoXq2Gp3q94761chgW2lktiQsrKXolv_UQgdGK0ywH3RZvfoNPCziddPa-6Sia1iqLDlks9vT21raaIoj0ERHPS4lEvdLqlexSeVwm4PtMSLUH-hmv-CHnmJpId2xxH3X5VEqUPSdzIJ",
+				"coverImage": "https://lh5.googleusercontent.com/9GMh_0_5U728hPwPkL9K7yHp-IE8WQCq5QRSn5LbxUmgOsUBnFrQkb7YYp-2Lb2Wl1Jnc3m2Wqtinj_T1fsHF3EWzzWpuvXCg_rI01gnDFU8UdhDmO2g6sBZXUNNgNx93tgjlouJQyJ6sxYB",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
 				],
-				"articleID": "eval-007",
+				"articleID": "eval-7",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR5CjVlHidf__054XXLkuKDl8wHEd6FmzvevbPX6LjjgdQTL43CyLjyW_mNN_7c-wp7FHmzdrKlfm4k/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/7/22 9:00",
-				"cache": "eval-007_tw"
+				"cache": "eval-7_tw"
 			}
 		}
 	},
-	"eval-006": {
+	"eval-6": {
 		"show": true,
-		"type": "article",
-		"id": "eval-006",
+		"type": "eval",
+		"id": "eval-6",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT7YHC61vs3IkvsDe1jKV-MREpHaMnvVXrUO0AXmwQk8aDHfxpSmDlWwkVdAu4PNWgHEbKXiZ0gui0n/pub"
 		},
 		"publishedAt": "2022/7/14 9:00",
+		"path": "/eval/6",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「安倍遭天譴」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 6 題",
-				"coverImage": "https://lh5.googleusercontent.com/rwsUD3Yt15INJ0e14rQu0E7tYtKgLVCyexVVBOTwrw48bL7afqlK3gAAbHm4jfhGZDE0zStmegvYRDF8fQsp62wED_ouijBsOvAD5cnR9Iq6f0XByUEyniOZgflfyGi9ZJXt0H-dr4FG8jch",
+				"coverImage": "https://lh5.googleusercontent.com/_T3dq4Uy2In71l_-Vr-0ee2veVUoPhcmJXhPk6SxUCzsuYeDkAFzZfPmvk9CEyfHDfaKFtUUU62RkBcaEi6VYZWB_kDI_OoeyBeYliDUT_uC6rORwDmOMh4047XrBFNR0Tm1x0b4eY_ahplH",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
 				],
-				"articleID": "eval-006",
+				"articleID": "eval-6",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7YHC61vs3IkvsDe1jKV-MREpHaMnvVXrUO0AXmwQk8aDHfxpSmDlWwkVdAu4PNWgHEbKXiZ0gui0n/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/7/14 9:00",
-				"cache": "eval-006_tw"
+				"cache": "eval-6_tw"
 			}
 		}
 	},
-	"eval-005": {
+	"eval-5": {
 		"show": true,
-		"type": "article",
-		"id": "eval-005",
+		"type": "eval",
+		"id": "eval-5",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTfup9BpOLwz-li8J6gOVj5NpbOP0SursDeiVgy7CxrmntejvD8Xealcrqp0Q1wFDBNpH7flE6Cxz7R/pub"
 		},
 		"publishedAt": "2022/7/15 9:00",
+		"path": "/eval/5",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「清零尊重生命」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 5 題",
-				"coverImage": "https://lh4.googleusercontent.com/CjtiPVnuv_Ja81NpzF0kJnubisO5bDgG6wMFG1MgaQTdMYIFq67cclLH4oOccy-ULTqx7K8RrUqjiweOwxlr45W2blFJjg4BKo3ZiFSw1_wi6Q2-ST-gt8RowmokVog2FdqmpWWXQs83Ka7a",
+				"coverImage": "https://lh4.googleusercontent.com/gA-Jw3s6QIV9-lp4e7frdX_gsUod6D42mokauvymIFYtuAR4NUfvSvM9WRBskHFaPscVXyjryKw3iOUiI1cHHrU9PfuXMYb-Iy-jTboXFtgss1sNJbI33u9TPgA30eGNyjkMplcht2w8PHi1",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
 				],
-				"articleID": "eval-005",
+				"articleID": "eval-5",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTfup9BpOLwz-li8J6gOVj5NpbOP0SursDeiVgy7CxrmntejvD8Xealcrqp0Q1wFDBNpH7flE6Cxz7R/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/7/15 9:00",
-				"cache": "eval-005_tw"
+				"cache": "eval-5_tw"
 			}
 		}
 	},
-	"eval-004": {
+	"eval-4": {
 		"show": true,
-		"type": "article",
-		"id": "eval-004",
+		"type": "eval",
+		"id": "eval-4",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR_3heanwHOhKJxr_zOySRPzGH2W1zSZ8k1QsIKEvIZ-MwcwcNEzeE9CIYgLrMkLc6BuqXD8QQY-JOO/pub"
 		},
 		"publishedAt": "2022/6/30 18:00",
+		"path": "/eval/4",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「猴痘生化戰」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 4 題",
-				"coverImage": "https://lh3.googleusercontent.com/bFFCKjoEX_XRz6tTNh50hPJmx8aPA74Ilk8wL0hVGOHrsuZQ4LWWd71Qx_g8Unvuz2ZTWo-m10J1PcCyKKgavyKzQEBYQci1wFowzufL-BQoOfAmqPv7mhPx-RhCdb6JyBdCwOj8Zz0FOVhS",
+				"coverImage": "https://lh6.googleusercontent.com/j6RekPiqaFrizIsm3ZYrpEPfvHzZEVLROPO73XuvwtdLXqeV4J8EQdN-9uHp-58gcbZd3o4RSUmeiiH9EfO4iw1uycJ6Pnk8lvigzuwtAWxYY31zHu-E0--8OzqDlhLkTFUtq31ktSeLrtY9",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
 				],
-				"articleID": "eval-004",
+				"articleID": "eval-4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR_3heanwHOhKJxr_zOySRPzGH2W1zSZ8k1QsIKEvIZ-MwcwcNEzeE9CIYgLrMkLc6BuqXD8QQY-JOO/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/6/30 18:00",
-				"cache": "eval-004_tw"
+				"cache": "eval-4_tw"
 			}
 		}
 	},
-	"eval-003": {
+	"eval-3": {
 		"show": true,
-		"type": "article",
-		"id": "eval-003",
+		"type": "eval",
+		"id": "eval-3",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS02eLaby71zC9c6eqNQHTEBc7Lwh0jC91a73ZEbyM6xGLD8Msk13y-7M9lJWq_IVKC_zzhzF9sJd-2/pub"
 		},
 		"publishedAt": "2022/6/22 12:00",
+		"path": "/eval/3",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「我的鄰居養石斑」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 3 題",
-				"coverImage": "https://lh6.googleusercontent.com/nW6_ony3BsUfMSFrqWTvk8g-AoJW_4OE7xwEnuKf8a0qTOSZSf2SVLG89r7Y3RS45eHZearIBmJD_rmH0kswtFkqdaBEg_2xklz_BGibRHLcdnGL6lfLg_eZS35q_v_OD5p-seyC2wU9ei6k",
+				"coverImage": "https://lh6.googleusercontent.com/JDFT_kJsKFi2tEBhvwY_Qn0Mm6LBE-95qwR3MbKVrlupIuIypPmw_lq0f-3Gfyreg18OKiHoURUpL2C_Y8ydQrBUhRtHpR70qewtJgevIxAlHNZIZBByKhAz3hsDKIM1mBM1LdnnVN7wIldg",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
 				],
-				"articleID": "eval-003",
+				"articleID": "eval-3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS02eLaby71zC9c6eqNQHTEBc7Lwh0jC91a73ZEbyM6xGLD8Msk13y-7M9lJWq_IVKC_zzhzF9sJd-2/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/6/22 12:00",
-				"cache": "eval-003_tw"
+				"cache": "eval-3_tw"
 			}
 		}
 	},
-	"eval-002": {
+	"eval-2": {
 		"show": true,
-		"type": "article",
-		"id": "eval-002",
+		"type": "eval",
+		"id": "eval-2",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSPDMeH5XCYChxJZznAuO3rT_3XdaoBxnPonQ2mZjFogfNE6Tol8ajv2YTyPzDO0OoxhvfK-CHVc9u5/pub"
 		},
 		"publishedAt": "2022/6/16 12:00",
+		"path": "/eval/2",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「BT 釣魚」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 2 題",
-				"coverImage": "https://lh3.googleusercontent.com/eHs0etP0ijBIM5D472_7cyH3zaxodS-qCusbKlxkMD8Kb7NC8VAZs9RSGARNeMZaL9hhDxMh2tRVKnyP9v_bRowOl_sA3Ae0KeC53BYiZWCpF1ltBAnOZuqVFQ_Ei2GGdU6rbH6vKyAvmoIn",
+				"coverImage": "https://lh5.googleusercontent.com/jt8V10JcoU3Yf2kCdrQCWaaMROlSg6xxFJiY87Nw6n-_RBTyVa8QtdE4qEVLXF7htpGjXArj5S55LTk1n6YsthE1KucLPba6Yfy9pQrJ872hg7yfin_UGOPXscy6yoyiEy8OvavMMCwYDWGl",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
 				],
-				"articleID": "eval-002",
+				"articleID": "eval-2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSPDMeH5XCYChxJZznAuO3rT_3XdaoBxnPonQ2mZjFogfNE6Tol8ajv2YTyPzDO0OoxhvfK-CHVc9u5/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/6/16 12:00",
-				"cache": "eval-002_tw"
+				"cache": "eval-2_tw"
 			}
 		}
 	},
-	"eval-001": {
+	"eval-1": {
 		"show": true,
-		"type": "article",
-		"id": "eval-001",
+		"type": "eval",
+		"id": "eval-1",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRn_POsLh_uNVDbj7aISoDRMLaQgNWuELbZertY4Yy_qKmFHi7gzPBd2vu_QDyrXt3i_B62pdxYGHH1/pub"
 		},
 		"publishedAt": "2022/6/9 12:00",
+		"path": "/eval/1",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "「端午節別出門」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 1 題",
-				"coverImage": "https://lh5.googleusercontent.com/akcfCiXUNMiDNy2feCeo1HcvhKvkCGvNsM6uWr14FfgVl2sYbYPcganPbBBcIIock_PCIVd732DbDv55TPSrcV6pqvIxOiq2iziYQuljzQpjjqvvyzr4Wb5tSsqr2JzeZs1DwRPZ1YCMxSwb",
+				"coverImage": "https://lh3.googleusercontent.com/6FZtnJXjyRQSgJnv7V-svS0FDIvORe2T0Fg20JpFoKnlKqevweXccL6gpMW9xPOjXEeZVKyWaXKXBwUrhYOg_5tfyQJ2GI4gusf412f2JySOPGpL31w0f2HcykR_Q6o4jXFELBxqVK-caPti",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
 				],
-				"articleID": "eval-001",
+				"articleID": "eval-1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRn_POsLh_uNVDbj7aISoDRMLaQgNWuELbZertY4Yy_qKmFHi7gzPBd2vu_QDyrXt3i_B62pdxYGHH1/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/6/9 12:00",
-				"cache": "eval-001_tw"
+				"cache": "eval-1_tw"
+			}
+		}
+	},
+	"_eval": {
+		"show": true,
+		"type": "sys",
+		"id": "_eval",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRu0rx2SXcmMSYWBmKI1Ies65r8haFEVHLfFK1P7UiP765qAWdmyMAKt3uR9zvAJc6HsrDl_hkURyYP/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSKBhohbzvGLSc66fJmhl-Hc5Hmz79iyKnxzmOnNKmV9pVhdevqWFTEKzQTafaywHnjO6IrZE7rxcEA/pub"
+		},
+		"publishedAt": "2022/8/2 14:30",
+		"path": "/eval",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "訊息可信度評量",
+				"subtitle": "IORG 資訊判讀力",
+				"tags": [
+					"訊息可信度評量"
+				],
+				"articleID": "_eval",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRu0rx2SXcmMSYWBmKI1Ies65r8haFEVHLfFK1P7UiP765qAWdmyMAKt3uR9zvAJc6HsrDl_hkURyYP/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/8/2 14:30",
+				"cache": "_eval_tw"
+			},
+			"_en": {
+				"title": "Information Credibility Evaluation",
+				"subtitle": "IORG: A Guide to Information Literacy",
+				"tags": [
+					"Information Credibility Evaluation"
+				],
+				"articleID": "_eval",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSKBhohbzvGLSc66fJmhl-Hc5Hmz79iyKnxzmOnNKmV9pVhdevqWFTEKzQTafaywHnjO6IrZE7rxcEA/pub",
+				"locale": "_en",
+				"publishedAt": "2022/8/2 14:30",
+				"cache": "_eval_en"
 			}
 		}
 	},

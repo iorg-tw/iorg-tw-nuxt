@@ -23,5 +23,7 @@ module.exports = [
   { from: '/a/chiu-wc', to: '/a/chiu-wei-chieh' },
   { from: '/a/hong-sh', to: '/a/hung-sun-han' },
   { from: /^\/[iv]{1}\/(.+)$/, to: '/a/$1' },
-  { from: /^\/f\/r-(.+)$/, to: '/r/$1' }
+  { from: /^\/f\/r-(.+)$/, to: '/r/$1' },
+  { from: /^\/a\/eval-00([1-7])$/, to: '/eval/$1'},
+  { from: /^\/eval\/00([1-7])$/, to: '/eval/$1'}
 ]
