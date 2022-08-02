@@ -6,6 +6,7 @@ _tw:
   eslite: "誠品"
   taaze: "讀冊"
   RiveGauche: "左岸文化"
+  evals: "訊息可信度評量"
   events: "近期活動"
   practice: "訊息可信度評量練習題"
   notes: "註釋"
@@ -18,6 +19,7 @@ _en:
   eslite: "Eslite"
   taaze: "Taaze"
   RiveGauche: "Rive Gauche Publishing"
+  evals: "Credibility Evals"
   events: "Events"
   practice: "Practice"
   notes: "Notes"
@@ -41,6 +43,10 @@ _en:
     </div>
   </div>
   <div class="section-header">
+    <p class="section-title-fancy">{{ $t('evals') }}</p>
+  </div>
+  <article-list type="eval" />
+  <div class="section-header">
     <p class="section-title-fancy">{{ $t('events') }}</p>
   </div>
   <event-list type="conf" series="book" :show-sign-up="true" :sort="1" />
@@ -60,10 +66,12 @@ import { PUNCT } from '~/lib/const'
 import { generateMeta } from '~/lib/meta'
 import coverBook from '~/static/images/cover-book.png'
 import bookImage from '~/static/images/book.png'
+import ArticleList from '~/components/ArticleList'
 import EventList from '~/components/EventList'
 
 export default {
   components: {
+    ArticleList,
     EventList
   },
   data() {
