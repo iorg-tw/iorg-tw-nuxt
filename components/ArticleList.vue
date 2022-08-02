@@ -43,7 +43,7 @@ export default {
   props: {
     type: {
       type: String,
-      default: 'article+video' // types = article video research da sys
+      default: 'article+video' // types = article video research da eval sys
     },
     showAll: {
       type: Boolean,
@@ -52,7 +52,7 @@ export default {
   },
   data() {
     if(this.showAll) {
-      this.type = 'article+video+research+sys'
+      this.type = 'article+da+eval+video+research+sys'
     }
     const keys = Object.keys(allArticles)
     const articles = Object.assign({}, ...keys.filter(k => {
