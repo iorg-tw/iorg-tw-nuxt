@@ -335,6 +335,12 @@
 		"_tw": "宗教用語",
 		"_en": "Religious expression"
 	},
+	"warmongering": {
+		"id": "warmongering",
+		"classes": "alert",
+		"_tw": "好戰",
+		"_en": "Warmongering"
+	},
 	"run-data": {
 		"id": "run-data",
 		"classes": "highlight",
