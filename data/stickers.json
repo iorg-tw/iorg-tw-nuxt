@@ -299,6 +299,12 @@
 		"_tw": "宣稱簡單易懂",
 		"_en": "Claiming straightforwardness"
 	},
+	"provide-short-links": {
+		"id": "provide-short-links",
+		"classes": "alert",
+		"_tw": "提供連結",
+		"_en": "Providing short links"
+	},
 	"simplified-chi": {
 		"id": "simplified-chi",
 		"classes": "alert",
