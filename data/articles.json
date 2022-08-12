@@ -51,6 +51,33 @@
 			}
 		}
 	},
+	"eval-9": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-9",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR6FRkZwBfdMc_gRMPfaR16cC8SKwR9EO6BNtBAPiv1hEX5nYZubUFqqskfmVV1Ao5gsPr5Rmr6G4Wg/pub"
+		},
+		"publishedAt": "2022/8/12 13:30",
+		"path": "/eval/9",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「9400 萬遊說裴洛西」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 9 題",
+				"coverImage": "https://lh4.googleusercontent.com/MGvVt0_BJKeeVJMBlANXlWlVAFOM_k2aZuekSkxY7kTfqK-fyAhoa1Du0Y4XdDxBWNkPU_-oTorHBD3M_zhRu-zRZsE89HSdeF7GxGw3fm-5vta6Ub7-ddMdURJ1AHGcmQiGaW7gbwglJk-_",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-9",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR6FRkZwBfdMc_gRMPfaR16cC8SKwR9EO6BNtBAPiv1hEX5nYZubUFqqskfmVV1Ao5gsPr5Rmr6G4Wg/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/8/12 13:30",
+				"cache": "eval-9_tw"
+			}
+		}
+	},
 	"eval-8": {
 		"show": true,
 		"type": "eval",
