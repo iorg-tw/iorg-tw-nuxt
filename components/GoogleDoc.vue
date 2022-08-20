@@ -179,8 +179,8 @@ export default {
         background-color: var(--iorg-danger);
       }
       &.step > .content {
-        background-color: var(--iorg-text);
-        color: white;
+        background-color: var(--iorg-background);
+        color: var(--iorg-text);
       }
       &.highlight > .content {
         background-color: white;
