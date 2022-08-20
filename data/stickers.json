@@ -13,31 +13,31 @@
 	},
 	"pooh-says": {
 		"id": "pooh-says",
-		"classes": "danger",
+		"classes": "alert",
 		"_tw": "中共宣傳",
 		"_en": "CCP says"
 	},
 	"pooh-also": {
 		"id": "pooh-also",
-		"classes": "danger",
+		"classes": "alert",
 		"_tw": "中共協力",
 		"_en": "CCP also says"
 	},
 	"ccp-init": {
 		"id": "ccp-init",
-		"classes": "danger",
+		"classes": "alert",
 		"_tw": "中共發起",
 		"_en": "CCP initiation"
 	},
 	"ccp-part": {
 		"id": "ccp-part",
-		"classes": "danger",
+		"classes": "alert",
 		"_tw": "中共協力",
 		"_en": "CCP participation"
 	},
 	"ccp-ext": {
 		"id": "ccp-ext",
-		"classes": "danger",
+		"classes": "alert",
 		"_tw": "中共論述延伸",
 		"_en": "CCP extension"
 	},
@@ -346,6 +346,12 @@
 		"classes": "alert",
 		"_tw": "好戰",
 		"_en": "Warmongering"
+	},
+	"copy-paste-news": {
+		"id": "copy-paste-news",
+		"classes": "alert",
+		"_tw": "轉貼新聞",
+		"_en": "Copy paste news"
 	},
 	"run-data": {
 		"id": "run-data",
