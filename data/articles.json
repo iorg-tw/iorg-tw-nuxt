@@ -51,6 +51,60 @@
 			}
 		}
 	},
+	"eval-11": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-11",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTE58E2_NX0Xos5D6FTFhESLhSHSjyzjpKYd9m1UaddmM1o-C3yvjsOzV-k6YAsaC6eE2GuxSYyrbZN/pub"
+		},
+		"publishedAt": "2022/8/20 23:30",
+		"path": "/eval/11",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「台灣一點辦法也沒有」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 11 題",
+				"coverImage": "https://lh4.googleusercontent.com/K_bgybPLlDhdvEBstMKJ9JYiPGJ4maL_T7qgTIONsfPNXzlKZemqYQRCbsY22o7b6baO2DvwQoEDsg1VhsyWfoeMkT4EmyUmAYymMPPaDTc5KiKfCX-86RK_Pft_IwuUQNPziC4Ppf5lvAhV",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-11",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTE58E2_NX0Xos5D6FTFhESLhSHSjyzjpKYd9m1UaddmM1o-C3yvjsOzV-k6YAsaC6eE2GuxSYyrbZN/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/8/20 23:30",
+				"cache": "eval-11_tw"
+			}
+		}
+	},
+	"eval-10": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-10",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQkuPB5DVEeIye6FfDy8Xv5pDKOpZg2Q8F8Cg6fMWpZWFjH-Gu_rK8EBu90sR5ExVwm__pospHT5ErH/pub"
+		},
+		"publishedAt": "2022/8/15 9:00",
+		"path": "/eval/10",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「卡特總統承認」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 10 題",
+				"coverImage": "https://lh5.googleusercontent.com/-ckot2z0_RQylcrLbIHL4wXAHEWiRSnj_STERLOtmJe2c3te50mVqAiCn27dRXDha0dZatGIk_L0eHKp-1_7f-I-HvOas3_QvFhfK09jCPEHvRuSYJmsI4RuhaIA8MMBK0mjbEMnqZ5fn4RL",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-10",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQkuPB5DVEeIye6FfDy8Xv5pDKOpZg2Q8F8Cg6fMWpZWFjH-Gu_rK8EBu90sR5ExVwm__pospHT5ErH/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/8/15 9:00",
+				"cache": "eval-10_tw"
+			}
+		}
+	},
 	"eval-9": {
 		"show": true,
 		"type": "eval",
