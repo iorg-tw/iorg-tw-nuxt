@@ -347,11 +347,29 @@
 		"_tw": "好戰",
 		"_en": "Warmongering"
 	},
-	"copy-paste-news": {
-		"id": "copy-paste-news",
+	"repost-news": {
+		"id": "repost-news",
 		"classes": "alert",
 		"_tw": "轉貼新聞",
-		"_en": "Copy paste news"
+		"_en": "Reposting news"
+	},
+	"us-skep": {
+		"id": "us-skep",
+		"classes": "alert",
+		"_tw": "疑美論",
+		"_en": "US skepticism"
+	},
+	"jp-anta": {
+		"id": "jp-anta",
+		"classes": "alert",
+		"_tw": "仇日論",
+		"_en": "Japan antagonism"
+	},
+	"tw-skep": {
+		"id": "tw-skep",
+		"classes": "alert",
+		"_tw": "疑台論",
+		"_en": "Taiwan skepticism"
 	},
 	"run-data": {
 		"id": "run-data",
