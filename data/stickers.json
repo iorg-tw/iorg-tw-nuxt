@@ -171,25 +171,25 @@
 		"id": "unverified",
 		"classes": "bad",
 		"_tw": "無法證實的內容",
-		"_en": "Unverifable info"
+		"_en": "Unverifable content"
 	},
 	"unverifiable": {
 		"id": "unverifiable",
 		"classes": "bad",
 		"_tw": "無法證實的內容",
-		"_en": "Unverifable info"
+		"_en": "Unverifable content"
 	},
 	"false": {
 		"id": "false",
 		"classes": "danger",
 		"_tw": "錯誤",
-		"_en": "False"
+		"_en": "False content"
 	},
 	"part-false": {
 		"id": "part-false",
 		"classes": "danger",
 		"_tw": "包含錯誤內容",
-		"_en": "False"
+		"_en": "False content"
 	},
 	"distorted-content": {
 		"id": "distorted-content",
