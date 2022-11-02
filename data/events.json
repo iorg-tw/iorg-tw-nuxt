@@ -92,6 +92,29 @@
 			}
 		}
 	},
+	"wmd-ga-2022": {
+		"show": true,
+		"type": "conf",
+		"id": "wmd-ga-2022",
+		"area": "tp",
+		"date": "2022/10/25",
+		"time": null,
+		"dateAlt": "10.25-27",
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "世界民主運動全球大會",
+				"loc": "台北君悅飯店",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "World Movement for Democracy Global Assembly",
+				"loc": "Grand Hyatt Taipei",
+				"locale": "_en"
+			}
+		}
+	},
 	"book-6": {
 		"show": true,
 		"type": "conf",
