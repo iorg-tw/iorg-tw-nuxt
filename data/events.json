@@ -1,4 +1,25 @@
 {
+	"123": {
+		"show": true,
+		"type": "conf",
+		"id": "123",
+		"area": "tp",
+		"date": "2022/12/3",
+		"time": "9:00-17:00",
+		"upNext": true,
+		"signUpUntil": "2022/11/30",
+		"signUpURL": "https://forms.gle/RicyCmqWSRPXrW9E8",
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2022 民主韌性論壇",
+				"loc": "台灣大學法律學院霖澤館國際會議廳",
+				"slogan": "國際脈絡 × 台灣選舉 × 科學研究 × 資訊判讀教育",
+				"locale": "_tw"
+			}
+		}
+	},
 	"305": {
 		"show": true,
 		"type": "conf",
@@ -50,9 +71,9 @@
 		},
 		"localizedDocs": {
 			"_tw": {
-				"title": "IORG 民主防衛論壇：中國對台影響力作戰研究",
+				"title": "2021 民主防衛論壇：中國對台影響力作戰研究",
 				"subtitle": "2021.3.6 IORG 研討會",
-				"coverImage": "https://lh6.googleusercontent.com/JXs1blKyMlAV0RRHdtvQ01ex66GeWaOSu__ipyt1028Jmv2cw67uwQ4lcZldgHKnvIHbKpJV-CojOlQg_hWK3WJxHgWZtFGNJKdm2-nrYmo7EUGuHZDZYgd7DJSTefBmNSSbimoU-PM",
+				"coverImage": "https://lh5.googleusercontent.com/ouIqNqJIWdgtpeMA_efHnWh0cMaGTYbR_9fpCcRQDOJsF6v6cNowZxSiCPPYrrM_SKcfWqWls_4Cf-jz41INCT0R0vN90GhN6nA9fu47xaotyIdnp-YRdmpLrNOCJyz2_fpapoDezOCT2hmxnEu5-I1Vb4fqBNEw3Au_e4U0LBhCfWxbig",
 				"summary": "2021.3.6 IORG 研討會",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSZO665xPuxsc11-ADDzOm8srJ7ZTDjAP7Fhl3rLR4hQX8GWNez8qGu6KQbD4CRTAG7PLTJ9iL4nMR7/pub",
@@ -60,9 +81,9 @@
 				"cache": "306_tw"
 			},
 			"_en": {
-				"title": "IORG Defending Democracy Forum: Research on Chinese Influence Operations Against Taiwan",
+				"title": "2021 Defending Democracy Forum: Research on Chinese Influence Operations Against Taiwan",
 				"subtitle": "2021.3.6 IORG Research Forum",
-				"coverImage": "https://lh6.googleusercontent.com/cbJ1Ib1zkgH1t4sEC_3GIPDstlWh5gLzO0M8856b-ugMxcb0QYHvJlzYnMFf-anXjNRKiQRAof7Hk-J5EMMFVJEMbcp0HoWkAV9DmmulqfleLfNgp8ZXn8rPqxAkr8hArdFirxoJrsg",
+				"coverImage": "https://lh3.googleusercontent.com/LUgsnU0-6BF_dLZ9F9Iqc-j9kg4rqHCMFSFptBMi3zeREoSot0Dj0OO64d-G2n97s3UlwQxpHUT0edNzY3IO_yroO27sVR-PTiKsVitsvx41pVS5FhSS1V79tLwh6xNroV0pYB-b28ns-eET3P5nESil3fHjapRd8mCxgP8Crk-6zzo8Ig",
 				"summary": "2021.3.6 IORG Research Forum",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRQRDnBvfsxNN2G9FTH3x_jns5d8kAn39ckejuWHPgnaKKBdjrNE3tLRZqPFcM_puhLOicnGqqzAd-6/pub",
