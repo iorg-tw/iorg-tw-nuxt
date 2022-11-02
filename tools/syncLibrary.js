@@ -198,6 +198,7 @@ async function getEvents(rows) {
       area: row.area.trim(),
       date: row.date,
       time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null,
+      ...(row.dateAlt ? { dateAlt: row.dateAlt } : {}),
       ...(row.timeAlt ? { timeAlt: row.timeAlt } : {}),
       ...(row.upNext ? { upNext: true } : {}),
       ...(row.signUpUntil ? { signUpUntil: row.signUpUntil } : {}),
