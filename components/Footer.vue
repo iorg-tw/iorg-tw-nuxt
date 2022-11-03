@@ -35,7 +35,7 @@ _en:
       <p><span class="emoji">🐦</span> <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a></p>
       <p><span class="emoji">📙</span> <a href="https://instagram.com/infolitguide" target="_blank">資訊判讀力</a></p>
       <p><span class="emoji">🫤</span> <a href="https://facebook.com/iorgtw" target="_blank">IORG</a></p>
-      <p><span class="emoji">📺</span> <a href="https://www.youtube.com/channel/UC2t2HHhfz50KEvNhrqqSAKw" target="_blank">IORG</a></p>
+      <p><span class="emoji">📺</span> <a href="https://www.youtube.com/@iorgtw" target="_blank">IORG</a></p>
     </div>
   </div>
 </footer>
