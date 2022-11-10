@@ -171,13 +171,13 @@
 		"id": "unverified",
 		"classes": "bad",
 		"_tw": "無法證實的內容",
-		"_en": "Unverifable content"
+		"_en": "Unverifiable content"
 	},
 	"unverifiable": {
 		"id": "unverifiable",
 		"classes": "bad",
 		"_tw": "無法證實的內容",
-		"_en": "Unverifable content"
+		"_en": "Unverifiable content"
 	},
 	"false": {
 		"id": "false",
