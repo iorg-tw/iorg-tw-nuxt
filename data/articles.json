@@ -1,4 +1,30 @@
 {
+	"_DA_31": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_31",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRz2g4BeNN--AKPkyun7Vul38uXyVCqr7ZfaevlKysTkHIQM8nXPnaS-0x__MfSKRaLIUVBqm448WIe/pub"
+		},
+		"publishedAt": "2022/11/10 22:00",
+		"path": "/da/31",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "選舉上半場傳播熱度分析：Facebook 選情冷，整體聚焦台北桃園",
+				"subtitle": "IORG 心慌週報第 31 期 2022.7.1-10.31",
+				"coverImage": "https://lh6.googleusercontent.com/q13L-US_4TFhGLoHbR0SK_GxVqsMzhoRRDr0wm6ZROrXbsln5OzpnFHG7uH2S9S4GKT94mk-I-edrVuEozWITAqwlQKZ4pIQ6LVyR2TG5DOjqW-HHeexkK8N2QbD7wnU7QFDu4bKfR8qJaOlEzndAa1g_2g45JLkq8kcuPUIQAYUyWUVZy16lw",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_31",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRz2g4BeNN--AKPkyun7Vul38uXyVCqr7ZfaevlKysTkHIQM8nXPnaS-0x__MfSKRaLIUVBqm448WIe/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/11/10 22:00",
+				"cache": "_DA_31_tw"
+			}
+		}
+	},
 	"_DA_27": {
 		"show": true,
 		"type": "da",
