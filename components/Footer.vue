@@ -31,7 +31,7 @@ _en:
       <p><span class="emoji">📍</span> <nuxt-link :to="localePath('/e')">{{ $t('events') }}</nuxt-link></p>
     </div>
     <div class="panel">
-      <p><span class="emoji">📬</span> {{ $t('email') }} <a href="#">io [at] iorg.tw</a></p>
+      <p><span class="emoji">📬</span> {{ $t('email') }} <a href="#">hi [at] iorg.tw</a></p>
       <p><span class="emoji">🐦</span> <a href="https://twitter.com/iorgtw" target="_blank">@iorgtw</a></p>
       <p><span class="emoji">📙</span> <a href="https://instagram.com/infolitguide" target="_blank">資訊判讀力</a></p>
       <p><span class="emoji">🫤</span> <a href="https://facebook.com/iorgtw" target="_blank">IORG</a></p>
