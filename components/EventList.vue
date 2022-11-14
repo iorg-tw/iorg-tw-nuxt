@@ -116,10 +116,11 @@ export default {
         color: var(--iorg-accent);
       }
       > h3 {
+        font-size: 1.125rem;
         margin: 0.125rem 0;
       }
       > .loc {
-        font-size: 1rem;
+        font-size: 0.875rem;
       }
       > .time {
         font-size: 0.85rem;

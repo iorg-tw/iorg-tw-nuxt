@@ -97,6 +97,9 @@ export default {
 .article-list {
   .article {
     > .detail {
+      > h3 {
+        font-size: 1.125rem;
+      }
       > h4 { // subtitle
         margin: 0.125rem 0;
         font-size: 0.75rem;
