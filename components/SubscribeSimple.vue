@@ -3,12 +3,12 @@
   "_tw": {
     "sub": "留下 Email，訂閱 <span class=dokidoki>IORG 資訊操弄心<span class=doki>慌</span>週報</span>。",
     "sub_after_article": "感謝你閱讀這一期的 <span class=dokidoki>IORG 資訊操弄心<span class=doki>慌</span>週報</span>。<br>覺得不錯嗎？留下 Email 就可以訂閱囉 <span class=yes>✌️</span>",
-    "privacy": "基於隱私保護，你的 Email 僅供 IORG 寄送心慌週報使用，絕不轉作他用，絕不轉交他人。如果你不想再收到 IORG 心慌週報，請隨時寄信至 bye@iorg.tw 取消訂閱，非常感謝。"
+    "privacy": "基於隱私保護，你的 Email 僅供 IORG 寄送心慌週報使用，絕不轉作他用，絕不轉交他人。如果你不想再收到 IORG 心慌週報，請隨時寄信至 bye [at] iorg.tw 取消訂閱，非常感謝。"
   },
   "_en": {
     "sub": "Subscribe to <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert</span>.",
     "sub_after_article": "Thank you for reading this <span class=dokidoki>IORG Dokid<span class=doki>o</span>ki Alert</span>. Like it? Please subscribe <span class=yes>✌️</span>",
-    "privacy": "To protect your privacy, your email will only be used to send you Dokidoki Alert. It will not be used for any other purpose, nor will it be available to anyone outside IORG. If you want to unsubscribe, please email to bye@iorg.tw. Thank you."
+    "privacy": "To protect your privacy, your email will only be used to send you Dokidoki Alert. It will not be used for any other purpose, nor will it be available to anyone outside IORG. If you want to unsubscribe, please email to bye [at] iorg.tw. Thank you."
   }
 }
 </i18n>
