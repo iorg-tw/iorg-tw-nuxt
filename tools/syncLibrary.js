@@ -73,7 +73,7 @@ async function getStickers(rows) {
 }
 
 async function getArticles(rows) {
-  rows = rows.filter(row => row.id && [row.publicURL_tw, row.publicURL_en].some(url => url !== undefined)).map(row => ({
+  rows = rows.filter(row => row.id && [row.publicURL_tw, row.publicURL_en].some(url => ok(url))).map(row => ({
     show: row.show ? true : false,
     type: row.type,
     id: row.id,
@@ -196,6 +196,8 @@ async function getEvents(rows) {
       ...(row.series ? { series: row.series } : {}),
       id: row.id,
       area: row.area.trim(),
+      ...(row['loc_tw'] ? { loc: row['loc_tw'] } : {}),
+      ...(row['slogan_tw'] ? { slogan: row['slogan_tw'] } : {}), // FIXME: should support multiple locales
       date: row.date,
       time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null,
       ...(row.dateAlt ? { dateAlt: row.dateAlt } : {}),
