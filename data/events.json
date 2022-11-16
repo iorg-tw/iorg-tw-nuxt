@@ -14,7 +14,8 @@
 		"cache": true,
 		"hasPage": true,
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQU13tFqvz0h8Gyt1ToJpaCh2zL35A3pdqTyaZxfDC-OkVhuwKBXwTi0t6aGzhSP_wWDl0Ox4eEeiLb/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQU13tFqvz0h8Gyt1ToJpaCh2zL35A3pdqTyaZxfDC-OkVhuwKBXwTi0t6aGzhSP_wWDl0Ox4eEeiLb/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vShNSTUBawilRWQI8CCAcju00BYVgTqshrbsAFrjy9TSjVSW-A6mU3DW7J8D6A9GnOJ0usdpZG5s2c7/pub"
 		},
 		"localizedDocs": {
 			"_tw": {
@@ -25,6 +26,15 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQU13tFqvz0h8Gyt1ToJpaCh2zL35A3pdqTyaZxfDC-OkVhuwKBXwTi0t6aGzhSP_wWDl0Ox4eEeiLb/pub",
 				"locale": "_tw",
 				"cache": "123_tw"
+			},
+			"_en": {
+				"title": "2022 Forum for Democratic Resilience",
+				"subtitle": "2021.12.13 IORG",
+				"summary": "2021.12.13 IORG",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vShNSTUBawilRWQI8CCAcju00BYVgTqshrbsAFrjy9TSjVSW-A6mU3DW7J8D6A9GnOJ0usdpZG5s2c7/pub",
+				"locale": "_en",
+				"cache": "123_en"
 			}
 		}
 	},
