@@ -5,10 +5,12 @@ const libRedirects = require('../data/redirects.json')
 redirects.push(...libRedirects.filter(entry => entry.active))
 
 module.exports = function(req, res, next) {
+  let from = req.url.split('?').shift() // remove params // FIXME: should parse
   let to = null
+  let locale = null
   redirects.some(r => {
-    let from = req.url.substring(1).split('/') // remove leading /
-    let locale = null
+    from = from.substring(1).split('/')
+    locale = null
     if(locales.includes(from[0])) { // first part is locale
       locale = from.shift()
     }
@@ -21,7 +23,7 @@ module.exports = function(req, res, next) {
     return to !== null
   })
   if(to) {
-    console.log(`${req.url} => ${to}`)
+    console.log(`${req.url} => ${from} => ${to}`)
     res.writeHead(301, { Location: to })
     res.end()
   } else {
