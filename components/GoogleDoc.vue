@@ -445,6 +445,7 @@ export default {
         }
         @each $k, $v in $td-widths {
           $w: $v + $td-m;
+          &.w-#{$k},
           &.w-min-#{$k} {
             min-width: $w;
           }
