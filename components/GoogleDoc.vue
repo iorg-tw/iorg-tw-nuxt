@@ -162,10 +162,9 @@ export default {
       & > .content {
         display: inline-block;
         background-color: var(--iorg-accent);
-        font-size: 1rem;
         line-height: 1.0;
         padding: 0.25rem 0.625rem;
-        margin: 0 0.125rem;
+        margin: 0 0.125rem 0.25rem;
         border-radius: 1rem; // overshooting
         verticle-align: top;
       }

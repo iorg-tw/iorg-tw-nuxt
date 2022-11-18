@@ -281,23 +281,41 @@
 		"_tw": "非人化",
 		"_en": "Dehumanization"
 	},
+	"nickname": {
+		"id": "nickname",
+		"classes": "alert",
+		"_tw": "取綽號",
+		"_en": "Nicknaming"
+	},
 	"claim-long-term": {
 		"id": "claim-long-term",
 		"classes": "alert",
 		"_tw": "宣稱長期現象",
 		"_en": "Claiming long-term effect"
 	},
-	"call-share": {
-		"id": "call-share",
-		"classes": "alert",
-		"_tw": "呼籲轉傳",
-		"_en": "Call to share"
-	},
 	"claim-straightforward": {
 		"id": "claim-straightforward",
 		"classes": "alert",
 		"_tw": "宣稱簡單易懂",
 		"_en": "Claiming straightforwardness"
+	},
+	"claim-truthful": {
+		"id": "claim-truthful",
+		"classes": "alert",
+		"_tw": "宣稱真相",
+		"_en": "Claiming truthfulness"
+	},
+	"claim-media-cover-up": {
+		"id": "claim-media-cover-up",
+		"classes": "alert",
+		"_tw": "宣稱媒體掩蓋真相",
+		"_en": "Claiming media cover-up"
+	},
+	"call-share": {
+		"id": "call-share",
+		"classes": "alert",
+		"_tw": "呼籲轉傳",
+		"_en": "Call to share"
 	},
 	"provide-short-links": {
 		"id": "provide-short-links",
@@ -353,6 +371,12 @@
 		"_tw": "轉貼新聞",
 		"_en": "Reposting news"
 	},
+	"repost-wikipedia": {
+		"id": "repost-wikipedia",
+		"classes": "alert",
+		"_tw": "轉貼 Wikipedia",
+		"_en": "Reposting Wikipedia"
+	},
 	"us-skep": {
 		"id": "us-skep",
 		"classes": "alert",
@@ -370,6 +394,18 @@
 		"classes": "alert",
 		"_tw": "疑台論",
 		"_en": "Taiwan skepticism"
+	},
+	"tw-bad": {
+		"id": "tw-bad",
+		"classes": "alert",
+		"_tw": "廢台論",
+		"_en": "Taiwan bad"
+	},
+	"ext-gov": {
+		"id": "ext-gov",
+		"classes": "alert",
+		"_tw": "外部治理論",
+		"_en": "External governance"
 	},
 	"run-data": {
 		"id": "run-data",
