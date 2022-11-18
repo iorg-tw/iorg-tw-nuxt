@@ -1,4 +1,56 @@
 {
+	"_DA_33": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_33",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQG_oUSX-RlWKVvmvFQsHWebKmCSzt7D8ew3g6rtgEOVO-7RXhoEaCCbWeodZ-OG8epWoJh0Mt4SRUs/pub"
+		},
+		"publishedAt": "2022/11/18 12:00",
+		"path": "/da/33",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "Hello 2018 – 關於選舉，內容農場「密訊」重現傳播盛況，獲 Facebook 粉專分享總數高居第 2",
+				"subtitle": "IORG 心慌週報第 32 期 2022.7.1-10.31",
+				"coverImage": "https://lh5.googleusercontent.com/ckkKo1tIc00DRoPJYAJkrGYdoG-RuxjOoKjJpbG8gm_RqFX4epLwQxSbES566tiuf0xxeoIm8bbeiZNmajTBcslBW-89N4CrIx99saaBE-Xm1NTDoZ8DWqB_s_qS89dBBicP3k409cuxTdS5Ya7X6YhqKCq2TS7DCkklgR3W6qQK_v7llCxoooc",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_33",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQG_oUSX-RlWKVvmvFQsHWebKmCSzt7D8ew3g6rtgEOVO-7RXhoEaCCbWeodZ-OG8epWoJh0Mt4SRUs/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/11/18 12:00",
+				"cache": "_DA_33_tw"
+			}
+		}
+	},
+	"_DA_32": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_32",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTz2sv6YytU_OcSJMhW_1Vuv7urbmdFkEkehe3mUJ_kC65UwWZz4sECOUf3wNxx8LphEJ1GtcC0bs6M/pub"
+		},
+		"publishedAt": "2022/11/17 22:00",
+		"path": "/da/32",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "選舉期間，慎防「出口中國再進口」的 LINE 謠言傳播資訊操弄",
+				"subtitle": "IORG 心慌週報第 32 期 2022.7.1-11.15",
+				"coverImage": "https://lh5.googleusercontent.com/y7KpU8zU4fjC0fja4nUuPCxL8uqlhY-GNH4-Rsf0yivtgYoPHA7AP6O-JPWPEeKikbqWCsNsbhI_X9arDbHG2nmn11Xi7_umXp6T8MnZcJK-kb8WDvX4B1oHymdXlSRjbimOD2ESxOapVpa1OKHfKyryhA14D6g0iifsILwNvcfN9CBTYtJECKI",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_32",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTz2sv6YytU_OcSJMhW_1Vuv7urbmdFkEkehe3mUJ_kC65UwWZz4sECOUf3wNxx8LphEJ1GtcC0bs6M/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/11/17 22:00",
+				"cache": "_DA_32_tw"
+			}
+		}
+	},
 	"_DA_31": {
 		"show": true,
 		"type": "da",
@@ -13,7 +65,7 @@
 			"_tw": {
 				"title": "選舉上半場傳播熱度分析：Facebook 選情冷，新聞熱，整體聚焦台北桃園",
 				"subtitle": "IORG 心慌週報第 31 期 2022.7.1-10.31",
-				"coverImage": "https://lh4.googleusercontent.com/-nwOxPfsRtA1xcko9fdhRN-Kae-j7MOQD6Vu_VqVKjdyXkC2Amj7DMZ6NqZ6dxt5vbSU0LqG_ZxdaCowRMzybteW2S75hApyrwfG2uXlot4L8Hz4MQREXPYulPkadiLbunxGoqTOMWEV-9pRXRKuVhTlEs0P4uEEv8LF-ibJ1QT7sCcVmTfKQQ",
+				"coverImage": "https://lh6.googleusercontent.com/1R4DOzOlOba64cNH1lFQJhSHIHfghLctKFIkV4ZYiUnE3KEL_F8sgkp8xVBq0DbZyeOnT_ReMionyj3f60VhlX2WcTngkv6N37AET4Nx3qqRcUwQQUDr8QXRmw971Virne6NAcWILPukv_tcAwf9apy0f3FI48IrvMDxCRpSTHsGhDwpcJyPmD0",
 				"tags": [
 					"心慌週報"
 				],
