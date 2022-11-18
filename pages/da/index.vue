@@ -2,7 +2,7 @@
 _tw:
   articles: "週報"
   title: "心慌週報"
-  description: "IORG 資訊操弄心慌週報"
+  description: "IORG 心慌週報"
 _en:
   articles: "Alert"
   title: "Dokidoki Alert"
