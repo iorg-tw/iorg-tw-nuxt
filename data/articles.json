@@ -1,4 +1,30 @@
 {
+	"_DA_35": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_35",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTtoLbyMNQueHvv9V43Qcu9mtH4PNdyjc9Q2ElrJkTSuobLxric7StPkjhNU8pQ3sA1XJILqYeb9OkF/pub"
+		},
+		"publishedAt": "2022/11/23 18:00",
+		"path": "/da/35",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣選舉在微博：旺中佔 6 成以上，中共官媒 1 成",
+				"subtitle": "IORG 心慌週報第 35 期 2022.8.16-11.15",
+				"coverImage": "https://lh3.googleusercontent.com/38WBCShy5EqGOyV_b1hneWAgVjWc_pLhVOZImMw6UKR7GLcdN1bDZiPS4u3_sM6jl-Q6J9dFtbs2fiy-BnjZRVYvEtT3QUlRlgPIuMCFH3Xq-yUq2ncNZWgQiPUBkbbBchXuERuRBZDswOdzVfghEKnTIyhx1ivE0-IhMP25pMEC8BhnoFbhn5Y",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_35",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTtoLbyMNQueHvv9V43Qcu9mtH4PNdyjc9Q2ElrJkTSuobLxric7StPkjhNU8pQ3sA1XJILqYeb9OkF/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/11/23 18:00",
+				"cache": "_DA_35_tw"
+			}
+		}
+	},
 	"_DA_34": {
 		"show": true,
 		"type": "da",
