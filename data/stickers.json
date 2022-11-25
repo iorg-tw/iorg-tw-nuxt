@@ -311,6 +311,12 @@
 		"_tw": "宣稱媒體掩蓋真相",
 		"_en": "Claiming media cover-up"
 	},
+	"claim-new-reg": {
+		"id": "claim-new-reg",
+		"classes": "alert",
+		"_tw": "宣稱新法規政策",
+		"_en": "Claiming new regulation"
+	},
 	"call-share": {
 		"id": "call-share",
 		"classes": "alert",
@@ -407,6 +413,12 @@
 		"_tw": "外部治理論",
 		"_en": "External governance"
 	},
+	"gender-stereotype": {
+		"id": "gender-stereotype",
+		"classes": "alert",
+		"_tw": "性別刻板印象",
+		"_en": "Gender stereotype"
+	},
 	"run-data": {
 		"id": "run-data",
 		"classes": "highlight",
@@ -496,5 +508,11 @@
 		"classes": "pink",
 		"_tw": "中國",
 		"_en": "China"
+	},
+	"phishing": {
+		"id": "phishing",
+		"classes": "danger",
+		"_tw": "釣魚",
+		"_en": "Phishing"
 	}
 }
