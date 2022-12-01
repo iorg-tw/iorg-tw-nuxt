@@ -1,4 +1,27 @@
 {
+	"_R_2022": {
+		"show": false,
+		"type": "article",
+		"id": "_R_2022",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRKAfzMx2jr3-KNwsCjI8bREbLhx4tYSDJToZsV_zUYc_3RgEXVqetk_dVXRHUIYs6RqZfGAl2Fjr0f/pub"
+		},
+		"publishedAt": "2022/12/3 8:00",
+		"path": "/r/2022",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 2022 總體研究成果",
+				"subtitle": "2022 IORG 台灣資訊環境研究",
+				"tags": [],
+				"articleID": "_R_2022",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRKAfzMx2jr3-KNwsCjI8bREbLhx4tYSDJToZsV_zUYc_3RgEXVqetk_dVXRHUIYs6RqZfGAl2Fjr0f/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/12/3 8:00",
+				"cache": "_R_2022_tw"
+			}
+		}
+	},
 	"_DA_36": {
 		"show": true,
 		"type": "da",
