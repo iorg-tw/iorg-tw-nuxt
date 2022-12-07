@@ -13,7 +13,7 @@ export default {
     SubscribeSimple
   },
   head() {
-    return generateMeta('訂閱心慌週報')
+    return generateMeta('訂閱 IORG 電子報')
   }
 }
 </script>

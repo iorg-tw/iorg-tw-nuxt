@@ -4,7 +4,7 @@
 		"group": 2021,
 		"level": 0,
 		"code": "K",
-		"image": "/images/covers/k-h.png",
+		"image": "/images/tree/k-h.png",
 		"path": "/r/2021"
 	},
 	{
@@ -12,7 +12,7 @@
 		"group": 2020,
 		"level": 0,
 		"code": "K",
-		"image": "/images/covers/k-h.png",
+		"image": "/images/tree/k-h.png",
 		"path": "/r/2020"
 	},
 	{
@@ -20,7 +20,7 @@
 		"group": 2020,
 		"level": 0,
 		"code": "B",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b"
 	},
 	{
@@ -29,7 +29,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.1",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b1"
 	},
 	{
@@ -38,7 +38,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.2",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b2"
 	},
 	{
@@ -47,7 +47,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.3",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b3"
 	},
 	{
@@ -56,7 +56,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.4",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b4"
 	},
 	{
@@ -65,7 +65,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.5",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b5"
 	},
 	{
@@ -74,7 +74,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.6",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b6"
 	},
 	{
@@ -83,7 +83,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "B.7",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/b7"
 	},
 	{
@@ -92,7 +92,7 @@
 		"level": 1,
 		"parent": "_R_B",
 		"code": "R.1",
-		"image": "/images/covers/b-h.png",
+		"image": "/images/tree/b-h.png",
 		"path": "/r/r1"
 	},
 	{
@@ -100,7 +100,7 @@
 		"group": 2020,
 		"level": 0,
 		"code": "D",
-		"image": "/images/covers/d-h.png",
+		"image": "/images/tree/d-h.png",
 		"path": "/r/d"
 	},
 	{
@@ -109,7 +109,7 @@
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.1",
-		"image": "/images/covers/d-h.png",
+		"image": "/images/tree/d-h.png",
 		"path": "/r/d1"
 	},
 	{
@@ -118,7 +118,7 @@
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.2",
-		"image": "/images/covers/d-h.png",
+		"image": "/images/tree/d-h.png",
 		"path": "/r/d2"
 	},
 	{
@@ -127,7 +127,7 @@
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.3",
-		"image": "/images/covers/d-h.png",
+		"image": "/images/tree/d-h.png",
 		"path": "/r/d3"
 	},
 	{
@@ -136,7 +136,7 @@
 		"level": 1,
 		"parent": "_R_D",
 		"code": "D.4",
-		"image": "/images/covers/d-h.png",
+		"image": "/images/tree/d-h.png",
 		"path": "/r/d4"
 	},
 	{
@@ -144,7 +144,7 @@
 		"group": 2020,
 		"level": 0,
 		"code": "E",
-		"image": "/images/covers/e-h.png",
+		"image": "/images/tree/e-h.png",
 		"path": "/r/e"
 	},
 	{
@@ -152,7 +152,7 @@
 		"group": 2020,
 		"level": 0,
 		"code": "CE",
-		"image": "/images/covers/ce-h.png",
+		"image": "/images/tree/ce-h.png",
 		"path": "/a/ce-2020"
 	},
 	{
@@ -160,7 +160,7 @@
 		"group": 0,
 		"level": 0,
 		"code": "G",
-		"image": "/images/covers/g-h.png",
+		"image": "/images/tree/g-h.png",
 		"path": "/open/glossary"
 	},
 	{
@@ -168,7 +168,7 @@
 		"group": 0,
 		"level": 0,
 		"code": "M",
-		"image": "/images/covers/m-h.png",
+		"image": "/images/tree/m-h.png",
 		"path": "/open/rm"
 	},
 	{
@@ -176,7 +176,7 @@
 		"group": 0,
 		"level": 0,
 		"code": "X",
-		"image": "/images/covers/x-h.png",
+		"image": "/images/tree/x-h.png",
 		"path": "/archive"
 	},
 	{
@@ -184,7 +184,7 @@
 		"group": 0,
 		"level": 0,
 		"code": "O",
-		"image": "/images/covers/o-h.png",
+		"image": "/images/tree/o-h.png",
 		"path": "/open"
 	}
 ]

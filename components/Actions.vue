@@ -8,7 +8,7 @@ _en:
 <template>
 <div class="actions">
   <a v-for="action of actions" :key="action.name" class="action block" :href="action.url">
-    <template v-if="action.type === 'report'">
+    <template v-if="true">
       <img class="image" :src="action.image" />
       <a :href="action.url" class="button primary">{{ $t(action.name) }}</a>
     </template>
@@ -22,9 +22,9 @@ export default {
     return {
       actions: [
         {
-          type: 'report',
+          type: 'research',
           name: 'readMore',
-          image: '/images/covers/r.png',
+          image: '/images/tree-r.png',
           url: 'https://iorg.tw/r'
         }
       ]
