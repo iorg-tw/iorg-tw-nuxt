@@ -14,7 +14,8 @@ _en:
     <a v-for="deck of decks" :key="deck.title" class="deck block panel xlarge tiled filled raised" :href="deck.from" target="_blank">
       <div class="detail">
         <h3>{{ deck.title }}</h3>
-        <p class="url">URL = <span class="href">iorg.tw{{ deck.from }}</span></p>
+        <p v-if="deck.publishedAt" class="published-at">{{ deck.publishedAt.replace(/\//g, '.') }}</p>
+        <p class="url"><span class="href">iorg.tw{{ deck.from }}</span></p>
       </div>
     </a>
   </div>
@@ -35,7 +36,7 @@ export default {
 
 <style lang="scss">
 .page.decks {
-  .decks > .deck > .detail > .url {
+  .decks > .deck > .detail > .url, .published-at {
     margin: 0.25rem 0 0;
     font-size: 0.75rem;
     color: var(--iorg-neutral);
