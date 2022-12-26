@@ -1,4 +1,30 @@
 {
+	"_DA_37": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_37",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub"
+		},
+		"publishedAt": "2022/12/27 12:00",
+		"path": "/da/37",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "關於台積電，疑美論再進化：美國掏空、脅迫、毀台；台灣政府賣台、美國走狗",
+				"subtitle": "IORG 心慌週報第 37 期 2022.1.1-11.30",
+				"coverImage": "https://lh6.googleusercontent.com/OxYQWxhr6KcjYfEdRegonaQc6xRdgk1samGDuOqc1NJrJxxxsK1ZCs-KXxJ1duS85v-jtaS7LtmVT2WzBiUAiIE1Jee9vLRVz9VgsLNLQnQEb_LvPeFAq_2oOrhbYDujOBmf9WBsRs88gzvyb77CF7WY35oz6Svve5sw-GvTMtirRt7tjo6vFRI",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_37",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/12/27 12:00",
+				"cache": "_DA_37_tw"
+			}
+		}
+	},
 	"_R_2022": {
 		"show": false,
 		"type": "article",
