@@ -514,5 +514,33 @@
 		"classes": "danger",
 		"_tw": "釣魚",
 		"_en": "Phishing"
+	},
+	"tw-cn": {
+		"id": "tw-cn",
+		"classes": "alert",
+		"_tw": "🇹🇼-🇨🇳",
+		"_en": "🇹🇼-🇨🇳"
+	},
+	"cn-tw": {
+		"id": "cn-tw",
+		"classes": "alert",
+		"_tw": "🇨🇳-🇹🇼",
+		"_en": "🇨🇳-🇹🇼"
+	},
+	"tw-cn-tw": {
+		"id": "tw-cn-tw",
+		"classes": "alert",
+		"_tw": "🇹🇼-🇨🇳-🇹🇼",
+		"_en": "🇹🇼-🇨🇳-🇹🇼"
+	},
+	"cn..tw": {
+		"id": "cn..tw",
+		"classes": "alert",
+		"_tw": "🇨🇳··🇹🇼"
+	},
+	"cn..tw-cn": {
+		"id": "cn..tw-cn",
+		"classes": "alert",
+		"_tw": "🇨🇳··🇹🇼-🇨🇳"
 	}
 }
