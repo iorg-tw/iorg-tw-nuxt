@@ -542,5 +542,17 @@
 		"id": "cn..tw-cn",
 		"classes": "alert",
 		"_tw": "🇨🇳··🇹🇼-🇨🇳"
+	},
+	"uni-stmt": {
+		"id": "uni-stmt",
+		"classes": "alert",
+		"_tw": "全稱命題",
+		"_en": "Universal statement"
+	},
+	"authoritarian-narrative": {
+		"id": "authoritarian-narrative",
+		"classes": "alert",
+		"_tw": "威權論述",
+		"_en": "Authoritarian narrative"
 	}
 }
