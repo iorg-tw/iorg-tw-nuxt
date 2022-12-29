@@ -1,30 +1,4 @@
 {
-	"_DA_37": {
-		"show": true,
-		"type": "da",
-		"id": "_DA_37",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub"
-		},
-		"publishedAt": "2022/12/27 12:00",
-		"path": "/da/37",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "關於台積電：結合戰爭焦慮，疑美論再進化",
-				"subtitle": "IORG 心慌週報第 37 期 2022.1.1-11.30",
-				"coverImage": "https://lh4.googleusercontent.com/Rn0Kni8qPRPJC5cqk3BMFpjw6V8datLhl8LNzBmVJuSQZ6vHGsk7nsowDp0NPY36GX-0hNKwvaDISaeUUhW7EdISepUxuXJ4lGCVJRMs8g76TRxXLF84rSqbODtK3QqB6EQG-jtbgWRK7fEatH8eduybnVBApCV4tRKMXjArN_3po2rtzGbvQ8Y",
-				"tags": [
-					"心慌週報"
-				],
-				"articleID": "_DA_37",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub",
-				"locale": "_tw",
-				"publishedAt": "2022/12/27 12:00",
-				"cache": "_DA_37_tw"
-			}
-		}
-	},
 	"_R_2022": {
 		"show": false,
 		"type": "article",
@@ -45,6 +19,59 @@
 				"locale": "_tw",
 				"publishedAt": "2022/12/3 8:00",
 				"cache": "_R_2022_tw"
+			}
+		}
+	},
+	"eval-13": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-13",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS-tFlCekXlRKa-dnAJCNHvxoK-REjzKdZMhkR4QGL739m6520kp4pAVDVi8QndtuTkDI1CMRtNlzHU/pub"
+		},
+		"publishedAt": "2022/12/29 12:00",
+		"path": "/eval/13",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「美國干涉台灣內政，蔡政府配合像兒皇帝」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 13 題",
+				"coverImage": "https://lh5.googleusercontent.com/ypYB_7n8hTHVNPLuf2RQxhn9WIvKGfU7klPUzJ6Osp46Y5Knj5GVa0xt0VbIouGgn7-0jWqFmDMHeGrjECQwgtIKM8ZvAxWNq4-4osUkxMH7gPSsayR-3ImvaaeHQbDofFu5SOaiMuVf3OxvPfKe2WZijBv-JT7lqebdjq4G7VlgPBzIRZ3nzA",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-13",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS-tFlCekXlRKa-dnAJCNHvxoK-REjzKdZMhkR4QGL739m6520kp4pAVDVi8QndtuTkDI1CMRtNlzHU/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/12/29 12:00",
+				"cache": "eval-13_tw"
+			}
+		}
+	},
+	"_DA_37": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_37",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub"
+		},
+		"publishedAt": "2022/12/27 12:00",
+		"path": "/da/37",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "關於台積電：結合戰爭焦慮，疑美論再進化",
+				"subtitle": "IORG 心慌週報第 37 期 2022.1.1-11.30",
+				"coverImage": "https://lh4.googleusercontent.com/6QtxtDIkVnPh8KizCuHFAf1EM4k6t-dXcJIvVWHtPxaY8L7O-Uu5e7soz3wBXIRLsvWupi1BAcFmUWQ54I4H5EKfGmerHowRxXwMJzqHXgwBeM6WxLcGbSe0RGpZ-IaXVANWFguhsVJ170-qiodViHqX6Zs8yEN12-_sYf3Aa9BD9uV5AIRkjuc",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_37",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/12/27 12:00",
+				"cache": "_DA_37_tw"
 			}
 		}
 	},
@@ -253,6 +280,32 @@
 				"locale": "_tw",
 				"publishedAt": "2022/6/23 12:00",
 				"cache": "_DA_26_tw"
+			}
+		}
+	},
+	"eval-12": {
+		"show": false,
+		"type": "eval",
+		"id": "eval-12",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSba3KAPpqOONleK43xB6llpTnDMUSw8Ur81GNKcs8cdIA4pPLKDZyg1uKlmldCNNNO1Q5v7S9TOmSY/pub"
+		},
+		"publishedAt": "2022/8/26 23:30",
+		"path": "/eval/12",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「台獨妹不知感恩」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 12 題",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-12",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSba3KAPpqOONleK43xB6llpTnDMUSw8Ur81GNKcs8cdIA4pPLKDZyg1uKlmldCNNNO1Q5v7S9TOmSY/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/8/26 23:30",
+				"cache": "eval-12_tw"
 			}
 		}
 	},
