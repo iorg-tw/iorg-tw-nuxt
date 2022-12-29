@@ -225,9 +225,15 @@ export default {
       margin-bottom: 0.25rem;
       > div {
         font-size: 1rem;
+        font-weight: normal;
         line-height: 1.0;
         padding: 0.375rem 0.625rem;
       }
+    }
+    h3 .sticker {
+      font-size: 1rem;
+      font-weight: normal;
+      line-height: 1.0;
     }
     div.label.inline {
       display: inline-block;
