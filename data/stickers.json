@@ -554,5 +554,23 @@
 		"classes": "alert",
 		"_tw": "威權論述",
 		"_en": "Authoritarian narrative"
+	},
+	"out-of-context": {
+		"id": "out-of-context",
+		"classes": "bad",
+		"_tw": "脫離情境",
+		"_en": "Out of context"
+	},
+	"attribution-error": {
+		"id": "attribution-error",
+		"classes": "danger",
+		"_tw": "錯誤歸因",
+		"_en": "Attribution error"
+	},
+	"appeal-hate": {
+		"id": "appeal-hate",
+		"classes": "bad",
+		"_tw": "引起仇恨",
+		"_en": "Appeal hate"
 	}
 }
