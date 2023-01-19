@@ -1,4 +1,31 @@
 {
+	"eval-15": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-15",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS-ACd6gPbQYEhkvkLA04wqmcgor1Nx-QnFuaMotC96eiAh4WxCRtAjECNIAjIwpKNsaUJQ7UejbXLo/pub"
+		},
+		"publishedAt": "2023/1/19 17:00",
+		"path": "/eval/15",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「蔡英文想讓年輕人當拆彈少年團」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 15 題",
+				"coverImage": "https://lh3.googleusercontent.com/XvOcCzn2H_f1DHWox1tHmSU3IEp6Wd7GAVWF5GcrrpXIEHqwohnNgzKqzOmpD0VbLvU-nh5FGFjPt_KOUx9talKcDJCUjRQVpuEKr3tsqn_S0E13IGBQAn90XADKRy2DtcLKjiMClBItjtVt9EudUBgESyaI7zo7UHYiCaYcD2PVrcKfSy93qzA",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-15",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS-ACd6gPbQYEhkvkLA04wqmcgor1Nx-QnFuaMotC96eiAh4WxCRtAjECNIAjIwpKNsaUJQ7UejbXLo/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/1/19 17:00",
+				"cache": "eval-15_tw"
+			}
+		}
+	},
 	"_R_2022": {
 		"show": false,
 		"type": "article",
