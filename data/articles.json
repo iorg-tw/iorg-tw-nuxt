@@ -26,6 +26,33 @@
 			}
 		}
 	},
+	"eval-16": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-16",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQvyT7r0e5aJGzLjr4s-Q5BJ8ZnYcWEwzmt5SeIiu4rqjBFA2gh7NTajS1MAVneqd_voZXhYuwBHmT0/pub"
+		},
+		"publishedAt": "2023/1/17 12:00",
+		"path": "/eval/16",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「台美豬肉製品瘦肉精超標」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 16 題",
+				"coverImage": "https://lh5.googleusercontent.com/bimSrK__zHspLU4pk9D9txpuW5_rwTNpdIFHQQtQWvsYZgOZn54CVQKR1LdAoiAVP1D3jtoY-3isVSljWURe8v4gFGMALErmJi69EOxzPTN0cpjdc2B9kYCgUtgqDZMnhFrCBTU01PIznlGG",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-16",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQvyT7r0e5aJGzLjr4s-Q5BJ8ZnYcWEwzmt5SeIiu4rqjBFA2gh7NTajS1MAVneqd_voZXhYuwBHmT0/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/1/17 12:00",
+				"cache": "eval-16_tw"
+			}
+		}
+	},
 	"eval-15": {
 		"show": true,
 		"type": "eval",
