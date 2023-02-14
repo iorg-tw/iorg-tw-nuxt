@@ -1,5 +1,13 @@
 [
 	{
+		"id": "_R_2022",
+		"group": 2022,
+		"level": 0,
+		"code": "K",
+		"image": "/images/tree/k-h.png",
+		"path": "/r/2022"
+	},
+	{
 		"id": "_R_2021",
 		"group": 2021,
 		"level": 0,
