@@ -101,11 +101,23 @@
 		"_tw": "尚待科學驗證",
 		"_en": "Wait for science"
 	},
+	"pending-investigation": {
+		"id": "pending-investigation",
+		"classes": "bad",
+		"_tw": "尚待司法調查",
+		"_en": "Pending judicial investigation"
+	},
+	"pending-science": {
+		"id": "pending-science",
+		"classes": "bad",
+		"_tw": "尚待科學驗證",
+		"_en": "Pending scientific verification"
+	},
 	"lack-science": {
 		"id": "lack-science",
 		"classes": "bad",
 		"_tw": "沒有科學證據",
-		"_en": "Lack science"
+		"_en": "Lack scientific evidence"
 	},
 	"no-evidence": {
 		"id": "no-evidence",
@@ -129,7 +141,7 @@
 		"id": "unverifiable-src",
 		"classes": "bad",
 		"_tw": "無法證實的來源",
-		"_en": "Unverifable source"
+		"_en": "Source unverifable"
 	},
 	"false-src": {
 		"id": "false-src",
@@ -171,13 +183,13 @@
 		"id": "unverified",
 		"classes": "bad",
 		"_tw": "無法證實的內容",
-		"_en": "Unverifiable content"
+		"_en": "Content unverifiable"
 	},
 	"unverifiable": {
 		"id": "unverifiable",
 		"classes": "bad",
 		"_tw": "無法證實的內容",
-		"_en": "Unverifiable content"
+		"_en": "Content unverifiable"
 	},
 	"false": {
 		"id": "false",
@@ -536,12 +548,14 @@
 	"cn..tw": {
 		"id": "cn..tw",
 		"classes": "alert",
-		"_tw": "🇨🇳··🇹🇼"
+		"_tw": "🇨🇳⋯🇹🇼",
+		"_en": "🇨🇳⋯🇹🇼"
 	},
 	"cn..tw-cn": {
 		"id": "cn..tw-cn",
 		"classes": "alert",
-		"_tw": "🇨🇳··🇹🇼-🇨🇳"
+		"_tw": "🇨🇳⋯🇹🇼-🇨🇳",
+		"_en": "🇨🇳⋯🇹🇼-🇨🇳"
 	},
 	"uni-stmt": {
 		"id": "uni-stmt",
@@ -561,6 +575,12 @@
 		"_tw": "脫離情境",
 		"_en": "Out of context"
 	},
+	"oversimp": {
+		"id": "oversimp",
+		"classes": "danger",
+		"_tw": "過度簡化",
+		"_en": "Oversimplification"
+	},
 	"attribution-error": {
 		"id": "attribution-error",
 		"classes": "danger",
@@ -571,6 +591,6 @@
 		"id": "appeal-hate",
 		"classes": "bad",
 		"_tw": "引起仇恨",
-		"_en": "Appeal hate"
+		"_en": "Appeal to hate"
 	}
 }
