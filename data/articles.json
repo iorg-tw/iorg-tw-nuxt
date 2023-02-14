@@ -1,4 +1,31 @@
 {
+	"eval-17": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-17",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQyZDYVNVV4XLcN8yYtF-IREHU7aoIzXiVDHnZEsPYxc1ncABS12evToWzzftQocVgSBRKNALAFhJ-d/pub"
+		},
+		"publishedAt": "2023/2/14 17:00",
+		"path": "/eval/17",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「年輕人準備落跑」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 17 題",
+				"coverImage": "https://lh4.googleusercontent.com/BvaZCaCEB_6zJHIFuyO4mfIrZBV7rz045sztte0ERD1-xQEFBQCP24_RbeKIRiITIAb4nGQ1P17xNdh80FuY3lKkl2DKta6Vtr1sV2EKZP8ZKhGMU4NcfQyY9WT46AmqTNFH0S0tPYAgeTnG",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-17",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQyZDYVNVV4XLcN8yYtF-IREHU7aoIzXiVDHnZEsPYxc1ncABS12evToWzzftQocVgSBRKNALAFhJ-d/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/2/14 17:00",
+				"cache": "eval-17_tw"
+			}
+		}
+	},
 	"eval-15": {
 		"show": true,
 		"type": "eval",
