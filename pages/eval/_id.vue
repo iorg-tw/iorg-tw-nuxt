@@ -1,5 +1,5 @@
 <template>
-<div class="page eval-article">
+<div class="page article">
   <google-doc :doc="doc" />
   <actions />
 </div>
