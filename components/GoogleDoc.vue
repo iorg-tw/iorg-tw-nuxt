@@ -144,6 +144,13 @@ export default {
       margin-bottom: 1.5rem;
       line-height: $line-height-comfortable;
     }
+    ul, ol {
+      > li {
+        > .note {
+          font-size: 0.75em;
+        }
+      }
+    }
     a.ioid,
     a.da {
       border-bottom-width: 1px;
