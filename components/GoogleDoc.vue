@@ -109,6 +109,7 @@ export default {
     --page-spacing: 1.5rem;
   }
   --list-indent: 1.375rem;
+  --list-item-spacing: 0;
 
   // sections
   > .title {
@@ -146,9 +147,17 @@ export default {
     }
     ul, ol {
       > li {
+        padding-left: var(--list-item-spacing);
         > .note {
           font-size: 0.75em;
         }
+      }
+    }
+    ol.list-paragraphs {
+      --list-indent: 2rem;
+      --list-item-spacing: 0.5rem;
+      > li {
+        margin-bottom: 1.5rem;
       }
     }
     a.ioid,
