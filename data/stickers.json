@@ -592,5 +592,17 @@
 		"classes": "bad",
 		"_tw": "引起仇恨",
 		"_en": "Appeal to hate"
+	},
+	"hired-acct": {
+		"id": "hired-acct",
+		"classes": "danger",
+		"_tw": "受僱帳號",
+		"_en": "Hired account"
+	},
+	"hijacked-acct": {
+		"id": "hijacked-acct",
+		"classes": "danger",
+		"_tw": "受盜用帳號",
+		"_en": "Hijacked account"
 	}
 }
