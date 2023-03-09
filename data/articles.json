@@ -347,6 +347,32 @@
 			}
 		}
 	},
+	"_DA_28": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_28",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSk4zsAvk6TlmWoGfopVEPUS3n2LKZtybJS5_jnu1C3A66iEIsB4G2n2ObCS2KPPQVcy1HSmbLgbd7c/pub"
+		},
+		"publishedAt": "2023/3/9 13:00",
+		"path": "/da/28",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "裴洛西訪台：錯誤訊息引起戰爭恐懼，疑美論破壞民主同盟",
+				"subtitle": "IORG 心慌週報第 28 期 2022.1.1-8.14",
+				"coverImage": "https://lh5.googleusercontent.com/3Xbe34ZAlLBexmfY4piyqWUNgAUCNiIM737rUD2-gDvvup7eBy6I9hQCJ6l6OMdaHX3N4XZel-EZHVovXG8-MyviVQZvcO26c4xSAc92acEbqFXzZFnUoV2WvVbCuSsDNKd9Vz1Ob8tK2Nrr",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_28",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSk4zsAvk6TlmWoGfopVEPUS3n2LKZtybJS5_jnu1C3A66iEIsB4G2n2ObCS2KPPQVcy1HSmbLgbd7c/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/3/9 13:00",
+				"cache": "_DA_28_tw"
+			}
+		}
+	},
 	"_DA_27": {
 		"show": true,
 		"type": "da",
