@@ -8,7 +8,6 @@
 		"slogan": "國際脈絡 × 台灣選舉 × 科學研究 × 資訊判讀教育",
 		"date": "2022/12/3",
 		"time": "9:00-17:00",
-		"upNext": true,
 		"signUpUntil": "2022/11/30",
 		"signUpURL": "https://forms.gle/RicyCmqWSRPXrW9E8",
 		"cache": true,
@@ -107,6 +106,35 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRQRDnBvfsxNN2G9FTH3x_jns5d8kAn39ckejuWHPgnaKKBdjrNE3tLRZqPFcM_puhLOicnGqqzAd-6/pub",
 				"locale": "_en",
 				"cache": "306_en"
+			}
+		}
+	},
+	"2023-0329": {
+		"show": true,
+		"type": "conf",
+		"id": "2023-0329",
+		"area": "kh",
+		"loc": "高雄國際會議中心 602",
+		"date": "2023/3/29",
+		"time": "13:00-21:00",
+		"upNext": true,
+		"signUpUntil": "2023/3/28",
+		"signUpURL": "https://forms.gle/Qn2Uczt39vAJBXyR8",
+		"cache": true,
+		"hasPage": true,
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTuZ6A1vYj-v0uOD4S2BMuFNWB_vT6oWGrCApCCUbUjzGvyQD4Kl2W27HsKU0FEWzD7iDZVswhwObja/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "台歐經驗：強化資訊環境，守護民主",
+				"subtitle": "2023.3.29 歐洲價值安全政策中心 × 台灣放伴教育協會 × 台灣資訊環境中心 IORG",
+				"coverImage": "https://lh4.googleusercontent.com/tCM8Wr6ZxpgEmTVwlOaGJVceURvvMKY9GcLcmVG-DbT_6NReOa39JJL9sYvpf3WDQ5h6DBg_Ur_40NyWCPxiDI1QvEg-1DMaT8UwXsvSHSrDJB0BiqnB3oL8iW1Zfda1WoQJICWWKBzQmeSD",
+				"summary": "2022.3.29",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTuZ6A1vYj-v0uOD4S2BMuFNWB_vT6oWGrCApCCUbUjzGvyQD4Kl2W27HsKU0FEWzD7iDZVswhwObja/pub",
+				"locale": "_tw",
+				"cache": "2023-0329_tw"
 			}
 		}
 	},
@@ -567,7 +595,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-67",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -693,7 +721,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-60",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -711,7 +739,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-59",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -747,7 +775,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-57",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -765,7 +793,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-56",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -801,7 +829,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-54",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -837,7 +865,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-52",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -855,7 +883,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-51",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -909,7 +937,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-48",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -1035,7 +1063,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-41",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -1197,7 +1225,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-32",
-		"area": "ks",
+		"area": "kh",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
@@ -1539,7 +1567,7 @@
 		"show": true,
 		"type": "workshop",
 		"id": "ws-13",
-		"area": "ks",
+		"area": "高雄",
 		"hasPage": false,
 		"localizedDocs": {
 			"_tw": {
