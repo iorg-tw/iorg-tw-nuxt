@@ -527,6 +527,16 @@
 		"_tw": "釣魚",
 		"_en": "Phishing"
 	},
+	"tw": {
+		"id": "tw",
+		"classes": "alert",
+		"_tw": "🇹🇼"
+	},
+	"cn": {
+		"id": "cn",
+		"classes": "alert",
+		"_tw": "🇨🇳"
+	},
 	"tw-cn": {
 		"id": "tw-cn",
 		"classes": "alert",
@@ -604,5 +614,11 @@
 		"classes": "danger",
 		"_tw": "受盜用帳號",
 		"_en": "Hijacked account"
+	},
+	"island-netizen": {
+		"id": "island-netizen",
+		"classes": "alert",
+		"_tw": "島內網民",
+		"_en": "Island netizen"
 	}
 }

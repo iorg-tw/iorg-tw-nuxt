@@ -1,4 +1,30 @@
 {
+	"_DA_38": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_38",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSdUcZxnUxyqtfJtHxBzKZ43ctd69NImrqaqinbYrsweYN3dTmQuWFIEBqvUFH-JFgHYWUjNfDMbWhV/pub"
+		},
+		"publishedAt": "2023/3/30 18:00",
+		"path": "/da/38",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "延續麥卡錫和裴洛西兩任美國議長的「疑美論」",
+				"subtitle": "IORG 心慌週報第 38 期 2022.8.1-2023.2.28",
+				"coverImage": "https://lh6.googleusercontent.com/uXGhDny_P0xRiEP_zXREVA3PahYYcBJecV7AQHcYM3klbBrx8xEU7q0NrYr3f-nBgLlRfBV69xA3MXzeo6yY_IX87Kw-UA55ry2ZSzNulOa5r8wrUM8DjiQSA6BGGQh2cBg4qjGOjBpuZZRr",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_38",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSdUcZxnUxyqtfJtHxBzKZ43ctd69NImrqaqinbYrsweYN3dTmQuWFIEBqvUFH-JFgHYWUjNfDMbWhV/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/3/30 18:00",
+				"cache": "_DA_38_tw"
+			}
+		}
+	},
 	"policy-brief-2023": {
 		"show": true,
 		"type": "article",
