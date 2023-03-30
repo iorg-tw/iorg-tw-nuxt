@@ -117,8 +117,7 @@
 		"loc": "高雄國際會議中心 602",
 		"date": "2023/3/29",
 		"time": "13:00-21:00",
-		"upNext": true,
-		"signUpUntil": "2023/3/28",
+		"signUpUntil": "2023/3/29 12:00",
 		"signUpURL": "https://forms.gle/Qn2Uczt39vAJBXyR8",
 		"cache": true,
 		"hasPage": true,
@@ -129,7 +128,7 @@
 			"_tw": {
 				"title": "台歐經驗：強化資訊環境，守護民主",
 				"subtitle": "2023.3.29 歐洲經貿辦事處 × 歐洲價值安全政策中心 × 台灣放伴教育協會 × 台灣資訊環境中心 IORG",
-				"coverImage": "https://lh5.googleusercontent.com/17dP6MsZMSBw2Km_-8WkIPcpW_TCutQiP-x3lIucR0Bdb74MEmashoC1z7ubodP-uhIGWl6XxfhlUlMUqNIojnVUKwyxnmSs6AILB8w4A2jhZYF-U8ycI0hnHZ0TRBhEEMOhhqv1GOf9Sm4G",
+				"coverImage": "https://lh3.googleusercontent.com/docs/AG8NV2YklruuBW8o16u1sRfEFmRLhfZYLkZ8BfMR_3xaF1EVazccpP-FO6a7SVEimDxSe4PQ_P7j9B5SEiEdY6m29uFFIG4QPlZI4k3MdVWyfQqzdo3ich3xaVNHz4MW4RrBHYNBOts5Q6Qeju3YTvXY0mCrt0Z6zCjCoMf2WTaHBSUtK0YDRp3pquN_TPkLH2xJNoA",
 				"summary": "2023.3.29 歐洲經貿辦事處 × 歐洲價值安全政策中心 × 台灣放伴教育協會 × 台灣資訊環境中心 IORG",
 				"tags": [],
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTuZ6A1vYj-v0uOD4S2BMuFNWB_vT6oWGrCApCCUbUjzGvyQD4Kl2W27HsKU0FEWzD7iDZVswhwObja/pub",
