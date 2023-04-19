@@ -1,4 +1,30 @@
 {
+	"_DA_39": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_39",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vThbjOUcWkgPaOCzTLISfGgvnZsk2HciXuOBfl4VmU7TrbtpP-dMdACxTYmPpzTpGoEGlkwkvyOneCO/pub"
+		},
+		"publishedAt": "2023/4/19 19:00",
+		"path": "/da/39",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "10 張圖表分析雙英出訪",
+				"subtitle": "IORG 心慌週報第 39 期 2023.3.1-4.9",
+				"coverImage": "https://lh3.googleusercontent.com/R8u46A29S8t08t4U7ke2pZChgzTMOCgQPaOl0q7XDz6uaKcKj4Oq6zoA0imTldy8PVxzk0dBjNCkCrKHP6LD-JD6rujD7BXHeAEEEdZqaHE6DxkY25nszII-ApzLwlSwrlxAYYSGzecM4d0W",
+				"tags": [
+					"心慌週報"
+				],
+				"articleID": "_DA_39",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vThbjOUcWkgPaOCzTLISfGgvnZsk2HciXuOBfl4VmU7TrbtpP-dMdACxTYmPpzTpGoEGlkwkvyOneCO/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/4/19 19:00",
+				"cache": "_DA_39_tw"
+			}
+		}
+	},
 	"_DA_38": {
 		"show": true,
 		"type": "da",
