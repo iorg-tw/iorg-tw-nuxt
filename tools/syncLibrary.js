@@ -189,6 +189,37 @@ async function getEvents(rows) {
     ...(row.timeAlt ? { timeAlt: row.timeAlt } : {})
   }))
 
+  const meetups = rows.filter(row => row.type === 'meetup' && row.id).map(row => {
+    const meetup = { // default
+      show: row.show ? true : false,
+      type: 'meetup',
+      ...(row.series ? { series: row.series } : {}),
+      id: row.id,
+      area: row.area.trim(),
+      date: row.date,
+      time: row.start ? [row.start, ...(row.end ? [row.end] : [])].join('-') : null
+    }
+    if(row.title_tw) { // meetup has no page
+      const locales = ['_tw', '_en']
+      const localizedDocs = {}
+      for(const locale of locales) {
+        if(row['title' + locale]) {
+          localizedDocs[locale] = {
+            title: row['title' + locale],
+            ...(row['loc' + locale] ? { loc: row['loc' + locale] } : {}),
+            locale
+          }
+        }
+      }
+      return Object.assign(meetup, {
+        hasPage: false,
+        localizedDocs
+      })
+    } else {
+      return null
+    }
+  }).filter(row => row !== null)
+
   const confs = rows.filter(row => row.type === 'conf' && row.id).map(row => {
     const conf = { // default
       show: row.show ? true : false,
@@ -288,7 +319,7 @@ async function getEvents(rows) {
 
     delete conf.reload
   }
-  const eventMap = Object.assign({}, ...confs.map(conf => ({ [conf.id]: conf })), ...workshops.map(workshop => ({ [workshop.id]: workshop })))
+  const eventMap = Object.assign({}, ...meetups.map(meetup => ({ [meetup.id]: meetup })), ...confs.map(conf => ({ [conf.id]: conf })), ...workshops.map(workshop => ({ [workshop.id]: workshop })))
   fs.writeFileSync('data/events.json', JSON.stringify(eventMap, null, '\t'))
 }
 

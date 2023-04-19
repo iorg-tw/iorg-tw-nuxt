@@ -109,6 +109,51 @@
 			}
 		}
 	},
+	"meetup-2304": {
+		"show": true,
+		"type": "meetup",
+		"id": "meetup-2304",
+		"area": "tp",
+		"date": "2023/4/26",
+		"time": "14:00-17:00",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣資訊環境小聚 2304",
+				"locale": "_tw"
+			}
+		}
+	},
+	"meetup-2303": {
+		"show": true,
+		"type": "meetup",
+		"id": "meetup-2303",
+		"area": "tp",
+		"date": "2023/3/22",
+		"time": "14:00-17:00",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣資訊環境小聚 2303",
+				"locale": "_tw"
+			}
+		}
+	},
+	"meetup-2302": {
+		"show": true,
+		"type": "meetup",
+		"id": "meetup-2302",
+		"area": "tp",
+		"date": "2023/2/23",
+		"time": "15:00-17:00",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣資訊環境小聚 2302",
+				"locale": "_tw"
+			}
+		}
+	},
 	"2023-0329": {
 		"show": true,
 		"type": "conf",
