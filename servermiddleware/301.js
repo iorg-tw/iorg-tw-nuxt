@@ -17,7 +17,9 @@ module.exports = function(req, res, next) {
     from = '/' + from.join('/')
     if(r.from instanceof RegExp && from.match(r.from)) {
       to = from.replace(r.from, r.to)
-    } else if(from === r.from) {
+    } else if(typeof from === 'string' && typeof r.from === 'string' && from.toLowerCase() === r.from.toLowerCase()) {
+      to = r.to
+    } else if(r.from === from) {
       to = r.to
     }
     return to !== null
