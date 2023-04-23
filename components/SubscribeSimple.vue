@@ -53,7 +53,7 @@ export default {
     transform: translateX(0); // HACK!
     overflow: hidden;
     > iframe {
-      width: 548px;
+      width: 600px;
       height: $h + 84px + $y1 - $y2;
       margin-top: -84px + $y2;
       margin-left: 0px;
