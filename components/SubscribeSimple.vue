@@ -43,17 +43,18 @@ export default {
   }
   $y1: 20px;
   $y2: -8px;
+  $h: 368px;
   > .form-container {
     width: 100%;
-    height: 320px + $y1;
+    height: $h + $y1;
     margin: 0.5rem 0;
     border-radius: 0.75rem;
     box-shadow: 0 0 0 2px var(--iorg-accent); // instead of outline
     transform: translateX(0); // HACK!
     overflow: hidden;
     > iframe {
-      width: 480px;
-      height: 404px + $y1 - $y2;
+      width: 548px;
+      height: $h + 84px + $y1 - $y2;
       margin-top: -84px + $y2;
       margin-left: 0px;
       border: 0;
