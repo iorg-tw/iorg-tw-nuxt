@@ -6,19 +6,22 @@ const config = {
     {
       code: '_tw',
       iso: 'zh-Hant-TW',
-      name: '台',
+      name: '華語',
+      nameType: 'text',
       file: 'tw.json'
     },
     {
       code: '_en',
       iso: 'en-US',
-      name: 'En',
+      name: 'Eng',
+      nameType: 'text',
       file: 'en.json'
     },
     {
       code: '_ua',
       iso: 'ua',
-      name: 'Ук',
+      name: '🇺🇦',
+      nameType: 'flag',
       file: 'ua.json'
     }
   ],

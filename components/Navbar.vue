@@ -21,15 +21,14 @@ _en:
     <img src="/images/logo-2022.png" />
   </nuxt-link>
   <div class="menu main-menu">
-    <nuxt-link :to="localePath('/book')" class="item block"><span class="emoji">📙</span><span class="text">{{ $t('book') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/r')" class="item block"><span class="emoji">🧬</span><span class="text">{{ $t('research') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/eval')" class="item block"><span class="emoji">⚠️</span><span class="text">{{ $t('eval') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/da')" class="item block"><span class="emoji">🔔</span><span class="text">{{ $t('da') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/r')" class="item block"><span class="emoji">🧬</span><span class="text">{{ $t('research') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/a')" class="item block"><span class="emoji kerning-right-2">🖋</span><span class="text">{{ $t('articles') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/e')" class="item block"><span class="emoji kerning-right-4">📍</span><span class="text">{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
-    <nuxt-link v-for="locale of availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="item block minimal"><img :src="`/images/locale${locale.code}.png`" /></nuxt-link>
+    <nuxt-link v-for="locale of availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)" class="item block minimal" :class="locale.nameType"><span>{{ locale.name }}</span></nuxt-link>
   </div>
 </div>
 </template>
@@ -48,7 +47,7 @@ export default {
 @import '~assets/styles/resources';
 
 .navbar {
-  $size: 54px;
+  $size: 48px;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -69,6 +68,8 @@ export default {
       margin: 0;
       padding: 0;
       line-height: $size;
+      height: $size;
+      overflow: hidden;
     }
   }
   > .main-menu {
@@ -115,23 +116,30 @@ export default {
     }
   }
   > .langs {
-    $size: 2.5rem;
-    $offset: 0.5rem;
-    $gap: 0.25rem;
     position: absolute;
-    top: $offset;
-    right: $offset;
+    & {
+      top: 0.25rem;
+      right: 0.25rem;
+    }
+    @media (min-width: 640px) {
+      top: 0.5rem;
+      right: 0.5rem;
+    }
     padding: 0;
+    border: 2px solid currentColor;
+    border-radius: 1px;
     > .item {
-      margin-left: $gap;
-      padding: 0;
-      background-color: var(--iorg-accent);
-      border-radius: $size;
-      @include shadow;
-      > img {
-        width: $size;
-        height: $size;
+      padding: 0.25rem 0.5rem;
+      height: 2rem;
+      line-height: 1;
+      &:not(:last-of-type) {
+        border-right: 2px solid currentColor;
       }
+      &.text {
+        font-size: 0.875rem;
+        line-height: 1rem;
+      }
+      &.flag {}
     }
   }
 }
