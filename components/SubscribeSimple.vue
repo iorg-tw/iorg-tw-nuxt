@@ -18,7 +18,7 @@
   <p v-if="context === 'default'" class="description" v-html="$t('sub')"></p>
   <p v-else-if="context === 'article'" class="description" v-html="$t('sub_after_article')"></p>
   <div class="form-container">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScW5xxLe4cxfyoXpue2VSWrv0WdZByr6YfwoR8iQD70MOKsXg/viewform"></iframe>
+    <iframe src="https://www.surveycake.com/s/xxPap" allowTransparency="true"></iframe>
   </div>
   <p class="privacy">{{ $t('privacy') }}</p>
 </div>
@@ -43,7 +43,7 @@ export default {
   }
   $y1: 20px;
   $y2: -8px;
-  $h: 368px;
+  $h: 180px;
   > .form-container {
     width: 100%;
     height: $h + $y1;
@@ -53,9 +53,10 @@ export default {
     transform: translateX(0); // HACK!
     overflow: hidden;
     > iframe {
-      width: 600px;
-      height: $h + 84px + $y1 - $y2;
-      margin-top: -84px + $y2;
+      $t: 138px; // scroll top
+      width: 360px;
+      height: $h + $t + $y1 - $y2;
+      margin-top: -$t + $y2;
       margin-left: 0px;
       border: 0;
     }
