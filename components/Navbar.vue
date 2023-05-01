@@ -129,7 +129,7 @@ export default {
     border: 2px solid currentColor;
     border-radius: 1px;
     > .item {
-      padding: 0.25rem 0.5rem;
+      padding: 0.5rem;
       height: 2rem;
       line-height: 1;
       &:not(:last-of-type) {
@@ -137,9 +137,18 @@ export default {
       }
       &.text {
         font-size: 0.875rem;
-        line-height: 1rem;
+        > span {
+          line-height: 0.875rem;
+        }
       }
-      &.flag {}
+      &.flag {
+        > span {
+          line-height: 1rem;
+        }
+      }
+      > span {
+        display: inline-block;
+      }
     }
   }
 }
