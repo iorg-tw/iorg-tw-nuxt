@@ -401,6 +401,12 @@
 		"_tw": "疑美論",
 		"_en": "US skepticism"
 	},
+	"jp-skep": {
+		"id": "jp-skep",
+		"classes": "alert",
+		"_tw": "疑日論",
+		"_en": "Japan skepticism"
+	},
 	"jp-anta": {
 		"id": "jp-anta",
 		"classes": "alert",
@@ -620,5 +626,11 @@
 		"classes": "alert",
 		"_tw": "島內網民",
 		"_en": "Island netizen"
+	},
+	"yt": {
+		"id": "yt",
+		"classes": "yt",
+		"_tw": "YouTube",
+		"_en": "YouTube"
 	}
 }
