@@ -1,4 +1,30 @@
 {
+	"_DA_40": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_40",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTD84astC1smJxwnu1GPxIphqiunJYsxfnozb_UBDmJGwqul3nF_Fo4jgfQ3Ic2vfjinxhp8FjmWl3_/pub"
+		},
+		"publishedAt": "2023/5/3 19:00",
+		"path": "/da/40",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "蔡英文訪美期間 11 項可疑論述",
+				"subtitle": "IORG 週報第 40 期 2023.3.1-2023.4.9",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oGcTYDTScaoJjpyWaJ4rdvukc1AveoSMNoFZqQf8U47ETxouvDv7lBF5LiAPS8Isxs9omTTjuSzXlrWH_KGNsPbfzQomONUcBkeqbdIEBxBer1LvSrebbAHb749Mdxkeay3yXsr9FDpY3t-qMkSKHpHI8tQiMXfBTf_BNVOl28mmY-WXC1UHMDDaOGhLQJON54",
+				"tags": [
+					"週報"
+				],
+				"articleID": "_DA_40",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTD84astC1smJxwnu1GPxIphqiunJYsxfnozb_UBDmJGwqul3nF_Fo4jgfQ3Ic2vfjinxhp8FjmWl3_/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/5/3 19:00",
+				"cache": "_DA_40_tw"
+			}
+		}
+	},
 	"_DA_39": {
 		"show": true,
 		"type": "da",
@@ -13,10 +39,10 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "10 張圖表分析蔡英文、馬英九「雙英」出訪",
-				"subtitle": "IORG 心慌週報第 39 期 2023.3.1-4.9",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oEA3nPaHzRNIBN9a96kQ_bqX4fYzf8VBVZSDQqfL3f-aa7mQHlIP1lEDadF506mx7nFWHZGMa1caiZttGCOYNFQoaeDyqFN9XSJ0pwYYqtWxNfZRvh4ajgVcgcwh_HFA6xvHOz3Jn_xnno1nxVSpJLSLoVkUfjmSJdt-CTB_XVdLCZ6Pw5u4qHzQedh20OewI8",
+				"subtitle": "IORG 週報第 39 期 2023.3.1-4.9",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oEpSDJRJOXCyex-iwVNvBFAD5NgK6EFY_yAWlLesTE3UzdFJmKh77iINLW4IYWUsjmJjO14B2_EjqdZ5NLP79RwDDyCjtYuNdEAiGTjAJCNFz7kM3H4q3W8jrl-kJe2Ryn4HIzypuY1XMzWk391re8n8Mo2BFi2MyMAkqhAvjsIDEa73r_YFUQ5vWlUQZib",
 				"tags": [
-					"心慌週報"
+					"週報"
 				],
 				"articleID": "_DA_39",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vThbjOUcWkgPaOCzTLISfGgvnZsk2HciXuOBfl4VmU7TrbtpP-dMdACxTYmPpzTpGoEGlkwkvyOneCO/pub",
@@ -41,10 +67,10 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "延續麥卡錫和裴洛西兩任美國議長的「疑美論」",
-				"subtitle": "IORG 心慌週報第 38 期 2022.8.1-2023.2.28",
-				"coverImage": "https://lh6.googleusercontent.com/36cuO2XLTSIbsyO703w2YRkDTOurLWEWWC9qjjcNfHioRnqKx_rTaL_RTLpUD42Smat5KErwb6pqmK9TGd3-kjV52MQj4IoUP-lUCiQ4zIWBuCUXf3MrtUid5TpmDFx-HV0fCXG-R1ERSyDK",
+				"subtitle": "IORG 週報第 38 期 2022.8.1-2023.2.28",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oGq-GSkijEXXeXep7zRhlSCtf-AGzBKbsUX9G9v9GJm-ASGYUrstq7DwzgkHqBjwW_-rUoK1-cCUZZM6aTQI5Ir0IgdkO-lrJEKP8aeYNiw1eb6q9VIgSIzyWo0OIqEk4WPXbjjNcvKl_xmH4X4pVfTljR-cdYAOQZfJNAUkSBDWL8dJ9pi_rGGJaMykfNRlb0",
 				"tags": [
-					"心慌週報"
+					"週報"
 				],
 				"articleID": "_DA_38",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSdUcZxnUxyqtfJtHxBzKZ43ctd69NImrqaqinbYrsweYN3dTmQuWFIEBqvUFH-JFgHYWUjNfDMbWhV/pub",
@@ -89,6 +115,17 @@
 				"cache": "policy-brief-2023_en"
 			}
 		}
+	},
+	"forum-2022-1": {
+		"show": false,
+		"type": "article",
+		"id": "forum-2022-1",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRrljui59WniCI-jsa9NREmT247fua4kEmMQpZAQ00nxtJSd2ZkX5-jPTk0zob4QhXPNkXCn6tuuIoH/pub"
+		},
+		"publishedAt": "2023/3/18 20:00",
+		"cache": false,
+		"localizedDocs": {}
 	},
 	"_R_2022": {
 		"show": false,
@@ -234,10 +271,10 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "關於台積電：結合戰爭焦慮，疑美論再進化",
-				"subtitle": "IORG 心慌週報第 37 期 2022.1.1-11.30",
-				"coverImage": "https://lh4.googleusercontent.com/6QtxtDIkVnPh8KizCuHFAf1EM4k6t-dXcJIvVWHtPxaY8L7O-Uu5e7soz3wBXIRLsvWupi1BAcFmUWQ54I4H5EKfGmerHowRxXwMJzqHXgwBeM6WxLcGbSe0RGpZ-IaXVANWFguhsVJ170-qiodViHqX6Zs8yEN12-_sYf3Aa9BD9uV5AIRkjuc",
+				"subtitle": "IORG 週報第 37 期 2022.1.1-11.30",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oEOPvhSEuraUsHYCq4qexbJUbh1h3MV696GVCpMg2uYsWAzI6WqJwGAdpZw1S8S8zUE9RPJWnFiRSOdWWB1RgT_r8wn8IZc-a1tHzXPem_wlRoc8nvBnLiLQVqxo6fplgju3zhg-E4OK0ndqa24tiaur6eMFvdtLZCltIxxwzH9u3ahLzFx4R1Hm3AZJi2kxug",
 				"tags": [
-					"心慌週報"
+					"週報"
 				],
 				"articleID": "_DA_37",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub",
