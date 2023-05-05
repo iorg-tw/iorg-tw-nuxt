@@ -117,14 +117,8 @@ export default {
   }
   > .langs {
     position: absolute;
-    & {
-      top: 0.25rem;
-      right: 0.25rem;
-    }
-    @media (min-width: 640px) {
-      top: 0.5rem;
-      right: 0.5rem;
-    }
+    top: 0.5rem;
+    right: 0.5rem;
     padding: 0;
     border: 2px solid currentColor;
     border-radius: 1px;
