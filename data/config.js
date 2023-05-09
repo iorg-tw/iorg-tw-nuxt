@@ -1,6 +1,6 @@
 const config = {
   title: '台灣資訊環境研究中心 IORG',
-  description: '專注資訊環境相關跨領域科學研究、科技研發、公眾溝通，推動校園教育、社區教育，強化民主韌性，反制威權擴張',
+  description: '以資訊環境相關跨領域科學研究、科技研發、公眾溝通、校園教育、社區培力強化民主韌性，反制威權擴張',
   cover: 'https://iorg.tw/images/cover-2-1-2023.png',
   locales: [
     {
