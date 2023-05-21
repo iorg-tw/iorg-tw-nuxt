@@ -180,7 +180,7 @@ export default {
         background-color: var(--iorg-accent);
         line-height: 1.0;
         padding: 0.25rem 0.625rem;
-        margin: 0 0.125rem 0.25rem;
+        margin: 0 0.125rem 0.125rem;
         border-radius: 1rem; // overshooting
         verticle-align: top;
       }
@@ -201,38 +201,15 @@ export default {
         background-color: white;
         border: 1px solid var(--iorg-accent);
       }
-      &.fb > .content {
-        width: 1.375rem;
-        padding: 0.375rem 0;
-        text-align: center;
-        background-color: var(--fb);
-        color: white;
-        font-size: 0.625rem;
-        line-height: 1;
-      }
-      &.wb > .content {
-        width: 1.375rem;
-        padding: 0.25rem 0;
+      &.node > .content {
+        padding: 2px 3px;
+        margin: 0;
         text-align: center;
         background-color: white;
-        border: 0.125rem solid var(--wb);
+        border: 1px solid var(--iorg-neutral);
+        color: var(--iorg-neutral);
         font-size: 0.625rem;
         line-height: 1;
-      }
-      &.ccp > .content {
-        padding: 0.25rem 0.375rem;
-        background-color: var(--ccp);
-        font-size: 0.625rem;
-      }
-      &.red > .content {
-        padding: 0.25rem 0.375rem;
-        background-color: var(--ccp-affiliated);
-        font-size: 0.625rem;
-      }
-      &.pink > .content {
-        padding: 0.25rem 0.375rem;
-        background-color: var(--china);
-        font-size: 0.625rem;
       }
     }
     h2 .sticker {

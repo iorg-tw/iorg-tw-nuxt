@@ -140,7 +140,7 @@
 	"unverifiable-src": {
 		"id": "unverifiable-src",
 		"classes": "bad",
-		"_tw": "無法證實的來源",
+		"_tw": "無法證實來源",
 		"_en": "Source unverifable"
 	},
 	"false-src": {
@@ -182,13 +182,13 @@
 	"unverified": {
 		"id": "unverified",
 		"classes": "bad",
-		"_tw": "無法證實的內容",
+		"_tw": "無法證實內容",
 		"_en": "Content unverifiable"
 	},
 	"unverifiable": {
 		"id": "unverifiable",
 		"classes": "bad",
-		"_tw": "無法證實的內容",
+		"_tw": "無法證實內容",
 		"_en": "Content unverifiable"
 	},
 	"false": {
@@ -499,33 +499,45 @@
 	},
 	"fb": {
 		"id": "fb",
-		"classes": "fb",
-		"_tw": "臉",
-		"_en": "F"
+		"classes": "node fb",
+		"_tw": "FB",
+		"_en": "FB"
 	},
 	"wb": {
 		"id": "wb",
-		"classes": "wb",
-		"_tw": "微",
-		"_en": "W"
+		"classes": "node wb",
+		"_tw": "WB",
+		"_en": "WB"
 	},
 	"ccp": {
 		"id": "ccp",
-		"classes": "ccp",
+		"classes": "node ccp",
 		"_tw": "中共",
 		"_en": "CCP"
 	},
 	"red": {
 		"id": "red",
-		"classes": "red",
+		"classes": "node red",
 		"_tw": "類官媒",
-		"_en": "CCP-AFF"
+		"_en": "CCP-aff"
 	},
 	"pink": {
 		"id": "pink",
-		"classes": "pink",
+		"classes": "node pink",
 		"_tw": "中國",
-		"_en": "China"
+		"_en": "CN"
+	},
+	"farm": {
+		"id": "farm",
+		"classes": "node farm",
+		"_tw": "農場",
+		"_en": "Farm"
+	},
+	"cluster": {
+		"id": "cluster",
+		"classes": "node cluster",
+		"_tw": "集團",
+		"_en": "Cluster"
 	},
 	"phishing": {
 		"id": "phishing",
@@ -629,8 +641,26 @@
 	},
 	"yt": {
 		"id": "yt",
-		"classes": "yt",
-		"_tw": "YouTube",
-		"_en": "YouTube"
+		"classes": "node yt",
+		"_tw": "YT",
+		"_en": "YT"
+	},
+	"yt-farm-fb": {
+		"id": "yt-farm-fb",
+		"classes": "alert",
+		"_tw": "YT-農場-FB",
+		"_en": "YT-farm-FB"
+	},
+	"farm-fb": {
+		"id": "farm-fb",
+		"classes": "alert",
+		"_tw": "農場-FB",
+		"_en": "Farm-FB"
+	},
+	"content-farm": {
+		"id": "content-farm",
+		"classes": "bad",
+		"_tw": "內容農場",
+		"_en": "Content farm"
 	}
 }
