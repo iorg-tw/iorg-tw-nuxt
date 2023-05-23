@@ -1,4 +1,57 @@
 {
+	"_DA_41": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_41",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTAiQNfaSvgxD7u0UAGr2NnlJ8ZfD7iIZrRQ62FFhPHt-Tsjq2LrkcRl1e9IXNRHm2AgKsKfK3TQlQj/pub"
+		},
+		"publishedAt": "2023/5/23 18:00",
+		"path": "/da/41",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "蔡麥會後中共軍演相關 8 項可疑論述內容及傳播行為",
+				"subtitle": "IORG 週報第 41 期 2023.3.27-4.16",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oEkL1hx9IBRL4a6o0wmTe1cV-R6SQOhB4uuaBcNFXDN5gblk6eVus1dRpAtrWoA8HHoU-gJgzcJ6J-gRe766C2eEYYceLPRpaBxB9tyvh9sFUCAR5_lC-r0hdSDbBCRnUZEkmStReV3cJUHt23hyTfDzmEuK4MECVxdV8f7ie7WTpjZCl_U0XMRYzROf8grGh0",
+				"tags": [
+					"週報"
+				],
+				"articleID": "_DA_41",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTAiQNfaSvgxD7u0UAGr2NnlJ8ZfD7iIZrRQ62FFhPHt-Tsjq2LrkcRl1e9IXNRHm2AgKsKfK3TQlQj/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/5/23 18:00",
+				"cache": "_DA_41_tw"
+			}
+		}
+	},
+	"eval-18": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-18",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTU6R91jrJJ-kYypq_-bxIzu6G2tPvWFJQeiE_Bs9ztg0gfXLos3X_eNocIqxpEPUs0oF21ZulYRZ4l/pub"
+		},
+		"publishedAt": "2023/5/11 22:00",
+		"path": "/eval/18",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台中捷運傷亡事件 ETtoday、TVBS、少康戰情室、中時電子報使用「標題誘餌」可判定為可疑傳播行為",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 18 題",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oFUmC9jmf1z0Kg06b-VmFpiMPb7jxEL2fY_del5cCgGuGik6T6eu91-NXbfvhCNhQgMnjfXyquCOPkpKdtDdZxT0jnV7DGnGZ_SuxEpqHo_rz1mTJIN93kt9h882y3pwvnQ3a0-L3beLOCCRA6YGalXmC6d8sxrP2TSac_3cELupfM17QcBu8ICSmNNkRe37rI",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-18",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTU6R91jrJJ-kYypq_-bxIzu6G2tPvWFJQeiE_Bs9ztg0gfXLos3X_eNocIqxpEPUs0oF21ZulYRZ4l/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/5/11 22:00",
+				"cache": "eval-18_tw"
+			}
+		}
+	},
 	"_DA_40": {
 		"show": true,
 		"type": "da",
@@ -13,8 +66,8 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "蔡英文訪美期間 11 項可疑論述",
-				"subtitle": "IORG 週報第 40 期 2023.3.1-2023.4.9",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oE6NnRZF4IHWmZ-BnaPOz5X3gWA8NdB8AQJpRB-W8yAvIeFyfY3jJTckOcdKXt622irm-Cm_CvKdrnft9Qx5udE5PmkedQ50bhRIVmPzKvsNnB_dom-9rDZ6brZfaeysq0R8pko_08SI8m3WPqoNFQveo8KPnuRzuWaqxEKVl3TGZMibn38o9GFDYJqmBDdqfo",
+				"subtitle": "IORG 週報第 40 期 2023.3.1-4.9",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oFFpxpkTT7IA8ZmgbZlXNtEkaPh_iQowFXbgwWJdwNgjdP4aG_YgulM07VHh4ozWHfHicgv67A5dY_eUIejOW_8XP852aKpGdzRw1H5YFDK_3itwlJ2Po1lUAP3aZqnu1sGkU2g3YID3u-4RjDieDpdTjD9VdGHjQ1wl2-OXKxXqVyzgjoymqSO1O38dT_mSCg",
 				"tags": [
 					"週報"
 				],
@@ -42,7 +95,7 @@
 			"_tw": {
 				"title": "10 張圖表分析蔡英文、馬英九「雙英」出訪",
 				"subtitle": "IORG 週報第 39 期 2023.3.1-4.9",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oEpSDJRJOXCyex-iwVNvBFAD5NgK6EFY_yAWlLesTE3UzdFJmKh77iINLW4IYWUsjmJjO14B2_EjqdZ5NLP79RwDDyCjtYuNdEAiGTjAJCNFz7kM3H4q3W8jrl-kJe2Ryn4HIzypuY1XMzWk391re8n8Mo2BFi2MyMAkqhAvjsIDEa73r_YFUQ5vWlUQZib",
+				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oH_L27k2ixFakBv8E6jbFQx0d31_cEFbOn2tRvYjmOdEMQTIQqrIgPkRvcMTRRpabmRE3KV43FHAY8ba8n9VllPf0uCO1PnQeFCurPQ6IwebkPGQ0ELuRyqBjotG5ZUom0u-oj-5mh-6TlBknxBxUkZmpyI0G2KmQRnmhAE7reOef6T-hxaNfrnSeVJQPDLyCY",
 				"tags": [
 					"週報"
 				],
