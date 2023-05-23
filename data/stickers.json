@@ -260,19 +260,19 @@
 	"appeal-emotion": {
 		"id": "appeal-emotion",
 		"classes": "bad",
-		"_tw": "引起情緒",
+		"_tw": "訴諸情緒",
 		"_en": "Appeal to emotion"
 	},
 	"appeal-distrust": {
 		"id": "appeal-distrust",
 		"classes": "bad",
-		"_tw": "引起不信任",
+		"_tw": "訴諸不信任",
 		"_en": "Appeal to distrust"
 	},
 	"appeal-fear": {
 		"id": "appeal-fear",
 		"classes": "bad",
-		"_tw": "引起恐懼",
+		"_tw": "訴諸恐懼",
 		"_en": "Appeal to fear"
 	},
 	"clustered-posting": {
@@ -618,7 +618,7 @@
 	"appeal-hate": {
 		"id": "appeal-hate",
 		"classes": "bad",
-		"_tw": "引起仇恨",
+		"_tw": "訴諸仇恨",
 		"_en": "Appeal to hate"
 	},
 	"hired-acct": {
