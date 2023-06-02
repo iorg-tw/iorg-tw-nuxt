@@ -141,6 +141,9 @@ export default {
     h2, h3 {
       margin-bottom: 0.375rem;
     }
+    h3 + h3 {
+      margin-top: 1.5rem;
+    }
     p, ul, ol {
       margin-bottom: 1.5rem;
       line-height: $line-height-comfortable;
