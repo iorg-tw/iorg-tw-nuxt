@@ -277,55 +277,55 @@
 	},
 	"clustered-posting": {
 		"id": "clustered-posting",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "群聚發文",
 		"_en": "Clustered posting"
 	},
 	"recur-rumor": {
 		"id": "recur-rumor",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "舊謠言",
 		"_en": "Recurring rumor"
 	},
 	"dehuman": {
 		"id": "dehuman",
-		"classes": "alert",
+		"classes": "danger",
 		"_tw": "非人化",
 		"_en": "Dehumanization"
 	},
 	"nickname": {
 		"id": "nickname",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "取綽號",
 		"_en": "Nicknaming"
 	},
 	"claim-long-term": {
 		"id": "claim-long-term",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "宣稱長期現象",
 		"_en": "Claiming long-term effect"
 	},
 	"claim-straightforward": {
 		"id": "claim-straightforward",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "宣稱簡單易懂",
 		"_en": "Claiming straightforwardness"
 	},
 	"claim-truthful": {
 		"id": "claim-truthful",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "宣稱真相",
 		"_en": "Claiming truthfulness"
 	},
 	"claim-media-cover-up": {
 		"id": "claim-media-cover-up",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "宣稱媒體掩蓋真相",
 		"_en": "Claiming media cover-up"
 	},
 	"claim-new-reg": {
 		"id": "claim-new-reg",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "宣稱新法規政策",
 		"_en": "Claiming new regulation"
 	},
@@ -379,7 +379,7 @@
 	},
 	"warmongering": {
 		"id": "warmongering",
-		"classes": "alert",
+		"classes": "danger",
 		"_tw": "好戰",
 		"_en": "Warmongering"
 	},
@@ -639,6 +639,12 @@
 		"_tw": "島內網民",
 		"_en": "Island netizen"
 	},
+	"island-people": {
+		"id": "island-people",
+		"classes": "alert",
+		"_tw": "島內民眾",
+		"_en": "Islane people"
+	},
 	"yt": {
 		"id": "yt",
 		"classes": "node yt",
@@ -662,5 +668,11 @@
 		"classes": "bad",
 		"_tw": "內容農場",
 		"_en": "Content farm"
+	},
+	"hate-speech": {
+		"id": "hate-speech",
+		"classes": "danger",
+		"_tw": "仇恨言論",
+		"_en": "Hate speech"
 	}
 }
