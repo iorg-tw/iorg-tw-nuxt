@@ -109,6 +109,21 @@
 			}
 		}
 	},
+	"meetup-2305": {
+		"show": true,
+		"type": "meetup",
+		"id": "meetup-2305",
+		"area": "tp",
+		"date": "2023/5/30",
+		"time": "14:00-17:00",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣資訊環境小聚 2305",
+				"locale": "_tw"
+			}
+		}
+	},
 	"meetup-2304": {
 		"show": true,
 		"type": "meetup",

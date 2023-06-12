@@ -427,7 +427,7 @@
 	},
 	"ext-gov": {
 		"id": "ext-gov",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "外部治理論",
 		"_en": "External governance"
 	},
@@ -593,7 +593,7 @@
 	},
 	"authoritarian-narrative": {
 		"id": "authoritarian-narrative",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "威權論述",
 		"_en": "Authoritarian narrative"
 	},
