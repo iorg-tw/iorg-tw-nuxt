@@ -87,7 +87,7 @@ async function getArticles(rows) {
     ...(row.path ? { path: row.path } : {}),
     cache: row.cache ? true : false,
     reload: row.reload ? true : false,
-    localizedDocs: {}
+    localizedDocs: {} // empty obj - new article
   }))
 
   // id -> path = idMap
@@ -125,17 +125,18 @@ async function getArticles(rows) {
   // get article metadata
   for(let i = 0; i < rows.length; i++) {
     const row = rows[i]
+    const oldArticle = oldArticles[row.id]
     const reload = row.reload
     delete row.reload
-    if(!reload) {
+    if(!reload && oldArticle) {
       console.info(row.id)
-      Object.assign(row, oldArticles[row.id]) // FIXME: should merge new and old meta instead of overriding everything
+      Object.assign(row, oldArticle) // FIXME: should merge new and old meta instead of overriding everything
       delete row.reload
       continue
     }
 
     const locales = Object.keys(row.publicURLs)
-    console.info(row.id, 'reload', locales)
+    console.info(row.id, (oldArticle ? 'reload' : 'initialize'), locales)
     let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale], locale)))
 
     locales.forEach((locale, i) => {
