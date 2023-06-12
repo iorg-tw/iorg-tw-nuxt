@@ -1,4 +1,73 @@
 {
+	"us-skep-2": {
+		"show": false,
+		"type": "article",
+		"id": "us-skep-2",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR-mM9HyJot1-zStcjhQTjo98--yBRqoujOJlU9yQPSUD0MNx1PabZpkB0UOdjQ48M9Fnur_-H6Zwbv/pub"
+		},
+		"publishedAt": "2023/6/4 12:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「疑美論」來自中共宣傳，也來自台灣民眾的集體心理",
+				"subtitle": "2023「疑美論」專題 2/2",
+				"tags": [],
+				"articleID": "us-skep-2",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR-mM9HyJot1-zStcjhQTjo98--yBRqoujOJlU9yQPSUD0MNx1PabZpkB0UOdjQ48M9Fnur_-H6Zwbv/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/6/4 12:00"
+			}
+		}
+	},
+	"us-skep-1": {
+		"show": false,
+		"type": "article",
+		"id": "us-skep-1",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRn3DFAVUGHgC-Ykbf1fCVlwmAVtrUM0Q1_QQkpeCxs1A-GbuksRy90qlbIQqgwTNsRa4UVVZr2jYtx/pub"
+		},
+		"publishedAt": "2023/6/4 12:00",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2021-2022 9 次重大事件期間的「疑美論」",
+				"subtitle": "2023「疑美論」專題 1/2",
+				"tags": [],
+				"articleID": "us-skep-1",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRn3DFAVUGHgC-Ykbf1fCVlwmAVtrUM0Q1_QQkpeCxs1A-GbuksRy90qlbIQqgwTNsRa4UVVZr2jYtx/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/6/4 12:00"
+			}
+		}
+	},
+	"eval-19": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-19",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRHhMbhuABlwQpy_x9_4Vu1Vhp4jSEefKQrpRi3FYlcQAu4ygOk3JMsNzRVze6Ea6QVJoiwTFkuEGEO/pub"
+		},
+		"publishedAt": "2023/6/12 17:00",
+		"path": "/eval/19",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「死者遇難是因為他的政治立場」可判定為仇恨言論",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 19 題",
+				"coverImage": "https://lh4.googleusercontent.com/1P8sqk0GTIs9Tnhr2QyDmZU2mXYxfmMYcypHhUjahZ76KxPRSddxZWPhsiOMYzWqOH_6s6IQeaaHDCW76ySy1a26xS9X__Sv38oN_1y4AXKXNTS7NyvkMEun47PohLKSkJslNTLL8EF3fdPD",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"articleID": "eval-19",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRHhMbhuABlwQpy_x9_4Vu1Vhp4jSEefKQrpRi3FYlcQAu4ygOk3JMsNzRVze6Ea6QVJoiwTFkuEGEO/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/6/12 17:00",
+				"cache": "eval-19_tw"
+			}
+		}
+	},
 	"_DA_42": {
 		"show": true,
 		"type": "da",
