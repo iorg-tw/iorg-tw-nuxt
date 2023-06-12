@@ -433,7 +433,7 @@
 	},
 	"gender-stereotype": {
 		"id": "gender-stereotype",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "性別刻板印象",
 		"_en": "Gender stereotype"
 	},
@@ -587,7 +587,7 @@
 	},
 	"uni-stmt": {
 		"id": "uni-stmt",
-		"classes": "alert",
+		"classes": "bad",
 		"_tw": "全稱命題",
 		"_en": "Universal statement"
 	},
