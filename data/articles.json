@@ -1,8 +1,8 @@
 {
-	"us-skep-2": {
+	"us-skepticism-2": {
 		"show": false,
 		"type": "article",
-		"id": "us-skep-2",
+		"id": "us-skepticism-2",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR-mM9HyJot1-zStcjhQTjo98--yBRqoujOJlU9yQPSUD0MNx1PabZpkB0UOdjQ48M9Fnur_-H6Zwbv/pub"
 		},
@@ -11,33 +11,35 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "「疑美論」來自中共宣傳，也來自台灣民眾的集體心理",
-				"subtitle": "2023「疑美論」專題 2/2",
+				"subtitle": "2023「疑美論」專題 2⁄2",
 				"tags": [],
-				"articleID": "us-skep-2",
+				"articleID": "us-skepticism-2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR-mM9HyJot1-zStcjhQTjo98--yBRqoujOJlU9yQPSUD0MNx1PabZpkB0UOdjQ48M9Fnur_-H6Zwbv/pub",
 				"locale": "_tw",
 				"publishedAt": "2023/6/4 12:00"
 			}
 		}
 	},
-	"us-skep-1": {
-		"show": false,
+	"us-skepticism-1": {
+		"show": true,
 		"type": "article",
-		"id": "us-skep-1",
+		"id": "us-skepticism-1",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRn3DFAVUGHgC-Ykbf1fCVlwmAVtrUM0Q1_QQkpeCxs1A-GbuksRy90qlbIQqgwTNsRa4UVVZr2jYtx/pub"
 		},
 		"publishedAt": "2023/6/4 12:00",
-		"cache": false,
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "2021-2022 9 次重大事件期間的「疑美論」",
-				"subtitle": "2023「疑美論」專題 1/2",
+				"title": "2021-2022 9 次重大事件出現 8 類「疑美論」",
+				"subtitle": "2023「疑美論」專題 ½",
+				"coverImage": "https://lh6.googleusercontent.com/1aHCWKI4gPkkrOJUGev2b4AYKWkiHBd4w7sWtC4KoK4UabGG0lpizC4ZNq5bPoHSGCoRVlDQRpikwk8rbkNU5ZbPEIKe67oa80WylMwYlGfhGheRsdSr-IJPYndqX7KJKtzEQBFvW_GL10YV",
 				"tags": [],
-				"articleID": "us-skep-1",
+				"articleID": "us-skepticism-1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRn3DFAVUGHgC-Ykbf1fCVlwmAVtrUM0Q1_QQkpeCxs1A-GbuksRy90qlbIQqgwTNsRa4UVVZr2jYtx/pub",
 				"locale": "_tw",
-				"publishedAt": "2023/6/4 12:00"
+				"publishedAt": "2023/6/4 12:00",
+				"cache": "us-skepticism-1_tw"
 			}
 		}
 	},
@@ -233,38 +235,38 @@
 			}
 		}
 	},
-	"policy-brief-2023": {
+	"policy-action-recom-2023": {
 		"show": true,
 		"type": "article",
-		"id": "policy-brief-2023",
+		"id": "policy-action-recom-2023",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQjodST8UiLhHrSfcWGrW5C2u1Qf1CI3N_VVg6YTk4YPSJqF8B5VER1YN0H_HVMHBKitwgoXPXjETdd/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vTMrsLoWkG9VIPPJXBDJrwpqb3tr5GfMSgrE-2oc5Ql0kUOgLjuSpKmZVs3UhIdYE9EL0v1IuUWm37u/pub"
 		},
-		"publishedAt": "2023/2/23",
+		"publishedAt": "2023/2/23 12:00",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "防治資訊操弄，改善公共討論，強化民主韌性",
 				"subtitle": "2023 台灣資訊環境行動政策建議書",
-				"coverImage": "https://lh6.googleusercontent.com/YnqPep4_-df1EqQPLHFSaQYPdtFWXZkPiF_r_XgbvjkP_2ywS4g4Yd3Ub_qNwrlwiBZ8pT4NC2itwXYQ17nz00O0HUuKAJhl46mHeMT562ypAJm6Z6Qu0VSvLafJ9If32psK_9987fKALOSN",
+				"coverImage": "https://lh4.googleusercontent.com/5t1yQIpqY1FA4FshA7VOh_xyOc_4fmXVidhtJ-VCsZF79G1HSgxLh-tokUKc9FYcd1-S9MduUskJrAyPkfXF_gKOJ9lDIw19haYTd5XHX-W1kRQ9X4_BPHpQ-zVupZKYmEAMGMqU3x3ywr5U",
 				"tags": [],
-				"articleID": "policy-brief-2023",
+				"articleID": "policy-action-recom-2023",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQjodST8UiLhHrSfcWGrW5C2u1Qf1CI3N_VVg6YTk4YPSJqF8B5VER1YN0H_HVMHBKitwgoXPXjETdd/pub",
 				"locale": "_tw",
-				"publishedAt": "2023/2/23",
-				"cache": "policy-brief-2023_tw"
+				"publishedAt": "2023/2/23 12:00",
+				"cache": "policy-action-recom-2023_tw"
 			},
 			"_en": {
 				"title": "Reduce Information Manipulation, Improve Public Discourse, Strengthen Democratic Resilience",
-				"subtitle": "2023 Taiwan Information Environment Policy Brief",
-				"coverImage": "https://lh5.googleusercontent.com/g57MsfLObSHmNuTII4eHRxKZwZZHOrkfeaW9Cqcq2sNkViaGiWguEFPTblCmO_7wLizr6L4K7AiSI6ZPvb8joUOjaAkn_PoDZTdzUxi5Mk2azJ4GDHeJpDyT-aUsvTGSipl4_DctxBNzK0Qh",
+				"subtitle": "2023 Taiwan Information Environment Policy and Action Recommendations",
+				"coverImage": "https://lh6.googleusercontent.com/knsOuA2PzVdjXQJNR5DjCD7AznDxGBMF5Pr5tTcnKAhibqQ7qKdxtDmnBli1uMsrdnJ2NhWJeDfpQ5q668-LbGJD2drdDL8lLs7jQ-WEiISeuR7opsQLuBNnVEhVEWt07L_Tn8yFrwenyoC3",
 				"tags": [],
-				"articleID": "policy-brief-2023",
+				"articleID": "policy-action-recom-2023",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMrsLoWkG9VIPPJXBDJrwpqb3tr5GfMSgrE-2oc5Ql0kUOgLjuSpKmZVs3UhIdYE9EL0v1IuUWm37u/pub",
 				"locale": "_en",
-				"publishedAt": "2023/2/23",
-				"cache": "policy-brief-2023_en"
+				"publishedAt": "2023/2/23 12:00",
+				"cache": "policy-action-recom-2023_en"
 			}
 		}
 	},
