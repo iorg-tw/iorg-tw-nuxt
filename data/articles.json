@@ -56,8 +56,34 @@
 			"_tw": {
 				"title": "2021-2022 9 次重大事件出現 8 類「疑美論」",
 				"subtitle": "2023「疑美論」專題報導 ½",
-				"coverImage": "https://lh5.googleusercontent.com/DYK1t6RHvBAd-RuHGfi3WQVGHF8ovnOBoBGSNZKAeuP5qGZIwcWhTjw6RW_KCWCBhk8kKrHeyA45NzXqaqg9pfNEdqdnPGhBifJWO8MdMjmf90GU-IgP7vr9H1A8wMokC2Z1aF-9Q0_iO1J5",
+				"coverImage": "https://lh5.googleusercontent.com/WyQsqeo1hbc20j_iQcIMvwZXZ37gNvoIHiCaRlLH-JOU8S8kMQR_SC08JV6Aww3MX9krmWSiu32XeORldgouuZ5G8RxkPFHCfefV-ov569RARr1-Ue77dmNvfogGqHB39eckPLPnlWH78REK",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "探索「疑美論」的定義"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "9 次事件「疑美論」的進化 – 從「棄台」到「毀台」"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "8 類「疑美論」針對台美關係、美國本身、呼應中共官方宣傳"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "小結"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "研究方法"
+					}
+				],
 				"articleID": "us-skepticism-1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRn3DFAVUGHgC-Ykbf1fCVlwmAVtrUM0Q1_QQkpeCxs1A-GbuksRy90qlbIQqgwTNsRa4UVVZr2jYtx/pub",
 				"locale": "_tw",
@@ -80,10 +106,40 @@
 			"_tw": {
 				"title": "「死者遇難是因為他的政治立場」可判定為仇恨言論",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 19 題",
-				"coverImage": "https://lh4.googleusercontent.com/1P8sqk0GTIs9Tnhr2QyDmZU2mXYxfmMYcypHhUjahZ76KxPRSddxZWPhsiOMYzWqOH_6s6IQeaaHDCW76ySy1a26xS9X__Sv38oN_1y4AXKXNTS7NyvkMEun47PohLKSkJslNTLL8EF3fdPD",
+				"coverImage": "https://lh4.googleusercontent.com/g7GH1EVqh-fjmvU2yVucxS1djBHD9Hu273UwKpyRBjj_kdFqob3l0jk1u8g6KMO3a89DL2r3IbFRS5zNEpmin9YuWHThBDCKcdke7VbRL7frpi-j-tbOWXFDIpS-hrIgFC9jHw7V2Ze6jCKu",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "1. 拆解事實陳述及觀點"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2. 查證資訊來源及事實內容"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "3. 檢驗推論過程"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "4. 綜合判定訊息可信度"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 5. 觀察其他特徵"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "可疑訊息 3 項論述"
+					}
 				],
 				"articleID": "eval-19",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRHhMbhuABlwQpy_x9_4Vu1Vhp4jSEefKQrpRi3FYlcQAu4ygOk3JMsNzRVze6Ea6QVJoiwTFkuEGEO/pub",
@@ -107,9 +163,47 @@
 			"_tw": {
 				"title": "2022 年以來「五缺」的傳播熱度週期及中共論述",
 				"subtitle": "IORG 週報第 42 期 2022.1.1-2023.4.30",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oGl1sM6PHqaASyo7FvNaZFqfTa-auV8LJfaVVWWQEnC5iYhgcvwTI5VI9vBXpl86Owm3dZZOw5A1NIPcXX84xa2uAZd4PBFv_iZ1b4A1STL7U4Xqt0NFV-2HUTKKb8GIfwPel7ZAxJujyrhqkivpUOmB6PHMBTqrjTPMBz_uzhVi7ZnZYQijoKxZuf2EKV-hjY",
+				"coverImage": "https://lh6.googleusercontent.com/9mrKH3NeLJwcuazfij8ReI3fMDxUWz2Qv6TOZiUHY-RL_wVuKOCdP6UaDGJswMiDdx8pSXuUNXlNDEVUsaXRaKau986KGxVE4PEi1HE20grCUfsKOL48G6hvZ5M3YdV1nwjQ8BW3WHoslc59",
 				"tags": [
 					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "1. 缺蛋熱度最高；除缺電外，各議題傳播熱度最高峰都發生在 2023"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "2. 台灣新聞「五缺」傳播熱度高峰 – 2 月缺蛋、3 月缺電、4 月缺肉"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "3. Facebook 粉專傳播效果前 10 名新聞粉專最多，匿名或具名時事評論粉專次之；TVBS 上榜次數最多，公視 3 節目榜上有名"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "4. 🇨🇳 中共官媒「預言」缺蛋"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "5. 🇨🇳 中共官媒放大缺電"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "6. 🇨🇳 中共以「五缺」連結其他議題，強化民主負面形象 – 福島食品、台美關係、民主破壞經濟、引起戰爭"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_42",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSi6HCyLGn7jWEXFJCDl9hNo83V2Rr9f2ollQoB3DHn35cBcPz_PxMkymRIIM5sNVl9TLWNGa5Q2VHW/pub",
@@ -134,9 +228,63 @@
 			"_tw": {
 				"title": "蔡麥會後中共軍演相關 8 項可疑論述內容及傳播行為",
 				"subtitle": "IORG 週報第 41 期 2023.3.27-4.16",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oHVm8DgR5KLJXyMb0vUmvwB5TbtRJLk0g0kjPYvDCUcp7Jph-WXoXTRveKcDMRSF_llycEz8NuRYX6Yis_S5LKDIzi8Mx7lby-lSPVNQn7lcmrCBOpb9qgNO2xOOyTZ-ZBNMO8G6srhxj1Inbl4mGkMmhPQ_smvh_44M5LhQmXHb80wTfejCJDF0E3My0gRrKw",
+				"coverImage": "https://lh5.googleusercontent.com/5eTxszBKAhAwolNBuKzIFgDoi8tqFg_FZrRd6d8iIJxcC41yAPG4PeQRAbk0bYg_9Cqqu4DwKyCaApb9_-D4DrH27puz_fbcqZ_2rmYYU-NGxsO8KksraVN4DM1--FYvHCfzRzzAbOXKpbXH",
 				"tags": [
 					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "不同於裴洛西訪台後軍演熱度持續，蔡麥會後軍演熱度低，在中國僅有首日高峰"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "麥卡錫時期 YouTube 提及軍演頻道：台灣媒體、中共官媒內容、中國網路節目、中共官媒"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "8 項可疑論述"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "1. 「海偵部雷達兵」：共艦已闖入我國海域 24 浬鄰接區，長官造假共艦動態"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "2. 🇨🇳 中共影片：东部战区多军兵种模拟联合精确打击演示动画"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "3. PTT 帳號：共軍飛彈侵犯我國領空的資訊又是日本先發布，國防「布」是詐騙集團"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "4. 🇨🇳 中共影片〈台岛上空的声音〉：轟-6K 在台灣北部附近空域模擬發射飛彈"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "5. 4 月 10 日上午花蓮上空 4 或 5 聲不明爆炸巨響是國軍 F-16 或共軍殲-15 或殲-20 音爆"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "6. 🇨🇳 「澳媒報導」美軍尼米茲號在共軍演習時果斷地跑了，就像去年的雷根號，是因為美國不想干涉中共軍演，幫助台灣剩一張嘴"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "7. 日本自衛隊直升機失事，是因為監視中共山東艦發生意外，或被山東艦擊落，或被美軍 F-16 誤擊，美軍曾多次誤擊盟友，是光榮傳統"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "8. 共軍山東艦逼退美軍尼米茲號，單挑 4 艘美軍航母，排除美、日干擾，正式停靠花蓮港，出兵高雄，台北防空系統失效"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_41",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTAiQNfaSvgxD7u0UAGr2NnlJ8ZfD7iIZrRQ62FFhPHt-Tsjq2LrkcRl1e9IXNRHm2AgKsKfK3TQlQj/pub",
@@ -161,7 +309,7 @@
 			"_tw": {
 				"title": "台中捷運傷亡事件 ETtoday、TVBS、少康戰情室、中時電子報使用「標題誘餌」可判定為可疑傳播行為",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 18 題",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oFbbmQuYJ2z8viMKCYuk8gxHjlx5r1QQ-3BXR0l7YAvQoqbf0FbrhRBOXWdsEnj2T0K6-64yUpmIA90d-E0P7qQ4J8RcQKt9Pe5O-XSgHenCxRa_jgDWJY_Z2hUZgGTrns0h4zjCI7pi4Y1mlMUpm1mdEX6BnZeE0wPbjWohYDYygWHhmV8iUlUOyOZojE06f4",
+				"coverImage": "https://lh3.googleusercontent.com/AZnGAsfRZ8uqZesKXQ16EvfRMUj-TsDklCy9onLdlbst9BK1KLuLywvEmp6L7BTvSafbXfY9aJnLIlOumHKh9Vw4CvY_g6rQunk0pe02eKhTVWXkhAw6POtDK4JjHhfWLpHcgJ4Z_3vVJl7W",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
@@ -189,9 +337,71 @@
 			"_tw": {
 				"title": "蔡英文訪美期間 11 項可疑論述",
 				"subtitle": "IORG 週報第 40 期 2023.3.1-4.9",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oG22hoB7IxT6X3ap20RL3O0PkVtklDg2UPl5mnBmY84sukW-pN4br7NI0V1ReOVba8Ub5BLo1dqQsH4qCN9MrgUmNkvRrrn11BEFiUOrvj4_YYYiZnKXWOqjmuxUI7HqqUXzCd_PCREOqizsAeaIR2v3rY19HPRbRiVqbGv1mVSEgwCN5NZX5Cf7j8fiHtN9ws",
+				"coverImage": "https://lh3.googleusercontent.com/ds6sdWlELRy5XIAwjAXvlsmRjOtvv8afEqCAT7y1V2eRRoI7047RrYubgpGKZY2DSj7jcVNK7f93bdkk1lYictLBwKcU9OBnNfm3LNf73rVeyrfZtUhGkc1fUNrMGpoL0ngT3OW4sYO7iwrE",
 				"tags": [
 					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "11 項可疑論述"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "1. 美國是世界亂源，蔡英文訪美會帶來戰爭"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "2. 蔡英文在加州會晤麥卡錫是因為蔡英文害怕麥卡錫、裴洛西訪台會帶來戰爭"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "3. 🇨🇳 蔡英文訪美是和美國勾結，謀取民進黨及蔡英文個人利益"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "4. 台灣和宏都拉斯斷交是蔡麥會的代價"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "5. 民進黨 2019 年修法是為了阻撓馬英九訪中"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "6. 馬英九訪中為了和平，蔡英文訪美帶來戰爭"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "7. 蔡英文訪美紅地毯短、簡報取消、旅館頒獎、演講取消，證明台美關係差，是蔡英文被美國利用，當成棋子、籌碼、踏腳石"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "8. 蔡英文訪美待遇不如馬英九訪中"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "9. 蔡英文赴美買私菸"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "10. 🇨🇳 台灣政府收買哈德遜研究所，使其頒獎給蔡英文"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "11. 🇨🇳 蔡英文過境美國如過街老鼠，人人喊打"
+					},
+					{
+						"id": "h2-15",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_40",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTD84astC1smJxwnu1GPxIphqiunJYsxfnozb_UBDmJGwqul3nF_Fo4jgfQ3Ic2vfjinxhp8FjmWl3_/pub",
@@ -217,9 +427,59 @@
 			"_tw": {
 				"title": "10 張圖表分析蔡英文、馬英九「雙英」出訪",
 				"subtitle": "IORG 週報第 39 期 2023.3.1-4.9",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oEOf7iGIBPmauln_qAOqV8PBfRxL6QQVx4jYe7Lm14A0CAN-J-ND4mA1n9K-PJSYNHH84104PzUBZ2e4IOC_Nld9UDTcGYWZnnEjZWazKJ--0fLRGulLMuOr0_agld66cfj6vrh7uMSSck9LkdNb9RVlyc_iafnq-gNMpnbH-jeymcOzi6vNTGi1SbFJ07BbNo",
+				"coverImage": "https://lh6.googleusercontent.com/5AXjwpfnrp4gTPdBgcP4Qdy1lw91W-P83a9ivVWJIh0flaD5etQUFzaKayIzVfg0DgcSl7ds7Rp3eO0Vcqag0kEK5QhZRLK0a__dNSKucQwQRstZbrNZnBzZsBrWN-1YOzNunrXgYu_x2iV5",
 				"tags": [
 					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "前言"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "1. 2023 雙英出訪 – 蔡英文傳播熱度勝過馬英九，在微博則相反"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "2. 總統 2 次會見美國議長 – 裴洛西熱度勝過麥卡錫，2023 蔡英文勝 2022 蔡英文"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "3. 🇨🇳 相較蔡英文會見麥卡錫，中共比較關注裴洛西訪台"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "4. 🇨🇳 提及馬英九時，中共極少提及台灣新聞媒體"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "5. YouTube 頻道利用關鍵字「蹭流量」造成傳播熱度指標失準"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "6. 經過校正，提及馬英九 YouTube 影片數量略高於蔡英文"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "7. 🇨🇳 中共官媒名列雙英影片數量前 20 名 YouTube 頻道"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "8. 台灣新聞媒體在 YouTube – 提及雙英有助流量，TVBS 最偏重馬英九，民視最偏重蔡英文"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "9. 網路評論節目「異軍突起」形式多元，包括真人及合成語音"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_39",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vThbjOUcWkgPaOCzTLISfGgvnZsk2HciXuOBfl4VmU7TrbtpP-dMdACxTYmPpzTpGoEGlkwkvyOneCO/pub",
@@ -245,9 +505,67 @@
 			"_tw": {
 				"title": "延續麥卡錫和裴洛西兩任美國議長的「疑美論」",
 				"subtitle": "IORG 週報第 38 期 2022.8.1-2023.2.28",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oGOCIaG8OvOXTsK7y35y2_upCyeRjHH7MZtH6im-k74AU6eGIkar7kwQr1d7_FTH-XE-89_CxFgwpKLypASewC8nOX_1yYrkC_CM7xssJiQ_zTEAO5fCcc8y5CHquxxeN8tbz2gAO8IBZtzKosxLMubVjGxTm_I7v8-wikQUToqK0B_NjltEhFx3ZX_4FTO64E",
+				"coverImage": "https://lh6.googleusercontent.com/2NnFH2i4KDnYtVXMEN3susoahdid2DKKHV84T-BJjXrn0FMiESFb-VFhRBP_fK4hd0eQFVBUYZJ-PcmTKTTWQcmMz8F9CVQszhaKF_zIojKdtHeSuzs9CC2dWOJ9YqnCa7RFwgm2HytQhVgE",
 				"tags": [
 					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "10 項可疑論述"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "1. 麥卡錫訪台，將引發台海危機"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "2. 麥卡錫訪台，是美國基於對抗中國的政治利益考量，犧牲台灣"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "3. 麥卡錫訪台，是美國在誘逼中國攻打台灣"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "4. 麥卡錫訪台，是共和黨在為選舉造勢"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "5. 麥卡錫訪台，是美國政客把台灣當成提款機"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "6. 麥卡錫訪台，是民進黨勾結美國，讓美國收保護費"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "7. 麥卡錫訪台，是美國把台灣當棋子"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "8. 只要親美就會帶來戰爭，人民流離失所，陷入絕望深淵"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "9. 麥卡錫訪台，是民進黨勾連美國，不顧戰爭風險"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "10. 麥卡錫訪台在亞太地區引戰，就像是美國以北約拉攏烏克蘭在東歐地區引戰，是美國讓台灣烏克蘭化"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_38",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSdUcZxnUxyqtfJtHxBzKZ43ctd69NImrqaqinbYrsweYN3dTmQuWFIEBqvUFH-JFgHYWUjNfDMbWhV/pub",
@@ -272,8 +590,62 @@
 			"_tw": {
 				"title": "防治資訊操弄，改善公共討論，強化民主韌性",
 				"subtitle": "2023 台灣資訊環境行動政策建議書",
-				"coverImage": "https://lh4.googleusercontent.com/5t1yQIpqY1FA4FshA7VOh_xyOc_4fmXVidhtJ-VCsZF79G1HSgxLh-tokUKc9FYcd1-S9MduUskJrAyPkfXF_gKOJ9lDIw19haYTd5XHX-W1kRQ9X4_BPHpQ-zVupZKYmEAMGMqU3x3ywr5U",
+				"coverImage": "https://lh4.googleusercontent.com/_xIrtc4ourJpX95bsZ9yCamRjmzxxtu6HWJRjAQPMYtlIvtxRHTa8ZjF2xqXuOuICH-F1rO3lvDX7tRVi9jtdIDdpz0Jd9D6K4IdY3iM5ebMcztwl3jNPl2GTU0t7V8ieqXGY1mgQKhwRpsw",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "A. 簡介"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "A.1 研究目的"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "A.2 研究方法"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "B. 分析"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "B.1 資訊操弄案例及影響"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "B.2 公共討論面臨的挑戰"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "B.3 強化資訊環境的契機"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "R. 行動政策建議"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "R.1 防治資訊操弄"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "R.2 改善公共討論"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "R.3 強化資訊環境"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "結語"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "鳴謝"
+					}
+				],
 				"articleID": "policy-action-recom-2023",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQjodST8UiLhHrSfcWGrW5C2u1Qf1CI3N_VVg6YTk4YPSJqF8B5VER1YN0H_HVMHBKitwgoXPXjETdd/pub",
 				"locale": "_tw",
@@ -283,8 +655,62 @@
 			"_en": {
 				"title": "Reduce Information Manipulation, Improve Public Discourse, Strengthen Democratic Resilience",
 				"subtitle": "2023 Taiwan Information Environment Policy and Action Recommendations",
-				"coverImage": "https://lh6.googleusercontent.com/knsOuA2PzVdjXQJNR5DjCD7AznDxGBMF5Pr5tTcnKAhibqQ7qKdxtDmnBli1uMsrdnJ2NhWJeDfpQ5q668-LbGJD2drdDL8lLs7jQ-WEiISeuR7opsQLuBNnVEhVEWt07L_Tn8yFrwenyoC3",
+				"coverImage": "https://lh5.googleusercontent.com/D1SciAPPuHAPM7rFskAe1FIHrmP-G5JYQdyIRQP9_G28tEeOAn64GaW5yRGowy8mF2bJ9NyDr4W-u4wvFZwQEHLBPbepJ7AMVHvfzzWO08iqrPMCWPD8pwo5MJ6MUHKYa13s9Ax2Ltd4f09Z",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "A. Introduction"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "A.1 Goal"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "A.2 Methodology"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "B. Analysis"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "B.1 Information Manipulation – Cases and Impact"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "B.2 Challenges"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "B.3 Opportunities"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "R. Recommendations"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "R.1 Reduce Information Manipulation"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "R.2 Improve Public Discourse"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "R.3 Strengthen Information Environment"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "Conclusion"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "Acknowledgment"
+					}
+				],
 				"articleID": "policy-action-recom-2023",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMrsLoWkG9VIPPJXBDJrwpqb3tr5GfMSgrE-2oc5Ql0kUOgLjuSpKmZVs3UhIdYE9EL0v1IuUWm37u/pub",
 				"locale": "_en",
@@ -319,6 +745,48 @@
 				"title": "IORG 2022 總體研究成果",
 				"subtitle": "2022 IORG 台灣資訊環境科學研究",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "總論"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2022 年選舉"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中共對台資訊操弄"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "台灣資訊環境生態"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "民主韌性"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "來源"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "選舉"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "中共"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "台灣資訊環境生態"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "民主韌性"
+					}
+				],
 				"articleID": "_R_2022",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRKAfzMx2jr3-KNwsCjI8bREbLhx4tYSDJToZsV_zUYc_3RgEXVqetk_dVXRHUIYs6RqZfGAl2Fjr0f/pub",
 				"locale": "_tw",
@@ -341,10 +809,36 @@
 			"_tw": {
 				"title": "「年輕人準備落跑」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 17 題",
-				"coverImage": "https://lh4.googleusercontent.com/LBs2AT7FiHTOj3tEmzpALFFPuG7lJ3lXB-szyuR98EMPgFwO5Dqni6V1sHOQhRKQtWAgpedtPGndlZlZCsv4sG7GONh4kJ0FX4g5V-BnvbjvNmXkXAZ_cxDy0JFauzZ-ha3cM3WuDlIjl3Ih",
+				"coverImage": "https://lh4.googleusercontent.com/VeQtmFRpo1c7IMl3UcYpJ7wTb9AAxnZtiavB7EZ70mfk2aMt2WpEG1vFUNZvw0w7z5NqANHr3G0yGS7bQddlrCYOQO35-X89hyJVyf4ney62wpipVu26wofPVicjBAZyfyJyns3-CGDy64be",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "1. 拆解事實陳述及觀點"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2. 查證資訊來源及事實內容"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "3. 檢驗推論過程"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "4. 綜合判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 5. 觀察其他特徵"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "以下草稿"
+					}
 				],
 				"articleID": "eval-17",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQyZDYVNVV4XLcN8yYtF-IREHU7aoIzXiVDHnZEsPYxc1ncABS12evToWzzftQocVgSBRKNALAFhJ-d/pub",
@@ -368,10 +862,40 @@
 			"_tw": {
 				"title": "「台美豬肉製品瘦肉精超標」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 16 題",
-				"coverImage": "https://lh5.googleusercontent.com/bimSrK__zHspLU4pk9D9txpuW5_rwTNpdIFHQQtQWvsYZgOZn54CVQKR1LdAoiAVP1D3jtoY-3isVSljWURe8v4gFGMALErmJi69EOxzPTN0cpjdc2B9kYCgUtgqDZMnhFrCBTU01PIznlGG",
+				"coverImage": "https://lh3.googleusercontent.com/eQEFjibOnvBIkbotRoG7wtpOGDZ-of0qCJ_4GB_tMiTl1JziQRMzXjOWBqbYlvhdVRTEqelaWLQ2AaW_vpD70Ao6Ch_RvgmK9Js7k5LbkKRvCqnBQeg2VbYt47WwQJmJ3e9DZSszRRh4dRnK",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "1. 拆解事實陳述及觀點"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2. 查證資訊來源及事實內容"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "3. 檢驗推論過程"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "4. 綜合判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 5. 觀察其他特徵"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "原始文本"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "基本資訊"
+					}
 				],
 				"articleID": "eval-16",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQvyT7r0e5aJGzLjr4s-Q5BJ8ZnYcWEwzmt5SeIiu4rqjBFA2gh7NTajS1MAVneqd_voZXhYuwBHmT0/pub",
@@ -395,10 +919,32 @@
 			"_tw": {
 				"title": "「蔡英文想讓年輕人當拆彈少年團」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 15 題",
-				"coverImage": "https://lh3.googleusercontent.com/XvOcCzn2H_f1DHWox1tHmSU3IEp6Wd7GAVWF5GcrrpXIEHqwohnNgzKqzOmpD0VbLvU-nh5FGFjPt_KOUx9talKcDJCUjRQVpuEKr3tsqn_S0E13IGBQAn90XADKRy2DtcLKjiMClBItjtVt9EudUBgESyaI7zo7UHYiCaYcD2PVrcKfSy93qzA",
+				"coverImage": "https://lh4.googleusercontent.com/qunIw2mus90HDoDDtmWxlI3DTMvWu1wfPKZQpEf9Oc6gnPwlpbNtHWfHeNnhMSFXqP2xKQZwDnkPZGO9J29b47wWX6HKI-aTqkQFHmP-eQ7yBuWIrIy79Mx6g-Bwztl6SYVu4IjU2XFcDiBi",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "1. 拆解事實陳述及觀點"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2. 查證資訊來源及事實內容"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "3. 檢驗推論過程"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "4. 綜合判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 5. 觀察其他特徵"
+					}
 				],
 				"articleID": "eval-15",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS-ACd6gPbQYEhkvkLA04wqmcgor1Nx-QnFuaMotC96eiAh4WxCRtAjECNIAjIwpKNsaUJQ7UejbXLo/pub",
@@ -421,11 +967,33 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "「美國干涉台積電赴美設廠及義務役期，蔡政府配合像兒皇帝」可判定為資訊操弄",
-				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 13 題",
-				"coverImage": "https://lh3.googleusercontent.com/yGm6Kjop1Cita6-an96emRmKTqX-HRpnxT9Sfe2O1MTsBsIDDC8zn3Y4p_swKCSZuYeGnFYYsRHw6f-jnBUOnCFee3m1Nm8qjfeURNswp8gu6YIaa-n2fEuU_6KFPoGSBUMgKYBqi-phFL4MeW8R0NOeVPSxuT2FFAZ9Go88l5BZBdyhMqC6wlA",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 13 題",
+				"coverImage": "https://lh4.googleusercontent.com/GfvkB-Dqk3d4rXmrpujzP7zFv7U0YvGg7AksNlWlI-fyX-uZUqM0Stxs7xWm55K5TlW7RW2qvM8iOxGTahFifExSSneZ5dB8-waLXXIA2wOn4cBLAkMuS0VvXwmCryzBmIZf-tq4-MDUw3xe",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "1. 拆解事實陳述及觀點"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2. 查證資訊來源及事實內容是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "3. 檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "4. 綜合判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 5. 觀察其他特徵"
+					}
 				],
 				"articleID": "eval-13",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS-tFlCekXlRKa-dnAJCNHvxoK-REjzKdZMhkR4QGL739m6520kp4pAVDVi8QndtuTkDI1CMRtNlzHU/pub",
@@ -449,9 +1017,47 @@
 			"_tw": {
 				"title": "關於台積電：結合戰爭焦慮，疑美論再進化",
 				"subtitle": "IORG 週報第 37 期 2022.1.1-11.30",
-				"coverImage": "https://lh3.googleusercontent.com/docs/ADP-6oEXBZLi2rulbD79S3HkgIQ_izLuVyk41s5Bx0R1qm7KFZrB3IiQPERRdEd6fi6N-LTWFi0Vcmvm0WyQbwu5ilQrPRWWiFIXgvlSHIv6-QXUriqAg9owcreubv7OMqH7HMBngV7YjZjQSzbESgsdIje_uWxh7AQQCyq3Yvl35G05wbbPXwL63zrKZpVXl7qC45E",
+				"coverImage": "https://lh6.googleusercontent.com/cOgH0YjHA0dmrxBg30eA2N07R9IJnNyfVdDcGemvuNVs8lO6nXv-AHGbP6PwdZ2Og6o3N9ILLMHzuOOiRtD9gSoiYjyDjux-Xw0-Lc5o59V83aVJqMajBQBCbscZjH8lZwWoYJjBYGucCVMr",
 				"tags": [
 					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "傳播熱度分析"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "4 項可疑論述"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "1. 🇨🇳 台積電赴美設廠是美國掏空台灣"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "2. 🇨🇳 台積電赴美設廠是美國脅迫，民進黨政府無力阻止，改以台積電為籌碼交換利益"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "3. 🇨🇳 美國毀台論：開戰時，美國會撤離台積電工程師，採取焦土戰術，摧毀台積電、摧毀台灣"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "4. 民進黨政府賣台，出賣台積電，協助美國掏空台灣"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_37",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQeoGsxIduXVXwrYn6HZzAcf0pNDfPNUwSlRWGF37T5bzGxc8XT3Q6MC2vezzt-OmT4IYKefKZ7vzaZ/pub",
