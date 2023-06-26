@@ -137,7 +137,7 @@ async function getArticles(rows) {
 
     const locales = Object.keys(row.publicURLs)
     console.info(row.id, (oldArticle ? 'reload' : 'initialize'), locales)
-    let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale], locale)))
+    let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale], locale, true)))
 
     locales.forEach((locale, i) => {
       const doc = localizedDocs[i]

@@ -2,13 +2,17 @@
 _tw:
   published: "發佈"
   updated: "更新"
+  toc: "目錄"
+  toggle: "開合"
 _en:
   published: "Published"
   updated: "Updated"
+  toc: "TOC"
+  toggle: "Toggle"
 </i18n>
 
 <template>
-<div class="google-doc" :class="classes">
+<div class="google-doc" :class="classes" ref="googleDoc">
   <template v-if="showHead">
     <div class="title">
       <h1 :is="titleTag" v-if="doc.title" v-html="optimizeTracking(doc.title)"></h1>
@@ -22,6 +26,22 @@ _en:
     </ul>
     <div v-if="showSummary && doc.summaryHTML" class="summary" v-html="doc.summaryHTML"></div>
     <div v-if="showSummary && doc.summaryHTML" class="separator"></div>
+  </template>
+  <template v-if="showTOC">
+    <div class="toc static" ref="tocStatic">
+      <a class="toc-title block"><span>{{ $t('toc') }}</span></a>
+      <ul>
+        <li v-for="section of doc.sections" :key="section.id"><a :href="`#${section.id}`" class="minimal">{{ section.titleText }}</a></li>
+      </ul>
+    </div>
+    <div class="toc interactive" ref="tocInteractive" :class="{ pinned: tocPinned, expanded: tocExpanded }">
+      <a class="toc-title block"><span>{{ $t('toc') }}</span></a>
+      <a class="toc-toggle block" @click="toggleTOC"><span>{{ $t('toggle') }}</span></a>
+      <ul>
+        <li v-for="section of doc.sections" :key="section.id"><a :href="`#${section.id}`" class="minimal">{{ section.titleText }}</a></li>
+      </ul>
+    </div>
+    <div class="separator"></div>
   </template>
   <div class="content" v-html="doc.html"></div>
   <div v-if="metaphor !== 'page'" class="separator"></div>
@@ -51,6 +71,10 @@ export default {
   data() {
     return {
       toggle: true,
+      tocHeight: 0,
+      tocHeightCollapsed: 0,
+      tocPinned: false,
+      tocExpanded: false,
       PUNCT
     }
   },
@@ -76,20 +100,61 @@ export default {
     },
     enableToggle() {
       return this.shouldSetOption('enableToggle') ? this.options.enableToggle : false
+    },
+    showTOC() {
+      return this.metaphor === 'doc' && this.doc.sections && this.doc.sections.length > 0
+    }
+  },
+  watch: {
+    tocPinned() {
+      if(!this.tocPinned) {
+        this.tocExpanded = false
+      }
+    },
+    tocExpanded() {
+      const { googleDoc } = this.$refs
+      googleDoc.style.setProperty('--anchor-scroll-padding-top', (this.tocExpanded ? this.tocHeight : this.tocHeightCollapsed) + 'px')
     }
   },
   mounted() {
+    // activate handles
     const handles = document.querySelectorAll('.gdoc-post > .handle')
     handles.forEach(function(el) {
       el.addEventListener('click', function(e) {
         e.target.parentNode.classList.toggle('expanded')
       })
     })
+
+    // detect toc height
+    if(this.showTOC) {
+      const { googleDoc, tocStatic, tocInteractive } = this.$refs
+      this.tocHeight = tocStatic.offsetHeight
+      this.tocHeightCollapsed = tocInteractive.offsetHeight
+      googleDoc.style.setProperty('--toc-height', this.tocHeight + 'px')
+      googleDoc.style.setProperty('--toc-height-collapsed', this.tocHeightCollapsed + 'px')
+      googleDoc.style.setProperty('--anchor-scroll-padding-top', this.tocHeightCollapsed + 'px')
+
+      const that = this
+      const rem = x => x * parseFloat(getComputedStyle(document.documentElement).fontSize) // rem >>> px
+
+      const observer = new IntersectionObserver(
+        ([e]) => {
+          that.tocPinned = e.intersectionRatio <= 0
+        }, {
+          rootMargin: `${rem(3)}px 0px 0px 0px`, // toc margin * 2
+          threshold: [0, 0.01] // trigger when target intersection = 0 // add 0.01 to double-check
+        }
+      )
+      observer.observe(tocStatic)
+    }
   },
   methods: {
     optimizeTracking,
     shouldSetOption(k) {
       return this.options && Object.prototype.hasOwnProperty.call(this.options, k)
+    },
+    toggleTOC() {
+      this.tocExpanded = !this.tocExpanded
     }
   }
 }
@@ -101,6 +166,11 @@ export default {
 .google-doc {
   // variables
   --doc-spacing: 1rem;
+  --toc-margin: 1.5rem;
+  --toc-height: 0;
+  --toc-height-collapsed: 0;
+  --anchor-scroll-padding-top: 0;
+
   @media (min-width: 480px) {
     --doc-spacing: 1.25rem;
   }
@@ -137,7 +207,67 @@ export default {
       margin-bottom: 1.5rem;
     }
   }
+  > .toc {
+    list-style: none;
+    font-size: 0.9375rem; // 15px
+    top: var(--toc-margin);
+    margin: var(--toc-margin) var(--doc-spacing);
+    padding: 1rem 1.5rem;
+    background: white;
+    border-radius: $rem * 3.375 / 2;
+    @include shadow;
+    > .toc-title,
+    > .toc-toggle {
+      font-weight: bold;
+    }
+    > .toc-toggle {
+      margin-top: 0.875rem * 1.5 * -1;
+      text-align: right;
+      cursor: pointer;
+    }
+    & {
+      > ul {
+        margin: 0.5rem 0;
+        padding: 0;
+        > li {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        > li + li {
+          margin-top: 0.25rem;
+        }
+        > li[class^=h2] {
+          margin-top: 0.375rem;
+        }
+      }
+    }
+    &.interactive {
+      position: -webkit-sticky;
+      position: sticky;
+      opacity: 0;
+      > ul {
+        display: none;
+      }
+      z-index: 10;
+    }
+    &.interactive.pinned {
+      opacity: 1;
+    }
+    &.interactive.expanded {
+      > ul {
+        display: block;
+      }
+    }
+    &.interactive + .separator {
+      margin-top: calc(-1 * var(--anchor-scroll-padding-top));
+    }
+  }
   > .content {
+    h2 {
+      padding-top: calc(var(--anchor-scroll-padding-top) + var(--toc-margin) * 2);
+      margin-top: calc(-1 * (var(--anchor-scroll-padding-top) + var(--toc-margin) * 2)); // FIXME: scroll-padding
+    }
     h2, h3 {
       margin-bottom: 0.375rem;
     }
