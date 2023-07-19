@@ -22,6 +22,66 @@
 			}
 		}
 	},
+	"opinion-poll-credibility": {
+		"show": true,
+		"type": "article",
+		"id": "opinion-poll-credibility",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTfy-wseJ93406-TqBlN3eJFgu_mwwRMHU10xR0HFKkiKQf81_4u2AZfd_8hW_zE5XHaNIL8WPNFnNV/pub"
+		},
+		"publishedAt": "2023/7/19 12:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "3 步驟判讀民調可信度：透明度、研究設計、推論過程",
+				"coverImage": "https://lh3.googleusercontent.com/b1ZxKZOkYRbDdy8FsyylrO0xKdwo33UIiIRhCutKJNfEbgVQcBEKn7a69w8RhqTkQ5VWD7669iqW5H0E0xs373XEuITR074u7K09OLCm-5nATCUvOu91T7QNS6mTsyWABcZyynX4rKMbc4sq",
+				"tags": [
+					"報導",
+					"民調",
+					"民調可信度"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "1. 透明度"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "1. 透明度 – 錯誤案例"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "2. 研究設計"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "2. 研究設計 – 錯誤案例"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "3. 推論過程"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "3. 推論過程 – 錯誤案例"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "參考資料"
+					}
+				],
+				"articleID": "opinion-poll-credibility",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTfy-wseJ93406-TqBlN3eJFgu_mwwRMHU10xR0HFKkiKQf81_4u2AZfd_8hW_zE5XHaNIL8WPNFnNV/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/7/19 12:00",
+				"cache": "opinion-poll-credibility_tw"
+			}
+		}
+	},
 	"us-skepticism-2": {
 		"show": false,
 		"type": "article",
@@ -56,7 +116,7 @@
 			"_tw": {
 				"title": "2021-2022 9 次重大事件出現 8 類「疑美論」",
 				"subtitle": "2023「疑美論」專題報導 ½",
-				"coverImage": "https://lh5.googleusercontent.com/WyQsqeo1hbc20j_iQcIMvwZXZ37gNvoIHiCaRlLH-JOU8S8kMQR_SC08JV6Aww3MX9krmWSiu32XeORldgouuZ5G8RxkPFHCfefV-ov569RARr1-Ue77dmNvfogGqHB39eckPLPnlWH78REK",
+				"coverImage": "https://lh3.googleusercontent.com/CS-LdrSimGFe6y6Zd3OVAJdWsjb3y06HcYvbjS3K_X5HZf4RcISk3ukeiXwcR9Pz007NOL_NcPCe1ea6xz9d6gJYpNBs1M2mmeUkdCdlVjmB8S9iWY-pZqSjx3mx-jczItGkIsT7QLGdbzha",
 				"tags": [],
 				"sections": [
 					{
@@ -73,7 +133,7 @@
 					},
 					{
 						"id": "h2-4",
-						"titleText": "8 類「疑美論」針對台美關係、美國本身、呼應中共官方宣傳"
+						"titleText": "8 類「疑美論」– 4 類針對台美關係，4 類針對美國本身，並呼應中共官方宣傳"
 					},
 					{
 						"id": "h2-5",
