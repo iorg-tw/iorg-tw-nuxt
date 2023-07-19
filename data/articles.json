@@ -34,7 +34,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "3 步驟判讀民調可信度：透明度、研究設計、推論過程",
-				"coverImage": "https://lh3.googleusercontent.com/b1ZxKZOkYRbDdy8FsyylrO0xKdwo33UIiIRhCutKJNfEbgVQcBEKn7a69w8RhqTkQ5VWD7669iqW5H0E0xs373XEuITR074u7K09OLCm-5nATCUvOu91T7QNS6mTsyWABcZyynX4rKMbc4sq",
+				"coverImage": "https://lh6.googleusercontent.com/VSwttxYAiOamQCac4oJRhJPmfdnb02ySewMoXJnFwdN1rLA4hfijxnmWpBRghK83VIMC9CPQ-xLA68QZn0FV1IHCmfSDaXK20AERnz0gqAFY0DTHAVxohLk0Wy5yXlxB1FHZoQc3_77gDx63",
 				"tags": [
 					"報導",
 					"民調",
@@ -51,26 +51,14 @@
 					},
 					{
 						"id": "h2-3",
-						"titleText": "1. 透明度 – 錯誤案例"
-					},
-					{
-						"id": "h2-4",
 						"titleText": "2. 研究設計"
 					},
 					{
-						"id": "h2-5",
-						"titleText": "2. 研究設計 – 錯誤案例"
-					},
-					{
-						"id": "h2-6",
+						"id": "h2-4",
 						"titleText": "3. 推論過程"
 					},
 					{
-						"id": "h2-7",
-						"titleText": "3. 推論過程 – 錯誤案例"
-					},
-					{
-						"id": "h2-8",
+						"id": "h2-5",
 						"titleText": "參考資料"
 					}
 				],
