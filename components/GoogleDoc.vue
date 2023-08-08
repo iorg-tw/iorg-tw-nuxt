@@ -856,6 +856,7 @@ export default {
     }
   }
   .gdoc-actions {
+    margin: 1.5rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
