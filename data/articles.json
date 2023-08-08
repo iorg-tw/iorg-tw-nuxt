@@ -22,6 +22,65 @@
 			}
 		}
 	},
+	"us-skepticism-238": {
+		"show": true,
+		"type": "article",
+		"id": "us-skepticism-238",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQx6b4vIpTxPbElHxiOPv3yPXHX3Mdpu0XP9K3Oj5yiiPsng8o8pv0K-bwCOcdQeq0sGlIPUcme4a6X/pub"
+		},
+		"publishedAt": "2023/8/8 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "US Skepticism Narratives and Where They Come From",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Defining US Skepticism"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Escalating Narratives – From Unfair Exchange to Hollowing Out, from Abandonment to Destruction"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Continued PRC Involvement Signifies Tactics and Priorities"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Skepticism from Within Taiwan"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "US Skepticism Reverberates PRC Propaganda and Completes PRC’s Worldview"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "Conclusion"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "Acknowledgement"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "Methodology"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "Appendix: US Skepticism Narratives Related to Twelve Key Events, 2021- June 2023"
+					}
+				],
+				"articleID": "us-skepticism-238",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQx6b4vIpTxPbElHxiOPv3yPXHX3Mdpu0XP9K3Oj5yiiPsng8o8pv0K-bwCOcdQeq0sGlIPUcme4a6X/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/8/8 17:00",
+				"cache": "us-skepticism-238_tw"
+			}
+		}
+	},
 	"opinion-poll-credibility": {
 		"show": true,
 		"type": "article",
@@ -2037,24 +2096,63 @@
 		"type": "sys",
 		"id": "_rm",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub"
 		},
 		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/10/1 12:00",
+		"updatedAt": "2023/8/8 17:00",
 		"path": "/open/rm",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "IORG 研究方法",
-				"subtitle": "IORG 中國對台影響力作戰研究",
-				"coverImage": "https://lh3.googleusercontent.com/GsZgJqHapxvM8QF91fesu6OLUJRqlTClP3r7HQy-hXYKTxzZPj6pbglDNdEP80xTd5FTv84B9T9zuHmUkA8TPFlaZQnLeTUh-A3e_njAli15VoW6G6M_K4wfe4d7_xUBMQ",
+				"title": "IORG 資訊環境研究架構",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "IORG 資訊環境資料庫 Information Environment Archive"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "IORG 資訊環境索引 Information Environment Directory"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "資料處理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "資訊環境觀測"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "論述觀測"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "公共討論觀測"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "人際網絡觀測"
+					}
+				],
 				"articleID": "_rm",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+				"locale": "_tw",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/10/1 12:00",
-				"cache": "_rm_tw",
-				"locale": "_tw"
+				"updatedAt": "2023/8/8 17:00",
+				"cache": "_rm_tw"
+			},
+			"_en": {
+				"title": "IORG Information Environment Research Framework",
+				"tags": [],
+				"articleID": "_rm",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub",
+				"locale": "_en",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2023/8/8 17:00",
+				"cache": "_rm_en"
 			}
 		}
 	},
@@ -3476,10 +3574,10 @@
 			}
 		}
 	},
-	"_O": {
+	"_open": {
 		"show": false,
 		"type": "sys",
-		"id": "_O",
+		"id": "_open",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub"
@@ -3491,25 +3589,105 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放 IORG",
-				"coverImage": "https://lh5.googleusercontent.com/3GrSk4J9HVVcjWrXim2t-kmODeEjFAYc23CPVfcbKBWs7XLSTqfP5hmInoRNGC53JB-YL4sJWB09DPh5M5c_FMqw_VtiOghyikLt3Cx1au8WISc2smcmBhO5GyNQgp40Qg",
+				"coverImage": "https://lh6.googleusercontent.com/2JaKXMNtLkAx36LS_UL5jDUUEFb5h0O-7UbR86eYv6BOgOvY0fY-a17WAaPwZUgchl8VKkGTsWsbu3ljKOeprzu9aom_i5hbSpMQPZiZ3UMdyOnH8awnc5evDkpbKc8dEYy7wVyqu0vjNwE",
 				"tags": [],
-				"articleID": "_O",
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "原則：預設開放、公眾信任"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究報告、報導"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "研究架構"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "辭典"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "書單"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "典藏"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "IORG 資訊環境資料庫"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "關於 IORG 資訊環境資料庫的 FAQ"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "IORG 資料標準"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "資訊科技工具"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "訪談內容"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "內部文件"
+					}
+				],
+				"articleID": "_open",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/7/22 21:00",
-				"cache": "_O_tw",
-				"locale": "_tw"
+				"cache": "_open_tw"
 			},
 			"_en": {
 				"title": "Open IORG",
-				"coverImage": "https://lh3.googleusercontent.com/-A9r3BAcPUIzDPA3CXz09hRQsUgbVbT-HTUo7bPtKmH11YEe5O4QipgUd39-gjpzseHqvjMJa6SVL_vN5kOVch_yAZtd9Ca47_Hz4xt26pYIwyMYpzMxrBjHUwHFcvvPxg",
+				"coverImage": "https://lh5.googleusercontent.com/n4tQldLxqKbhEGEUo69AvHbWBFXyF8gM2jgOkKIDHfg1Sk25Ji6AhZNtwzEbf-9pUfnoqDNCE1VcAb3BzrvaEhrEwmA2czjvy7o-JWBuar-YkLSVmtJHYFvySB3zf5D5juGeGTM2BhtMJxc",
 				"tags": [],
-				"articleID": "_O",
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Principles: open by default, public accountability"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Research reports and articles"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Research methodology"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Dictionaries"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "IORG Reading List"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "IORG Web Archive"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "IORG Archive"
+					}
+				],
+				"articleID": "_open",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
+				"locale": "_en",
 				"publishedAt": "2021/2/28 20:00",
 				"updatedAt": "2021/7/22 21:00",
-				"cache": "_O_en",
-				"locale": "_en"
+				"cache": "_open_en"
 			}
 		}
 	},

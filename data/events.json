@@ -203,6 +203,7 @@
 		"id": "wmd-ga-2022",
 		"area": "tp",
 		"loc": "台北君悅飯店",
+		"slogan": "臺灣民主基金會 × 勵馨基金會 × 台灣同志諮詢熱線協會 × 台灣青年民主協會 × 台灣資訊環境研究中心 IORG",
 		"date": "2022/10/25",
 		"time": null,
 		"dateAlt": "10.25-27",
@@ -212,6 +213,7 @@
 			"_tw": {
 				"title": "世界民主運動全球大會",
 				"loc": "台北君悅飯店",
+				"slogan": "臺灣民主基金會 × 勵馨基金會 × 台灣同志諮詢熱線協會 × 台灣青年民主協會 × 台灣資訊環境研究中心 IORG",
 				"locale": "_tw"
 			},
 			"_en": {
@@ -577,6 +579,24 @@
 				"cache": "2020-1020_en"
 			}
 		}
+	},
+	"movie-night": {
+		"show": true,
+		"type": "workshop",
+		"id": "movie-night",
+		"area": "tp",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊操弄夏夜電影院 + 映後座談",
+				"loc": null,
+				"slogan": "陳璽尹 × 徐慈妤 × 王宏恩",
+				"locale": "_tw"
+			}
+		},
+		"date": "2023/7/17",
+		"dow": "一",
+		"time": "19:00-21:00"
 	},
 	"ws-71": {
 		"show": true,

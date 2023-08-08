@@ -1,0 +1,42 @@
+{
+	"title": "Open IORG",
+	"coverImage": "https://lh5.googleusercontent.com/n4tQldLxqKbhEGEUo69AvHbWBFXyF8gM2jgOkKIDHfg1Sk25Ji6AhZNtwzEbf-9pUfnoqDNCE1VcAb3BzrvaEhrEwmA2czjvy7o-JWBuar-YkLSVmtJHYFvySB3zf5D5juGeGTM2BhtMJxc",
+	"authorInfoItemsHTML": "<li class=\"c3 c15 li-bullet-0\"><span class=\"c0\">Author = IORG</span></li>",
+	"tags": [],
+	"sections": [
+		{
+			"id": "h2-1",
+			"titleText": "Principles: open by default, public accountability"
+		},
+		{
+			"id": "h2-2",
+			"titleText": "Research reports and articles"
+		},
+		{
+			"id": "h2-3",
+			"titleText": "Research methodology"
+		},
+		{
+			"id": "h2-4",
+			"titleText": "Dictionaries"
+		},
+		{
+			"id": "h2-5",
+			"titleText": "IORG Reading List"
+		},
+		{
+			"id": "h2-6",
+			"titleText": "IORG Web Archive"
+		},
+		{
+			"id": "h2-7",
+			"titleText": "IORG Archive"
+		}
+	],
+	"html": "<div class=\"stickers\"></div><h2 class=\"c5 c11\" id=\"h2-1\"><span class=\"c10\">Principles: open by default, public accountability</span></h2><p class=\"c5\"><span class=\"c0\">IORG believes that open information and civic participation are two core values of defending democracy. Research results, methodology, data, and code produced by IORG are open by default.</span></p><p class=\"c5\"><span class=\"c0\">As a research body of information manipulation, IORG takes extra care before publishing information ourselves. For public accountability, IORG takes measures to ensure that we stay open and transparent. We conduct public-verifiable data science research, release open data, and disclose our research method. We hope that this could help earn trust from the public, and rebuild public discourse on the foundation of facts and science.</span></p><div class=\"gdoc-quote\"><div class=\"header\"><p class=\"c3\"><span class=\"c0\">Knowledge is open if anyone is free to access, use, modify, and share it – subject, at most, to measures that preserve provenance and openness.</span></p></div><div class=\"detail\"><p class=\"c3\"><span>– </span><span class=\"c4\"><a class=\"c9\" href=\"https://opendefinition.org/od/2.1/en/\">Open Definition</a></span><span class=\"c0\"> 2.1</span></p></div></div><p class=\"c5\"><span class=\"c0\">“Open IORG” is our project to make the following items open:</span></p><ul class=\"\"><li class=\"\"><span class=\"c0\">Research reports and articles</span></li><li class=\"\"><span class=\"c0\">Research methodology</span></li><li class=\"\"><span class=\"c0\">Dictionaries</span></li><li class=\"\"><span class=\"c0\">IORG Reading List</span></li><li class=\"\"><span class=\"c0\">IORG Web Archive</span></li><li class=\"\"><span class=\"c0\">IORG Archive</span></li><li class=\"\"><span class=\"c0\">IORG Data Standard</span></li><li class=\"\"><span class=\"c0\">IT tools</span></li><li class=\"\"><span class=\"c0\">Interviews</span></li><li class=\"\"><span class=\"c0\">Internal documents</span></li></ul><div class=\"separator\"></div><div class=\"gdoc-photo-container\"><div class=\"images\"><img alt=\"\" src=\"https://lh5.googleusercontent.com/n4tQldLxqKbhEGEUo69AvHbWBFXyF8gM2jgOkKIDHfg1Sk25Ji6AhZNtwzEbf-9pUfnoqDNCE1VcAb3BzrvaEhrEwmA2czjvy7o-JWBuar-YkLSVmtJHYFvySB3zf5D5juGeGTM2BhtMJxc\" title=\"\"></div></div><div class=\"separator\"></div><div class=\"stickers\"></div><h2 class=\"c5 c11\" id=\"h2-2\"><span class=\"c10\">Research reports and articles</span></h2><p class=\"c5\"><span>Research reports and articles, authored by IORG, are unless otherwise noted, released under a CC BY-SA 4.0 International license via </span><span class=\"c4\"><a class=\"c9\" href=\"https://iorg.tw\">https://iorg.tw</a></span><span class=\"c0\">.</span></p><div class=\"separator\"></div><div class=\"stickers\"></div><h2 class=\"c5 c11\" id=\"h2-3\"><span class=\"c10\">Research methodology</span></h2><p class=\"c5\"><span>IORG Research Method permalink = </span><span class=\"c4\"><a class=\"c9\" href=\"https://iorg.tw/open/research-method\">https://iorg.tw/open/research-method</a></span></p><div class=\"separator\"></div><div class=\"stickers\"></div><h2 class=\"c5 c11\" id=\"h2-4\"><span class=\"c10\">Dictionaries</span></h2><ul class=\"\"><li class=\"\"><span class=\"c0\">Information manipulation, information literacy glossary</span></li><li class=\"\"><span class=\"c0\">Taiwanese Mandarin-English dictionary</span></li><li class=\"\"><span class=\"c0\">Synonym dictionary</span></li><li class=\"\"><span class=\"c0\">Stop words list</span></li></ul><div class=\"separator\"></div><div class=\"stickers\"></div><h2 class=\"c5 c11\" id=\"h2-5\"><span class=\"c10\">IORG Reading List</span></h2><div class=\"separator\"></div><div class=\"stickers\"></div><h2 class=\"c5 c11\" id=\"h2-6\"><span class=\"c10\">IORG Web Archive</span></h2><ul class=\"\"><li class=\"\"><span class=\"c4\"><a class=\"c9\" href=\"https://iorg.tw/archive/\">https://iorg.tw/archive/</a></span></li><li class=\"\"><span class=\"c4\"><a class=\"c9\" href=\"https://github.com/iorg-tw/archive/\">https://github.com/iorg-tw/archive/</a></span></li><li class=\"\"><span class=\"c4\"><a class=\"c9\" href=\"https://github.com/iorg-tw/archive/blob/master/data/archive.json\">https://github.com/iorg-tw/archive/blob/master/data/archive.json</a></span></li></ul><div class=\"separator\"></div><div class=\"stickers\"></div><h2 class=\"c5 c11\" id=\"h2-7\"><span class=\"c10\">IORG Archive</span></h2><p class=\"c5\"><span class=\"c0\">For scientific research purposes, IORG collects data and metadata with automated or human processes from social media, instant messaging, and other web platforms. IORG Archive is built to preserve data for scientific research purposes.</span></p>",
+	"articleID": "_open",
+	"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
+	"locale": "_en",
+	"publishedAt": "2021/2/28 20:00",
+	"updatedAt": "2021/7/22 21:00"
+}

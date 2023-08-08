@@ -14,7 +14,7 @@ export default {
     GoogleDoc
   },
   async asyncData({ app, params, error }) {
-    const id = '_O'
+    const id = '_open'
     const [doc] = await getLocalizedArticles([id], app.i18n.locale)
     if(!doc) {
       error({ statusCode: 404, message: 'pageNotFound' })
