@@ -15,7 +15,7 @@ _en:
 
 <template>
 <div class="page events">
-  <div class="section-header first" v-if="upNextEventCount > 0">
+  <div v-if="upNextEventCount > 0" class="section-header first">
     <p class="section-title-fancy">{{ $t('upNext') }}</p>
   </div>
   <event-list type="conf" :up-next-only="true" :show-sign-up="true" @counted="upNextCounted" />
