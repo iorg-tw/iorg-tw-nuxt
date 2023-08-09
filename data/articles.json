@@ -85,6 +85,7 @@
 	},
 	"opinion-poll-credibility": {
 		"show": true,
+		"featured": true,
 		"type": "article",
 		"id": "opinion-poll-credibility",
 		"publicURLs": {
