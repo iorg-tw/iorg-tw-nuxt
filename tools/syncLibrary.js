@@ -131,6 +131,8 @@ async function getArticles(rows) {
     delete row.reload
     if(!reload && oldArticle) {
       console.info(row.id)
+      delete oldArticle.show
+      delete oldArticle.featured // toggles should match latest value
       Object.assign(row, oldArticle) // FIXME: should merge new and old meta instead of overriding everything
       delete row.reload
       continue
