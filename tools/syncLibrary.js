@@ -75,6 +75,7 @@ async function getStickers(rows) {
 async function getArticles(rows) {
   rows = rows.filter(row => row.id && [row.publicURL_tw, row.publicURL_en].some(url => ok(url))).map(row => ({
     show: row.show ? true : false,
+    ...(ok(row.featured) ? { featured: true } : {}),
     type: row.type,
     id: row.id,
     publicURLs: {

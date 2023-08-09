@@ -17,6 +17,9 @@ _en:
 
 <template>
 <div class="page home">
+  <section v-if="showFeaturedArticles" class="featured">
+    <article-list type="featured" @article-count="checkFeaturedArticleCount" />
+  </section>
   <section class="da">
     <article-list type="da" />
   </section>
@@ -73,10 +76,17 @@ export default {
     Intro
   },
   data() {
-    return Object.assign({}, config, home)
+    return Object.assign({}, config, home, {
+      showFeaturedArticles: true
+    })
   },
   methods: {
-    optimizeTracking
+    optimizeTracking,
+    checkFeaturedArticleCount(count) {
+      if(count < 1) {
+        this.showFeaturedArticles = false
+      }
+    }
   }
 }
 </script>

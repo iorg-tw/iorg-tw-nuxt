@@ -45,7 +45,7 @@ export default {
       type: String,
       default: 'article+video' // types = article video research da eval sys
     },
-    showAll: {
+    showAll: { // show every type + ignore show attr
       type: Boolean,
       default: false
     }
@@ -57,30 +57,34 @@ export default {
     const keys = Object.keys(allArticles)
     const articles = Object.assign({}, ...keys.filter(k => {
       const a = allArticles[k]
-      let flag = true
-      if(this.type !== 'all') {
-        flag = flag && this.type.includes(a.type)
-      }
-      if(!this.showAll) {
-        flag = flag && a.show
-      }
-      return flag
+      return (this.type === 'featured' ? a.featured : this.type.includes(a.type)) && (this.showAll ? true : a.show)
     }).map(k => ({ [k]: allArticles[k] })))
     return {
       articles
     }
   },
   computed: {
+    articleCount() {
+      return Object.keys(this.articles).length
+    },
     isDAList() {
       return this.type === 'da'
+    },
+    isFeaturedArticleList() {
+      return this.type === 'featured'
     },
     articleClasses() {
       const classes = []
       if(this.isDAList) {
         classes.push('xlarge')
+      } else if(this.isFeaturedArticleList) {
+        classes.push('xlarge')
       }
       return classes
     }
+  },
+  mounted() {
+    this.$emit('article-count', this.articleCount)
   },
   methods: {
     optimizeTracking,

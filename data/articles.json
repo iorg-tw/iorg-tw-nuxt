@@ -24,6 +24,7 @@
 	},
 	"us-skepticism-238": {
 		"show": true,
+		"featured": true,
 		"type": "article",
 		"id": "us-skepticism-238",
 		"publicURLs": {
@@ -34,7 +35,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "US Skepticism Narratives and Where They Come From",
-				"coverImage": "https://lh6.googleusercontent.com/-ArLvQJGT1zkGwjwdxRN9Pk-hBUl14CPCLtPd8v1iU3AY3SEDoz_3S0hU2j5h76HJEh1Wix-Zelz7J3kZ8RgWtt_ii20S2yk8uu-Sl09YOBUOf2rLzEB8W0UDwHB66Gj4aRgSStN2Bb13ScRte5ReMM",
+				"coverImage": "https://lh6.googleusercontent.com/NXGkAI0ARb_xMkEs_vUA5QERxNJ4fbz9yxTFuZcYsD_3qSK_DxglSiTIM5FbmOZLqXwMPcVfh4FUIhgd-5SP-C3abgLe2GzOGX5kNAjIt2sw4Lcmz_CcCgzYkaYEBcSc7UtTI_sJIrzYP9v2",
 				"tags": [],
 				"sections": [
 					{
