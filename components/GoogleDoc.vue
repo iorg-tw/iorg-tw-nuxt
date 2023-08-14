@@ -1,6 +1,6 @@
 <i18n lang="yaml">
 _tw:
-  published: "發佈"
+  published: "發布"
   updated: "更新"
   toc: "目錄"
   toggle: "開合"

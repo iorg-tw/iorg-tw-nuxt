@@ -1,6 +1,6 @@
 <i18n lang="yaml">
 _tw:
-  publishedAt: "發佈"
+  publishedAt: "發布"
   updatedAt: "更新"
 _en:
   publishedAt: "Published"
