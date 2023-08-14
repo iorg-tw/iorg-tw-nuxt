@@ -32,11 +32,12 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vQx6b4vIpTxPbElHxiOPv3yPXHX3Mdpu0XP9K3Oj5yiiPsng8o8pv0K-bwCOcdQeq0sGlIPUcme4a6X/pub"
 		},
 		"publishedAt": "2023/8/8 17:00",
+		"updatedAt": "2023/8/15 15:30",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "疑美論和它們的產地",
-				"coverImage": "https://lh3.googleusercontent.com/hxKUfFooZv6xf5OiiXWSeDom0nxprSj0Y_xifLbPzaYdPKmb2qKhfd-v1NvnPWzoiS1UnvgLBmW3S9bdvpet18apcBNRnliH4U48gkw8JKm7y7MO3LEh0m4CJmw_kQYpD0JGAeggvPzZawZk",
+				"coverImage": "https://lh5.googleusercontent.com/TfiIz2o8vzFbLtE45FWvmgAAxunE5ew1XPa1Y1-9_5lzNz945vBPdmY4nC2HTooKmkdymPC3jpmf_YHNZGNyj50Ak8Tao6vYLJcpNewwaFObS6We_4mpX_65Le0qM4GS9Br0AFwOVIRts5t-",
 				"tags": [],
 				"sections": [
 					{
@@ -53,7 +54,7 @@
 					},
 					{
 						"id": "h2-4",
-						"titleText": "來自台灣內部的焦慮及懷疑"
+						"titleText": "半數論述來自台灣 – 反應台灣社會集體心理"
 					},
 					{
 						"id": "h2-5",
@@ -80,6 +81,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS3FFLtzZUIctd5rIge4QDT33D1xrF02CxSEl2HBEVuy2sVxZVK9paCwo7pVHPIj46_sBmKvLgzm3Bv/pub",
 				"locale": "_tw",
 				"publishedAt": "2023/8/8 17:00",
+				"updatedAt": "2023/8/15 15:30",
 				"cache": "us-skepticism-238_tw"
 			},
 			"_en": {
@@ -101,7 +103,7 @@
 					},
 					{
 						"id": "h2-4",
-						"titleText": "Skepticism from Within Taiwan"
+						"titleText": "Narratives from Within Taiwan Reflect Collective Psychology"
 					},
 					{
 						"id": "h2-5",
@@ -128,6 +130,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQx6b4vIpTxPbElHxiOPv3yPXHX3Mdpu0XP9K3Oj5yiiPsng8o8pv0K-bwCOcdQeq0sGlIPUcme4a6X/pub",
 				"locale": "_en",
 				"publishedAt": "2023/8/8 17:00",
+				"updatedAt": "2023/8/15 15:30",
 				"cache": "us-skepticism-238_en"
 			}
 		}
