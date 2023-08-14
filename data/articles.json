@@ -28,14 +28,63 @@
 		"type": "article",
 		"id": "us-skepticism-238",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQx6b4vIpTxPbElHxiOPv3yPXHX3Mdpu0XP9K3Oj5yiiPsng8o8pv0K-bwCOcdQeq0sGlIPUcme4a6X/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS3FFLtzZUIctd5rIge4QDT33D1xrF02CxSEl2HBEVuy2sVxZVK9paCwo7pVHPIj46_sBmKvLgzm3Bv/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vQx6b4vIpTxPbElHxiOPv3yPXHX3Mdpu0XP9K3Oj5yiiPsng8o8pv0K-bwCOcdQeq0sGlIPUcme4a6X/pub"
 		},
 		"publishedAt": "2023/8/8 17:00",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
+				"title": "疑美論和它們的產地",
+				"coverImage": "https://lh3.googleusercontent.com/hxKUfFooZv6xf5OiiXWSeDom0nxprSj0Y_xifLbPzaYdPKmb2qKhfd-v1NvnPWzoiS1UnvgLBmW3S9bdvpet18apcBNRnliH4U48gkw8JKm7y7MO3LEh0m4CJmw_kQYpD0JGAeggvPzZawZk",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "定義「疑美論」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "論述情勢升級 – 從「不平等交換」到「掏空」，從「棄台」到「毀台」"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中共持續介入 – 反應中共宣傳戰術及優先順序"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "來自台灣內部的焦慮及懷疑"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "疑美論述呼應中共宣傳，建構完整另類世界觀"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "結論"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "鳴謝"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "附錄 – 2021-2023 年 6 月間 12 次重大事件相關 84 項疑美論論述"
+					}
+				],
+				"articleID": "us-skepticism-238",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS3FFLtzZUIctd5rIge4QDT33D1xrF02CxSEl2HBEVuy2sVxZVK9paCwo7pVHPIj46_sBmKvLgzm3Bv/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/8/8 17:00",
+				"cache": "us-skepticism-238_tw"
+			},
+			"_en": {
 				"title": "US Skepticism Narratives and Where They Come From",
-				"coverImage": "https://lh6.googleusercontent.com/NXGkAI0ARb_xMkEs_vUA5QERxNJ4fbz9yxTFuZcYsD_3qSK_DxglSiTIM5FbmOZLqXwMPcVfh4FUIhgd-5SP-C3abgLe2GzOGX5kNAjIt2sw4Lcmz_CcCgzYkaYEBcSc7UtTI_sJIrzYP9v2",
+				"coverImage": "https://lh6.googleusercontent.com/md1VSiCaWjaUIeknvs4ydFUo9w-mahfJuizkGET0l_Syg_9GmpHHx5KFol1PBcWzH3bTWSm3AeMBw0Bk3MoriaNJy_3vClMqszZ6rqjeUCtHZSlbFsM3cy7rrzUMz49gMHisCHZnf32p-oUU",
 				"tags": [],
 				"sections": [
 					{
@@ -77,9 +126,9 @@
 				],
 				"articleID": "us-skepticism-238",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQx6b4vIpTxPbElHxiOPv3yPXHX3Mdpu0XP9K3Oj5yiiPsng8o8pv0K-bwCOcdQeq0sGlIPUcme4a6X/pub",
-				"locale": "_tw",
+				"locale": "_en",
 				"publishedAt": "2023/8/8 17:00",
-				"cache": "us-skepticism-238_tw"
+				"cache": "us-skepticism-238_en"
 			}
 		}
 	},
