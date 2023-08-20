@@ -14,8 +14,8 @@ export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ app, route, error }) {
-    const path = route.path
+  async asyncData({ app, params, error }) {
+    const path = '/' + params.id // FIXME
     const id = pathMap[path]
     if(!id) {
       error({ statusCode: 404, message: 'pageNotFound' })
