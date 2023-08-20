@@ -1903,40 +1903,321 @@
 			}
 		}
 	},
-	"about": {
+	"_roadmap": {
 		"show": false,
 		"type": "sys",
-		"id": "about",
+		"id": "_roadmap",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
+		},
+		"publishedAt": "2021/4/1 12:00",
+		"updatedAt": "2021/9/10 8:30",
+		"path": "/open/roadmap",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 2020-2023 4 年計畫",
+				"tags": [],
+				"articleID": "_roadmap",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub",
+				"publishedAt": "2021/4/1 12:00",
+				"updatedAt": "2021/9/10 8:30",
+				"locale": "_tw"
+			}
+		}
+	},
+	"_glossary": {
+		"show": false,
+		"type": "sys",
+		"id": "_glossary",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
+		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2021/4/18 19:00",
+		"path": "/open/glossary",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "詞彙定義",
+				"summary": "詞彙定義，是學術研究、公眾討論的重要基礎工程。IORG 基於科學研究應有的嚴謹態度、預設開放（open by default）精神，於下表列 IORG 研究報告、報導中相關詞彙定義。",
+				"tags": [],
+				"articleID": "_glossary",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2021/4/18 19:00",
+				"locale": "_tw"
+			}
+		}
+	},
+	"_rm": {
+		"show": false,
+		"type": "sys",
+		"id": "_rm",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub"
+		},
+		"publishedAt": "2020/10/20 18:00",
+		"updatedAt": "2023/8/21 0:00",
+		"path": "/open/rm",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 資訊環境研究架構",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "IORG 資訊環境資料庫 Information Environment Archive"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "IORG 資訊環境索引 Information Environment Directory"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "資料處理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "資訊環境觀測"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "論述觀測"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "公共討論觀測"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "人際網絡觀測"
+					}
+				],
+				"articleID": "_rm",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
+				"locale": "_tw",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2023/8/21 0:00",
+				"cache": "_rm_tw"
+			},
+			"_en": {
+				"title": "IORG Information Environment Research Framework",
+				"tags": [],
+				"articleID": "_rm",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub",
+				"locale": "_en",
+				"publishedAt": "2020/10/20 18:00",
+				"updatedAt": "2023/8/21 0:00",
+				"cache": "_rm_en"
+			}
+		}
+	},
+	"_open": {
+		"show": false,
+		"type": "sys",
+		"id": "_open",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub"
+		},
+		"publishedAt": "2021/2/28 20:00",
+		"updatedAt": "2023/8/21 0:00",
+		"path": "/open",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "開放 IORG",
+				"coverImage": "https://lh5.googleusercontent.com/XpuFqD25ydPi0kOwKX_ybGbvYvBBsV2E5-BKpvXvpqPrOeqdhKim8GdZnBPZy3sqZd3kYyBnehDGuC2_TEmDSi7OggF-aA9AGAZC6S18rk1wzcpo30ohY8_fQjQ5X_gkEMenyYv70793Cng",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "原則：預設開放、公眾信任"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究報告、報導"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "研究架構"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "辭典"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "書單"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "典藏"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "IORG 資訊環境資料庫"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "關於 IORG 資訊環境資料庫的 FAQ"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "IORG 資料標準"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "資訊科技工具"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "訪談內容"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "內部文件"
+					}
+				],
+				"articleID": "_open",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
+				"locale": "_tw",
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2023/8/21 0:00",
+				"cache": "_open_tw"
+			},
+			"_en": {
+				"title": "Open IORG",
+				"coverImage": "https://lh5.googleusercontent.com/VgTDOWgdHonvJyFCHtbkDzoVJ8Eu_KK3V3WkE2qNHCmIJOY9CzbT1Z3DYAkjnuLMQsC05_hZCyBGX_cq_Zw7GZXZ5ncZAcJAPL6adMSeeqK0pIOlNj7iUR58X9xqWbb6nkNFzALUz_axK4c",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Principles: open by default, public accountability"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Research reports and articles"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Research methodology"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Dictionaries"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "IORG Reading List"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "IORG Web Archive"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "IORG Archive"
+					}
+				],
+				"articleID": "_open",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
+				"locale": "_en",
+				"publishedAt": "2021/2/28 20:00",
+				"updatedAt": "2023/8/21 0:00",
+				"cache": "_open_en"
+			}
+		}
+	},
+	"_about": {
+		"show": false,
+		"type": "sys",
+		"id": "_about",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
 		},
 		"publishedAt": "2020/7/3 18:00",
-		"updatedAt": "2022/1/19 17:00",
+		"updatedAt": "2023/8/21 0:00",
 		"path": "/about",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "關於 IORG",
-				"summary": "IORG 是以開放資料、科學研究、判讀教育、在地連結，強化台灣資訊環境，反制威權擴張的台灣民間跨領域研究組織，於 2019 年由新聞媒體工作者、社會科學家、資料工程師、社會運動者組成。",
+				"summary": "台灣資訊環境研究中心 IORG 是科學及教育防治資訊操弄、深入理解華語資訊環境、改善公共討論、強化民主韌性的台灣民間組織。",
 				"tags": [],
-				"articleID": "about",
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "資訊環境研究"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資訊判讀教育"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "資訊環境伙伴關係"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "預設公開"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "成員"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "顧問"
+					}
+				],
+				"articleID": "_about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
+				"locale": "_tw",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2022/1/19 17:00",
-				"cache": "about_tw",
-				"locale": "_tw"
+				"updatedAt": "2023/8/21 0:00",
+				"cache": "_about_tw"
 			},
 			"_en": {
 				"title": "About IORG",
-				"summary": "IORG is a multidisciplinary civilian research organization. We are media professionals, social scientists, data engineers, and community activists in Taiwan. We work to safeguard Taiwan’s information environment against authoritarian expansion with open data, scientific research, literacy education, and grassroots organization.",
+				"summary": "Taiwan Information Environment Research Center (IORG) is a Taiwanese civil society organization that uses science and education to reduce information manipulation, advance understanding of the Mandarin information environment, facilitate reasonable public discourse, and strengthen Taiwan’s democratic resilience.",
 				"tags": [],
-				"articleID": "about",
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Information Environment Research"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Information Literacy Education"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Information Environment Partnership"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Open by Default"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "Members"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "Advisors"
+					}
+				],
+				"articleID": "_about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
+				"locale": "_en",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2022/1/19 17:00",
-				"cache": "about_en",
-				"locale": "_en"
+				"updatedAt": "2023/8/21 0:00",
+				"cache": "_about_en"
 			}
 		}
 	},
@@ -2143,71 +2424,6 @@
 				"locale": "_en",
 				"publishedAt": "2022/3/3 12:30",
 				"cache": "_DA_21_en"
-			}
-		}
-	},
-	"_rm": {
-		"show": false,
-		"type": "sys",
-		"id": "_rm",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub"
-		},
-		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2023/8/8 17:00",
-		"path": "/open/rm",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "IORG 資訊環境研究架構",
-				"tags": [],
-				"sections": [
-					{
-						"id": "h2-1",
-						"titleText": "IORG 資訊環境資料庫 Information Environment Archive"
-					},
-					{
-						"id": "h2-2",
-						"titleText": "IORG 資訊環境索引 Information Environment Directory"
-					},
-					{
-						"id": "h2-3",
-						"titleText": "資料處理"
-					},
-					{
-						"id": "h2-4",
-						"titleText": "資訊環境觀測"
-					},
-					{
-						"id": "h2-5",
-						"titleText": "論述觀測"
-					},
-					{
-						"id": "h2-6",
-						"titleText": "公共討論觀測"
-					},
-					{
-						"id": "h2-7",
-						"titleText": "人際網絡觀測"
-					}
-				],
-				"articleID": "_rm",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
-				"locale": "_tw",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2023/8/8 17:00",
-				"cache": "_rm_tw"
-			},
-			"_en": {
-				"title": "IORG Information Environment Research Framework",
-				"tags": [],
-				"articleID": "_rm",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub",
-				"locale": "_en",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2023/8/8 17:00",
-				"cache": "_rm_en"
 			}
 		}
 	},
@@ -3579,170 +3795,6 @@
 				"updatedAt": "2022/3/3 0:30",
 				"cache": "_ack_en",
 				"locale": "_en"
-			}
-		}
-	},
-	"_roadmap": {
-		"show": false,
-		"type": "sys",
-		"id": "_roadmap",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub"
-		},
-		"publishedAt": "2021/4/1 12:00",
-		"updatedAt": "2021/9/10 8:30",
-		"path": "/open/roadmap",
-		"cache": false,
-		"localizedDocs": {
-			"_tw": {
-				"title": "IORG 2020-2023 4 年計畫",
-				"tags": [],
-				"articleID": "_roadmap",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR2lvGm16_W0-m2Qe96ivS1zs1mCt0KPfQQHzO2nN1Yd2QjZdigMYiFBTeSCBJKst3e69mxRPN2EnBT/pub",
-				"publishedAt": "2021/4/1 12:00",
-				"updatedAt": "2021/9/10 8:30",
-				"locale": "_tw"
-			}
-		}
-	},
-	"_glossary": {
-		"show": false,
-		"type": "sys",
-		"id": "_glossary",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub"
-		},
-		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2021/4/18 19:00",
-		"path": "/open/glossary",
-		"cache": false,
-		"localizedDocs": {
-			"_tw": {
-				"title": "詞彙定義",
-				"summary": "詞彙定義，是學術研究、公眾討論的重要基礎工程。IORG 基於科學研究應有的嚴謹態度、預設開放（open by default）精神，於下表列 IORG 研究報告、報導中相關詞彙定義。",
-				"tags": [],
-				"articleID": "_glossary",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSJe7UCSYhMvEzZyAeAaJ-UxbJOVNNnkEN8897d01lGpP2w_LVp9S8kpUAwOnsPMRU3cPWqE5mLyQM4/pub",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2021/4/18 19:00",
-				"locale": "_tw"
-			}
-		}
-	},
-	"_open": {
-		"show": false,
-		"type": "sys",
-		"id": "_open",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub"
-		},
-		"publishedAt": "2021/2/28 20:00",
-		"updatedAt": "2021/7/22 21:00",
-		"path": "/open",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "開放 IORG",
-				"coverImage": "https://lh6.googleusercontent.com/2JaKXMNtLkAx36LS_UL5jDUUEFb5h0O-7UbR86eYv6BOgOvY0fY-a17WAaPwZUgchl8VKkGTsWsbu3ljKOeprzu9aom_i5hbSpMQPZiZ3UMdyOnH8awnc5evDkpbKc8dEYy7wVyqu0vjNwE",
-				"tags": [],
-				"sections": [
-					{
-						"id": "h2-1",
-						"titleText": "原則：預設開放、公眾信任"
-					},
-					{
-						"id": "h2-2",
-						"titleText": "研究報告、報導"
-					},
-					{
-						"id": "h2-3",
-						"titleText": "研究架構"
-					},
-					{
-						"id": "h2-4",
-						"titleText": "辭典"
-					},
-					{
-						"id": "h2-5",
-						"titleText": "書單"
-					},
-					{
-						"id": "h2-6",
-						"titleText": "典藏"
-					},
-					{
-						"id": "h2-7",
-						"titleText": "IORG 資訊環境資料庫"
-					},
-					{
-						"id": "h2-8",
-						"titleText": "關於 IORG 資訊環境資料庫的 FAQ"
-					},
-					{
-						"id": "h2-9",
-						"titleText": "IORG 資料標準"
-					},
-					{
-						"id": "h2-10",
-						"titleText": "資訊科技工具"
-					},
-					{
-						"id": "h2-11",
-						"titleText": "訪談內容"
-					},
-					{
-						"id": "h2-12",
-						"titleText": "內部文件"
-					}
-				],
-				"articleID": "_open",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTWjy95OHJ4XseWoHL_JbW_kSa1FTQiQTilY0KNHbGb77FJSeOCsARrF5StE_ReXLgnty5qZERxHDt1/pub",
-				"locale": "_tw",
-				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/7/22 21:00",
-				"cache": "_open_tw"
-			},
-			"_en": {
-				"title": "Open IORG",
-				"coverImage": "https://lh5.googleusercontent.com/n4tQldLxqKbhEGEUo69AvHbWBFXyF8gM2jgOkKIDHfg1Sk25Ji6AhZNtwzEbf-9pUfnoqDNCE1VcAb3BzrvaEhrEwmA2czjvy7o-JWBuar-YkLSVmtJHYFvySB3zf5D5juGeGTM2BhtMJxc",
-				"tags": [],
-				"sections": [
-					{
-						"id": "h2-1",
-						"titleText": "Principles: open by default, public accountability"
-					},
-					{
-						"id": "h2-2",
-						"titleText": "Research reports and articles"
-					},
-					{
-						"id": "h2-3",
-						"titleText": "Research methodology"
-					},
-					{
-						"id": "h2-4",
-						"titleText": "Dictionaries"
-					},
-					{
-						"id": "h2-5",
-						"titleText": "IORG Reading List"
-					},
-					{
-						"id": "h2-6",
-						"titleText": "IORG Web Archive"
-					},
-					{
-						"id": "h2-7",
-						"titleText": "IORG Archive"
-					}
-				],
-				"articleID": "_open",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRM3qfbMxN_Lr8yepgZ5SwSzPMPWLc4PG9U1KEVj2c4ZO-TYzWjME6RrbBALgIARj4_g4W6LuM31OlZ/pub",
-				"locale": "_en",
-				"publishedAt": "2021/2/28 20:00",
-				"updatedAt": "2021/7/22 21:00",
-				"cache": "_open_en"
 			}
 		}
 	},
