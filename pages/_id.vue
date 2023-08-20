@@ -8,18 +8,20 @@
 import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
+import pathMap from '~/data/paths'
 
 export default {
   components: {
     GoogleDoc
   },
-  async asyncData({ app, params, error }) {
-    const id = params.id
-    const [doc] = await getLocalizedArticles([id], app.i18n.locale)
-    if(!doc) {
+  async asyncData({ app, route, error }) {
+    const path = route.path
+    const id = pathMap[path]
+    if(!id) {
       error({ statusCode: 404, message: 'pageNotFound' })
       return
     }
+    const [doc] = await getLocalizedArticles([id], app.i18n.locale)
     return {
       doc
     }

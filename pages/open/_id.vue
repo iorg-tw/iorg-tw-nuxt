@@ -8,7 +8,6 @@
 import { getLocalizedArticles } from '~/lib/i18n'
 import { generateMeta } from '~/lib/meta'
 import GoogleDoc from '~/components/GoogleDoc'
-
 import pathMap from '~/data/paths'
 
 export default {
