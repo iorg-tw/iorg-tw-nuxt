@@ -452,14 +452,14 @@
 	"op": {
 		"id": "op",
 		"classes": "ok",
-		"_tw": "IORG 觀點",
-		"_en": "IORG opinion"
+		"_tw": "觀點",
+		"_en": "Opinion"
 	},
 	"opinion": {
 		"id": "opinion",
 		"classes": "ok",
-		"_tw": "IORG 觀點",
-		"_en": "IORG opinion"
+		"_tw": "觀點",
+		"_en": "Opinion"
 	},
 	"step-1": {
 		"id": "step-1",
@@ -548,12 +548,14 @@
 	"tw": {
 		"id": "tw",
 		"classes": "alert",
-		"_tw": "🇹🇼"
+		"_tw": "🇹🇼",
+		"_en": "🇹🇼"
 	},
 	"cn": {
 		"id": "cn",
 		"classes": "alert",
-		"_tw": "🇨🇳"
+		"_tw": "🇨🇳",
+		"_en": "🇨🇳"
 	},
 	"tw-cn": {
 		"id": "tw-cn",
@@ -584,6 +586,18 @@
 		"classes": "alert",
 		"_tw": "🇨🇳⋯🇹🇼-🇨🇳",
 		"_en": "🇨🇳⋯🇹🇼-🇨🇳"
+	},
+	"jp": {
+		"id": "jp",
+		"classes": "alert",
+		"_tw": "🇯🇵",
+		"_en": "🇯🇵"
+	},
+	"kr": {
+		"id": "kr",
+		"classes": "alert",
+		"_tw": "🇰🇷",
+		"_en": "🇰🇷"
 	},
 	"uni-stmt": {
 		"id": "uni-stmt",
