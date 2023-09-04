@@ -1,4 +1,40 @@
 {
+	"_DA_47": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_47",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTbinKcVwE7Jbjy60OfksgopRj5d1K3X__cR09MveX8rZv6gMp2BZRNJs8KBkvuyTSybInspYxuKQkO/pub"
+		},
+		"publishedAt": "2023/9/4 20:30",
+		"path": "/da/47",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "錯誤訊息「岸田首相緊急送醫」在中國跨平台傳播，移花接木安倍遇刺照片，農場粉專集團式分享，在台暫無大規模傳播",
+				"subtitle": "IORG 週報第 47 期 2023.9.1-4",
+				"coverImage": "https://lh4.googleusercontent.com/Fj5bpWzXT1yeiS__HIb2WXb-5GB7oeazEd5jmAm-CmiYtTwarMRtf7nDcr2OG5Wb9l9SwkGK-HgvNVhjO-mG28Z-Ugz0K3Ji0HcskiYkPs6nbUUXYXhpmOZeeIZXFGq9wV4T2PiOHCAXTAog",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "論述跨平台傳播情形"
+					}
+				],
+				"articleID": "_DA_47",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTbinKcVwE7Jbjy60OfksgopRj5d1K3X__cR09MveX8rZv6gMp2BZRNJs8KBkvuyTSybInspYxuKQkO/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/9/4 20:30",
+				"cache": "_DA_47_tw"
+			}
+		}
+	},
 	"_DA_46": {
 		"show": true,
 		"type": "da",
