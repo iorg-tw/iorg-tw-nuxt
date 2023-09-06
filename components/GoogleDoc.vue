@@ -773,6 +773,13 @@ export default {
         }
       }
     }
+    &.nl-br {
+      > .detail {
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
   .gdoc-quote,
   .gdoc-def,
