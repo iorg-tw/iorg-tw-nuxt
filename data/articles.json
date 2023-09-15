@@ -1,4 +1,69 @@
 {
+	"youtube-in-tw-232": {
+		"show": true,
+		"featured": true,
+		"type": "article",
+		"id": "youtube-in-tw-232",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQGXel_TCARsAVdAsPQceotGxB6teq8diyp6JwszRrLJdK8VWKZTXzezpY_f6HlTPSNP0iU25ts3vwI/pub"
+		},
+		"publishedAt": "2023/9/13 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2023 年 2 月 IORG 台灣 YouTube 使用者習慣調查",
+				"coverImage": "https://lh5.googleusercontent.com/IgPo9H-A0qm8j2IEBalc6hBgk4nYVjsGGGW84Kk3N5yvXljsGb04Noa3kFXFgZLC0BF0YQnvLLO7t0tGZGYa5oZec4vlvUgt8Dbnu7dtmZ7FHb95OWPPScWqt_2FC0IewjcNa2WUVB4JwsKa",
+				"tags": [
+					"報導",
+					"民調",
+					"YouTube"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "1. 網路使用"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2. YouTube 使用"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "3. 抖音使用"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "4. 假消息的政府管制、平台自治、學校教育"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "5. 影音平台使用 × 政黨認同 × 美中好感度"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "受訪者輪廓"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "研究設計"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "資料申請"
+					}
+				],
+				"articleID": "youtube-in-tw-232",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQGXel_TCARsAVdAsPQceotGxB6teq8diyp6JwszRrLJdK8VWKZTXzezpY_f6HlTPSNP0iU25ts3vwI/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/9/13 17:00",
+				"cache": "youtube-in-tw-232_tw"
+			}
+		}
+	},
 	"_DA_47": {
 		"show": true,
 		"type": "da",
@@ -317,7 +382,6 @@
 	},
 	"opinion-poll-credibility": {
 		"show": true,
-		"featured": true,
 		"type": "article",
 		"id": "opinion-poll-credibility",
 		"publicURLs": {
