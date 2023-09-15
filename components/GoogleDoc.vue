@@ -480,6 +480,9 @@ export default {
   [class^='gdoc-'] {
     margin-bottom: 1.5rem;
   }
+  h2 + [class^='gdoc-'] {
+    margin-top: 0.75rem;
+  }
   .gdoc-photo-container {
     > .images {
       width: 100%;
