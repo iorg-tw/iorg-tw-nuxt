@@ -8,6 +8,7 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQGXel_TCARsAVdAsPQceotGxB6teq8diyp6JwszRrLJdK8VWKZTXzezpY_f6HlTPSNP0iU25ts3vwI/pub"
 		},
 		"publishedAt": "2023/9/13 17:00",
+		"updatedAt": "2023/9/15 12:30",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
@@ -61,6 +62,54 @@
 				"locale": "_tw",
 				"publishedAt": "2023/9/13 17:00",
 				"cache": "youtube-in-tw-232_tw"
+			}
+		}
+	},
+	"_DA_49": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_49",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSilU0DWkIpjRuAtaRbYJ1PF1Ri-PYI884xuxldvJeUz8NJNai5EZAUEfdc3U5orKQhzqaGavlZ-7JR/pub"
+		},
+		"publishedAt": "2023/9/15 17:30",
+		"path": "/da/49",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "Detecting Signals of CCP Central Propaganda Behavior Using Weibo Data Related to Fukushima Nuclear Waste Water",
+				"subtitle": "IORG Alert No. 49 2023.8.7-9.10",
+				"coverImage": "https://lh6.googleusercontent.com/ECL7wkhw8nKZ2G7ognsb6gTDmKClEevK1y4uwn87NxTrfVO7y7oLqdGMCA6qMu3P01Ndl1HlyXE7LgtZwFURwv7EJ_pg_hz5UbEvumnN6q2J4kY1KG-bCLeGBFlPapSVCly_u9sWfIDbFWqK",
+				"tags": [
+					"Alert"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Data Sources"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "1. Overall “Cooling” of the Fukushima Issue, Including Rapid Decrease of Related “Hot Search” Entries"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "2. Decreased CCP “Control” Over Fukushima Issue"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "3. CCP Central Is the First to Initiate and the First to Withdraw"
+					}
+				],
+				"articleID": "_DA_49",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSilU0DWkIpjRuAtaRbYJ1PF1Ri-PYI884xuxldvJeUz8NJNai5EZAUEfdc3U5orKQhzqaGavlZ-7JR/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/9/15 17:30",
+				"cache": "_DA_49_tw"
 			}
 		}
 	},
