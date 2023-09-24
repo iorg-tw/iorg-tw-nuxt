@@ -109,6 +109,21 @@
 			}
 		}
 	},
+	"meetup-2309": {
+		"show": true,
+		"type": "meetup",
+		"id": "meetup-2309",
+		"area": "tp",
+		"date": "2023/9/27",
+		"time": "14:00-17:00",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣資訊環境小聚 2309",
+				"locale": "_tw"
+			}
+		}
+	},
 	"meetup-2305": {
 		"show": true,
 		"type": "meetup",
@@ -165,6 +180,24 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣資訊環境小聚 2302",
+				"locale": "_tw"
+			}
+		}
+	},
+	"2023-0921": {
+		"show": true,
+		"type": "conf",
+		"id": "2023-0921",
+		"area": "tp",
+		"slogan": "台灣資訊環境研究中心 IORG 記者會",
+		"date": "2023/9/21",
+		"time": "14:00-15:00",
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "疑美論和它們的產地",
+				"slogan": "台灣資訊環境研究中心 IORG 記者會",
 				"locale": "_tw"
 			}
 		}
