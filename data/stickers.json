@@ -688,5 +688,71 @@
 		"classes": "danger",
 		"_tw": "仇恨言論",
 		"_en": "Hate speech"
+	},
+	"旺中": {
+		"id": "旺中",
+		"classes": "node group",
+		"_tw": "旺中",
+		"_en": "Want-Want China Group"
+	},
+	"TVBS": {
+		"id": "TVBS",
+		"classes": "node group",
+		"_tw": "TVBS",
+		"_en": "TVBS"
+	},
+	"總台": {
+		"id": "總台",
+		"classes": "node group",
+		"_tw": "🇨🇳 中央广播电视总台",
+		"_en": "🇨🇳 CMG"
+	},
+	"福建廣播影視": {
+		"id": "福建廣播影視",
+		"classes": "node group",
+		"_tw": "🇨🇳 福建省广播影视集团",
+		"_en": "🇨🇳 Fujian MG"
+	},
+	"非凡": {
+		"id": "非凡",
+		"classes": "node group",
+		"_tw": "非凡",
+		"_en": "USN"
+	},
+	"東森新聞": {
+		"id": "東森新聞",
+		"classes": "node group",
+		"_tw": "東森新聞",
+		"_en": "EBC"
+	},
+	"三立": {
+		"id": "三立",
+		"classes": "node group",
+		"_tw": "三立",
+		"_en": "SET"
+	},
+	"大紀元": {
+		"id": "大紀元",
+		"classes": "node group",
+		"_tw": "大紀元",
+		"_en": "Epoch"
+	},
+	"年代": {
+		"id": "年代",
+		"classes": "node group",
+		"_tw": "年代",
+		"_en": "ERA"
+	},
+	"鏡": {
+		"id": "鏡",
+		"classes": "node group",
+		"_tw": "鏡傳媒",
+		"_en": "Mirror Media"
+	},
+	"yt-short": {
+		"id": "yt-short",
+		"classes": "node yt",
+		"_tw": "YT 短影音",
+		"_en": "YT short"
 	}
 }
