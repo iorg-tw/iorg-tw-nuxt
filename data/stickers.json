@@ -629,6 +629,12 @@
 		"_tw": "錯誤歸因",
 		"_en": "Attribution error"
 	},
+	"appeal-anger": {
+		"id": "appeal-anger",
+		"classes": "bad",
+		"_tw": "訴諸憤怒",
+		"_en": "Appeal to anger"
+	},
 	"appeal-hate": {
 		"id": "appeal-hate",
 		"classes": "bad",
@@ -689,6 +695,12 @@
 		"_tw": "仇恨言論",
 		"_en": "Hate speech"
 	},
+	"bad-subtitle": {
+		"id": "bad-subtitle",
+		"classes": "danger",
+		"_tw": "不當字幕",
+		"_en": "Bad subtitle"
+	},
 	"旺中": {
 		"id": "旺中",
 		"classes": "node group",
@@ -747,7 +759,55 @@
 		"id": "鏡",
 		"classes": "node group",
 		"_tw": "鏡傳媒",
-		"_en": "Mirror Media"
+		"_en": "Mirror"
+	},
+	"風": {
+		"id": "風",
+		"classes": "node group",
+		"_tw": "風傳媒",
+		"_en": "Storm"
+	},
+	"競峰": {
+		"id": "競峰",
+		"classes": "node group",
+		"_tw": "競峰",
+		"_en": "JFI"
+	},
+	"中廣": {
+		"id": "中廣",
+		"classes": "node group",
+		"_tw": "中廣",
+		"_en": "BCC"
+	},
+	"人民": {
+		"id": "人民",
+		"classes": "node group",
+		"_tw": "🇨🇳 人民日报",
+		"_en": "🇨🇳 People’s Daily"
+	},
+	"大公文匯": {
+		"id": "大公文匯",
+		"classes": "node group",
+		"_tw": "🇨🇳 香港大公文匯",
+		"_en": "🇨🇳 HK Ta-Kung Wen-Wei MG"
+	},
+	"福建日報": {
+		"id": "福建日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 福建日报",
+		"_en": "🇨🇳 FJ Daily"
+	},
+	"星島": {
+		"id": "星島",
+		"classes": "node group",
+		"_tw": "🇨🇳 星島",
+		"_en": "🇨🇳 Singtao"
+	},
+	"鳳凰": {
+		"id": "鳳凰",
+		"classes": "node group",
+		"_tw": "🇨🇳 鳳凰衛視",
+		"_en": "🇨🇳 Phoenix"
 	},
 	"yt-short": {
 		"id": "yt-short",
