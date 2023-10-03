@@ -36,7 +36,7 @@ async function getRedirects(rows) {
     ...(ok(row.publishedAt) ? { publishedAt: row.publishedAt } : {}),
     ...(ok(row.updatedAt) ? { updatedAt: row.updatedAt } : {})
   }))
-  fs.writeFileSync('data/redirects.json', JSON.stringify(result))
+  fs.writeFileSync('data/redirects.json', JSON.stringify(result, null, '\t'))
 }
 
 async function getTree(rows) {
