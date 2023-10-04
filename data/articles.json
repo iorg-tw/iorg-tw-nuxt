@@ -66,6 +66,98 @@
 			}
 		}
 	},
+	"_DA_50": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_50",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRBDBkeC_jJ9KBn5R-DerrA9gNLnMKiBAwoNigKjhc1d6aW-qERc47mlLczVJHKJUJOsmsfduPXbMQd/pub"
+		},
+		"publishedAt": "2023/10/4 18:30",
+		"path": "/da/50",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "福島核廢水排放後 14 項可疑論述",
+				"subtitle": "IORG 週報第 50 期 2023.8.24-9.6",
+				"coverImage": "https://lh4.googleusercontent.com/mqHHEX75fhogtOuVn3LZmWt8e-hL6BaXyWFpv0U5OS4QZ2WJpHFiINRJP_NKuAM3nsm5fVdSc4ZhJgngo8tI0dVPULWIlDUP3m1X6XWhQKlo_sS1C1fKs9WmURBgU7OiQ2_83LkpVC9vd9-C",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "14 項可疑論述列表"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "1. 報應論：日本地震、颱風、海嘯、海水倒灌，是排放核廢水的報應"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "2. 報應論：福島核電廠排污系統故障，核廢水倒灌，居民發現自來水混濁氣味刺鼻，日本政府派遣救援，岸田首相召開緊急會議，是日本排放核廢水的報應"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "3. 報應論：東京缺水，地下水受污染，水庫有害化學物質超標，損害人體免疫系統，是日本排放核廢水的報應"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "4. 報應論：核廢水排放後，韓國上萬噸魚或 5 萬條魚突然死亡，是韓國支持日本的報應"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "5. 日本首相岸田食用福島海鮮後緊急送醫"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "6. 日本政客說中國遊客入境必須先喝核廢水，吃福島海鮮，兩人笑聲和語氣好像日本侵華時的嘴臉"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "7. 假造俄羅斯在聯合國宣布：檢測日本福島水質，如不達標，則不排除對日本宣戰，毫不留情武力解決日本核廢水問題"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "8. 假造歐巴馬發言：嚴厲譴責日本排放核廢水，肯定是拜登暗地慫恿"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "9. 日本寧願花 700 億公關、洗白、漂白、消毒核廢水排放入海，也不採用其他核廢水處理方法，是因為錢進不了口袋"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "10. 假造帛琉衛生局發言：日本官員園田康博喝下核廢水後因骨髓癌病逝"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "11. 俄羅斯要用氫彈消除福島核污染，氫彈輻射量不高，污染會留在原地"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "12. 中國禁止日本水產進口會讓日商應聲倒閉，遊客抵制會讓日本經濟萎縮"
+					},
+					{
+						"id": "h2-15",
+						"titleText": "13. 假造 NHK 報導日本政府宣布：原銷往中國 2 萬條魚改銷台灣，今晚已運往台灣"
+					},
+					{
+						"id": "h2-16",
+						"titleText": "14. 核廢水排放後，出現陰陽海，生物大量死亡或變異，雨水有輻射，海鮮、海藻、海鹽有毒，所有人都逃不掉"
+					}
+				],
+				"articleID": "_DA_50",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRBDBkeC_jJ9KBn5R-DerrA9gNLnMKiBAwoNigKjhc1d6aW-qERc47mlLczVJHKJUJOsmsfduPXbMQd/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/10/4 18:30",
+				"cache": "_DA_50_tw"
+			}
+		}
+	},
 	"_DA_49": {
 		"show": true,
 		"type": "da",
