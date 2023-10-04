@@ -293,6 +293,12 @@
 		"_tw": "非人化",
 		"_en": "Dehumanization"
 	},
+	"discrimination": {
+		"id": "discrimination",
+		"classes": "danger",
+		"_tw": "歧視",
+		"_en": "Discrimination"
+	},
 	"nickname": {
 		"id": "nickname",
 		"classes": "bad",
@@ -779,6 +785,12 @@
 		"_tw": "中廣",
 		"_en": "BCC"
 	},
+	"公廣": {
+		"id": "公廣",
+		"classes": "node group",
+		"_tw": "公廣集團",
+		"_en": "TBS"
+	},
 	"人民": {
 		"id": "人民",
 		"classes": "node group",
@@ -809,10 +821,82 @@
 		"_tw": "🇨🇳 鳳凰衛視",
 		"_en": "🇨🇳 Phoenix"
 	},
+	"統戰部": {
+		"id": "統戰部",
+		"classes": "node group",
+		"_tw": "🇨🇳 中共中央统战部",
+		"_en": "🇨🇳 UFWD"
+	},
+	"上海報業": {
+		"id": "上海報業",
+		"classes": "node group",
+		"_tw": "🇨🇳 上海报业集团",
+		"_en": "🇨🇳 Shanghai United MG"
+	},
+	"國務院": {
+		"id": "國務院",
+		"classes": "node group",
+		"_tw": "🇨🇳 国务院",
+		"_en": "🇨🇳 General Office of the State Council"
+	},
+	"河北日報": {
+		"id": "河北日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 河北日报",
+		"_en": "🇨🇳 Hebei Dail"
+	},
+	"上海文廣": {
+		"id": "上海文廣",
+		"classes": "node group",
+		"_tw": "🇨🇳 上海文化广播影视集团",
+		"_en": "🇨🇳 Shanghai MG"
+	},
+	"中宣部": {
+		"id": "中宣部",
+		"classes": "node group",
+		"_tw": "🇨🇳 中共中央宣传部",
+		"_en": "🇨🇳 Publicity Department of the CPC"
+	},
+	"共青": {
+		"id": "共青",
+		"classes": "node group",
+		"_tw": "🇨🇳 共青团",
+		"_en": "🇨🇳 CYLC"
+	},
 	"yt-short": {
 		"id": "yt-short",
 		"classes": "node yt",
 		"_tw": "YT 短影音",
 		"_en": "YT short"
+	},
+	"init": {
+		"id": "init",
+		"classes": "node action",
+		"_tw": "發起",
+		"_en": "Init"
+	},
+	"<<": {
+		"id": "<<",
+		"classes": "node action",
+		"_tw": "<<",
+		"_en": "<<"
+	},
+	">>": {
+		"id": ">>",
+		"classes": "node action",
+		"_tw": ">>",
+		"_en": ">>"
+	},
+	"netease": {
+		"id": "netease",
+		"classes": "node pink",
+		"_tw": "网易",
+		"_en": "NetEase"
+	},
+	"tencent": {
+		"id": "tencent",
+		"classes": "node pink",
+		"_tw": "腾讯",
+		"_en": "Tencent"
 	}
 }
