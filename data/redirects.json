@@ -1,6 +1,20 @@
 [
 	{
 		"active": true,
+		"from": "/s/101718",
+		"to": "https://docs.google.com/presentation/d/1I2_eXcIO9YhuunS4YfumQ35D1Pz-PSMNC4Qf9nRUvag/edit#",
+		"type": "slidedeck"
+	},
+	{
+		"active": true,
+		"from": "/s/1012",
+		"to": "https://docs.google.com/presentation/d/181Nx84fYi9qnLGhyGCw7bQdPdVHG3haHmBb49mnIQNw/edit#",
+		"type": "slidedeck",
+		"title": "我們的資訊環境健康嗎？",
+		"publishedAt": "2023/10/12"
+	},
+	{
+		"active": true,
 		"from": "/s/23921",
 		"to": "https://docs.google.com/presentation/d/1uYsgercbR12c5jJzBWwYMWua7E6_dRl2gyPW-sp6dss/edit#",
 		"type": "slidedeck",
