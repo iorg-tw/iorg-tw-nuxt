@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/15243",
+		"to": "https://docs.google.com/presentation/d/18-_kfexWH3MRfKae_VTAjVg8X03bZWa4qpt_nsK9_a4/edit#",
+		"type": "slidedeck",
+		"title": "Building an Information Credibility Network in Taiwan",
+		"publishedAt": "2023/10/28"
+	},
+	{
+		"active": true,
 		"from": "/s/101718",
 		"to": "https://docs.google.com/presentation/d/1I2_eXcIO9YhuunS4YfumQ35D1Pz-PSMNC4Qf9nRUvag/edit#",
 		"type": "slidedeck",
