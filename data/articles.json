@@ -1,7 +1,6 @@
 {
 	"youtube-in-tw-232": {
 		"show": true,
-		"featured": true,
 		"type": "article",
 		"id": "youtube-in-tw-232",
 		"publicURLs": {
@@ -2583,7 +2582,7 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
 		},
 		"publishedAt": "2020/7/3 18:00",
-		"updatedAt": "2023/8/21 0:00",
+		"updatedAt": "2023/11/7 8:30",
 		"path": "/about",
 		"cache": true,
 		"localizedDocs": {
@@ -2614,14 +2613,18 @@
 					},
 					{
 						"id": "h2-6",
-						"titleText": "顧問"
+						"titleText": "客座研究員"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "學術顧問"
 					}
 				],
 				"articleID": "_about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
 				"locale": "_tw",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2023/8/21 0:00",
+				"updatedAt": "2023/11/7 8:30",
 				"cache": "_about_tw"
 			},
 			"_en": {
@@ -2651,14 +2654,18 @@
 					},
 					{
 						"id": "h2-6",
-						"titleText": "Advisors"
+						"titleText": "Research Fellow"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "Academic Advisors"
 					}
 				],
 				"articleID": "_about",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
 				"locale": "_en",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2023/8/21 0:00",
+				"updatedAt": "2023/11/7 8:30",
 				"cache": "_about_en"
 			}
 		}
