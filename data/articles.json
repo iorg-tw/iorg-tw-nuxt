@@ -1,6 +1,163 @@
 {
+	"press-release-20230921": {
+		"show": true,
+		"type": "article",
+		"id": "press-release-20230921",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTkrYqWizRwGCuTPHoaehmsLvUfZnBvRgcsOYRMmJoNuKTSWkyGf2BDR9QeaMms7-T_5v7yLbKWyIZ1/pub"
+		},
+		"publishedAt": "2023/9/21 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「棄台、毀台、假朋友」疑美論持續升級，台灣社會須健全國際識讀，以防治資訊操弄、改善公共討論",
+				"subtitle": "2023.9.21 IORG「疑美論與它們的產地」記者會",
+				"coverImage": "https://lh7-us.googleusercontent.com/iLo5YAO5hIsMHczjuP6IV0Vh0DACByAxz6kgwQIsM9MiOPyoQdXElvUqLTNni2Y5m1yAIDDp5FuyQa3942uUk6uGubWjzaeq9MouevTZzNWO6cPt-xTBZXnK5tw0APCWlDnvqpU1KGlDedha",
+				"tags": [
+					"新聞稿"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "疑美論事態升級，簡化貶低台美關係為不平等的利益交換，甚至發展為「毀台」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "台灣社會需要的不只是媒體識讀，也需要國際識讀"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "參考資料"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "記者會資訊"
+					}
+				],
+				"articleID": "press-release-20230921",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTkrYqWizRwGCuTPHoaehmsLvUfZnBvRgcsOYRMmJoNuKTSWkyGf2BDR9QeaMms7-T_5v7yLbKWyIZ1/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/9/21 17:00",
+				"cache": "press-release-20230921_tw"
+			}
+		}
+	},
+	"press-release-20221203": {
+		"show": true,
+		"type": "article",
+		"id": "press-release-20221203",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT8O42VtttB6_7zq5f1vPZXXXdMXJ-lKAwEVChhuDYOBUCK7wwzmZCcoALUTBIUVBO3gm3lv5FIxODl/pub"
+		},
+		"publishedAt": "2022/12/3 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2022 民主韌性論壇",
+				"subtitle": "2022.12.3 IORG 民主韌性論壇 – 會後新聞稿",
+				"coverImage": "https://lh7-us.googleusercontent.com/YkNm7rrzbq2D80mKFu3DRTcM27hd960hKef6-PVUrM8aP0oS5Fgec2vIWMyoFjSRce-2tlq2docagabmE-NrRkyCp1fkNo9pINrcj0VRkL0J1H2wgvQ5Z3XN8_0ZO_-grIyKtRYbJcS-S7vx",
+				"tags": [
+					"新聞稿"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "活動資訊"
+					}
+				],
+				"articleID": "press-release-20221203",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT8O42VtttB6_7zq5f1vPZXXXdMXJ-lKAwEVChhuDYOBUCK7wwzmZCcoALUTBIUVBO3gm3lv5FIxODl/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/12/3 17:00",
+				"cache": "press-release-20221203_tw"
+			}
+		}
+	},
+	"press-release-20210305": {
+		"show": true,
+		"type": "article",
+		"id": "press-release-20210305",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSGDcwor7S_gRvphPclFBDAU9uPYTW0seJFQeSGyCEEm5EioWlg5RfV9gZsjh34x7xw7n1k1dNyd6tM/pub"
+		},
+		"publishedAt": "2021/3/5 13:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中國對台影響力作戰研究成果發表",
+				"subtitle": "2021.3.5 IORG「中國對台影響力作戰研究成果發表」記者會",
+				"coverImage": "https://lh7-us.googleusercontent.com/eVI-G0z4sBACI0BD6tyjhzhw_orak0-ZzsJdv2y4ALDlLLv7-V4kGtQo2nOTyzI2VJetalddiZxLA22INmZLnVnn1zk4cebCEvPDCFAGfyOHVtHpeqBImVrLounMF1-9offNx06wpji8h8uE",
+				"tags": [
+					"新聞稿"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "從微博到 Facebook：中共官媒訊息透過混淆來源、直接轉貼等方法傳入台灣社交媒體"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資訊操弄手法多元且細緻，政論節目名嘴言論有助於資訊操弄傳播"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中國政府以文化召喚、經濟誘因，促使改變政治行為"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "記者會資訊"
+					}
+				],
+				"articleID": "press-release-20210305",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSGDcwor7S_gRvphPclFBDAU9uPYTW0seJFQeSGyCEEm5EioWlg5RfV9gZsjh34x7xw7n1k1dNyd6tM/pub",
+				"locale": "_tw",
+				"publishedAt": "2021/3/5 13:00",
+				"cache": "press-release-20210305_tw"
+			}
+		}
+	},
+	"press-release-20201020": {
+		"show": true,
+		"type": "article",
+		"id": "press-release-20201020",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ_aqN1SZW__1E0RtCh9N9mB8GadKvbmyhdHahD79Dx_YeolNHjzF_kZb6OaH9vPiUkjNHZ3KLvlPi2/pub"
+		},
+		"publishedAt": "2020/10/20 12:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "解密中國對台認知戰：資訊操弄及網絡分析",
+				"subtitle": "2020.10.20 IORG「解密中國對台認知戰：資訊操弄及網絡分析」記者會",
+				"coverImage": "https://lh7-us.googleusercontent.com/o2RHgccIIm71-T7PTu-13bLf81A4txQuLlAtfkqabJ25aiGmNdrnYKttBWJzL25nLGBL3HlnOabOz2PzZii5eNO7T70TuLQe46infi2WSHIzkO7iBPh2cU5m5XgSjaxnP7l2g4D0VQ3tzt4a",
+				"tags": [
+					"新聞稿"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "資訊操弄的關鍵：台灣在地協力者"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "中國資訊操弄是要混淆視聽"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "記者會資訊"
+					}
+				],
+				"articleID": "press-release-20201020",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_aqN1SZW__1E0RtCh9N9mB8GadKvbmyhdHahD79Dx_YeolNHjzF_kZb6OaH9vPiUkjNHZ3KLvlPi2/pub",
+				"locale": "_tw",
+				"publishedAt": "2020/10/20 12:00",
+				"cache": "press-release-20201020_tw"
+			}
+		}
+	},
 	"youtube-in-tw-232": {
 		"show": true,
+		"featured": true,
 		"type": "article",
 		"id": "youtube-in-tw-232",
 		"publicURLs": {
