@@ -2650,7 +2650,7 @@
 					},
 					{
 						"id": "h2-5",
-						"titleText": "Members"
+						"titleText": "Member"
 					},
 					{
 						"id": "h2-6",
@@ -2658,7 +2658,7 @@
 					},
 					{
 						"id": "h2-7",
-						"titleText": "Academic Advisors"
+						"titleText": "Academic Advisor"
 					}
 				],
 				"articleID": "_about",
