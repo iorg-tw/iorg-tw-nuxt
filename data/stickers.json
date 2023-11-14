@@ -209,6 +209,12 @@
 		"_tw": "變造內容",
 		"_en": "Distorted content"
 	},
+	"distorted": {
+		"id": "distorted",
+		"classes": "danger",
+		"_tw": "變造內容",
+		"_en": "Distorted content"
+	},
 	"no-causality": {
 		"id": "no-causality",
 		"classes": "danger",
@@ -512,8 +518,20 @@
 	"wb": {
 		"id": "wb",
 		"classes": "node wb",
-		"_tw": "WB",
+		"_tw": "微博",
 		"_en": "WB"
+	},
+	"tk": {
+		"id": "tk",
+		"classes": "node tt",
+		"_tw": "TikTok",
+		"_en": "TK"
+	},
+	"dy": {
+		"id": "dy",
+		"classes": "node dy",
+		"_tw": "抖音",
+		"_en": "DY"
 	},
 	"ccp": {
 		"id": "ccp",
@@ -524,8 +542,8 @@
 	"red": {
 		"id": "red",
 		"classes": "node red",
-		"_tw": "類官媒",
-		"_en": "CCP-aff"
+		"_tw": "中共連結",
+		"_en": "CCP-linked"
 	},
 	"pink": {
 		"id": "pink",
@@ -671,6 +689,12 @@
 		"_tw": "島內民眾",
 		"_en": "Islane people"
 	},
+	"tn": {
+		"id": "tn",
+		"classes": "node tn",
+		"_tw": "台灣新聞",
+		"_en": "TW News"
+	},
 	"yt": {
 		"id": "yt",
 		"classes": "node yt",
@@ -707,6 +731,12 @@
 		"_tw": "不當字幕",
 		"_en": "Bad subtitle"
 	},
+	"clickbait": {
+		"id": "clickbait",
+		"classes": "bad",
+		"_tw": "標題誘餌",
+		"_en": "Clickbait"
+	},
 	"旺中": {
 		"id": "旺中",
 		"classes": "node group",
@@ -718,18 +748,6 @@
 		"classes": "node group",
 		"_tw": "TVBS",
 		"_en": "TVBS"
-	},
-	"總台": {
-		"id": "總台",
-		"classes": "node group",
-		"_tw": "🇨🇳 中央广播电视总台",
-		"_en": "🇨🇳 CMG"
-	},
-	"福建廣播影視": {
-		"id": "福建廣播影視",
-		"classes": "node group",
-		"_tw": "🇨🇳 福建省广播影视集团",
-		"_en": "🇨🇳 Fujian MG"
 	},
 	"非凡": {
 		"id": "非凡",
@@ -791,6 +809,24 @@
 		"_tw": "公廣集團",
 		"_en": "TBS"
 	},
+	"醒報": {
+		"id": "醒報",
+		"classes": "node group",
+		"_tw": "台灣醒報",
+		"_en": "Awakening"
+	},
+	"總台": {
+		"id": "總台",
+		"classes": "node group",
+		"_tw": "🇨🇳 中央广播电视总台",
+		"_en": "🇨🇳 CMG"
+	},
+	"福建廣播影視": {
+		"id": "福建廣播影視",
+		"classes": "node group",
+		"_tw": "🇨🇳 福建省广播影视集团",
+		"_en": "🇨🇳 Fujian MG"
+	},
 	"人民": {
 		"id": "人民",
 		"classes": "node group",
@@ -808,6 +844,12 @@
 		"classes": "node group",
 		"_tw": "🇨🇳 福建日报",
 		"_en": "🇨🇳 FJ Daily"
+	},
+	"河北日報": {
+		"id": "河北日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 河北日报",
+		"_en": "🇨🇳 Hebei Daily"
 	},
 	"星島": {
 		"id": "星島",
@@ -827,23 +869,17 @@
 		"_tw": "🇨🇳 中共中央统战部",
 		"_en": "🇨🇳 UFWD CCCCP"
 	},
-	"上海報業": {
-		"id": "上海報業",
-		"classes": "node group",
-		"_tw": "🇨🇳 上海报业集团",
-		"_en": "🇨🇳 Shanghai United MG"
-	},
 	"國務院": {
 		"id": "國務院",
 		"classes": "node group",
 		"_tw": "🇨🇳 国务院",
 		"_en": "🇨🇳 General Office of the State Council"
 	},
-	"河北日報": {
-		"id": "河北日報",
+	"上海報業": {
+		"id": "上海報業",
 		"classes": "node group",
-		"_tw": "🇨🇳 河北日报",
-		"_en": "🇨🇳 Hebei Dail"
+		"_tw": "🇨🇳 上海报业集团",
+		"_en": "🇨🇳 Shanghai United MG"
 	},
 	"上海文廣": {
 		"id": "上海文廣",
@@ -869,35 +905,17 @@
 		"_tw": "🇨🇳 中評社",
 		"_en": "🇨🇳 CRNTT"
 	},
-	"聊城市": {
-		"id": "聊城市",
+	"山東": {
+		"id": "山東",
 		"classes": "node group",
-		"_tw": "🇨🇳 聊城市政府",
-		"_en": "🇨🇳 Liaocheng"
-	},
-	"永州市": {
-		"id": "永州市",
-		"classes": "node group",
-		"_tw": "🇨🇳 永州市政府",
-		"_en": "🇨🇳 Yongzhou"
-	},
-	"臨沂市": {
-		"id": "臨沂市",
-		"classes": "node group",
-		"_tw": "🇨🇳 临沂市政府",
-		"_en": "🇨🇳 Linyi"
-	},
-	"山東省": {
-		"id": "山東省",
-		"classes": "node group",
-		"_tw": "🇨🇳 山東省政府",
+		"_tw": "🇨🇳 山東",
 		"_en": "🇨🇳 Shandong"
 	},
-	"醒報": {
-		"id": "醒報",
+	"湖南": {
+		"id": "湖南",
 		"classes": "node group",
-		"_tw": "台灣醒報",
-		"_en": "Awakening"
+		"_tw": "🇨🇳 湖南",
+		"_en": "🇨🇳 Hunan"
 	},
 	"yt-short": {
 		"id": "yt-short",
@@ -934,5 +952,125 @@
 		"classes": "node pink",
 		"_tw": "腾讯",
 		"_en": "Tencent"
+	},
+	"1p": {
+		"id": "1p",
+		"classes": "rank 1p",
+		"_tw": "1",
+		"_en": "1"
+	},
+	"2p": {
+		"id": "2p",
+		"classes": "rank 2p",
+		"_tw": "2",
+		"_en": "2"
+	},
+	"3p": {
+		"id": "3p",
+		"classes": "rank 3p",
+		"_tw": "3",
+		"_en": "3"
+	},
+	"4p": {
+		"id": "4p",
+		"classes": "rank 4p",
+		"_tw": "4",
+		"_en": "4"
+	},
+	"5p": {
+		"id": "5p",
+		"classes": "rank",
+		"_tw": "5",
+		"_en": "5"
+	},
+	"6p": {
+		"id": "6p",
+		"classes": "rank",
+		"_tw": "6",
+		"_en": "6"
+	},
+	"7p": {
+		"id": "7p",
+		"classes": "rank",
+		"_tw": "7",
+		"_en": "7"
+	},
+	"8p": {
+		"id": "8p",
+		"classes": "rank",
+		"_tw": "8",
+		"_en": "8"
+	},
+	"9p": {
+		"id": "9p",
+		"classes": "rank",
+		"_tw": "9",
+		"_en": "9"
+	},
+	"10p": {
+		"id": "10p",
+		"classes": "rank",
+		"_tw": "10",
+		"_en": "10"
+	},
+	"11p": {
+		"id": "11p",
+		"classes": "rank",
+		"_tw": "11",
+		"_en": "11"
+	},
+	"12p": {
+		"id": "12p",
+		"classes": "rank",
+		"_tw": "12",
+		"_en": "12"
+	},
+	"13p": {
+		"id": "13p",
+		"classes": "rank",
+		"_tw": "13",
+		"_en": "13"
+	},
+	"14p": {
+		"id": "14p",
+		"classes": "rank",
+		"_tw": "14",
+		"_en": "14"
+	},
+	"15p": {
+		"id": "15p",
+		"classes": "rank",
+		"_tw": "15",
+		"_en": "15"
+	},
+	"16p": {
+		"id": "16p",
+		"classes": "rank",
+		"_tw": "16",
+		"_en": "16"
+	},
+	"17p": {
+		"id": "17p",
+		"classes": "rank",
+		"_tw": "17",
+		"_en": "17"
+	},
+	"18p": {
+		"id": "18p",
+		"classes": "rank",
+		"_tw": "18",
+		"_en": "18"
+	},
+	"19p": {
+		"id": "19p",
+		"classes": "rank",
+		"_tw": "19",
+		"_en": "19"
+	},
+	"20p": {
+		"id": "20p",
+		"classes": "rank",
+		"_tw": "20",
+		"_en": "20"
 	}
 }
