@@ -1,4 +1,41 @@
 {
+	"eval-20": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-20",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQCk-BD8dFDI--pFl2t6-bOEO45hdZRlwwyYui9Wip1EKeEiFVnA_0PBaSCB0Na3nIYz3w1DDPPl9MU/pub"
+		},
+		"publishedAt": "2023/11/14 19:30",
+		"path": "/eval/20",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「馬斯克：兩岸 100% 會統一」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 20 題",
+				"coverImage": "https://lh7-us.googleusercontent.com/IcGD4rbkPncu4XJr4jdmG6bji7CkqMIWgODJekMo688i8pmDU-yYB82WIwBXAmxQRIaT1XhiAHJ8MmYZbsnIEMZkuXjQbJumrVxX_7MK7pj3uZlxDeVcOZt5Yed8ASja66NHdXn6wxIAkSrt",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "文本列表及資訊判讀參考結果"
+					}
+				],
+				"articleID": "eval-20",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQCk-BD8dFDI--pFl2t6-bOEO45hdZRlwwyYui9Wip1EKeEiFVnA_0PBaSCB0Na3nIYz3w1DDPPl9MU/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/11/14 19:30",
+				"cache": "eval-20_tw"
+			}
+		}
+	},
 	"press-release-20230921": {
 		"show": true,
 		"type": "article",
