@@ -227,6 +227,12 @@
 		"_tw": "以偏概全",
 		"_en": "Generalization"
 	},
+	"gen": {
+		"id": "gen",
+		"classes": "danger",
+		"_tw": "以偏概全",
+		"_en": "Generalization"
+	},
 	"false-eq": {
 		"id": "false-eq",
 		"classes": "danger",
@@ -737,11 +743,23 @@
 		"_tw": "標題誘餌",
 		"_en": "Clickbait"
 	},
+	"大紀元": {
+		"id": "大紀元",
+		"classes": "node group",
+		"_tw": "大紀元",
+		"_en": "Epoch"
+	},
 	"旺中": {
 		"id": "旺中",
 		"classes": "node group",
 		"_tw": "旺中",
 		"_en": "Want-Want China Group"
+	},
+	"聯合": {
+		"id": "聯合",
+		"classes": "node group",
+		"_tw": "聯合",
+		"_en": "UDN"
 	},
 	"TVBS": {
 		"id": "TVBS",
@@ -767,12 +785,6 @@
 		"_tw": "三立",
 		"_en": "SET"
 	},
-	"大紀元": {
-		"id": "大紀元",
-		"classes": "node group",
-		"_tw": "大紀元",
-		"_en": "Epoch"
-	},
 	"年代": {
 		"id": "年代",
 		"classes": "node group",
@@ -790,6 +802,12 @@
 		"classes": "node group",
 		"_tw": "風傳媒",
 		"_en": "Storm"
+	},
+	"東森": {
+		"id": "東森",
+		"classes": "node group",
+		"_tw": "東森",
+		"_en": "ETtoday"
 	},
 	"競峰": {
 		"id": "競峰",
@@ -814,6 +832,12 @@
 		"classes": "node group",
 		"_tw": "台灣醒報",
 		"_en": "Awakening"
+	},
+	"真晨報": {
+		"id": "真晨報",
+		"classes": "node group",
+		"_tw": "真晨報",
+		"_en": "The Real Daily"
 	},
 	"總台": {
 		"id": "總台",
@@ -863,17 +887,35 @@
 		"_tw": "🇨🇳 鳳凰衛視",
 		"_en": "🇨🇳 Phoenix"
 	},
+	"中共中央": {
+		"id": "中共中央",
+		"classes": "node group",
+		"_tw": "🇨🇳 中共中央",
+		"_en": "🇨🇳 CC-CCP"
+	},
+	"中央軍委": {
+		"id": "中央軍委",
+		"classes": "node group",
+		"_tw": "🇨🇳 中共中央军委",
+		"_en": "🇨🇳 CMC-CCP"
+	},
 	"統戰部": {
 		"id": "統戰部",
 		"classes": "node group",
 		"_tw": "🇨🇳 中共中央统战部",
-		"_en": "🇨🇳 UFWD CCCCP"
+		"_en": "🇨🇳 UFWD CC-CCP"
 	},
 	"國務院": {
 		"id": "國務院",
 		"classes": "node group",
 		"_tw": "🇨🇳 国务院",
-		"_en": "🇨🇳 General Office of the State Council"
+		"_en": "🇨🇳 State Council"
+	},
+	"國台辦": {
+		"id": "國台辦",
+		"classes": "node group",
+		"_tw": "🇨🇳 国台办",
+		"_en": "🇨🇳 Taiwan Affairs"
 	},
 	"上海報業": {
 		"id": "上海報業",
