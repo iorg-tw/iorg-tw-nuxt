@@ -1,7 +1,7 @@
 <i18n lang="json">
 {
   "_tw": {
-    "sub": "留下 Email 訂閱電子報，追蹤 IORG 最新研究成果。",
+    "sub": "訂閱電子報，追蹤 IORG 最新研究成果。",
     "sub_after_article": "感謝你的閱讀。<br>覺得不錯嗎？留下 Email 就可以訂閱囉 <span class=yes>✌️</span>",
     "privacy": "基於隱私保護，你的 Email 僅供 IORG 寄送電子報使用，絕不轉作他用，絕不轉交他人。如果你不想再收到 IORG 電子報，請隨時寄信至 bye [at] iorg.tw 取消訂閱，非常感謝。"
   },
