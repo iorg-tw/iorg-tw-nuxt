@@ -1,4 +1,41 @@
 {
+	"eval-21": {
+		"show": true,
+		"type": "eval",
+		"id": "eval-21",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQlZd0IzPQg-p7dOupe6IYC6BsgY7u1-v4ma9mY2Ed5uAM_GlnMAMku9V2uMzW4IcAOn3RMuPuMpDUZ/pub"
+		},
+		"publishedAt": "2023/11/24 17:00",
+		"path": "/eval/21",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "「10 萬印度移工讓台灣變成性侵島」可判定為資訊操弄",
+				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 21 題",
+				"coverImage": "https://lh7-us.googleusercontent.com/86XyLWLKZbcxi4CQV7rysJKkqRMSGS3JCABjtVjl3vCwxJBzcHaW3cnE64wLeSlqDnS-fGbzgXybPqh6Kkb5iemI6xOlIb7OBZCeC0L3UmqZY1m_lhyI1ZXuyo5oZHVmHcmdUAfdsmWR1bljogXEGOnfDbQY9T5C1YZRR_9F_zJRNv0tou89A1M",
+				"tags": [
+					"訊息可信度評量",
+					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "傳播情形"
+					}
+				],
+				"articleID": "eval-21",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQlZd0IzPQg-p7dOupe6IYC6BsgY7u1-v4ma9mY2Ed5uAM_GlnMAMku9V2uMzW4IcAOn3RMuPuMpDUZ/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/11/24 17:00",
+				"cache": "eval-21_tw"
+			}
+		}
+	},
 	"_DA_52": {
 		"show": true,
 		"type": "da",
