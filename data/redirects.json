@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/1262",
+		"to": "https://docs.google.com/presentation/d/1TUKh-YWCRo4GbLV679cPjSxPGKbP1RNzuByYOYIgvnE/edit#slide=id.g262eccc8176_0_274",
+		"type": "slidedeck",
+		"title": "Media Literacy and Information Literacy",
+		"publishedAt": "2023/12/6"
+	},
+	{
+		"active": true,
 		"from": "/s/ud23",
 		"to": "https://docs.google.com/presentation/d/1WOdBD2krh2tkiLgrRSXTd3fQy8L2L4YO0fm_t9wADzI/edit#",
 		"type": "slidedeck",
@@ -259,6 +267,14 @@
 		"to": "https://drive.google.com/drive/folders/1RDi0HldsHLIPEJYydk4AsPOvCD0u_KKP?usp=drive_link",
 		"type": "folder",
 		"title": "2023.9.21 記者會照片"
+	},
+	{
+		"active": true,
+		"from": "/ds/mA6h",
+		"to": "https://docs.google.com/spreadsheets/d/1MXELNOfL72dETP5HVWLjnZ_jNa0l422IcAacIPFwhxk/edit#gid=1032277460",
+		"type": "dataset",
+		"title": "2023 年華為 Mate 60 系列手機上市平行時空",
+		"publishedAt": "2023/12/4"
 	},
 	{
 		"active": true,
