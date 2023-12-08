@@ -773,8 +773,8 @@
 		"_tw": "非凡",
 		"_en": "USN"
 	},
-	"東森新聞": {
-		"id": "東森新聞",
+	"茂德": {
+		"id": "茂德",
 		"classes": "node group",
 		"_tw": "東森新聞",
 		"_en": "EBC"
@@ -806,7 +806,7 @@
 	"東森": {
 		"id": "東森",
 		"classes": "node group",
-		"_tw": "東森",
+		"_tw": "ETtoday",
 		"_en": "ETtoday"
 	},
 	"競峰": {
