@@ -959,6 +959,12 @@
 		"_tw": "🇨🇳 湖南",
 		"_en": "🇨🇳 Hunan"
 	},
+	"中通社": {
+		"id": "中通社",
+		"classes": "node group",
+		"_tw": "🇨🇳 香港中國通訊社",
+		"_en": "🇨🇳 HK China News Agency"
+	},
 	"yt-short": {
 		"id": "yt-short",
 		"classes": "node yt",
