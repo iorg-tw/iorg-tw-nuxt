@@ -233,6 +233,14 @@
 	},
 	{
 		"active": true,
+		"from": "/doc/tpod",
+		"to": "https://docs.google.com/document/d/1PafqYutDID4chyFu0xsMKEBCb8usdPjuXxdXF2RRyAU/edit#",
+		"type": "doc",
+		"title": "台灣政治開放資料",
+		"publishedAt": "2023/12/8"
+	},
+	{
+		"active": true,
 		"from": "/doc/co",
 		"to": "https://docs.google.com/document/d/1aVbS0V4IUWPAC6fxcAKS4b36PbCQRS_Vwd5khP7D4Hg/edit#",
 		"type": "doc"
