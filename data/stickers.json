@@ -761,6 +761,12 @@
 		"_tw": "聯合",
 		"_en": "UDN"
 	},
+	"自由": {
+		"id": "自由",
+		"classes": "node group",
+		"_tw": "自由",
+		"_en": "LT"
+	},
 	"TVBS": {
 		"id": "TVBS",
 		"classes": "node group",
@@ -809,11 +815,41 @@
 		"_tw": "ETtoday",
 		"_en": "ETtoday"
 	},
+	"亞洲衛視": {
+		"id": "亞洲衛視",
+		"classes": "node group",
+		"_tw": "亞洲衛視",
+		"_en": "ADMC"
+	},
+	"媒體棧": {
+		"id": "媒體棧",
+		"classes": "node group",
+		"_tw": "媒體棧",
+		"_en": "Media Chain"
+	},
+	"台數科": {
+		"id": "台數科",
+		"classes": "node group",
+		"_tw": "台數科",
+		"_en": "TOP"
+	},
+	"八大": {
+		"id": "八大",
+		"classes": "node group",
+		"_tw": "八大",
+		"_en": "GTV"
+	},
 	"競峰": {
 		"id": "競峰",
 		"classes": "node group",
 		"_tw": "競峰",
 		"_en": "JFI"
+	},
+	"壹": {
+		"id": "壹",
+		"classes": "node group",
+		"_tw": "壹傳媒",
+		"_en": "Next Digital"
 	},
 	"中廣": {
 		"id": "中廣",
@@ -821,11 +857,29 @@
 		"_tw": "中廣",
 		"_en": "BCC"
 	},
+	"中央社": {
+		"id": "中央社",
+		"classes": "node group",
+		"_tw": "中央社",
+		"_en": "CNA"
+	},
 	"公廣": {
 		"id": "公廣",
 		"classes": "node group",
 		"_tw": "公廣集團",
 		"_en": "TBS"
+	},
+	"台視": {
+		"id": "台視",
+		"classes": "node group",
+		"_tw": "台視",
+		"_en": "TTV"
+	},
+	"民視": {
+		"id": "民視",
+		"classes": "node group",
+		"_tw": "民視",
+		"_en": "FTV"
 	},
 	"醒報": {
 		"id": "醒報",
