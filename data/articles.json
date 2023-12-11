@@ -1,4 +1,117 @@
 {
+	"youtube-in-tw-2310": {
+		"show": true,
+		"featured": true,
+		"type": "article",
+		"id": "youtube-in-tw-2310",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTEz0yiDOBAV-YGBJJlaLhF423UCYRT-Qe5xEFsTImhoV4vOCJOnab5iN6Mkz4a0LvbL2_VSs3NVEHY/pub"
+		},
+		"publishedAt": "2023/12/11 18:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2023 年 10 月 IORG 台灣 YouTube 使用習慣及政治態度調查",
+				"coverImage": "https://lh7-us.googleusercontent.com/Vb0fzd-hME5e78rjTQLqmKmXW_29HY9dBMXe_1mZt6o-LDXeP9kBdmtwLsYimfYePJFdhQK0I6CmiDq2TIIyiBu99qjatEBEGNYh8mwYTTFdH96phmc1fUeQnk22LVX8F1SfELU36heQW7sO",
+				"tags": [
+					"報導",
+					"民調",
+					"YouTube"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "1. YouTube 新聞使用概況"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2. 美國、中國好感度 × 政黨認同 × 媒體集團"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "3.美中相關論述熟悉程度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "4. 可疑論述認同程度"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "5. 投票行為 × 媒體集團 × 可疑論述"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "受訪者輪廓"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "調查方法"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "資料申請"
+					}
+				],
+				"articleID": "youtube-in-tw-2310",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTEz0yiDOBAV-YGBJJlaLhF423UCYRT-Qe5xEFsTImhoV4vOCJOnab5iN6Mkz4a0LvbL2_VSs3NVEHY/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/12/11 18:00",
+				"cache": "youtube-in-tw-2310_tw"
+			}
+		}
+	},
+	"us-favorability-election-2024": {
+		"show": true,
+		"type": "article",
+		"id": "us-favorability-election-2024",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRVt-yz2eDXZjcdWTduB6oDybyaAaEQn6pECVj5ThRPmbAU7msfwERa4kABPBqG84M_A1iYLZin8rFm/pub"
+		},
+		"publishedAt": "2023/12/11 18:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "選民美中好感度影響賴清德支持度，訴諸戰爭恐懼的疑美論有利柯、侯",
+				"coverImage": "https://lh7-us.googleusercontent.com/o35VR9YUjH7Aw09BzMr0mez0VcSZn8n2GWC7rmkjSvcS1fbrprf7xljzMGLUifO16qXZpcf30vBC--YcheW5B4tKgPIH_kUlCIaxAqtuqYMvZ5KBWf-ruB_FAkoQEV8GtDvuF2mDGo0LAbxg",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "40 歲以上選民賴清德佔優勢，柯文哲吸引年輕選民但不受女性青睞"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "台灣社會 63.6% 傾美，國民黨支持者偏離社會共識"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "可疑論述降低對美好感，提升對中好感，有利中國政治宣傳"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "訴諸戰爭焦慮的可疑論述有利非綠陣營，衝擊賴清德選情"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "資訊操弄干擾選舉，有礙民主發展，更可能導致威權擴散，台灣民主需要社會各界協力守護"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "補充說明"
+					}
+				],
+				"articleID": "us-favorability-election-2024",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRVt-yz2eDXZjcdWTduB6oDybyaAaEQn6pECVj5ThRPmbAU7msfwERa4kABPBqG84M_A1iYLZin8rFm/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/12/11 18:00",
+				"cache": "us-favorability-election-2024_tw"
+			}
+		}
+	},
 	"_DA_53": {
 		"show": true,
 		"type": "da",
@@ -439,7 +552,6 @@
 	},
 	"youtube-in-tw-232": {
 		"show": true,
-		"featured": true,
 		"type": "article",
 		"id": "youtube-in-tw-232",
 		"publicURLs": {
