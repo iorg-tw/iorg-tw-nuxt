@@ -12,7 +12,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "2023 年 10 月 IORG 台灣 YouTube 使用習慣及政治態度調查",
-				"coverImage": "https://lh7-us.googleusercontent.com/Vb0fzd-hME5e78rjTQLqmKmXW_29HY9dBMXe_1mZt6o-LDXeP9kBdmtwLsYimfYePJFdhQK0I6CmiDq2TIIyiBu99qjatEBEGNYh8mwYTTFdH96phmc1fUeQnk22LVX8F1SfELU36heQW7sO",
+				"coverImage": "https://lh7-us.googleusercontent.com/gp74kvN9r5309vcDFsUVUIf48xoi6dvxu3BkVcx8YydkzffEloZ69l5qpkwNDaGcCeIWq-4uyTBXAzrIxYxsjA-Aw1kJgbKsST591rJNmuxdezSr-knuSG5uEIEQ2oZdPiDt9FYAG6RTDfl0",
 				"tags": [
 					"報導",
 					"民調",
@@ -33,7 +33,7 @@
 					},
 					{
 						"id": "h2-4",
-						"titleText": "3.美中相關論述熟悉程度"
+						"titleText": "3. 美中相關論述熟悉程度"
 					},
 					{
 						"id": "h2-5",
@@ -45,14 +45,26 @@
 					},
 					{
 						"id": "h2-7",
-						"titleText": "受訪者輪廓"
+						"titleText": "6. 抖音使用"
 					},
 					{
 						"id": "h2-8",
-						"titleText": "調查方法"
+						"titleText": "7. 民主支持"
 					},
 					{
 						"id": "h2-9",
+						"titleText": "7.2 可疑論述降低對民主的支持，訴諸戰爭恐懼可能助長威權擴張"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "受訪者輪廓"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "調查方法"
+					},
+					{
+						"id": "h2-12",
 						"titleText": "資料申請"
 					}
 				],
@@ -61,6 +73,58 @@
 				"locale": "_tw",
 				"publishedAt": "2023/12/11 18:00",
 				"cache": "youtube-in-tw-2310_tw"
+			}
+		}
+	},
+	"youtube-news-polarization": {
+		"show": true,
+		"type": "article",
+		"id": "youtube-news-polarization",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSxBb0v1hBkmiQrsRDOowtDblnFxEpV-H_sX5ocIFkGqudNBvXFhTUXQXhg05JeP56vhPk-ls0K8k70/pub"
+		},
+		"publishedAt": "2023/12/12 20:30",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "旺中、三立觀眾世界觀兩極，YouTube 新聞及政論節目環境極化，妨礙民主社會互信",
+				"coverImage": "https://lh7-us.googleusercontent.com/3r3pkb8SXHGTjEuHRUoN7UY-pG8iYKomF5yHfHrw-YhbNymxGGgYX7wxsqCfAUD0KLKcdi2wYpFk6DoO2D3FSyhZNbH6Tj0p_KZh-qoJj87g1sz1hdECs_0cxJIqymZepIZfOy2fEKlMRdiw",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "YouTube 僅次電視，是民眾主要新聞來源，旺中擁有最多忠實觀眾"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "不同媒體集團觀眾支持不同總統候選人：旺中觀眾近半支持侯友宜、TVBS 近半支持柯文哲、三立八成支持賴清德"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "各媒體集團觀眾都傾美，僅旺中觀眾傾中，偏離台灣社會整體態度"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "旺中觀眾對美國負面印象顯著，三立觀眾更熟悉「美國贏家、中國輸家」的說法"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "旺中、TVBS 觀眾顯著更為認同親中反美的可疑論述"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "從電視到網路，台灣新聞觀眾正陷入政黨、媒體、論述的極化世界觀"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "補充說明"
+					}
+				],
+				"articleID": "youtube-news-polarization",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSxBb0v1hBkmiQrsRDOowtDblnFxEpV-H_sX5ocIFkGqudNBvXFhTUXQXhg05JeP56vhPk-ls0K8k70/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/12/12 20:30",
+				"cache": "youtube-news-polarization_tw"
 			}
 		}
 	},
@@ -76,7 +140,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "選民美中好感度影響賴清德支持度，訴諸戰爭恐懼的疑美論有利柯、侯",
-				"coverImage": "https://lh7-us.googleusercontent.com/o35VR9YUjH7Aw09BzMr0mez0VcSZn8n2GWC7rmkjSvcS1fbrprf7xljzMGLUifO16qXZpcf30vBC--YcheW5B4tKgPIH_kUlCIaxAqtuqYMvZ5KBWf-ruB_FAkoQEV8GtDvuF2mDGo0LAbxg",
+				"coverImage": "https://lh7-us.googleusercontent.com/h2HIHAGtywMC056i6hZLxDC7xLRLPyhCY8M8gMMkaVvssZJ85ztjDcyuhaRvz_uUCipv3QZze40QwONEYgig7C6SbIS8GdoGAFVqqCRTzKSq6IJaoRpdZ4d1n3HCOi-Ta0N3gBGXNKNh91ru",
 				"tags": [],
 				"sections": [
 					{
@@ -407,7 +471,7 @@
 			"_tw": {
 				"title": "「棄台、毀台、假朋友」疑美論持續升級，台灣社會須健全國際識讀，以防治資訊操弄、改善公共討論",
 				"subtitle": "2023.9.21 IORG「疑美論與它們的產地」記者會",
-				"coverImage": "https://lh7-us.googleusercontent.com/iLo5YAO5hIsMHczjuP6IV0Vh0DACByAxz6kgwQIsM9MiOPyoQdXElvUqLTNni2Y5m1yAIDDp5FuyQa3942uUk6uGubWjzaeq9MouevTZzNWO6cPt-xTBZXnK5tw0APCWlDnvqpU1KGlDedha",
+				"coverImage": "https://lh7-us.googleusercontent.com/U88pkWQ60CHtwVjfIGK9r9ggsJzqM6L3aSyctrZmzIF1vExNr1j4dvC5vjHqdH_z3AwT71hNUTP5qxly6dOap_W8wyoai5k51Li5PwMoOauo0YStJxMnp3njPBY9SlyZxKJoOAwwCAEuvu-4",
 				"tags": [
 					"新聞稿"
 				],
@@ -437,119 +501,6 @@
 			}
 		}
 	},
-	"press-release-20221203": {
-		"show": true,
-		"type": "article",
-		"id": "press-release-20221203",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT8O42VtttB6_7zq5f1vPZXXXdMXJ-lKAwEVChhuDYOBUCK7wwzmZCcoALUTBIUVBO3gm3lv5FIxODl/pub"
-		},
-		"publishedAt": "2022/12/3 17:00",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "2022 民主韌性論壇",
-				"subtitle": "2022.12.3 IORG 民主韌性論壇 – 會後新聞稿",
-				"coverImage": "https://lh7-us.googleusercontent.com/YkNm7rrzbq2D80mKFu3DRTcM27hd960hKef6-PVUrM8aP0oS5Fgec2vIWMyoFjSRce-2tlq2docagabmE-NrRkyCp1fkNo9pINrcj0VRkL0J1H2wgvQ5Z3XN8_0ZO_-grIyKtRYbJcS-S7vx",
-				"tags": [
-					"新聞稿"
-				],
-				"sections": [
-					{
-						"id": "h2-1",
-						"titleText": "活動資訊"
-					}
-				],
-				"articleID": "press-release-20221203",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT8O42VtttB6_7zq5f1vPZXXXdMXJ-lKAwEVChhuDYOBUCK7wwzmZCcoALUTBIUVBO3gm3lv5FIxODl/pub",
-				"locale": "_tw",
-				"publishedAt": "2022/12/3 17:00",
-				"cache": "press-release-20221203_tw"
-			}
-		}
-	},
-	"press-release-20210305": {
-		"show": true,
-		"type": "article",
-		"id": "press-release-20210305",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSGDcwor7S_gRvphPclFBDAU9uPYTW0seJFQeSGyCEEm5EioWlg5RfV9gZsjh34x7xw7n1k1dNyd6tM/pub"
-		},
-		"publishedAt": "2021/3/5 13:00",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "中國對台影響力作戰研究成果發表",
-				"subtitle": "2021.3.5 IORG「中國對台影響力作戰研究成果發表」記者會",
-				"coverImage": "https://lh7-us.googleusercontent.com/eVI-G0z4sBACI0BD6tyjhzhw_orak0-ZzsJdv2y4ALDlLLv7-V4kGtQo2nOTyzI2VJetalddiZxLA22INmZLnVnn1zk4cebCEvPDCFAGfyOHVtHpeqBImVrLounMF1-9offNx06wpji8h8uE",
-				"tags": [
-					"新聞稿"
-				],
-				"sections": [
-					{
-						"id": "h2-1",
-						"titleText": "從微博到 Facebook：中共官媒訊息透過混淆來源、直接轉貼等方法傳入台灣社交媒體"
-					},
-					{
-						"id": "h2-2",
-						"titleText": "資訊操弄手法多元且細緻，政論節目名嘴言論有助於資訊操弄傳播"
-					},
-					{
-						"id": "h2-3",
-						"titleText": "中國政府以文化召喚、經濟誘因，促使改變政治行為"
-					},
-					{
-						"id": "h2-4",
-						"titleText": "記者會資訊"
-					}
-				],
-				"articleID": "press-release-20210305",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSGDcwor7S_gRvphPclFBDAU9uPYTW0seJFQeSGyCEEm5EioWlg5RfV9gZsjh34x7xw7n1k1dNyd6tM/pub",
-				"locale": "_tw",
-				"publishedAt": "2021/3/5 13:00",
-				"cache": "press-release-20210305_tw"
-			}
-		}
-	},
-	"press-release-20201020": {
-		"show": true,
-		"type": "article",
-		"id": "press-release-20201020",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ_aqN1SZW__1E0RtCh9N9mB8GadKvbmyhdHahD79Dx_YeolNHjzF_kZb6OaH9vPiUkjNHZ3KLvlPi2/pub"
-		},
-		"publishedAt": "2020/10/20 12:00",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "解密中國對台認知戰：資訊操弄及網絡分析",
-				"subtitle": "2020.10.20 IORG「解密中國對台認知戰：資訊操弄及網絡分析」記者會",
-				"coverImage": "https://lh7-us.googleusercontent.com/o2RHgccIIm71-T7PTu-13bLf81A4txQuLlAtfkqabJ25aiGmNdrnYKttBWJzL25nLGBL3HlnOabOz2PzZii5eNO7T70TuLQe46infi2WSHIzkO7iBPh2cU5m5XgSjaxnP7l2g4D0VQ3tzt4a",
-				"tags": [
-					"新聞稿"
-				],
-				"sections": [
-					{
-						"id": "h2-1",
-						"titleText": "資訊操弄的關鍵：台灣在地協力者"
-					},
-					{
-						"id": "h2-2",
-						"titleText": "中國資訊操弄是要混淆視聽"
-					},
-					{
-						"id": "h2-3",
-						"titleText": "記者會資訊"
-					}
-				],
-				"articleID": "press-release-20201020",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_aqN1SZW__1E0RtCh9N9mB8GadKvbmyhdHahD79Dx_YeolNHjzF_kZb6OaH9vPiUkjNHZ3KLvlPi2/pub",
-				"locale": "_tw",
-				"publishedAt": "2020/10/20 12:00",
-				"cache": "press-release-20201020_tw"
-			}
-		}
-	},
 	"youtube-in-tw-232": {
 		"show": true,
 		"type": "article",
@@ -563,7 +514,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "2023 年 2 月 IORG 台灣 YouTube 使用者習慣調查",
-				"coverImage": "https://lh4.googleusercontent.com/2WlUH-Hy1EuFR_6Gii4VYFA6wWxlSrfeA0eTVkkfmGHIcgP4Ksz5uHhhtnWG7YosIB8FPP1c1gZ3zxfBYvoRz9NdfDrfM3YUTLQVTfHck2CHEUbLI_jLrSdGounPJHzvWoIQ2MKFBqSd2PtP",
+				"coverImage": "https://lh7-us.googleusercontent.com/9RokmrhpxqpyRFr_iuFjYhlH_NNcqI2vgS9cj0Z1X2ZelLV5IBHs-Dzltqh4XilIfwCXTREjCrVbwofUgTllCXjd9q8RmXOrn5TsbueI0s_Nb0KpeNHq6QTmJAHn7w0UPKiJjM8PZSPif36D",
 				"tags": [
 					"報導",
 					"民調",
@@ -692,7 +643,7 @@
 			"_tw": {
 				"title": "福島核廢水排放後 14 項可疑論述",
 				"subtitle": "IORG 週報第 50 期 2023.8.24-9.6",
-				"coverImage": "https://lh6.googleusercontent.com/NqDfOc-NHDuNQNKz3zO2S9PwwgxNqQn-aOyQQWMg5g7FC5URHJs1zt5-L8ci0pSGTbxSftFkdpKDwDZrDWGqlde8_ZLdmWNrkXrsLu8XfizH1puvuNrjB36ayQ1-wehAmT9iBmzH14w_vRB9",
+				"coverImage": "https://lh7-us.googleusercontent.com/JDlPvqe-4UU6NzuCrvDsOzh4G6UL0DaMC0BYVYKKRCXnHpWDrxHPCyaYC_rH8v8Zf2fwO4y-B6uSAcvl2F2qnYjmAZAxVBdYNTOLV4Mg-5qVMYdt8mkShSryh8bbYv6hgmR2IQp3kKDUP_Cz",
 				"tags": [
 					"週報"
 				],
@@ -784,7 +735,7 @@
 			"_tw": {
 				"title": "Detecting Signals of CCP Central Propaganda Behavior Using Weibo Data Related to Fukushima Nuclear Waste Water",
 				"subtitle": "IORG Alert No. 49 2023.8.7-9.10",
-				"coverImage": "https://lh5.googleusercontent.com/3pK7-Z8Fkeg5EmTm0Wx9_v-Bm3j9u-lu5aDLf-WHSTfkLeISwMbjk-W83Uha7oEtzSPn0G0DYHN8WazECZz73TLMvbeB6xdRqYzLgsVQlghQD2MZ29xC8v_p-t8yVX7F5cOW82BW4r0RE-_x",
+				"coverImage": "https://lh7-us.googleusercontent.com/0Rt6pimrBoePGA59ToGY6qPkFl4OdfyvA10vFOWTiNcxyzezlNwCTaGmc-VRZ5pk7r7WFhdzyH8ff8hT7rlViEgA62hdCdH5uWqHVFrMCPqc8zpme0NuLIoILaiUEv0I25AsQALolyX5mQSZ",
 				"tags": [
 					"Alert"
 				],
@@ -832,7 +783,7 @@
 			"_tw": {
 				"title": "265 萬次觀看的 YouTube「平行時空」– 以五一端午長假出遊議論中國經濟",
 				"subtitle": "IORG 週報第 48 期 2023.4.25-5.8 + 6.15-29",
-				"coverImage": "https://lh6.googleusercontent.com/w1CCU5aSjTeccEnGcYQ1s3CkqoPW7tHnUayIClAzfQVAmW-LXsVJK2Lf8gw6s3eCJv4GHQ8G58hI0noAbFKPcd0pss2H58F3N26v1E2DFWOHV0oiSMzacdmySk1kGHhNQ4u2yVjIUBcciwl0",
+				"coverImage": "https://lh7-us.googleusercontent.com/xXC2gPcZEnT8d0d3RmoQtRX9fhEUJbHRmmbHCrRXvTYnvvJUi2VwDm1zjXPbu87NdfG7HU8oEprzGbln8A5PHZIjC-9FIcR-VhEpWdh3l04PEzBzJIu98t2iJ8I3wGhfcybImqbXprzxbwvr",
 				"tags": [
 					"週報"
 				],
@@ -897,7 +848,7 @@
 			"_tw": {
 				"title": "錯誤訊息「岸田首相緊急送醫」在中國跨平台傳播，移花接木安倍遇刺照片，農場粉專集團式分享，在台暫無大規模傳播",
 				"subtitle": "IORG 週報第 47 期 2023.9.1-4",
-				"coverImage": "https://lh5.googleusercontent.com/WOIqpyPd8apDKF8u6b8NCI4jcpDkbjBmv7XyJ9_L-6igpu6ybQmZgkmsUHadB_3VULfAHhPGiAm36tP3fXaB1kgC7PBY18YPlnKsXF2CWtutqjeFiQB30i7EqJpIMARa6tgRYgZ5-J5Z84Is",
+				"coverImage": "https://lh7-us.googleusercontent.com/ZyJ7uUvqPzq06pGzmKCB54lobAUZ5pI0VvOri4_03oeymJsgjC93D2_6H5Io13g00o3CpNaNdvEK05bE43hWolYquUUaOj-B2S2aozjyZWzQkN_srDlnrjdLr0KttG1pQ1eI9YlQiUUnSs13",
 				"tags": [
 					"週報"
 				],
@@ -938,7 +889,7 @@
 			"_tw": {
 				"title": "福島核廢水排放前 10 項可疑論述",
 				"subtitle": "IORG 週報第 46 期 2021.4.1-2023.8.23",
-				"coverImage": "https://lh5.googleusercontent.com/plZ2b20tm7cwbcdgiGaIiui9T93jyfgKMlWl3ParqLUC6LUpD8voG3Ba1_MaHxzBJ6StHF3ZLurb9fJgfY4Ty8Ih2WRvPEcpOajWEngRuA1KhAULLsbnZdDH_IW5dn1i0CMJz1x-bgspwuy8",
+				"coverImage": "https://lh7-us.googleusercontent.com/LaO4w8ZJDq0jDMHE1IUjgv4ovry_bzDsCuncaRP8JrI4_oF-6LgH4hOaQepjw0j2kpY2NaBaqA3hx81G37yCIzXCEviCek40RSiEZ3c_73WcveKE-DujvOCRmlmIV9jm_ahqTTvgwddTlRgy",
 				"tags": [
 					"週報"
 				],
@@ -1019,7 +970,7 @@
 			"_tw": {
 				"title": "2021-2023 上半年 YouTube 頻道傳播福島核廢水相關中共官方內容",
 				"subtitle": "IORG 週報第 45 期 2021.3.1-2023.6.30",
-				"coverImage": "https://lh7-us.googleusercontent.com/706TVFvnMf1oCtuY_GRbuS67RtrOm8N2PVfgGpoC87Smfqih7zPJ5iOL2xZSd8pvUq_s90zVzI_Sgsuqnqqhnru4pIiHMy2QUbmuz0nhNiKMtJRPqs8NJ9aqY54TSG8LLqCteqMENRZ7wnBt",
+				"coverImage": "https://lh7-us.googleusercontent.com/D7YwKS3xZQHh2ZHfXcoPk1m4txuj3y7QcP7koj_VWP3bm_2F-PZZrt_XKlVHMvS2olxI4AH5aVmnU0J_UThh-2j0c7w-7gpeO9o39HZ7ytmRaXUChW5UX4jy7Yox0p5sm8Zv0WrhoKBr3ZVD",
 				"tags": [
 					"週報"
 				],
@@ -1100,7 +1051,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "疑美論和它們的產地",
-				"coverImage": "https://lh7-us.googleusercontent.com/iq6hFBlA_OZF7h_OStA--Go1r0UGYNw4XzheXEbUYfm932N96B0e05e2kwdVMGFhRvCNWcokFAKiv5wwFwuT82Z3rkeMpsl1gM-SkRJGZOLSuf_Gd1TagJRrqoVIzO0JU4UdFc2t4c2A0m5p",
+				"coverImage": "https://lh7-us.googleusercontent.com/sT_wNlf8q5qv0KYAKcRiTu8wFYLgLX2Ta-W8ikYQnAKB2Q6MDku4e5420RS5_ydsWLnxQSRdit0POhLfIa99JChWrc-n9VMLYd2PBvGXEzgcQGXiP-GNYgBNubZBhO6xNjDYFZnJHD9rJlfb",
 				"tags": [],
 				"sections": [
 					{
@@ -1149,7 +1100,7 @@
 			},
 			"_en": {
 				"title": "US Skepticism Narratives and Where They Come From",
-				"coverImage": "https://lh7-us.googleusercontent.com/o0hV6PgQa7U5DIn0sl5dIeBJNJwJeJvXbXu9J1hg-rdTCb4r8zXjWV22XiE63C-fFtkhG0sM37LR-sGgE0y6umVLUG4l75bbcN3OF4K72yPjRPIaOSMp86Km_q_PfjS7YtsJSFB7xXIZpHv4",
+				"coverImage": "https://lh7-us.googleusercontent.com/1lXvTucBp1jUrZX7Bc7-LWLC9TrNb-POENvxcOmWN8iLMzrpHiYHWAnzGTFluUvDOX30hfpEVOY0h68cJIg9SU9NssFhf53wMsYIPPIIQJ5kNen1xaVj2j2GwcOBLot_PyHdzAd78hLt4b5A",
 				"tags": [],
 				"sections": [
 					{
@@ -1210,7 +1161,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "3 步驟判讀民調可信度：透明度、研究設計、推論過程",
-				"coverImage": "https://lh6.googleusercontent.com/VSwttxYAiOamQCac4oJRhJPmfdnb02ySewMoXJnFwdN1rLA4hfijxnmWpBRghK83VIMC9CPQ-xLA68QZn0FV1IHCmfSDaXK20AERnz0gqAFY0DTHAVxohLk0Wy5yXlxB1FHZoQc3_77gDx63",
+				"coverImage": "https://lh7-us.googleusercontent.com/XIamzlxlsy7laPwVWZsqLkiZb11jXZDiwT_ZLFRnhVDwnkyh1H4N6XtU-JT9-YOUHDe_62uSh30krlL1G0I_-pzYo_Va--IzLrqP7RXTyIAWLo3LYmPm6Wx9nSmyu0QWyrFBEPwP5WxXG3eq",
 				"tags": [
 					"報導",
 					"民調",
@@ -1260,7 +1211,7 @@
 			"_tw": {
 				"title": "「死者遇難是因為他的政治立場」可判定為仇恨言論",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 19 題",
-				"coverImage": "https://lh4.googleusercontent.com/g7GH1EVqh-fjmvU2yVucxS1djBHD9Hu273UwKpyRBjj_kdFqob3l0jk1u8g6KMO3a89DL2r3IbFRS5zNEpmin9YuWHThBDCKcdke7VbRL7frpi-j-tbOWXFDIpS-hrIgFC9jHw7V2Ze6jCKu",
+				"coverImage": "https://lh7-us.googleusercontent.com/67uVM0nls3NFlKVbgyFM76WBY2m0DW-EFIErz7kGpdeLSD82iBX3qPry1xwb_oguLvEuu6rdEaK0V8DAObTMQKMOPf9Zd9d7THZTwuMX4hIqybo1xqZ5BOmcAAG1OQOz0sZmulsNMpSKeny2",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
@@ -1317,7 +1268,7 @@
 			"_tw": {
 				"title": "2022 年以來「五缺」的傳播熱度週期及中共論述",
 				"subtitle": "IORG 週報第 42 期 2022.1.1-2023.4.30",
-				"coverImage": "https://lh6.googleusercontent.com/9mrKH3NeLJwcuazfij8ReI3fMDxUWz2Qv6TOZiUHY-RL_wVuKOCdP6UaDGJswMiDdx8pSXuUNXlNDEVUsaXRaKau986KGxVE4PEi1HE20grCUfsKOL48G6hvZ5M3YdV1nwjQ8BW3WHoslc59",
+				"coverImage": "https://lh7-us.googleusercontent.com/LHdpAcFPhEh7Z-mpaGNsxj8f_CcLFgnM4zx1bcETxGh7BucXrCq3CHCoMLOr4XawqQmDA-dlJ5eM3F5hgnxVHNLoNcrccQ1NJZtoWhrgp3n6obvQwfnSVFC-3SrYyL4uz7Gax2nBi8YuYe2x",
 				"tags": [
 					"週報"
 				],
@@ -1382,7 +1333,7 @@
 			"_tw": {
 				"title": "蔡麥會後中共軍演相關 8 項可疑論述內容及傳播行為",
 				"subtitle": "IORG 週報第 41 期 2023.3.27-4.16",
-				"coverImage": "https://lh6.googleusercontent.com/ztzKW4JaEP9z_uiWt6ohC2XJ_bO4dzdoY7f_kEWb3lYG-PnHxofXoj8KP9BiEjHkBPVaHmFLk6noqrgrQWcX7VJJy74hA0QZNdrNX4a65L3ihgVCM_6en-Rxaq5uftpNGy-XiztJzZ1o2sXm",
+				"coverImage": "https://lh7-us.googleusercontent.com/mf5w1TiL3x4qjVsUNPV3d7ns4DGOWbV8DWNtJf1lkUigkEWHjcFXm80-N9YOLFnbNXlS8bZP2w62aEwySut9oT7_QVHJaj9meF3odpjSz7NbVZ-qRtaEnQtWj9NS4hMFN5ow4rdMYc6lkSp4",
 				"tags": [
 					"週報"
 				],
@@ -1463,7 +1414,7 @@
 			"_tw": {
 				"title": "台中捷運傷亡事件 ETtoday、TVBS、少康戰情室、中時電子報使用「標題誘餌」可判定為可疑傳播行為",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 18 題",
-				"coverImage": "https://lh3.googleusercontent.com/AZnGAsfRZ8uqZesKXQ16EvfRMUj-TsDklCy9onLdlbst9BK1KLuLywvEmp6L7BTvSafbXfY9aJnLIlOumHKh9Vw4CvY_g6rQunk0pe02eKhTVWXkhAw6POtDK4JjHhfWLpHcgJ4Z_3vVJl7W",
+				"coverImage": "https://lh7-us.googleusercontent.com/-ztS1RDCN9plehmYCbfA2R3r-eDoGCMPAMkvIyxvOTg_fD0eo08hmMKQSJu3w5mPgGeRT5XVukrcnZTMfHL9gGmsXbex6gHdNDUEZOyPPFl3-mywpAmieMO0QzLKQyqph9ymQUjE0iGTu4_k",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
@@ -1491,7 +1442,7 @@
 			"_tw": {
 				"title": "蔡英文訪美期間 11 項可疑論述",
 				"subtitle": "IORG 週報第 40 期 2023.3.1-4.9",
-				"coverImage": "https://lh3.googleusercontent.com/ds6sdWlELRy5XIAwjAXvlsmRjOtvv8afEqCAT7y1V2eRRoI7047RrYubgpGKZY2DSj7jcVNK7f93bdkk1lYictLBwKcU9OBnNfm3LNf73rVeyrfZtUhGkc1fUNrMGpoL0ngT3OW4sYO7iwrE",
+				"coverImage": "https://lh7-us.googleusercontent.com/9dl-Y1VPTE1VxLTG_S2lpic0X4qyIZUCfDXG0jyd8t9RI-FARhWM3FMqgHOZ4pRcioLXOvMuiOS8qVe9ZF9nsg_SqP1dMKUYvOdFdD4S5PPEQQNXelVzwVnvoeBCUGCZYDolOVydSf9HO9kU",
 				"tags": [
 					"週報"
 				],
@@ -1581,7 +1532,7 @@
 			"_tw": {
 				"title": "10 張圖表分析蔡英文、馬英九「雙英」出訪",
 				"subtitle": "IORG 週報第 39 期 2023.3.1-4.9",
-				"coverImage": "https://lh5.googleusercontent.com/hD7a_SJiOev6UruxrrU_rhhvx92uNAaA55zCdAq2ChZPRgpqqZfZ91tT6G0tmEaV-YGRo8L1KyvqPX6Esl3UdzSz_PXFUIIhmmEXoeeEJv2I7-BHLgdmr6eDCYPSLn9Ou3I8v62ud9xfZIsU",
+				"coverImage": "https://lh7-us.googleusercontent.com/AX0rYnzByPZ88s5ZWEI3EU0ceLbAnL5wK6z7YMODM105eYarHU5IAaoPTXPx1tzRVJDxwEEmU0PYHciJhYZ_E5VFMlTJlxVi0sYMoc-4F69A07yaUo95VM92OJW3Ed8UITLwedfyh0D59kbo",
 				"tags": [
 					"週報"
 				],
@@ -1659,7 +1610,7 @@
 			"_tw": {
 				"title": "延續麥卡錫和裴洛西兩任美國議長的「疑美論」",
 				"subtitle": "IORG 週報第 38 期 2022.8.1-2023.2.28",
-				"coverImage": "https://lh6.googleusercontent.com/2NnFH2i4KDnYtVXMEN3susoahdid2DKKHV84T-BJjXrn0FMiESFb-VFhRBP_fK4hd0eQFVBUYZJ-PcmTKTTWQcmMz8F9CVQszhaKF_zIojKdtHeSuzs9CC2dWOJ9YqnCa7RFwgm2HytQhVgE",
+				"coverImage": "https://lh7-us.googleusercontent.com/qh2H9XQOX8JPb959eQx0K7Rv3KdjS3cH3xvydexsgXTEswJDE-UvzwnR5Z1cMs7vDdWqaUk3ulnJolYySZXavvX2FJRGQsA_PP-BOPMc6mAu8vNJX-u8xjFc_pgt8PSqoOt_XD_pFuBRzqSv",
 				"tags": [
 					"週報"
 				],
@@ -1744,7 +1695,7 @@
 			"_tw": {
 				"title": "防治資訊操弄，改善公共討論，強化民主韌性",
 				"subtitle": "2023 台灣資訊環境行動政策建議書",
-				"coverImage": "https://lh4.googleusercontent.com/_xIrtc4ourJpX95bsZ9yCamRjmzxxtu6HWJRjAQPMYtlIvtxRHTa8ZjF2xqXuOuICH-F1rO3lvDX7tRVi9jtdIDdpz0Jd9D6K4IdY3iM5ebMcztwl3jNPl2GTU0t7V8ieqXGY1mgQKhwRpsw",
+				"coverImage": "https://lh7-us.googleusercontent.com/fjeTjlXSU8M1l71urHctZjy75bQCwehgY4nii4kTkS7dL0DGebcXO8OPGIKVWiZ0TQC_39AVvtJ0HzJgFLCsuOvcdwnJds5aXdJmP-1YjaSqUIZPHtxWUEmvSWQLBZxb-_2vU9n_5DOlQXUx",
 				"tags": [],
 				"sections": [
 					{
@@ -1809,7 +1760,7 @@
 			"_en": {
 				"title": "Reduce Information Manipulation, Improve Public Discourse, Strengthen Democratic Resilience",
 				"subtitle": "2023 Taiwan Information Environment Policy and Action Recommendations",
-				"coverImage": "https://lh5.googleusercontent.com/D1SciAPPuHAPM7rFskAe1FIHrmP-G5JYQdyIRQP9_G28tEeOAn64GaW5yRGowy8mF2bJ9NyDr4W-u4wvFZwQEHLBPbepJ7AMVHvfzzWO08iqrPMCWPD8pwo5MJ6MUHKYa13s9Ax2Ltd4f09Z",
+				"coverImage": "https://lh7-us.googleusercontent.com/1-abCCzwnbU3VPUquzVmcLIwMd-3I4ouFploQnnV0N2DW7E8JHRl4_bHBQR0dcV4kc8dtzKBmmbDjeEwKj7SiW1fEHcyp7CAykrSs9W0-kXlnpJv-RShU-1GCkiuh_bdOjKidtQAhg87Rg4M",
 				"tags": [],
 				"sections": [
 					{
@@ -1919,26 +1870,6 @@
 					{
 						"id": "h2-5",
 						"titleText": "民主韌性"
-					},
-					{
-						"id": "h2-6",
-						"titleText": "來源"
-					},
-					{
-						"id": "h2-7",
-						"titleText": "選舉"
-					},
-					{
-						"id": "h2-8",
-						"titleText": "中共"
-					},
-					{
-						"id": "h2-9",
-						"titleText": "台灣資訊環境生態"
-					},
-					{
-						"id": "h2-10",
-						"titleText": "民主韌性"
 					}
 				],
 				"articleID": "_R_2022",
@@ -1963,7 +1894,7 @@
 			"_tw": {
 				"title": "「年輕人準備落跑」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 17 題",
-				"coverImage": "https://lh4.googleusercontent.com/VeQtmFRpo1c7IMl3UcYpJ7wTb9AAxnZtiavB7EZ70mfk2aMt2WpEG1vFUNZvw0w7z5NqANHr3G0yGS7bQddlrCYOQO35-X89hyJVyf4ney62wpipVu26wofPVicjBAZyfyJyns3-CGDy64be",
+				"coverImage": "https://lh7-us.googleusercontent.com/N1zmTnkE4y_QZoIH7vuObBoig2gZ1sIKqTBCOmYP0NXLgOhe4C6KsD2-zScSTD3sPApRKjeY5ScvMaOR9t7abymjxS24aGVLj1naFD42QBedbvakPMWfnaMXUp7QlFjolt3JSTL4yM1S3JpB",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
@@ -1988,10 +1919,6 @@
 					{
 						"id": "h2-5",
 						"titleText": " 5. 觀察其他特徵"
-					},
-					{
-						"id": "h2-6",
-						"titleText": "以下草稿"
 					}
 				],
 				"articleID": "eval-17",
@@ -2016,7 +1943,7 @@
 			"_tw": {
 				"title": "「台美豬肉製品瘦肉精超標」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 16 題",
-				"coverImage": "https://lh3.googleusercontent.com/eQEFjibOnvBIkbotRoG7wtpOGDZ-of0qCJ_4GB_tMiTl1JziQRMzXjOWBqbYlvhdVRTEqelaWLQ2AaW_vpD70Ao6Ch_RvgmK9Js7k5LbkKRvCqnBQeg2VbYt47WwQJmJ3e9DZSszRRh4dRnK",
+				"coverImage": "https://lh7-us.googleusercontent.com/OymTsQgPCN-ACIkY15L_iZ1wuwSTT7jpNldm6nF40fH3R6dfafh6SazdmfQ1ag_hERY9reFlMdp8ORLX-mwkCETptsSFFK3tOpX6wgY4fii5ayrCIlMcWsf5EsNlxFVbt6aQ2LnrUd1yfWql",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
@@ -2041,14 +1968,6 @@
 					{
 						"id": "h2-5",
 						"titleText": " 5. 觀察其他特徵"
-					},
-					{
-						"id": "h2-6",
-						"titleText": "原始文本"
-					},
-					{
-						"id": "h2-7",
-						"titleText": "基本資訊"
 					}
 				],
 				"articleID": "eval-16",
@@ -2073,7 +1992,7 @@
 			"_tw": {
 				"title": "「蔡英文想讓年輕人當拆彈少年團」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 15 題",
-				"coverImage": "https://lh4.googleusercontent.com/qunIw2mus90HDoDDtmWxlI3DTMvWu1wfPKZQpEf9Oc6gnPwlpbNtHWfHeNnhMSFXqP2xKQZwDnkPZGO9J29b47wWX6HKI-aTqkQFHmP-eQ7yBuWIrIy79Mx6g-Bwztl6SYVu4IjU2XFcDiBi",
+				"coverImage": "https://lh7-us.googleusercontent.com/Q6Bj_YjOUEmVypjMr-Yq0geNjretJah7kNqKWT_X4vMqrAR_8uFhlKqQ3dTqT0VMgxAPyI6-4DvyuFmHs2K7y1RHKCdx_iJYWZxOegQeJJyKSKAGrYpCW1lAERFpQlx5VrED_pAaeFnMsIuV",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
@@ -2122,7 +2041,7 @@
 			"_tw": {
 				"title": "「美國干涉台積電赴美設廠及義務役期，蔡政府配合像兒皇帝」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 – 時事練習題第 13 題",
-				"coverImage": "https://lh4.googleusercontent.com/GfvkB-Dqk3d4rXmrpujzP7zFv7U0YvGg7AksNlWlI-fyX-uZUqM0Stxs7xWm55K5TlW7RW2qvM8iOxGTahFifExSSneZ5dB8-waLXXIA2wOn4cBLAkMuS0VvXwmCryzBmIZf-tq4-MDUw3xe",
+				"coverImage": "https://lh7-us.googleusercontent.com/5TjtENOuyABQyn5WjIKIiY_U2aZmSLoLBxLHWCbGHl4kqf6lbaeBfQshJXNdSpKZmoM6SUIuCXX4ro1VX36evC1uRp95Col7c70miQ0BbxnPP09df8QH59hdaqfdkLMvoQX038uBVm4x30dN",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
@@ -2171,7 +2090,7 @@
 			"_tw": {
 				"title": "關於台積電：結合戰爭焦慮，疑美論再進化",
 				"subtitle": "IORG 週報第 37 期 2022.1.1-11.30",
-				"coverImage": "https://lh6.googleusercontent.com/cOgH0YjHA0dmrxBg30eA2N07R9IJnNyfVdDcGemvuNVs8lO6nXv-AHGbP6PwdZ2Og6o3N9ILLMHzuOOiRtD9gSoiYjyDjux-Xw0-Lc5o59V83aVJqMajBQBCbscZjH8lZwWoYJjBYGucCVMr",
+				"coverImage": "https://lh7-us.googleusercontent.com/DtdIyXSiRaP6SlL3YTHmBCZ_H6BqdhgG2KmFmsvqYJa5pOJnysNdpKTcnR-j-nyapL6DyzshNPq0QvOEYI3VSjuWP0ymbcWn_9RhYsSUntlTEunWOcVabnUJ9Hd19QX3BCylqbOq2lfxbYrH",
 				"tags": [
 					"週報"
 				],
@@ -2221,6 +2140,37 @@
 			}
 		}
 	},
+	"press-release-20221203": {
+		"show": true,
+		"type": "article",
+		"id": "press-release-20221203",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT8O42VtttB6_7zq5f1vPZXXXdMXJ-lKAwEVChhuDYOBUCK7wwzmZCcoALUTBIUVBO3gm3lv5FIxODl/pub"
+		},
+		"publishedAt": "2022/12/3 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2022 民主韌性論壇",
+				"subtitle": "2022.12.3 IORG 民主韌性論壇 – 會後新聞稿",
+				"coverImage": "https://lh7-us.googleusercontent.com/AKVbcGDf_ENsO-3NblLk_j6P2Zr-5W5N9GPDt5KdBtcDC7hOT9-Z3bPW_6_Ygv5nwDctNsz4aLvAt-mGC4q6lx38a-VsLsyMn56SuJ1WthwF2CVl88BajW-wXiQjFZ2CsSznPJTzQBIcbwOY",
+				"tags": [
+					"新聞稿"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "活動資訊"
+					}
+				],
+				"articleID": "press-release-20221203",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT8O42VtttB6_7zq5f1vPZXXXdMXJ-lKAwEVChhuDYOBUCK7wwzmZCcoALUTBIUVBO3gm3lv5FIxODl/pub",
+				"locale": "_tw",
+				"publishedAt": "2022/12/3 17:00",
+				"cache": "press-release-20221203_tw"
+			}
+		}
+	},
 	"_DA_36": {
 		"show": true,
 		"type": "da",
@@ -2235,9 +2185,59 @@
 			"_tw": {
 				"title": "選前一週，LINE 資訊操弄再起：世代對立、做票陰謀、疑美論",
 				"subtitle": "IORG 心慌週報第 36 期 2022.11.16-11.23",
-				"coverImage": "https://lh6.googleusercontent.com/K7e8eC8DVBw00YKYdtIzewDA22VvfuQxwbqcSTKLM2QgaYYZy0VMehUqpmsoAdgvXp8pmaj0W7AV5ofOMLZiQUyeB3H-BItSm84ug8XN_EjBdlMy9HYS3D35wgA8KVQV_jIBEMUAPSHAxEMz7PR1bu0XrW_7qLL6KlpyOY-yqY7DS6pmoLK8cZk",
+				"coverImage": "https://lh7-us.googleusercontent.com/CDDiqBbUikv0f3RxHDUoLbGudmwz_aHqRPvdZbG45pK2S2CLBrFy-YerwCz_VWZzdZIGn5Dhx9B1mn2R3d0y686JRxBJbPdk054UkTsMG-2zGSHANqGeUKB54-z2hmKERhjzxEUwNSxzYBdM",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "選前一週封閉平台可疑訊息熱度分析"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "  新法條：閃光紅燈要停車再開，否則受罰"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 趙守博爬高後仰摔倒，目前在台大 ICU"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "          美國退伍軍人均享台灣健保，政府拿榮民醫療作為外交籌碼，台灣是美國殖民地"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 點擊網址獲得 7-11 分店開業促銷禮品"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "     18 歲公民權，拒領公投票就不會通過"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " 包裹派送異常，點擊網址更新地址，重新派送"
+					},
+					{
+						"id": "h2-9",
+						"titleText": " 18 歲公民權，要領票而且要投反對，因為只要 25% 同意票就通過，而且空白票會被做票"
+					},
+					{
+						"id": "h2-10",
+						"titleText": " 兒子拿不到錢就打死父親"
+					},
+					{
+						"id": "h2-11",
+						"titleText": " 點擊網址查看 LINE 禮金"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "  巨大股票已開放申購"
+					}
 				],
 				"articleID": "_DA_36",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTyGWAfQdvLpNwjSQv4hsQuwP6DKDltP3xV_QwHXFczZ5tYY1qNN6nefB0FZUKHEhk_o1KrqbaHHRGT/pub",
@@ -2261,9 +2261,35 @@
 			"_tw": {
 				"title": "台灣選舉在微博：旺中佔 6 成以上，中共官媒 1 成",
 				"subtitle": "IORG 心慌週報第 35 期 2022.8.16-11.15",
-				"coverImage": "https://lh3.googleusercontent.com/38WBCShy5EqGOyV_b1hneWAgVjWc_pLhVOZImMw6UKR7GLcdN1bDZiPS4u3_sM6jl-Q6J9dFtbs2fiy-BnjZRVYvEtT3QUlRlgPIuMCFH3Xq-yUq2ncNZWgQiPUBkbbBchXuERuRBZDswOdzVfghEKnTIyhx1ivE0-IhMP25pMEC8BhnoFbhn5Y",
+				"coverImage": "https://lh7-us.googleusercontent.com/b_JDh9gAgpM-2enUtjAZk03ukOvyNzcfee_gSs8YYRMmwkjtCca9vEMzq0cY-eQrnyrHBpougTYY-W4cIcyQ2G4CcH7P8--_i_osVdqPfNYyOut7zwutfcVw3bOMra9qroP-3E_KMhPN0PUs",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "台灣選舉在微博：旺中集團佔 6 成以上傳播熱度"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "旺中拉高張善政、柯志恩熱度，降低侯友宜熱度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "旺中集團 4 個平台對候選人的傳播熱度有所差異"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "旺中熱度前 5 名候選人議題設定、平台差異"
+					}
 				],
 				"articleID": "_DA_35",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTtoLbyMNQueHvv9V43Qcu9mtH4PNdyjc9Q2ElrJkTSuobLxric7StPkjhNU8pQ3sA1XJILqYeb9OkF/pub",
@@ -2287,9 +2313,27 @@
 			"_tw": {
 				"title": "選前 3 個月 YouTube 熱度 Top 20 頻道：半數為新聞媒體，集團影響候選人熱度，旺中偏好情形最明顯",
 				"subtitle": "IORG 心慌週報第 34 期 2022.8.16-11.15",
-				"coverImage": "https://lh4.googleusercontent.com/PlEStee3h96FSk_q8PuvbWuQQRSYjUHekXWXFzhGPLT4Z0aXa2QR5HiKxXdbM_GqbWkX7amtiZvuHDb0mw9TTHqCWUVB_Bq3Nar865iTy5cUzUeXo8bytB8kFkfroLEqIu03gLXj5jiBQGmhmSTMGxKdD52Ygg2ka8Ub0DYkg4zd-b5rb1d5srg",
+				"coverImage": "https://lh7-us.googleusercontent.com/w0uWmMhhwZWkkBcN0n4eQQ8F95hXklfX7K097JVSb2oGVc-GXrp3I9B9Lh9Yo6x6H49solwf5n5WA3rEv4-OuKjLTk0hcnR6DjH6naokXiFHWvlDZa5FJuRydYWU_mCgD5MYAcgOAv0QwWnq",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "獲分享 YouTube Top 20 頻道以新聞媒體為主，亦有地方媒體、候選人、個人內容創作者"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "新聞媒體 YouTube 頻道熱度集中台北、新竹、桃園候選人"
+					}
 				],
 				"articleID": "_DA_34",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTwbbJK_hIj5QhStUtB0brDcdTPgbGzGSgC6WZiSNGP5dIxV_zhFMS60t7RaOv9oaNUrqu-ZX51fVZ2/pub",
@@ -2313,9 +2357,31 @@
 			"_tw": {
 				"title": "內容農場「密訊」重現 2018 盛況，Facebook 粉專分享總數高居第 2，助長旺中內容傳播",
 				"subtitle": "IORG 心慌週報第 33 期 2022.7.1-10.31",
-				"coverImage": "https://lh4.googleusercontent.com/dIIacEoTCtudeXpF7y1uivaC6TbUaFQSeI7aDhxsTNl-yMdnrbO9HxnilRgf0bdViKx3VQQ3QYYoq_VWsOAhlBrQ95SOOmC-Pczx9T0R1FNl5Ch52bxCdD2onufzIs_8DAPKvQJPVKNJ9nB3IeA4HgzcZCKgzcTO6Hig03ARjvDJ9FZRJo0K6yY",
+				"coverImage": "https://lh7-us.googleusercontent.com/a52K-2PwrW7wN8SRnYJ-D7cPvWBZO_Y2LRTIeOLQPqFAulsw70908kWMPjknhV2B3HTy4aUajyMQy7nc7fn8LVNguukwjtLvDnrH8ZV-AIJ_Sqk6-iHgWBSO8UQuUC1nkhXN9cc7yf0n1kAE",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "粉專分享連結：TVBS 單一網域最多、旺中集團合計最多"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "內容農場「密訊」重現 2018 選舉期間盛況"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "「密訊」內容至少過半來自「中時新聞網」"
+					}
 				],
 				"articleID": "_DA_33",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQG_oUSX-RlWKVvmvFQsHWebKmCSzt7D8ew3g6rtgEOVO-7RXhoEaCCbWeodZ-OG8epWoJh0Mt4SRUs/pub",
@@ -2339,9 +2405,59 @@
 			"_tw": {
 				"title": "選舉期間，慎防「出口中國再進口」的 LINE 謠言傳播資訊操弄",
 				"subtitle": "IORG 心慌週報第 32 期 2022.7.1-11.15",
-				"coverImage": "https://lh3.googleusercontent.com/FC8bfbEbHOIlW73RKgy0R9BNlFvr3COOGGh6Ea7VQ6OtnGrNDvqJHw3RlSMyQ-Lto65sWfYk57IaiF-gmFYDbkFHMJkC3u5hXT4m2vAysxHbBXTspwwiyHEfx9yh49FU5-iAnbNDI5TRFZeskjt38hJOGg9J0bTVktHE6JYIE_xRlICPP0iiGrY",
+				"coverImage": "https://lh7-us.googleusercontent.com/LlAzjeGkxzzPAj2c2XSiJBxH8TfxdaHymVmUOQcpzh0q3PbUGIFhE_115eQjDzDTmpwjV_s8w_ZMduTf3jI4G5-CJtqPhvtKmLkHeQdEUrMOd88VaW1PpdG2sfnfTmptzZf4OVJAOSPwm7UG",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "候選人熱度：封閉和公開平台有所差異，陳時中、林智堅維持前 2"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "1.   不明來源改編中國網路笑話：蔡英文發言唸錯稿子，陳時中著急"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "2.       不明來源宣稱：蔡英文和賴清德在總統生日宴會上大打出手，賴清德考慮退黨"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "3.               薛中鼎評論台灣高等教育及論文抄襲爭議：台灣的事只要往壞的地方想，就可以得到正確答案"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "4.   廢死聯盟成員名單多有民進黨政治人物"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "5.   林智堅跟對人，所以能混到台大"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "6.     匿名粉專：陳時中採購高端疫苗合約封存 30 年"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "7.        陳時中吃魚翅鮑魚，驕奢淫逸，支持高端疫苗"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "8.     張善政有能力，學歷好，工作表現出色，不善選舉，不會欺騙選民"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "9.                中國網路論壇作者改編民進黨創黨黨員陳真評論：台灣選舉只是遊戲和權力分贓，無法造成進步，執政者貪贓枉法，控制媒體，發疫情國難財，受美國殖民剝削掠奪"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "10.        聯合報蔡惠萍：林智堅宣傳政績造神，如今印證彼得原理"
+					}
 				],
 				"articleID": "_DA_32",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTz2sv6YytU_OcSJMhW_1Vuv7urbmdFkEkehe3mUJ_kC65UwWZz4sECOUf3wNxx8LphEJ1GtcC0bs6M/pub",
@@ -2365,9 +2481,51 @@
 			"_tw": {
 				"title": "選舉上半場傳播熱度分析：Facebook 選情冷，新聞熱，整體聚焦台北桃園",
 				"subtitle": "IORG 心慌週報第 31 期 2022.7.1-10.31",
-				"coverImage": "https://lh3.googleusercontent.com/nkZM6143kc6Fc_NTgExiIHIby5H7ujTOzd1al4QQtTnrok8Nc6CiF1j9cOB0Y01635Et-xbG-1Z_iW6NdbuIFzmdWtC6icnflGJpW4KIzsj2_qCaPYaPZR4VTQ380O4FrkwIz-kV52UtKaYVSAl-cBF-WOJIarQcXkl5mFhSK1M9U616XxWpaMM",
+				"coverImage": "https://lh7-us.googleusercontent.com/-sMEohFrvz22FZpGvtbYe2Ah2cJPGAbu_Ca7Mr34nU5F3KHaCtxm4qLHjEZ5P31VvsN960ZcJgJpMTXGEB9xR2hk2WLRgk7Xtv3faTLSDdnac9Gy7QyOVaP579BDG_4gj72lFBHALAu5bR_i",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Facebook 上選情相對冷，新聞報導和粉專貼文數量相當，對公共討論影響可能更大"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "95 位候選人，熱度聚焦六都候選人及高虹安，公共討論失衡"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "熱度聚焦台北、桃園，新竹超越高雄、台中、台南"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "台北市長候選人熱度"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "桃園市長候選人熱度"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "新北市長候選人熱度"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "新竹市長候選人熱度"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "高雄市長候選人熱度"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "綜合討論"
+					}
 				],
 				"articleID": "_DA_31",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRz2g4BeNN--AKPkyun7Vul38uXyVCqr7ZfaevlKysTkHIQM8nXPnaS-0x__MfSKRaLIUVBqm448WIe/pub",
@@ -2391,9 +2549,15 @@
 			"_tw": {
 				"title": "中共二十大",
 				"subtitle": "IORG 心慌週報第 29 期 2022.10.13-26",
-				"coverImage": "https://lh3.googleusercontent.com/vVmUr7hck0luqMMaOfC5Zn69e7459pvrvLcD4CMHe7M-lLbUMAgtFxZVnofYwWcFpaFt_QoxhHiDJnnqSKpNm1jXiJzKJn_kIRaeyXMCLKoOa80WGda32sIr9YIGUufMlINUjZsbi_FzdGkr",
+				"coverImage": "https://lh7-us.googleusercontent.com/xOctRcOPPp_IajgxR1V8jtou3EU05hwikibEvVPTFLr3wQUfV4RDyggaW4LNdyqAZWwk8AAO2cV751zEGdPjV-d7qfpZlLMJJOVbN9fO2dttMkiracBCIPAS8XTPk5hjVUjGSJIBfrKwxc0k",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "熱度變化"
+					}
 				],
 				"articleID": "_DA_29",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQexdjsscePCnJtk94xPxnYPNlTCLrtSe2G6pF_kkAoavZHj4JfFFMsxZiNMImkYNaBuZrmHPjpRWmC/pub",
@@ -2417,9 +2581,71 @@
 			"_tw": {
 				"title": "裴洛西議長訪台：中共官媒高度介入，錯誤訊息訴諸戰爭恐懼，疑美論破壞民主同盟",
 				"subtitle": "IORG 心慌週報第 28 期 2022.1.1-8.14",
-				"coverImage": "https://lh3.googleusercontent.com/tXmJy1mm8emskX-dsJhCSVci4BL-6vwwU-9x6A9WBP9aMV5dfc52yTaHNUBL7LzljZU4WhhD-OlQsc-fl85PeRY0G8S6E2QUbK2rtr-6RQZWAyqHenffnMsTQgLgRUCXX1s4dpxwbNDNZDhF",
+				"coverImage": "https://lh7-us.googleusercontent.com/MMGAoGG03VWetwotSXNnnVCrLneJahbnKl8MXKeuBkiSP2L5cwBFA7_x0mWNfj6_4iAS7hwz7owAkvtTtdRg6Gwst4abZlCw8L9uGLgtDPGCO_SPGvSnHMTi9Po--eWUm2ScyUKGx4IXbm7Y",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "大事紀"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "熱度變化"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "裴洛西議長訪台，中國各省官媒微博「熱度」不同"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "中共官媒主導微博上裴洛西相關討論，論述擴及超過 4 成貼文"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "相較 2021 年公投，中共對台官方官媒對裴洛西來台可能更有「主見」"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "  中共：蘇 35 戰機穿越台灣海峽"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "   劉姓水果出口商：台灣水果一定要爭取大陸市場；政府害死出口商，農民也一定會受害"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "   盜用 PTT 帳號冒充文旦農家：裴洛西訪台只為干預晶片產業、選舉造勢、撈金騙錢，造成文旦禁運中國，使家庭失去生計，台灣亦失去台海中線、失去和平"
+					},
+					{
+						"id": "h2-9",
+						"titleText": " 台灣故宮準備將國寶撤離至美國及日本"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "  中共：解放軍艦接近花蓮和平電廠及我國軍艦"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "  導彈擊中桃園機場"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "    中國將從台灣撤僑"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "   台灣政府花 9,400 萬遊說裴洛西訪台"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "    美軍航空母艦雷根號跑走，是拋棄台灣，默認中共封鎖台灣"
+					},
+					{
+						"id": "h2-15",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_28",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSk4zsAvk6TlmWoGfopVEPUS3n2LKZtybJS5_jnu1C3A66iEIsB4G2n2ObCS2KPPQVcy1HSmbLgbd7c/pub",
@@ -2443,9 +2669,47 @@
 			"_tw": {
 				"title": "安倍遇刺：群聚發文、中共刪文、資訊操弄",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 27 期 ﹏ 2022.7.8-14",
-				"coverImage": "https://lh4.googleusercontent.com/NCkhU-jXGFaK02LMn1DsGXDs1qN3Pt7_i431jZO9QMDBxBkmR4L2q3-XP2luc1MzQPM3ihnZ8ojz3iAgc9s_hIERbMNO4UHtxhN-CsRgTK4SbZ44uwkVMWJJTmP7n9EaJgO0dvVxDjYL",
+				"coverImage": "https://lh7-us.googleusercontent.com/Od6JWbpvdQdZ48qEXfPCnz5mT9oo7d2LwciuEy-ZFHVNOJd8OXgj9ouIXypDY7D4jTUn6Q0yARFfityL8pVvQ3i4BWVcjFTdL2xZTX9m2dpFmBimAB0OqOc-QEFHdP7xyLdajAIigmNY_deE",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "安倍遇刺，一週內文本總數近萊豬公投半年數量"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " theasiaweb.com + 17 粉專的群聚發文現象"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 在正式資訊發布前稱「安倍已死」"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  COVID-19 死亡人數眾多沒有降半旗，所以安倍遇刺也不應降半旗；此次降半旗，是因為民進黨媚日"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 香港中通社刪除報導，原文宣稱「安倍活著對藍綠選舉都有利」"
+					},
+					{
+						"id": "h2-7",
+						"titleText": " 賴清德副總統赴日，中國外交部：政治操弄；國台辦：弔唁謀獨"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " 安倍祖父岸信介是二戰戰犯，安倍參拜靖國神社，支持台獨，死不足惜"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_27",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSMZ0UAe9NBkRQ1FEXLNmFw1TxTa6sp39vCPuKoRgO4WR0R40jI5uLSAb_3clSV1Xpu2uoLPWfhVCaj/pub",
@@ -2469,9 +2733,43 @@
 			"_tw": {
 				"title": "台灣未納印太經濟架構，中共引網友宣傳台灣「又買軍火又吃萊豬」「又被拋棄」",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 26 期 ﹏ 2021.10.1-2022.5.31",
-				"coverImage": "https://lh5.googleusercontent.com/nOtzHNnAK2YyJDss3IsdshEHCIvTbGnqbQmp9SrHBv0aw18PjIDvE1wiZ97Zt2SztOpGLZ3EZ2veHdKENBdv17C4uZk1qKCi2ao57gfJZ8twKsd6FTZwW5Jhv_IqlNBb0obmnHm43lU",
+				"coverImage": "https://lh7-us.googleusercontent.com/Mu-FQtOO3cQooCqd8PplaTuqsTIBQoJPz5SZe2fhnloFCTJsmQp6v05omT0wNSYZ6ZuXeF3tAIHZ2ZUOYLqsHLW8n0GuHB5kDNNxlgnyUsiiEwcr8XJ9-OjXCAyz815tEbFPZIWrUGKn-b8",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "背景"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 1. 台灣加入印太經濟架構要符合「一中原則」，民進黨「倚美謀獨」"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "   2. 美國支持台灣加入印太經濟架構，就是美國要把台灣變成戰地"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "   3. 台灣未被納入印太經濟架構，所以台灣又被美國拋棄了"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "  4. 台灣跟美國買武器、開放進口萊豬，所以美國應該讓台灣加入印太經濟架構"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "  5. 美國國會議員警告台灣不要挑釁中國"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_26",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQuGgIqTtqHOxSXCQnOyYZUDYTk18bl2J9Vyrv74ywGyOTHE2WeP8yqwfs8KLIO4jtJroH7E3rqG_7-/pub",
@@ -2495,9 +2793,32 @@
 			"_tw": {
 				"title": "「台獨妹不知感恩」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 12 題",
+				"coverImage": "https://lh7-us.googleusercontent.com/CyqLKTo2QpNHFe7UJvzvbjviPd7WxLLv52gjGlXhu-XSEnQtcluKd3WElxw2CuIVZ_qKCyRxi3PoVSIDF_VmC6XzWuV4sxfXp3KJZVaURItzWB4gkdwntETMsTCVo9BdNQD_0mBu7VYbfts8",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-12",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSba3KAPpqOONleK43xB6llpTnDMUSw8Ur81GNKcs8cdIA4pPLKDZyg1uKlmldCNNNO1Q5v7S9TOmSY/pub",
@@ -2521,10 +2842,32 @@
 			"_tw": {
 				"title": "「台灣一點辦法也沒有」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 11 題",
-				"coverImage": "https://lh3.googleusercontent.com/HcdGMR1YXZhU1Ay2xv7rYICxZCR-AykqWbjLWworVhW1-AWgsgsdnKzLGEnjXXrbgzOjLND0dqsnWXReWeF95PTE6XipV9saWJvxQVmK7qhM-WDTuek-Tw0UscYmDm3_BTZ-rHIgM3LwTsgn",
+				"coverImage": "https://lh7-us.googleusercontent.com/QMI0P5NH2j0NycZ2QAKFqeNczoCXHANTGPGNg7D7k_bBVZx3viYtWECQskUYxvIYDoi-RS3baLIlfh75r_Up1JnHRbh3aPDmmeaCYot76xjDG9lhGNDl-Q2hJkR-74N43ck18vRxl0k3FRFK",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-11",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTE58E2_NX0Xos5D6FTFhESLhSHSjyzjpKYd9m1UaddmM1o-C3yvjsOzV-k6YAsaC6eE2GuxSYyrbZN/pub",
@@ -2548,10 +2891,32 @@
 			"_tw": {
 				"title": "「卡特總統承認」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 10 題",
-				"coverImage": "https://lh5.googleusercontent.com/-ckot2z0_RQylcrLbIHL4wXAHEWiRSnj_STERLOtmJe2c3te50mVqAiCn27dRXDha0dZatGIk_L0eHKp-1_7f-I-HvOas3_QvFhfK09jCPEHvRuSYJmsI4RuhaIA8MMBK0mjbEMnqZ5fn4RL",
+				"coverImage": "https://lh7-us.googleusercontent.com/9Sb-9HPBXC4ynOgRrza6ETTN1AVngSfxA6f9iCGuCaGw0wtN4S93RgQNiGmnjRYkTYFsKLurrS7UnIdNadHO0lRRuGcXkf4E1oQLwnQVgRvot6MjX-Ut007U4Uo9JSA1dRCdnj1cgHEQApBx",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-10",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQkuPB5DVEeIye6FfDy8Xv5pDKOpZg2Q8F8Cg6fMWpZWFjH-Gu_rK8EBu90sR5ExVwm__pospHT5ErH/pub",
@@ -2575,10 +2940,32 @@
 			"_tw": {
 				"title": "「9400 萬遊說裴洛西」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 9 題",
-				"coverImage": "https://lh4.googleusercontent.com/MGvVt0_BJKeeVJMBlANXlWlVAFOM_k2aZuekSkxY7kTfqK-fyAhoa1Du0Y4XdDxBWNkPU_-oTorHBD3M_zhRu-zRZsE89HSdeF7GxGw3fm-5vta6Ub7-ddMdURJ1AHGcmQiGaW7gbwglJk-_",
+				"coverImage": "https://lh7-us.googleusercontent.com/i9vlHcJj_Ukfg4lPgQpJLw1GEZKlTrgobBxk_M-RUURwDt88nmg3cZ0FfuyYZ8qytS7AGSKGgFYDOMgmNlmPduw4msudZs14o4axPmZiOWQNvfy-TgmTGkB2ednn-TuKPpMEvdX0yWcJTJ0q",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-9",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR6FRkZwBfdMc_gRMPfaR16cC8SKwR9EO6BNtBAPiv1hEX5nYZubUFqqskfmVV1Ao5gsPr5Rmr6G4Wg/pub",
@@ -2602,10 +2989,32 @@
 			"_tw": {
 				"title": "「裴洛西訪台，美國拿台灣祭旗」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 8 題",
-				"coverImage": "https://lh3.googleusercontent.com/PwZkIacLZWdAEWbL5He7wWVRYHW6s2RJR-1DnBvmrS4w2kdMrtV5jVPe56e27C6LTHAvjz8W4jYAZ_U8lzzyibCha4Bo9hMQMqzCTQuer7uSZ7gqTTAlXV3mSBLn9Xy_ao0AnGuuL_b2lWjj",
+				"coverImage": "https://lh7-us.googleusercontent.com/zdqkRwmMvvWEGV7Ed2sbw_fE00XS4MpHzY_DZQeO57lAhpRj-g5-WkfTIsldIldIe3v8iyW7coFyrkmZbiUgVwLX201t5_e_Sgv7WbIPHId15RUxnzpbWLEbGynd81kYsUAWShah_USII-2Q",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-8",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTOC1MMCM1wn-htGbs6WCHTRqXYxXj4shWjZy7a-zDuXtWALZtjGbgAf-jMFFIRewM3LYy_8lm4wcRC/pub",
@@ -2629,10 +3038,32 @@
 			"_tw": {
 				"title": "「南非名校警告」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 7 題",
-				"coverImage": "https://lh5.googleusercontent.com/9GMh_0_5U728hPwPkL9K7yHp-IE8WQCq5QRSn5LbxUmgOsUBnFrQkb7YYp-2Lb2Wl1Jnc3m2Wqtinj_T1fsHF3EWzzWpuvXCg_rI01gnDFU8UdhDmO2g6sBZXUNNgNx93tgjlouJQyJ6sxYB",
+				"coverImage": "https://lh7-us.googleusercontent.com/31EDWV3KsAAsb05jmVUzLnRS5Oc4_28t-i4a2LT5wpORbvo1xtdIR96uCVs4lNngzUiOuRpz_MTQBP85mSkClWQoN9ynB3-oifTf3kp64oe6NbJM5WWVLfIPRpWVHwy0nEEjFUUBdYUST8rT",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-7",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR5CjVlHidf__054XXLkuKDl8wHEd6FmzvevbPX6LjjgdQTL43CyLjyW_mNN_7c-wp7FHmzdrKlfm4k/pub",
@@ -2656,10 +3087,32 @@
 			"_tw": {
 				"title": "「安倍遭天譴」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 6 題",
-				"coverImage": "https://lh5.googleusercontent.com/_T3dq4Uy2In71l_-Vr-0ee2veVUoPhcmJXhPk6SxUCzsuYeDkAFzZfPmvk9CEyfHDfaKFtUUU62RkBcaEi6VYZWB_kDI_OoeyBeYliDUT_uC6rORwDmOMh4047XrBFNR0Tm1x0b4eY_ahplH",
+				"coverImage": "https://lh7-us.googleusercontent.com/uCpzDiG_Nldhaq-6hBvtQMxSSYD-7ulE4BXpsW9JJMYvCL8kBhVQBD5HBZfQJ7pyS6z_GhJw8QfcNk_9XJTH7pETowSF4YPRblO4KQf0R7JkWEoKO5F9lMURjazrsLgqqZTGd0cZaVkHaLQf",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-6",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7YHC61vs3IkvsDe1jKV-MREpHaMnvVXrUO0AXmwQk8aDHfxpSmDlWwkVdAu4PNWgHEbKXiZ0gui0n/pub",
@@ -2683,10 +3136,32 @@
 			"_tw": {
 				"title": "「清零尊重生命」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 5 題",
-				"coverImage": "https://lh4.googleusercontent.com/gA-Jw3s6QIV9-lp4e7frdX_gsUod6D42mokauvymIFYtuAR4NUfvSvM9WRBskHFaPscVXyjryKw3iOUiI1cHHrU9PfuXMYb-Iy-jTboXFtgss1sNJbI33u9TPgA30eGNyjkMplcht2w8PHi1",
+				"coverImage": "https://lh7-us.googleusercontent.com/2EthrQQQ8hoa-iEOab4nCte_ooZjlF-JItne1Fam_br3R-rpXDBr9vVrxz10UdHISNzOBeXD7vBGIJTlPD6zN2htyNbYMPoZUDiX8TLPsOcAd3fkazyZF4LFBSCvRo8TrOlfDo-Gv9jigGHK",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-5",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTfup9BpOLwz-li8J6gOVj5NpbOP0SursDeiVgy7CxrmntejvD8Xealcrqp0Q1wFDBNpH7flE6Cxz7R/pub",
@@ -2710,10 +3185,32 @@
 			"_tw": {
 				"title": "「猴痘生化戰」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 4 題",
-				"coverImage": "https://lh6.googleusercontent.com/j6RekPiqaFrizIsm3ZYrpEPfvHzZEVLROPO73XuvwtdLXqeV4J8EQdN-9uHp-58gcbZd3o4RSUmeiiH9EfO4iw1uycJ6Pnk8lvigzuwtAWxYY31zHu-E0--8OzqDlhLkTFUtq31ktSeLrtY9",
+				"coverImage": "https://lh7-us.googleusercontent.com/jx1lb5SmTQ04G_ENYGfM2n5xFiZLqMv-UGYaI_OYrTGuHUPFyJ3MfR0HdGXcr5ic4gn5yGDEmidttsPGdrsPUtdBZGnfqs-bccDgFq0u667LkT73mcinBDwCnP9sUNl0f-NioMaOjULnmeBf",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR_3heanwHOhKJxr_zOySRPzGH2W1zSZ8k1QsIKEvIZ-MwcwcNEzeE9CIYgLrMkLc6BuqXD8QQY-JOO/pub",
@@ -2737,10 +3234,32 @@
 			"_tw": {
 				"title": "「我的鄰居養石斑」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 3 題",
-				"coverImage": "https://lh6.googleusercontent.com/JDFT_kJsKFi2tEBhvwY_Qn0Mm6LBE-95qwR3MbKVrlupIuIypPmw_lq0f-3Gfyreg18OKiHoURUpL2C_Y8ydQrBUhRtHpR70qewtJgevIxAlHNZIZBByKhAz3hsDKIM1mBM1LdnnVN7wIldg",
+				"coverImage": "https://lh7-us.googleusercontent.com/MW3xWzyCVMkOT7xRQfe-OIsy8Kv9iAuixCw1PeIUoI5UA38yFIBieQNZVu2nRybBRJGDTKLHDwff0mKzrW7TdkRsMQjXEOs07-ghv3F2DpvLpAh6yzv78r3d8phIQsqfz5cvgbS1GiVRbNNJ",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS02eLaby71zC9c6eqNQHTEBc7Lwh0jC91a73ZEbyM6xGLD8Msk13y-7M9lJWq_IVKC_zzhzF9sJd-2/pub",
@@ -2764,10 +3283,32 @@
 			"_tw": {
 				"title": "「BT 釣魚」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 2 題",
-				"coverImage": "https://lh5.googleusercontent.com/jt8V10JcoU3Yf2kCdrQCWaaMROlSg6xxFJiY87Nw6n-_RBTyVa8QtdE4qEVLXF7htpGjXArj5S55LTk1n6YsthE1KucLPba6Yfy9pQrJ872hg7yfin_UGOPXscy6yoyiEy8OvavMMCwYDWGl",
+				"coverImage": "https://lh7-us.googleusercontent.com/2K4vGKvAOWkQ8GdAuqDbaHP3DkW3WKgCW-Hi3S6tcNV2_L1SFdJtkGj_KqYqTkF7ozJ5MzdN5eVGKYMOrzcetjhd6HcDg7HHyN4tkWnX4dBlHDA9shrSVbH_2mzB_vT7DgI6QGLGSuNAnqxZ",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSPDMeH5XCYChxJZznAuO3rT_3XdaoBxnPonQ2mZjFogfNE6Tol8ajv2YTyPzDO0OoxhvfK-CHVc9u5/pub",
@@ -2791,10 +3332,32 @@
 			"_tw": {
 				"title": "「端午節別出門」可判定為資訊操弄",
 				"subtitle": "IORG 訊息可信度評量 ﹋ 時事練習題 ﹏ 第 1 題",
-				"coverImage": "https://lh3.googleusercontent.com/6FZtnJXjyRQSgJnv7V-svS0FDIvORe2T0Fg20JpFoKnlKqevweXccL6gpMW9xPOjXEeZVKyWaXKXBwUrhYOg_5tfyQJ2GI4gusf412f2JySOPGpL31w0f2HcykR_Q6o4jXFELBxqVK-caPti",
+				"coverImage": "https://lh7-us.googleusercontent.com/jYDiXDjFFtKEZs7nz-KQoAheCbO3apLCKsZi7mVohjo__eqoepp1s7g4llA_-NUIYYGUsdEMloyAxDKog4x56hbnurOYREOAsJeQtEnIbt7lU4Rrnxa73xxWovzPchfsV44YYbgoPgUHT_bV",
 				"tags": [
 					"訊息可信度評量",
 					"時事練習題"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": " 拆解訊息，分清「事實陳述」及「觀點」"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 查證「資訊來源」及「事實內容」是否正確且完整"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 從「事實」到「觀點」，檢驗推論過程是否合理"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 判定訊息可信度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  觀察其他特徵"
+					}
 				],
 				"articleID": "eval-1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRn_POsLh_uNVDbj7aISoDRMLaQgNWuELbZertY4Yy_qKmFHi7gzPBd2vu_QDyrXt3i_B62pdxYGHH1/pub",
@@ -2822,6 +3385,16 @@
 				"tags": [
 					"訊息可信度評量"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "訊息可信度評量 4 步驟"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "評量方法"
+					}
+				],
 				"articleID": "_eval",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRu0rx2SXcmMSYWBmKI1Ies65r8haFEVHLfFK1P7UiP765qAWdmyMAKt3uR9zvAJc6HsrDl_hkURyYP/pub",
 				"locale": "_tw",
@@ -2833,6 +3406,16 @@
 				"subtitle": "IORG: A Guide to Information Literacy",
 				"tags": [
 					"Information Credibility Evaluation"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "4 steps of information credibility evaluation"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Methodology"
+					}
 				],
 				"articleID": "_eval",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSKBhohbzvGLSc66fJmhl-Hc5Hmz79iyKnxzmOnNKmV9pVhdevqWFTEKzQTafaywHnjO6IrZE7rxcEA/pub",
@@ -2856,10 +3439,24 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "Як Китай сприяв поширенню кремлівської пропаганди та анти-тайванської дезінформації в часи російсько-української війни",
-				"coverImage": "https://lh5.googleusercontent.com/cI6Sk-NgShXfVgwv13Pb49oryzo69GqS8Lx9XPFHUtt-bm2E237QDrtZt6CccCfxjW3NKUjf0-SVKI-UdDIXOygrgzBaCwHbI-LiPGMHaNuxT_YSkjmR6UWtDtqt3crz9veaOqYL_Pc",
+				"coverImage": "https://lh7-us.googleusercontent.com/nxgYrHAqJWhbD1pdr2qKCEr1dE2aYgVrsOlu6nS4kLWC9criwn48Q3KvFkTPW_k7DQ7Gj8OXIX_1Mp-u70_cFukG8_0GJmS-GVAQQJrg8A9BVerUGGVwZ2aaqwWN4y-LV1ln05SpzEjz-R8",
 				"tags": [
 					"Ukraine",
 					"China"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Легітимація російського вторгнення"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Залякування Тайваню"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Демократії тримаються разом"
+					}
 				],
 				"articleID": "china-russia-propaganda",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRD6eK74YTqWFHxs4nv6466crm4IvBUilBBR6lW0Y5Jjj_eL3L_p0-A8VaSaG-WYPZj-BmXjjUKKTcM/pub",
@@ -2869,10 +3466,24 @@
 			},
 			"_en": {
 				"title": "China helped spread Kremlin propaganda and manipulative information against Taiwan amid Russia-Ukraine war",
-				"coverImage": "https://lh3.googleusercontent.com/6q8EcPsAIbcGy3yBix9VLDRcKs3qywkahYch7BBXEjcu7maAeSW-lQGEr68cvI8hhRx9Xg5bp-EEBgoDebDeFGzKERrGt_-fuZ524tc8q5QbaVxSwZ0drY_xoztXb5unED73_5qsI9M",
+				"coverImage": "https://lh7-us.googleusercontent.com/1GmHkI4kJ4bnKS8pMSVFfuRpFhsXbmapKbBZAiAgam_-jpDiKhKhS_OI17MBnbla98sGiAlxM4hQVcYBhMCP4H-PXswrCXFtQSZmv2WJu_rYHnbzvnYrBe9sq6K1ynFtzeVrs2H9BLVAwyg",
 				"tags": [
 					"Ukraine",
 					"China"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Legitimizing Russia’s invasion"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Intimidating Taiwan"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Democracies stand together"
+					}
 				],
 				"articleID": "china-russia-propaganda",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQDMUWcylEuD8EiAU8-VycW9hC4GeEdehmquED-B-2MKzR-SCo1jJx2CQsRXI9arJYoHtB3XBEZgphn/pub",
@@ -2882,10 +3493,24 @@
 			},
 			"_ua": {
 				"title": "Як Китай сприяв поширенню кремлівської пропаганди та анти-тайванської дезінформації в часи російсько-української війни",
-				"coverImage": "https://lh5.googleusercontent.com/cI6Sk-NgShXfVgwv13Pb49oryzo69GqS8Lx9XPFHUtt-bm2E237QDrtZt6CccCfxjW3NKUjf0-SVKI-UdDIXOygrgzBaCwHbI-LiPGMHaNuxT_YSkjmR6UWtDtqt3crz9veaOqYL_Pc",
+				"coverImage": "https://lh7-us.googleusercontent.com/nxgYrHAqJWhbD1pdr2qKCEr1dE2aYgVrsOlu6nS4kLWC9criwn48Q3KvFkTPW_k7DQ7Gj8OXIX_1Mp-u70_cFukG8_0GJmS-GVAQQJrg8A9BVerUGGVwZ2aaqwWN4y-LV1ln05SpzEjz-R8",
 				"tags": [
 					"Ukraine",
 					"China"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Легітимація російського вторгнення"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Залякування Тайваню"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Демократії тримаються разом"
+					}
 				],
 				"articleID": "china-russia-propaganda",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRD6eK74YTqWFHxs4nv6466crm4IvBUilBBR6lW0Y5Jjj_eL3L_p0-A8VaSaG-WYPZj-BmXjjUKKTcM/pub",
@@ -3022,7 +3647,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "開放 IORG",
-				"coverImage": "https://lh5.googleusercontent.com/XpuFqD25ydPi0kOwKX_ybGbvYvBBsV2E5-BKpvXvpqPrOeqdhKim8GdZnBPZy3sqZd3kYyBnehDGuC2_TEmDSi7OggF-aA9AGAZC6S18rk1wzcpo30ohY8_fQjQ5X_gkEMenyYv70793Cng",
+				"coverImage": "https://lh7-us.googleusercontent.com/iEVRsEDI9T47C4ZQ-5cOcQUfBbJ-eOrrB71Bzdmo8fT_wod7ulCF1LLkb2GguBZXh8DYJr1eVNRCoshpEJWG9AwfUTMYZIHFYTh_R4ONPtk_lPEOuMjhyO5LF1o-G3gxiRaWzs1yoHijR20",
 				"tags": [],
 				"sections": [
 					{
@@ -3083,7 +3708,7 @@
 			},
 			"_en": {
 				"title": "Open IORG",
-				"coverImage": "https://lh5.googleusercontent.com/VgTDOWgdHonvJyFCHtbkDzoVJ8Eu_KK3V3WkE2qNHCmIJOY9CzbT1Z3DYAkjnuLMQsC05_hZCyBGX_cq_Zw7GZXZ5ncZAcJAPL6adMSeeqK0pIOlNj7iUR58X9xqWbb6nkNFzALUz_axK4c",
+				"coverImage": "https://lh7-us.googleusercontent.com/pjKARkP0lrKK2qR-sdSCryVNVKGtQ4O3-8dUR1eml7DwEeCXJSE-syktdm4Ad2OnjHQQ6VRDzd1H3Adso_mupGcIOux5aAPNqp2l11muHMGPJwoKscV_VUyIpfQNhzrLS2ntlt_trPyg96M",
 				"tags": [],
 				"sections": [
 					{
@@ -3237,6 +3862,36 @@
 				"title": "IORG 2021 總體研究成果",
 				"subtitle": "2021 IORG 台灣資訊環境資料科學研究 2021.4.1-12.31",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "總論"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "COVID-19 疫苗"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2021 公投"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際關係"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "台灣資訊環境生態"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共對台資訊操弄"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "民主防衛"
+					}
+				],
 				"articleID": "_R_2021",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQT5urYhccYgqNYuZmIsRE6Ifa6sFKknbIuvBzeJKE3BafBb8dY0KH9qK8oS5ViTRgbcT_pGiz-3Aay/pub",
 				"locale": "_tw",
@@ -3247,6 +3902,36 @@
 				"title": "IORG 2021 Key Research Conclusions",
 				"subtitle": "2021 IORG Taiwan Information Environment Data Science Research 2021.4.1-12.31",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Overall Conclusions"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "COVID-19 Vaccines"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2021 Referendums in Taiwan"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "International Relations"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "Taiwan Information Environment Ecology"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "CCP Information Manipulation Against Taiwan"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "Defending Democracy"
+					}
+				],
 				"articleID": "_R_2021",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTTltIDsQ9baV5xjgE79of7C_Knh0woAhcIbWyoWvqfINC7iFVDufEuJ_MLj1pSz-XZnB_MAlM62CGx/pub",
 				"locale": "_en",
@@ -3269,15 +3954,69 @@
 			"_tw": {
 				"title": "2022 年 COVID-19 謠言再起：錯誤科學、虛構政策、政府圖利",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 25 期 ﹏ 2022.3.19-2022.5.13",
-				"coverImage": "https://lh6.googleusercontent.com/G0T17vxbJ6Y1Ix_zjPUnGArUFcEHNYc3OKFMtirY3bcuGCgOCPYv7kBPBmKj4PU3OPR2ZT6hA5KAzm-NQkuGjYIPmjrd-v5ALkW9nXmqo54i3CTPgG3ynKKNVt3H1KYq8LNDC1p6Nsw",
+				"coverImage": "https://lh7-us.googleusercontent.com/jZEBkc27H8M_cr_fMQXWwuKU2BuwA69jrD1YK9r7alXyY5u7YL93-9l5cLv9aYR2irGYEzHmVMZg7YX7KsVpch1S7d166tq22aGOd8CEWtMeBdy18n6Mg-_9YpapCSpViLnt3ax5GSdhXdw",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "背景"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "疫情下的三大焦點：疫苗、共存、篩檢"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "COVID-19 相關訊息，4 成為謠言或個人意見"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "新生訊息佔據民眾過半注意力"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "民眾查詢回報訊息，6 成為謠言或個人意見"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "疫情謠言：虛構補助政策、錯誤科學資訊"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "疫苗謠言：錯誤科學資訊，可能加深恐懼"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "共存謠言：錯誤科學資訊、批判政府圖利"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "篩檢謠言：虛構篩檢政策，可能加深不滿"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "IORG 觀點"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_25",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRo5x5yAsd_fD73Ao0z2rdl8XvAwNM19eWGAAh_2dh9Ts7pmdkNY52_en__jhgyyfFu5VuQ2vEWVf6k/pub",
+				"locale": "_tw",
 				"publishedAt": "2022/6/1 18:30",
-				"cache": "_DA_25_tw",
-				"locale": "_tw"
+				"cache": "_DA_25_tw"
 			}
 		}
 	},
@@ -3295,15 +4034,25 @@
 			"_tw": {
 				"title": "「很多孩子走了！」Facebook 粉專群聚發文、留言內容農場連結",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 24 期 ﹏ 2022.5.25-26",
-				"coverImage": "https://lh5.googleusercontent.com/eWwuDhalREN0ty7Nvw6uFu3XjGlxS1TAn6dxkZU2yPuPMuXPH6HfyZeTx1x1pVX64w6TkSuN-6-VMsz9t-JvdPLn_xrP5ZvABwtEOCj_HZmIGfeBnPennLgNeiJdG5g18NjyoayhWeA",
+				"coverImage": "https://lh7-us.googleusercontent.com/EXMvvPFOyPtqJ-btkEqJ6tmL4jPBw9LP-GZ7ZXwkKLx5ft5KarzzL5n0Zlkf3FXiJxiA9XPK6VoToJ9N39nygECAY9OE3QXlFarivcK-d28DjgqgHhiEzjhWl3WKSfCYa3xR8r24Mb3riuw",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_24",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMFNSmlOTPWY2bOIh3IXcLWIs0tnJ1y5Hc1fxuqb6BLNRS7KGodu68twHN_A2ABXa6TclZeGpg9uCF/pub",
+				"locale": "_tw",
 				"publishedAt": "2022/5/27 18:30",
-				"cache": "_DA_24_tw",
-				"locale": "_tw"
+				"cache": "_DA_24_tw"
 			}
 		}
 	},
@@ -3312,8 +4061,7 @@
 		"type": "da",
 		"id": "_DA_23",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vT7zPyxsiR1fD42Mu63OpTPScciZuKAVep7f3xWXgYVF59al6PnksyT-Fh6b7ZPzqhKhDfP8Uid7BA9/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub"
 		},
 		"publishedAt": "2022/4/28 12:30",
 		"path": "/da/23",
@@ -3322,28 +4070,65 @@
 			"_tw": {
 				"title": "上海疫情下的中共宣傳：讚中國「動態清零」、批西方「躺平共存」",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 23 期 ﹏ 中國 COVID-19 疫情特別報吿",
-				"coverImage": "https://lh4.googleusercontent.com/goVsf8_oM4lz1vL3cv2iRPlWKPBZs6VDdUZfZxLjSQOZc2jYaz5E8qkRTFCuJGzlgMqttvCZROCX9WcrRT4SW1MsTdSYTfdw2BEe-8D6sP61nkluSoMjcavVUt1KZ_ZeJ3Yy7cs3nS8",
+				"coverImage": "https://lh7-us.googleusercontent.com/T3AlZo5B3NNX4s4AyyHMMv_oPW0kXPQKld6s43Zc7lwvUxpyIvB5DVsQ_RJsjr7xQ8jXUyFMa05CC9aNmlXsPL5DuPlaOdQbR59jWNpefbTGGNy4jUtA-nwt6k7Ts-meh6YBGAMwLO8Cpl0",
 				"tags": [
 					"心慌週報"
 				],
-				"articleID": "_DA_23",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub",
-				"publishedAt": "2022/4/28 12:30",
-				"cache": "_DA_23_tw",
-				"locale": "_tw"
-			},
-			"_en": {
-				"title": "CCP propaganda praises China’s “dynamic COVID-zero” strategy, Western “coexist” policy is “lying flat”",
-				"subtitle": "IORG Dokidoki Alert ﹋ No. 23 ﹏ COVID-19 in China Special Report",
-				"coverImage": "https://lh4.googleusercontent.com/O8xANOKJU5S7qXl_9cxT7sharR0f_ZGV3oXAG1wJ9DgqkY823O3fv881-YkWEhybE1VX448U5yfQsvro0uNanDcVW_A451xy_iOrEd_FUyW8fN5TACShmsxY-91gW29lCrYYT-OWzCY",
-				"tags": [
-					"Dokidoki Alert"
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "背景"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "上海疫情重大變化，中國官方官媒文章數出現高峰"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "「動態清零」及「躺平共存」的「中西對抗」"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "1. 中國「動態清零」比西方「躺平共存」更人道"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "2. 中國「動態清零」比西方「躺平共存」更科學"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "3. 西方「躺平共存」是消極防疫、抗疫失敗、沒有選擇的選擇"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "4. 西方呼籲中國採行「共存」不安好心"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "5. 「動態清零」凸顯中國治理模式的優越"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "IORG 觀點：中共批評西方防疫策略，上綱至中西文明之爭，正當化高壓防疫，動員人民，維持社會控制"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "IORG 觀點：未來可能出現「中國模式抗疫成功」、「台灣政府罔顧人民性命」、「台灣應該進口中國特效藥」中共宣傳"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_23",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7zPyxsiR1fD42Mu63OpTPScciZuKAVep7f3xWXgYVF59al6PnksyT-Fh6b7ZPzqhKhDfP8Uid7BA9/pub",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub",
+				"locale": "_tw",
 				"publishedAt": "2022/4/28 12:30",
-				"cache": "_DA_23_en",
-				"locale": "_en"
+				"cache": "_DA_23_tw"
 			}
 		}
 	},
@@ -3362,9 +4147,31 @@
 			"_tw": {
 				"title": "烏克蘭教台灣的事：開戰時刻，我們該提防的資訊操弄",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 22 期 ﹏ 俄烏戰爭特別報吿",
-				"coverImage": "https://lh6.googleusercontent.com/yABxj9noDEhTkHRycYtZgLSfv4a-2VGH64SRPSijhQhdksj1w20EHUzSyuhb6R7385boV6zOnPYorUz_3ameHKsIk1CzRgBXk2ewCvR7VZcEDUwDEKSvqFhTJYQuqb3Qcsd0DGIyXWM",
+				"coverImage": "https://lh7-us.googleusercontent.com/DhiZZU21EiT3gB78Hx2XH6qx53HlDCGD9e90r91XI2qlO1FKn50oRhgZC2aJuwQ40VbtYjZvHEdR09B3r5QiCQLce23QxFCWg8Z4g8ptqnzWcU_oXNBfoUSdLmVeRYWreBzb7OMkFM9pyZw",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "A. 合理化敵國侵略行為"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "B. 混淆戰爭資訊"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "C. 打擊我國軍民士氣"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_22",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRRp8oIlgz7qccEER7HEMlfqmZtdEXkr3V2NkeaGwhbrPjO6X08VARZFtfVaFvjJ9G3dEonAW1Uokfk/pub",
@@ -3375,9 +4182,15 @@
 			"_en": {
 				"title": "Manipulated warfare: a Ukrainian lesson for Taiwan’s cognitive defense",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 22 ﹏ Russian-Ukrainian War Special Report",
-				"coverImage": "https://lh4.googleusercontent.com/UkL_7OQi5wgjKhS6u0RFUN2PM1wQdQOG0-0Um-Vmxs9nzCFvcY22Z14hGnQeneauY0VXYKsCsgDtBwGQY5woDh7vYZ1OLhTbN8GDvC5Q-omtN_Tir0JrtUP3VNf4g5dy2v9cth6eCng",
+				"coverImage": "https://lh7-us.googleusercontent.com/qOPqHF0yQYWc6_DkMEeUyKmQG16BjAMRg1QLZ5kkAFgYZjqsuVOV-YP1PzdzNjtpaHYLqINNYKTst3AYSQ-fAdNctOmA1WNYfRfObyazgDehUrT2vVXuIRNfbk1EPocsPkiyBXud63XUhZA",
 				"tags": [
 					"Dokidoki Alert"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
 				],
 				"articleID": "_DA_22",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSEXb_Tkut4EKFlhVPxSp8_Ot2hnYNUM7eNHNjXnkS7Zzfti5O8qSEcGA5eC0KjKs1ZBYtPb-ieO0B2/pub",
@@ -3402,9 +4215,83 @@
 			"_tw": {
 				"title": "俄烏戰爭下的資訊操弄：批烏、批美、挺俄、棄台",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 21 期 ﹏ 2021.11.1 - 2022.2.28",
-				"coverImage": "https://lh5.googleusercontent.com/IsMJFm7GJfZ6Yp9K4JlLsL4vK_oeMoqlibl9Iiq8tzKB2nTaBnWKwXHmoVpibKUi6WFSsM-TNNTI97s-WegMwpb26oxu4Xp_Wr4BGdvP-AUMhAc89v2j9jZ9tm2kVX54hhdJ2ZjCR8g",
+				"coverImage": "https://lh7-us.googleusercontent.com/LPziQaI2X02Ye2uC5EZ5djLTkvnehQ_4AYg2k0JMBSFeFOY_6tE9bXIawBpAugJ6lJ_4aYgJSuXhuex2a_2vzty2OL5TY7QNpOzA59u4tOoGRn2gwMAhHaZG7syayRdQfDKXNNf8fLNZczM",
 				"tags": [
 					"心慌週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究範圍"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "開戰前，台灣資訊空間多提及俄羅斯，開戰後，多提及烏克蘭"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "台灣、中國資訊空間高度連動"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "開戰後，中共更常提及台灣新聞媒體"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "1.  中國外交部迴避，國台辦批評民進黨「倚外謀獨」"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "2.  俄烏關係就像前夫前妻"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "3.  北約、烏克蘭挑釁，所以俄烏戰爭爆發"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "4.  聯合國投票打擊納粹，只有美國、烏克蘭反對"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "5.  美國訓練烏克蘭新納粹「亞速營」，殘害烏東人民、暴力推動港獨"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "6.  蘭德公司：拜登政府不要把俄、中逼得太緊，防止引發世界大戰"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "7.  俄羅斯承認烏東兩地獨立，就像美國承認科索沃獨立；俄羅斯併吞烏克蘭，就像美國併吞德州"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "8.   烏克蘭「去俄羅斯化」，罔顧國內 4 成俄人權益，所以俄羅斯入侵是正當的"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "9.  烏克蘭是對台軍事威脅的主要幫兇"
+					},
+					{
+						"id": "h2-15",
+						"titleText": "10.  烏克蘭有 180 個邦交國，沒人救援，所以台灣也不會有"
+					},
+					{
+						"id": "h2-16",
+						"titleText": "11.  今日烏克蘭，明日台灣"
+					},
+					{
+						"id": "h2-17",
+						"titleText": "12.  美國把烏克蘭當棋子，引發戰爭，所以台灣不該當美國棋子"
+					},
+					{
+						"id": "h2-18",
+						"titleText": "附錄"
+					}
 				],
 				"articleID": "_DA_21",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSWJLPPbUUWG4Wkmc8pQbSQhwDUDO_0JDroGDhjf95IE23J9bs2JemiYzY24PfXvslOYwstHIOycins/pub",
@@ -3415,9 +4302,15 @@
 			"_en": {
 				"title": "Manipulated warfare: Ukraine bad, US bad, Russia good, abandon Taiwan",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 21 ﹏ 2021.11.1-2022.2.28",
-				"coverImage": "https://lh3.googleusercontent.com/XBvzIXghtiwAyNN5nQ-RofHUqokQCxaVpYRvxoSFl_tSrB6SO3oOiM5htszb7rogh9b05rGcZWs2r8fiWMEIjBnRjUoSUyopS7pAAmnHwtRNQp_xg-zZjdJ4lfUZ8rehxDrrQ1JQeon9UU8",
+				"coverImage": "https://lh7-us.googleusercontent.com/dRY7_We7xBkr2-8jcHdsTsuLQKDkRyZE7FmlpCZvp8ILwxZS8f29tQmexJrMnD-EdCb1V2-pljw8kiyETa45itDWkoGR2tCOp_a24CMwnN_iI2jg6rRrL3dTB3eo5NEMXHvBw2EDqAINwivfTTceJ7fOHRfMr_Z6yNyWR4J8YpsiR67y2JKWPQ",
 				"tags": [
 					"Dokidoki Alert"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
 				],
 				"articleID": "_DA_21",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRbpCvztdZIPcGKeP7zhjat9Okbx_TCgaGA3NjL_WVfa2aMvLfKg4udg90ccWATknfYmF9-YFH2UodB/pub",
@@ -3465,28 +4358,64 @@
 			"_tw": {
 				"title": "公投前後數據分析：中共強化同溫層，大多引用旺中、聯合",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 20 期 ﹏ 2021.12.1-12.31",
-				"coverImage": "https://lh5.googleusercontent.com/wvqriZ-TW4c-8fy5oSufNEAoHbnJ2MmnOd0GelhXE_qe2Kmc5gogXaL0lN8blRUSEx0jS1nm_zQfrLB3_6Z6iI-0u7HDVybqdL4a0VTRBFTxko0coUabjr6d6GnGkZ_9HQ",
+				"coverImage": "https://lh7-us.googleusercontent.com/T5f93nRz8wYG_aqwAk3IvJyrmTs0ClW4_9M7xdJaBQ1RKEnQq9d_SW14vZ5ACVvivoGoLt8-PCV1244l-MUCl3wuGlJTzz-77A6JolZh0LMgEPMIq1ogqNsT8ukY704I_NlttqmoTR-Ii5M",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究範圍"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "台灣公投議題熱度在公投結束後快速下降，中共官方、官媒依然關心"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "台灣民眾的關心，有助於減少中共官方、官媒內容傳入台灣"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "12 月，中共「連動」對象自 Facebook 轉為台灣新聞"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "公投後，中共官方、官媒加強引用旺中、聯合、中央社"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_20",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTQLs3y14js2CMBa0zAkl3N7mqGa45u6-Tc5mu5W_z_bVUxxmA2rxdpOBHRgE-igrF65O9G_zar62S-/pub",
+				"locale": "_tw",
 				"publishedAt": "2022/1/18 12:00",
-				"cache": "_DA_20_tw",
-				"locale": "_tw"
+				"cache": "_DA_20_tw"
 			},
 			"_en": {
 				"title": "CCP reinforce its “echo chamber” quoting Taiwan’s Want Want Group and United Daily after Taiwan referendums",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 20 ﹏ 2021.12.1-12.31",
-				"coverImage": "https://lh3.googleusercontent.com/svRJGiTQqquLnQLp3jufk-VreqDKEuS7PuyhmHxkc6tM3HFXXVhuBc8q-CRfInUOAwzpAD1zt3K4DDWlQJdhx629ad6m6nntDO-QYutmyhJgCCzMxwO4sv5-Y-OV-SEEYw",
+				"coverImage": "https://lh7-us.googleusercontent.com/1v_EpqFMos02OP7pfLa0maaFXCxcXJVCcuDv3zV7zeAmA0ADmGFZdDRvqA09b-KlYVhIVGp3CEHwwG6i8uOv46B_7CCQA5ish-d7lGJZa_hOtKjhAzpeEUX2ei332ccaszdWznD3cOfYm9jbVpUQdmYEw9eFNUKR6D3zFSMhKuDZlpyCCpJBcg",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
 				"articleID": "_DA_20",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR1fI8NFzX1ambBdcrotmxOktqqHhGDGgcBV2flXbxEDuvUGxE_g4fSRlC2laOQeL_fys7Ds3NjstdA/pub",
+				"locale": "_en",
 				"publishedAt": "2022/1/18 12:00",
-				"cache": "_DA_20_en",
-				"locale": "_en"
+				"cache": "_DA_20_en"
 			}
 		}
 	},
@@ -3505,28 +4434,76 @@
 			"_tw": {
 				"title": "公投前後資訊操弄：2020 後每逢投票，就有「做票」訊息",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 19 期 ﹏ 2021.12.1-12.31",
-				"coverImage": "https://lh5.googleusercontent.com/WUQJo_i4UvNgx23_BKwhp-Sh37vBG0MC-cYTtBWnEX4n9OzGhmHwDXgM2t-JExky70_GdY0fmwlyV4Sh2QvLqfxv6HdtavifctxscsgSXSHOvTYZu80C07jRc2LfP2QSew",
+				"coverImage": "https://lh7-us.googleusercontent.com/H10nX5EDA9lbEb03kd6Cog72JFWLN4ljaWYXSEVNhnbdlZY_wH3o5AF5x_4peCB7c8sY7VfCo-LZ0UCjvMfEceh8qKoyrxuGkzsWrhhPEMD3lAOBqZW2FzeKfQe9WL4Ezw7nT735V6PM9Ck",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 郭台銘：明年一定會缺電"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "  趙少康：高雄人逼全台灣人吃萊豬"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 王力宏事件是綠營帶風向操弄公投"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "  公投做票"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 農委會偷偷通過，台灣養豬戶也可以使用瘦肉精"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "  台灣豬肉在香港驗出萊克多巴胺嚴重超標"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " 台灣進入非核家園，國安危機就會成為常態"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "  執政黨使用行政資源、公帑宣傳公投，違反行政中立"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_19",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQukOP9gu0HmRulT4RQDnABxQUVJjhgp5VvoHxTKuAhin49IRUo-592mToFXzin-xDfhX22wAQOYmiU/pub",
+				"locale": "_tw",
 				"publishedAt": "2022/1/13 12:00",
-				"cache": "_DA_19_tw",
-				"locale": "_tw"
+				"cache": "_DA_19_tw"
 			},
 			"_en": {
 				"title": "“Rigged votes” information manipulation recurrent since 2020 presidential election, again during 2021 referendums",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 19 ﹏ 2021.12.1-12.31",
-				"coverImage": "https://lh3.googleusercontent.com/A6p4_0lXipuecix6fuJ8RK_3wUd53FlY2rVGngWGW4avEaoG3RifEIX4hjVJFhvnzWLK9hApT2WNTtUCLs-gUDFkYoDt0GW3OjF3NAC-jf5q8nP1CiqiEjvPyrjTK20_Ug",
+				"coverImage": "https://lh7-us.googleusercontent.com/a5wacWkjI8ZIqa-sSlwTTiLeAKlaeXmrXqwss25Vv9zAwc7USNSEP-9qBkhJfZjQAKlTSukvZka7Kl0cgdWySS7qAltcjoVoGvtN4EDlFOdetfii4h8yVSupbVUMkES-cc4BjOwfNzIbUHc",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
 				"articleID": "_DA_19",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpEqsG9DWMM60NDe7I9d7cUGdcn9yKTVRIaSLveRft2OhvcNOitkTloc4TMQtLFm-q8ZxKpEr6vxjY/pub",
+				"locale": "_en",
 				"publishedAt": "2022/1/13 12:00",
-				"cache": "_DA_19_en",
-				"locale": "_en"
+				"cache": "_DA_19_en"
 			}
 		}
 	},
@@ -3545,28 +4522,108 @@
 			"_tw": {
 				"title": "中共看台灣公投：批民進黨網軍、濫權，助國民黨公投宣傳，每 4 則就有 1 則引用旺中",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 18 期 ﹏ 2021.4.1-12.12",
-				"coverImage": "https://lh3.googleusercontent.com/6fQoFeRhmYXxl_r8Z0TRoeCrulIGRB4qHsKUSESFwBWxl7Amw12qJI04KJ1gajOS4o2HhywwNObiGXxNh2SY3jwmxsb04PIsYmt-27hCsEzoOvOFTrEGzmDplhzPfWPb9A",
+				"coverImage": "https://lh7-us.googleusercontent.com/St7eJCBELbnZ-X6xXx0wXtRxq_1CY3BDEhBd6cFw_3-OU5P2-Z1I0DxPguIVzobtqvqLtvwTXGvutcpgDmp3pWFlG_1YycAsBFr_zFHt4LhC6uanDQWV8YYV53oBoBTRj7n0bjIeciv6rhE",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究範圍：公投前 8 個月，關於公投的即時訊息、社交媒體貼文及新聞報導"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "各議題 Facebook、台灣新聞熱度差距縮小，萊豬依然最高，中共就關心萊豬        "
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Facebook、台灣新聞熱度趨勢高度相關，LINE 與 Facebook、新聞熱度趨勢相關度提高"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共「連動」台灣資訊空間程度降低"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "各政黨動員後，議題與公投連結增強；公投日接近，文本內容結構無重大變化"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "Facebook 粉專貼文持續偏向口號式宣傳，近 3 週核四「由強轉弱」"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "公投議題間的討論，中共始終最關注萊豬"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "民主進步黨口號熱度高，互動數優勢不再，中國國民黨口號平均互動表現最好"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "「四個同意」、「四個不同意」決戰萊豬"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "中共公投相關文章：「台海网」、「台灣中評網」佔比過半"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "公投各議題中，中共始終最關心萊豬"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "中共引用台灣新聞談論公投：每 4 則就有 1 則引用旺中集團"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "中共談台灣組織：近 3 週「綠營網軍」、「東廠」熱度增加"
+					},
+					{
+						"id": "h2-15",
+						"titleText": "中共談台灣政治人物：批民進黨「網軍」及「濫權」、助國民黨公投宣傳"
+					},
+					{
+						"id": "h2-16",
+						"titleText": "持續小心「160 國禁萊豬」錯誤 LINE 訊息"
+					},
+					{
+						"id": "h2-17",
+						"titleText": "萊豬攻防重心改變：支持「反萊豬就無法加入 CPTPP」較多、不支持「反萊豬就是反美豬」較多"
+					},
+					{
+						"id": "h2-18",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_18",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQLP8G4-9miEwZM8uMlsGxkSTZXGSwuI1LRrTtRw2vMTJhwIIVlJaS4ZWRjaHcFcxRHrbgFLiUqlTTj/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/12/16 12:00",
-				"cache": "_DA_18_tw",
-				"locale": "_tw"
+				"cache": "_DA_18_tw"
 			},
 			"_en": {
 				"title": "Referendums 2021: CCP criticizes DPP, promotes CNP/KMT, quotes Taiwan’s Want Want China Times in 27% of its articles",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 18 ﹏ 2021.4.1-12.12",
-				"coverImage": "https://lh6.googleusercontent.com/N2PZ_UsnnFFYo2SeVf8V6C4wD-04RmeIa7aSuAxZfkqcswectmNzw_Yvv7JaOBQpcCKSfhvj2aLbcYxYCOEqSgljvYF9zP39YGHCtzxaYHGKVdgNFDbR2jIJZN-gW3_W_w",
+				"coverImage": "https://lh7-us.googleusercontent.com/hHzsmY_XZJYQ3Tns4f4IARVp_b2fc8Ivn2UtxooqMu7VAh6B4gyIXOna34YrGeShXbx-5RsNJnONYw_HgyzWMZQAQOeDQcMPK5ImH1TsxEg2iumow_9AQMI3Y65B5JEAHT2K6zB8V1kw2FY",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
 				"articleID": "_DA_18",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTLNu8I_jzs0x1KJm2cO9oqrK8q-OwsHBI5GW6MRjtziRKHO09ABFgDhYUekB0EE9Kqxy9guSoS9sV2/pub",
+				"locale": "_en",
 				"publishedAt": "2021/12/16 12:00",
-				"cache": "_DA_18_en",
-				"locale": "_en"
+				"cache": "_DA_18_en"
 			}
 		}
 	},
@@ -3585,28 +4642,92 @@
 			"_tw": {
 				"title": "公投數據分析：民進黨口號熱度高於國民黨",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 17 期 ﹏ 2021.4.1-11.21",
-				"coverImage": "https://lh5.googleusercontent.com/OJqOzdl3O6dyMB0kGcXwi3T0oBOXn6hGeVBLZ3q7MOYXAs6rbOS5SJ8UYshinrwcDI8G3GncBnCjoH5LLq5XEcpxJtRJzrNQkrwm7Y1TY9EBNF70AVx5S_jGIeo6w5PG1Q",
+				"coverImage": "https://lh7-us.googleusercontent.com/n5uhLKCdZ79ZDZzCv9jWp5Apziy-va9L6tczcgU6bwvKB67fI_kbXEoy8PBXdXPsHCgB8oEuSkFvCdgQmwyH2O6tOm2ZxtwYuBz1SG4Fx2-DNQ1I4uS7qgSc7g2wLR6qch4HDoS8yA6PHsk",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究範圍"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "萊豬熱度最高，核四後來居上，陳柏惟罷免案後，公投整體熱度大幅增加"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "中國最關心萊豬，且不受時間影響"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "Facebook 粉專、台灣新聞熱度趨勢高度相關，LINE 熱度相對獨立"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共「連動」台灣資訊空間程度高，「連動」微博程度低"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "各資料來源非原生內容比例低，相較於疫苗，中共對公投影響較低"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "隨著公投熱度增加，中共對 Facebook 影響轉弱，對萊豬、藻礁影響仍高於核四、公投綁大選"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "各政黨動員後，4 項議題與公投連結轉強、同時提及多項議題比例也上升"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "11 月中起，Facebook 粉專內容主導議題自萊豬轉向核四"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "萊豬是中共的主要著力點"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "民主進步黨口號熱度、互動數最高，中國國民黨口號平均互動表現最好"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "「四個不同意」多用於核四、「四個同意」多用於萊豬"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_17",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTHDa9jGVAe51O3UV-Bez8MDJuuUcAYZfv2rlHSsjbguW8rYdScY_1C-FUfiUqaWWz6H8YGsB-4uJsI/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/12/9 12:00",
-				"cache": "_DA_17_tw",
-				"locale": "_tw"
+				"cache": "_DA_17_tw"
 			},
 			"_en": {
 				"title": "Referendums 2021: Nuclear Over Pork, Slogan Over Discourse",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 17 ﹏ 2021.4.1-11.21",
-				"coverImage": "https://lh5.googleusercontent.com/YQ-bkBRxRI4WoWLhspvd_TIdW97KkGcG3NN4ggkQnG5lQsrxAwBDnYsXvl37X2aJK4E1C7uScm-EAgIB9np1R3icVvXKXPqGZchYEtFQZlsuw3SvDXx92nQq1sLSUP_SyA",
+				"coverImage": "https://lh7-us.googleusercontent.com/YBfISj2WD1cKFFtW4d7cwg6ZhQk_0tW05gEiLy6R_PhP74kZI9iGWjHjhg8BJ8TEFJ4Xi24wyLJkqpjPAgmvFd_JwP2d_h-vpvHceDZuz52UAEuaLmkhdV38YDPePC4zcd9RTqPV4sMssY8",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
 				"articleID": "_DA_17",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSQZrEeETT4HSWLXr3dYYifH9H0xIgkmiihZJfyglhQTW-oAUb4gaeppVfAXL8sKCGewNnebPUb-Zze/pub",
+				"locale": "_en",
 				"publishedAt": "2021/12/9 12:00",
-				"cache": "_DA_17_en",
-				"locale": "_en"
+				"cache": "_DA_17_en"
 			}
 		}
 	},
@@ -3625,28 +4746,84 @@
 			"_tw": {
 				"title": "公投專題：中共最關心萊豬，用反萊豬引導反美",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 16 期 ﹏ 2021.4.1-11.21",
-				"coverImage": "https://lh4.googleusercontent.com/mfuFrpKcrUqTsljcHMwuut4hqoWH7_zFfeZ09N7TFpECEu-FtB1OMWwo_QxaA-6vflWBCL-hrjEyLRf8Hrxw665vEFwKTiTwWHZDZgocZ7WoyFVFYHARuIcYaPmOe4VLsA",
+				"coverImage": "https://lh7-us.googleusercontent.com/z91dcjIDYlC_eCAjCCeKc3-6Lh6NVI4utgUczv5X9fVa7MxLf2bxKk59QynFclQuc23hTO7Yai5NQxPnSHBxkBTqPRunK_lG_v4nG0_3F7MYn5ObsCMxLaDe72y779nsfHfoMgllJvyibUI",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "  因為台灣購買了美國萊豬、武器，所以應該得到美國疫苗"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "  台灣豬肉在香港驗出萊克多巴胺嚴重超標"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "  台灣萊豬製品在港銷售，所以萊豬也有在台灣賣"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "   執政黨進口萊豬，出賣民眾健康"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "  台灣軍隊已經吃了美國萊豬"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "  中共官媒引用網友言論，把萊豬類比為毒品"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "  因為台美簽訂天然氣長期合約的利益，所以民進黨一定要推中火、蓋三接、除藻礁、廢核四"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "  160 個國家禁止進口萊豬"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "    反萊豬就是反美豬"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "  反萊豬就無法加入 CPTPP"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_16",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSECYbP0oW7BaeUx_jEBbLcMw_SanCQ10qtHJFRQu72Lh01Njwev4DZYmO_CerFptisyYfAbNfnrI1Y/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/12/2 12:00",
-				"cache": "_DA_16_tw",
-				"locale": "_tw"
+				"cache": "_DA_16_tw"
 			},
 			"_en": {
 				"title": "Referendums 2021: CCP links Ractopamine pork to anti-U.S. rhetoric",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 16 ﹏ 2021.4.1-11.21",
-				"coverImage": "https://lh4.googleusercontent.com/AseVOmQmfZdK6U-A5FkOTdT37jPzUPIpGoL6nss2Q3fIu-m9A1wHXKW4-aQyey04xkN7SvT4M_5Qaefp9kDHlbUhgcnJbkt2VCNDxr5JpBT34TRjhQWkm3QxatwB7D8J7A",
+				"coverImage": "https://lh7-us.googleusercontent.com/lZiPrBXcPrmufvv6wMlzXXwLTIU5NS-cX-4zBQvTQsbP_Gor_jQLKH0bAkTa6vZwthlrycKDIUZs8d2LdeQknJbxf0MegztQ8oJY-eLepLNNR1O400u3eTh-p1SlPqlbqOr9MWPskTHHwZ8",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
 				"articleID": "_DA_16",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTclUmbNrefJqlImaSPoCkL0JhB-eOthUx8oHAU5ELf5mhPcKH3V7CyLx9xBJA2uvfHd1lEvdG0CtBn/pub",
+				"locale": "_en",
 				"publishedAt": "2021/12/2 12:00",
-				"cache": "_DA_16_en",
-				"locale": "_en"
+				"cache": "_DA_16_en"
 			}
 		}
 	},
@@ -3665,28 +4842,68 @@
 			"_tw": {
 				"title": "台灣加入 CPTPP 的認知障礙賽：怠惰、倉促、核食、一中",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 15 期 ﹏ 2021.9.1-10.17",
-				"coverImage": "https://lh3.googleusercontent.com/jAwgHmNAjNysZ3RDm7UKux4u2HP3QLCTtDOOCyKojhkrlhWSqdfTN89h02K3k6kyMr-BQeHKacuqBy_yvouhltdujVP-k_8PE_yhJyUAhvHN7dXbtZAi9o2SZ19XcSo4Pw",
+				"coverImage": "https://lh7-us.googleusercontent.com/pz9p8b0YC9_AQuL_spBvXwERu2qm-zAup5afUUGy435ZyiIIgvvBDCsevxH8sNQuVxgKB_u7SJ7ldX-7_H21hSzv4KDBeV6tG0gqknqgyjFDqBqiXNZfyZnslhMVFbKkU1VExrO1WBmRdzY",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": " 台灣加入 CPTPP「應遵守一個中國原則」、「民進黨當局」以經貿「謀獨」"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 因為政府怠惰失職、想「打假球」，所以台灣比中國晚申請加入 CPTPP"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "  因為中國先申請加入，所以台灣倉促申請加入 CPTPP"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "   加入 CPTPP 就會開放進口「核食」，是犧牲人民健康的賣台行為"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "  如果要加入 CPTPP，台灣就必須與中國進行經貿談判"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "整體觀察：資訊操弄論述佔全體少數，「倉促申請」佔比最高"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_15",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT1lfSX-kHj-Ibx-Tm3kAxDVK740Q3tAqFa0Je9Fka94rHZO5PFRSOnu_q-Vzw-o5Xd14UExMv4DA19/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/10/28 12:00",
-				"cache": "_DA_15_tw",
-				"locale": "_tw"
+				"cache": "_DA_15_tw"
 			},
 			"_en": {
 				"title": "Taiwan’s road to CPTPP obstructed by information manipulation",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 15 ﹏ 2021.9.1-10.17",
-				"coverImage": "https://lh6.googleusercontent.com/KRgVfDg6Ca9VF1uJmnKxaFBFXm4EpFPztf2HtsHhWXcFsV_gkvNyJ629BI8iWcRhpGSTzW7lNPm3WfcQoFk2UnHGVfuz1oFFB3anu_EqBmfQjN2hyrhG_8smo-9idKtwIw",
+				"coverImage": "https://lh7-us.googleusercontent.com/Uuihl_gxhJqCDrIjGpvYACdNP-LNhihk1oZbLenBY5V7KNp9fVSwhU7NreCCZ1HmYEhRbIewhMm-R06W3qIoLFgZ0MKp5D9ZPZK_rJcMmm-O5T3rRT5yMveKVZq11f-D5srYcbS3qvFHiok",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s up, CPTPP?"
+					}
+				],
 				"articleID": "_DA_15",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSeersvxNw-hhRYCEPcShsZF7hC6Wn2WkJijO-lMie8cIhwP5ORU8AALCDTUAXFYUGlC6V1q0OUBrvA/pub",
+				"locale": "_en",
 				"publishedAt": "2021/10/28 12:00",
-				"cache": "_DA_15_en",
-				"locale": "_en"
+				"cache": "_DA_15_en"
 			}
 		}
 	},
@@ -3705,28 +4922,80 @@
 			"_tw": {
 				"title": "國民黨主席選舉怪象：挺韓粉專盜圖扮美女，衝高張亞中傳播熱度",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 14 期 ﹏ 2021.9.1-30",
-				"coverImage": "https://lh3.googleusercontent.com/UfCEYM3FjAkE_9sGLPkaeu89BdKFU_PmbnZgH5KaaPF4lP4IAyk_IL4PDItjxYfMkBM-uR2iwoDfQ60O9z8-QvcioLhM3q9BnKMEv28qq14CgOGemtOciNryF1gaAu9cXA",
+				"coverImage": "https://lh7-us.googleusercontent.com/bQUr9TUrWSHUD83Lyrlo20uHxqqxwTYvdvLXcUbh_8EbH2jsqGP2c78ev_8qXmrqD43bhnskCYj1_fSwLx9vdutuN2f5RJNwN6SmGpC4YBhjHA7sA26HvpsxHDcXCpoUyVJn-IKZrupIizk",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "9 月最心慌：防颱"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中國國民黨主席選舉：3-7 月江、8 月朱、9 月張"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "中天體系、親中粉專發布張亞中「專屬貼文」數量超過朱立倫"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "朱立倫「專屬粉專」數量最多，張亞中「專屬粉專」熱衷程度最高"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "9 月，張亞中「專屬粉專」大量發布張亞中「專屬貼文」"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "親中粉專「兩岸頭條」提高張亞中傳播熱度，支持簽署「兩岸和平備忘錄」政見"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "挺韓粉專網絡：盜用美女圖作為頭像、疑似集團發文"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-10",
+						"titleText": " 持續注意可疑操弄訊息和行為"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_14",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSkNmKnd9zDD8bMiQ3y-nx1hKeWjo0_c88RN6DMOm242jF0aoue0bpF_C0U5v0jmh_VsOoKQkSMLVDh/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/10/21 12:00",
-				"cache": "_DA_14_tw",
-				"locale": "_tw"
+				"cache": "_DA_14_tw"
 			},
 			"_en": {
 				"title": "CNP/KMT chair election: suspicious “beautiful woman” Facebook pages boost pro-China candidate",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 14 ﹏ 2021.9.1-30",
-				"coverImage": "https://lh4.googleusercontent.com/BAiCAUTLo3ABzWE7j5s6OTCuC3p6t7Jsd48er_ujYURsQKxUF9ueqD_EjbCHf6a2ejCTRRXp3oWuWMPhM5rw-yXXQdcjhWPybxtgvzjvVKp2_XYw46XYuf-XNNsnYYG3qA",
+				"coverImage": "https://lh7-us.googleusercontent.com/n5mdun8LkCTc4DK-S0bKeqcdTNn9G11l0xbuJBOTI6dudn7qe0nT6NhJZvAt5qva0xeCDgcgzsnS-xTdZCs-cqZyzdaFA-cNmfVQ9tMoJrctwmvOKii1Lu9uQbF-zy08hOtBMY1QbJH7UkA",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
 				"articleID": "_DA_14",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTOuswCpXH6Q49WCiCatF717L9SkFE69TWc4gx1wk7nwWLORrJ0s1bX5ASl5HPnL-SOIESkvY8wIsvp/pub",
+				"locale": "_en",
 				"publishedAt": "2021/10/21 12:00",
-				"cache": "_DA_14_en",
-				"locale": "_en"
+				"cache": "_DA_14_en"
 			}
 		}
 	},
@@ -3745,28 +5014,76 @@
 			"_tw": {
 				"title": "跑跑資料：疫苗傳播熱度、內容來源分析",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 13 期 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh4.googleusercontent.com/a3YdTSvL1FG5dpFedjE2zl7F3BkKeiA1VNS9aT80xmK-5mgNM247pl5FgMhiggdgHwgxcGFzzxeGD7KH_ZSyDCmRuqrBdu2FqTyYXiUc1cUN-UQQ_hb7spDOcI7XhRfIkg",
+				"coverImage": "https://lh7-us.googleusercontent.com/Q2Zp3gWbHBGZmPuq8aj6671lV1wDmSGs49TbKmwxqnmqZC0cytwVgsVajecy3uxHpfcFGtFH1N4fEOWJAiUkCOSjIfnEvk1VoBtwj-DBN55WCc-g45OmPYUIm0Jb8OyWozmrR-bs2BxUv_o",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2021 年 4-8 月疫苗時間軸"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "疫苗熱度變化：台灣於 5 月底大幅增加，中國熱度增加早於台灣"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "一邊一國：台灣 AZ 熱度最高，中國則以 BNT 最熱門 "
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共官方、官媒 7 月中以後高度關注台灣高端疫苗，甚至超過中國的科興、國藥疫苗"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共官方、官媒「連動」台灣資訊空間：相關度高端最高、AZ 最低"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "關於高端、BNT 的 Facebook 貼文分享：「密訊」次數超過多個台灣新聞媒體"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "Facebook 非原生內容受中共官方、官媒的影響比台灣新聞更大"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "尖峰時段：台灣新聞報導對台灣、中國資訊空間影響力都上升"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_13",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS1eKpcBu1XmRHChN18K5RrRzwbw0yd0Q1uPSK7UZqgwaRh55mIJx1_cnlU8MnpMqaZSIvjsk5qg3Ju/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/10/7 13:00",
-				"cache": "_DA_13_tw",
-				"locale": "_tw"
+				"cache": "_DA_13_tw"
 			},
 			"_en": {
 				"title": "Run run data: vaccine public discourse liveliness and content source",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 13 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh4.googleusercontent.com/C7dcLy0-E_9BAoZBtMk8XUG9rEygr7Ur5xdUoNiu69wy1MFBaq0gED5FwhwE2-1GBjjVojDzvJe8LTO1y5mPWfiCmu9DDwBh4PYKyoh4plyF3wixMGcZGGNMhn3c0oEv-w",
+				"coverImage": "https://lh7-us.googleusercontent.com/0iX4tMgDqmIjgLwgTabAlJeECmmOhp5QWRpQljzSGcZxI8NxDtH3lgGv-zrx3LzT0gd5XSMHqvif1pB2462EOM_cjLXgVhJoc8AMxxlIsp-vxTHjiQIDM_oXwfJtLEkPkpVw2nPZbSp4kEE",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
 				"articleID": "_DA_13",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQzYq10geheZdSyIZvKFM5Iuvzx-y-TUcIKvMVKZ_yUgcJAf68abCGw7ClYdhOJjPZjnGubEvLiO2V9/pub",
+				"locale": "_en",
 				"publishedAt": "2021/10/7 13:00",
-				"cache": "_DA_13_en",
-				"locale": "_en"
+				"cache": "_DA_13_en"
 			}
 		}
 	},
@@ -3783,17 +5100,17 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 發論文！2020 上半年 COVID-19 謠言分群及案例分析",
-				"coverImage": "https://lh6.googleusercontent.com/CbvPpPGzS2TBovaLbX1sX1BmUvIm4mMUmNhujZrnduVI_fj0ZnOO2EsBbBfAeD4hi6QmbH3ZJ6OcAlhEL27JsTgc5pT8v6Q-SW3LS19i3YSiJByjiq2GFEE",
+				"coverImage": "https://lh7-us.googleusercontent.com/TVrTYZYYy8RATEY9EAyRCJ_VQyCPtSTrCc_c92g6wTVq-04C7p7SolBjPaKCmxjEH_LkPk6fZvB-cjrpfZHgaNGkNP89YockjEm9mOw-ObaSrJR0qoAd3O-sx8RVs531oQuA",
 				"summary": "2020 年起，COVID-19 疫情肆虐全球，許多關於疫情的新聞、醫療健康資訊，無論內容正確與否，皆在社交媒體平台上廣為流傳。目前已有許多學術論文利用機器學習、深度學習研究關於疫情的訊息內容及傳播，不過絕大部分都是針對公開平台像是 Twitter、Facebook 所做的研究。IORG 希望能更深入瞭解封閉平台上疫情「謠言」的傳播情形，因此，我們選擇台灣人最常使用的通訊軟體 LINE，在 2021 年完成研究，是我國第一篇針對封閉平台內 COVID-19 訊息傳播的研究、發表於國際醫學期刊的學術論文。",
 				"tags": [
 					"資料科學"
 				],
 				"articleID": "pub-0",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS5GOnoXAWKZE5QZn4vVIPFRdNdJ5tLHCICmcmRldSc7B26zQ_lR2On-Q3VRGWX9g/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/10/8 12:00",
 				"updatedAt": "2021/12/24 14:35",
-				"cache": "pub-0_tw",
-				"locale": "_tw"
+				"cache": "pub-0_tw"
 			}
 		}
 	},
@@ -3812,28 +5129,88 @@
 			"_tw": {
 				"title": "中共對台疫苗論述分工：官方宣傳、官媒操弄",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 12 期 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh6.googleusercontent.com/pHtmjcB6oaB_tzAiKQMElWv2K1Ej4LD_Ksdled8AEVMYkrG5qKyTS8imlhSDU6mglICuIkEVEM_Z8L94NROsoJt4HJN1PMrN1ccm5UxXwuXNp-i6JkDPBWlnHN87D-ZVdA",
+				"coverImage": "https://lh7-us.googleusercontent.com/S2ZaueQumMCs7UQjxlHn5Xys_aG-MbTyJmYI8bCThL04zw8n7EJ80Z7adH4qEgSq-fFOc6pqry6ZKqyWoqtZ5YYAcWaGZhhYdeIHcbN2V0JysRcBUSeAaMSPNI-exsGbXmjQzZhxkmH5qz4",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "前言"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "38 項疫苗論述：內容隨時事改變，親切問候、新聞連結、引用權威發言、引起既有情緒、與讀者拉近距離"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "38 項疫苗論述：中共參與 14 項"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "10 項疫苗論述：官方宣傳、官媒操弄"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "讓資料說話：用科學研究面對資訊操弄、健全民主"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "10 項疫苗論述傳播情形"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_12",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTRYkoqoyzTgXpfsDyIZB-kJ0pw6tRDMrLFab1Z-2UdTFEGmml6FXnBiMTWQAurwIFQJlPZRSZHk3ox/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/9/30 12:00",
-				"cache": "_DA_12_tw",
-				"locale": "_tw"
+				"cache": "_DA_12_tw"
 			},
 			"_en": {
 				"title": "China’s division of labor on vaccine narratives against Taiwan: state’s propaganda & state media’s information manipulation",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 12 ﹏ 2021.4.1-8.31",
-				"coverImage": "https://lh5.googleusercontent.com/K92RPgvY30pQxIXws3CaEuNGlZAEPtLmbFttahNIIs94zlrMlgO4agpXw59zi-3OIhQEHPoOlRtUGKL-MHSoZlEzFwDmsPvThTdhhgjBPSQD4iU1h8NgkBntQFAwyPO8rQ",
+				"coverImage": "https://lh7-us.googleusercontent.com/OM6x1OH35gpmnc5g8M6nuKvCxIU1yB6WgqWzNhhBJIEbtOLqpMeue0fqqXv0eDO28GuO5ZOFUc2_xSGcspLkN4AJ-l1uhymG1k-jddjZy2jWaHPLju4Q7nRlZmHrBLJj9a-AHWgzrM_e_Cs",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Preface"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "38 vaccine narratives follow current affairs with engaging elements: kind greetings, news links, authoritative figures, and preexisting emotions"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "38 vaccine narratives, 14 with CCP participation"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "10 vaccine narratives: Chinese state propaganda & state media information manipulation"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "Let data speak: confronting information manipulation with scientific research for a healthier democracy"
+					}
+				],
 				"articleID": "_DA_12",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS-OEhcDTKWeBTKc_ha0lvER2A_SqLb0B601AccN8IUU3o5Jx6euQrjtsODDTi2wj6w5QuzAaaI6a9D/pub",
+				"locale": "_en",
 				"publishedAt": "2021/9/30 12:00",
-				"cache": "_DA_12_en",
-				"locale": "_en"
+				"cache": "_DA_12_en"
 			}
 		}
 	},
@@ -3852,29 +5229,97 @@
 			"_tw": {
 				"title": "8 月阿富汗出大事：台灣民間發起、中共官媒接棒，另類「官民」協力傳播「疑美論」",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 11 期 ﹏ 2021.8.1-31",
-				"coverImage": "https://lh6.googleusercontent.com/JjekJ0vgeP23GeMyJEK47EBfm2idHF8FkfBj-TJSpZN0PGUJXgiwUSc2iUD9tRHaVS9bN7wjNFZwM9DfccC3bn9E_baWxHtseFIq5-Tcl_6dmRDsDAFSwBEkZC_GDhf5VQ",
+				"coverImage": "https://lh7-us.googleusercontent.com/e6L26hH9mgXu5OyGHX73B-RjOb1UXZm2e-8w9_PP9NsUm1x7IZjGNaGUnxPZZXIoY_Z8YXFPGg4tIrPqhqBJLvmhlEPcUPwUS_vodujAND_-OomNH3SV9SZqnRg_3lzTpikNCMiqqjJEeiY",
 				"summary": "2021 年 8 月，美軍撤離阿富汗，引起台灣社會對美國「是否也會放棄台灣」的爭論。IORG 發現，「疑美論」相關的論述，例如「今日阿富汗，明日台灣」、「阿富汗是台灣的前車之鑑」可能並非由中國發起，而是來自台灣，中共再協力傳播。此次事件顯示，中國並不只是對台資訊操弄的「發起者」，也可能是「協力者」。更有證據顯示，台灣新聞媒體、中共官媒之間「交互引用」，擴大特定論述傳播。觀察整體傳播情形，「疑美論」在 8 月 15 日開始快速增加並佔多數，20 日後，「反對疑美論」「反超」，內容多為美國總統拜登對台發言。可見，反駁「疑美論」最有力的論述，還是來自美國的承諾。",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本期最心慌：防疫、振興、疫苗、奧運、豪大雨、美軍撤離阿富汗"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件背景"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "重要事件時間軸"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "數據分析"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "A. 拋棄論：美國會拋棄台灣"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "B. 實力論：美國實力不足保護台灣"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "C. 亂源論：美國是戰爭動亂的根源"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "D. 「反對疑美論」的各種論述"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-11",
+						"titleText": " 注意這 4 項資訊操弄主題及論述"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "A.「拋棄論」傳播節點選列"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "B.「實力論」傳播節點選列"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "C.「亂源論」傳播節點選列"
+					},
+					{
+						"id": "h2-15",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_11",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRnsRyfw-rWNMR_bgjk1YxGfBcm-EzZvrjwgyuPfIKL9nIAEgb2djYpBeTtXusZ3-lk2t26rSCgV_vP/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/9/16 12:00",
-				"cache": "_DA_11_tw",
-				"locale": "_tw"
+				"cache": "_DA_11_tw"
 			},
 			"_en": {
 				"title": "U.S. skepticism originates from Taiwan, CCP follows, amid U.S. Afghan withdrawal",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 11 ﹏ 2021.8.1-31",
-				"coverImage": "https://lh4.googleusercontent.com/5hE57iEqkwMHtmgCnOwYG3RtpUfCoi71l-hp4Hj8aMsq9606UC8tzaYxbuGcNDqIHvhxbJONH8vmw7zxNEU3nAgkk-7lxyRHJHUfA-kd951Ui_CBA-CdUuM74wrKSo_pFA",
+				"coverImage": "https://lh7-us.googleusercontent.com/TLNdFlZl72XvblMNe-RkppbE_au8jVgExixz8jV_GGPQWxcdOKaTKZKnczSOPq6J_8FmX9uJLpxk3d6YxilT_oWMvWE5f_h-SXGim1_i68-4R_BxPnmCzUsUW-B9CX7uY_uClOQCTSEePCo",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up in August?"
+					}
+				],
 				"articleID": "_DA_11",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQkke6u4-Xpatgex8_rnjiCDE02xXO7TAv9SYRUvIyDmMxBNxoA67Woa8unGP5G2JEZV2-N7Q-HAjzR/pub",
+				"locale": "_en",
 				"publishedAt": "2021/9/16 12:00",
-				"cache": "_DA_11_en",
-				"locale": "_en"
+				"cache": "_DA_11_en"
 			}
 		}
 	},
@@ -3892,32 +5337,84 @@
 			"_tw": {
 				"title": "68 場資訊判讀工作坊：更有力的在地連結，更堅強的民主防衛",
 				"subtitle": "IORG 2020 在地連結成果報告",
-				"coverImage": "https://lh5.googleusercontent.com/rU8nQUiuHosxKE64sL2P3fM69NqHN3d34YEMnUfyd2Ww1zF80Dx5SJUqvXztT-TRkpx6rZj29RYM-4UvmR5Jn0jo7iejIN0wo2cXzTPBxXaCXYUcQGfWmumnSro_xZkM9g",
+				"coverImage": "https://lh7-us.googleusercontent.com/0kfaS8zpERXnXVsZom7B7v6PDwf_Rj822wuCkGsAHsyzQPlTjSqsRs5-45xmZHgw758PIsVxD2ZLJyz_1YvcinnClqykSP8DJwixtYw-YAmKltL_sHxxQiJRSd0NpukbJiXyaTcpdiuCzlw",
 				"tags": [
 					"資訊判讀",
 					"在地連結",
 					"民主防衛"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "8 個月、68 場工作坊、1,763 位民眾、1,589 份問卷"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "發現 1：參加者已認知到假訊息，並認同其對社會有負面影響"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "發現 2：接收到新聞時，7 成會查核，但主動通報者為少數"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "發現 3：工作坊後，1.4 倍參加者更了解資訊操弄防制，2 倍參加者更願意採取積極行為"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "學校老師：校園裡的民主防衛協力者"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "國高中生：在教室裡練習懷疑、產生抗體"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "大學生：從判讀到溝通"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "在社區裡，多元語言是溝通的橋樑"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "結合流行文化，輕鬆討論資訊操弄"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "用科學證據面對質疑、展開對話"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "持續強化資訊判讀力：2022 年 4 月新書出版"
+					}
+				],
 				"articleID": "ce-2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQn2hDcF4KuCAM0a3l90xY-xGoVS-jlP9L0691Hx3B1Seyb7TnkthAcn9x7qcp4MMmRGn1Xb_nBHFSZ/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/8/30 13:00",
-				"cache": "ce-2020_tw",
-				"locale": "_tw"
+				"cache": "ce-2020_tw"
 			},
 			"_en": {
 				"title": "68 workshops to fortify communities and defend democracy",
 				"subtitle": "IORG 2020 Community Engagement Report",
-				"coverImage": "https://lh5.googleusercontent.com/avyS3GIJzljeB2Iv5wPgnk7Jdj4rKhI6fk7j4F464Un1NJlhkNEw88B_y9sk1XQmAreQSyenAd82lcJC2iNdHTCkFHRLpCVVUgDxBRCKcJ3zcONKOUseD5rWNYTNjYaR0A",
+				"coverImage": "https://lh7-us.googleusercontent.com/hHWO1CcA4b-mxikQa4X1E5eLWgclpJseLfx4OAua-1GKiP2Aa8bqT4s3Je7G1VKQwNcQ8wvDkh_2m1fB3z83EynlQFTz4g6JPSQKP3r7YrlxhwWJV1ET6k9iaqF51NeoRRwHr15wUyS-srA",
 				"tags": [
 					"Information literacy",
 					"Community engagement",
 					"Defending democracy"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "8 months, 68 workshops, 1,763 people, 1,589 questionnaires"
+					}
+				],
 				"articleID": "ce-2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSmYRo4cIlFy3ApzD6Ofjt7_rNudTCgx9V9SbwCmS-FTZ2ogKSYus9bspZuFKBduX1zsjP6mQwFLCyq/pub",
+				"locale": "_en",
 				"publishedAt": "2021/8/30 13:00",
-				"cache": "ce-2020_en",
-				"locale": "_en"
+				"cache": "ce-2020_en"
 			}
 		}
 	},
@@ -3937,30 +5434,70 @@
 			"_tw": {
 				"title": "中共官媒以網友留言代表台灣，評論美台軍售：「要疫苗不要武器」",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 10 期 ﹏ 2021.8.2-8",
-				"coverImage": "https://lh5.googleusercontent.com/KnKg8fpjk7UyiScGPicHNYVzSeQcGG-or-6iBm4WZJ4O2VUxxAznKod4WR7H1nAdswcuqSZEKPK-roN5w18CmG7SkzcSD__5bvqnqHhLrjY9AVmbB_WoUlZXXBbaWrKNew",
+				"coverImage": "https://lh7-us.googleusercontent.com/nlAHiPnMLQlRlRk145shameYvtwz_NhBJTa88JDgDEr1ElQnS8Bwmbb3ay9JUaQxQg_rsfdz3EgP7HU7u8oIZ-dwHKM_kGjLPBIptUDC4q4J3T_QohY4i01qkQKiuBcDWhT-VaYZrcDv_3o",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本期最心慌：奧運、中國疫情、振興五倍券、疫苗檢驗封緘、台北市茶室復業"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 美國對台軍售：台灣「要疫苗不要武器」"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 中共政治宣傳引用台灣新聞、網友言論，批評台灣、美國政府對台軍售"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 高端疫苗實驗補助：巴拉圭 1 人 1 萬美金，台灣 1 人 6 千台幣"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "{{ preview }} 持續注意疫情相關可疑訊息"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_10",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQGJ8fv6Wjir7kBGl9fk6Gz4hr2YwdAzjyUV2oIRuwpbswd9lOOgG8U6Mtw5sseBU-JjtjABsyyuF9d/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/8/12 12:00",
 				"updatedAt": "2021/9/10 8:30",
-				"cache": "_DA_10_tw",
-				"locale": "_tw"
+				"cache": "_DA_10_tw"
 			},
 			"_en": {
 				"title": "CCP propaganda quotes internet comment in criticizing U.S.-Taiwan arms sale: TW people “want vaccines, not weapons”",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 10 ﹏ 2021.8.2-8",
-				"coverImage": "https://lh3.googleusercontent.com/tDnxb1E06BTCuWQERcsdT3fl4y6tmYroip52gFmo1SoGr6MuRa7PvmtvELeSFagxX0uW3xUxP3ZRsx21Kcbu6wUq2WvMF-rbEk5YYNQF-oRAINNsrDqkFwbJBtum5-F8Qw",
+				"coverImage": "https://lh7-us.googleusercontent.com/LthCRZ8GJByYjTrKD9dScMtLBZzHSXMvgxOX25vzmyXhMU5_zuxzU1wRISRAjKfjgr1MBqVSeOgRPZHQaWyAwy_HeFZamrWkJpYiHREx8cvocWA1h-R6DREtUbgp-CZZhIfDf0k8LjRASek",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_10",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTICL0brktNVAJ_Ujfg_Q5x0kgwJcFcZgfJJOAVl_twBzrr28EJAbkOSgpRZX_zquqF7r2XpIg8uZr6/pub",
+				"locale": "_en",
 				"publishedAt": "2021/8/12 12:00",
 				"updatedAt": "2021/9/10 8:30",
-				"cache": "_DA_10_en",
-				"locale": "_en"
+				"cache": "_DA_10_en"
 			}
 		}
 	},
@@ -3980,30 +5517,74 @@
 			"_tw": {
 				"title": "中共東奧政治宣傳：「中国台北」取代「中華台北」、製造日本負面形象",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 9 期 ﹏ 2021.7.26-8.1",
-				"coverImage": "https://lh4.googleusercontent.com/VCZbQD25wkBRDJj0dTa_bACNxqZmCpRBKBfvb-YLGUOvoJ8o8gD7H5LL5odoifvC1bgSrAIsso1XJYrVAIvykX2f1t16psmy8jqeOJW77lOYrYUPTpP8RVxvS-mXdsaUkA",
+				"coverImage": "https://lh7-us.googleusercontent.com/7Pd_jU1DQXB1lSaCk9NCRrX0s-Y8e0MbAy-zDGd5gITDRFPMn6UW3xdYpXRw2JZeVAqC3GHx4OfSEOmT1yQfjZdTF7bf2nEZ1O3Tn_6D2RhRjNNvXl3_7FrCoN1f4iFeUG1CTSsdmOCza6M",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本期最熱門：二級警戒、疫苗預約接種、奧運、奧運、奧運"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 中華台北？中國台北？微博怎麼稱呼台灣國家代表隊？"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 中共以錯誤訊息宣傳日本東奧負面形象"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 醫護人員可能幫你打高端疫苗"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 印度使用伊維菌素抗疫有效，推廣疫苗是圖利疫苗廠商"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " 持續注意疫情相關可疑訊息"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_9",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTKGZ71P5YPlgTQVIenmvugym2hcrpImNy4PSFhsR-gHruj0v9-YFmz90SDmZpzCelNdhe4-31Go0Er/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/8/5 12:00",
 				"updatedAt": "2021/9/10 8:30",
-				"cache": "_DA_9_tw",
-				"locale": "_tw"
+				"cache": "_DA_9_tw"
 			},
 			"_en": {
 				"title": "CCP’s Olympic propaganda: China’s Taipei, Japan’s failure",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 9 ﹏ 2021.7.26-8.1",
-				"coverImage": "https://lh3.googleusercontent.com/ZSQpOzeOnclSLbPzca2gPdHT9bCjj6fU7m21RNcqdfe7Q8RcAOcrBW6ZKRse_Sgti2iixwyKC4kNnwGr0DjmZ6bpU1dvElAY8RiDfnifOF0TtHmGY8B3L4BxMbSAisH6eQ",
+				"coverImage": "https://lh7-us.googleusercontent.com/JNMk02usSct1zKm6PvwrxiMf1i3iaS6UNDZXt02uJZ6sv1D3zp_h4_WKyFK4XZqlklrOudLxHbzKcr25f201nNOroryzXHBVUkqGBb6_Zp6JVN8dGL2TC2415DG2CdFAVroiO_ENtEonu40",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_9",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSou20iZMCkm9ElMDfCnYMq2E9szE9mOwDWvtR1i8CeJAhx72j7l_ALeQX6OTAVl5gymrni7D1kHRQX/pub",
+				"locale": "_en",
 				"publishedAt": "2021/8/5 12:00",
 				"updatedAt": "2021/9/10 8:30",
-				"cache": "_DA_9_en",
-				"locale": "_en"
+				"cache": "_DA_9_en"
 			}
 		}
 	},
@@ -4022,28 +5603,64 @@
 			"_tw": {
 				"title": "「病毒美國製」又來了！親中人士假借歐巴馬名義傳謠言",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 8 期 ﹏ 2021.7.19-25",
-				"coverImage": "https://lh4.googleusercontent.com/y7u2YLs18nJ_i3s84fTdJekNLqWwQ1WE0ds2kaHLG7Z8cZyy5IWiQhOcPHvMor3ezijWsHHF7eQ9b-lvOxktmkt8IofIWshAsGGTQcSj8_pbkYvW6z9W8DHIy6TZVrC_aA",
+				"coverImage": "https://lh7-us.googleusercontent.com/it_hTEMCd7pFxa1Uk835j09FHtU5TkGxVzxyYb8qWlU-iMl0VC__hMuGs5QjylGc4HRnWwM4XF8UqNjm4LNVyjYPD2M8g7BfwDF3_gY5sk-783Af8mKfksRDhixMRO3-AkGF4kLH3Cr84pI",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本期最熱門：颱風、降級、奧運"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 假借歐巴馬名義傳謠言：「新冠病毒美國製造」、「目的消滅黃種人」"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 變種病毒「無藥醫治」、「疫苗也沒用」的 39 個變形"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 持續注意疫情相關可疑訊息"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_8",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT4Fk-3sIbv-9UY5v5gD9VM__7DpULx4xlYZQQDucpVD0jpiHGx_FjSdKAiWaarQcUeJ9Ec4kRWnWAP/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/7/29 12:00",
-				"cache": "_DA_8_tw",
-				"locale": "_tw"
+				"cache": "_DA_8_tw"
 			},
 			"_en": {
 				"title": "Pro-China Taiwanese group fakes Obama’s speech about “American virus”",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 8 ﹏ 2021.7.19-25",
-				"coverImage": "https://lh6.googleusercontent.com/Iv_e0Dns4HvJIQMwpF0Ne_u2QyFwVZmIO0sVBljE62SkDhq5Uz07et-oOsgzvCid_w7bE9O-w2t1aHgqnt6BlJgTr50YT3bK5ep27QiAjs0rmnQt0zSgsmejpybF3tH0dg",
+				"coverImage": "https://lh7-us.googleusercontent.com/UVZsyx1Xhk76m4lzVm_AVXwSqHCv0LxHA0wt05bUQ2dwElv0a2hrcSQDoxN9bBxogSokKTuLFEk41ZRF5dvvcABli6wzRxREjfx3LCs--EPbgQJZqGIV2Xp_kKECcZHQVj2ExBvdNZx9ds4",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_8",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSPFUONWjwXBxUFwnyO3LzhhuDfO8Fn469Ex4Jt2IMx_OsjfMNVXE3-YtcdwHnjKaq4on-zY3BbOS3c/pub",
+				"locale": "_en",
 				"publishedAt": "2021/7/29 12:00",
-				"cache": "_DA_8_en",
-				"locale": "_en"
+				"cache": "_DA_8_en"
 			}
 		}
 	},
@@ -4062,28 +5679,108 @@
 			"_tw": {
 				"title": "打疫苗前不要看！13 個「不要打疫苗」的可疑理由",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 7 期 ﹏ 2021.7.12-18",
-				"coverImage": "https://lh5.googleusercontent.com/eNaHha0RNDecfiopu6xtPqsXIm66PvRQUR-3xdhFHZFLV0rLF0ssfqJTpPkzsAK9IbScqgVKmnu7CcZurTZmNDOc0A6Oo-o8FkxOAJoY-ccl4hdovcPB-mu_D78edm8QTA",
+				"coverImage": "https://lh7-us.googleusercontent.com/o2912AdgqnpZxH9oXdUzLYteJgs6m8mp2PNxI1aM4mtAOyZUmuyifyqFgpBpeU1tGzDNYB0fTkVe01PMqMlr-m5GlWeWamMSoQqcrtBCti-izgWxy_p7j3nak9Nk7lTSt8zONz-8naQJeGk",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本期最心慌：疫苗預約接種、捐贈 BNT 疫苗"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 1. 疫苗接種啟動免疫風暴、改變基因"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 2. 病毒沒那麼毒，疫苗更毒"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 3. 台灣電視媒體完全不報導疫苗施打後的奇特症狀"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 4. 疫苗含有最高致癌物質 SM-102"
+					},
+					{
+						"id": "h2-7",
+						"titleText": " 5. 打完疫苗後平均活 2 或 3 年"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " 6. AZ 說不定會引起癌症"
+					},
+					{
+						"id": "h2-9",
+						"titleText": " 7. 群體免疫已經存在，接種疫苗會導致自體免疫攻擊的嚴重傷害"
+					},
+					{
+						"id": "h2-10",
+						"titleText": " 8. 權貴捏造假疫情，推廣有毒假疫苗殺害地球人口"
+					},
+					{
+						"id": "h2-11",
+						"titleText": " 9. mRNA 疫苗可能導致人口大規模死亡"
+					},
+					{
+						"id": "h2-12",
+						"titleText": " 10. 醫護人員說出真相：藥廠、生技公司謀財害命"
+					},
+					{
+						"id": "h2-13",
+						"titleText": " 11. AZ 已經死那麼多人，政府還在推薦"
+					},
+					{
+						"id": "h2-14",
+						"titleText": " 12. 真相：新冠病毒有藥物可以治癒，不需要施打疫苗"
+					},
+					{
+						"id": "h2-15",
+						"titleText": " 13. 中醫治癒率接近 100%，不需要接種疫苗"
+					},
+					{
+						"id": "h2-16",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-17",
+						"titleText": " 持續注意疫情相關可疑訊息"
+					},
+					{
+						"id": "h2-18",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_7",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRPLVoeCPNWc8rgol07WOESbgLPJP0LMpo502jTiVLPznSV94Lu64EM6yY4cGDfPhPP5X2RDadmqmVY/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/7/22 12:00",
-				"cache": "_DA_7_tw",
-				"locale": "_tw"
+				"cache": "_DA_7_tw"
 			},
 			"_en": {
 				"title": "Keep an eye out for these 13 suspicious “don’t get vaccinated” narratives",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 7 ﹏ 2021.7.12-18",
-				"coverImage": "https://lh5.googleusercontent.com/tHA6gBA0dWRH8EyhB0ja6497Ka5GPx-rjDfQPI7VLUYSq3NX7NQy1KIvas_i65j9xKBA0h7Tq259tLDVArHPO_uEAaq8r1Xi9StFvdpoamoXJp6LdRU8fivbUEixeDclQA",
+				"coverImage": "https://lh7-us.googleusercontent.com/51T6HpsfMCoyznFnXRw4fAK-4nJ29Tf4J_adArd6fe0PXS9ge99xi6gve-kD3IMYVN7mlCTmLS6x6giuRYPdqtuFVT7yYO2V8I9AJYkFtLDcIcltRoFR85yICU-wH_99Uwsv0HmYwfxvQ2g",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_7",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS8yoIwZ3i6xbp6ZD-Nkmn6orKe9CsvC-sSSksAk6w3gHHqYiDW8csYsZNyBW0uqTG5qjQx6CQ2GvQZ/pub",
+				"locale": "_en",
 				"publishedAt": "2021/7/22 12:00",
-				"cache": "_DA_7_en",
-				"locale": "_en"
+				"cache": "_DA_7_en"
 			}
 		}
 	},
@@ -4102,28 +5799,80 @@
 			"_tw": {
 				"title": "韓國「微解封」：錯誤訊息「疫苗第一劑打的差不多」的 21 個版本，如病毒變異",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 6 期 ﹏ 2021.7.5-11",
-				"coverImage": "https://lh5.googleusercontent.com/K6vzS5i3y47GTP6V6DMzdSyYF88gBmoyXXuAhFO3NSYYzVwVFAITTLuu9ffSLoOK4S-z0O4chBXdQJF4265bkQrBHN6T5QAUVztZbluDhNu26hrn61TxrFoW5vUbC68lXQ",
+				"coverImage": "https://lh7-us.googleusercontent.com/G7eoWRIhr58kTUksm3Adfsryba58KJ3cpLGtjKBaIpMT42zpgRbG00iD8CzGz78j5uMUkBWIlfLls_0F3bGUkJdETU8HLlOe5UcV_xM4d99p9wiIAchPwZSqbcU3hdFNH26mtWfeHSkWkNQ",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本期最興奮：「微解封」"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 韓國「微解封」：「疫苗第一劑打的差不多」的 21 個變形"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 國台辦：台灣人受惠「春苗行動」到中國駐外使館接種疫苗"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 「全球華人」粉專協同分享「qiqi」內容農場文章"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "不心慌預報"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " PCR 測試有問題"
+					},
+					{
+						"id": "h2-9",
+						"titleText": " AZ 疫苗有問題"
+					},
+					{
+						"id": "h2-10",
+						"titleText": " 民進黨不要 COVAX 的中國疫苗"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_6",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRyrnLb5G5d4kD5qM7j-wmm_CgTJdpQLEqcIWaKOnEht7fXGi98ZN7XgLcbWN5gX-SeCtvpjnUJ-Z1Q/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/7/15 17:30",
-				"cache": "_DA_6_tw",
-				"locale": "_tw"
+				"cache": "_DA_6_tw"
 			},
 			"_en": {
 				"title": "21 versions of false information on S. Korea’s “almost complete” first-dose coverage and its “restriction micro-relaxation”",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 6 ﹏ 2021.7.5-11",
-				"coverImage": "https://lh4.googleusercontent.com/9yPFSFM-7ur8I1004lMlQ52NN8N-XDHzrQUlIyTpOXSJGra3EKK5EILCBzXL1TMXWca7hppQu74v1qoXBXC4qR428gehvPFild77TYwzB77uSxrZRYZosVWlq_N-8gIeGw",
+				"coverImage": "https://lh7-us.googleusercontent.com/-03ICL0CmQrMgPL0krQQPVr3EdHWeXsQagAZ2sKdntx0z2xu3o074dS30yfkVJ0OHu-dF_3yvtHxCsn8dE3wErb7403o-zC1X1qBQTGfzb2RHwnsm4vnyWdRwVf0ob3Q3l_j3LhPw84CxKE",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_6",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTTgAU9qODQgM15_hKIKSptPLZ3xO-qjoBleKIVb8DU39YKU-OUgHYhQXpXolwz_OZphAQIjYTRtuLE/pub",
+				"locale": "_en",
 				"publishedAt": "2021/7/15 17:30",
-				"cache": "_DA_6_en",
-				"locale": "_en"
+				"cache": "_DA_6_en"
 			}
 		}
 	},
@@ -4142,28 +5891,88 @@
 			"_tw": {
 				"title": "中天變造美商務部長發言：250 萬莫德納疫苗功勞歸台積電",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 5 期 ﹏ 2021.6.28-7.4",
-				"coverImage": "https://lh4.googleusercontent.com/_9yd1cWCZTAxE3IgjQPnD-zOYw0iCumlJvYG7UjON68GsxvgVW7tNZ8LU1Fl8Ah9OmYfnrW0LHUpFooqPmBZWlWml2buxa1jXWgCHt9_xt4Kd8p_WXTwJYG5aFEzdfsw1g",
+				"coverImage": "https://lh7-us.googleusercontent.com/KuNEUKdA3gulrbluqw8Hj4pU3aDDNbFxA0psZwsEw7tON23H_Ptr1hUUqh3CY19F4YskM-km5dgPHnWZohOb0zYpuhjZrCUw5TDlSw91jMUQFaFSjdhRZzEGkqmtCoVDF1zbn6sksIEBcbM",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本期最心慌：台北市群聚感染"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 中共建黨百年：解決台灣問題、實現祖國完全統一"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 日本 AZ 疫苗未列 WHO 緊急使用清單，民進黨用日本疫苗是謀殺台灣人民"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 中天變造美國商務部長發言：台灣獲得 250 萬劑莫德納疫苗，是台積電的功勞，不是蔡政府"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 文茜報導習近平，標示來源查無原文"
+					},
+					{
+						"id": "h2-7",
+						"titleText": " 8 粉專協同分享「趣享網」：花蓮大媽搶殘劑"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "不心慌預報"
+					},
+					{
+						"id": "h2-10",
+						"titleText": " 台美經貿談判將使台灣人民受害"
+					},
+					{
+						"id": "h2-11",
+						"titleText": " 台灣人不如美國⋯"
+					},
+					{
+						"id": "h2-12",
+						"titleText": " 疫苗未列 WHO 緊急使用清單，不要打"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_5",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTOmbbt0K3Qhhjdx71N3SsvzYxCaJxTMZL-JFjbTeYnEGLhUsPEumf4BjZYopKv6iPF1vkjldytFus0/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/7/8 12:00",
-				"cache": "_DA_5_tw",
-				"locale": "_tw"
+				"cache": "_DA_5_tw"
 			},
 			"_en": {
 				"title": "CTI distorts statements of U.S. Commerce Secretary: credit of 2.5 million Moderna vaccines belongs to TSMC",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 5 ﹏ 2021.6.28-7.4",
-				"coverImage": "https://lh6.googleusercontent.com/PbM_K-vhh_T7j5p2X3wao6sP-ZZYva0hgttxQHC27o0FDFGj-L7ZJQYeVC2sCFgywMm5ynpqvpIPXr_ogq0XhDjD1DkQrhJPiRM9dncqbSvYsg2jqGthehJ1Tj_kfRIy3w",
+				"coverImage": "https://lh7-us.googleusercontent.com/xneVCdSVSDJT111jUfQLBhyfZ4LwvWMKe8RMLDcu89zcAWuMOBvFE1yXPisORH0d6iFPbgg6FMCPDY6oEGWhnjXC1dKRlwBtddzl2q2j5-8DV1v8F56O18L9sj8cTTShgmHdJ_N_ho5W1cs",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_5",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRPefXwptCOUey0w5fE188V_FRCvkfyq66xrlFlbmQ0pGImAwaNFydCVInXuRX-yQVh1f-v7BGxa24L/pub",
+				"locale": "_en",
 				"publishedAt": "2021/7/8 12:00",
-				"cache": "_DA_5_en",
-				"locale": "_en"
+				"cache": "_DA_5_en"
 			}
 		}
 	},
@@ -4183,30 +5992,86 @@
 			"_tw": {
 				"title": "中共嗆台「亂港謀獨」，Delta 襲來，疫苗、篩檢爭議持續",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 4 期 ﹏ 2021.6.21-27",
-				"coverImage": "https://lh6.googleusercontent.com/7IUd3rMXvL7P5ywxEbiOL6hrA1E-0P6dhTXlfmC6FtpBweHDnwAAWPKo1pi4-lkxjxvzh0n5VUrb5_Ul_-wZuiSMx4FAtaveq7VoELvax06VwSKF16KvFmMgzk49uM70Uw",
+				"coverImage": "https://lh7-us.googleusercontent.com/ZMCJVJMV18-Om47f17yzKd2zwmtG_PLrwGaj7gzI9Hw-eYh9txzhzEMIUuWvDfTlISmyWc0bcS7FW1Ubp3Xj3gB7PKb78X5vFxFNw2VEyj2z98tHGcg7ybcyyfyMXQ7Dgz4tI3JqH04qmFE",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "6 月第 4 週最心慌：Delta 變異株入侵台灣"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 民進黨當局亂港謀獨"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 關蘋果、關中天，民進黨雙標"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 防範 Delta 變異株要入境普篩"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 台灣死亡率高是因為黑數"
+					},
+					{
+						"id": "h2-7",
+						"titleText": " 中天：高端疫苗生產像家庭工廠"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " 美、台蟑螂集團炒作聯亞股票賺錢"
+					},
+					{
+						"id": "h2-9",
+						"titleText": " 台灣豬出現疾病，千萬不要吃"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-11",
+						"titleText": " 持續注意疫情相關可疑訊息"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRFVeJkOJ4yAf25mkisOzrvocJBI_yUp1Ioz4K44-P8_H329RNkaf5Fz1-6RKdJT0Z62xtKSp-GNHNT/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/7/1 13:00",
 				"updatedAt": "2021/7/4 7:30",
-				"cache": "_DA_4_tw",
-				"locale": "_tw"
+				"cache": "_DA_4_tw"
 			},
 			"_en": {
 				"title": "Delta variant hits Taiwan, controversies on vaccines and testing; CCP: DPP creates disorder in HK to plot for independence",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 4 ﹏ 2021.6.21-27",
-				"coverImage": "https://lh4.googleusercontent.com/c_aK9ApqEQLOgcZp8hhIV_-5K5mQ_KUvM0AVMNYaXNqfhyY8Sn7_UQ8EoFGkfsbFUec7kyXTThUOepxmszP9eZi1DX4X1g4nvUWwAxhEm2p62ucYRN1j_G0NIOcVS1ymJg",
+				"coverImage": "https://lh7-us.googleusercontent.com/vBO7kNaGAjr34VqF3q9OGUdsnsxbjqrI9XKmAHi2C61hMDnELYXyf89lLmkrAzG5z0OdtlKVcfdziP4F2wDIi3byt1Roj4wVXWeg8JFl5j1Sf13aLEGi4R35KBH-9CWL0aYfRlHVLo8uLQE",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_4",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTKmaODboFqLI6qx6t4Q6j5jDUSkEtrxolId1E3WdBZariG4-JDqb9Hmwjs79VEss3y-YnPPzLHTY0f/pub",
+				"locale": "_en",
 				"publishedAt": "2021/7/1 13:00",
 				"updatedAt": "2021/7/4 7:30",
-				"cache": "_DA_4_en",
-				"locale": "_en"
+				"cache": "_DA_4_en"
 			}
 		}
 	},
@@ -4225,28 +6090,76 @@
 			"_tw": {
 				"title": "警告：「打疫苗猝死」碰上「疫苗是生化武器」陰謀論，可能擴大社會恐慌",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 3 期 ﹏ 2021.6.14-20",
-				"coverImage": "https://lh5.googleusercontent.com/A3rAfRUVs2zczTNSiM5ncUPXdKNMkKA2osDOIcBM8Gkzx-nxRjo0lNUZQfMeGKTFaxSY4PwFHjxfz1OLD1BlQ7icA-ae4daFVk-JIW6x9d_5OXktxRr73Sljxn7rsa8PLA",
+				"coverImage": "https://lh7-us.googleusercontent.com/gbJhQKbJKj0VgWFdO962x5Aw2C0GLc5fqj3380wTasMat3fp2zafXTclNNCMdITNbRS8UXxVL0q0Jkn7qSZM0EGVsx-j9_uEKjk36WpUfgLrJ64LuARdixgbo8_b2nAaCIrOBFs8fU2hKgA",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "6 月第 3 週最熱門議題：BNT 疫苗、打疫苗後「猝死」"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 接種 AZ 疫苗造成老人猝死"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 疫苗是生化武器，不要打疫苗"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 台灣用軍購、用晶片換美國疫苗"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 內容農場「密訊」仍然活得很好"
+					},
+					{
+						"id": "h2-7",
+						"titleText": " 黑水投資聯亞、台灣人到中國打疫苗"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-9",
+						"titleText": " 持續注意疫情相關可疑訊息"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRwQH7rh4vCZOo3St32pU_J2DjEt8a0jmkFQLKkA_hA-Bf91cLXOiyeZjkKRxhfqT10rEJ4AgFH0foD/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/6/24 13:00",
-				"cache": "_DA_3_tw",
-				"locale": "_tw"
+				"cache": "_DA_3_tw"
 			},
 			"_en": {
 				"title": "Warning: Vaccination death & bioweapon conspiracy theory could amplify panic",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 3 ﹏ 2021.6.14-20",
-				"coverImage": "https://lh4.googleusercontent.com/oBQDteJSo6csThBMaLJajaeKI6hqm7vY95a_eJs7NuQ6ncPOvysNlg5P94nmwB_EgY1CGETEevdFMyEwTFPOKciufpg1Cyi_czUeliEN91-j_XGZQOxnKU40rVWyODkg5Q",
+				"coverImage": "https://lh7-us.googleusercontent.com/0mTezQ6K-it8ege5Iz1bKQRQBjQMkKz_Zv-vgwHgW5JIyLYBCSpSi0G2sYwAw_dumm3AXrydIpWwFwRFbNgV1BDFy-8bODHtbv6RXR-XAtgEsesL0yboJZ5XV-Wy2zwx0GIUdVfKrxdmXJo",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s Up Last Week?"
+					}
+				],
 				"articleID": "_DA_3",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ8Ibk5C-wKME8SvCWx2xCre1Skr2rRHnT0FOVBy6TLFpFCdmTgYCaTbH-rpPFMEiYNK7WcPlisQ3g4/pub",
+				"locale": "_en",
 				"publishedAt": "2021/6/24 13:00",
-				"cache": "_DA_3_en",
-				"locale": "_en"
+				"cache": "_DA_3_en"
 			}
 		}
 	},
@@ -4265,28 +6178,80 @@
 			"_tw": {
 				"title": "6 月上半疫情燒，中共宣傳新口號：台灣人到中國打疫苗",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 2 期 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh3.googleusercontent.com/_c3EjwvI2mUFzUwTuF0W8kSW1VwhCAnIabEur9xSUv0FSpmiMvZrrYjcAecsEnQAm6p1wpqqPO_t5L2QkkdiEbJ1O8LfFB_p9cPwXgxA1yFJMZcJfGUl2eVKyF6m32OQ2w",
+				"coverImage": "https://lh7-us.googleusercontent.com/vo372b50mIeN4y9JY7_y3HTbtwv_N1_pL-xlEPPXOaz7jiM_60qBx8DyYIg-dJi3LdpUBTHj7O6MkJfjc2gjyh_rsIryFmVOPANiKXH2GHIVceU9lejs8Zu3gpG526QqGDomimj_e1UTTUg",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "6 月上半最心慌：還是疫情"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 台灣人到中國打疫苗"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 台灣要送疫苗給友邦"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 台灣豬肉在香港驗出萊克多巴胺嚴重超標"
+					},
+					{
+						"id": "h2-6",
+						"titleText": " 日本外相說台灣不需要太多疫苗"
+					},
+					{
+						"id": "h2-7",
+						"titleText": " 高端、莫德納疫苗是孿生兄弟、系出同門"
+					},
+					{
+						"id": "h2-8",
+						"titleText": " 美國黑水公司投資聯亞疫苗研發"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-10",
+						"titleText": " 注意疫苗相關可疑訊息"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQCaEtgkkssWh4RxOCbK-N-Lk2PoG9AyrNh3z-Z4JpwDk_zXmJSYfOoLZKCWH28q_XJwjvK1uEo8XC8/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/6/17 16:00",
-				"cache": "_DA_2_tw",
-				"locale": "_tw"
+				"cache": "_DA_2_tw"
 			},
 			"_en": {
 				"title": "Latest CCP slogan: Taiwanese Go China Get Vaccinated",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 2 ﹏ 2021.5.31-6.13",
-				"coverImage": "https://lh6.googleusercontent.com/eB5iE4oM7Mhb8jzm2fHcIKhLncKw54P-3ZvFKVguhrrAbQ0qYndtyDqns-H-VeMXgd6s68NGeHgiRwGsDVNMMS9SjKRDZqIxenSrXnxfgmbViEsfbE4kVu8PlsPntV5UMg",
+				"coverImage": "https://lh7-us.googleusercontent.com/FmdZ1nK228x9LKTFD_vZAh9pZVxYGvoh-ugP3BvkJ2uxh8jP-yeXK2N_Xq3MgpjCutb8SkjBnIgg-hBjpJGzPwbhNkWFo2ZKPsnRFY6NzpxUuhfr4WMxlkceTeLdTIBAObNEhfMKiMtHhuY",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s up in (the first 2 weeks of) June?"
+					}
+				],
 				"articleID": "_DA_2",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQqGcjKBoO1p448b977m-YBWLNwTkemAWUubhEan3FA0YPqpt9i9VN2AWHZUqg5hp_dtXjaGI7NBcmC/pub",
+				"locale": "_en",
 				"publishedAt": "2021/6/17 16:00",
-				"cache": "_DA_2_en",
-				"locale": "_en"
+				"cache": "_DA_2_en"
 			}
 		}
 	},
@@ -4305,28 +6270,119 @@
 			"_tw": {
 				"title": "5 月疫情風暴，疫苗成為中共資訊操弄及外交武器",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 1 期 ﹏ 2021.5.1-31",
-				"coverImage": "https://lh6.googleusercontent.com/-PT_NBnM7nDfyQkr_9s8MAhRGnCN8jcvUmQvSSE8HUYB8sYqKVte8lDpPTnVLeaqCb8ida9F4Nym_1ZZyOGSBSPVYC7Dk-v6PuxAw4MzoeF8GDuaipWR8rXjK_ewyvPRtg",
+				"coverImage": "https://lh7-us.googleusercontent.com/TK3BjDb02CaQFBFLUgWP12Bg5BzkpaZuvnqyJlHs-TNEJBHPTiQAH3rJnCGdYD6pnTzAPUq9ar3_uwvmhUpxe8u4G0BbRIxxmhyGn5DsN2IQ-AaU5SNb_bVvCO8cU51DOVinQur7VQ0sQk4n2rrx6caOZND2EmDht04HazGhyAyvfz_cf3nr_A",
 				"tags": [
 					"心慌週報"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "本期摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "本月最心慌：疫情、疫苗"
+					},
+					{
+						"id": "h2-3",
+						"titleText": " 民進黨當局不買中國疫苗是政治心魔"
+					},
+					{
+						"id": "h2-4",
+						"titleText": " 美國沒賣台灣疫苗"
+					},
+					{
+						"id": "h2-5",
+						"titleText": " 台灣拿日本疫苗是以疫謀獨"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共疫苗大外宣：中國出口 2.52 億劑疫苗、美國只出口 300 萬劑、美國搶購囤積 26 億劑疫苗"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "文茜的第 2 次資訊操弄：引中共官媒內容未標註來源"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "本期可疑訊息精選"
+					},
+					{
+						"id": "h2-9",
+						"titleText": " 慎防語音假訊息、疫苗接種錯誤資訊"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "附錄"
+					}
+				],
 				"articleID": "_DA_1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSWGhtfEUaqQDQbN6RZtMFtc13iMl5fp4CKSBOIO-6Ab4hbMd1NDkVmTx61jtUK1tyERnZFoW_-QqRv/pub",
+				"locale": "_tw",
 				"publishedAt": "2021/6/10 12:00",
-				"cache": "_DA_1_tw",
-				"locale": "_tw"
+				"cache": "_DA_1_tw"
 			},
 			"_en": {
 				"title": "Pandemic storm hit Taiwan, vaccines weaponized by CCP",
 				"subtitle": "IORG Dokidoki Alert Weekly ﹋ No. 1 ﹏ 2021.5.1-31",
-				"coverImage": "https://lh4.googleusercontent.com/3kxsPdXGlDqi2DQ3sCOWrMTj6RlR-EWThI8ryQ0DktS2D5LHRo3KJgLEx3DN8vFyVrnh1RJidsw5jajWQHkVS2BpZ2Xhb9yNyql2hWtagWXlSnGYy6dcYDGvbL2oqzTqUg",
+				"coverImage": "https://lh7-us.googleusercontent.com/AVUzgmuyOIls7GE-5KkuPwTwiEkF4PdJwBAcO4g62Ple_O3ABlLCXVa2jmrk24SgIn8A323ioJM7bKNy4m06SCzWpDpwhgUyJvScSTsaIz4LoIOoVFxFqD35ibVRvw6rBOfjbGQWnrKTSDs",
 				"tags": [
 					"Dokidoki Alert"
 				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "What’s up in May?"
+					}
+				],
 				"articleID": "_DA_1",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRUwv0cenb9LYvyOpG-24ah-ZRhftMLxyem-qjT_DWEwU4mzJC8cebKbJj04sUWo5y6Rk_HVt7ZPvzs/pub",
+				"locale": "_en",
 				"publishedAt": "2021/6/10 12:00",
-				"cache": "_DA_1_en",
-				"locale": "_en"
+				"cache": "_DA_1_en"
+			}
+		}
+	},
+	"press-release-20210305": {
+		"show": true,
+		"type": "article",
+		"id": "press-release-20210305",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSGDcwor7S_gRvphPclFBDAU9uPYTW0seJFQeSGyCEEm5EioWlg5RfV9gZsjh34x7xw7n1k1dNyd6tM/pub"
+		},
+		"publishedAt": "2021/3/5 13:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中國對台影響力作戰研究成果發表",
+				"subtitle": "2021.3.5 IORG「中國對台影響力作戰研究成果發表」記者會",
+				"coverImage": "https://lh7-us.googleusercontent.com/mQsujSWs7N84nJ6bDR2EifTjHavsRjV4Cn3397vCljLELK3Z9eDGuXEzc_fubwPr7cHaQ0FxV5zcqzuGgl67vCyB1j6GUb5i0SMoXUPSmKgzkcNg9qEYAmSY-iOJBh-FLchGKTMrJiqnCvpS",
+				"tags": [
+					"新聞稿"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "從微博到 Facebook：中共官媒訊息透過混淆來源、直接轉貼等方法傳入台灣社交媒體"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資訊操弄手法多元且細緻，政論節目名嘴言論有助於資訊操弄傳播"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中國政府以文化召喚、經濟誘因，促使改變政治行為"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "記者會資訊"
+					}
+				],
+				"articleID": "press-release-20210305",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSGDcwor7S_gRvphPclFBDAU9uPYTW0seJFQeSGyCEEm5EioWlg5RfV9gZsjh34x7xw7n1k1dNyd6tM/pub",
+				"locale": "_tw",
+				"publishedAt": "2021/3/5 13:00",
+				"cache": "press-release-20210305_tw"
 			}
 		}
 	},
@@ -5775,6 +7831,45 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRzs-WR1eodNZ8hlGIl2vUiUcSctdRC9f4uvQifz_AFFzrFIeJg4u6MLH__DC0eIITJIqX5XtISwXHI/pub",
 				"publishedAt": "2020/10/21 18:00",
 				"locale": "_tw"
+			}
+		}
+	},
+	"press-release-20201020": {
+		"show": true,
+		"type": "article",
+		"id": "press-release-20201020",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ_aqN1SZW__1E0RtCh9N9mB8GadKvbmyhdHahD79Dx_YeolNHjzF_kZb6OaH9vPiUkjNHZ3KLvlPi2/pub"
+		},
+		"publishedAt": "2020/10/20 12:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "解密中國對台認知戰：資訊操弄及網絡分析",
+				"subtitle": "2020.10.20 IORG「解密中國對台認知戰：資訊操弄及網絡分析」記者會",
+				"coverImage": "https://lh7-us.googleusercontent.com/0cHKP8kvQoMYnZOJyjlSY9DO0Ux0nsi9WRYBQwyfkhxaf1AYnYkjGx2ka0Ua_yOBg6DPcFl_9K-X81XUgxosa8X6A63rhdPXBzwvUsc2q5hT9BvDzc22PdJ1A8BcdWwgPp1U6iONXJJCElvS",
+				"tags": [
+					"新聞稿"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "資訊操弄的關鍵：台灣在地協力者"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "中國資訊操弄是要混淆視聽"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "記者會資訊"
+					}
+				],
+				"articleID": "press-release-20201020",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ_aqN1SZW__1E0RtCh9N9mB8GadKvbmyhdHahD79Dx_YeolNHjzF_kZb6OaH9vPiUkjNHZ3KLvlPi2/pub",
+				"locale": "_tw",
+				"publishedAt": "2020/10/20 12:00",
+				"cache": "press-release-20201020_tw"
 			}
 		}
 	},
