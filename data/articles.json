@@ -1,4 +1,52 @@
 {
+	"_DA_55": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_55",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnkQT-06Ir0JGVACuvwPxi5FYIapuF2-sTLH9yfVrs8PPzrHXR7yx1ZsfFAD4tmMOkJeU85oLG_Tqp/pub"
+		},
+		"publishedAt": "2023/12/21 8:30",
+		"path": "/da/55",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 選前倒數 5 週：上週中共說什麼",
+				"subtitle": "IORG 週報第 55 期 2023.12.10-16",
+				"coverImage": "https://lh7-us.googleusercontent.com/rizzu58x90Q5pafBTgkCYo0biFwapuWeGK8zW-bP1ixLbS7TOlkyD9-XiAsCM48zLVOTOZrMjXcVW30OveGyjgIJbC4OZ9ADy7xfvlkZzoCP39t04de2Bffrtw8XSRkJDsCU0B4nPrC5HDHCYpRzBQY",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "上週中共"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "上週台灣人在中國"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共世界觀裡的上週台灣"
+					}
+				],
+				"articleID": "_DA_55",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnkQT-06Ir0JGVACuvwPxi5FYIapuF2-sTLH9yfVrs8PPzrHXR7yx1ZsfFAD4tmMOkJeU85oLG_Tqp/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/12/21 8:30",
+				"cache": "_DA_55_tw"
+			}
+		}
+	},
 	"youtube-in-tw-2310": {
 		"show": true,
 		"featured": true,
