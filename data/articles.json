@@ -1061,6 +1061,86 @@
 			}
 		}
 	},
+	"_DA_43": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_43",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSRQqVlMETfzoFip1Lkh68Cr_6PYWbel9xMkvq7sHeUyyMQ6pXGBsiYM7li8ihQVySYWP1bRSCKZSkY/pub"
+		},
+		"publishedAt": "2023/12/23 15:30",
+		"path": "/da/43",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "聯合報「南海會議」「美台生物戰劑」錯誤訊息呼應來自中俄「美國生物武器」長期資訊操弄",
+				"subtitle": "IORG 週報第 43 期 2021.4.1-2023.9.30",
+				"coverImage": "https://lh7-us.googleusercontent.com/o3mr76P39sO8PgMTluJ9M0fDDy1LHSaX6zhq_FKI0F6Mb4tqVQQyZgAnqOF41UTW8EQ1tkCqUhbyLo7zPeLbEr1paan2pC32QUx7Esq8WgrikM5rCWEQqM6FbBwXZDjUucVSzRiPMYC4RZJd",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "「生物戰劑」用語 2021 年即有使用，2023 年使用率上升"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "華語資訊環境「生物武器」「生物戰劑」議題傳播熱度 2022 年 3 月間最高"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "2023 年 7 月《聯合報》報導錯誤內容，在台新聞熱度達 2021 年來最高，社交平台熱度則達歷史次高，9 月北檢判定文件造假，傳播熱度僅 7 月高峰 48%"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共資訊環境 2022 年 3 月傳播熱度最高，2021 年 7-9 月次之，《聯合報》事件在中國並不突出"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "中共官媒抖音傳播熱度趨勢和台灣社交媒體相似，可能是中共放大《聯合報》事件的訊號"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "中共長期引用威權政府說法，指控美國及其盟友在世界各地建造實驗室研發或使用生物武器"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "2020 年起中共指控 COVID-19、炭疽、猴痘為美國製生物武器"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "中共早在 2020 年 5 月即提及烏克蘭生物實驗室，持續引用俄國官方、官媒，正當化俄國侵略行為，台灣《聯合報》2021 年 12 月放大傳播"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "中共官方及官媒於 2022 年 3 月間多次引用俄國官方、軍方說法，指控美國烏克蘭研發生物武器，正當化俄國侵略行為"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "至少 32 個 Facebook 匿名粉專於 2022 年 3 月間參與 9 次集團式分享內容農場文章連結，可能提升「美烏生物武器」相關關鍵詞傳播效果"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "2020 年起關於「針對特定種族」生物武器的華語謠言"
+					}
+				],
+				"articleID": "_DA_43",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSRQqVlMETfzoFip1Lkh68Cr_6PYWbel9xMkvq7sHeUyyMQ6pXGBsiYM7li8ihQVySYWP1bRSCKZSkY/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/12/23 15:30",
+				"cache": "_DA_43_tw"
+			}
+		}
+	},
 	"_P_chihhao": {
 		"show": false,
 		"type": "profile",
