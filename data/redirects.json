@@ -271,6 +271,14 @@
 	},
 	{
 		"active": true,
+		"from": "/go/120",
+		"to": "https://docs.google.com/forms/d/e/1FAIpQLSc56KqzwaeLtSg_SjHw1RvC84cECyC__sD03kw5r5DzLlGlBA/viewform",
+		"type": "form",
+		"title": "2024 民主韌性論壇 報名表",
+		"publishedAt": "2023/12/25"
+	},
+	{
+		"active": true,
 		"from": "/drive/tpod",
 		"to": "https://drive.google.com/drive/folders/1B9XQQ1QLROveMZ2ulUZ4zpj_Bj_vz1Vk",
 		"type": "folder",
