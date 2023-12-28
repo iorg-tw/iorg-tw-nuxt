@@ -63,6 +63,56 @@
 			}
 		}
 	},
+	"_DA_56": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_56",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRZgLCIZpBI_FlbFqIlVKo_H7R9oyCjx8a6dtTGN_DjchN2TkZM02Zc3hbaZQHlqTBeV9rDTRu7mNEt/pub"
+		},
+		"publishedAt": "2023/12/27 13:00",
+		"updatedAt": "2023/12/28 17:30",
+		"path": "/da/56",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 選前倒數第 4 週：上週中共",
+				"subtitle": "IORG 週報第 56 期 2023.12.17-23",
+				"coverImage": "https://lh7-us.googleusercontent.com/GePt0rBPXMxTuyB_wlNdcGTphC-QWGtJOAsuwpQBQLAjk8c_XxoPEgCiIQ6VNOICFu7MqjlEsHzhJtYSRf1ooGLLBg7x739z5P4zr5WbEVwBafnXpfBGHID_PtI759n8FVekahtGwoGi3B_m",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "上週中共"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "上週台灣人在中國"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共世界觀裡的上週台灣"
+					}
+				],
+				"articleID": "_DA_56",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRZgLCIZpBI_FlbFqIlVKo_H7R9oyCjx8a6dtTGN_DjchN2TkZM02Zc3hbaZQHlqTBeV9rDTRu7mNEt/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/12/27 13:00",
+				"updatedAt": "2023/12/28 17:30",
+				"cache": "_DA_56_tw"
+			}
+		}
+	},
 	"_DA_55": {
 		"show": true,
 		"type": "da",
@@ -71,14 +121,14 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnkQT-06Ir0JGVACuvwPxi5FYIapuF2-sTLH9yfVrs8PPzrHXR7yx1ZsfFAD4tmMOkJeU85oLG_Tqp/pub"
 		},
 		"publishedAt": "2023/12/21 8:30",
-		"updatedAt": "2023/12/25 21:30",
+		"updatedAt": "2023/12/28 17:30",
 		"path": "/da/55",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "2024 選前倒數 5 週：上週中共說什麼",
 				"subtitle": "IORG 週報第 55 期 2023.12.10-16",
-				"coverImage": "https://lh7-us.googleusercontent.com/Pi8jDlKLxOGnnQ8_-TtSt19fT3w0ADbazZnoYY2ELujsfj9vB2g18ewUt262SdqM5BX9elcuhlVXqG4XwektryJdtBAROscFUKz3WTDCVA6ixSj1GNaqWflNs2OkAKYiKltDkViv8bxj8ckj",
+				"coverImage": "https://lh7-us.googleusercontent.com/lRZHL5AeMNgqdVxcF7G_in9jZj_Gz6R-_q-qwh5q7AGA6dTtrzVa9MjyINnpipW4Pvb6lhUWIE0DwERZD5TA48kOsH3mYvRI3KwrGLs4jXz5Q5zCdj4l6C8YX3dRDnb7-CJfSikf19JC1ss9",
 				"tags": [
 					"週報"
 				],
@@ -108,7 +158,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnkQT-06Ir0JGVACuvwPxi5FYIapuF2-sTLH9yfVrs8PPzrHXR7yx1ZsfFAD4tmMOkJeU85oLG_Tqp/pub",
 				"locale": "_tw",
 				"publishedAt": "2023/12/21 8:30",
-				"updatedAt": "2023/12/25 21:30",
+				"updatedAt": "2023/12/28 17:30",
 				"cache": "_DA_55_tw"
 			}
 		}
