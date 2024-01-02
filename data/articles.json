@@ -1,4 +1,59 @@
 {
+	"_DA_59": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_59",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ7HX2Y68ghDCS9wqcHIC2k8tw_hLsyfmjFF5pyOKrSNItP89JvgVRp8BUf1s_jvlt_9qdf3X26dW-_/pub"
+		},
+		"publishedAt": "",
+		"path": "/da/59",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 選前柯文哲、賴清德、侯友宜 3 組候選人傳播熱度概況",
+				"subtitle": "IORG 週報第 59 期 2023.10.21-12.20",
+				"coverImage": "https://lh7-us.googleusercontent.com/D_DlQ9-99F_XyxyveksIFyirxE4mTg7DaBS0TE6TAHLGv8H-OBmZSxMoCh5_769rVfSY2TBSEkgJDIhCM0dGSWMS7K1BY_49gS7uo-9cHXJSzRJsv_atVtRNstdjdnHJDVDP4sIX6Dyacnip",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "選舉整體熱度概況，登記截止日為討論最高峰，臉書粉專、YouTube 在確定候選人後整體討論熱度上升"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "比較各平台討論熱度，微博更關注國民黨，中共官媒抖音高度關注綠營"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "登記截止日後，旺中在全平台關注度提升最多的皆是對侯、趙，中共官媒抖音提及侯友宜、趙少康的比例也同樣上升"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "專屬粉專：只有賴清德的專屬粉專包含他黨粉專、中共粉專，侯、柯專屬粉專專屬程度較低"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "粉專分享連結：相較 2022 整體比例下降、中天新聞網、聯合、三立被分享比例增加，密訊仍在前 10"
+					}
+				],
+				"articleID": "_DA_59",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ7HX2Y68ghDCS9wqcHIC2k8tw_hLsyfmjFF5pyOKrSNItP89JvgVRp8BUf1s_jvlt_9qdf3X26dW-_/pub",
+				"locale": "_tw",
+				"cache": "_DA_59_tw"
+			}
+		}
+	},
 	"_DA_57": {
 		"show": true,
 		"type": "da",
