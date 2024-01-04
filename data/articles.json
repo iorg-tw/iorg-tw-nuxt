@@ -1,4 +1,52 @@
 {
+	"_DA_62": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_62",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQvHcGM765CRD6PtX1sxGEmwzU3_3KegblnEKQszJ-qipZRushupoPuabOiLk1_jN2lDP3L5wB1KrEJ/pub"
+		},
+		"publishedAt": "2023/1/5 9:00",
+		"path": "/da/62",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 選前倒數第 3 週：上週中共",
+				"subtitle": "IORG 週報第 62 期 2023.12.24-30",
+				"coverImage": "https://lh7-us.googleusercontent.com/oZdxpZYih5RSKv7Idu40IcuSKx5qXbIZ3TqSsHqhdAbCsnPAcMtkgnJITqfhxNxCIghXg5Lmeib2AKOPydGIj8mf5dceUnQSbtYo17SaINVuDThJSissXQWKLW4T2IDLzgVkB9prHHb1FeRB",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "上週中共"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "上週台灣人在中國"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共世界觀裡的上週台灣"
+					}
+				],
+				"articleID": "_DA_62",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQvHcGM765CRD6PtX1sxGEmwzU3_3KegblnEKQszJ-qipZRushupoPuabOiLk1_jN2lDP3L5wB1KrEJ/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/1/5 9:00",
+				"cache": "_DA_62_tw"
+			}
+		}
+	},
 	"_DA_59": {
 		"show": true,
 		"type": "da",
@@ -202,7 +250,7 @@
 			"_tw": {
 				"title": "2024 選前倒數第 4 週：上週中共",
 				"subtitle": "IORG 週報第 56 期 2023.12.17-23",
-				"coverImage": "https://lh7-us.googleusercontent.com/GePt0rBPXMxTuyB_wlNdcGTphC-QWGtJOAsuwpQBQLAjk8c_XxoPEgCiIQ6VNOICFu7MqjlEsHzhJtYSRf1ooGLLBg7x739z5P4zr5WbEVwBafnXpfBGHID_PtI759n8FVekahtGwoGi3B_m",
+				"coverImage": "https://lh7-us.googleusercontent.com/codVo9oX05yvM1Y2f3gqtcnUjX4-UmEylQWtkMtwlOW4F-_wiLqPHn8OF1vmtVCS18c-FQFA0s1m1gd2czNGQXQB8kxltikIQHxJmjaalFYuuGXJRfG_fbbozJySiGVtVIPYAoif0fwq-vPH",
 				"tags": [
 					"週報"
 				],
@@ -252,7 +300,7 @@
 			"_tw": {
 				"title": "2024 選前倒數 5 週：上週中共說什麼",
 				"subtitle": "IORG 週報第 55 期 2023.12.10-16",
-				"coverImage": "https://lh7-us.googleusercontent.com/lRZHL5AeMNgqdVxcF7G_in9jZj_Gz6R-_q-qwh5q7AGA6dTtrzVa9MjyINnpipW4Pvb6lhUWIE0DwERZD5TA48kOsH3mYvRI3KwrGLs4jXz5Q5zCdj4l6C8YX3dRDnb7-CJfSikf19JC1ss9",
+				"coverImage": "https://lh7-us.googleusercontent.com/QaFl9uVFIwNuuen8x4n_QwrUH-9CmRM9_s_cagJK4z0Qg5HhWkEwK6MKGVM7mA_ImjsJMfiRAuV9aaPS-tKLL896GbH0TqWrUd1jYcmFHbDRJI7e5wTmcbRZZYVnrUQbdkRz347v32z24Ub0",
 				"tags": [
 					"週報"
 				],
