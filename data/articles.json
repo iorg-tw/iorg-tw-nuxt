@@ -55,6 +55,74 @@
 			}
 		}
 	},
+	"_DA_58": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_58",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTPdtu4GhQOpVGd_QI7xwTKtyRnSOPGCzDxWOWuWG4ne_jQNf0HD4u496zXTcjNJFtgfed4aZaC1PT-/pub"
+		},
+		"publishedAt": "2023/1/4 10:30",
+		"path": "/da/58",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "10-11 月中共官媒抖音常用台灣名嘴 Top 10 – 選情升溫，中共提高侯柯曝光、政治組名嘴排名攀升",
+				"subtitle": "IORG 週報第 58 期 2023.10.1-11.30",
+				"coverImage": "https://lh7-us.googleusercontent.com/3AOP3GoKBAV0WcEM648J-2qU70r-RgijQW_SNs1xSDoZblBk_cEN0WcWxe4_0hruzO9q2V2382Z64QBKGqviUFra-FK-NreOwTTzIF9zl8IcMxBeUApM7cPFVKIPv7Wk_aNXiKGz9o4u9zou",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "聲明"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "比較基準：習近平、蔡英文及總統參選人影片數及時長"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "影片數量前 10 名"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "影片時長前 10 名"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "綜合排名"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "最常引用台灣名嘴的中共官媒抖音頻道"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "Top 10 名嘴共同話題：選舉、疑美、兵凶戰危"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "名嘴回應：郭正亮前後矛盾、陰謀論、王鴻薇訴諸情緒、變造內容"
+					}
+				],
+				"articleID": "_DA_58",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTPdtu4GhQOpVGd_QI7xwTKtyRnSOPGCzDxWOWuWG4ne_jQNf0HD4u496zXTcjNJFtgfed4aZaC1PT-/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/1/4 10:30",
+				"cache": "_DA_58_tw"
+			}
+		}
+	},
 	"_DA_57": {
 		"show": true,
 		"type": "da",
