@@ -233,6 +233,14 @@
 	},
 	{
 		"active": true,
+		"from": "/doc/100",
+		"to": "https://docs.google.com/document/d/1R917odfmu7hgvvXVchLgRkOle6V_F3ED4x3xPyjFZ2U/edit",
+		"type": "doc",
+		"title": "讓台灣資訊環境更健康的一百種方法",
+		"publishedAt": "2024/1/6"
+	},
+	{
+		"active": true,
 		"from": "/doc/tpod",
 		"to": "https://docs.google.com/document/d/1PafqYutDID4chyFu0xsMKEBCb8usdPjuXxdXF2RRyAU/edit#",
 		"type": "doc",
