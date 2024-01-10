@@ -141,7 +141,7 @@
 		"id": "unverifiable-src",
 		"classes": "bad",
 		"_tw": "無法證實來源",
-		"_en": "Source unverifable"
+		"_en": "Source unverifiable"
 	},
 	"false-src": {
 		"id": "false-src",
