@@ -47,6 +47,62 @@
 			}
 		}
 	},
+	"_DA_60": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_60",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQXUGNiaIudN2GtGOBFAOADjYa72UeTKjq1GStiJPt_23pk6wbqIlbx9LDPnEWL0L4OpbuHN0qbhLKh/pub"
+		},
+		"publishedAt": "2023/1/10 13:00",
+		"path": "/da/60",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣新聞及政論 YouTube 影片使用「央视」節目畫面，TVBS 佔半數，非關中國也用「央视」",
+				"subtitle": "IORG 週報第 60 期 2023.12.1-15",
+				"coverImage": "https://lh7-us.googleusercontent.com/Jr23JvJWqQbEuy-aAh1FA1Qgwr6D_k7qCRnDDHf8OkfaUSo--_FrjTHhEdcvAvmtxpdxbgBs9CtMle0irQqsoJ-iPh5nf4SNLyOe-MexxkntyQreMyMn4AtC9EtWMwOHbUF4NOYz_rwaaHYn",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "596 則新聞及政論節目頻道影片使用「央视」節目畫面，佔期間總數 1.39%，過半由 TVBS 發布"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "🇹🇼 用央視看台灣 – 71 則影片，政治最多，軍事次之"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "🇺🇸 用央視看美國 – 151 則影片，政治最多，軍事次之"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "🇨🇳 用央視看中國 – 527 則影片，政治最多、經濟、科技次之"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "🌍 用央視看世界 – 69 則影片無關中國，52 則來自 TVBS"
+					}
+				],
+				"articleID": "_DA_60",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQXUGNiaIudN2GtGOBFAOADjYa72UeTKjq1GStiJPt_23pk6wbqIlbx9LDPnEWL0L4OpbuHN0qbhLKh/pub",
+				"locale": "_tw",
+				"publishedAt": "2023/1/10 13:00",
+				"cache": "_DA_60_tw"
+			}
+		}
+	},
 	"_DA_59": {
 		"show": true,
 		"type": "da",
