@@ -141,7 +141,7 @@
 		"id": "unverifiable-src",
 		"classes": "bad",
 		"_tw": "無法證實來源",
-		"_en": "Source unverifable"
+		"_en": "Source unverifiable"
 	},
 	"false-src": {
 		"id": "false-src",
@@ -782,7 +782,7 @@
 	"茂德": {
 		"id": "茂德",
 		"classes": "node group",
-		"_tw": "東森新聞",
+		"_tw": "茂德",
 		"_en": "EBC"
 	},
 	"三立": {
@@ -812,7 +812,7 @@
 	"東森": {
 		"id": "東森",
 		"classes": "node group",
-		"_tw": "ETtoday",
+		"_tw": "東森",
 		"_en": "ETtoday"
 	},
 	"亞洲衛視": {
