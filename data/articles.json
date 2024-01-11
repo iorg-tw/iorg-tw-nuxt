@@ -1,52 +1,4 @@
 {
-	"_DA_63": {
-		"show": true,
-		"type": "da",
-		"id": "_DA_63",
-		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTX4E_Aq4u60bzP2fm9N8Gz8JIInzE3ZFf1sDMdmom7UUcSY-pEqeFUVtAIH1BtCZiIpaliZunqBjKk/pub"
-		},
-		"publishedAt": "2024/1/11 14:00",
-		"path": "/da/63",
-		"cache": true,
-		"localizedDocs": {
-			"_tw": {
-				"title": "上週中共 – 2024 選前倒數第 2 週",
-				"subtitle": "IORG 週報第 63 期 2023.12.31-2024.1.6",
-				"coverImage": "https://lh7-us.googleusercontent.com/H1hQz5F7swo31CiV9p13GgnRijcM5TOn3lErcod7ZpHrKCmvHkm_kKQ7NrZE-Ttpwk_UKc5qt7dLp6LAGDrSEMN-stn914uYKbYEPpiroutX9JeYmXTs7bGsPMlLtIxqGshSsmuiK74lLJsU",
-				"tags": [
-					"週報"
-				],
-				"sections": [
-					{
-						"id": "h2-1",
-						"titleText": "摘要"
-					},
-					{
-						"id": "h2-2",
-						"titleText": "資料來源"
-					},
-					{
-						"id": "h2-3",
-						"titleText": "上週中共"
-					},
-					{
-						"id": "h2-4",
-						"titleText": "上週台灣人在中國"
-					},
-					{
-						"id": "h2-5",
-						"titleText": "中共世界觀裡的上週台灣"
-					}
-				],
-				"articleID": "_DA_63",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTX4E_Aq4u60bzP2fm9N8Gz8JIInzE3ZFf1sDMdmom7UUcSY-pEqeFUVtAIH1BtCZiIpaliZunqBjKk/pub",
-				"locale": "_tw",
-				"publishedAt": "2024/1/11 14:00",
-				"cache": "_DA_63_tw"
-			}
-		}
-	},
 	"_DA_62": {
 		"show": true,
 		"type": "da",
@@ -54,14 +6,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQvHcGM765CRD6PtX1sxGEmwzU3_3KegblnEKQszJ-qipZRushupoPuabOiLk1_jN2lDP3L5wB1KrEJ/pub"
 		},
-		"publishedAt": "2024/1/5 9:00",
+		"publishedAt": "2023/1/5 9:00",
 		"path": "/da/62",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共 – 2024 選前倒數第 3 週",
 				"subtitle": "IORG 週報第 62 期 2023.12.24-30",
-				"coverImage": "https://lh7-us.googleusercontent.com/v7hi6sIMcqdgY4jDOlRl571GmWHM104Tsjtn-Vek55RDGbLzFpPhjsT7Syv1GoP6re6BSZJ5xiaO6Atu_bdqawaIys1auBlncLfytfinxiE-eKyQfe-Wi4im-v8XA93Ldr_wIv8XRl0KcEA1",
+				"coverImage": "https://lh7-us.googleusercontent.com/oZdxpZYih5RSKv7Idu40IcuSKx5qXbIZ3TqSsHqhdAbCsnPAcMtkgnJITqfhxNxCIghXg5Lmeib2AKOPydGIj8mf5dceUnQSbtYo17SaINVuDThJSissXQWKLW4T2IDLzgVkB9prHHb1FeRB",
 				"tags": [
 					"週報"
 				],
@@ -90,7 +42,7 @@
 				"articleID": "_DA_62",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQvHcGM765CRD6PtX1sxGEmwzU3_3KegblnEKQszJ-qipZRushupoPuabOiLk1_jN2lDP3L5wB1KrEJ/pub",
 				"locale": "_tw",
-				"publishedAt": "2024/1/5 9:00",
+				"publishedAt": "2023/1/5 9:00",
 				"cache": "_DA_62_tw"
 			}
 		}
@@ -102,14 +54,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQXUGNiaIudN2GtGOBFAOADjYa72UeTKjq1GStiJPt_23pk6wbqIlbx9LDPnEWL0L4OpbuHN0qbhLKh/pub"
 		},
-		"publishedAt": "2024/1/10 13:00",
+		"publishedAt": "2023/1/10 13:00",
 		"path": "/da/60",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣新聞及政論 YouTube 影片使用「央视」節目畫面，TVBS 佔半數，非關中國也用「央视」",
 				"subtitle": "IORG 週報第 60 期 2023.12.1-15",
-				"coverImage": "https://lh7-us.googleusercontent.com/pZEYnFMjlZ0fQrjcWzZqzSCVyYQamdtsRmDQVvT47fXfBY2FG_vjthIFHTToC3o81GHUeTbaNB5eSTpHLnkhBS5iXav8E2AkGamZGxngGQTil_had_NRehqUHzSNXR_VCDjOHRqdWspCgZYK",
+				"coverImage": "https://lh7-us.googleusercontent.com/Jr23JvJWqQbEuy-aAh1FA1Qgwr6D_k7qCRnDDHf8OkfaUSo--_FrjTHhEdcvAvmtxpdxbgBs9CtMle0irQqsoJ-iPh5nf4SNLyOe-MexxkntyQreMyMn4AtC9EtWMwOHbUF4NOYz_rwaaHYn",
 				"tags": [
 					"週報"
 				],
@@ -146,7 +98,7 @@
 				"articleID": "_DA_60",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQXUGNiaIudN2GtGOBFAOADjYa72UeTKjq1GStiJPt_23pk6wbqIlbx9LDPnEWL0L4OpbuHN0qbhLKh/pub",
 				"locale": "_tw",
-				"publishedAt": "2024/1/10 13:00",
+				"publishedAt": "2023/1/10 13:00",
 				"cache": "_DA_60_tw"
 			}
 		}
@@ -158,14 +110,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ7HX2Y68ghDCS9wqcHIC2k8tw_hLsyfmjFF5pyOKrSNItP89JvgVRp8BUf1s_jvlt_9qdf3X26dW-_/pub"
 		},
-		"publishedAt": "2024/1/2 22:30",
+		"publishedAt": "2023/1/2 22:30",
 		"path": "/da/59",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "2024 選前柯文哲、賴清德、侯友宜 3 組候選人傳播熱度概況",
 				"subtitle": "IORG 週報第 59 期 2023.10.21-12.20",
-				"coverImage": "https://lh7-us.googleusercontent.com/FuGLuZ3CkWINIu3PAMh9m3aVjmxa9MI_fvxMSN0wLJXsmpJimFT59nFI-MNRGmCxW94yYi0fj4A1Kp7oC2g7Gm2xfKD7LYv1MrRp2KMe3Z4KFeTmpDnNwOUjzKntd3B-zc_TN-RzSY5E0lsl",
+				"coverImage": "https://lh7-us.googleusercontent.com/uEbHrxCfrarUX3HBM1a3_bnaj7EwbirnlzApznBpIEW5fGbhOucoiUED9sYN0BlvXym1Iy9WuWSctiYAia_ZGkcf-Kpvmb1m1S0Zecnea2L6woBwc-LE5WDmwBCt2nlkX-4TSB6klyk1WKKs",
 				"tags": [
 					"週報"
 				],
@@ -202,7 +154,7 @@
 				"articleID": "_DA_59",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ7HX2Y68ghDCS9wqcHIC2k8tw_hLsyfmjFF5pyOKrSNItP89JvgVRp8BUf1s_jvlt_9qdf3X26dW-_/pub",
 				"locale": "_tw",
-				"publishedAt": "2024/1/2 22:30",
+				"publishedAt": "2023/1/2 22:30",
 				"cache": "_DA_59_tw"
 			}
 		}
@@ -214,14 +166,14 @@
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTPdtu4GhQOpVGd_QI7xwTKtyRnSOPGCzDxWOWuWG4ne_jQNf0HD4u496zXTcjNJFtgfed4aZaC1PT-/pub"
 		},
-		"publishedAt": "2024/1/4 10:30",
+		"publishedAt": "2023/1/4 10:30",
 		"path": "/da/58",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "10-11 月中共官媒抖音常用台灣名嘴 Top 10 – 選情升溫，中共提高侯柯曝光、政治組名嘴排名攀升",
 				"subtitle": "IORG 週報第 58 期 2023.10.1-11.30",
-				"coverImage": "https://lh7-us.googleusercontent.com/HPP4ocTJEPTRS1B_1IVSzMtnFNzBE67Ncy126DgwxD22MtjRAABIy7GANgU_bNP54hQ5GOPkDoasNQTksd0w_5wg5W4Z1_-4nnv6GWW7THBUwKiqi58ESftG02kXSgVDa5QGuSXXbIMDk9yQ",
+				"coverImage": "https://lh7-us.googleusercontent.com/n4wPWEYxw0WPW_FyGsQlfq0UTLqkXPVR1a1Tiff3HPn435fLdpIw_j7BBIsfwSrr8FqbyMfltjZ6sCumu2NyxObY5L06rj6YoUerV67j3p1BLdLQTCSDkwG01RLsLIDZAtn_-S8D4nXQNqmf",
 				"tags": [
 					"週報"
 				],
@@ -270,7 +222,7 @@
 				"articleID": "_DA_58",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTPdtu4GhQOpVGd_QI7xwTKtyRnSOPGCzDxWOWuWG4ne_jQNf0HD4u496zXTcjNJFtgfed4aZaC1PT-/pub",
 				"locale": "_tw",
-				"publishedAt": "2024/1/4 10:30",
+				"publishedAt": "2023/1/4 10:30",
 				"cache": "_DA_58_tw"
 			}
 		}
@@ -453,7 +405,7 @@
 			"_tw": {
 				"title": "「麻煩製造者」及「棋子」：選舉前夕的台美中論述",
 				"subtitle": "IORG 週報第 54 期 2021.4.1-2023.9.30",
-				"coverImage": "https://lh7-us.googleusercontent.com/3Iz_TbUG3zTFSSkjC1tOqyv67fk8zzOH8VNF40PcZA4mrNCBRCVLr0_gfjucIpMBODdiMSYHjjHJWagXyqxDIEXFr5p5U6rDW8DmeAv9C1_vhDVwA9H_EPHmaSOeG5VH5Xn8GCvEsviiC8rG",
+				"coverImage": "https://lh7-us.googleusercontent.com/owydK-hQVsFKxmzrjzzrGavwUw_8fawiFKgfYlnOx3Okg-votEkYY6aIrE3bkBLvObUhrA_PqxWJEBbqN0WB66SqpAkpvQzOu59NWWr3dmViSjavRqgdZQn8bxphvAsg0ocrUnsKhGnHM2hU",
 				"tags": [
 					"週報"
 				],
