@@ -7,13 +7,14 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSUWsuu5oPSbPbgGEwY2XJtyU5HbbjtMwkokkwxccsewq0tAlYXvREpzQ5zBMwuwKBh4YgM7MCGEwGq/pub"
 		},
 		"publishedAt": "2024/1/12 9:00",
+		"updatedAt": "2024/1/12 16:00",
 		"path": "/da/66",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "真的假的！2024 選前 Cofacts 謠言排行榜",
+				"title": "真的假的！2024 選前 LINE 謠言排行榜",
 				"subtitle": "IORG 週報第 66 期 2024.1.1-10",
-				"coverImage": "https://lh7-us.googleusercontent.com/v723XEAllyx6E1aA00lf5LpKm8JDFG0yoDqtjJ6gqsOPTT65LhnbPpJa15Yk9tqjPRVUPWq_51qpQFdeY0kRcmaxx-dVp2aeuSFGCsuiUPEOogrs4zijTaaceWVzds3yo22xYmecA30id3-q",
+				"coverImage": "https://lh7-us.googleusercontent.com/lVMaELZ7PehLWpQ7xGH86Zkz2qVZwUq5I7LCpqOn1vfikkPJ4UqTHUDIV5Gmmcob7qYj_bbAWiygRwsuLMjW5ZxWMjs-pHRy_bbDAd-8thgiM061oJNuLQjO04EyKnIqZP7nbwYtoVTxduhF",
 				"tags": [
 					"週報"
 				],
@@ -28,7 +29,7 @@
 					},
 					{
 						"id": "h2-3",
-						"titleText": "Cofacts 查詢熱度分析"
+						"titleText": "Cofacts 謠言查詢熱度"
 					},
 					{
 						"id": "h2-4",
@@ -36,13 +37,14 @@
 					},
 					{
 						"id": "h2-5",
-						"titleText": "Cofacts 訊息可信度評量"
+						"titleText": "Cofacts 謠言可信度評量"
 					}
 				],
 				"articleID": "_DA_66",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUWsuu5oPSbPbgGEwY2XJtyU5HbbjtMwkokkwxccsewq0tAlYXvREpzQ5zBMwuwKBh4YgM7MCGEwGq/pub",
 				"locale": "_tw",
 				"publishedAt": "2024/1/12 9:00",
+				"updatedAt": "2024/1/12 16:00",
 				"cache": "_DA_66_tw"
 			}
 		}
