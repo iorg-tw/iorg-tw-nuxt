@@ -1,4 +1,52 @@
 {
+	"_DA_66": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_66",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSUWsuu5oPSbPbgGEwY2XJtyU5HbbjtMwkokkwxccsewq0tAlYXvREpzQ5zBMwuwKBh4YgM7MCGEwGq/pub"
+		},
+		"publishedAt": "2024/1/12 9:00",
+		"path": "/da/66",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "真的假的！2024 選前 Cofacts 謠言排行榜",
+				"subtitle": "IORG 週報第 66 期 2024.1.1-10",
+				"coverImage": "https://lh7-us.googleusercontent.com/v723XEAllyx6E1aA00lf5LpKm8JDFG0yoDqtjJ6gqsOPTT65LhnbPpJa15Yk9tqjPRVUPWq_51qpQFdeY0kRcmaxx-dVp2aeuSFGCsuiUPEOogrs4zijTaaceWVzds3yo22xYmecA30id3-q",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "選前 10 天 Top 20 Cofacts 謠言"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Cofacts 查詢熱度分析"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "LINE 群組觀察"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "Cofacts 訊息可信度評量"
+					}
+				],
+				"articleID": "_DA_66",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUWsuu5oPSbPbgGEwY2XJtyU5HbbjtMwkokkwxccsewq0tAlYXvREpzQ5zBMwuwKBh4YgM7MCGEwGq/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/1/12 9:00",
+				"cache": "_DA_66_tw"
+			}
+		}
+	},
 	"_DA_63": {
 		"show": true,
 		"type": "da",
