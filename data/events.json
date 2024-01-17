@@ -1,11 +1,38 @@
 {
+	"120": {
+		"show": true,
+		"type": "conf",
+		"id": "120",
+		"area": "tp",
+		"loc": "台灣大學法律學院霖澤館國際會議廳",
+		"slogan": "IORG 年度論壇",
+		"date": "2024/1/20",
+		"time": "10:00-17:00",
+		"signUpUntil": "2024/1/19 12:00",
+		"cache": true,
+		"hasPage": true,
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSy9xdJJ602u_9OxmC1eW-faLRhTBl2yfBJ9TZSvQLUcvDo4xXaiaVNDZ7KVDBFoULad_TNxMHW0I09/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 民主韌性論壇",
+				"subtitle": "2024.1.20 台灣資訊環境研究中心 IORG",
+				"summary": "2024.1.20 台灣資訊環境研究中心 IORG",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSy9xdJJ602u_9OxmC1eW-faLRhTBl2yfBJ9TZSvQLUcvDo4xXaiaVNDZ7KVDBFoULad_TNxMHW0I09/pub",
+				"locale": "_tw",
+				"cache": "120_tw"
+			}
+		}
+	},
 	"123": {
 		"show": true,
 		"type": "conf",
 		"id": "123",
 		"area": "tp",
 		"loc": "台灣大學法律學院霖澤館國際會議廳",
-		"slogan": "國際脈絡 × 台灣選舉 × 科學研究 × 資訊判讀教育",
+		"slogan": "IORG 年度論壇",
 		"date": "2022/12/3",
 		"time": "9:00-17:00",
 		"signUpUntil": "2022/11/30",
@@ -42,6 +69,7 @@
 		"type": "conf",
 		"id": "305",
 		"area": "tp",
+		"slogan": "IORG 記者會",
 		"date": "2021/3/5",
 		"time": "11:00-12:00",
 		"cache": true,
@@ -78,6 +106,7 @@
 		"type": "conf",
 		"id": "306",
 		"area": "tp",
+		"slogan": "IORG 年度論壇",
 		"date": "2021/3/6",
 		"time": "10:00-17:15",
 		"cache": true,
@@ -234,7 +263,7 @@
 		"type": "conf",
 		"id": "2023-0921",
 		"area": "tp",
-		"slogan": "台灣資訊環境研究中心 IORG 記者會",
+		"slogan": "IORG 記者會",
 		"date": "2023/9/21",
 		"time": "14:00-15:00",
 		"cache": false,
@@ -242,7 +271,7 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "疑美論和它們的產地",
-				"slogan": "台灣資訊環境研究中心 IORG 記者會",
+				"slogan": "IORG 記者會",
 				"locale": "_tw"
 			}
 		}
@@ -622,11 +651,30 @@
 			}
 		}
 	},
+	"2020-1020-2": {
+		"show": true,
+		"type": "conf",
+		"id": "2020-1020-2",
+		"area": "tp",
+		"slogan": "IORG 年度論壇",
+		"date": "2020/10/20",
+		"time": "11:30-13:30",
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中國對台認知戰圓桌討論會",
+				"slogan": "IORG 年度論壇",
+				"locale": "_tw"
+			}
+		}
+	},
 	"2020-1020": {
 		"show": true,
 		"type": "conf",
 		"id": "2020-1020",
 		"area": "tp",
+		"slogan": "IORG 記者會",
 		"date": "2020/10/20",
 		"time": "10:00-11:00",
 		"cache": true,
