@@ -1,4 +1,53 @@
 {
+	"_R_2023": {
+		"show": false,
+		"type": "article",
+		"id": "_R_2023",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQLyPD0cz8f7xx714cJr_h7VU-YQnDAiQNdqwqMwpfoECvjZVEWpTB0glOhCScombM-msTzPhTv5cpy/pub"
+		},
+		"publishedAt": "2024/1/19 8:00",
+		"path": "/r/2023",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2023 總體研究成果",
+				"subtitle": "2023 IORG 台灣資訊環境跨領域科學研究",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "總論"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2024 選舉"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "YouTube、短影音"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "中共對台資訊操弄"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "資訊操弄形塑華語世界觀"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "讓台灣資訊環境更健康的一百種方法"
+					}
+				],
+				"articleID": "_R_2023",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQLyPD0cz8f7xx714cJr_h7VU-YQnDAiQNdqwqMwpfoECvjZVEWpTB0glOhCScombM-msTzPhTv5cpy/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/1/19 8:00",
+				"cache": "_R_2023_tw"
+			}
+		}
+	},
 	"_DA_66": {
 		"show": true,
 		"type": "da",
@@ -2501,7 +2550,7 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "IORG 2022 總體研究成果",
+				"title": "2022 總體研究成果",
 				"subtitle": "2022 IORG 台灣資訊環境科學研究",
 				"tags": [],
 				"sections": [
@@ -4513,7 +4562,7 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "IORG 2021 總體研究成果",
+				"title": "2021 總體研究成果",
 				"subtitle": "2021 IORG 台灣資訊環境資料科學研究 2021.4.1-12.31",
 				"tags": [],
 				"sections": [
@@ -7057,6 +7106,24 @@
 				"title": "IORG 中國對台影響力作戰研究總體研究成果",
 				"summary": "IORG 中國對台影響力作戰研究",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "中國對台資訊操弄"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資訊操弄協力者"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中國對台人際滲透、經濟影響力作戰"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "民主防衛"
+					}
+				],
 				"articleID": "_R_2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
 				"locale": "_tw",
@@ -7068,6 +7135,24 @@
 				"title": "IORG Key Research Conclusions on Chinese Influence Operations Against Taiwan",
 				"summary": "IORG Research on Chinese Influence Operations Against Taiwan",
 				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Chinese Information Manipulation Against Taiwan"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Information Manipulation Collaborators"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Chinese Interpersonal Infiltration and Economic Influence Operations Against Taiwan"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Defending Democracy"
+					}
+				],
 				"articleID": "_R_2020",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVMUKJ1vvMuJa6R83ttYsqb3QrDZTYzukOAIqQb0ZYmT1ZAkdNVLkktccB9XEgXWgHd70XK0u3_M3a/pub",
 				"locale": "_en",
