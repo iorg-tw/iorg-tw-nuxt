@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/120",
+		"to": "https://docs.google.com/presentation/d/1lACbvUs5NTJpEACJ796I2Pteha3XkHlmawoVGn2XspU/edit#",
+		"type": "slidedeck",
+		"title": "IORG 2024 民主韌性論壇",
+		"publishedAt": "2023/1/19"
+	},
+	{
+		"active": true,
 		"from": "/s/1262",
 		"to": "https://docs.google.com/presentation/d/1TUKh-YWCRo4GbLV679cPjSxPGKbP1RNzuByYOYIgvnE/edit#slide=id.g262eccc8176_0_274",
 		"type": "slidedeck",
