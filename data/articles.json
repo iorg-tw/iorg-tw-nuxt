@@ -1,4 +1,64 @@
 {
+	"_DA_67": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_67",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS4s4o4d1Qs5WPdy6YjlX6GXdzdPey5H0KwlzcX4sOhHyfzaFYaVJCJfQC9OfFXR9ZOxA2Hds1BwZQp/pub"
+		},
+		"publishedAt": "2024/1/23 21:00",
+		"path": "/da/67",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "投票前後 7 天內「作票」謠言影片在 TikTok 傳播超過 YouTube",
+				"subtitle": "IORG 週報第 67 期 2024.1.10-16",
+				"coverImage": "https://lh7-us.googleusercontent.com/W7Ty178v1QwzpEp4d7kmsiwGtS7tBMSkuBUMIeikU0bmYw0mICAZVx1bbju9pNf9wN7mYxYiBYoTY-hW-rmzvNc4ka84z5AVtUhyaVC8WxxmJR50pZKZaB-FiL1Lokyy1xPOHZh_GB-k45zU",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "YouTube「作票」影片 – 非新聞媒體影片數量多、觀看總數也高於新聞媒體頻道"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "TikTok「作票」可疑帳號 – 選前新開帳號討論政治、選後發布和頻道主題無關的「作票」影片"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "TikTok「作票」影片數量及觀看數皆高於 YouTube，立場一致質疑「作票」"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "TikTok 帳號於投票日當天發布影片為特定候選人宣傳，應屬違法"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "網紅協助傳播「作票」謠言、陰謀論，以傳播錯誤訊息獲利，破壞公共討論風氣，應予譴責"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "LINE 群組人工觀察：民眾黨群組「作票」討論熱度最高，主流意見從「作票」到「沒有作票但需要檢討開票瑕疵」"
+					}
+				],
+				"articleID": "_DA_67",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS4s4o4d1Qs5WPdy6YjlX6GXdzdPey5H0KwlzcX4sOhHyfzaFYaVJCJfQC9OfFXR9ZOxA2Hds1BwZQp/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/1/23 21:00",
+				"cache": "_DA_67_tw"
+			}
+		}
+	},
 	"_R_2023": {
 		"show": false,
 		"type": "article",
@@ -5131,13 +5191,14 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vQpEqsG9DWMM60NDe7I9d7cUGdcn9yKTVRIaSLveRft2OhvcNOitkTloc4TMQtLFm-q8ZxKpEr6vxjY/pub"
 		},
 		"publishedAt": "2022/1/13 12:00",
+		"updatedAt": "2024/1/23 21:00",
 		"path": "/da/19",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "公投前後資訊操弄：2020 後每逢投票，就有「做票」訊息",
+				"title": "公投前後資訊操弄：2020 後每逢投票，就有「作票」訊息",
 				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 19 期 ﹏ 2021.12.1-12.31",
-				"coverImage": "https://lh7-us.googleusercontent.com/H10nX5EDA9lbEb03kd6Cog72JFWLN4ljaWYXSEVNhnbdlZY_wH3o5AF5x_4peCB7c8sY7VfCo-LZ0UCjvMfEceh8qKoyrxuGkzsWrhhPEMD3lAOBqZW2FzeKfQe9WL4Ezw7nT735V6PM9Ck",
+				"coverImage": "https://lh7-us.googleusercontent.com/buVcehdSBp4JnMAC2KmdDYka5DsaxTCRd8n8ydLrI8CF2iY9e5i3UauM5JEmCbpuFXqZsHuKB_IWrksQpx9vYifvhQUE_qenPzyn-PkwV-R1SNp-KRFHbToi2130Ph9aDZJfciNobnLZedax",
 				"tags": [
 					"心慌週報"
 				],
@@ -5160,7 +5221,7 @@
 					},
 					{
 						"id": "h2-5",
-						"titleText": "  公投做票"
+						"titleText": "  公投作票"
 					},
 					{
 						"id": "h2-6",
@@ -5187,12 +5248,13 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQukOP9gu0HmRulT4RQDnABxQUVJjhgp5VvoHxTKuAhin49IRUo-592mToFXzin-xDfhX22wAQOYmiU/pub",
 				"locale": "_tw",
 				"publishedAt": "2022/1/13 12:00",
+				"updatedAt": "2024/1/23 21:00",
 				"cache": "_DA_19_tw"
 			},
 			"_en": {
 				"title": "“Rigged votes” information manipulation recurrent since 2020 presidential election, again during 2021 referendums",
 				"subtitle": "IORG Dokidoki Alert ﹋ No. 19 ﹏ 2021.12.1-12.31",
-				"coverImage": "https://lh7-us.googleusercontent.com/a5wacWkjI8ZIqa-sSlwTTiLeAKlaeXmrXqwss25Vv9zAwc7USNSEP-9qBkhJfZjQAKlTSukvZka7Kl0cgdWySS7qAltcjoVoGvtN4EDlFOdetfii4h8yVSupbVUMkES-cc4BjOwfNzIbUHc",
+				"coverImage": "https://lh7-us.googleusercontent.com/zj_4TL_HEFTIppuRlcIJWXufZBgVWnxeFZa296B6yO6SaIVhTq3FT_J3z-b2qWtYo-GCh1JHwrFWnpjEBWfbcl5ONZK1WS5RrXa3_MJb0Ge3Y_LCykIOKGcvhsVpCYC2qkh2ABzPs7h8_KRV",
 				"tags": [
 					"Dokidoki Alert"
 				],
@@ -5206,6 +5268,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpEqsG9DWMM60NDe7I9d7cUGdcn9yKTVRIaSLveRft2OhvcNOitkTloc4TMQtLFm-q8ZxKpEr6vxjY/pub",
 				"locale": "_en",
 				"publishedAt": "2022/1/13 12:00",
+				"updatedAt": "2024/1/23 21:00",
 				"cache": "_DA_19_en"
 			}
 		}
