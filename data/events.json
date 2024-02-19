@@ -276,6 +276,26 @@
 			}
 		}
 	},
+	"2023-0830": {
+		"show": true,
+		"type": "conf",
+		"id": "2023-0830",
+		"area": "online",
+		"date": "2023/8/30",
+		"time": "15:00-17:00",
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資料科學夏日小聚",
+				"locale": "_tw"
+			},
+			"_en": {
+				"title": "Data Science Summer Meetup",
+				"locale": "_en"
+			}
+		}
+	},
 	"2023-0329": {
 		"show": true,
 		"type": "conf",
