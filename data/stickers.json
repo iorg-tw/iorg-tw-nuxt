@@ -347,6 +347,12 @@
 		"_tw": "宣稱新法規政策",
 		"_en": "Claiming new regulation"
 	},
+	"claim-rev-pos": {
+		"id": "claim-rev-pos",
+		"classes": "bad",
+		"_tw": "宣稱改變立場",
+		"_en": "Claiming reversed position"
+	},
 	"call-share": {
 		"id": "call-share",
 		"classes": "alert",
