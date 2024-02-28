@@ -428,5 +428,13 @@
 		"type": "meetup",
 		"title": "台灣資訊環境小聚 2023.12",
 		"publishedAt": "2023/12/1"
+	},
+	{
+		"active": true,
+		"from": "/meetup/2402",
+		"to": "https://docs.google.com/spreadsheets/d/1ytXNlTFUZKWjjFX4NRxozCGQgNBJ6lvrkmRR9HM7J-Q/edit#gid=901565610",
+		"type": "meetup",
+		"title": "台灣資訊環境小聚 2024.2",
+		"publishedAt": "2024/2/28"
 	}
 ]
