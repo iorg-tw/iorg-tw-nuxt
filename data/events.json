@@ -138,6 +138,36 @@
 			}
 		}
 	},
+	"meetup-2403": {
+		"show": true,
+		"type": "meetup",
+		"id": "meetup-2403",
+		"area": "tp",
+		"date": "2024/3/20",
+		"time": "14:00-17:00",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣資訊環境小聚 2403",
+				"locale": "_tw"
+			}
+		}
+	},
+	"meetup-2402": {
+		"show": true,
+		"type": "meetup",
+		"id": "meetup-2402",
+		"area": "tp",
+		"date": "2024/2/29",
+		"time": "14:00-17:00",
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣資訊環境小聚 2402",
+				"locale": "_tw"
+			}
+		}
+	},
 	"meetup-2312": {
 		"show": true,
 		"type": "meetup",
