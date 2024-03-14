@@ -1,4 +1,49 @@
 {
+	"_DA_69": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_69",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRhd6bud38zmAvlH7T_ozQBu-oYWGmb8VK0UYVg79i_ehvIQWjXtOTSYvGA9qZvairzLGm-TEoI_nkX/pub"
+		},
+		"publishedAt": "2024/3/14 14:30",
+		"path": "/da/69",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報 – 第 1 期",
+				"subtitle": "IORG 週報第 69 期 2024.3.14",
+				"coverImage": "https://lh7-us.googleusercontent.com/5icY37XcdiyU76qNHDKohzzma9LAqIG-20x28456OkkYL-k_K7OnLYZMinw4uS8_yeIyL-oAbd5SKj7a11DhmY0QzJg5qPq6SV6cab-PH9AW4azOP69GXk-FjRbcalutI5mpga-1Ty16PE_-",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "時事：瘦肉精事件"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "時事：金門事件"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_69",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRhd6bud38zmAvlH7T_ozQBu-oYWGmb8VK0UYVg79i_ehvIQWjXtOTSYvGA9qZvairzLGm-TEoI_nkX/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/3/14 14:30",
+				"cache": "_DA_69_tw"
+			}
+		}
+	},
 	"_DA_67": {
 		"show": true,
 		"type": "da",
