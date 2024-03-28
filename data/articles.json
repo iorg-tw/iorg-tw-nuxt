@@ -1,4 +1,121 @@
 {
+	"_DA_71": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_71",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQJaxmYD_TyN6hA-flnRJixfJ_YAD8V-0H1zqxnCKq94AnUsR0lZNRlJRRjf6e-qGG20b0Lla3HZ83e/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vRNMXpkNBmX_qAfkrzQw_Zw4_RZOHaio6AbpX5WLuZ1rb6fAp4EXsPTDdp5dWG43l3RvM5icl7l5fee/pub"
+		},
+		"publishedAt": "2024/3/27 12:00",
+		"path": "/da/71",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "偵測中共官媒 TikTok 代理人帳號",
+				"subtitle": "IORG 週報第 71 期 2023.7.1-2024.3.17",
+				"coverImage": "https://lh7-us.googleusercontent.com/Pxt9CSPRBfL0f0pxmkvNWd2s4ZacEnZ0Iz4gnXpuoSYxopL7xYFuBH6A74ZchBJUoG2CaMkSWtJwRBJ-FV8rsc4td89OBwj_Vc-LKAtVLtWv4C6XC-Vz_kVwhe6tfc-orsaH1Az-1z0pCLZD",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					}
+				],
+				"articleID": "_DA_71",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQJaxmYD_TyN6hA-flnRJixfJ_YAD8V-0H1zqxnCKq94AnUsR0lZNRlJRRjf6e-qGG20b0Lla3HZ83e/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/3/27 12:00",
+				"cache": "_DA_71_tw"
+			},
+			"_en": {
+				"title": "Detecting PRC Proxies on TikTok – “Two Tea Eggs” and Others",
+				"subtitle": "IORG Report No. 71 2023.7.1-2024.3.17",
+				"coverImage": "https://lh7-us.googleusercontent.com/w-csCeIHjbrw93pwnduZtwa0Z9cT8ozKsUlz_I5TpvbbHwp--7FY2WqDQsnL-dNDXgu0UFtPSneuQfb3K_QA4PO4Nfy0ciJ1Fg1OnEzIwAtzAS52YoBN67VD1DRwcptCGGJsYuOkHgWfEDHz",
+				"tags": [
+					"Report"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Data Source"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Method"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Speech Analysis Results"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "Visual Analysis Results"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "Future Works"
+					}
+				],
+				"articleID": "_DA_71",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRNMXpkNBmX_qAfkrzQw_Zw4_RZOHaio6AbpX5WLuZ1rb6fAp4EXsPTDdp5dWG43l3RvM5icl7l5fee/pub",
+				"locale": "_en",
+				"publishedAt": "2024/3/27 12:00",
+				"cache": "_DA_71_en"
+			}
+		}
+	},
+	"_DA_70": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_70",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS0Q56isud07lxrXXHEc4HbYNT-3G1FivTkbLWBRDpVCKKC8BqKef_40_MkBKUryvhdtzQ_2gZtHLwb/pub"
+		},
+		"publishedAt": "2024/3/28 14:30",
+		"path": "/da/70",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報 – 第 2 期",
+				"subtitle": "IORG 週報第 70 期 2024.3.28",
+				"coverImage": "https://lh7-us.googleusercontent.com/A7A3N0rMd7KWo7668v39c42ytXhEl0NoZxFNVIw8_rPtngClmRa4ARulKf0m7X6UfYxPpLlsGODrILiDU19hTse2sMqpAp9M2YeBcdATGIkxtPeV4Titf4mnaV_yxih9ZcXhF6QtMh2PQau9",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "時事：桃園機場歲修"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "時事：美國總統選舉"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_70",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS0Q56isud07lxrXXHEc4HbYNT-3G1FivTkbLWBRDpVCKKC8BqKef_40_MkBKUryvhdtzQ_2gZtHLwb/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/3/28 14:30",
+				"cache": "_DA_70_tw"
+			}
+		}
+	},
 	"_DA_69": {
 		"show": true,
 		"type": "da",
@@ -13,7 +130,7 @@
 			"_tw": {
 				"title": "資訊環境雙週報 – 第 1 期",
 				"subtitle": "IORG 週報第 69 期 2024.3.14",
-				"coverImage": "https://lh7-us.googleusercontent.com/5icY37XcdiyU76qNHDKohzzma9LAqIG-20x28456OkkYL-k_K7OnLYZMinw4uS8_yeIyL-oAbd5SKj7a11DhmY0QzJg5qPq6SV6cab-PH9AW4azOP69GXk-FjRbcalutI5mpga-1Ty16PE_-",
+				"coverImage": "https://lh7-us.googleusercontent.com/pgAcQZEBs6__CkolrrOtdRUCfQgsd_uhzAQVozqPX_9t3ZeddHDXod7gwUPe0rLyH2TWG0XTGExfiTe3eS5LMQ3UWeb8w4Tt_VKx0eW_Q8OHfsYsALK3_28GyiiIl-CZVfCzobyKJwKgJjJI",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
