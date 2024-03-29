@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/23rb",
+		"to": "https://docs.google.com/presentation/d/14YXJV25D9699MXexCWv2emx8MXGVrQB2l0Vaiuy8x5g/edit#",
+		"type": "slidedeck",
+		"title": "IORG Research Briefing (Rolling)",
+		"publishedAt": "2023/2/16"
+	},
+	{
+		"active": true,
 		"from": "/s/120",
 		"to": "https://docs.google.com/presentation/d/1lACbvUs5NTJpEACJ796I2Pteha3XkHlmawoVGn2XspU/edit#",
 		"type": "slidedeck",
