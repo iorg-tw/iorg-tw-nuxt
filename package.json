@@ -2,7 +2,7 @@
   "name": "iorg-tw-nuxt",
   "version": "1.0.0",
   "description": "iorg.tw",
-  "author": "chihaoyo",
+  "author": "IORG",
   "private": true,
   "scripts": {
     "dev": "nuxt",
