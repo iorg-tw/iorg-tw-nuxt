@@ -14,7 +14,7 @@
 			"_tw": {
 				"title": "偵查中共官媒 TikTok 代理人帳號",
 				"subtitle": "IORG 週報第 71 期 2023.7.1-2024.3.17",
-				"coverImage": "https://lh7-us.googleusercontent.com/QSjgzpLMRSNcjrsQ9wRtqfu0eQG2tL50XaUXLe6dKeGuSJXrIbhetS6_JMzJJcG2qXGD2cJEEQTVPqqql41y-RZVbQWZHahuNMgbsGOI3AS3OsEoDSuu3u19O_7_zy6Ct4fR5ujeH-ohW32f",
+				"coverImage": "https://lh7-us.googleusercontent.com/BHG7mkhxe4TC7uVHET0XevWOayWbugSQPOVUoD2zadIq9JPF4vRyrriNB4ZFqn3Km-12wNjO3Lf7RsTugsyqvlO0zqpeksXKG5mC7mqUJ9P6TRinyeRK7TuSwMNeiPiRZunNBNsMnIisvIbz",
 				"tags": [
 					"週報"
 				],
@@ -22,6 +22,26 @@
 					{
 						"id": "h2-1",
 						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "語音辨識結果"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "影像辨識結果"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "後續工作"
 					}
 				],
 				"articleID": "_DA_71",
@@ -33,7 +53,7 @@
 			"_en": {
 				"title": "Detecting PRC Proxies on TikTok – “Two Tea Eggs” and Others",
 				"subtitle": "IORG Report No. 71 2023.7.1-2024.3.17",
-				"coverImage": "https://lh7-us.googleusercontent.com/ODz8Wl9_53QvAhYeLAeFj8WMsSMlrh3jIDkPVibAa_4QdHknM179YhqBxPXps4_jT0vXfYMecemWd3M8_W_uD6xGuHZz20NuMtfz06KA12QCtv17ip2dTQdY5b4akRlWa4FLbt3ZCWfOMQaN",
+				"coverImage": "https://lh7-us.googleusercontent.com/8_q6WFyVyaqM1B6vrdfnGJoHeTkX88m_vt5PXxJGwl0QX_QSyhvlpKimlqsz4PkyKzNfn-Gzl_RXdmUarwQr7gf_ByQ2_W97KuBaoft9nmI_3k3N6KwUohWNh8VC6oM6haVRXMQw1Xcqi00q",
 				"tags": [
 					"Report"
 				],
