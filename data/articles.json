@@ -1,4 +1,49 @@
 {
+	"_DA_73": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_73",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQBmWwXtgthpUuEElJYrg6OSfzriEYeyY2Bz5j4CB1VUJAkVkC95QE5w4h0-ptO7s99eVkZDy-QQSfy/pub"
+		},
+		"publishedAt": "2024/4/12 10:00",
+		"path": "/da/73",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 3 期 – 保母虐童、電價調漲",
+				"subtitle": "IORG 週報第 73 期 2024.4.11",
+				"coverImage": "https://lh7-us.googleusercontent.com/36s-lvVF-VQEOdnZcQQTHqPE-5wZyaeWG6U_0ej4iEJdkNj2-C0PQXD3cgVDI46gNMcJ8el_x_DFOcQQD4f2hDLC2t5hFlU0mC---gs5FW5imzvvK7vlpk3IGTuU6uBHzNHd0OAQcunLfkua",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "時事：保母虐童"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "時事：電價調漲"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_73",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQBmWwXtgthpUuEElJYrg6OSfzriEYeyY2Bz5j4CB1VUJAkVkC95QE5w4h0-ptO7s99eVkZDy-QQSfy/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/4/12 10:00",
+				"cache": "_DA_73_tw"
+			}
+		}
+	},
 	"_DA_72": {
 		"show": true,
 		"type": "da",
@@ -151,9 +196,9 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "資訊環境雙週報 – 第 2 期",
+				"title": "資訊環境雙週報第 2 期 – 桃園機場歲修、美國總統選舉",
 				"subtitle": "IORG 週報第 70 期 2024.3.28",
-				"coverImage": "https://lh7-us.googleusercontent.com/A7A3N0rMd7KWo7668v39c42ytXhEl0NoZxFNVIw8_rPtngClmRa4ARulKf0m7X6UfYxPpLlsGODrILiDU19hTse2sMqpAp9M2YeBcdATGIkxtPeV4Titf4mnaV_yxih9ZcXhF6QtMh2PQau9",
+				"coverImage": "https://lh7-us.googleusercontent.com/yuuRR-8B9SvGcMsk42dprhzZbyUT1AJal7bbV-zMxku7wARjau-h7tOXmkCqiPfkSUHu7y-nrrvkUspxsKduhrRFEudXJvxs0MgLa2KsKR82kTVthrsxFvk7TBDtAYWu91Q_jJ9VTlam4qs9",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
@@ -196,9 +241,9 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "資訊環境雙週報 – 第 1 期",
+				"title": "資訊環境雙週報第 1 期 – 瘦肉精、金門",
 				"subtitle": "IORG 週報第 69 期 2024.3.14",
-				"coverImage": "https://lh7-us.googleusercontent.com/pgAcQZEBs6__CkolrrOtdRUCfQgsd_uhzAQVozqPX_9t3ZeddHDXod7gwUPe0rLyH2TWG0XTGExfiTe3eS5LMQ3UWeb8w4Tt_VKx0eW_Q8OHfsYsALK3_28GyiiIl-CZVfCzobyKJwKgJjJI",
+				"coverImage": "https://lh7-us.googleusercontent.com/Qz9uq9aW1FBCiTnVDFZfMJTaBVGKapNDZXSjIE1NLObnm9Cw_B7Fmh_U5GC6J5xOD9NZdWEuJjIN7l3CRkPcQs_fJ7STsy2ThicIBrabVk0xC56UYArmsPJbVO7AqjX_fs10FbAL4JL7lxjm",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
