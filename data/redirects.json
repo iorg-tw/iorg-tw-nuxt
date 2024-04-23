@@ -460,5 +460,13 @@
 		"type": "meetup",
 		"title": "台灣資訊環境小聚 2024.3",
 		"publishedAt": "2024/3/12"
+	},
+	{
+		"active": true,
+		"from": "/meetup/2404",
+		"to": "https://docs.google.com/spreadsheets/d/1ytXNlTFUZKWjjFX4NRxozCGQgNBJ6lvrkmRR9HM7J-Q/edit#gid=347211165",
+		"type": "meetup",
+		"title": "台灣資訊環境小聚 2024.4",
+		"publishedAt": "2024/4/23"
 	}
 ]
