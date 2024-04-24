@@ -1,4 +1,49 @@
 {
+	"_DA_74": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_74",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQMl7b2Vv6LMhlnBZjCkLLP9mpDc_OMARgooXWkRTyjbkUtKcxRks6RnAI8Zv9lt7qIQLY8pexRGNl-/pub"
+		},
+		"publishedAt": "2024/4/25 9:00",
+		"path": "/da/74",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 4 期 – 馬英九訪中、南海軍演",
+				"subtitle": "IORG 週報第 74 期 2024.4.25",
+				"coverImage": "https://lh7-us.googleusercontent.com/ftVVB9QTnxbOvCq7q26WwTlJFKK87pG6lpZa0qvT8WPpJJRkcJVUxGzOrGxg4hcqcT6jHsUI2cMbKZAo5gq1z5tiufVOby6rGOcBocjME90ExVanP1vFznozGLb9rC3ZGb1Mg5GzuzN_9gX-",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：馬英九訪中"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件：南海軍演"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_74",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQMl7b2Vv6LMhlnBZjCkLLP9mpDc_OMARgooXWkRTyjbkUtKcxRks6RnAI8Zv9lt7qIQLY8pexRGNl-/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/4/25 9:00",
+				"cache": "_DA_74_tw"
+			}
+		}
+	},
 	"_DA_73": {
 		"show": true,
 		"type": "da",
@@ -13,7 +58,7 @@
 			"_tw": {
 				"title": "資訊環境雙週報第 3 期 – 保母虐童、電價調漲",
 				"subtitle": "IORG 週報第 73 期 2024.4.11",
-				"coverImage": "https://lh7-us.googleusercontent.com/36s-lvVF-VQEOdnZcQQTHqPE-5wZyaeWG6U_0ej4iEJdkNj2-C0PQXD3cgVDI46gNMcJ8el_x_DFOcQQD4f2hDLC2t5hFlU0mC---gs5FW5imzvvK7vlpk3IGTuU6uBHzNHd0OAQcunLfkua",
+				"coverImage": "https://lh7-us.googleusercontent.com/OjxfaWltgvkAQRlGdZ8CrNu8lG4knd7VcWVMa1f_cgNm5AyQQEBzEXPH4LDZzjODXDcLF9Ygk3h4tSxMrZpSgyMjc15iTi2pSlpjRJfesokhDY7autUyY9peYE_VTgSvVhn6kP8wyKcawahQ",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
@@ -198,7 +243,7 @@
 			"_tw": {
 				"title": "資訊環境雙週報第 2 期 – 桃園機場歲修、美國總統選舉",
 				"subtitle": "IORG 週報第 70 期 2024.3.28",
-				"coverImage": "https://lh7-us.googleusercontent.com/yuuRR-8B9SvGcMsk42dprhzZbyUT1AJal7bbV-zMxku7wARjau-h7tOXmkCqiPfkSUHu7y-nrrvkUspxsKduhrRFEudXJvxs0MgLa2KsKR82kTVthrsxFvk7TBDtAYWu91Q_jJ9VTlam4qs9",
+				"coverImage": "https://lh7-us.googleusercontent.com/zl9xy_aLGQBeoqCct4JtGz4dlNpZtW4HXViexe07kK99qcTp1wSFglkXxfD08clrlpocsUYkDfI1snLzfhdl_1BWLG6aOZKB0uK8moZgksgcLG-5mTXyqh1aCasp-8G-gCViSYSQkBqpnJOE",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
@@ -243,7 +288,7 @@
 			"_tw": {
 				"title": "資訊環境雙週報第 1 期 – 瘦肉精、金門",
 				"subtitle": "IORG 週報第 69 期 2024.3.14",
-				"coverImage": "https://lh7-us.googleusercontent.com/Qz9uq9aW1FBCiTnVDFZfMJTaBVGKapNDZXSjIE1NLObnm9Cw_B7Fmh_U5GC6J5xOD9NZdWEuJjIN7l3CRkPcQs_fJ7STsy2ThicIBrabVk0xC56UYArmsPJbVO7AqjX_fs10FbAL4JL7lxjm",
+				"coverImage": "https://lh7-us.googleusercontent.com/nrzSBryERrmW9qMz3tT8Wt8AmYDPu7_0nZPnRlwQ9rwkqIelUuoXR1G505lnb8ZZgrFgo_FLfTtyelWc-SDR9UKNoLv9WfkqI3foM0Xi-qPvNr9FxNXxzsKrTcqFihSJ509TfkhbJcjeI1PO",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
