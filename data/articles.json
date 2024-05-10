@@ -1,4 +1,45 @@
 {
+	"_DA_75": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_75",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRSQlKr81q49hhpks9x-jo33u3BlbtjIfs-b-scNkpEoTJZTwfosgmx8l8Qg6GTun3yoiwP6nUWQKNh/pub"
+		},
+		"publishedAt": "2024/5/9 9:00",
+		"path": "/da/75",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 5 期 – 以色列、伊朗衝突 ",
+				"subtitle": "IORG 週報第 75 期 2024.5.9",
+				"coverImage": "https://lh7-us.googleusercontent.com/H4Z-slrhJIcPQ56R_MzmJebWu5dP2aYcetxUL0yhUsxoIxjdgb2zPrYMZpr2CQ3IiM7RSnNWHe5l-tNefpVtSFUJYxZmOvKdFNx_7_qmiVLM-n2MT4GMTEJWLaLwUTA8-KUuQWLNjGdjFyrb",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：以色列、伊朗衝突"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_75",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRSQlKr81q49hhpks9x-jo33u3BlbtjIfs-b-scNkpEoTJZTwfosgmx8l8Qg6GTun3yoiwP6nUWQKNh/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/5/9 9:00",
+				"cache": "_DA_75_tw"
+			}
+		}
+	},
 	"_DA_74": {
 		"show": true,
 		"type": "da",
