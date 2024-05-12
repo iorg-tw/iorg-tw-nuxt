@@ -468,5 +468,29 @@
 		"type": "meetup",
 		"title": "台灣資訊環境小聚 2024.4",
 		"publishedAt": "2024/4/23"
+	},
+	{
+		"active": true,
+		"from": "/meetup/2405",
+		"to": "https://docs.google.com/spreadsheets/d/1ytXNlTFUZKWjjFX4NRxozCGQgNBJ6lvrkmRR9HM7J-Q/edit#gid=438599457",
+		"type": "meetup",
+		"title": "台灣資訊環境小聚 2024.5",
+		"publishedAt": "2024/5/12"
+	},
+	{
+		"active": true,
+		"from": "/meetup/2406",
+		"to": "https://docs.google.com/spreadsheets/d/1ytXNlTFUZKWjjFX4NRxozCGQgNBJ6lvrkmRR9HM7J-Q/edit#gid=1937485982",
+		"type": "meetup",
+		"title": "台灣資訊環境小聚 2024.6",
+		"publishedAt": "2024/5/12"
+	},
+	{
+		"active": true,
+		"from": "/meetup/2407",
+		"to": "https://docs.google.com/spreadsheets/d/1ytXNlTFUZKWjjFX4NRxozCGQgNBJ6lvrkmRR9HM7J-Q/edit#gid=1967604582",
+		"type": "meetup",
+		"title": "台灣資訊環境小聚 2024.7",
+		"publishedAt": "2024/5/12"
 	}
 ]
