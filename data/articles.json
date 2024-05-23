@@ -1,4 +1,49 @@
 {
+	"_DA_77": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_77",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSUC_QfFSvdDDmyE-sPpqyURUtjriHKL11IPQkWcP_FAmA1HHdVF8jGovNolCsU5msnkFExjVmRPQa3/pub"
+		},
+		"publishedAt": "2024/5/23 12:00",
+		"path": "/da/77",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 6 期 – 美國校園挺巴示威、習近平訪歐",
+				"subtitle": "IORG 週報第 77 期 2024.5.23",
+				"coverImage": "https://lh7-us.googleusercontent.com/QAn8NP4g3D5-Q6-m_FwcUZhv58gIsQ3Me9a1R1lSN0glVrTToD41xs2Pp4hnCcZrbp3pEYUBHDwaz6-_ba89GXXBtUSSOkNrfXPoJZoMRGsbh3eXnGtqbaQ4ltzPwf8ppH3SNGL-LgXzRjK0",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：美國校園挺巴示威"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件：習近平訪歐"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_77",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUC_QfFSvdDDmyE-sPpqyURUtjriHKL11IPQkWcP_FAmA1HHdVF8jGovNolCsU5msnkFExjVmRPQa3/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/5/23 12:00",
+				"cache": "_DA_77_tw"
+			}
+		}
+	},
 	"_DA_76": {
 		"show": true,
 		"type": "da",
@@ -81,7 +126,7 @@
 			"_tw": {
 				"title": "資訊環境雙週報第 5 期 – 以色列、伊朗衝突 ",
 				"subtitle": "IORG 週報第 75 期 2024.5.9",
-				"coverImage": "https://lh7-us.googleusercontent.com/H4Z-slrhJIcPQ56R_MzmJebWu5dP2aYcetxUL0yhUsxoIxjdgb2zPrYMZpr2CQ3IiM7RSnNWHe5l-tNefpVtSFUJYxZmOvKdFNx_7_qmiVLM-n2MT4GMTEJWLaLwUTA8-KUuQWLNjGdjFyrb",
+				"coverImage": "https://lh7-us.googleusercontent.com/uKhqFdOwjJIckJgcq4vkZ7uXA2nbpYol4GwhMzF2JlqNW3-3VAWw_LWIvV-QVoxSUn8tFIiAefSzQNhbJFw9jqzJ3GblRm-kNmwd8NiSwL-7gYzdug8mLmWBAVOTXNdGU3x8BX4m6f2QGriG",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
