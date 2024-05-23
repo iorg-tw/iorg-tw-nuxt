@@ -535,8 +535,8 @@
 	},
 	"tk": {
 		"id": "tk",
-		"classes": "node tt",
-		"_tw": "TikTok",
+		"classes": "node tk",
+		"_tw": "TK",
 		"_en": "TK"
 	},
 	"dy": {
@@ -1078,6 +1078,12 @@
 		"classes": "node group",
 		"_tw": "🇨🇳 深圳广播电影电视集团",
 		"_en": "🇨🇳 SZMG"
+	},
+	"商務部": {
+		"id": "商務部",
+		"classes": "node group",
+		"_tw": "🇨🇳 商务部",
+		"_en": "🇨🇳 Commerce"
 	},
 	"yt-short": {
 		"id": "yt-short",
