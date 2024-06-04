@@ -935,6 +935,12 @@
 		"_tw": "真晨報",
 		"_en": "The Real Daily"
 	},
+	"匯流": {
+		"id": "匯流",
+		"classes": "node group",
+		"_tw": "匯流",
+		"_en": "CNEWS"
+	},
 	"總台": {
 		"id": "總台",
 		"classes": "node group",
