@@ -1,4 +1,49 @@
 {
+	"_DA_79": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_79",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSk9QBn-X6GndNBCd1Gf0CZlOjUR4emh9m1c_ShX4-WbxU3GaeJ_qT2snx5LR6GyUjXYcRsSTJnDc2V/pub"
+		},
+		"publishedAt": "2024/6/13 16:00",
+		"path": "/da/79",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 7 期 – 聯合利劍演習、香格里拉對話",
+				"subtitle": "IORG 週報第 79 期 2024.6.13",
+				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXeeTiPpOxoNV2rNVLDrRqge4TsyTONUQryS9U-4XDYiubUDwoB9BQYSptaaMDDtyfq-1hFuhU5l_TGM8ESzcya0b0fpzSFzNzfj5CxTvJ7jCO3YkI2GDUz6-Q2Guu2fzfga7I9ktIXF2QRQBc5cmg?key=ed2E3Cj53EHRqJjhjlo0oQ",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：2024 年聯合利劍演習"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件：香格里拉對話"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_79",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSk9QBn-X6GndNBCd1Gf0CZlOjUR4emh9m1c_ShX4-WbxU3GaeJ_qT2snx5LR6GyUjXYcRsSTJnDc2V/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/6/13 16:00",
+				"cache": "_DA_79_tw"
+			}
+		}
+	},
 	"_DA_78": {
 		"show": true,
 		"type": "da",
