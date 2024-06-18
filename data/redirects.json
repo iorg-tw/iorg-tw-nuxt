@@ -492,5 +492,13 @@
 		"type": "meetup",
 		"title": "台灣資訊環境小聚 2024.7",
 		"publishedAt": "2024/5/12"
+	},
+	{
+		"active": true,
+		"from": "/support/paypal",
+		"to": "https://www.paypal.com/ncp/payment/CWKM2J8XUFLCC",
+		"type": "page",
+		"title": "支持 IORG - PayPal",
+		"publishedAt": "2024/6/18"
 	}
 ]
