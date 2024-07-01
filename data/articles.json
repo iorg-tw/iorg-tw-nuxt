@@ -1,4 +1,50 @@
 {
+	"_DA_81": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_81",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRRAO7hns3Xo8MskMuXcajBF1P5E3Hq2l7ZROaY7ELdU7LOKUA0kH9K9cmRHc4vZ2oDT244f8CCSV0Y/pub"
+		},
+		"publishedAt": "2024/6/27 19:30",
+		"path": "/da/81",
+		"cache": true,
+		"tags": "biweekly",
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 8 期 – 第五縱隊、黃仁勳訪台",
+				"subtitle": "IORG 週報第 81 期 2024.6.27",
+				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXciWh_RcCvIRJnVLh8-PZWzYfj8EVRrGq4SVAh9K_Af8jlIAiQTUKU0ECApNWsv9tmxyX2ljKAEKiTVuhYwyUaF2gsYMcvDuiaTncVoMgf42fku7K-hU9fYMhlxGkR_dKbzAvNXtvh35I89RrAiIpz8LZU?key=_ImwDEGE1E8a_DG63pyjRg",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：第五縱隊"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件：黃仁勳訪台"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_81",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRRAO7hns3Xo8MskMuXcajBF1P5E3Hq2l7ZROaY7ELdU7LOKUA0kH9K9cmRHc4vZ2oDT244f8CCSV0Y/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/6/27 19:30",
+				"cache": "_DA_81_tw"
+			}
+		}
+	},
 	"_DA_80": {
 		"show": true,
 		"type": "da",
@@ -89,6 +135,7 @@
 		"publishedAt": "2024/6/13 16:00",
 		"path": "/da/79",
 		"cache": true,
+		"tags": "biweekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊環境雙週報第 7 期 – 聯合利劍演習、香格里拉對話",
@@ -268,6 +315,7 @@
 		"publishedAt": "2024/5/23 12:00",
 		"path": "/da/77",
 		"cache": true,
+		"tags": "biweekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊環境雙週報第 6 期 – 美國校園挺巴示威、習近平訪歐",
@@ -381,6 +429,7 @@
 		"publishedAt": "2024/5/9 9:00",
 		"path": "/da/75",
 		"cache": true,
+		"tags": "biweekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊環境雙週報第 5 期 – 以色列、伊朗衝突 ",
@@ -422,6 +471,7 @@
 		"publishedAt": "2024/4/25 9:00",
 		"path": "/da/74",
 		"cache": true,
+		"tags": "biweekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊環境雙週報第 4 期 – 馬英九訪中、南海軍演",
@@ -467,6 +517,7 @@
 		"publishedAt": "2024/4/12 10:00",
 		"path": "/da/73",
 		"cache": true,
+		"tags": "biweekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊環境雙週報第 3 期 – 保母虐童、電價調漲",
@@ -652,6 +703,7 @@
 		"publishedAt": "2024/3/28 14:30",
 		"path": "/da/70",
 		"cache": true,
+		"tags": "biweekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊環境雙週報第 2 期 – 桃園機場歲修、美國總統選舉",
@@ -697,6 +749,7 @@
 		"publishedAt": "2024/3/14 14:30",
 		"path": "/da/69",
 		"cache": true,
+		"tags": "biweekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊環境雙週報第 1 期 – 瘦肉精、金門",
@@ -742,6 +795,7 @@
 		"publishedAt": "2024/1/23 21:00",
 		"path": "/da/67",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "投票前後 7 天內「作票」謠言影片在 TikTok 傳播超過 YouTube",
@@ -802,6 +856,7 @@
 		"publishedAt": "2024/1/19 8:00",
 		"path": "/r/2023",
 		"cache": true,
+		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2023 總體研究成果",
@@ -852,6 +907,7 @@
 		"updatedAt": "2024/1/12 16:00",
 		"path": "/da/66",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "真的假的！2024 選前 LINE 謠言排行榜",
@@ -901,6 +957,7 @@
 		"publishedAt": "2024/1/11 14:00",
 		"path": "/da/63",
 		"cache": true,
+		"tags": "election weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共 – 2024 選前倒數第 2 週",
@@ -949,6 +1006,7 @@
 		"publishedAt": "2024/1/5 9:00",
 		"path": "/da/62",
 		"cache": true,
+		"tags": "election weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共 – 2024 選前倒數第 3 週",
@@ -997,6 +1055,7 @@
 		"publishedAt": "2024/1/10 13:00",
 		"path": "/da/60",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣新聞及政論 YouTube 影片使用「央视」節目畫面，TVBS 佔半數，非關中國也用「央视」",
@@ -1053,6 +1112,7 @@
 		"publishedAt": "2024/1/2 22:30",
 		"path": "/da/59",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2024 選前柯文哲、賴清德、侯友宜 3 組候選人傳播熱度概況",
@@ -1109,6 +1169,7 @@
 		"publishedAt": "2024/1/4 10:30",
 		"path": "/da/58",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "10-11 月中共官媒抖音常用台灣名嘴 Top 10 – 選情升溫，中共提高侯柯曝光、政治組名嘴排名攀升",
@@ -1177,6 +1238,7 @@
 		"publishedAt": "2023/12/26 9:00",
 		"path": "/da/57",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "7-9 月中共官媒抖音常用台灣名嘴：介文汲、賴岳謙、郭正亮",
@@ -1242,6 +1304,7 @@
 		"updatedAt": "2023/12/28 17:30",
 		"path": "/da/56",
 		"cache": true,
+		"tags": "election weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共 – 2024 選前倒數第 4 週",
@@ -1292,6 +1355,7 @@
 		"updatedAt": "2023/12/28 17:30",
 		"path": "/da/55",
 		"cache": true,
+		"tags": "election weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共說什麼 – 2024 選前倒數第 5 週",
@@ -1341,6 +1405,7 @@
 		"publishedAt": "2024/1/2 23:30",
 		"path": "/da/54",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "「麻煩製造者」及「棋子」：選舉前夕的台美中論述",
