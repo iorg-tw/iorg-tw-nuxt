@@ -1,8 +1,8 @@
 <i18n lang="yaml">
 _tw:
-  evals: "評量"
+  eval: "評量"
 _en:
-  evals: "Evaluations"
+  eval: "Eval"
 </i18n>
 
 <template>
@@ -15,7 +15,7 @@ _en:
   </div>
   <google-doc :doc="doc" :options="{ metaphor: 'page', head: false }" class="doc-eval" />
   <div class="section-header">
-    <p class="section-title-fancy">{{ $t('evals') }}</p>
+    <p class="section-title">{{ $t('eval') }}</p>
   </div>
   <article-list type="eval" />
 </div>

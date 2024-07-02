@@ -12,7 +12,7 @@ _en:
 <template>
 <div class="page articles">
   <div class="section-header first">
-    <p class="section-title-fancy">{{ $t('articles') }}</p>
+    <p class="section-title">{{ $t('articles') }}</p>
   </div>
   <article-list />
 </div>

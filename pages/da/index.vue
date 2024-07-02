@@ -1,18 +1,18 @@
 <i18n lang="yaml">
 _tw:
   articles: "週報"
-  title: "心慌週報"
-  description: "IORG 心慌週報"
+  title: "週報"
+  description: "IORG 週報"
 _en:
-  articles: "Alert"
-  title: "Dokidoki Alert"
-  description: "IORG Dokidoki Alert"
+  articles: "Reports"
+  title: "Reports"
+  description: "IORG Reports"
 </i18n>
 
 <template>
 <div class="page articles">
   <div class="section-header first">
-    <p class="section-title-fancy">{{ $t('articles') }}</p>
+    <p class="section-title">{{ $t('articles') }}</p>
   </div>
   <article-list type="da" />
 </div>

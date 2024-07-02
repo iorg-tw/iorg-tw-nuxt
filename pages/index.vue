@@ -1,27 +1,14 @@
 <i18n lang="yaml">
 _tw:
   read: "線上閱讀報告"
-  soon: "報告內容即將開放"
-  underRevision: "報告內容持續更新中"
-  evals: "訊息可信度評量"
-  articles: "報導"
-  videos: "影音"
 _en:
   read: "Read more"
-  soon: "Available soon"
-  underRevision: "Content under revision"
-  evals: "Credibility Evals"
-  articles: "Articles"
-  videos: "Videos"
 </i18n>
 
 <template>
 <div class="page home">
-  <section v-if="showFeaturedArticles" class="featured">
-    <article-list type="featured" @article-count="checkFeaturedArticleCount" />
-  </section>
   <section class="da">
-    <article-list type="da" />
+    <article-list type="da" features="show-featured-articles show-home-links show-sub" :first-page-size="11" />
   </section>
   <div class="divider"></div>
   <section id="r" class="report">
@@ -48,18 +35,6 @@ _en:
     </div>
   </section>
   <intro k="iorg_about_long" />
-  <section id="a" class="content-list evals">
-    <div class="section-header">
-      <p class="section-title-fancy">{{ $t('evals') }}</p>
-    </div>
-    <article-list type="eval" />
-  </section>
-  <section id="a" class="content-list articles">
-    <div class="section-header">
-      <p class="section-title-fancy">{{ $t('articles') }}</p>
-    </div>
-    <article-list />
-  </section>
 </div>
 </template>
 
