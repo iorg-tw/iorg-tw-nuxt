@@ -2,30 +2,38 @@
 _tw:
   publishedAt: "發布"
   updatedAt: "更新"
+  more: "更多⋯"
 _en:
   publishedAt: "Published"
   updatedAt: "Updated"
+  more: "More…"
 </i18n>
 
 <template>
 <div class="article-list container-wrapper">
   <div class="articles container">
-    <template v-for="(article, id, index) of articles">
-      <nuxt-link :key="article.id" :to="localeRoute(article.path ? { path: article.path } : { name: 'a-id', params: { id: article.id } })" class="article block panel tiled filled" :class="articleClasses">
-        <img v-if="getLocalizedDoc(article).coverImage" :src="getLocalizedDoc(article).coverImage" class="cover" />
+    <template v-for="(panel, panelIndex) of visiblePanels">
+      <div v-if="['links'].includes(panel.type)" :key="panelIndex" class="panel tiled xlarge">
+        <link-list group="home" />
+      </div>
+      <nuxt-link v-if="['article', 'featured'].includes(panel.type)" :key="panelIndex" :to="localeRoute(panel.data.path ? { path: panel.data.path } : { name: 'a-id', params: { id: panel.data.id } })" class="article block panel tiled filled" :class="articleClasses">
+        <img v-if="getLocalizedDoc(panel.data).coverImage" :src="getLocalizedDoc(panel.data).coverImage" class="cover" />
         <div class="detail">
-          <h3 v-html="optimizeTracking(getLocalizedDoc(article).title)"></h3>
-          <h4 v-if="getLocalizedDoc(article).subtitle">{{ getLocalizedDoc(article).subtitle }}</h4>
+          <h3 v-html="optimizeTracking(getLocalizedDoc(panel.data).title)"></h3>
+          <h4 v-if="getLocalizedDoc(panel.data).subtitle">{{ getLocalizedDoc(panel.data).subtitle }}</h4>
           <div class="dates">
-            <div v-if="article.publishedAt" class="published-at">{{ $t('publishedAt') }} = {{ article.publishedAt.replace(/\//g, '.') }}</div>
-            <div v-if="article.updatedAt" class="updated-at">{{ $t('updatedAt') }} = {{ article.updatedAt.replace(/\//g, '.') }}</div>
+            <div v-if="panel.data.publishedAt" class="published-at">{{ $t('publishedAt') }} = {{ panel.data.publishedAt.replace(/\//g, '.') }}</div>
+            <div v-if="panel.data.updatedAt" class="updated-at">{{ $t('updatedAt') }} = {{ panel.data.updatedAt.replace(/\//g, '.') }}</div>
           </div>
         </div>
       </nuxt-link>
-      <div v-if="isDAList && index === 0" :key="index" class="panel tiled">
+      <div v-if="['sub'].includes(panel.type)" :key="panelIndex" class="panel tiled">
         <subscribe-simple />
       </div>
     </template>
+    <div v-if="visiblePanels.length < panels.length" class="panel tiled" key="more">
+      <a class="button action average" @click="currentListSize += pageSize">{{ $t('more') }}</a>
+    </div>
   </div>
 </div>
 </template>
@@ -34,57 +42,98 @@ _en:
 import { optimizeTracking } from '~/lib/typography'
 import { localizeArticle } from '~/lib/i18n'
 import allArticles from '~/data/articles.json'
+import LinkList from '~/components/LinkList'
 import SubscribeSimple from '~/components/SubscribeSimple'
 
 export default {
   components: {
+    LinkList,
     SubscribeSimple
   },
   props: {
     type: {
       type: String,
-      default: 'article+video' // types = article video research da eval sys
+      default: 'article' // types = article research da eval sys profile
     },
-    showAll: { // show every type + ignore show attr
-      type: Boolean,
-      default: false
+    features: {
+      type: String,
+      default: ''
+    },
+    firstPageSize: {
+      type: Number,
+      default: 8
+    },
+    pageSize: {
+      type: Number,
+      default: 9
     }
   },
   data() {
-    if(this.showAll) {
-      this.type = 'article+da+eval+video+research+sys'
+    const showHomeLinks = this.features.includes('show-home-links')
+    const showFeaturedArticles = this.features.includes('show-featured-articles')
+    const showAll = this.features.includes('show-all')
+    const showSub = this.features.includes('show-sub')
+    const isDAList = this.type === 'da'
+
+    let computedType = this.type
+    if(showAll) {
+      computedType = 'article da eval video research sys'
     }
+    /*
     const keys = Object.keys(allArticles)
     const articles = Object.assign({}, ...keys.filter(k => {
       const a = allArticles[k]
-      return (this.type === 'featured' ? a.featured : this.type.includes(a.type)) && (this.showAll ? true : a.show)
+      return this.showAll ? true : a.show && computedType.includes(a.type)
     }).map(k => ({ [k]: allArticles[k] })))
+    const featuredArticles = Object.assign({}, ...keys.filter(k => {
+      const a = allArticles[k]
+      return a.featured
+    }).map(k => ({ [k]: allArticles[k] })))
+    */
+    const keys = Object.keys(allArticles)
+    const articles = keys.filter(k => this.showAll ? true : allArticles[k].show && computedType.includes(allArticles[k].type)).map(k => allArticles[k])
+    const featuredArticles = keys.filter(k => allArticles[k].featured).map(k => allArticles[k])
+
+    const panels = []
+    if(showHomeLinks) {
+      panels.push({ type: 'links' })
+    }
+    if(showFeaturedArticles) {
+      panels.push(...featuredArticles.map(a => ({ type: 'featured', data: a })))
+    }
+    if(articles.length > 0) {
+      panels.push({ type: 'article', data: articles[0] })
+      if(showSub) {
+        panels.push({ type: 'sub' })
+      }
+      for(let i = 1; i < articles.length; i++) {
+        panels.push({ type: 'article', data: articles[i] })
+      }
+    }
+
+    const currentListSize = this.firstPageSize
+
     return {
-      articles
+      showHomeLinks,
+      showFeaturedArticles,
+      showAll,
+      showSub,
+      panels,
+      isDAList,
+      currentListSize
     }
   },
   computed: {
-    articleCount() {
-      return Object.keys(this.articles).length
-    },
-    isDAList() {
-      return this.type === 'da'
-    },
-    isFeaturedArticleList() {
-      return this.type === 'featured'
+    visiblePanels() {
+      return this.panels.slice(0, this.currentListSize)
     },
     articleClasses() {
       const classes = []
       if(this.isDAList) {
         classes.push('xlarge')
-      } else if(this.isFeaturedArticleList) {
-        classes.push('xlarge')
       }
       return classes
     }
-  },
-  mounted() {
-    this.$emit('article-count', this.articleCount)
   },
   methods: {
     optimizeTracking,
@@ -115,6 +164,12 @@ export default {
         font-size: 0.75rem;
         color: var(--iorg-neutral);
       }
+    }
+  }
+  .panel {
+    &.more {
+      padding: 1rem;
+      cursor: pointer;
     }
   }
 }
