@@ -8694,13 +8694,14 @@
 	},
 	"cheng-yun-peng": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "cheng-yun-peng",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTkVN6eHfd45fIA2ZksuHbteqYbBL8X7_SyS-d3LHN-xJ7yXdNP16aCYObIOFIK48usN7LVnhVoaLvu/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "佛系應對！對抗資訊戰，立委鄭運鵬：無招勝有招",
@@ -8721,13 +8722,14 @@
 	},
 	"lin-chu-yin": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "lin-chu-yin",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT7y1ZY3sbp0Uz95VEWn4Al0JjmREKEWSEPuGaxZqsM24CrnRgmZkWLkKtjE8-DIFojOfnwdQBzOgfm/pub"
 		},
 		"publishedAt": "2021/2/10 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "如何辨別「中共傳聲筒」？林楚茵：需成立專責部會統合規範",
@@ -8748,13 +8750,14 @@
 	},
 	"wang-ting-yu": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "wang-ting-yu",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR1To_J2_dV3MHI8w73qDGnTTFKwGm7Q_4jE1khd-cRgrmCuwCwIAkUCoS7vh4WuPcHFNOLqk378ygb/pub"
 		},
 		"publishedAt": "2021/1/26 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "王定宇：新型態「混合型戰爭」，錯假資訊已成武器",
@@ -8802,13 +8805,14 @@
 	},
 	"wang-tai-li": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "wang-tai-li",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSftM7S_NxUzSqFexP6PjzFzk0-EOVqVXM_Kh0bj7P9Xbx7K-yZf_YwkrI2lx0n51cdXfsXRBgJhdn3/pub"
 		},
 		"publishedAt": "2021/1/15 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "誰抵抗力最弱？學者王泰俐研究：年輕人、女性、中間選民易受不實訊息影響",
@@ -8829,13 +8833,14 @@
 	},
 	"tsai-yi-yu": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "tsai-yi-yu",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQgAi1mon8h5KAgO_skj4CDvi60XU3XWvoOJGNJg9ws3ny5nSOfDFlASjogM4q3q40H1X6_A1rqcWn_/pub"
 		},
 		"publishedAt": "2021/1/15 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "提告造謠人士卻慘遭法院認證！蔡易餘無奈：台灣太輕忽資訊操弄影響",
@@ -8884,13 +8889,14 @@
 	},
 	"wang-wan-yu": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "wang-wan-yu",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSuzYOdJxKCHunWktmUT02GDvdt8gqhDPAdRHvTa78SAMoBkVBQ3uRlqt3NTI_fD1L58iyEDgIo6y5v/pub"
 		},
 		"publishedAt": "2021/1/12 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "「在地協力者」易成資訊操弄幫凶，王婉諭：嚴格審查是必要的",
@@ -8957,7 +8963,7 @@
 	},
 	"freddy-lim": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "freddy-lim",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRb4zHG6HmEFwEvQUPLwkWuFqWXaBm9pu0yP1MhAMlmNbGPSvqHlJXSxEEZ8cEr_KBHm9sCA_Rnkg_8/pub",
@@ -8966,6 +8972,7 @@
 		"publishedAt": "2021/1/6 18:00",
 		"updatedAt": "2021/6/15 12:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "林昶佐：對獨裁國家來說，民主自由社會到處都是漏洞",
@@ -9049,13 +9056,14 @@
 	},
 	"ho-chih-wei": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "ho-chih-wei",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQfy9k3401PL8q7hdt_UioyV9t6htEzjKae7BihAbHgpvlzZkNUb2qanARsZNPoGOf6iHcrAILdW99i/pub"
 		},
 		"publishedAt": "2020/12/29 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣「久病成良醫」？何志偉：資訊操弄影響範圍會慢慢收斂",
@@ -9076,13 +9084,14 @@
 	},
 	"chen-ting-fei": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "chen-ting-fei",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTRz0hUNsCha7MQYL6uNWVp_x-7T99PJmEewdv9gg9L4M3YgiPkWX-tpt_h-0Bpzi8he4DCuP8rimyp/pub"
 		},
 		"publishedAt": "2020/12/29 12:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "防資訊操弄內憂外患，陳亭妃：應成立中央專責單位",
@@ -9148,13 +9157,14 @@
 	},
 	"chiu-hsien-chih": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "chiu-hsien-chih",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRaSDmp-786XN7dtlIu44P6eTXupG-LMzRyWVNWJHlmvn2gnmLn20Z7DGxlKUdqutHLDaXdnU1TRhbJ/pub"
 		},
 		"publishedAt": "2020/12/15 19:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄影響公民社會，立委邱顯智：會造成寒蟬效應",
@@ -9175,13 +9185,14 @@
 	},
 	"kao-hung-an": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "kao-hung-an",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRGDKuM1bWUsBqPTScQL9kH_DuqrCFMYHhBYvzPbOpiquxDLS6gfKQxzfk0S4N2zFB2040g05dvpgvU/pub"
 		},
 		"publishedAt": "2020/12/15 19:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊管制、言論自由，高虹安：需在天秤兩端取平衡",
@@ -9202,13 +9213,14 @@
 	},
 	"chen-po-wei": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "chen-po-wei",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTpNwhWiN_cLQxzp-GAfLiX94llgnhmaiBA2_BDiNoEcq90YcGpO54svPj0b8ldmm4vLexRrXFfrHo3/pub"
 		},
 		"publishedAt": "2020/12/7 19:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "管控中資、公職陽光法案，陳柏惟擬三面向立法斬資訊操弄",
@@ -9229,13 +9241,14 @@
 	},
 	"wu-szu-yao": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "wu-szu-yao",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQVeChNjtFZuK0ry4-m7bcsdFGhH1G8SVfHlmZvxeurUpOMADCYsPshZRgMF35xQ5LCT8v0Rs8VOrR-/pub"
 		},
 		"publishedAt": "2020/12/7 19:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "立委吳思瑤：每天開門就要應付資訊操弄，對政府是一種內耗",
@@ -9256,13 +9269,14 @@
 	},
 	"chen-yu-chen": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "chen-yu-chen",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTO5ubuc0-xEleRLxXeA8uU35yXorJ0wUhP8Wy7VZ5KxRuZkJPa2IXoRi4_2GHsVv_WLTx9NPgMTodQ/pub"
 		},
 		"publishedAt": "2020/11/20 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "立委陳玉珍：夾到手為什麼要送醫院？解決資訊操弄端看執政者意願",
@@ -9283,13 +9297,14 @@
 	},
 	"audrey-tang": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "audrey-tang",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRfBVrbBCTyg5fp4Xy91iM7w-QgN_Gcs_aUSkcRm7XbznkrvhFVqdbuPD73RnEoRvCkDxnuMib72hHY/pub"
 		},
 		"publishedAt": "2020/11/6 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "「資訊操弄」怎麼防治？唐鳳：小學生、中學生都能加入",
@@ -9366,13 +9381,14 @@
 	},
 	"miao-bo-ya": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "miao-bo-ya",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ-Uohfwj4SuqA0CYVuUiB6xqu4gemWUeC6vroO93qRE6B2oexqHHT97FFNRx1S1shXt9F4quE4snKH/pub"
 		},
 		"publishedAt": "2020/10/23 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "對抗資訊操弄＝防疫！苗博雅：專責、宣導缺一不可",
@@ -9489,13 +9505,14 @@
 	},
 	"fan-yun": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "fan-yun",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSXDwCAL0Lv6KipDWolIn2HH1ARDURvR2PmK3WQbETWl9J5AnEBl3FWRBxKIfBpJ-EyIolwQA4f7zz2/pub"
 		},
 		"publishedAt": "2020/9/29 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄無國界！范雲：修法、NCC、教育「三管齊下」",
@@ -9516,13 +9533,14 @@
 	},
 	"lai-pin-yu": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "lai-pin-yu",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRetoYj84b80uc6TtkVvmu2hwjK_hGu0rGzjAZDG4DisIU08cbk_4_0zZrDFB2WOz4CjJsngQAm5PtB/pub"
 		},
 		"publishedAt": "2020/9/25 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "「統戰團」超多！立委賴品妤：從民代下手",
@@ -9630,13 +9648,14 @@
 	},
 	"chiu-wei-chieh": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "chiu-wei-chieh",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRqZ4MdwNgaEK5rjehiPOVezVzViGrUXaRDcsqnanskUCAp2_lz5i7_kKdFfgVbz6DeubojC5mNuKGv/pub"
 		},
 		"publishedAt": "2020/9/16 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "呱吉：「好人要更強」是對抗資訊操弄的第一步",
@@ -9689,13 +9708,14 @@
 	},
 	"hung-sun-han": {
 		"show": true,
-		"type": "video",
+		"type": "article",
 		"id": "hung-sun-han",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQnfB4wQPQuktOfh6PxZyez3HVT37-il1NIq0NRrkEZPTvAfoDuL6FEfVmZ7ZGp-M00St6u9HJPP5ig/pub"
 		},
 		"publishedAt": "2020/8/29 18:00",
 		"cache": false,
+		"tags": "video",
 		"localizedDocs": {
 			"_tw": {
 				"title": "資訊操弄引爆社會不信任，立委洪申翰：須先凝聚共識",
