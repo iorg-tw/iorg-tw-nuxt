@@ -79,17 +79,6 @@ export default {
     if(showAll) {
       computedType = 'article da eval video research sys'
     }
-    /*
-    const keys = Object.keys(allArticles)
-    const articles = Object.assign({}, ...keys.filter(k => {
-      const a = allArticles[k]
-      return this.showAll ? true : a.show && computedType.includes(a.type)
-    }).map(k => ({ [k]: allArticles[k] })))
-    const featuredArticles = Object.assign({}, ...keys.filter(k => {
-      const a = allArticles[k]
-      return a.featured
-    }).map(k => ({ [k]: allArticles[k] })))
-    */
     const keys = Object.keys(allArticles)
     const articles = keys.filter(k => this.showAll ? true : allArticles[k].show && computedType.includes(allArticles[k].type)).map(k => allArticles[k])
     const featuredArticles = keys.filter(k => allArticles[k].featured).map(k => allArticles[k])

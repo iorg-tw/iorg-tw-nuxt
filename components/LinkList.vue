@@ -10,7 +10,7 @@ export default {
   props: {
     group: {
       type: String,
-      default: 'homepage' // types = article video research da eval sys
+      default: 'home'
     }
   },
   data() {
