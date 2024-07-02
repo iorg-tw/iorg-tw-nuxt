@@ -1,17 +1,11 @@
 <i18n lang="yaml">
 _tw:
-  book: "出版"
-  eval: "評量"
-  da: "週報"
   research: "研究"
-  articles: "報導"
+  publications: "出版"
   events: "活動"
 _en:
-  book: "Book"
-  eval: "Eval"
-  da: "Alert"
   research: "Research"
-  articles: "Articles"
+  publications: "Publications"
   events: "Events"
 </i18n>
 
@@ -22,9 +16,7 @@ _en:
   </nuxt-link>
   <div class="menu main-menu">
     <nuxt-link :to="localePath('/r')" class="item block"><span class="emoji">🧬</span><span class="text">{{ $t('research') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/eval')" class="item block"><span class="emoji">⚠️</span><span class="text">{{ $t('eval') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/da')" class="item block"><span class="emoji">🔔</span><span class="text">{{ $t('da') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/a')" class="item block"><span class="emoji kerning-right-2">🖋</span><span class="text">{{ $t('articles') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/bunkhoo')" class="item block"><span class="emoji kerning-right-2">🖋</span><span class="text">{{ $t('publications') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/e')" class="item block"><span class="emoji kerning-right-4">📍</span><span class="text">{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
