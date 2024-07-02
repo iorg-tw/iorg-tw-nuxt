@@ -1,0 +1,42 @@
+[
+	{
+		"active": true,
+		"group": "home",
+		"url": "https://iorg.tw/about",
+		"emoji": "ℹ️",
+		"locales": {
+			"_tw": "關於",
+			"_en": "About"
+		}
+	},
+	{
+		"active": true,
+		"group": "home",
+		"url": "https://twitter.com/iorgtw",
+		"emoji": "🐦",
+		"locales": {
+			"_tw": "推特",
+			"_en": "Twitter"
+		}
+	},
+	{
+		"active": true,
+		"group": "home",
+		"url": "https://instagram.com/iorg.tw",
+		"emoji": "🖼️",
+		"locales": {
+			"_tw": "IG",
+			"_en": "Instagram"
+		}
+	},
+	{
+		"active": true,
+		"group": "home",
+		"url": "https://facebook.com/iorgtw",
+		"emoji": "🫤",
+		"locales": {
+			"_tw": "臉書",
+			"_en": "Facebook"
+		}
+	}
+]

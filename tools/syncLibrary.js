@@ -26,6 +26,20 @@ function makeLangFile(rows, locale) {
   ].join('\n')
 }
 
+async function getLinks(rows) {
+  result = rows.filter(row => row.group && row.url).map(row => ({
+    active: row.active ? true : false,
+    group: row.group,
+    url: row.url,
+    emoji: row.emoji,
+    locales: {
+      _tw: row._tw,
+      _en: row._en
+    }
+  }))
+  fs.writeFileSync('data/links.json', JSON.stringify(result, null, '\t'))
+}
+
 async function getRedirects(rows) {
   result = rows.filter(row => row.from && row.to).map(row => ({
     active: row.active ? true : false,
@@ -88,6 +102,7 @@ async function getArticles(rows) {
     ...(row.path ? { path: row.path } : {}),
     cache: row.cache ? true : false,
     reload: row.reload ? true : false,
+    ...(row.tags ? { tags: row.tags } : {}),
     localizedDocs: {} // empty obj - new article
   }))
 
@@ -128,16 +143,24 @@ async function getArticles(rows) {
     const row = rows[i]
     const oldArticle = oldArticles[row.id]
     const reload = row.reload
-    delete row.reload
+    delete row.reload // always delete reload
+
+    // use a mix of new and old values if no reload
     if(!reload && oldArticle) {
       console.info(row.id)
+      // toggles should match latest value
       delete oldArticle.show
-      delete oldArticle.featured // toggles should match latest value
-      Object.assign(row, oldArticle) // FIXME: should merge new and old meta instead of overriding everything
-      delete row.reload
+      delete oldArticle.featured
+      // metadata should be updated
+      delete oldArticle.type
+      delete oldArticle.tags
+      // mix new and old values
+      Object.assign(row, oldArticle)
+      delete row.reload // always delete reload
       continue
     }
 
+    // make new article
     const locales = Object.keys(row.publicURLs)
     console.info(row.id, (oldArticle ? 'reload' : 'initialize'), locales)
     let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale], locale, true)))
@@ -330,6 +353,7 @@ async function getEvents(rows) {
 async function get() {
   await doc.loadInfo()
   const sheetIDs = [
+    process.env.LIB_LINKS,
     process.env.LIB_REDIRECTS,
     process.env.LIB_TREE,
     process.env.LIB_STICKERS,
@@ -340,28 +364,33 @@ async function get() {
   const sheets = await Promise.all(sheetIDs.map(s => doc.sheetsById[s].getRows()))
   let rows, result
 
+  console.info(shouldGetLinks ? 'links...' : 'skip links')
+  if(shouldGetLinks) {
+    await getLinks(sheets[0])
+  }
   console.info(shouldGetRedirects ? 'redirects...' : 'skip redirects')
   if(shouldGetRedirects) {
-    await getRedirects(sheets[0])
+    await getRedirects(sheets[1])
   }
   console.info(shouldGetTree ? 'tree...' : 'skip tree')
   if(shouldGetTree) {
-    await getTree(sheets[1])
+    await getTree(sheets[2])
   }
   console.info(shouldGetStickers ? 'stickers...' : 'skip stickers')
   if(shouldGetStickers) {
-    await getStickers(sheets[2])
+    await getStickers(sheets[3])
   }
   console.info(shouldGetArticles ? 'articles...' : 'skip articles')
   if(shouldGetArticles) {
-    await getArticles(sheets[3])
+    await getArticles(sheets[4])
   }
   console.info(shouldGetEvents ? 'events...' : 'skip events')
   if(shouldGetEvents) {
-    await getEvents(sheets[4])
+    await getEvents(sheets[5])
   }
 }
 
+const shouldGetLinks = true
 const shouldGetRedirects = true
 const shouldGetTree = true
 const shouldGetStickers = true
