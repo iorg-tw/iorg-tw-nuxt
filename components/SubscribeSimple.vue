@@ -3,12 +3,12 @@
   "_tw": {
     "sub": "訂閱電子報，追蹤 IORG 最新研究成果。",
     "sub_after_article": "感謝你的閱讀。<br>覺得不錯嗎？留下 Email 就可以訂閱囉 <span class=yes>✌️</span>",
-    "privacy": "基於隱私保護，你的 Email 僅供 IORG 寄送電子報使用，絕不轉作他用，絕不轉交他人。如果你不想再收到 IORG 電子報，請隨時寄信至 bye [at] iorg.tw 取消訂閱，非常感謝。"
+    "privacy": "基於隱私保護，你的 Email 僅供 IORG 寄送電子報使用，絕不轉作他用，絕不轉交他人。"
   },
   "_en": {
     "sub": "Subscribe to IORG Newsletter for our latest research findings.",
     "sub_after_article": "Thank you for reading this article. Like it? Please subscribe <span class=yes>✌️</span>",
-    "privacy": "To protect your privacy, your email will only be used to send you our newsletters. It will not be used for any other purpose, nor will it be available to anyone outside IORG. If you want to unsubscribe, please email us anytime at bye [at] iorg.tw. Thank you."
+    "privacy": "To protect your privacy, your email will only be used for sending newsletters to you and no other other purpose, nor will it be available to anyone outside IORG."
   }
 }
 </i18n>
