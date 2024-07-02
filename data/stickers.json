@@ -839,6 +839,12 @@
 		"_tw": "年代",
 		"_en": "ERA"
 	},
+	"天下": {
+		"id": "天下",
+		"classes": "node group",
+		"_tw": "天下",
+		"_en": "CW"
+	},
 	"鏡": {
 		"id": "鏡",
 		"classes": "node group",
