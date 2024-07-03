@@ -196,10 +196,11 @@
 		"path": "/archive"
 	},
 	{
-		"id": "_O",
+		"id": "_open",
 		"group": 0,
 		"level": 0,
 		"code": "O",
-		"image": "/images/tree/o-h.png"
+		"image": "/images/tree/o-h.png",
+		"path": "/open"
 	}
 ]
