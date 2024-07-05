@@ -1,6 +1,6 @@
 <i18n lang="yaml">
 _tw:
-  read: "線上閱讀報告"
+  read: "閱讀報告"
 _en:
   read: "Read more"
 </i18n>
@@ -16,17 +16,17 @@ _en:
     <div class="container">
       <div class="panel tiled filled raised">
         <div class="detail">
-          <h3 v-html="optimizeTracking($t('iorg_s1'))"></h3>
+          <h3 v-html="optimizeTracking($t('iorg_s1'))" class="slim"></h3>
         </div>
       </div>
       <div class="panel tiled filled raised">
         <div class="detail">
-          <h3 v-html="optimizeTracking($t('iorg_s2'))"></h3>
+          <h3 v-html="optimizeTracking($t('iorg_s2'))" class="slim"></h3>
         </div>
       </div>
       <div class="panel tiled filled raised">
         <div class="detail">
-          <h3 v-html="optimizeTracking($t('iorg_s3'))"></h3>
+          <h3 v-html="optimizeTracking($t('iorg_s3'))" class="slim"></h3>
         </div>
       </div>
       <div class="panel actions">
@@ -34,7 +34,7 @@ _en:
       </div>
     </div>
   </section>
-  <intro k="iorg_about_long" />
+  <intro k="iorg_about" />
 </div>
 </template>
 
