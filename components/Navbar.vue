@@ -1,11 +1,11 @@
 <i18n lang="yaml">
 _tw:
   research: "研究"
-  publications: "出版"
+  reports: "報告"
   events: "活動"
 _en:
   research: "Research"
-  publications: "Publications"
+  reports: "Reports"
   events: "Events"
 </i18n>
 
@@ -16,7 +16,7 @@ _en:
   </nuxt-link>
   <div class="menu main-menu">
     <nuxt-link :to="localePath('/r')" class="item block"><span class="emoji">🧬</span><span class="text">{{ $t('research') }}</span></nuxt-link>
-    <nuxt-link :to="localePath('/bunkhoo')" class="item block"><span class="emoji kerning-right-2">🖋</span><span class="text">{{ $t('publications') }}</span></nuxt-link>
+    <nuxt-link :to="localePath('/bunkhoo')" class="item block"><span class="emoji kerning-right-2">🖋</span><span class="text">{{ $t('reports') }}</span></nuxt-link>
     <nuxt-link :to="localePath('/e')" class="item block"><span class="emoji kerning-right-4">📍</span><span class="text">{{ $t('events') }}</span></nuxt-link>
   </div>
   <div class="menu langs">
