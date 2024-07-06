@@ -847,7 +847,7 @@
 		}
 	},
 	"_R_2023": {
-		"show": false,
+		"show": true,
 		"type": "article",
 		"id": "_R_2023",
 		"publicURLs": {
@@ -861,6 +861,7 @@
 			"_tw": {
 				"title": "2023 總體研究成果",
 				"subtitle": "2023 IORG 台灣資訊環境跨領域科學研究",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
 					{
@@ -957,7 +958,7 @@
 		"publishedAt": "2024/1/11 14:00",
 		"path": "/da/63",
 		"cache": true,
-		"tags": "election weekly",
+		"tags": "election-weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共 – 2024 選前倒數第 2 週",
@@ -1006,7 +1007,7 @@
 		"publishedAt": "2024/1/5 9:00",
 		"path": "/da/62",
 		"cache": true,
-		"tags": "election weekly",
+		"tags": "election-weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共 – 2024 選前倒數第 3 週",
@@ -1304,7 +1305,7 @@
 		"updatedAt": "2023/12/28 17:30",
 		"path": "/da/56",
 		"cache": true,
-		"tags": "election weekly",
+		"tags": "election-weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共 – 2024 選前倒數第 4 週",
@@ -1355,7 +1356,7 @@
 		"updatedAt": "2023/12/28 17:30",
 		"path": "/da/55",
 		"cache": true,
-		"tags": "election weekly",
+		"tags": "election-weekly",
 		"localizedDocs": {
 			"_tw": {
 				"title": "上週中共說什麼 – 2024 選前倒數第 5 週",
@@ -1948,18 +1949,19 @@
 		},
 		"publishedAt": "2023/9/21 17:00",
 		"cache": true,
+		"tags": "press",
 		"localizedDocs": {
 			"_tw": {
 				"title": "「棄台、毀台、假朋友」疑美論持續升級，台灣社會須健全國際識讀，以防治資訊操弄、改善公共討論",
 				"subtitle": "2023.9.21 IORG「疑美論與它們的產地」記者會",
-				"coverImage": "https://lh7-us.googleusercontent.com/U88pkWQ60CHtwVjfIGK9r9ggsJzqM6L3aSyctrZmzIF1vExNr1j4dvC5vjHqdH_z3AwT71hNUTP5qxly6dOap_W8wyoai5k51Li5PwMoOauo0YStJxMnp3njPBY9SlyZxKJoOAwwCAEuvu-4",
+				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXdI6v3t-S2Rmm2xwFX0hU0rcYlBVn63_-ootJZlNz1lcFrsYhReTZjv5IqUjRbaAhIL0hP7Z0jLvJtTU7gQC1Y6U6aPnqoxOOD0WkPL9Hvr7y82dmfAQXq9UEvT8JlHXs-B97MRNicN3edN2LXX?key=HZD46PmmheRDhFic90T2tg",
 				"tags": [
 					"新聞稿"
 				],
 				"sections": [
 					{
 						"id": "h2-1",
-						"titleText": "疑美論事態升級，簡化貶低台美關係為不平等的利益交換，甚至發展為「毀台」"
+						"titleText": "疑美論升級，簡化貶低台美關係為不平等的利益交換，甚至發展為「毀台」"
 					},
 					{
 						"id": "h2-2",
@@ -3411,7 +3413,7 @@
 		"localizedDocs": {}
 	},
 	"_R_2022": {
-		"show": false,
+		"show": true,
 		"type": "article",
 		"id": "_R_2022",
 		"publicURLs": {
@@ -3420,10 +3422,12 @@
 		"publishedAt": "2022/12/3 8:00",
 		"path": "/r/2022",
 		"cache": true,
+		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2022 總體研究成果",
 				"subtitle": "2022 IORG 台灣資訊環境科學研究",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
 					{
@@ -3724,6 +3728,7 @@
 		},
 		"publishedAt": "2022/12/3 17:00",
 		"cache": true,
+		"tags": "press",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2022 民主韌性論壇",
@@ -3756,6 +3761,7 @@
 		"publishedAt": "2022/11/25 22:00",
 		"path": "/da/36",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "選前一週，LINE 資訊操弄再起：世代對立、做票陰謀、疑美論",
@@ -3832,6 +3838,7 @@
 		"publishedAt": "2022/11/23 18:00",
 		"path": "/da/35",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣選舉在微博：旺中佔 6 成以上，中共官媒 1 成",
@@ -3884,6 +3891,7 @@
 		"publishedAt": "2022/11/21 19:00",
 		"path": "/da/34",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "選前 3 個月 YouTube 熱度 Top 20 頻道：半數為新聞媒體，集團影響候選人熱度，旺中偏好情形最明顯",
@@ -3928,6 +3936,7 @@
 		"publishedAt": "2022/11/18 12:00",
 		"path": "/da/33",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "內容農場「密訊」重現 2018 盛況，Facebook 粉專分享總數高居第 2，助長旺中內容傳播",
@@ -3976,6 +3985,7 @@
 		"publishedAt": "2022/11/17 22:00",
 		"path": "/da/32",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "選舉期間，慎防「出口中國再進口」的 LINE 謠言傳播資訊操弄",
@@ -4052,6 +4062,7 @@
 		"publishedAt": "2022/11/10 22:00",
 		"path": "/da/31",
 		"cache": true,
+		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
 				"title": "選舉上半場傳播熱度分析：Facebook 選情冷，新聞熱，整體聚焦台北桃園",
@@ -5422,7 +5433,7 @@
 		}
 	},
 	"_R_2021": {
-		"show": false,
+		"show": true,
 		"type": "article",
 		"id": "_R_2021",
 		"publicURLs": {
@@ -5432,10 +5443,12 @@
 		"publishedAt": "2022/3/3 12:30",
 		"path": "/r/2021",
 		"cache": true,
+		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2021 總體研究成果",
 				"subtitle": "2021 IORG 台灣資訊環境資料科學研究 2021.4.1-12.31",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
 					{
@@ -5476,6 +5489,7 @@
 			"_en": {
 				"title": "IORG 2021 Key Research Conclusions",
 				"subtitle": "2021 IORG Taiwan Information Environment Data Science Research 2021.4.1-12.31",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
 					{
@@ -7930,6 +7944,7 @@
 		},
 		"publishedAt": "2021/3/5 13:00",
 		"cache": true,
+		"tags": "press",
 		"localizedDocs": {
 			"_tw": {
 				"title": "中國對台影響力作戰研究成果發表",
@@ -7965,8 +7980,8 @@
 		}
 	},
 	"_R_2020": {
-		"show": false,
-		"type": "research",
+		"show": true,
+		"type": "article",
 		"id": "_R_2020",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTP2pZvsbfGbERQCtaIduiRkgsRduLp68wBPZOpM6M9mk2ruSX5qrHGbsN3ira567Dc6qj65V0vpqTG/pub",
@@ -7976,9 +7991,11 @@
 		"updatedAt": "2021/5/13 8:00",
 		"path": "/r/2020",
 		"cache": true,
+		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 中國對台影響力作戰研究總體研究成果",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"summary": "IORG 中國對台影響力作戰研究",
 				"tags": [],
 				"sections": [
@@ -8008,6 +8025,7 @@
 			},
 			"_en": {
 				"title": "IORG Key Research Conclusions on Chinese Influence Operations Against Taiwan",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"summary": "IORG Research on Chinese Influence Operations Against Taiwan",
 				"tags": [],
 				"sections": [
@@ -9473,6 +9491,7 @@
 		},
 		"publishedAt": "2020/10/20 12:00",
 		"cache": true,
+		"tags": "press",
 		"localizedDocs": {
 			"_tw": {
 				"title": "解密中國對台認知戰：資訊操弄及網絡分析",
