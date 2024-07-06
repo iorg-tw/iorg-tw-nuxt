@@ -17,7 +17,7 @@ _en:
     <div class="section-header">
       <p class="section-title">{{ $t('da') }}</p>
     </div>
-    <article-list type="da" features=""/>
+    <article-list type="da" features="show-filter" />
   </section>
   <section class="content-list">
     <div class="section-header">
@@ -29,7 +29,7 @@ _en:
     <div class="section-header">
       <p class="section-title">{{ $t('article') }}</p>
     </div>
-    <article-list />
+    <article-list features="show-filter" />
   </section>
 </div>
 </template>
