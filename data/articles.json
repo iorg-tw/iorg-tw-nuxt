@@ -1491,6 +1491,7 @@
 		},
 		"publishedAt": "2023/12/11 18:00",
 		"cache": true,
+		"tags": "survey",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2023 年 10 月 IORG 台灣 YouTube 使用習慣及政治態度調查",
@@ -1563,6 +1564,7 @@
 		},
 		"publishedAt": "2023/12/12 20:30",
 		"cache": true,
+		"tags": "survey",
 		"localizedDocs": {
 			"_tw": {
 				"title": "旺中、三立觀眾世界觀兩極，YouTube 新聞及政論節目環境極化，妨礙民主社會互信",
@@ -1619,6 +1621,7 @@
 		},
 		"publishedAt": "2023/12/11 18:00",
 		"cache": true,
+		"tags": "survey",
 		"localizedDocs": {
 			"_tw": {
 				"title": "選民美中好感度影響賴清德支持度，訴諸戰爭恐懼的疑美論有利柯、侯",
@@ -1994,6 +1997,7 @@
 		"publishedAt": "2023/9/13 17:00",
 		"updatedAt": "2023/9/15 12:30",
 		"cache": true,
+		"tags": "survey",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2023 年 2 月 IORG 台灣 YouTube 使用者習慣調查",
