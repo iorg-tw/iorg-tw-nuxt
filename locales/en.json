@@ -73,5 +73,11 @@
 	"pingtung": "Pingtung",
 	"penghu": "Penghu",
 	"km": "Kinmen",
-	"matsu": "Matsu"
+	"matsu": "Matsu",
+	"tag_biweekly": "Biweekly",
+	"tag_election": "Election",
+	"tag_election-weekly": "Weekly",
+	"tag_annual": "Annual Report",
+	"tag_video": "Video",
+	"tag_press": "Press Release"
 }
