@@ -61,10 +61,13 @@ footer {
     font-size: 1.25rem;
     line-height: 1.375rem;
   }
-  > .manifesto {
-    > .content {
-      max-width: 30rem;
-    }
+  .manifesto > .content {
+    max-width: 30rem;
+  }
+}
+html[lang*="en"] footer {
+  .manifesto > .content {
+    font-family: Georgia, serif;
   }
 }
 </style>
