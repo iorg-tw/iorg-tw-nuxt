@@ -37,7 +37,8 @@ _en:
       </div>
     </template>
     <div v-if="panelsInRange.length < panelsToShow.length" key="more" class="panel tiled">
-      <a class="button action average" @click="currentListRange += pageSize">{{ $t('more') }}</a>
+      <nuxt-link v-if="dest" :to="localePath({ name: dest })" class="button action average">{{ $t('more') }}</nuxt-link>
+      <a v-else @click="currentListRange += pageSize" class="button action average">{{ $t('more') }}</a>
     </div>
   </div>
 </div>
@@ -71,6 +72,10 @@ export default {
     pageSize: {
       type: Number,
       default: 9
+    },
+    dest: {
+      type: String,
+      default: ''
     }
   },
   data() {

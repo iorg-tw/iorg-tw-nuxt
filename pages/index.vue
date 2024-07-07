@@ -8,7 +8,7 @@ _en:
 <template>
 <div class="page home">
   <section class="da">
-    <article-list type="da" features="show-featured-articles show-home-links show-sub" :first-page-size="11" />
+    <article-list type="da" features="show-featured-articles show-home-links show-sub" :first-page-size="11" dest="bunkhoo" />
   </section>
   <div class="divider"></div>
   <section id="r" class="report">
