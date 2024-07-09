@@ -526,6 +526,20 @@ export default {
       }
     }
   }
+  .gdoc-card-container {
+    > .cards {
+      width: 100%;
+      margin: 0;
+      background-color: var(--iorg-paper);
+      @include shadow;
+    }
+    > .description {
+      margin: 0;
+      margin-top: 0.75rem;
+      font-size: 0.875rem;
+      color: #646464;
+    }
+  }
   .gdoc-table-container {
     > .table {
       width: 100%;
@@ -875,6 +889,21 @@ export default {
       margin: 0.25rem;
     }
   }
+  .gdoc-dict {
+    .term {
+      font-size: 1rem;
+      margin-bottom: 0.125rem;
+    }
+    .def {
+      margin-bottom: 0.125rem;
+      font-size: 0.875rem;
+      font-weight: bold;
+    }
+    .desc {
+      margin-bottom: 0;
+      font-size: 0.875rem;
+    }
+  }
   .separator {
     &:after {
       content: '';
@@ -949,6 +978,7 @@ export default {
   }
   .gdoc-photo-container,
   .gdoc-youtube-container,
+  .gdoc-card-container,
   .gdoc-table-container {
     margin-right: 0;
     margin-left: 0;
@@ -978,6 +1008,14 @@ export default {
         width: calc(100% + #{$ext});
         margin-left: -$ext / 2;
         padding-bottom: calc(56.25% + 3.375rem);
+      }
+    }
+  }
+  .gdoc-card-container {
+    > .cards {
+      @media (min-width: 768px) {
+        width: calc(100% + #{$ext});
+        margin-left: -$ext / 2;
       }
     }
   }
@@ -1040,6 +1078,7 @@ export default {
   }
   .gdoc-photo-container,
   .gdoc-youtube-container,
+  .gdoc-card-container,
   .gdoc-table-container {
     margin-right: 0;
     margin-left: 0;
