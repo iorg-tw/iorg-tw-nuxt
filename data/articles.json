@@ -2505,7 +2505,8 @@
 		"type": "da",
 		"id": "_DA_43",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSRQqVlMETfzoFip1Lkh68Cr_6PYWbel9xMkvq7sHeUyyMQ6pXGBsiYM7li8ihQVySYWP1bRSCKZSkY/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSRQqVlMETfzoFip1Lkh68Cr_6PYWbel9xMkvq7sHeUyyMQ6pXGBsiYM7li8ihQVySYWP1bRSCKZSkY/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSgR9zHgq7PXLNSFaVtwgoWSMWuxd_bIydOzNPH1ukGMZwuUWg9cAJ_8QvcoSlA-CBHRiEIztSU8Bje/pub"
 		},
 		"publishedAt": "2023/12/23 15:30",
 		"path": "/da/43",
@@ -2514,7 +2515,7 @@
 			"_tw": {
 				"title": "聯合報「南海會議」「美台生物戰劑」錯誤訊息呼應來自中俄「美國生物武器」長期資訊操弄",
 				"subtitle": "IORG 週報第 43 期 2021.4.1-2023.9.30",
-				"coverImage": "https://lh7-us.googleusercontent.com/0ljbxO3NrG3KOa8PKTCULgLLqWgWVaxNGJIjoHpHpN3iAzYQTgWV4-naJt_bW6fWSyMX0f7elalGJSXW0ypIFhy_Cpya49xr4iPbVbfSIf6K4p4J-6r7gULiiGOKdw-sZNPTKMXUA4aO4-5u",
+				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXfpRSj8ngIA-XfPf_jjmr0XUdRF4pZMeW8C6i1euzFBw1uZYP_p5RGtLbVPo4-miQG0heFv9d5tJge47eRtp__ug8P3qOfTJh3KqpNpJHrvYUqPgdtFrXGDizCyNeck8iQz19JcmkBYQ1aTE3CX?key=usRCwCNRZ8M3-zpsCXwqeQ",
 				"tags": [
 					"週報"
 				],
@@ -2577,6 +2578,25 @@
 				"locale": "_tw",
 				"publishedAt": "2023/12/23 15:30",
 				"cache": "_DA_43_tw"
+			},
+			"_en": {
+				"title": "United Daily News Publishes “Nanhai Meeting”, “US-Taiwan Bio-agent” Falsehoods Echoing Long-running PRC-Kremlin Information Manipulation Regarding “US Bio-weapon”",
+				"subtitle": "IORG Report No. 43 2021.4.1-2023.9.30",
+				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXeZ26xDJ2A9wOJ0uJNJ_s_KhbDx8ZfZDJjhvwTwBRi_eJ4EUyAc-ZQKylBqcdXm5Qr_XgjQ_pCCZKppt7F371ONmtZdTTtBdchWZy0lRMe4BSk9ldItfLbghLyTkIE3lclrlI5dEhmIjW-sHLJNDg?key=V-Vw4kwFlH20JSDm7Pu9fw",
+				"tags": [
+					"Report"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
+				"articleID": "_DA_43",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSgR9zHgq7PXLNSFaVtwgoWSMWuxd_bIydOzNPH1ukGMZwuUWg9cAJ_8QvcoSlA-CBHRiEIztSU8Bje/pub",
+				"locale": "_en",
+				"publishedAt": "2023/12/23 15:30",
+				"cache": "_DA_43_en"
 			}
 		}
 	},
