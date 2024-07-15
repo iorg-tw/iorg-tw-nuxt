@@ -1,4 +1,49 @@
 {
+	"_DA_82": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_82",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS7im5z-tptf59FeDbZAFXiX2wY7a7-Nw-ROp8vcX_9hVevjxzS2uk90QZwf_VsRM7Yqh7kl9HSaBCY/pub"
+		},
+		"publishedAt": "2024/7/15 16:00",
+		"path": "/da/82",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 9 期 – 輸液短缺、廢除刺槍術",
+				"subtitle": "IORG 週報第 82 期 2024.7.11",
+				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXf62NC65P2D7ZG1naYgvHFcO9Ouk7YQGNpxX3L5aa8j23Tra56IuWxRHdLJaA0CQF52wE_FrMeJjmyqwVz3hMzY7Y_chsN48OJmgB8YP600IJAcZJT7fZ-St6TRGYoREYjhPnfMn4eenerwGxu4Yg?key=OFsk9Mfd8aM7eghjGH6hGw",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：輸液短缺"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件：廢刺槍術"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_82",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS7im5z-tptf59FeDbZAFXiX2wY7a7-Nw-ROp8vcX_9hVevjxzS2uk90QZwf_VsRM7Yqh7kl9HSaBCY/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/7/15 16:00",
+				"cache": "_DA_82_tw"
+			}
+		}
+	},
 	"_DA_81": {
 		"show": true,
 		"type": "da",
