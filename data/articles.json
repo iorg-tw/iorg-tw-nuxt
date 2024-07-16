@@ -2674,30 +2674,32 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vRLM9kXj0KLAwvxRMl1U-6-3ZV06lYUPaQO_RvJj8qVDB84LhG_W-GIDWnvyxbUGxapM28-vbuQ2QO_/pub"
 		},
 		"publishedAt": "2020/7/1 12:00",
-		"updatedAt": "2024/6/16 7:00",
+		"updatedAt": "2024/7/17 7:00",
 		"path": "/p/chihhao",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "游知澔",
 				"subtitle": "台灣資訊環境研究中心 IORG 共同主持人",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"articleID": "_P_chihhao",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR094Xisakl4jrh-dasHXWxMHWSoY29yoluU5rzRpcOqa7T1PPBQrJubdo7g9388jEFuxpLePCB0VdW/pub",
 				"locale": "_tw",
 				"publishedAt": "2020/7/1 12:00",
-				"updatedAt": "2024/6/16 7:00",
+				"updatedAt": "2024/7/17 7:00",
 				"cache": "_P_chihhao_tw"
 			},
 			"_en": {
 				"title": "Chihhao Yu",
 				"subtitle": "IORG Co-director",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"articleID": "_P_chihhao",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRLM9kXj0KLAwvxRMl1U-6-3ZV06lYUPaQO_RvJj8qVDB84LhG_W-GIDWnvyxbUGxapM28-vbuQ2QO_/pub",
 				"locale": "_en",
 				"publishedAt": "2020/7/1 12:00",
-				"updatedAt": "2024/6/16 7:00",
+				"updatedAt": "2024/7/17 7:00",
 				"cache": "_P_chihhao_en"
 			}
 		}
@@ -5433,13 +5435,13 @@
 			"_en": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub"
 		},
 		"publishedAt": "2020/7/3 18:00",
-		"updatedAt": "2023/11/7 8:30",
+		"updatedAt": "2024/7/17 7:00",
 		"path": "/about",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "關於 IORG",
-				"summary": "台灣資訊環境研究中心 IORG 是科學及教育防治資訊操弄、深入理解華語資訊環境、改善公共討論、強化民主韌性的台灣民間組織。",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
 					{
@@ -5475,12 +5477,12 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQpoGe3fSxLItkJplq5lqei5iBW1M6G8s1FgRsj7omdCWuBXI5UZlVnKaRzcCd_l9ztORsKRjhkxQwp/pub",
 				"locale": "_tw",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2023/11/7 8:30",
+				"updatedAt": "2024/7/17 7:00",
 				"cache": "_about_tw"
 			},
 			"_en": {
 				"title": "About IORG",
-				"summary": "Taiwan Information Environment Research Center (IORG) is a Taiwanese civil society organization that uses science and education to reduce information manipulation, advance understanding of the Mandarin information environment, facilitate reasonable public discourse, and strengthen Taiwan’s democratic resilience.",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
 					{
@@ -5516,7 +5518,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTNotGa4k8VTiB8l7_TKjyxYGZj1wIya5P8nRDW_OhF3UTFtZPWpomTZo5tpJSFybaCI1L4Ia_pWeZ6/pub",
 				"locale": "_en",
 				"publishedAt": "2020/7/3 18:00",
-				"updatedAt": "2023/11/7 8:30",
+				"updatedAt": "2024/7/17 7:00",
 				"cache": "_about_en"
 			}
 		}
