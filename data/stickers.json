@@ -1,15 +1,27 @@
 {
-	"preview": {
-		"id": "preview",
-		"classes": "ok",
+	"da-preview": {
+		"id": "da-preview",
+		"classes": "highlight",
 		"_tw": "IORG 預報",
 		"_en": "Preview"
 	},
-	"da-preview": {
-		"id": "da-preview",
-		"classes": "ok",
+	"preview": {
+		"id": "preview",
+		"classes": "highlight",
 		"_tw": "IORG 預報",
 		"_en": "Preview"
+	},
+	"ccp-says": {
+		"id": "ccp-says",
+		"classes": "alert",
+		"_tw": "中共宣傳",
+		"_en": "CCP says"
+	},
+	"poohSays": {
+		"id": "poohSays",
+		"classes": "alert",
+		"_tw": "中共宣傳",
+		"_en": "CCP says"
 	},
 	"pooh-says": {
 		"id": "pooh-says",
@@ -21,7 +33,7 @@
 		"id": "pooh-also",
 		"classes": "alert",
 		"_tw": "中共協力",
-		"_en": "CCP also says"
+		"_en": "CCP participation"
 	},
 	"ccp-init": {
 		"id": "ccp-init",
@@ -475,13 +487,13 @@
 	},
 	"op": {
 		"id": "op",
-		"classes": "ok",
+		"classes": "highlight",
 		"_tw": "觀點",
 		"_en": "Opinion"
 	},
 	"opinion": {
 		"id": "opinion",
-		"classes": "ok",
+		"classes": "highlight",
 		"_tw": "觀點",
 		"_en": "Opinion"
 	},
@@ -1102,6 +1114,24 @@
 		"classes": "node group",
 		"_tw": "🇨🇳 商务部",
 		"_en": "🇨🇳 Commerce"
+	},
+	"TPP": {
+		"id": "TPP",
+		"classes": "node group",
+		"_tw": "民眾黨",
+		"_en": "TPP"
+	},
+	"DPP": {
+		"id": "DPP",
+		"classes": "node group",
+		"_tw": "民進黨",
+		"_en": "DPP"
+	},
+	"KMT": {
+		"id": "KMT",
+		"classes": "node group",
+		"_tw": "國民黨",
+		"_en": "KMT"
 	},
 	"yt-short": {
 		"id": "yt-short",
