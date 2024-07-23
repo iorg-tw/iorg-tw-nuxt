@@ -293,6 +293,12 @@
 	},
 	{
 		"active": true,
+		"from": "/doc/dev",
+		"to": "https://docs.google.com/document/d/1KTdlcOQJrqwNVsF4I9XGw6VWlzKv_KGJ82FJFlJwNLg/edit",
+		"type": "doc"
+	},
+	{
+		"active": true,
 		"from": "/doc/sns",
 		"to": "https://docs.google.com/document/d/14LXxlD_hPicVcixhXermPXtaVjso8vASgqRqlhjuui0/edit",
 		"type": "doc"
