@@ -1,4 +1,50 @@
 {
+	"_DA_83": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_83",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTGZxAb3UVT_KuSvTAZEIU9HFYqepCRO3dHK3f2706kDEh0fNk35SJEqhSupECbedP8btCjn7cyEjgT/pub"
+		},
+		"publishedAt": "2024/7/26 13:45",
+		"path": "/da/83",
+		"cache": true,
+		"tags": "biweekly",
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 10 期 – 進口雞蛋爭議、川普拜登辯論",
+				"subtitle": "IORG 週報第 83 期 2024.7.25",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcIXWdjul0yckX8S4_szOj_oK1FHlmHsDHKP1GxYEYQnMiCj5TECQYrWNVSLdt0kGe8EWT4-WHrP8ncOVH0L2Dv8VxBAkvrvMcyRzIFVOh5EetSyW3AkmLONcbqpp9aOIhTb3o8-44U6jVKWyVGnQ?key=mKinS74Ptd8NEs8rEDyjaQ",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：進口雞蛋爭議"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件：川普拜登辯論"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_83",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTGZxAb3UVT_KuSvTAZEIU9HFYqepCRO3dHK3f2706kDEh0fNk35SJEqhSupECbedP8btCjn7cyEjgT/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/7/26 13:45",
+				"cache": "_DA_83_tw"
+			}
+		}
+	},
 	"_DA_82": {
 		"show": true,
 		"type": "da",
