@@ -21,7 +21,7 @@ _en:
       <div v-if="['links'].includes(panel.type) && panel.show" :key="panelIndex" class="panel tiled xlarge">
         <link-list group="home" />
       </div>
-      <nuxt-link v-if="['article', 'featured'].includes(panel.type) && panel.show" :key="panelIndex" :to="localeRoute(panel.data.path ? { path: panel.data.path } : { name: 'a-id', params: { id: panel.data.id } })" class="article block panel tiled filled" :class="articleClasses">
+      <nuxt-link v-if="['article', 'featured'].includes(panel.type) && panel.show" :key="panelIndex" :to="localeRoute(panel.data.path ? { path: panel.data.path } : { name: 'a-id', params: { id: panel.data.id } })" class="article block panel tiled filled" :class="[...panelClasses, panel.type]">
         <img v-if="getLocalizedDoc(panel.data).coverImage" :src="getLocalizedDoc(panel.data).coverImage" class="cover" />
         <div class="detail">
           <h3 v-html="optimizeTracking(getLocalizedDoc(panel.data).title)"></h3>
@@ -84,9 +84,9 @@ export default {
     const showAll = this.features.includes('show-all')
     const showSub = this.features.includes('show-sub')
     const showFilter = this.features.includes('show-filter')
-    const articleClasses = []
+    const panelClasses = []
     if(this.type === 'da') {
-      articleClasses.push('xlarge')
+      panelClasses.push('xlarge')
     }
 
     let computedType = this.type
@@ -102,12 +102,12 @@ export default {
       panels.push({ type: 'links', show: true })
     }
     if(showFeaturedArticles) {
-      panels.push(...featuredArticles.map(a => ({ type: 'featured', data: a })))
+      panels.push(...featuredArticles.map(a => ({ type: 'featured', data: a, show: true })))
     }
     if(articles.length > 0) {
       panels.push({ type: 'article', data: articles[0], show: true })
       if(showSub) {
-        panels.push({ type: 'sub' })
+        panels.push({ type: 'sub', show: true })
       }
       for(let i = 1; i < articles.length; i++) {
         panels.push({ type: 'article', data: articles[i], show: true })
@@ -130,7 +130,7 @@ export default {
       showSub,
       showFilter,
       panels,
-      articleClasses,
+      panelClasses,
       tagSelection,
       currentListRange
     }
