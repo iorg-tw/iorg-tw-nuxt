@@ -926,7 +926,7 @@
 	"公廣": {
 		"id": "公廣",
 		"classes": "node group",
-		"_tw": "公廣集團",
+		"_tw": "公廣",
 		"_en": "TBS"
 	},
 	"台視": {
@@ -951,7 +951,7 @@
 		"id": "真晨報",
 		"classes": "node group",
 		"_tw": "真晨報",
-		"_en": "The Real Daily"
+		"_en": "Real Daily"
 	},
 	"匯流": {
 		"id": "匯流",
@@ -964,6 +964,30 @@
 		"classes": "node group",
 		"_tw": "溏風",
 		"_en": "Fong"
+	},
+	"放言": {
+		"id": "放言",
+		"classes": "node group",
+		"_tw": "放言",
+		"_en": "Fount"
+	},
+	"央廣": {
+		"id": "央廣",
+		"classes": "node group",
+		"_tw": "央廣",
+		"_en": "RTI"
+	},
+	"競鋒": {
+		"id": "競鋒",
+		"classes": "node group",
+		"_tw": "競鋒",
+		"_en": "JFI"
+	},
+	"新報業": {
+		"id": "新報業",
+		"classes": "node group",
+		"_tw": "新報業",
+		"_en": "SPH"
 	},
 	"總台": {
 		"id": "總台",
