@@ -1,4 +1,46 @@
 {
+	"_DA_85": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_85",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTVFeRAkm-5C1cwKK2xoq8vfy-t5Wb6qf2Cuc5B51Y4XsXDM4Hw2MN86nfEXOhXqw0QhTXZEhNPtg6e/pub"
+		},
+		"publishedAt": "2024/8/8 16:00",
+		"path": "/da/85",
+		"cache": true,
+		"tags": "biweekly",
+		"localizedDocs": {
+			"_tw": {
+				"title": "資訊環境雙週報第 12 期 – 拜登退選",
+				"subtitle": "IORG 週報第 85 期 2024.8.8",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZNSknL1b0qFTlJpmCCmhPDaU6V7z1Id1nirPaoMBAx0X9skYp9DjZOQWzHyoPvUG8pa28IKrrVSHmVRuZ7Xz0M9cvdGMOCMJ0zkWP_AEbSbNSVfxNA2zY3FGi4NPAHZDsOnWccFYaJPHyPhZnug?key=kYx6_rlEQhijnDgMkJVPyg",
+				"tags": [
+					"週報",
+					"資訊環境雙週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件：拜登退選"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "國際動態"
+					}
+				],
+				"articleID": "_DA_85",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTVFeRAkm-5C1cwKK2xoq8vfy-t5Wb6qf2Cuc5B51Y4XsXDM4Hw2MN86nfEXOhXqw0QhTXZEhNPtg6e/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/8/8 16:00",
+				"cache": "_DA_85_tw"
+			}
+		}
+	},
 	"_DA_84": {
 		"show": true,
 		"type": "da",
@@ -14,7 +56,7 @@
 			"_tw": {
 				"title": "資訊環境雙週報第 11 期 – 川普遇襲、川普彭博專訪「保護費」說",
 				"subtitle": "IORG 週報第 84 期 2024.8.1",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6g7Qk66Wreu0gX9YMwU-mfb_5JQSlCLdty6W2mAAmXxH_GU4zY2Xuo6ElUSNUJb_4S1Bl2c2HwZyXLozch1ONYFmoyt8UqZq3TlBlh3k77feWUJEdxMCFZynzZ1aOwZc9pSawDf5LLZ3QsH4P?key=LqtWQV3SLgxzTtiMZwxhBg",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfDMVAcesozTN5XmYNAmBwPKPou4qwlDWs9VGTgot2S1bQTKE7Y_WEs_ovkkEaofLMIl2_OS9SVvFmyOCSLsgXrdUFp1gROoOe3Sc7oPcNwUI6hluhDFXTsrzUHh1vtWeFnIEcpu4pRUc3thpLP?key=LqtWQV3SLgxzTtiMZwxhBg",
 				"tags": [
 					"週報",
 					"資訊環境雙週報"
