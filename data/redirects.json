@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/2408",
+		"to": "https://docs.google.com/presentation/d/18bf4-CMQh-Fz--5kcJCJcgyqM0wxGJsa6e5laWLrAXk/edit",
+		"type": "slidedeck",
+		"title": "IORG Brief (2024.8)",
+		"publishedAt": "2024/8/20"
+	},
+	{
+		"active": true,
 		"from": "/s/2404",
 		"to": "https://docs.google.com/presentation/d/1SKposSZA8iQI8LHgJcyEbS6wzRDKH1UuRCUN-kzyI00/edit#",
 		"type": "slidedeck",
