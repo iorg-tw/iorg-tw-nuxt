@@ -1,4 +1,56 @@
 {
+	"taiwan-counters-fimi-gov-parl": {
+		"show": true,
+		"type": "article",
+		"id": "taiwan-counters-fimi-gov-parl",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSxr4q4KkFotKCYjQiTy4RVDzZeQgaZ4hNCmG-IbJs6F3exzrgihZc38iOHh86ByEZHulfjTiTqSK9u/pub"
+		},
+		"publishedAt": "2024/10/29 12:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "Taiwan Counters FIMI – Governmental and Parliamentary Responses",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Executive Summary"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "Recommendations to Taiwan’s Government and Parliament"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "Introduction"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "Dynamics and Evolution"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "Shortcomings of National and International Responses"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "What’s Next"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "Conclusions"
+					}
+				],
+				"articleID": "taiwan-counters-fimi-gov-parl",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSxr4q4KkFotKCYjQiTy4RVDzZeQgaZ4hNCmG-IbJs6F3exzrgihZc38iOHh86ByEZHulfjTiTqSK9u/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/10/29 12:00",
+				"cache": "taiwan-counters-fimi-gov-parl_tw"
+			}
+		}
+	},
 	"_DA_86": {
 		"show": true,
 		"type": "da",
