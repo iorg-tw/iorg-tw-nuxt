@@ -1,4 +1,72 @@
 {
+	"_DA_88": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_88",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQFQXrxd1nmLHeRwFD-w0_LRUe7WK-HVHp9mSqCwKFxKG-9lPAMf43fT4YWwFV7jDoca2w_HKk6MwIq/pub"
+		},
+		"publishedAt": "2024/11/5 19:00",
+		"path": "/da/88",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣、中共看美國總統選舉 – 華語資訊環境 2021 年至拜登退選前傳播情形",
+				"subtitle": "IORG 週報第 88 期 2021.4.1-2024.7.31",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdVcq2m0zlTXTVXI5a50YpASEpeMmsiyDqLgI_JkIt10vsKk273HkWH3sGIDr29UQF8BJvWTxJMmp5AnjwHvc9yVY0-Lg_C4ooy-zUzhh0tLJtZ74iH5VzWB7fPlYwGiRyfh2v8FLtOfCc6JCWHUw?key=a7ryYl8yIvF5t0xGGTkZSQ",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "台灣關注美國選舉程度為中國 5.4 倍"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "今年 6-7 月川拜辯論、川普遇襲、川普專訪、拜登退選出現傳播熱度高峰，台灣重視拜登退選，中國強調川普遇襲"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "民主黨長期平均傳播熱度高、共和黨後來居上，中國資訊環境呈現相反狀況"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中國、經濟、台灣為最熱門議題"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "美國民調 10 大議題：台灣關注經濟、外交、移民，高度爭議議題（槍枝、最高法院）在中國社交媒體可能更熱門"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "國際戰區、區域衝突熱點：俄烏排序高於以哈，台灣新聞、中共抖音關注台海高於以哈，南海、東海的 YouTube 關注度高"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "候選人：華語資訊環境最關注川普司法訴訟，YouTube 最關注拜登年齡，中共強化連結拜登、以哈"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "涉台議題論述方向"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "美國民主論述方向"
+					}
+				],
+				"articleID": "_DA_88",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQFQXrxd1nmLHeRwFD-w0_LRUe7WK-HVHp9mSqCwKFxKG-9lPAMf43fT4YWwFV7jDoca2w_HKk6MwIq/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/11/5 19:00",
+				"cache": "_DA_88_tw"
+			}
+		}
+	},
 	"taiwan-counters-fimi-gov-parl": {
 		"show": true,
 		"type": "article",
