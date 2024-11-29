@@ -115,27 +115,19 @@ export default {
     > .item {
       margin-right: 0.25rem;
       padding: 0.5rem 0.75rem;
+      width: 3rem;
       height: 2rem;
       line-height: 1;
       border: 2px solid currentColor;
       border-radius: 50%;
-      &:not(:last-of-type) {
-        border-right: 2px solid currentColor;
-      }
+      text-align: center;
       &.text {
         font-size: 0.875rem;
         font-weight: bold;
-        > span {
-          line-height: 0.875rem;
-        }
-      }
-      &.flag {
-        > span {
-          line-height: 1rem;
-        }
       }
       > span {
         display: inline-block;
+        line-height: 0.875rem;
       }
     }
   }
