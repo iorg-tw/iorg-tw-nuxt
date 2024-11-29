@@ -6,14 +6,14 @@ const config = {
     {
       code: '_tw',
       iso: 'zh-Hant-TW',
-      name: '華語',
+      name: '華',
       nameType: 'text',
       file: 'tw.json'
     },
     {
       code: '_en',
       iso: 'en-US',
-      name: 'Eng',
+      name: 'EN',
       nameType: 'text',
       file: 'en.json'
     },

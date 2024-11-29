@@ -112,17 +112,19 @@ export default {
     top: 0.5rem;
     right: 0.5rem;
     padding: 0;
-    border: 2px solid currentColor;
-    border-radius: 1px;
     > .item {
-      padding: 0.5rem;
+      margin-right: 0.25rem;
+      padding: 0.5rem 0.75rem;
       height: 2rem;
       line-height: 1;
+      border: 2px solid currentColor;
+      border-radius: 50%;
       &:not(:last-of-type) {
         border-right: 2px solid currentColor;
       }
       &.text {
         font-size: 0.875rem;
+        font-weight: bold;
         > span {
           line-height: 0.875rem;
         }
