@@ -69,6 +69,60 @@
 			}
 		}
 	},
+	"_DA_87": {
+		"show": false,
+		"type": "da",
+		"id": "_DA_87",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSUNMhjWuU01ZfD9uyvILR0_X2aU3K3DZ-ng8ql8Y4slgIVQjVo8X7JCldixF5YzPj2kxjRaTvSusQZ/pub"
+		},
+		"publishedAt": "",
+		"path": "/da/87",
+		"cache": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2023 至 2024 年間台灣 YouTuber、網紅、藝人赴新疆、西藏旅遊相關事件及爭議2023 至 2024 年間台灣 YouTuber、網紅、藝人赴新疆、西藏旅遊爭議藏族寫真（資料蒐集）溝通策略（資料蒐集）",
+				"subtitle": "IORG 週報第 87 期",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "事件背景"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2023-2024 年間共 19 位（組）台灣網紅赴新疆、西藏旅遊後發布言論，時間集中於 2024 年 7-8 月、旅遊地點西藏多於新疆"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "19 位（組）台灣網紅及藝人的傳播傳播及行為異質性高，不應一概而論"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "4 位政論網紅 YouTube 相關影片觀看總數達 560 萬次，是 15 位娛樂網紅跨平台互動總數的 1.68 倍，但娛樂網紅卻更受新聞及輿論關注"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "論述列表"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "傳播熱度以 8.26 後 3 日內最高，台灣、中國資訊環境熱度皆不如黑悟空議題"
+					}
+				],
+				"articleID": "_DA_87",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUNMhjWuU01ZfD9uyvILR0_X2aU3K3DZ-ng8ql8Y4slgIVQjVo8X7JCldixF5YzPj2kxjRaTvSusQZ/pub",
+				"locale": "_tw"
+			}
+		}
+	},
 	"taiwan-counters-fimi-gov-parl": {
 		"show": true,
 		"type": "article",
@@ -6216,19 +6270,15 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "「很多孩子走了！」Facebook 粉專群聚發文、留言內容農場連結",
-				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 24 期 ﹏ 2022.5.25-26",
-				"coverImage": "https://lh7-us.googleusercontent.com/EXMvvPFOyPtqJ-btkEqJ6tmL4jPBw9LP-GZ7ZXwkKLx5ft5KarzzL5n0Zlkf3FXiJxiA9XPK6VoToJ9N39nygECAY9OE3QXlFarivcK-d28DjgqgHhiEzjhWl3WKSfCYa3xR8r24Mb3riuw",
+				"subtitle": "IORG 週報第 24 期 2022.5.25-26",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfVmomCuW9pC5Itu74iiFUxuElCpwvtva0ATs1ij7ZItO3i6iDmPHNuzvfwi_glk57Ll-TTwo0efOZ1wlzziO3p8XUTt1q2N_80eV_x-Ensv0vi2P6OpP2XyVYMSj4KWOs?key=3_8mvsn_kiEcVqZKACMnn_I3",
 				"tags": [
-					"心慌週報"
+					"週報"
 				],
 				"sections": [
 					{
 						"id": "h2-1",
 						"titleText": "摘要"
-					},
-					{
-						"id": "h2-2",
-						"titleText": "附錄"
 					}
 				],
 				"articleID": "_DA_24",
@@ -6244,7 +6294,8 @@
 		"type": "da",
 		"id": "_DA_23",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQmCjaWF02ZBdrQSipzHJaLNp2FaWax2aczTKGxXXgX8y24Eca-QHqv48aRbFGQgGQbeRRv7S8zFhy7/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vT7zPyxsiR1fD42Mu63OpTPScciZuKAVep7f3xWXgYVF59al6PnksyT-Fh6b7ZPzqhKhDfP8Uid7BA9/pub"
 		},
 		"publishedAt": "2022/4/28 12:30",
 		"path": "/da/23",
@@ -6252,10 +6303,10 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "上海疫情下的中共宣傳：讚中國「動態清零」、批西方「躺平共存」",
-				"subtitle": "IORG 資訊操弄心慌週報 ﹋ 第 23 期 ﹏ 中國 COVID-19 疫情特別報吿",
-				"coverImage": "https://lh7-us.googleusercontent.com/T3AlZo5B3NNX4s4AyyHMMv_oPW0kXPQKld6s43Zc7lwvUxpyIvB5DVsQ_RJsjr7xQ8jXUyFMa05CC9aNmlXsPL5DuPlaOdQbR59jWNpefbTGGNy4jUtA-nwt6k7Ts-meh6YBGAMwLO8Cpl0",
+				"subtitle": "IORG 週報第 23 期 – 中國 COVID-19 疫情特別報吿",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc9qwn8YBATHrryUs4r2CrtqXf818tiXpAZsoKxvibTl-Kf_92XcIxcN7uLvepVVYGmcJuYCjPxT12fbcSZcUEVFK_nEs-VC5gS5SUqS6FZmDv21CSs_yfMjBM68iZ5ww?key=d5oDqtOVAQOJiUnK7y7mUw8Y",
 				"tags": [
-					"心慌週報"
+					"週報"
 				],
 				"sections": [
 					{
@@ -6301,10 +6352,6 @@
 					{
 						"id": "h2-11",
 						"titleText": "IORG 觀點：未來可能出現「中國模式抗疫成功」、「台灣政府罔顧人民性命」、「台灣應該進口中國特效藥」中共宣傳"
-					},
-					{
-						"id": "h2-12",
-						"titleText": "附錄"
 					}
 				],
 				"articleID": "_DA_23",
@@ -6312,6 +6359,25 @@
 				"locale": "_tw",
 				"publishedAt": "2022/4/28 12:30",
 				"cache": "_DA_23_tw"
+			},
+			"_en": {
+				"title": "CCP propaganda praises China’s “dynamic COVID-zero” strategy, Western “coexist” policy is “lying flat”",
+				"subtitle": "IORG Report No. 23 COVID-19 in China Special Report",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZCKjKxyhUfV00yFaErWPrv65XDKGw6BVauY99OJN-cDCKuvvPHPIS1S8NlOmR84vi51Pqa3plmwmMdl_Uv_ySASemFoX8wSJJPAWwofpCmmbj_nUZRABX74SYn0Wi-HM?key=BOOMa2W0mRPZbf7TlAlK1ly8",
+				"tags": [
+					"Report"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "Summary"
+					}
+				],
+				"articleID": "_DA_23",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT7zPyxsiR1fD42Mu63OpTPScciZuKAVep7f3xWXgYVF59al6PnksyT-Fh6b7ZPzqhKhDfP8Uid7BA9/pub",
+				"locale": "_en",
+				"publishedAt": "2022/4/28 12:30",
+				"cache": "_DA_23_en"
 			}
 		}
 	},
@@ -6330,7 +6396,7 @@
 			"_tw": {
 				"title": "烏克蘭教台灣的事：開戰時刻，我們該提防的資訊操弄",
 				"subtitle": "IORG 週報第 22 期 – 俄烏戰爭特別報吿",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdIXhk9zHihaN-kvtLbcGz4NEOKBxpzh6KW_zmDBfGdBd1PE4qy0AH09_q11Lq-nQb1IftuAdab7qyrFAY5WK4Ge3fdl2uygMYa-2kKTN7Cdy2xAWjZDvbdhdTF-egs2Is?key=KXLauZLZ2ecYqOn3SBDjXi3a",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXd3Qo--pzJ8Kh6QWWgcmTRY1bMn3FGgsjY49ifqE2E1_a_633TAlmgg60Aq-YR34v3ybfUc6acB1QkAgESKM1FJU_t0jY_rG7PmxogjAdzSRQDMiNInSpBwg702k7Tj9-s?key=KXLauZLZ2ecYqOn3SBDjXi3a",
 				"tags": [
 					"週報"
 				],
@@ -6361,7 +6427,7 @@
 			"_en": {
 				"title": "Manipulated warfare: a Ukrainian lesson for Taiwan’s cognitive defense",
 				"subtitle": "IORG Report No. 22 Russian-Ukrainian War Special Report",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcWAVskPjTGtym8lv9EGmLUmn5xM8CjwxsOH65PIEbF_M35wuVgrDXpChfc41t_WOvC1NCzcFxH9Nlv0EY9sFGQttcZvp6YaT9XnLvdYLYLxUMQTWLc8LITBIcCns4K4U0?key=-OE8cwBF2yja-rxbJ_JPIMAw",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXd4CRRmwSO-zwqPG3mv8L-VtGBgcoJBWL5l7WIl_hEJ7Cr-oPwIBI6Loq99enttiY7BHG_AY7JX3dK7xEk3cUmzPIWu5RRAAlhRo-Vp5M8DwAQFLAJPiVEFP0gDQFBtBr4?key=-OE8cwBF2yja-rxbJ_JPIMAw",
 				"tags": [
 					"Report"
 				],
@@ -6394,7 +6460,7 @@
 			"_tw": {
 				"title": "俄烏戰爭下的資訊操弄：批烏、批美、挺俄、棄台",
 				"subtitle": "IORG 週報第 21 期 2021.11.1-2022.2.28",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdo5lvvgHrlV8bmrutVaoSJ1gJMGt98m4Ru3xuH7daaED1qK2OizOM4Rq6KvB8IEkvem72ivAbpqq3tuGref5H3hr1-ibFO1rC2Okq0YZkAaqmn15A1K6Ld9wV8Bsm88nQ?key=8hD72_pSACyAtvKeRRSBQjla",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVfxGmCxIJLXpCbz-78xHMr_6W-YEXT9Lm6GFvzu2mC5G49EO6aEoJ0XvztB_XFJ1CnBmjKP3RKwMaCI8J-T3F5e_Lut-2cICvQcwWZ0ZNypAdCq9_R6xr3v-iZ8bCedw?key=8hD72_pSACyAtvKeRRSBQjla",
 				"tags": [
 					"週報"
 				],
@@ -6477,7 +6543,7 @@
 			"_en": {
 				"title": "Manipulated warfare: Ukraine bad, US bad, Russia good, abandon Taiwan",
 				"subtitle": "IORG Report No. 21 2021.11.1-2022.2.28",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeodPuOtutiU4jhdnjWoDjpnBzPvB4yVzGMq0z77eVQCLxQTMr4z1bQBEipLyjIeYMX9B60VFZrIUrc9VtYv8TDMjhYNS4ZY0sT1Gu4XFKl7UK77LVnyrRW8pmcbZ4bhVw?key=VCWUg_0flqqXrXJdksSFS1kz",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1ch1mq-usjs-mz-VL2pPGG4zTZMd_nE1TuJm9L0EtXE3fkubzm5n7SNBZFrowgoAV39BE7CwVDBoQekns_oC1V1Si41SYL4MkYz85J472b0szsKGLzfZZ_OG16RnfjA?key=VCWUg_0flqqXrXJdksSFS1kz",
 				"tags": [
 					"Report"
 				],
