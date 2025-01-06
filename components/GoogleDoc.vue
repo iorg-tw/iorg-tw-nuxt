@@ -269,7 +269,7 @@ export default {
       margin-top: calc(-1 * (var(--anchor-scroll-padding-top) + var(--toc-margin) * 2)); // FIXME: scroll-padding
     }
     h2, h3 {
-      margin-bottom: 0.375rem;
+      margin-bottom: 1rem;
     }
     h3 + h3 {
       margin-top: 1.5rem;
