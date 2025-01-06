@@ -761,11 +761,29 @@
 		"_tw": "YT",
 		"_en": "YT"
 	},
+	"ig": {
+		"id": "ig",
+		"classes": "node ig",
+		"_tw": "IG",
+		"_en": "IG"
+	},
 	"th": {
 		"id": "th",
 		"classes": "node th",
 		"_tw": "Threads",
 		"_en": "Threads"
+	},
+	"threads": {
+		"id": "threads",
+		"classes": "node threads",
+		"_tw": "Threads",
+		"_en": "Threads"
+	},
+	"twitter": {
+		"id": "twitter",
+		"classes": "node twitter",
+		"_tw": "Twitter",
+		"_en": "Twitter"
 	},
 	"yt-farm-fb": {
 		"id": "yt-farm-fb",
