@@ -70,20 +70,20 @@
 		}
 	},
 	"_DA_87": {
-		"show": false,
+		"show": true,
 		"type": "da",
 		"id": "_DA_87",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSUNMhjWuU01ZfD9uyvILR0_X2aU3K3DZ-ng8ql8Y4slgIVQjVo8X7JCldixF5YzPj2kxjRaTvSusQZ/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTqp0ktZlzshZMovIXVMKAyxoEj1oDnOdoIY2Ggb_ln1wwmDKFB4K-AW3xGyGqQAu4BM4RkfY7L2W13/pub"
 		},
-		"publishedAt": "",
+		"publishedAt": "2025/1/6 21:30",
 		"path": "/da/87",
-		"cache": false,
+		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "2023 至 2024 年間台灣 YouTuber、網紅、藝人赴新疆、西藏旅遊相關事件及爭議2023 至 2024 年間台灣 YouTuber、網紅、藝人赴新疆、西藏旅遊爭議藏族寫真（資料蒐集）溝通策略（資料蒐集）",
-				"subtitle": "IORG 週報第 87 期",
-				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"title": "台灣網紅遊新疆、西藏，中共「以娛樂掩護政治」以旅遊、網紅「引导国际舆论」爭奪「国际话语权」",
+				"subtitle": "IORG 週報第 87 期 2024.7.1-9.30",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe8szknToxZJNhn5LqEahaklXKszmX3UJ6bNp0Zzit_8XeyHTInJVlNTKMpSjfgLcrCKuFOEw26yiqYOvv8fFNbGGSF2ml_E-fybUzieiFjCS8OyXTgQD3WAbPU93-tdqc?key=McY_AHeQfTXUeW4Dl7osjHxb",
 				"tags": [
 					"週報"
 				],
@@ -94,32 +94,38 @@
 					},
 					{
 						"id": "h2-2",
-						"titleText": "事件背景"
+						"titleText": "背景"
 					},
 					{
 						"id": "h2-3",
-						"titleText": "2023-2024 年間共 19 位（組）台灣網紅赴新疆、西藏旅遊後發布言論，時間集中於 2024 年 7-8 月、旅遊地點西藏多於新疆"
+						"titleText": "事件經過"
 					},
 					{
 						"id": "h2-4",
-						"titleText": "19 位（組）台灣網紅及藝人的傳播傳播及行為異質性高，不應一概而論"
+						"titleText": "2023 至 2024 年間共 19 位（組）台灣網紅赴新疆、西藏旅遊後發布言論，時間集中於 2024 年 7、8 月，旅遊地點西藏多於新疆"
 					},
 					{
 						"id": "h2-5",
-						"titleText": "4 位政論網紅 YouTube 相關影片觀看總數達 560 萬次，是 15 位娛樂網紅跨平台互動總數的 1.68 倍，但娛樂網紅卻更受新聞及輿論關注"
+						"titleText": "19 位（組）台灣網紅及藝人傳播行為異質性高"
 					},
 					{
 						"id": "h2-6",
-						"titleText": "論述列表"
+						"titleText": "4 位政論網紅 YouTube 影片觀看總數是 15 位娛樂網紅跨平台互動總數的 1.68 倍，但娛樂網紅卻更受新聞及輿論關注"
 					},
 					{
 						"id": "h2-7",
-						"titleText": "傳播熱度以 8.26 後 3 日內最高，台灣、中國資訊環境熱度皆不如黑悟空議題"
+						"titleText": "6 分類 16 項論述列表"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "議題於 8 月 26 日後 3 日內達傳播熱度最高峰，熱度遠低於「黑神話：悟空」，中國則未見相同高峰"
 					}
 				],
 				"articleID": "_DA_87",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUNMhjWuU01ZfD9uyvILR0_X2aU3K3DZ-ng8ql8Y4slgIVQjVo8X7JCldixF5YzPj2kxjRaTvSusQZ/pub",
-				"locale": "_tw"
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTqp0ktZlzshZMovIXVMKAyxoEj1oDnOdoIY2Ggb_ln1wwmDKFB4K-AW3xGyGqQAu4BM4RkfY7L2W13/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/1/6 21:30",
+				"cache": "_DA_87_tw"
 			}
 		}
 	},
