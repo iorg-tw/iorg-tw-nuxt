@@ -43,6 +43,10 @@ export default {
   --iorg-alert: #FFCB00;
   --iorg-bad: #FF8F00;
   --iorg-danger: #FF2828;
+  --iorg-accent-tr: rgb(from #2CD086 r g b / 0.35);
+  --iorg-alert-tr: rgb(from #FFCB00 r g b / 0.35);
+  --iorg-bad-tr: rgb(from #FF8F00 r g b / 0.35);
+  --iorg-danger-tr: rgb(from #FF2828 r g b / 0.35);
   --iorg-max: #2CD086;
   --iorg-min: #FF2828;
 

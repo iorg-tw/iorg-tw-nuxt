@@ -625,6 +625,18 @@ export default {
         &.danger {
           color: var(--iorg-danger);
         }
+        &.bad {
+          color: var(--iorg-bad);
+        }
+        &.f-danger {
+          background-color: var(--iorg-danger-tr);
+        }
+        &.f-bad {
+          background-color: var(--iorg-bad-tr);
+        }
+        &.f-alert {
+          background-color: var(--iorg-alert-tr);
+        }
       }
       th {
         text-align: left;
