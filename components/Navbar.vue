@@ -114,10 +114,9 @@ export default {
     padding: 0;
     > .item {
       margin-right: 0.25rem;
-      padding: 0.5rem 0.75rem;
+      padding: 0 0.75rem;
       width: 3rem;
       height: 2rem;
-      line-height: 1;
       border: 2px solid currentColor;
       border-radius: 50%;
       text-align: center;
@@ -125,9 +124,13 @@ export default {
         font-size: 0.875rem;
         font-weight: bold;
       }
+      &.flag {
+        font-size: 1.25rem;
+      }
       > span {
         display: inline-block;
-        line-height: 0.875rem;
+        line-height: calc(2rem - 4px); // 2px top + bottom border
+        vertical-align: top;
       }
     }
   }
