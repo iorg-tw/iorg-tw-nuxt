@@ -183,7 +183,7 @@ export default {
 
   // sections
   > .title {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
     > .subtitle {
       margin-top: 0.375rem;
       font-size: 1.25rem;
