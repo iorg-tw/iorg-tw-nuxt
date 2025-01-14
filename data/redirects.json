@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/2501",
+		"to": "https://docs.google.com/presentation/d/1JDpy2TkFLiv1DQC35UHVFCtJlVtU9BCf4SGnaksiATo/edit",
+		"type": "slidedeck",
+		"title": "IORG Brief (2025.1)",
+		"publishedAt": "2025/1/14"
+	},
+	{
+		"active": true,
 		"from": "/s/5566",
 		"to": "https://docs.google.com/presentation/d/1wDInL8XNEsQWOf3zMNWOA-6ultNMZdGfxGIpPQA6b7w/edit",
 		"type": "slidedeck",
@@ -20,7 +28,7 @@
 		"from": "/s/2404",
 		"to": "https://docs.google.com/presentation/d/1SKposSZA8iQI8LHgJcyEbS6wzRDKH1UuRCUN-kzyI00/edit#",
 		"type": "slidedeck",
-		"title": "IORG Research Briefing (2024.6)",
+		"title": "IORG Research Brief (2024.6)",
 		"publishedAt": "2024/4/7"
 	},
 	{
@@ -28,7 +36,7 @@
 		"from": "/s/23rb",
 		"to": "https://docs.google.com/presentation/d/14YXJV25D9699MXexCWv2emx8MXGVrQB2l0Vaiuy8x5g/edit#",
 		"type": "slidedeck",
-		"title": "IORG Research Briefing (2024.3)",
+		"title": "IORG Research Brief (2024.3)",
 		"publishedAt": "2023/2/16"
 	},
 	{
