@@ -1,4 +1,119 @@
 {
+	"survey-2024-defense": {
+		"show": true,
+		"type": "article",
+		"id": "survey-2024-defense",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQSmTitNXyFY8Ej4LmA3uvXcR97XoysdvWJCd6BwBFECY06wW7nuRH53yKGP-K5NS8uQXHGlVvMRDEM/pub"
+		},
+		"publishedAt": "2024/1/21 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "美選後民調：近六成台灣民眾支持在川普要求下增加國防預算，各黨支持皆過半、僅國民黨選民 68% 不支持",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI9t8Om4MHytRQC3pScWFyHizwK7qyQkFgncAYjdhOeR1Nd5ZZu1CoKIaQt47C9YhbfK3Q8tmSqdMyzOZf8voIsvVZqbrHkZWIFg64PWuCvQ0ARHN0Qie_Q2wFno-DTRA?key=3A-a7uN4obPlGs-eAb6GnsPE",
+				"tags": [
+					"報導",
+					"民調"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "調查方法"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料申請"
+					}
+				],
+				"articleID": "survey-2024-defense",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQSmTitNXyFY8Ej4LmA3uvXcR97XoysdvWJCd6BwBFECY06wW7nuRH53yKGP-K5NS8uQXHGlVvMRDEM/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/1/21 17:00",
+				"cache": "survey-2024-defense_tw"
+			}
+		}
+	},
+	"survey-2024": {
+		"show": true,
+		"type": "article",
+		"id": "survey-2024",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSUxUwECRiz7pDTgQSw7YfEN3RMsPhasy8ubBKSOVcJKVTrED_xkmo2jLH9t4ptdrAdFaYhU1b5mQZI/pub"
+		},
+		"publishedAt": "2024/1/21 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 2024 台灣資訊環境調查",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_YGcYgZtAaymid8QHKGDADaYD3Zik8CLfX411elseD7kuQlwf7UzweWU8Pg2c-kb2K3iac5Y3h4OD09bWY5p_AUZHtnfaoP3-Rg0kb_rUED_3WnPgMz1p3kcyb7E3DQQ?key=-PdgnBQzmrpDSUBA50FC6c_e",
+				"tags": [
+					"報導",
+					"民調",
+					"YouTube"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "1. 社交媒體、通訊軟體及影音平台使用"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2. YouTube 新聞使用"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "3. 美國、中國好感度"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "4. 疑美論與對國防預算提高的態度"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "5. 經濟、國安、民主的台灣失敗論"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "6. 民主支持態度"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "7. 數位人權"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "8. TikTok 使用相關"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "受訪者輪廓"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "調查方法"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "鳴謝"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "資料申請"
+					}
+				],
+				"articleID": "survey-2024",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUxUwECRiz7pDTgQSw7YfEN3RMsPhasy8ubBKSOVcJKVTrED_xkmo2jLH9t4ptdrAdFaYhU1b5mQZI/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/1/21 17:00",
+				"cache": "survey-2024_tw"
+			}
+		}
+	},
 	"_DA_88": {
 		"show": true,
 		"type": "da",
