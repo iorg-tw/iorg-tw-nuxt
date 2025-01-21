@@ -1,6 +1,7 @@
 {
 	"survey-2024-defense": {
 		"show": true,
+		"featured": true,
 		"type": "article",
 		"id": "survey-2024-defense",
 		"publicURLs": {
@@ -11,7 +12,8 @@
 		"localizedDocs": {
 			"_tw": {
 				"title": "美選後民調：近六成台灣民眾支持在川普要求下增加國防預算，各黨支持皆過半、僅國民黨選民 68% 不支持",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI9t8Om4MHytRQC3pScWFyHizwK7qyQkFgncAYjdhOeR1Nd5ZZu1CoKIaQt47C9YhbfK3Q8tmSqdMyzOZf8voIsvVZqbrHkZWIFg64PWuCvQ0ARHN0Qie_Q2wFno-DTRA?key=3A-a7uN4obPlGs-eAb6GnsPE",
+				"subtitle": "IORG 2024 台灣資訊環境調查",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGn0XtfThYEETHCGlvkvqnXyPueOwwPRNZY9B4WiCrct4rSRKYQG6cKyhCpymwpwQQYn34qohqfyzwDj-dARKnFI1FW0UiZnDip7t1heL04r0Z-VdQFH_jealgPqT7YVk?key=3A-a7uN4obPlGs-eAb6GnsPE",
 				"tags": [
 					"報導",
 					"民調"
@@ -45,8 +47,9 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "IORG 2024 台灣資訊環境調查",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_YGcYgZtAaymid8QHKGDADaYD3Zik8CLfX411elseD7kuQlwf7UzweWU8Pg2c-kb2K3iac5Y3h4OD09bWY5p_AUZHtnfaoP3-Rg0kb_rUED_3WnPgMz1p3kcyb7E3DQQ?key=-PdgnBQzmrpDSUBA50FC6c_e",
+				"title": "2024 台灣資訊環境調查",
+				"subtitle": "IORG 2024 年度民意調查",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf784IYsWvkAGaFaTljDxi75rYLWuDDR5hp6grN9slYPYLywvpSyX8RC3diRmM3ZsLzhXvqWL1DGpSAAuP5s1gB2Vl1sByuob72chBQrmDd2ZI2fbUQQzQrFYTgQkXRbIY?key=-PdgnBQzmrpDSUBA50FC6c_e",
 				"tags": [
 					"報導",
 					"民調",
