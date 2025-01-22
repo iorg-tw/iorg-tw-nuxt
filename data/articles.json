@@ -1,4 +1,57 @@
 {
+	"survey-2024-tiktok": {
+		"show": true,
+		"featured": true,
+		"type": "article",
+		"id": "survey-2024-tiktok",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSiCVuxt3oHZjOsFKm1tq4oHerwYNuOJ2EM_0wDpXIhNnD4LWEgwXxb-OkBhUam2EhY4A1j5C7uu0YK/pub"
+		},
+		"publishedAt": "2024/1/22 17:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "美選後民調：台灣 TikTok 使用者對中國更有好感、更認同親美會戰爭、更具台灣經濟失敗傾向",
+				"subtitle": "IORG 2024 台灣資訊環境調查",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbl3HGSAyVYgR4vlDZutyJ5KWWmD1_XRuKCnNVexPTg3BAXmMVYun1M5KBo53COKGUBvkkv64I8EWc_NPa-jvIADmwLACYH5c_LcYE4wWW1Q-KapQWAAwLmqlNL-elsgA?key=0zZyeXJaZs9Fd7QxO6U2ohnT",
+				"tags": [
+					"報導",
+					"民調"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "背景"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "台灣 TikTok 使用者群像"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "TikTok 使用風險：用戶隱私、心理健康、謠言、威權影響力"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "結論"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "調查方法"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "資料申請"
+					}
+				],
+				"articleID": "survey-2024-tiktok",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSiCVuxt3oHZjOsFKm1tq4oHerwYNuOJ2EM_0wDpXIhNnD4LWEgwXxb-OkBhUam2EhY4A1j5C7uu0YK/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/1/22 17:00",
+				"cache": "survey-2024-tiktok_tw"
+			}
+		}
+	},
 	"survey-2024-defense": {
 		"show": true,
 		"featured": true,
@@ -13,7 +66,7 @@
 			"_tw": {
 				"title": "美選後民調：近六成台灣民眾支持在川普要求下增加國防預算，各黨支持皆過半、僅國民黨選民 68% 不支持",
 				"subtitle": "IORG 2024 台灣資訊環境調查",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGn0XtfThYEETHCGlvkvqnXyPueOwwPRNZY9B4WiCrct4rSRKYQG6cKyhCpymwpwQQYn34qohqfyzwDj-dARKnFI1FW0UiZnDip7t1heL04r0Z-VdQFH_jealgPqT7YVk?key=3A-a7uN4obPlGs-eAb6GnsPE",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcx59SEfOfsl4HBmI5GzqVGCTD6T5-fZSm_gq186aqI7UBzskRdYhwlVADoa_97NbD8c6XfsXQhB516--aBEoGdF2kYCUbIn_UKcjcU2VsKYZUtTKBaHaG5ijj193a1keE?key=3A-a7uN4obPlGs-eAb6GnsPE",
 				"tags": [
 					"報導",
 					"民調"
@@ -21,10 +74,26 @@
 				"sections": [
 					{
 						"id": "h2-1",
-						"titleText": "調查方法"
+						"titleText": "背景"
 					},
 					{
 						"id": "h2-2",
+						"titleText": "川普當選後的台灣國防"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "民眾支持增加國防預算，「加稅」影響大於「美國要求」"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "結論"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "調查方法"
+					},
+					{
+						"id": "h2-6",
 						"titleText": "資料申請"
 					}
 				],
@@ -44,12 +113,13 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSUxUwECRiz7pDTgQSw7YfEN3RMsPhasy8ubBKSOVcJKVTrED_xkmo2jLH9t4ptdrAdFaYhU1b5mQZI/pub"
 		},
 		"publishedAt": "2024/1/21 17:00",
+		"updatedAt": "2024/1/22 17:00",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "2024 台灣資訊環境調查",
-				"subtitle": "IORG 2024 年度民意調查",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf784IYsWvkAGaFaTljDxi75rYLWuDDR5hp6grN9slYPYLywvpSyX8RC3diRmM3ZsLzhXvqWL1DGpSAAuP5s1gB2Vl1sByuob72chBQrmDd2ZI2fbUQQzQrFYTgQkXRbIY?key=-PdgnBQzmrpDSUBA50FC6c_e",
+				"subtitle": "IORG 年度全國民意調查",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJaTLdNfD10jUL6S4TXlBRXyr84v15akMIzYTiNc53lyhrpashPRBVEi1sJeJ6KMGz-mU5-rcgdXO4x1whEwkGSSV8X2xpkwR-VrEnpB4_M0Is11_PyiDSvStb6YBRZIU?key=-PdgnBQzmrpDSUBA50FC6c_e",
 				"tags": [
 					"報導",
 					"民調",
@@ -113,6 +183,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSUxUwECRiz7pDTgQSw7YfEN3RMsPhasy8ubBKSOVcJKVTrED_xkmo2jLH9t4ptdrAdFaYhU1b5mQZI/pub",
 				"locale": "_tw",
 				"publishedAt": "2024/1/21 17:00",
+				"updatedAt": "2024/1/22 17:00",
 				"cache": "survey-2024_tw"
 			}
 		}
