@@ -119,11 +119,12 @@
 			"_tw": {
 				"title": "2024 台灣資訊環境調查",
 				"subtitle": "IORG 年度全國民意調查",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXflO2wubp_BsCTAJ_JlfKZY48pMsV3oSo56TQ9kXgYqbwl5ENmUzTIEmjNCj30Ng8QaDkIQYg_AmCjzp0QhsS3F0AsRC7no6PcYbD4FzX8ul7tP7P_qXUL7DoiOjj_7nDQ?key=-PdgnBQzmrpDSUBA50FC6c_e",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSMjC0yOnBTsc-8meO4gU218g0OT7bHZ-2smA21b9cfciz45LPhCfD_2BSFz7rDS-zcCbnsVqPscV6Avwd0z3fFaQSHmC75tJOFCS9u7N-udNyBTk2lqE39OJ21egas_Q?key=-PdgnBQzmrpDSUBA50FC6c_e",
 				"tags": [
 					"報導",
 					"民調",
-					"YouTube"
+					"YouTube",
+					"TikTok"
 				],
 				"sections": [
 					{
@@ -132,7 +133,7 @@
 					},
 					{
 						"id": "h2-2",
-						"titleText": "1. 社交媒體、通訊軟體及影音平台使用"
+						"titleText": "1. 社交媒體、通訊軟體、影音平台使用"
 					},
 					{
 						"id": "h2-3",
@@ -144,15 +145,15 @@
 					},
 					{
 						"id": "h2-5",
-						"titleText": "4. 疑美論與對國防預算提高的態度"
+						"titleText": "4. 台美關係、國防預算態度"
 					},
 					{
 						"id": "h2-6",
-						"titleText": "5. 經濟、國安、民主的台灣失敗論"
+						"titleText": "5. 「台灣失敗論」：經濟、國安、民主"
 					},
 					{
 						"id": "h2-7",
-						"titleText": "6. 民主支持態度"
+						"titleText": "6. 民主支持"
 					},
 					{
 						"id": "h2-8",
@@ -160,7 +161,7 @@
 					},
 					{
 						"id": "h2-9",
-						"titleText": "8. TikTok 使用相關"
+						"titleText": "8. TikTok 使用"
 					},
 					{
 						"id": "h2-10",
