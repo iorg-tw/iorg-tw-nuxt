@@ -189,6 +189,63 @@
 			}
 		}
 	},
+	"_DA_99": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_99",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ2fWyBsPzRL2QwFAM6esMFlEASwRqyPSIBzT1yrPc2qyEhn9PeMnoe4ISLAZ_AYCe1RR-casOCcP9_/pub"
+		},
+		"publishedAt": "2024/2/9 12:00",
+		"path": "/da/99",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "TikTok 上的中共政治宣傳及代理人帳號",
+				"subtitle": "IORG 週報第 99 期 2024.7.1-2024.11.30",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcOjegjOKnSLc9GMJzR9XJBMC8Xrm6Jr9QBzZxXp92kDaI4kdzN1XH3dlHyD1VIkvSKIMNFTQ_ARsTnOZGlXqBxm2yklkMPeRCv-aqNVxSM9cvVJl6FDGhDF4Y_DZhPxw?key=NBHY53-SWFZj2io_SAemhBTm",
+				"tags": [
+					"週報",
+					"TikTok"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料概況"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "影片關聯"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "傳播效果"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "涉事中共官媒抖音帳號"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "涉事 TikTok 帳號"
+					}
+				],
+				"articleID": "_DA_99",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2fWyBsPzRL2QwFAM6esMFlEASwRqyPSIBzT1yrPc2qyEhn9PeMnoe4ISLAZ_AYCe1RR-casOCcP9_/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/2/9 12:00",
+				"cache": "_DA_99_tw"
+			}
+		}
+	},
 	"_DA_91": {
 		"show": true,
 		"type": "da",
@@ -1358,9 +1415,10 @@
 			"_tw": {
 				"title": "偵查中共官媒 TikTok 代理人帳號",
 				"subtitle": "IORG 週報第 71 期 2023.7.1-2024.3.17",
-				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXdhRlwgpOzIgCoCYC9tTs7H-pHi_w0IErJpFdRTUNeck473ptR13QW7512GN2-UDzkGL5pS8dKPHkZvv3djVDgi1ADYWEielWZIHf3YP0A9L6gDBKJAME4Eag56r8unEntdp7y43fMuUQE88tXVyg?key=oBBVnqCT0oY_hasv15tnDQ",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe8a4lLJWUO_YLHaSA95ykePOEw8ajOk9PmZh3da5l-eSxkKXIUOuN5nqhwxpFdO3YegbvZnMUXF-DJDzLYVid3iGv8cCr_6FRVSLEi1y2OOZ9DTFMD2PfQAa25uGwhwzI9CAXaDGveUUeiDSo_3A?key=oBBVnqCT0oY_hasv15tnDQ",
 				"tags": [
-					"週報"
+					"週報",
+					"TikTok"
 				],
 				"sections": [
 					{
@@ -1397,7 +1455,7 @@
 			"_en": {
 				"title": "Detecting PRC Proxies on TikTok – “Two Tea Eggs” and Others",
 				"subtitle": "IORG Report No. 71 2023.7.1-2024.3.17",
-				"coverImage": "https://lh7-us.googleusercontent.com/docsz/AD_4nXdMeZ32Sk8cbrs8COIUDVisF1gmozAfEfBZZRQSSllqQ-lXtdNYqQl_qbpTuorMlDqskfKXybJL6p5tHAWDJfksiViy5ArXBz5pLzdeb3LbRm00G5ZKCqX0M18M1aLX03QOx64wSOWj3IlmVQZqhA?key=6nOOBSAwFMYLyWfiOolq8Q",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc50UXiWIsSMSuPaiLds6Lqo8wYIdrXGHS2pGGdwf-I15isdJwoKqVN8j3yVcDdLdPEC8-5KqLaDIP-vpsqs7K_B61kKoZPBBpl-XDunoIei6enmhq7sUf1JPvbj9crMyRapzrGyJe9RalgijgEfw?key=6nOOBSAwFMYLyWfiOolq8Q",
 				"tags": [
 					"Report"
 				],
