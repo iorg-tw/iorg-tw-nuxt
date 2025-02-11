@@ -189,6 +189,58 @@
 			}
 		}
 	},
+	"_DA_100": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_100",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTR8HjUu7w8Y23-S-Wnu2XWlkNQJmWA2EDwmhvi2T3byK43KmJtUyFZQ2CmuMx6WaMGWkPosaG919zW/pub"
+		},
+		"publishedAt": "2024/2/10 17:00",
+		"path": "/da/100",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 美選前後中共官媒抖音引用台灣人物 Top 20：軍事名嘴名次大幅上升，政治人物侯漢廷、朱立倫、徐巧芯、黃國昌進榜",
+				"subtitle": "IORG 週報第 100 期 2024.10.1-11.30",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJSk3o9s_ezoegOEUEtEq5aAckQQ-yCjrMvVwWpPQhPSHlP6ge7jCrIxfXzkYYkHun9NUmY9eJ3X8-RoPFMy2__bv1aN3sE1z4ln2EaJSFsEoRgufP4i3PyPN0epHNN60?key=F7Gpk7JZKjiHOfbCcW1YsVu_",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "研究背景：2024 年 10-11 月間重大事件"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "20 位中共官媒上的「台灣代表」"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共官媒抖音帳號行為"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共官媒用 20 位「台灣代表」「以台批台」塑造台灣印象：戰爭、疑美、兩岸一家親"
+					}
+				],
+				"articleID": "_DA_100",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTR8HjUu7w8Y23-S-Wnu2XWlkNQJmWA2EDwmhvi2T3byK43KmJtUyFZQ2CmuMx6WaMGWkPosaG919zW/pub",
+				"locale": "_tw",
+				"publishedAt": "2024/2/10 17:00",
+				"cache": "_DA_100_tw"
+			}
+		}
+	},
 	"_DA_99": {
 		"show": true,
 		"type": "da",
@@ -1994,9 +2046,9 @@
 		"tags": "election",
 		"localizedDocs": {
 			"_tw": {
-				"title": "10-11 月中共官媒抖音常用台灣名嘴 Top 10 – 中共提高侯柯曝光、政治組名嘴排名攀升",
+				"title": "10-11 月中共官媒抖音常用台灣名嘴 Top 10：中共提高侯柯曝光、政治組名嘴名次攀升",
 				"subtitle": "IORG 週報第 58 期 2023.10.1-11.30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEnZyZpPGaNDpArnaf_YbXvZVPcrlMmYKIxsS-MSFmVs9bZ9EkeXkFLjVgqLRy9xDmEa_5d_QZvitBE3S3h95O-LQmfRw4nYakdA7nDM6co9cpcNNTJrEl8ashr1Glqps_we9HZPVlrFejfVjCbA?key=2-yRvWIryPyy1GmS-EGo2Q",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcKzXYghqnFtHszuCYv-ynZ0vGGNPfVNXjhAHdoXDZlu-YV3Eba9OtBnYYaLJ-NuYgTLNOnpaLUqd9-XKGDr-UH7pPSxaEi9aL-XM7wMSCXJ_wXAMgFWFjiyrv9s-nUkFBDGmrrNFobMp-yZ29PHQ?key=2-yRvWIryPyy1GmS-EGo2Q",
 				"tags": [
 					"週報"
 				],
@@ -2051,7 +2103,7 @@
 			"_en": {
 				"title": "Top Taiwanese Commentator Featured in PRC State Media Douyin Videos 2023Q4 – More of Candidates Hou, Ke, and Domestic Politics",
 				"subtitle": "IORG Report No. 58 2023.10.1-11.30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXepYN2zGnQ75mVg_DR0v5j0qbqsbgSp_zy-RgwvIr7X7bfVqkL5XgonDJpExhBCnMMuzjaTfU7vTNoaeXQrygKzqVliJXUcSKQOSgWeveW7KHGK5PQsYi_vJTUU7HhLRMaTM1PtmBvaU_s0qfP8SQ?key=NmdAgDxjlXhU41vI84e6rQ",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv7i5QxKhbzvsC6ogRe9F58potew-mBzALWcNXFlbVHOVfMnFx56DKjy0WMlemw5oNoQhXcTA3RjGaiG3VUiQb7-1n3roGfZyr6XxwJPngTwduMb1ZRlsj6NplNw3UF8hrDa9Vp2wretsChCNlhw?key=NmdAgDxjlXhU41vI84e6rQ",
 				"tags": [
 					"Report"
 				],
@@ -2085,7 +2137,7 @@
 			"_tw": {
 				"title": "7-9 月中共官媒抖音常用台灣名嘴：介文汲、賴岳謙、郭正亮",
 				"subtitle": "IORG 週報第 57 期 2023.7.1-9.30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwweizsAdQphhZw97SJ3nA-2qguz0oR4kvXrAemVwTrJkGFVOAVmWj7_Y-eo1dLa0KGjddTNTUCfJ9SKbk7ZaewBbO0vOmSmzwHvTgEAr5hU6gSUy_kD6Om_OGjEv9jjS65yx8SSCRaaJjzh1gqg?key=CvZLQgFhPEykbK5yKiQ2TA",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXctTBDrMYIHRGtLTn2KYeAxecu2IJpnyLgqX241-MywWf_KG0SPXXwkreMb0gg6dT87yUFtFVcmXe4o2uuPP_L0DH0G3v30vDXOx-ustOog7MQSRoqnQoH9X5Ho0WfIh7A7k2UlEZqemEGj2aeD_Q?key=CvZLQgFhPEykbK5yKiQ2TA",
 				"tags": [
 					"週報"
 				],
@@ -2136,7 +2188,7 @@
 			"_en": {
 				"title": "Top Taiwanese Commentator Featured in PRC State Media Douyin Videos 2023Q3",
 				"subtitle": "IORG Report No. 57 2023.7.1-9.30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcKdPbf_IuLPdELGevAeMFVZC29BrcAT3aJ0b3E7tF6E865sbDyzm3ymc5tdx3bEvEmM4akimm_t4LGjTaT5kBqTw8ZyCHwRu7yO5hCdvVnj_1rB3Y66jFjd_Lhx4OoXC8hIYUcKU2UYg5f8WIh_Q?key=N2oG_rb0dnwsGLUWQmRWvQ",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfx3gVTYRN9EZaj_685hYXhEgUwwV1c2I6bXJYyJcfYv4Mzn8foWmZJ3Rl070WkxaWGEzkTwCsg3vQqzzVYHZaKWAKk2pStCTDoNTAdxFkbEtOYaqIfA7xHrFc8qCKGUGROOiR1zdKLZKGfNG5pZg?key=N2oG_rb0dnwsGLUWQmRWvQ",
 				"tags": [
 					"Report"
 				],
