@@ -1,4 +1,52 @@
 {
+	"_DA_102": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_102",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSdY46Z12w6rDEwHV6FIjJ07dT5HNKO_noujMMZOZWtlJ9-WGJyEp9MlRqEXmyeOgOo3RuguBzHt3kZ/pub"
+		},
+		"publishedAt": "2025/2/14 17:00",
+		"path": "/da/102",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣民生失敗論初探：2022 至 2024 年間「七缺」傳播熱度週期",
+				"subtitle": "IORG 週報第 102 期 2022.1.1-2024.12.31",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4EIxEWZs-WKnDFU9RcI2DVxiyqL8JUfB8bq8DvVeFoiTJRylwJ4leFOl7kkDpjOdBA19iTQsZjkm4_MUKwGQfqc42FXpdOu_BdmyTtqQCvcknzrwOdIa-xICLFUnLgXI?key=3rxH_oHvqobq2_O4vW13xB0x",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "台灣新聞傳播熱度高峰及週期"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "重要新聞事件列表"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "YouTube 頻道傳播效果"
+					}
+				],
+				"articleID": "_DA_102",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSdY46Z12w6rDEwHV6FIjJ07dT5HNKO_noujMMZOZWtlJ9-WGJyEp9MlRqEXmyeOgOo3RuguBzHt3kZ/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/2/14 17:00",
+				"cache": "_DA_102_tw"
+			}
+		}
+	},
 	"_DA_101": {
 		"show": true,
 		"type": "da",
