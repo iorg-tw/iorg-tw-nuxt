@@ -1,4 +1,64 @@
 {
+	"_DA_101": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_101",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQJv0eKycNj5tWnatw9sn2JvPjcP2qpvhGe1RtZ-j5RLxLYBmow2NBCmnCpkcNH0slUQ5bbEjZ7Mvf4/pub"
+		},
+		"publishedAt": "2025/2/14 17:00",
+		"path": "/da/101",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 年 3 次中共對台軍演期間 23 項台灣國防失敗論",
+				"subtitle": "IORG 週報第 101 期 2024.1.1-12.31",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXftQLnu3C8OfFVwgJMLxAKZFZG6DgxVlaKNOkUuGLmPp24fbJMkRUS3o22w16L2oLymPCWhOdpVBjMh_s4Lf25GChFCDkhcC42BDgdFkdhXnCfQQg9KNBV0huGGfRw682o?key=OAfyd_xJkTs1qmD0lE60YsFk",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "台灣資訊環境以 YouTube 為代表性平台"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2024 年 19 次台灣國防重大事件"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "3 次解放軍軍演期間，名嘴、網紅、政治人物發起 5 大類別 23 項論述"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "論述描繪台、美、中關係，刻意區分民進黨、台灣人民"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "論述訴諸對象多元，「討厭民進黨」為共同點"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "中共傳播多項「台灣國防失敗」論述，推卸侵略責任、宣揚自身實力、分化台灣人民，有利併吞台灣"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "23 項台灣國防失敗論述傳播情形"
+					}
+				],
+				"articleID": "_DA_101",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQJv0eKycNj5tWnatw9sn2JvPjcP2qpvhGe1RtZ-j5RLxLYBmow2NBCmnCpkcNH0slUQ5bbEjZ7Mvf4/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/2/14 17:00",
+				"cache": "_DA_101_tw"
+			}
+		}
+	},
 	"survey-2024-tiktok": {
 		"show": true,
 		"featured": true,
