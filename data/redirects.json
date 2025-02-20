@@ -1,11 +1,12 @@
 [
 	{
 		"active": true,
-		"from": "/s/2501",
+		"from": "/s/250",
 		"to": "https://docs.google.com/presentation/d/1JDpy2TkFLiv1DQC35UHVFCtJlVtU9BCf4SGnaksiATo/edit",
 		"type": "slidedeck",
-		"title": "IORG Brief (2025.1)",
-		"publishedAt": "2025/1/14"
+		"title": "IORG Brief (2025)",
+		"publishedAt": "2025/1/14",
+		"updatedAt": "2025/2/20"
 	},
 	{
 		"active": true,
