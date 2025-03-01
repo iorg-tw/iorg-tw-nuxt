@@ -1841,8 +1841,8 @@
 		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
-				"title": "2023 總體研究成果",
-				"subtitle": "2023 IORG 台灣資訊環境跨領域科學研究",
+				"title": "2023 台灣資訊環境報告",
+				"subtitle": "台灣資訊環境研究中心 IORG 年度報告",
 				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
@@ -4577,8 +4577,8 @@
 		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
-				"title": "2022 總體研究成果",
-				"subtitle": "2022 IORG 台灣資訊環境科學研究",
+				"title": "2022 台灣資訊環境報告",
+				"subtitle": "台灣資訊環境研究中心 IORG 年度報告",
 				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
@@ -6598,8 +6598,8 @@
 		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
-				"title": "2021 總體研究成果",
-				"subtitle": "2021 IORG 台灣資訊環境資料科學研究 2021.4.1-12.31",
+				"title": "2021 台灣資訊環境報告",
+				"subtitle": "台灣資訊環境研究中心 IORG 年度報告",
 				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
@@ -6639,8 +6639,8 @@
 				"cache": "_R_2021_tw"
 			},
 			"_en": {
-				"title": "IORG 2021 Key Research Conclusions",
-				"subtitle": "2021 IORG Taiwan Information Environment Data Science Research 2021.4.1-12.31",
+				"title": "2021 Taiwan Information Environment Report",
+				"subtitle": "IORG Annual Report",
 				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
@@ -9150,9 +9150,9 @@
 		"tags": "annual",
 		"localizedDocs": {
 			"_tw": {
-				"title": "IORG 中國對台影響力作戰研究總體研究成果",
+				"title": "IORG 2020 中國對台影響力作戰研究報告",
 				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
-				"summary": "IORG 中國對台影響力作戰研究",
+				"summary": "IORG 中國對台影響力作戰研究總體研究成果共 14 項，分為 4 部分：「中國對台資訊操弄」3 項、「資訊操弄協力者」4 項、「中國對台滲透、經濟影響力作戰」4 項、「民主防衛」3 項。",
 				"tags": [],
 				"sections": [
 					{
@@ -9180,9 +9180,9 @@
 				"cache": "_R_2020_tw"
 			},
 			"_en": {
-				"title": "IORG Key Research Conclusions on Chinese Influence Operations Against Taiwan",
+				"title": "IORG 2020 Report on Chinese Influence Operations Against Taiwan",
 				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
-				"summary": "IORG Research on Chinese Influence Operations Against Taiwan",
+				"summary": "IORG presents 14 key research conclusions on Chinese influence operations against Taiwan, organized in 4 parts: 3 on Chinese information manipulation against Taiwan, 4 on information manipulation collaborators, 4 on Chinese infiltration against Taiwan, and 3 on the defending democracy.",
 				"tags": [],
 				"sections": [
 					{
