@@ -138,6 +138,43 @@
 			}
 		}
 	},
+	"2503": {
+		"show": true,
+		"type": "conf",
+		"id": "2503",
+		"area": "online",
+		"slogan": "IORG 年度論壇",
+		"date": "2025/3/6",
+		"time": null,
+		"cache": true,
+		"hasPage": true,
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQNLhRk5JFxnHKAmGXccPgiZKxdLdS-lHvRVUjp-tj6jOT-pWFwbzTjD9Wbj1ePcsViDl2PM4V6ra-d/pub",
+			"_en": "https://docs.google.com/document/d/e/2PACX-1vSnoeHAfeR_uST_fU-hcMxjdF_5VaU8tiCjZrWh20DtdPR9JqdHsEx1kYRC4wDdIRrF3GeG5kzJGYAc/pub"
+		},
+		"localizedDocs": {
+			"_tw": {
+				"title": "IORG 2025 論壇",
+				"subtitle": "台灣資訊環境研究中心 IORG 年度論壇 2025.3.6",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"summary": "台灣資訊環境研究中心 IORG 年度論壇 2025.3.6",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQNLhRk5JFxnHKAmGXccPgiZKxdLdS-lHvRVUjp-tj6jOT-pWFwbzTjD9Wbj1ePcsViDl2PM4V6ra-d/pub",
+				"locale": "_tw",
+				"cache": "2503_tw"
+			},
+			"_en": {
+				"title": "IORG 2025 Forum",
+				"subtitle": "IORG Annual Forum 2025.3.6",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"summary": "IORG Annual Forum 2025.3.6",
+				"tags": [],
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnoeHAfeR_uST_fU-hcMxjdF_5VaU8tiCjZrWh20DtdPR9JqdHsEx1kYRC4wDdIRrF3GeG5kzJGYAc/pub",
+				"locale": "_en",
+				"cache": "2503_en"
+			}
+		}
+	},
 	"meetup-2403": {
 		"show": true,
 		"type": "meetup",
