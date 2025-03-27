@@ -362,13 +362,14 @@
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQ2fWyBsPzRL2QwFAM6esMFlEASwRqyPSIBzT1yrPc2qyEhn9PeMnoe4ISLAZ_AYCe1RR-casOCcP9_/pub"
 		},
 		"publishedAt": "2025/2/9 12:00",
+		"updatedAt": "2025/3/27 17:00",
 		"path": "/da/99",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "TikTok 上的中共政治宣傳及代理人帳號",
 				"subtitle": "IORG 週報第 99 期 2024.7.1-2024.11.30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJkfvDElTPMSoorChKnFIhH4EsDfVGBAsSwn5KnuCSOszeTN45E1PynROcLjNNHjdL0AP-Z38vqJ1mX-oDpsqzEjbbDDM7ygD_YShFCFz6_alKhoiJkj257Q-rpcPvDw?key=NBHY53-SWFZj2io_SAemhBTm",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfK6We40x_4k_XMH8Va2whdudXmJslD4evt77Drm5ORIazvGicjs_eSKK8XNZ6JfFBJf6V0nV5ubeMxiB_gAq8nQe6XA09Jnfrr1zKTekllNNq71Glu5-zfz-5XuqPu-g?key=NBHY53-SWFZj2io_SAemhBTm",
 				"summary": "台灣資訊環境研究中心 IORG 以中共官媒旗下抖音帳號資料為基礎，建立大規模自動化影音資料分析流程，分析匿名 TikTok 帳號行為及影片內容，尋找中共官媒及其代理人的足跡。",
 				"tags": [
 					"週報",
@@ -408,6 +409,7 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQ2fWyBsPzRL2QwFAM6esMFlEASwRqyPSIBzT1yrPc2qyEhn9PeMnoe4ISLAZ_AYCe1RR-casOCcP9_/pub",
 				"locale": "_tw",
 				"publishedAt": "2025/2/9 12:00",
+				"updatedAt": "2025/3/27 17:00",
 				"cache": "_DA_99_tw"
 			}
 		}
