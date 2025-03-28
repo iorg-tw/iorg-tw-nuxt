@@ -344,6 +344,18 @@ export default {
         font-size: 0.625rem;
         line-height: 1;
       }
+      &.kmt > .content {
+        background-color: var(--kmt);
+      }
+      &.dpp > .content {
+        background-color: var(--dpp);
+      }
+      &.pfp > .content {
+        background-color: var(--pfp);
+      }
+      &.np > .content {
+        background-color: var(--np);
+      }
     }
     h2 .sticker {
       display: block;
