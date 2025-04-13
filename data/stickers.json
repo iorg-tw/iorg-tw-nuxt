@@ -1177,21 +1177,27 @@
 	},
 	"TPP": {
 		"id": "TPP",
-		"classes": "node group",
+		"classes": "node party tpp",
 		"_tw": "民眾黨",
 		"_en": "TPP"
 	},
 	"DPP": {
 		"id": "DPP",
-		"classes": "node group",
+		"classes": "node party dpp",
 		"_tw": "民進黨",
 		"_en": "DPP"
 	},
 	"KMT": {
 		"id": "KMT",
-		"classes": "node group",
+		"classes": "node party kmt",
 		"_tw": "國民黨",
 		"_en": "KMT"
+	},
+	"NP": {
+		"id": "NP",
+		"classes": "node party np",
+		"_tw": "新黨",
+		"_en": "NP"
 	},
 	"yt-short": {
 		"id": "yt-short",
