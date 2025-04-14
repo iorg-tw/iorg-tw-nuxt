@@ -1,4 +1,52 @@
 {
+	"_DA_104": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_104",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSoJ6Ep_6QTl8M0hWETuUpyvPSU0XZnK5Od3EfmZ1U405kYEOlMRcSslr_rzK-fhz4EEeqKM0Ee58kJ/pub"
+		},
+		"publishedAt": "2025/4/14 22:00",
+		"path": "/da/104",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2025 年「大罷免」期間中共最常提及區域立委 Top 10 有 9 位國民黨籍：徐巧芯、傅崐萁、王鴻薇、羅智強、陳玉珍",
+				"subtitle": "IORG 週報第 104 期 2025.1.1-2025.4.12",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "背景：今年 1 月起全國各地正式發起立委罷免連署"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "中共行為：「海峡导报」所屬「福建日报报业集团」最積極關注現任立委，香港「鳳凰衛視」次之，大致符合中共對台宣傳常態"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "所有立委：徐巧芯、沈伯洋、三黨總召最受中共關注，進入二階連署的民進黨區域立委獲中共 3 倍關注"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "區域立委：中共最常提及前 10 有 9 位國民黨籍，吳思瑤為例外"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "政黨：中共最常提及國民黨立委"
+					}
+				],
+				"articleID": "_DA_104",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSoJ6Ep_6QTl8M0hWETuUpyvPSU0XZnK5Od3EfmZ1U405kYEOlMRcSslr_rzK-fhz4EEeqKM0Ee58kJ/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/4/14 22:00",
+				"cache": "_DA_104_tw"
+			}
+		}
+	},
 	"_DA_102": {
 		"show": true,
 		"type": "da",
