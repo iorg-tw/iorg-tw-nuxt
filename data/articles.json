@@ -47,6 +47,88 @@
 			}
 		}
 	},
+	"_DA_103": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_103",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vT_Ea4yhoV7bHqW2WD8kanQ049koZXxDqq0l5_G44x7Q29MGmSvdT_DN-WuNZbcRbjk3Sgj156lmJs7/pub"
+		},
+		"publishedAt": "2025/3/10 22:00",
+		"updatedAt": "2025/3/28 9:00",
+		"path": "/da/103",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024 年中共官方支持下的兩岸產業交流：10 大產業、849 場活動、28 位現任立委、縣長、議長，推估超過 7 萬人次台灣人參與",
+				"subtitle": "IORG 週報第 103 期 2024.1.1-12.31",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLGd2CCWJWWtq_lgTx7uwYyodwDa4Wxq5kobN-whj6nz_GT4J-GgRydX92YfamdZpJipg7VTtEuSh3p9QiQMPd_txmW0pcopvedE_rxF7ymRO2SoIEUm26xrB1vYrp9SI?key=PNQ8mpJKNJvHf2wYWZZssPQ9",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "4 月 22 日更新"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "2024 年共 849 場中國涉台產業交流活動，推估約 77,560 台灣人（次）參與"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "10 大交流產業：農業、旅遊業、生物醫藥產業居首，茶產業活動數量可排第 4"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "5 場活動涉及推動「两岸共通标准」、「国家标准」：智慧財產權服務、低碳經濟、美人茶、茯茶、牛樟芝、插花，升高中共對台經濟脅迫風險"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "「近台臨海」省份福建、浙江、廣東活動數量居首，內陸省份以四川、湖北、貴州名列前茅"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "下半年活動數量為上半年的 1.45 倍，台灣人參與人次高峰在 6-8 月"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "8 場活動台灣人參與人次破千、6 場集中於福建省，6 月份第 16 屆「海峡论坛」7 千台灣人參與人次最高"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "475 位中國人名被提及、55 人至少參與 2 場次活動；中共官員以中央政治局常委王滬寧層級最高、國台辦主任宋濤參與次數最多"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "782 位台灣人名被提及、92 人至少參與 2 場次活動，企業界人士以「全国台企联」會長李政宏最多，政治人物以國民黨副主席夏立言最多，現任立委及縣市首長全為國民黨籍（或國民黨支持）"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "附錄：10 大產業相關字詞對照表"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "附錄：10 大產業重要活動列表"
+					}
+				],
+				"articleID": "_DA_103",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vT_Ea4yhoV7bHqW2WD8kanQ049koZXxDqq0l5_G44x7Q29MGmSvdT_DN-WuNZbcRbjk3Sgj156lmJs7/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/3/10 22:00",
+				"updatedAt": "2025/3/28 9:00",
+				"cache": "_DA_103_tw"
+			}
+		}
+	},
 	"_DA_102": {
 		"show": true,
 		"type": "da",
