@@ -1199,6 +1199,18 @@
 		"_tw": "新黨",
 		"_en": "NP"
 	},
+	"KMT-caucus": {
+		"id": "KMT-caucus",
+		"classes": "node party kmt",
+		"_tw": "加入國民黨立院黨團",
+		"_en": "KMT Caucus"
+	},
+	"KMT-backed": {
+		"id": "KMT-backed",
+		"classes": "node party kmt",
+		"_tw": "國民黨支持",
+		"_en": "KMT-backed"
+	},
 	"yt-short": {
 		"id": "yt-short",
 		"classes": "node yt",
