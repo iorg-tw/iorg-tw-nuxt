@@ -1,4 +1,43 @@
 {
+	"_DA_108": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_108",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSW8l-btHoSoD3VubvSXM3ej7-dgEoIg3ccIqbzJOj8dUGyPLrvUbSKLdmEiC1i79GGvMeHBfoJ-5kp/pub"
+		},
+		"publishedAt": "",
+		"path": "/da/108",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "以 426 國民黨「反綠共、戰獨裁」集會相關貼文觀察微博言論審查機制",
+				"subtitle": "IORG 週報第 108 期 2025.4.1-29",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGghSJZEyLguAbnaoSMH7ZD1a1B3HWogqs4XcNV_dCwtsLhsCoIGl2b5GlAlCTqb0_AAIkx7VjBmVy1BScnl-hGHsss0GCH2Aiq4kTYhQmk2Yiozf4YCm5YKaKag_RnA?key=19WvZ7Ch99JAhAF6NSGmRqal",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "背景"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "微博敏感詞：「绿共」禁用情形有例外，「独裁」「法西斯」不是禁用詞，「共产独裁」是禁用詞"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "微博言論審查機制：標準不一、納入立場、產能限制、特權帳號"
+					}
+				],
+				"articleID": "_DA_108",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSW8l-btHoSoD3VubvSXM3ej7-dgEoIg3ccIqbzJOj8dUGyPLrvUbSKLdmEiC1i79GGvMeHBfoJ-5kp/pub",
+				"locale": "_tw",
+				"cache": "_DA_108_tw"
+			}
+		}
+	},
 	"_DA_104": {
 		"show": true,
 		"type": "da",
