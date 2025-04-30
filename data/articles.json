@@ -13,7 +13,7 @@
 			"_tw": {
 				"title": "以 426 國民黨「反綠共、戰獨裁」集會相關貼文觀察微博言論審查機制",
 				"subtitle": "IORG 週報第 108 期 2025.4.1-29",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXclDqmEfd8s1IWbL2IqsaebLEvaTXuX6TTaJvZKvN5TEH-jAC7Xth-vQjy8hDapwQI9YHWpOmMH1GB3gsmmhJZSlMcjilDUfRbEE0e98Qc-Q1AlAmVZ-QaniJbJpSGkkA?key=19WvZ7Ch99JAhAF6NSGmRqal",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcevnfTZ8e6ILfvK5YM5OKwYbw6S2XJvn-fFt051XaVNhmXgwqqGrycYqQVLC8lPvUuK1CZpCztAkCHXcO16XD_jqqnfQJ9J3iU6DKbxdinBdvK26DzYhbKiH-ZairPhQ?key=19WvZ7Ch99JAhAF6NSGmRqal",
 				"tags": [
 					"週報"
 				],
@@ -28,7 +28,11 @@
 					},
 					{
 						"id": "h2-3",
-						"titleText": "微博言論審查機制：標準不一、納入立場、量能受限、特權帳號"
+						"titleText": "微博言論審查機制：標準不一、參考立場、量能受限、特權帳號"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "台灣媒體使用「綠共」情形：旺中集團獨佔 27.18%"
 					}
 				],
 				"articleID": "_DA_108",
