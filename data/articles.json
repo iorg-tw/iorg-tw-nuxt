@@ -1,4 +1,87 @@
 {
+	"_DA_111": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_111",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQPVVBxE-35qOqBLiIVcSN4BgJGFLV_ZPWoiPVFH44RXShVIfVC72e32F1_Lei1TIHTWufjV5D3m5Ix/pub"
+		},
+		"publishedAt": "",
+		"path": "/da/111",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "形塑「大罷免不正當」世界觀：5 項中共觀點、32 項資訊操弄論述、10 項設計技巧、6 項操作戰術",
+				"subtitle": "IORG 週報第 111 期 2025.1.1-6.30",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBg-7eAFhXniQTqx79sjA2ukalm_mCa5jDG8CrSMMvoS4QAlm2uUfE5diEoJ2YmLhw2kNaC3ne0cNnaKKsYqYnKGIr-4efFY_AjU0gz5FSS9KjFgInGEqFYcp_0qch15vC4fVTq5EuVFKbK",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "7 月起重要日期"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "事件背景"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "傳播熱度分析"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共官媒提及台灣公眾人物 Top 10：名嘴郭正亮居首、「館長」陳之漢為唯一網紅、黃國昌為唯一民眾黨政治人物、7 名區域立委面臨罷免第三階段"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共官媒較台灣媒體更強調民進黨，更常使用「侧翼」指稱罷免團體"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "中共的「大罢免」世界觀：赖清德及民进党政府主导、针对在野党的政治斗争，展现「绿色恐怖、独裁」本质，支持者是「青鸟、黑熊、蟾蜍」像邪教，撕裂台湾社会，「岛内民众」高喊「我反绿」"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "中共官媒大量使用「绿色恐怖」「独裁」批評台灣民主及執政黨，使用「蟾蜍」「绿卫兵」批評大罷免支持者，但不使用「绿共」「塔绿班」"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "台灣媒體集團使用爭議用詞比例以「TVBS」「旺中」「風傳媒」「東森」「聯合」等集團為前 5 多，「旺中」6 項爭議用詞使用比例皆大於平均"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "32 項資訊操弄論述提及大罷免，針對 8 類對象：執政黨、罷免團體、支持者"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "3 項「作票」資訊操弄論述已經出現"
+					},
+					{
+						"id": "h2-12",
+						"titleText": "32 項資訊操弄論述可分 6 類：政爭、牟利、民怨、污名、害台、黑手"
+					},
+					{
+						"id": "h2-13",
+						"titleText": "10 項設計技巧：強化資訊操弄論述的說服力"
+					},
+					{
+						"id": "h2-14",
+						"titleText": "6 項操作戰術：擴大資訊操弄傳播效果"
+					}
+				],
+				"articleID": "_DA_111",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQPVVBxE-35qOqBLiIVcSN4BgJGFLV_ZPWoiPVFH44RXShVIfVC72e32F1_Lei1TIHTWufjV5D3m5Ix/pub",
+				"locale": "_tw",
+				"cache": "_DA_111_tw"
+			}
+		}
+	},
 	"_DA_108": {
 		"show": true,
 		"type": "da",
@@ -104,6 +187,7 @@
 		"updatedAt": "2025/4/22 11:00",
 		"path": "/da/103",
 		"cache": true,
+		"tags": "cross-strait-exchange",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2024 年中共官方支持下的兩岸產業交流：10 大產業、849 場活動、28 位現任立委、縣長、議長，推估超過 7 萬人次台灣人參與",
