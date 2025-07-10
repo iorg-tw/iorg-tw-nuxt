@@ -769,7 +769,7 @@
 	},
 	"th": {
 		"id": "th",
-		"classes": "node th",
+		"classes": "node threads",
 		"_tw": "Threads",
 		"_en": "Threads"
 	},
@@ -784,6 +784,18 @@
 		"classes": "node twitter",
 		"_tw": "Twitter",
 		"_en": "Twitter"
+	},
+	"dcard": {
+		"id": "dcard",
+		"classes": "node dcard",
+		"_tw": "Dcard",
+		"_en": "Dcard"
+	},
+	"dc": {
+		"id": "dc",
+		"classes": "node dcard",
+		"_tw": "Dcard",
+		"_en": "Dcard"
 	},
 	"yt-farm-fb": {
 		"id": "yt-farm-fb",
@@ -1013,6 +1025,12 @@
 		"_tw": "新報業",
 		"_en": "SPH"
 	},
+	"今日": {
+		"id": "今日",
+		"classes": "node group",
+		"_tw": "今日傳媒",
+		"_en": "NOW news"
+	},
 	"總台": {
 		"id": "總台",
 		"classes": "node group",
@@ -1181,6 +1199,12 @@
 		"_tw": "🇨🇳 四川日报报业集团",
 		"_en": "🇨🇳 Sichuan Daily"
 	},
+	"濟南日報": {
+		"id": "濟南日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 济南日报",
+		"_en": "🇨🇳 Jinan Daily"
+	},
 	"TPP": {
 		"id": "TPP",
 		"classes": "node party tpp",
@@ -1201,6 +1225,30 @@
 	},
 	"NP": {
 		"id": "NP",
+		"classes": "node party np",
+		"_tw": "新黨",
+		"_en": "NP"
+	},
+	"tpp": {
+		"id": "tpp",
+		"classes": "node party tpp",
+		"_tw": "民眾黨",
+		"_en": "TPP"
+	},
+	"dpp": {
+		"id": "dpp",
+		"classes": "node party dpp",
+		"_tw": "民進黨",
+		"_en": "DPP"
+	},
+	"kmt": {
+		"id": "kmt",
+		"classes": "node party kmt",
+		"_tw": "國民黨",
+		"_en": "KMT"
+	},
+	"np": {
+		"id": "np",
 		"classes": "node party np",
 		"_tw": "新黨",
 		"_en": "NP"
