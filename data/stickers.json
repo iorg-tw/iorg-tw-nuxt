@@ -761,6 +761,12 @@
 		"_tw": "YT",
 		"_en": "YT"
 	},
+	"yts": {
+		"id": "yts",
+		"classes": "node yt",
+		"_tw": "YT 短影音",
+		"_en": "YT short"
+	},
 	"ig": {
 		"id": "ig",
 		"classes": "node ig",
@@ -772,6 +778,24 @@
 		"classes": "node threads",
 		"_tw": "Threads",
 		"_en": "Threads"
+	},
+	"tr": {
+		"id": "tr",
+		"classes": "node twitter",
+		"_tw": "Twitter",
+		"_en": "Twitter"
+	},
+	"dc": {
+		"id": "dc",
+		"classes": "node dcard",
+		"_tw": "Dcard",
+		"_en": "Dcard"
+	},
+	"yt-short": {
+		"id": "yt-short",
+		"classes": "node yt",
+		"_tw": "YT 短影音",
+		"_en": "YT short"
 	},
 	"threads": {
 		"id": "threads",
@@ -787,12 +811,6 @@
 	},
 	"dcard": {
 		"id": "dcard",
-		"classes": "node dcard",
-		"_tw": "Dcard",
-		"_en": "Dcard"
-	},
-	"dc": {
-		"id": "dc",
 		"classes": "node dcard",
 		"_tw": "Dcard",
 		"_en": "Dcard"
@@ -1029,12 +1047,24 @@
 		"id": "今日",
 		"classes": "node group",
 		"_tw": "今日傳媒",
-		"_en": "NOW news"
+		"_en": "NOWnews"
+	},
+	"方正": {
+		"id": "方正",
+		"classes": "node group",
+		"_tw": "方正傳媒",
+		"_en": "Gen"
+	},
+	"震": {
+		"id": "震",
+		"classes": "node group",
+		"_tw": "震傳媒",
+		"_en": "Gen"
 	},
 	"總台": {
 		"id": "總台",
 		"classes": "node group",
-		"_tw": "🇨🇳 中央广播电视总台",
+		"_tw": "🇨🇳 广电总台",
 		"_en": "🇨🇳 CMG"
 	},
 	"人民": {
@@ -1264,12 +1294,6 @@
 		"classes": "node party kmt",
 		"_tw": "國民黨支持",
 		"_en": "KMT-backed"
-	},
-	"yt-short": {
-		"id": "yt-short",
-		"classes": "node yt",
-		"_tw": "YT 短影音",
-		"_en": "YT short"
 	},
 	"init": {
 		"id": "init",
