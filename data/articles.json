@@ -11,67 +11,71 @@
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
-				"title": "形塑「大罷免不正當」世界觀：5 項中共觀點、32 項資訊操弄論述、10 項設計技巧、6 項操作戰術",
+				"title": "形塑「大罷免不正當」「大罷免不可通過」世界觀：5 項中共觀點、32 項資訊操弄論述、10 項設計技巧、6 項操作戰術",
 				"subtitle": "IORG 週報第 111 期 2025.1.1-6.30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBbYP-eAuB1A1E8RfejINcSIRAdo2VJMt4Y0YJwhhhBGatTf2XezHTIGMDRKqMG-irysAN0An-q6f270_6Xaq6xrfIhgXDdtvNbThdrWH8pqXyNmm8MrDiASHnpwRKaHaP5Drm7E7JB00PK",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCXy_jjLABIrVLkM2g-8CAdbhZboAQwnAx50xh07RfNnB8gBAG4DSyaDnCY7V3XkiVmXQ3K3eeIFUVFxC62JqAc-zNbM8i7Vu0DDAl3XjO1imEpimkjapSALoAaj111Q1-EH7S8N_2Zy9HD",
 				"tags": [
 					"週報"
 				],
 				"sections": [
 					{
 						"id": "h2-1",
-						"titleText": "摘要"
+						"titleText": "行動建議：1 要 4 不要"
 					},
 					{
 						"id": "h2-2",
-						"titleText": "7 月起重要日期"
+						"titleText": "摘要"
 					},
 					{
 						"id": "h2-3",
-						"titleText": "事件背景"
+						"titleText": "7 月起重要日期"
 					},
 					{
 						"id": "h2-4",
-						"titleText": "傳播熱度分析"
+						"titleText": "事件背景"
 					},
 					{
 						"id": "h2-5",
-						"titleText": "中共官媒提及台灣公眾人物 Top 10：名嘴郭正亮居首、「館長」陳之漢為唯一網紅、黃國昌為唯一民眾黨政治人物、7 名區域立委面臨罷免第三階段"
+						"titleText": "傳播熱度分析"
 					},
 					{
 						"id": "h2-6",
-						"titleText": "中共官媒較台灣媒體更強調民進黨，更常使用「侧翼」指稱罷免團體"
+						"titleText": "中共官媒提及台灣公眾人物 Top 10：名嘴郭正亮居首、「館長」陳之漢為唯一網紅、黃國昌為唯一民眾黨政治人物、7 名區域立委面臨罷免第三階段"
 					},
 					{
 						"id": "h2-7",
-						"titleText": "中共的「大罢免」世界觀：赖清德及民进党政府主导、针对在野党的政治斗争，展现「绿色恐怖、独裁」本质，支持者是「青鸟、黑熊、蟾蜍」像邪教，撕裂台湾社会，「岛内民众」高喊「我反绿」"
+						"titleText": "中共官媒較台灣媒體更強調民進黨，更常使用「侧翼」指稱罷免團體"
 					},
 					{
 						"id": "h2-8",
-						"titleText": "中共官媒大量使用「绿色恐怖」「独裁」批評台灣民主及執政黨，使用「蟾蜍」「绿卫兵」批評大罷免支持者，但不使用「绿共」「塔绿班」"
+						"titleText": "中共的「大罢免」世界觀：赖清德及民进党政府主导、针对在野党的政治斗争，展现「绿色恐怖、独裁」本质，支持者是「青鸟、黑熊、蟾蜍」像邪教，撕裂台湾社会，「岛内民众」高喊「我反绿」"
 					},
 					{
 						"id": "h2-9",
-						"titleText": "台灣媒體集團使用爭議用詞比例以「TVBS」「旺中」「風傳媒」「東森」「聯合」等集團為前 5 多，「旺中」6 項爭議用詞使用比例皆大於平均"
+						"titleText": "中共官媒大量使用「绿色恐怖」「独裁」批評台灣民主及執政黨，使用「蟾蜍」「绿卫兵」批評大罷免支持者，但不使用「绿共」「塔绿班」"
 					},
 					{
 						"id": "h2-10",
-						"titleText": "32 項資訊操弄論述提及大罷免，針對 8 類對象：執政黨、罷免團體、支持者"
+						"titleText": "台灣媒體集團使用爭議用詞比例以「TVBS」「旺中」「風傳媒」「東森」「聯合」等集團為前 5 多，「旺中」6 項爭議用詞使用比例皆大於平均"
 					},
 					{
 						"id": "h2-11",
-						"titleText": "3 項「作票」資訊操弄論述已經出現"
+						"titleText": "32 項資訊操弄論述提及大罷免，針對 8 類對象：執政黨、罷免團體、支持者"
 					},
 					{
 						"id": "h2-12",
-						"titleText": "32 項資訊操弄論述可分 6 類：政爭、牟利、民怨、污名、害台、黑手"
+						"titleText": "3 項「作票」資訊操弄論述已經出現"
 					},
 					{
 						"id": "h2-13",
-						"titleText": "10 項設計技巧：強化資訊操弄論述的說服力"
+						"titleText": "32 項資訊操弄論述可分 6 類：政爭、牟利、民怨、污名、害台、黑手"
 					},
 					{
 						"id": "h2-14",
+						"titleText": "10 項設計技巧：強化資訊操弄論述的說服力"
+					},
+					{
+						"id": "h2-15",
 						"titleText": "6 項操作戰術：擴大資訊操弄傳播效果"
 					}
 				],
