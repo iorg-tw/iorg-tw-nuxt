@@ -1,4 +1,61 @@
 {
+	"_DA_113": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_113",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSVZg39biDQ34Hb-bP8ylu8kV_JPvE05av8t1EcaSb0B7mBpQYV7j-NHFqrawPIMFJpL0gLmWYWHbcG/pub"
+		},
+		"publishedAt": "2025/7/17 21:30",
+		"path": "/da/113",
+		"cache": true,
+		"tags": "election-weekly",
+		"localizedDocs": {
+			"_tw": {
+				"title": "上週中共：大罷免首波投票倒數 3 週",
+				"subtitle": "IORG 週報第 113 期 2025.7.6-12",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBkOOodZL26qbBRHu14L29BQPJFd2opKynNq6A-cuCGEJ7SLsiTCClxEe46HIg4Dv9fMQejMqhgEpka6OQER_mRy2SeSbZkrL-mijNSI1QIvrtET58eFq67jEUkKSPxR3xFeIX5S6KNpkfbhzo",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源 "
+					},
+					{
+						"id": "h2-3",
+						"titleText": "上週中共：台灣政治"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "上週中共：官方說法"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "上週中共：人民日报"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "上週台灣人在中國 "
+					},
+					{
+						"id": "h2-7",
+						"titleText": "中共世界觀裡的上週台灣 "
+					}
+				],
+				"articleID": "_DA_113",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSVZg39biDQ34Hb-bP8ylu8kV_JPvE05av8t1EcaSb0B7mBpQYV7j-NHFqrawPIMFJpL0gLmWYWHbcG/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/7/17 21:30",
+				"cache": "_DA_113_tw"
+			}
+		}
+	},
 	"_DA_111": {
 		"show": true,
 		"type": "da",
@@ -14,7 +71,7 @@
 			"_tw": {
 				"title": "形塑「大罷免不正當」「大罷免不可通過」世界觀：5 項中共觀點、32 項資訊操弄論述、10 項設計技巧、6 項操作戰術",
 				"subtitle": "IORG 週報第 111 期 2025.1.1-6.30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfA3MtSHjN2An9c0vgg8ntizFNksCTpvuyLHEfw4OfcjEbSBx3SezKXfYgK3QxowNHFeA140yiSPCKYC8E_oaU_tCL-1NMJeKG1VJJ9U2dMXHPBydkoYd6fMac9BUOSvh5Y_Ju6I8UIurtPT",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCJom94ShQsBGd0PtDkE3ZUevD8iJfv8b__MQnj2V58qofTHEsmp1tJEyBELhwDkER6-7VtaDVxMAJJDWwtWqO1lShbARG1sbv2sdGv2BeiUvNXxWVdfW2mQmVIMQGxi2M0BJ4pc4HcCAMc",
 				"tags": [
 					"週報"
 				],
