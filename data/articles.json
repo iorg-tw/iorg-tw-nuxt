@@ -1,4 +1,61 @@
 {
+	"_DA_114": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_114",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTgFu0ktJMTZZMeFYCorM-l7DcKWq58W1uDZPeQAGCxEEa0OOK6fHCMF6d_HnCnkLPOjI3Se63AYWqY/pub"
+		},
+		"publishedAt": "2025/7/24 21:00",
+		"path": "/da/114",
+		"cache": true,
+		"tags": "election-weekly",
+		"localizedDocs": {
+			"_tw": {
+				"title": "上週中共：大罷免首波投票倒數 2 週",
+				"subtitle": "IORG 週報第 114 期 2025.7.13-19",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfDTiZ5NwnFmmB9IGB0tgQE_IUQ9oojocjeUXp25V_OB5n5zjcTSOQaopi6u688dnJ_6Ak4YSADmrV91f4ik9-YkB24NAFp6OyzOYJpsXe0jiJcNVrCQ-TBKGMo0_fOvEgFun5FyJYfIQUcfbwY",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源 "
+					},
+					{
+						"id": "h2-3",
+						"titleText": "上週中共：數據 "
+					},
+					{
+						"id": "h2-4",
+						"titleText": "上週中共：官方說法"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "上週中共：人民日報等重要官媒"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "上週中共：台灣人在中國"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "上週中共：台灣時事 "
+					}
+				],
+				"articleID": "_DA_114",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTgFu0ktJMTZZMeFYCorM-l7DcKWq58W1uDZPeQAGCxEEa0OOK6fHCMF6d_HnCnkLPOjI3Se63AYWqY/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/7/24 21:00",
+				"cache": "_DA_114_tw"
+			}
+		}
+	},
 	"_DA_113": {
 		"show": true,
 		"type": "da",
@@ -15,7 +72,7 @@
 			"_tw": {
 				"title": "上週中共：大罷免首波投票倒數 3 週",
 				"subtitle": "IORG 週報第 113 期 2025.7.6-12",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfD-eEi9mTc9CCf8O0Y30fUxDb5L8TCDny_t3SBATgi5xW4ykXRlkPYrNZZEDr_Vju482MdfhaVKXr_SF2zPZDyg7f0_57SbPBE0jg_MP0c1rE4dYB8QSzPjd1tnzmXijuJoS_Tqs_3E3vTqSLo",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCDLiqPqC16Dhhv2u6v_l3Gb_0n_x6Pj4E-ngAHhnX-aiAXg1S3xQUOpI1N0oVj22ydF5_0WsEUwfXRVaCTOD0yswxZ1A9ZCGkbP5IIq8rI35OM4_3ZIPs_PCWTAbmdapust3GpZc7KIq-enDI",
 				"tags": [
 					"週報",
 					"上週中共",
