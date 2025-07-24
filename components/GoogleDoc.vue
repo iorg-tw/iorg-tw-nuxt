@@ -680,6 +680,21 @@ export default {
         &.number {
           text-align: right;
         }
+        &.rank {
+          text-align: right;
+          &.pos {
+            color: var(--iorg-accent);
+            text-align: right;
+          }
+          &.neg {
+            color: var(--iorg-danger);
+            text-align: right;
+          }
+          &.nil {
+            color: var(--iorg-background);
+            text-align: right;
+          }
+        }
       }
     }
   }
