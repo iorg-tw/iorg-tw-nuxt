@@ -1,4 +1,48 @@
 {
+	"_DA_116": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_116",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTMPF-dvJIVTKK5hyYYky--VQOU5ULC8_Q1JSeRt_C8a1RP5W6DlrM2DKnEK6jkKYCyraO2mCcat2ML/pub"
+		},
+		"publishedAt": "2025/7/30 21:00",
+		"path": "/da/116",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共回應首輪罷免投票結果",
+				"subtitle": "IORG 週報第 116 期 2025.7.26-30",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfDzUFp5rrLkbmfWnyoV_vCjM7WXDdOLdyae_XygcLys3f9I-R9guox4hONasUq852KAmkaIQr_jvW9P8jyfbqrmBVgrbIX4BUt0vEjsU1CB4oYzRL6v6MK3nog-mlANiEW3Wv5PdqeuC_WcyC8",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "重要中共官媒說法"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中共官方說法"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "6 項中共論述"
+					}
+				],
+				"articleID": "_DA_116",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTMPF-dvJIVTKK5hyYYky--VQOU5ULC8_Q1JSeRt_C8a1RP5W6DlrM2DKnEK6jkKYCyraO2mCcat2ML/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/7/30 21:00",
+				"cache": "_DA_116_tw"
+			}
+		}
+	},
 	"_DA_114": {
 		"show": true,
 		"type": "da",
