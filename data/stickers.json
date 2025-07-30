@@ -1250,13 +1250,18 @@
 	"青海日報": {
 		"id": "青海日報",
 		"classes": "node group",
-		"_tw": "🇨🇳 青海日报社"
+		"_tw": "🇨🇳 青海日报"
 	},
 	"羊城晚報": {
 		"id": "羊城晚報",
 		"classes": "node group",
 		"_tw": "🇨🇳 羊城晚报",
 		"_en": "🇨🇳 Yangcheng"
+	},
+	"上海廣電": {
+		"id": "上海廣電",
+		"classes": "node group",
+		"_tw": "🇨🇳 上海广电"
 	},
 	"TPP": {
 		"id": "TPP",
@@ -1314,6 +1319,18 @@
 	},
 	"KMT-backed": {
 		"id": "KMT-backed",
+		"classes": "node party kmt",
+		"_tw": "國民黨支持",
+		"_en": "KMT-backed"
+	},
+	"kmt-caucus": {
+		"id": "kmt-caucus",
+		"classes": "node party kmt",
+		"_tw": "加入國民黨立院黨團",
+		"_en": "KMT Caucus"
+	},
+	"kmt-backed": {
+		"id": "kmt-backed",
 		"classes": "node party kmt",
 		"_tw": "國民黨支持",
 		"_en": "KMT-backed"
