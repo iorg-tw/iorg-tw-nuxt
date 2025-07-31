@@ -41,6 +41,63 @@
 			}
 		}
 	},
+	"_DA_115": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_115",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQg63tXpA3beOf2BzBb6JiGy7qK2K1PtdCH_83X2PjV8BbPuFzges_20sRZworvr1Z1tnItShotJjvS/pub"
+		},
+		"publishedAt": "2025/7/31 21:00",
+		"path": "/da/115",
+		"cache": true,
+		"tags": "election-weekly",
+		"localizedDocs": {
+			"_tw": {
+				"title": "上週中共：大罷免首波投票前最後 1 週",
+				"subtitle": "IORG 週報第 115 期 2025.7.20-26",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfDCs5vegb9Bvwh5GmsbsC1ti0mMVom2e4Rvn72wxfaRqmaX9rFWFn6Qz985dEJ5ewlVbs_QB0og3WPlrCCGzAlITWjhH5Ds7fI75XeDAGnOcnPyHGrSV3-Zl1k6u1hd1vlynjZsL5LG7D5i",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源 "
+					},
+					{
+						"id": "h2-3",
+						"titleText": "上週中共：數據 "
+					},
+					{
+						"id": "h2-4",
+						"titleText": "上週中共：官方說法"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "上週中共：人民日報等重要官媒"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "上週中共：台灣人在中國"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "上週中共：台灣時事 "
+					}
+				],
+				"articleID": "_DA_115",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQg63tXpA3beOf2BzBb6JiGy7qK2K1PtdCH_83X2PjV8BbPuFzges_20sRZworvr1Z1tnItShotJjvS/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/7/31 21:00",
+				"cache": "_DA_115_tw"
+			}
+		}
+	},
 	"_DA_114": {
 		"show": true,
 		"type": "da",
