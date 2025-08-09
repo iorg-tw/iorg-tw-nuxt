@@ -1,12 +1,21 @@
 [
 	{
 		"active": true,
+		"from": "/s/251",
+		"to": "https://docs.google.com/presentation/d/1s6ZUy2nvdltYON5IJcQLOHKAEheTEB3LfL6S-z_LTKU/edit",
+		"type": "slidedeck",
+		"title": "IORG Brief (2025.8)",
+		"publishedAt": "2025/6/1",
+		"updatedAt": "2025/8/9"
+	},
+	{
+		"active": true,
 		"from": "/s/250",
 		"to": "https://docs.google.com/presentation/d/1JDpy2TkFLiv1DQC35UHVFCtJlVtU9BCf4SGnaksiATo/edit",
 		"type": "slidedeck",
-		"title": "IORG Brief (2025)",
+		"title": "IORG Brief (2025.4)",
 		"publishedAt": "2025/1/14",
-		"updatedAt": "2025/2/20"
+		"updatedAt": "2025/4/29"
 	},
 	{
 		"active": true,
