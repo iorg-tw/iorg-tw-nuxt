@@ -1,4 +1,60 @@
 {
+	"_DA_118": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_118",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQa3Cuy73Qv0JiG7JRuftX1ZDh2n_qXIyJDHtLL9ldzJ4ePx_YVOxG2IKN8Yv3PRNyljA6dN4J6dvvU/pub"
+		},
+		"publishedAt": "2025/8/14",
+		"path": "/da/118",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "賴清德當選後的中共宣傳：台灣民主失敗論",
+				"subtitle": "IORG 週報第 118 期 2024.1.13-2025.6.30",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCDdkFQJld891O-OsGF1Vwrk5sS52vyWuj18YESw-ZRKpRQx6k5ylXa6xpxb17_6IKIGIBx0dX1nA-HGP-XRb_hKOYVNJ1UxUsYqssWJIFvcNUAERvhD2Saduxkfx1QXgJsskXt3Ck6zfG7",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "中共以台灣重要事件借題發揮，中配武統言論事件引起單日傳播熱度最高峰"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "7 類台灣民主失敗論，中共目的：降低讀者民主支持、民主滿意"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "22 項台灣民主失敗論"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "論述傳播行為"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "論述傳播情形"
+					}
+				],
+				"articleID": "_DA_118",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQa3Cuy73Qv0JiG7JRuftX1ZDh2n_qXIyJDHtLL9ldzJ4ePx_YVOxG2IKN8Yv3PRNyljA6dN4J6dvvU/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/8/14",
+				"cache": "_DA_118_tw"
+			}
+		}
+	},
 	"_DA_116": {
 		"show": true,
 		"type": "da",
