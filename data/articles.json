@@ -7078,11 +7078,11 @@
 					},
 					{
 						"id": "h2-6",
-						"titleText": "客座研究員"
+						"titleText": "學術顧問"
 					},
 					{
 						"id": "h2-7",
-						"titleText": "學術顧問"
+						"titleText": "過往成員"
 					}
 				],
 				"articleID": "_about",
@@ -7119,11 +7119,11 @@
 					},
 					{
 						"id": "h2-6",
-						"titleText": "Research Fellow"
+						"titleText": "Academic Advisor"
 					},
 					{
 						"id": "h2-7",
-						"titleText": "Academic Advisor"
+						"titleText": "Past Members"
 					}
 				],
 				"articleID": "_about",
