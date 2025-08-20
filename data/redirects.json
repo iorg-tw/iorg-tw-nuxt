@@ -1,12 +1,20 @@
 [
 	{
 		"active": true,
+		"from": "/s/252",
+		"to": "https://docs.google.com/presentation/d/182vA9u950sBd9tHVH8s-YkSRIh4M_zShGo6btlNRJoI/edit",
+		"type": "slidedeck",
+		"title": "IORG 研究簡報 (2025.8)",
+		"publishedAt": "2025/8/20"
+	},
+	{
+		"active": true,
 		"from": "/s/251",
 		"to": "https://docs.google.com/presentation/d/1s6ZUy2nvdltYON5IJcQLOHKAEheTEB3LfL6S-z_LTKU/edit",
 		"type": "slidedeck",
 		"title": "IORG Brief (2025.8)",
 		"publishedAt": "2025/6/1",
-		"updatedAt": "2025/8/9"
+		"updatedAt": "2025/8/20"
 	},
 	{
 		"active": true,
