@@ -1,4 +1,76 @@
 {
+	"_DA_121": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_121",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSD1XpzaCTWVxCd9IW7glRC0RFkSDRkyBAjPbqoZimeDs5l6igyAGos7QNweN4mcyam1SjWmC5HI9g3/pub"
+		},
+		"publishedAt": "2025/9/3 16:30",
+		"path": "/da/121",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "7 月 YouTube 台媒政論：10 大集團、45 檔節目、10,786 部影片，3 億 5 千萬次觀看，TVBS「新聞大白話」為最熱門節目，旺中「網紅聯播網」和名嘴、網紅相互製造流量",
+				"subtitle": "IORG 週報第 121 期 2025.7.1-31",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "10 大台媒集團、45 檔政論節目，旺中、三立、TVBS、茂德、亞衛旗下政論節目影片普遍上傳複數 YouTube 頻道"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "旺中旗下政論節目數量、影片總數、觀看總數皆居首，觀看數佔全體 30%，TVBS 22%、三立 15%"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "旺中旗下節目完整影片、剪輯影片數量皆最多，茂德剪輯影片「增幅」影片數 26.6 倍、觀看數 24 倍"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "12 檔「千萬級」政論節目：TVBS「新聞大白話」居首，旺中 5 檔、TVBS、茂德、三立各 2 檔、亞衛 1 檔，單月觀看總數超過 1 千萬次"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "7 月最熱門政論節目影片：旺中「民間特偵組」謝龍介批評賴政府風災作為短片，觀看數破百萬"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "各檔節目最熱門影片：8 部 726 開票特別節目、10 部 YouTube Shorts"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "YouTube Shorts 觀看平均次數和整體相當，TVBS、亞洲衛視短片傳播效果最好"
+					},
+					{
+						"id": "h2-10",
+						"titleText": "節目內容傳播方式多元：同步直播、剪輯片段、短影音、結合新聞內容、結合網路節目"
+					},
+					{
+						"id": "h2-11",
+						"titleText": "旺中集團「網紅聯播網」：節目、名嘴、網紅、政治人物相互製造流量，旺中集團頻道、個人頻道、林正國「哏傳媒」、其他網路頻道重複上架相同影片"
+					}
+				],
+				"articleID": "_DA_121",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSD1XpzaCTWVxCd9IW7glRC0RFkSDRkyBAjPbqoZimeDs5l6igyAGos7QNweN4mcyam1SjWmC5HI9g3/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/9/3 16:30",
+				"cache": "_DA_121_tw"
+			}
+		}
+	},
 	"_DA_118": {
 		"show": true,
 		"type": "da",
@@ -72,7 +144,7 @@
 			"_tw": {
 				"title": "中共回應首輪罷免投票結果",
 				"subtitle": "IORG 週報第 116 期 2025.7.26-30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfDcJcpcZVMt-2Mrz7lgHRm5FxPAWHcVTDH1_blIgibe6cdFFdXnDk0JopGoPmafe5Nt4qISbGgCxLgwGWGx2bahx_JgsowgPemsccvSaZE9_gWk5Db4KjIHdFG9iBemRFozZRrpoM3Ag2JUAQE",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBdU-ORbdcaUl0H4Ow4R1p5dQcQUSnL77iNKkZ4quvlwBvQCQY_MdcQ0FkvhVM0jgfV9ajdjVLF2CmB1yZUQ0WNQCl9p0B0wd_6lM02UCqN0UeHVwTTY3KcwGspdUPdrAYjE8uJZYqbdrDtLh4",
 				"tags": [
 					"週報"
 				],
@@ -114,7 +186,7 @@
 			"_tw": {
 				"title": "上週中共：大罷免首波投票前最後 1 週",
 				"subtitle": "IORG 週報第 115 期 2025.7.20-26",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBwqsM0ue4wclhC0BpPwQ122sEpnRVXOrN2XotyYTrQ1bjcgRiMT55kV6OUXqpIM6k82Ob9Fve9wpb0scE2E0nfTaORWJ6cftDV-nW9OEbW4XCb8UBqsZ8lK3CrGfBM2MLuEZDrZROF34pB",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCZXuYQT_S0_P25lABbOIXbj4C9lReIW9iE7bxzZ4V1t7mMBmZd_F0grlJkFaWCHlIjvyEjnQo4ssRKLcPYV3O_ZNOfmRLYGKZy02pohNX5pwJVAv6pmc1H4xOESZJybTy2R7PlFi_wbZz0",
 				"tags": [
 					"週報",
 					"上週中共",
@@ -173,7 +245,7 @@
 			"_tw": {
 				"title": "上週中共：大罷免首波投票倒數 2 週",
 				"subtitle": "IORG 週報第 114 期 2025.7.13-19",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCudZeVpkMR2l_Al9yaV7-7oWW-UX4dSQfdYmqfLOpCRr4SJdzsXvrX7kw6sTxIIczzyOuvpUVnbybLCosktr8T7obR_V1-B7F2InTEC7f2Z2QWvuqiBwEg5CAzZv9AplWJmyohsx4TCYsNB4g",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfBXwgAJJJCKktQ15WPxaQaB9Q8A66dcUinI79yNS-shzHLODZToldIMPiIwu7449EIx0tjuU7aCjq341LPQcxJVW-WH4VhuqgHVh273Nw38R50IbNpNdT6cG_TezXPj_IyohfNWLJkdyG9sZLI",
 				"tags": [
 					"週報",
 					"上週中共",
@@ -233,7 +305,7 @@
 			"_tw": {
 				"title": "上週中共：大罷免首波投票倒數 3 週",
 				"subtitle": "IORG 週報第 113 期 2025.7.6-12",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfACqUvn1PIYGEUbZM8kNhMlDvTECMVq0kWHf_rKTZ9nM9718wRt7byCZAykLQ78GwXCzl8b9cP01aYdS5rfE8uVuKNDRyugOijcSP6xFyrLfmLAKWqcPFz4mXoWOPehpaugx4lb3xUtBeYDD_s",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsd/ANYlcfCJLGJUHVyqizBTSBQ5BLiQ26WBbUnfMt0a-F6rw-1Z5CZh_Ej_-4XtqJCbRsYSb65fAqChaAJLaymd4wkI9qwrPaUdwqbRDmSxXsV80ziV0K6UYX5SXp4AUYsbjPHczyrAyKslJ01ih00aL00",
 				"tags": [
 					"週報",
 					"上週中共",
