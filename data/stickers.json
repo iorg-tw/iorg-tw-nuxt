@@ -776,8 +776,8 @@
 	"yts": {
 		"id": "yts",
 		"classes": "node yt",
-		"_tw": "YT 短影音",
-		"_en": "YT short"
+		"_tw": "YT 短片",
+		"_en": "YT Shorts"
 	},
 	"ig": {
 		"id": "ig",
@@ -806,8 +806,8 @@
 	"yt-short": {
 		"id": "yt-short",
 		"classes": "node yt",
-		"_tw": "YT 短影音",
-		"_en": "YT short"
+		"_tw": "YT 短片",
+		"_en": "YT Shorts"
 	},
 	"threads": {
 		"id": "threads",
@@ -947,6 +947,12 @@
 		"_tw": "亞洲衛視",
 		"_en": "ADMC"
 	},
+	"亞衛": {
+		"id": "亞衛",
+		"classes": "node group",
+		"_tw": "亞洲衛視",
+		"_en": "ADMC"
+	},
 	"媒體棧": {
 		"id": "媒體棧",
 		"classes": "node group",
@@ -1072,6 +1078,12 @@
 		"classes": "node group",
 		"_tw": "震傳媒",
 		"_en": "Gen"
+	},
+	"華衛": {
+		"id": "華衛",
+		"classes": "node group",
+		"_tw": "華人衛星電視",
+		"_en": "CSTV"
 	},
 	"總台": {
 		"id": "總台",
