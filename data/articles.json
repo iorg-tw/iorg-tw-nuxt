@@ -1,12 +1,13 @@
 {
 	"tw-defeatism-259": {
 		"show": true,
+		"featured": true,
 		"type": "article",
 		"id": "tw-defeatism-259",
 		"publicURLs": {
 			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQlWal0kP4CNfAEd3xjrVj9av1AMQ3mzyN6tOzW_wsJkxIJuuzevS1uozJ85lskViekagQnTcXSB0ks/pub"
 		},
-		"publishedAt": "2025/9/22 19:30",
+		"publishedAt": "2025/9/23 9:00",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
@@ -58,7 +59,7 @@
 				"articleID": "tw-defeatism-259",
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQlWal0kP4CNfAEd3xjrVj9av1AMQ3mzyN6tOzW_wsJkxIJuuzevS1uozJ85lskViekagQnTcXSB0ks/pub",
 				"locale": "_tw",
-				"publishedAt": "2025/9/22 19:30",
+				"publishedAt": "2025/9/23 9:00",
 				"cache": "tw-defeatism-259_tw"
 			}
 		}
