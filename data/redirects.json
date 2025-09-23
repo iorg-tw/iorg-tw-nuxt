@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/259",
+		"to": "https://docs.google.com/presentation/d/1NAgGgD0CXU8aRiw8Mo-jV_Ah9JL_8xUzOFKVuMGHvUw/edit",
+		"type": "slidedeck",
+		"title": "台灣失敗論和民主的信心危機",
+		"publishedAt": "2025/9/23"
+	},
+	{
+		"active": true,
 		"from": "/s/252",
 		"to": "https://docs.google.com/presentation/d/182vA9u950sBd9tHVH8s-YkSRIh4M_zShGo6btlNRJoI/edit",
 		"type": "slidedeck",
