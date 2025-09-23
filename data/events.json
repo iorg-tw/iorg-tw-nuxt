@@ -325,6 +325,24 @@
 			}
 		}
 	},
+	"2025-0923": {
+		"show": true,
+		"type": "conf",
+		"id": "2025-0923",
+		"area": "tp",
+		"slogan": "IORG 記者會",
+		"date": "2025/9/23",
+		"time": "9:30-10:30",
+		"cache": false,
+		"hasPage": false,
+		"localizedDocs": {
+			"_tw": {
+				"title": "台灣失敗論和民主的信心危機",
+				"slogan": "IORG 記者會",
+				"locale": "_tw"
+			}
+		}
+	},
 	"2023-0921": {
 		"show": true,
 		"type": "conf",
