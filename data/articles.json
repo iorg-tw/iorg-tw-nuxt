@@ -150,9 +150,9 @@
 		"tags": "cross-strait-exchange",
 		"localizedDocs": {
 			"_tw": {
-				"title": "2024 年中共官方支持下的兩岸宗教交流：116 場活動，至少 40  間台灣寺廟、約 1.6 萬台灣人次赴中與會，中共利用台灣社會重要精神信仰塑造「中国正统」「两岸一家」「政治操作切不断血脉相连」世界觀",
+				"title": "2024 年中共官方支持下的兩岸宗教交流：116 場活動，至少 40  間台灣寺廟、約 1.6 萬台灣人次赴中與會，中共利用台灣社會重要精神信仰塑造「中国正统」「两岸一家」「民进党当局政治操作切不断兩岸联结」世界觀",
 				"subtitle": "IORG 週報第 120 期 2024.1.1-12.31",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfXEp8W9IgGy7BR23P12UW0-QvgPR8uTuW684MLk5dGrOJ4mN-jzVyZ5EH9XQ0RcODA-keGFlEPjREOTiDKH-RvTeHnEy0vmlBHl6_bRIHf54jPz3BLvyrBUmb7tIpjZMc?key=sNLjzcDrOobkGSe-I5DdDohP",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcBWMgV-mlOIExrJG2ay9xoVbkf-RekdKYGEspsPNXsKkj65VLghhDzQvDK3EM3A4k2cn4764xjac0BlZmFZHKPn01mK1jbv72O41KBQBM3qWx8y5lcD3xlQxM0uV9p2vQ?key=sNLjzcDrOobkGSe-I5DdDohP",
 				"tags": [
 					"週報"
 				],
@@ -179,7 +179,7 @@
 					},
 					{
 						"id": "h2-6",
-						"titleText": "87 位中國人名被提及：6 人參與複數場次活動，包含國台辦正、副主任、「湄洲妈祖祖庙董事长」等宗教界人士"
+						"titleText": "87 位中國人名被具名提及：6 人參與複數場次，包含國台辦正、副主任、「湄洲妈祖祖庙董事长」等宗教界人士"
 					},
 					{
 						"id": "h2-7",
@@ -203,23 +203,7 @@
 					},
 					{
 						"id": "h2-12",
-						"titleText": "中共官宣下的媽祖：兩岸「神同源」「人（祖）同根」「文同脉」，台胞回湄洲媽祖「祖庙」是「回家」，兩岸媽祖文化「标准共通」「增强台湾妈祖信众民族和文化认同」"
-					},
-					{
-						"id": "h2-13",
-						"titleText": "中共官宣下的黃帝、炎帝：兩岸同胞同屬「炎黄子孙」「血浓于水」，黄帝是「华夏始祖」「连接海内外中华儿女的重要情感纽带」"
-					},
-					{
-						"id": "h2-14",
-						"titleText": "中共官宣下的關公：關帝文化「教导中华兒女忠诚于国家、民族、家庭」，彰顯兩岸「同根同源、同文同种、血脉相连」"
-					},
-					{
-						"id": "h2-15",
-						"titleText": "中共官宣下的鄭成功：凸顯「收复台湾」「贡献」，強調「爱国主义」「提出“两岸同属一中”原型论述」「维护国家统一」，民進黨「利用郑成功建构台独史观」"
-					},
-					{
-						"id": "h2-16",
-						"titleText": "中共官宣下的祭祖：宗親會及名人「寻根谒祖」「感受血脉相连」「共叙血脉亲情」「爱国爱乡」，顯示「政治操作切割不断两岸」"
+						"titleText": "中共官宣利用重要精神信仰強化中國利益世界觀：媽祖、黃帝、炎帝、關公、鄭成功、宗族先祖"
 					}
 				],
 				"articleID": "_DA_120",
