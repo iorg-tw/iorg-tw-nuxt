@@ -1,4 +1,66 @@
 {
+	"_DA_126": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_126",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vR6XqQ-7RWPnVKXiJCdVfzaDpaZTbb1fmIIl2Dp9bf-cbsP_eLVhmhoVBXkIeIbkojFJcxrxQezksfl/pub"
+		},
+		"publishedAt": "2025/12/15 10:00",
+		"path": "/da/126",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共月報：2025 年 11 月",
+				"subtitle": "IORG 週報第 126 期 2025.11.1-30",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfXxFtkL3b2q8LhW3sYpZRki3t9b0mDk8nW8vXpmQ4qzqp9GNCg-_UyM1LnwoLV30pqWsDMguZtqwPmzsj_bTyzZs4CnO6VPhpCli42GqhJJ8xhONFockTdLGbQNzAVmIg?key=WeF81vsYFdmWvkIXauX8HQ",
+				"tags": [
+					"月報",
+					"上月中共",
+					"Last Month China Talks"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、鄭麗文、沈伯洋、陳之漢（館長）、陳柏源（閩南狼）、溫子瑜（八炯）"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "精選時事"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "精選影劇"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "精選科技"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "精選人物"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "精選美食"
+					}
+				],
+				"articleID": "_DA_126",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR6XqQ-7RWPnVKXiJCdVfzaDpaZTbb1fmIIl2Dp9bf-cbsP_eLVhmhoVBXkIeIbkojFJcxrxQezksfl/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/12/15 10:00",
+				"cache": "_DA_126_tw"
+			}
+		}
+	},
 	"_DA_125": {
 		"show": true,
 		"type": "da",
