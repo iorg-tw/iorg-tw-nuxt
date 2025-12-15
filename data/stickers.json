@@ -1097,6 +1097,12 @@
 		"_tw": "🇨🇳 人民日报",
 		"_en": "🇨🇳 People’s Daily"
 	},
+	"新華": {
+		"id": "新華",
+		"classes": "node group",
+		"_tw": "🇨🇳 新华社",
+		"_en": "🇨🇳 Xinhua"
+	},
 	"大公文匯": {
 		"id": "大公文匯",
 		"classes": "node group",
@@ -1173,13 +1179,19 @@
 		"id": "外交部",
 		"classes": "node group",
 		"_tw": "🇨🇳 外交部",
-		"_en": "🇨🇳 Foreign Affairs"
+		"_en": "🇨🇳 MFA"
 	},
 	"國台辦": {
 		"id": "國台辦",
 		"classes": "node group",
 		"_tw": "🇨🇳 国台办",
-		"_en": "🇨🇳 Taiwan Affairs"
+		"_en": "🇨🇳 TAO"
+	},
+	"商務部": {
+		"id": "商務部",
+		"classes": "node group",
+		"_tw": "🇨🇳 商务部",
+		"_en": "🇨🇳 Commerce"
 	},
 	"上海報業": {
 		"id": "上海報業",
@@ -1189,6 +1201,12 @@
 	},
 	"上海文廣": {
 		"id": "上海文廣",
+		"classes": "node group",
+		"_tw": "🇨🇳 上海文化广播影视集团",
+		"_en": "🇨🇳 Shanghai MG"
+	},
+	"上海廣電": {
+		"id": "上海廣電",
 		"classes": "node group",
 		"_tw": "🇨🇳 上海文化广播影视集团",
 		"_en": "🇨🇳 Shanghai MG"
@@ -1235,12 +1253,6 @@
 		"_tw": "🇨🇳 深圳广播电影电视集团",
 		"_en": "🇨🇳 SZMG"
 	},
-	"商務部": {
-		"id": "商務部",
-		"classes": "node group",
-		"_tw": "🇨🇳 商务部",
-		"_en": "🇨🇳 Commerce"
-	},
 	"德宏": {
 		"id": "德宏",
 		"classes": "node group",
@@ -1271,11 +1283,6 @@
 		"_tw": "🇨🇳 羊城晚报",
 		"_en": "🇨🇳 Yangcheng Evening News"
 	},
-	"上海廣電": {
-		"id": "上海廣電",
-		"classes": "node group",
-		"_tw": "🇨🇳 上海广电"
-	},
 	"湖北日報": {
 		"id": "湖北日報",
 		"classes": "node group",
@@ -1300,6 +1307,12 @@
 		"_tw": "🇨🇳 北京日报",
 		"_en": "🇨🇳 Beijing Daily"
 	},
+	"江蘇新華": {
+		"id": "江蘇新華",
+		"classes": "node group",
+		"_tw": "🇨🇳 江苏新华报业传媒",
+		"_en": "🇨🇳 Jiangsu Xinhua"
+	},
 	"TPP": {
 		"id": "TPP",
 		"classes": "node party tpp",
@@ -1312,11 +1325,35 @@
 		"_tw": "民進黨",
 		"_en": "DPP"
 	},
+	"DPP-caucus": {
+		"id": "DPP-caucus",
+		"classes": "node party dpp",
+		"_tw": "加入民進黨黨立院黨團",
+		"_en": "DPP Caucus"
+	},
+	"DPP-backed": {
+		"id": "DPP-backed",
+		"classes": "node party dpp",
+		"_tw": "民進黨支持",
+		"_en": "DPP-backed"
+	},
 	"KMT": {
 		"id": "KMT",
 		"classes": "node party kmt",
 		"_tw": "國民黨",
 		"_en": "KMT"
+	},
+	"KMT-caucus": {
+		"id": "KMT-caucus",
+		"classes": "node party kmt",
+		"_tw": "加入國民黨立院黨團",
+		"_en": "KMT Caucus"
+	},
+	"KMT-backed": {
+		"id": "KMT-backed",
+		"classes": "node party kmt",
+		"_tw": "國民黨支持",
+		"_en": "KMT-backed"
 	},
 	"NP": {
 		"id": "NP",
@@ -1336,29 +1373,23 @@
 		"_tw": "民進黨",
 		"_en": "DPP"
 	},
+	"dpp-caucus": {
+		"id": "dpp-caucus",
+		"classes": "node party kmt",
+		"_tw": "加入民進黨立院黨團",
+		"_en": "DPP Caucus"
+	},
+	"dpp-backed": {
+		"id": "dpp-backed",
+		"classes": "node party kmt",
+		"_tw": "民進黨支持",
+		"_en": "DPP-backed"
+	},
 	"kmt": {
 		"id": "kmt",
 		"classes": "node party kmt",
 		"_tw": "國民黨",
 		"_en": "KMT"
-	},
-	"np": {
-		"id": "np",
-		"classes": "node party np",
-		"_tw": "新黨",
-		"_en": "NP"
-	},
-	"KMT-caucus": {
-		"id": "KMT-caucus",
-		"classes": "node party kmt",
-		"_tw": "加入國民黨立院黨團",
-		"_en": "KMT Caucus"
-	},
-	"KMT-backed": {
-		"id": "KMT-backed",
-		"classes": "node party kmt",
-		"_tw": "國民黨支持",
-		"_en": "KMT-backed"
 	},
 	"kmt-caucus": {
 		"id": "kmt-caucus",
@@ -1371,6 +1402,12 @@
 		"classes": "node party kmt",
 		"_tw": "國民黨支持",
 		"_en": "KMT-backed"
+	},
+	"np": {
+		"id": "np",
+		"classes": "node party np",
+		"_tw": "新黨",
+		"_en": "NP"
 	},
 	"init": {
 		"id": "init",
