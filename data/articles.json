@@ -13,7 +13,7 @@
 			"_tw": {
 				"title": "中共月報：2025 年 11 月",
 				"subtitle": "IORG 週報第 126 期 2025.11.1-30",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfL-wXaEwCcRTySDYRDwZBIDmCej3s2PowTDv4nSTe6uvhfRAaUvAG5mlBbTJYPQ05DlRkaBzTM46NKF3iawFI42o-4GPm1QTmu4JnhWvvgOk-gl2-9LmcJJT1LOwtMjtQ?key=WeF81vsYFdmWvkIXauX8HQ",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7SgSqJrBoQejqlTVpuv3sxt8b7xQ9SJzlZlfst2cw7PXhz-83tDJKnWXLU7rpY7CC-Lfuj0e4Ewl8JJCRQi3goqsUcpGp1Nin-djMuKVbZLVMzMUixCSjBq_2O7rZnOs?key=WeF81vsYFdmWvkIXauX8HQ",
 				"tags": [
 					"月報",
 					"上月中共",
@@ -22,34 +22,30 @@
 				"sections": [
 					{
 						"id": "h2-1",
-						"titleText": "摘要"
-					},
-					{
-						"id": "h2-2",
 						"titleText": "資料來源"
 					},
 					{
-						"id": "h2-3",
+						"id": "h2-2",
 						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、鄭麗文、沈伯洋、陳之漢（館長）、陳柏源（閩南狼）、溫子瑜（八炯）"
 					},
 					{
-						"id": "h2-4",
+						"id": "h2-3",
 						"titleText": "精選時事"
 					},
 					{
-						"id": "h2-5",
+						"id": "h2-4",
 						"titleText": "精選影劇"
 					},
 					{
-						"id": "h2-6",
+						"id": "h2-5",
 						"titleText": "精選科技"
 					},
 					{
-						"id": "h2-7",
+						"id": "h2-6",
 						"titleText": "精選人物"
 					},
 					{
-						"id": "h2-8",
+						"id": "h2-7",
 						"titleText": "精選美食"
 					}
 				],
@@ -75,7 +71,7 @@
 			"_tw": {
 				"title": "中共月報：2025 年 10 月",
 				"subtitle": "IORG 週報第 125 期 2025.10.1-31",
-				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcm4aQsULOvghFW94HF-hHDvBNTi4LGTZaaDz1SGAUhyi27Ge7XGtfLzMQ5q8GujxTC1ibMvl0R9thYswSDknMaoup_5bOJYiYCdmWPQfMqKCvu31QNF_wdEMIVA6rcQ60?key=NitRyK9LAjEK9rivce_ERA",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeb717KQehKjmMezbmuxHCotwxhng2MKHDzJhel3gNPZEBXXl3EJXNUXpuuhLNo8gsv5id_YfEzvLuUrZHuKUMlTMWC-362Iy6JWcz-HklBOowChhUU5mnPUqHeBqinxvo?key=NitRyK9LAjEK9rivce_ERA",
 				"tags": [
 					"月報",
 					"上月中共",
@@ -84,34 +80,30 @@
 				"sections": [
 					{
 						"id": "h2-1",
-						"titleText": "摘要"
-					},
-					{
-						"id": "h2-2",
 						"titleText": "資料來源"
 					},
 					{
-						"id": "h2-3",
+						"id": "h2-2",
 						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、鄭麗文、陳之漢（館長）、沈伯洋、王世堅"
 					},
 					{
-						"id": "h2-4",
+						"id": "h2-3",
 						"titleText": "精選時事"
 					},
 					{
-						"id": "h2-5",
+						"id": "h2-4",
 						"titleText": "精選影劇"
 					},
 					{
-						"id": "h2-6",
+						"id": "h2-5",
 						"titleText": "精選音樂"
 					},
 					{
-						"id": "h2-7",
+						"id": "h2-6",
 						"titleText": "精選人物"
 					},
 					{
-						"id": "h2-8",
+						"id": "h2-7",
 						"titleText": "精選美食"
 					}
 				],
