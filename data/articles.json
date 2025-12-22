@@ -157,7 +157,6 @@
 	},
 	"tw-defeatism-259": {
 		"show": true,
-		"featured": true,
 		"type": "article",
 		"id": "tw-defeatism-259",
 		"publicURLs": {
@@ -1029,7 +1028,6 @@
 	},
 	"survey-2024-tiktok": {
 		"show": true,
-		"featured": true,
 		"type": "article",
 		"id": "survey-2024-tiktok",
 		"publicURLs": {
