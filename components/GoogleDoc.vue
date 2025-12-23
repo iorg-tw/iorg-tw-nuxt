@@ -695,6 +695,9 @@ export default {
             text-align: right;
           }
         }
+        &.col-code {
+          word-break: break-all;
+        }
       }
     }
   }
