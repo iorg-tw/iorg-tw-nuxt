@@ -1,6 +1,14 @@
 [
 	{
 		"active": true,
+		"from": "/s/2511",
+		"to": "https://docs.google.com/presentation/d/1kxMeQN-EwNb4oztKMVKqlpRdzdkb3pYohNcCte5QTJA/edit",
+		"type": "slidedeck",
+		"title": "IORG Report 128 Working Summary",
+		"publishedAt": "2025/12/11"
+	},
+	{
+		"active": true,
 		"from": "/s/259",
 		"to": "https://docs.google.com/presentation/d/1NAgGgD0CXU8aRiw8Mo-jV_Ah9JL_8xUzOFKVuMGHvUw/edit",
 		"type": "slidedeck",
