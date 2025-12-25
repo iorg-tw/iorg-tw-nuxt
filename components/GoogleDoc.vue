@@ -776,6 +776,14 @@ export default {
         background-color: var(--facebook);
       }
     }
+    &.twitter {
+      --border-color: var(--twitter);
+      --text-color: var(--twitter);
+      &:before {
+        content: var(--gdoc-post-twitter);
+        background-color: var(--twitter);
+      }
+    }
     &.weibo {
       --border-color: var(--weibo);
       --text-color: var(--weibo);

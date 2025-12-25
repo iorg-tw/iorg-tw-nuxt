@@ -63,11 +63,13 @@ export default {
 
   & {
     --facebook: #5252FF;
+    --twitter: #808080;
     --weibo: #ff5656;
     --line: #40DD40;
     --ccp-media: #FF6464;
     --gdoc-post-post: "Post";
     --gdoc-post-facebook: "Facebook";
+    --gdoc-post-twitter: "Twitter";
     --gdoc-post-weibo: "Weibo";
     --gdoc-post-line: "LINE";
     --gdoc-post-ccp-media: "CCP";
@@ -78,6 +80,7 @@ export default {
   &[lang="zh-Hant-TW"] {
     --gdoc-post-post: "文章";
     --gdoc-post-facebook: "Facebook";
+    --gdoc-post-facebook: "Twitter";
     --gdoc-post-weibo: "微博";
     --gdoc-post-line: "LINE";
     --gdoc-post-ccp-media: "中共";
