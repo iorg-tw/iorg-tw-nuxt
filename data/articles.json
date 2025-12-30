@@ -899,6 +899,54 @@
 			}
 		}
 	},
+	"us-skepticism-253": {
+		"show": true,
+		"type": "article",
+		"id": "us-skepticism-253",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTvaF47mDiw85woQoSFC91HElAbzEg_l6K-Ln9swJ3EMNGIRGOwVlsGgRGanvkl8bcdMnPkbviKe0C3/pub"
+		},
+		"publishedAt": "2025/3/10 22:00",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2024「疑美論」更新：台選、美選期間，論述形塑美國引起戰亂、壓榨盟友形象，台灣能動性降低，由「共謀」轉為「傀儡」",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOkC7tKo_5rjNj711idGK-8oYkM7MZYMQcD_qUfqFsxBQOgaTAiDAEoPCDoUT_1ULpcIWVATBZSlW3om2KeOEDuwqnB5-ZXBe1bOhZqQl2Pshpx3eoc0uvFapiwk3a6w?key=NHDy8iyslZvonb_iQAh5TA",
+				"tags": [],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "2023 年 7 月至 2024 年 12 月間 40 次重大事件至少 145 項疑美論"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "145 項論述以「亂源論」最多，「假朋友」、「棄子論」次之，「共謀論」減少反映疑美論轉向淡化各國主動性，強調美國引戰、拋棄盟友形象，降低台灣自我防衛意志"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "145 項論述近半由台灣名嘴、媒體、政治人物發起，借川普對台發言或非關美國議題傳播「亂源論」、「假朋友」，形塑美國無理、霸道、剝削、虛偽形象"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "中共借區域衝突議題製造民主同盟矛盾，連結台灣民生、兩岸議題持續分化台美關係，並在美選期間放大美國內混亂"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "附錄 – 2023 年 7 月至 2024 年 12 月間 40 次重大事件相關 145 項疑美論論述"
+					}
+				],
+				"articleID": "us-skepticism-253",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTvaF47mDiw85woQoSFC91HElAbzEg_l6K-Ln9swJ3EMNGIRGOwVlsGgRGanvkl8bcdMnPkbviKe0C3/pub",
+				"locale": "_tw",
+				"publishedAt": "2025/3/10 22:00",
+				"cache": "us-skepticism-253_tw"
+			}
+		}
+	},
 	"_DA_103": {
 		"show": true,
 		"type": "da",
