@@ -680,6 +680,9 @@ export default {
         &.number {
           text-align: right;
         }
+        &.month-date {
+          text-align: right;
+        }
         &.rank {
           text-align: right;
           &.pos {
