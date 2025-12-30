@@ -21,15 +21,15 @@ _en:
   </section>
   <section class="content-list">
     <div class="section-header">
-      <p class="section-title">{{ $t('eval') }}</p>
-    </div>
-    <article-list type="eval" />
-  </section>
-  <section class="content-list">
-    <div class="section-header">
       <p class="section-title">{{ $t('article') }}</p>
     </div>
     <article-list features="show-filter" />
+  </section>
+  <section class="content-list">
+    <div class="section-header">
+      <p class="section-title">{{ $t('eval') }}</p>
+    </div>
+    <article-list type="eval" />
   </section>
 </div>
 </template>
