@@ -107,6 +107,65 @@
 			}
 		}
 	},
+	"_DA_127": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_127",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRUNEUuz1-tC28BbTLpz_l_cSdrSvLD76oRdTOQWTiedDyeLzWfvV-aY2COz9Yc_kvtlwYiG3f58MTl/pub"
+		},
+		"publishedAt": "2026/1/22 12:00",
+		"path": "/da/127",
+		"cache": true,
+		"tags": "china-talks",
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共月報：2025 年 12 月",
+				"subtitle": "IORG 週報第 127 期 2025.12.1-31",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6QGP_OzZgieXMIa-1EqQG0tVRFtlHeXhLsagyontE51faJ8RlUaIhR-oC-6ojM-B9_t7owm755jsTB4OcrA0xSzebbtJhDT70W2dtSejkle556Tp9-tA9eki2VKFSdeWYJD0Y9-phzzQfgXN-kDnU?key=FfACKCffw1as-5d6rrGL2A",
+				"tags": [
+					"月報",
+					"上月中共",
+					"Last Month China Talks"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、鄭麗文、黃國昌、卓榮泰、陳之漢（館長）"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "精選時事"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "精選軍武"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "精選 APP"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "精選動物"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "精選美食"
+					}
+				],
+				"articleID": "_DA_127",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRUNEUuz1-tC28BbTLpz_l_cSdrSvLD76oRdTOQWTiedDyeLzWfvV-aY2COz9Yc_kvtlwYiG3f58MTl/pub",
+				"locale": "_tw",
+				"publishedAt": "2026/1/22 12:00",
+				"cache": "_DA_127_tw"
+			}
+		}
+	},
 	"_DA_126": {
 		"show": true,
 		"type": "da",
@@ -222,6 +281,65 @@
 				"locale": "_tw",
 				"publishedAt": "2025/11/27 10:00",
 				"cache": "_DA_125_tw"
+			}
+		}
+	},
+	"_DA_123": {
+		"show": false,
+		"type": "da",
+		"id": "_DA_123",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRigHLnXmPVYoa2APtjU5HOLQZOqgZMqODlTJvODS0HtnljaieUJeyvKiAqyy0Qb_hbtp0swZoYDglD/pub"
+		},
+		"publishedAt": "2026/1/22 12:00",
+		"path": "/da/123",
+		"cache": true,
+		"tags": "china-talks",
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共月報：2025 年 8 月",
+				"subtitle": "IORG 週報第 123 期 2025.8.1-31",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1TghIH9j8S64BVT_x3r8geLwTi52IXlQvHGahrly3vZMej2mQ_uyNJjAubtMY6xeTjZwToiDVsZUzsCANcuWSR8fYeHavltXyT8Tynn9us9r2axg01EJg7Eo8bF-ZpeQ?key=9V0dziXZZKy3z3lN4SIQfg",
+				"tags": [
+					"月報",
+					"上月中共",
+					"Last Month China Talks"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、陳之漢（館長）、朱立倫、盧秀燕、柯文哲"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "精選時事"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "精選影劇"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "精選人物"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "精選科技"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "精選美食"
+					}
+				],
+				"articleID": "_DA_123",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRigHLnXmPVYoa2APtjU5HOLQZOqgZMqODlTJvODS0HtnljaieUJeyvKiAqyy0Qb_hbtp0swZoYDglD/pub",
+				"locale": "_tw",
+				"publishedAt": "2026/1/22 12:00",
+				"cache": "_DA_123_tw"
 			}
 		}
 	},
