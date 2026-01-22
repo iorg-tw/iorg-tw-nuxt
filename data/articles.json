@@ -131,30 +131,34 @@
 				"sections": [
 					{
 						"id": "h2-1",
-						"titleText": "資料來源"
+						"titleText": "2025 年 12 月中共對台宣傳內容摘要"
 					},
 					{
 						"id": "h2-2",
-						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、鄭麗文、黃國昌、卓榮泰、陳之漢（館長）"
+						"titleText": "資料來源"
 					},
 					{
 						"id": "h2-3",
-						"titleText": "精選時事"
+						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、鄭麗文、黃國昌、卓榮泰、陳之漢（館長）"
 					},
 					{
 						"id": "h2-4",
-						"titleText": "精選軍武"
+						"titleText": "精選時事"
 					},
 					{
 						"id": "h2-5",
-						"titleText": "精選 APP"
+						"titleText": "精選軍武"
 					},
 					{
 						"id": "h2-6",
-						"titleText": "精選動物"
+						"titleText": "精選 APP"
 					},
 					{
 						"id": "h2-7",
+						"titleText": "精選動物"
+					},
+					{
+						"id": "h2-8",
 						"titleText": "精選美食"
 					}
 				],
