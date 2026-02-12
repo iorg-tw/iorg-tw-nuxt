@@ -1,4 +1,70 @@
 {
+	"_DA_131": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_131",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS7fwft9RKPL8gIGYfu0ni0HacKPBuxhEsJVhUhExvHgsag_RbLArNHlobAV_0aTFWKtQwb6YWcloKQ/pub"
+		},
+		"publishedAt": "2026/2/11 14:00",
+		"path": "/da/131",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共月報：2026 年 1 月",
+				"subtitle": "IORG 週報第 131 期 2026.1.1-31",
+				"coverImage": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXct17g-CD41Ctwrm5XET9JY9NIpcHXN1mlRvaJ_ROjLPf4GNeqoenIyRoId7zO6TKLdO6Zlq0CtdRVtN5fRz4pgkD3ZRuLtGK_cAqqTx3TJP0smaTijTKYUjk3fB5IuFsXM5dsDfiepUL3Rlts5uPIS?key=MIP5NySN3jSawszhiV5y4g",
+				"tags": [
+					"月報",
+					"上月中共",
+					"Last Month China Talks"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "2026 年 1 月中共對台宣傳內容摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、鄭麗文、劉世芳、鄭英耀、蔡正元"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "精選時事"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "精選人物"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "精選司法案件"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "精選地標"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "精選 App"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "精選美食"
+					}
+				],
+				"articleID": "_DA_131",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS7fwft9RKPL8gIGYfu0ni0HacKPBuxhEsJVhUhExvHgsag_RbLArNHlobAV_0aTFWKtQwb6YWcloKQ/pub",
+				"locale": "_tw",
+				"publishedAt": "2026/2/11 14:00",
+				"cache": "_DA_131_tw"
+			}
+		}
+	},
 	"_DA_130": {
 		"show": true,
 		"type": "da",
