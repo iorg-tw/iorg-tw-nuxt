@@ -1331,6 +1331,12 @@
 		"_tw": "民眾黨",
 		"_en": "TPP"
 	},
+	"NPP": {
+		"id": "NPP",
+		"classes": "node party npp",
+		"_tw": "時代力量",
+		"_en": "NPP"
+	},
 	"DPP": {
 		"id": "DPP",
 		"classes": "node party dpp",
@@ -1378,6 +1384,12 @@
 		"classes": "node party tpp",
 		"_tw": "民眾黨",
 		"_en": "TPP"
+	},
+	"npp": {
+		"id": "npp",
+		"classes": "node party npp",
+		"_tw": "時代力量",
+		"_en": "NPP"
 	},
 	"dpp": {
 		"id": "dpp",
