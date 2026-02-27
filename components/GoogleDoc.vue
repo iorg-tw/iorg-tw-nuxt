@@ -471,6 +471,9 @@ export default {
         }
       }
     }
+    ul.gdoc-list-set + p {
+      margin-top: 1.5rem;
+    }
   }
   > .tags {
     list-style: none;
