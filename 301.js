@@ -5,6 +5,7 @@ module.exports = [
   { from: '/i', to: '/a' },
   { from: '/methods', to: '/open/rm' },
   { from: '/open/research-method', to: '/open/rm' },
+  { from: '/china-watch', to: '/open/rm' },
   { from: '/glossary', to: '/open/glossary' },
   { from: '/roadmap', to: '/open/roadmap' },
   { from: '/a/ye-da-hua', to: '/a/yeh-ta-hua' },
