@@ -399,6 +399,14 @@
 	},
 	{
 		"active": true,
+		"from": "/ds/a58Z",
+		"to": "https://docs.google.com/spreadsheets/d/1ZWC36b7B5ZnIgzLsDshBxC9ncHQ6bnfjJ1GP4fXvXuU/edit",
+		"type": "dataset",
+		"title": "台灣媒體集團旗下帳號清單",
+		"publishedAt": "2026/3/9"
+	},
+	{
+		"active": true,
 		"from": "/ds/mA6h",
 		"to": "https://docs.google.com/spreadsheets/d/1MXELNOfL72dETP5HVWLjnZ_jNa0l422IcAacIPFwhxk/edit#gid=1032277460",
 		"type": "dataset",
