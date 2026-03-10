@@ -920,6 +920,22 @@ export default {
       }
     }
   }
+  .gdoc-preview {
+    border: 1px solid black;
+    > .header {
+      padding: 0.75rem 0.75rem 0;
+      > p {
+        margin-bottom: 0;
+      }
+    }
+    > .detail {
+      padding: 0.75rem;
+      > ul {
+        margin-bottom: 0;
+        padding-left: 1.25rem;
+      }
+    }
+  }
   .gdoc-references {
     font-size: 0.875rem;
     border: 1px solid var(--iorg-background);
