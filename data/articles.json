@@ -1,4 +1,29 @@
 {
+	"228-26": {
+		"show": true,
+		"type": "article",
+		"id": "228-26",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vQzUe6yxEKgTEGS_sx7JBcUz7o2r10h7d9HwmTui1pV8-9vwZQGeNssjh88IZE8ny-oNhVn0ys5avFG/pub"
+		},
+		"publishedAt": "2026/3/9 21:30",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共世界觀下的二二八事件",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"tags": [
+					"轉型正義",
+					"民主韌性"
+				],
+				"articleID": "228-26",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vQzUe6yxEKgTEGS_sx7JBcUz7o2r10h7d9HwmTui1pV8-9vwZQGeNssjh88IZE8ny-oNhVn0ys5avFG/pub",
+				"locale": "_tw",
+				"publishedAt": "2026/3/9 21:30",
+				"cache": "228-26_tw"
+			}
+		}
+	},
 	"_DA_131": {
 		"show": true,
 		"type": "da",
