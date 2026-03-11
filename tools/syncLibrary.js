@@ -2,6 +2,7 @@ const getDoc = require('../lib/gdoc').getDoc
 
 // https://theoephraim.github.io/node-google-spreadsheet/
 const fs = require('fs')
+const path = require('path')
 const { GoogleSpreadsheet } = require('google-spreadsheet')
 const dotenv = require('dotenv')
 dotenv.config()
@@ -166,7 +167,8 @@ async function getArticles(rows) {
     let localizedDocs = await Promise.all(locales.map(locale => getDoc(row.publicURLs[locale], locale, true)))
 
     locales.forEach((locale, i) => {
-      const doc = localizedDocs[i]
+      const { doc, docImages } = localizedDocs[i]
+      console.info(row.id, locale, 'fetched')
       doc.articleID = row.id
       doc.publicURL = row.publicURLs[locale]
       doc.locale = locale
@@ -177,9 +179,30 @@ async function getArticles(rows) {
         doc.updatedAt = row.updatedAt
       }
       if(row.cache) {
-        console.info(row.id, locale, 'cached')
+        // process images
+        // designate folder for image files
+        const dir = path.join(process.cwd(), 'static/cached-article-images/' + row.id + locale)
+        if(!fs.existsSync(dir)){
+          fs.mkdirSync(dir, { revursive: true })
+        }
+        for(const docImageURL of Object.keys(docImages)) {
+          const docImageObj = docImages[docImageURL]
+          // write image file
+          const filePath = path.join(dir, docImageObj.fileName)
+          fs.writeFileSync(filePath, docImageObj.data)
+
+          // modify doc.coverImage and doc.html
+          const cachedFilePath = '/cached-article-images/' + row.id + locale + '/' + docImageObj.fileName
+          if(doc.coverImage) {
+            doc.coverImage = doc.coverImage.replace(docImageURL, cachedFilePath)
+          }
+          doc.html = doc.html.replaceAll(docImageURL, cachedFilePath)
+          console.info('doc image cached', { docImageURL, cachedFilePath })
+        }
+        // write doc file
         fs.writeFileSync('data/cached-articles/' + row.id + locale + '.json' , JSON.stringify(doc, null, '\t'))
         doc.cache = row.id + locale
+        console.info(row.id, locale, 'cached')
       }
       delete doc.coverImageDescHTML
       delete doc.authorInfoItemsHTML
