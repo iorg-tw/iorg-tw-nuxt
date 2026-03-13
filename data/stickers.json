@@ -1235,6 +1235,12 @@
 		"_tw": "🇨🇳 山東",
 		"_en": "🇨🇳 Shandong"
 	},
+	"大眾日報": {
+		"id": "大眾日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 大众报业集团",
+		"_en": "🇨🇳 Dazhong"
+	},
 	"湖南": {
 		"id": "湖南",
 		"classes": "node group",
