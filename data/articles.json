@@ -634,6 +634,7 @@
 		},
 		"publishedAt": "2025/9/23 9:00",
 		"cache": true,
+		"tags": "framework",
 		"localizedDocs": {
 			"_tw": {
 				"title": "台灣失敗論和民主的信心危機",
@@ -849,6 +850,7 @@
 		"updatedAt": "2025/8/19 21:00",
 		"path": "/da/118",
 		"cache": true,
+		"tags": "framework",
 		"localizedDocs": {
 			"_tw": {
 				"title": "賴清德當選後的中共宣傳：台灣民主失敗論",
@@ -1310,6 +1312,7 @@
 		},
 		"publishedAt": "2025/3/10 22:00",
 		"cache": true,
+		"tags": "framework",
 		"localizedDocs": {
 			"_tw": {
 				"title": "2024「疑美論」更新：台選、美選期間，論述形塑美國引起戰亂、壓榨盟友形象，台灣能動性降低，由「共謀」轉為「傀儡」",
@@ -2073,6 +2076,7 @@
 		"publishedAt": "2024/10/29 12:00",
 		"updatedAt": "2024/10/31 7:00",
 		"cache": true,
+		"tags": "policy",
 		"localizedDocs": {
 			"_tw": {
 				"title": "Taiwan Counters FIMI – Governmental and Parliamentary Responses",
@@ -5213,6 +5217,7 @@
 		"publishedAt": "2023/8/8 17:00",
 		"updatedAt": "2023/11/8 18:30",
 		"cache": true,
+		"tags": "framework",
 		"localizedDocs": {
 			"_tw": {
 				"title": "疑美論和它們的產地",
@@ -5856,6 +5861,7 @@
 		},
 		"publishedAt": "2023/2/23 12:00",
 		"cache": true,
+		"tags": "policy",
 		"localizedDocs": {
 			"_tw": {
 				"title": "防治資訊操弄，改善公共討論，強化民主韌性",
