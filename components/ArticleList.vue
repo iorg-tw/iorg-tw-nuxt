@@ -185,9 +185,9 @@ export default {
 
 .article-list {
   .filter {
-    margin: 0.5rem 1.5rem 0;
+    margin: 0.5rem 1.5rem -0.25rem;
     .button {
-      margin-right: 0.25rem;
+      margin: 0 0.25rem 0.25rem 0;
       &.active {
         background-color: var(--iorg-paper);
       }
