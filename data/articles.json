@@ -7752,25 +7752,25 @@
 		"type": "sys",
 		"id": "_rm",
 		"publicURLs": {
-			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
-			"_en": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub"
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub"
 		},
 		"publishedAt": "2020/10/20 18:00",
-		"updatedAt": "2023/8/21 0:00",
+		"updatedAt": "2026/3/31 10:30",
 		"path": "/open/rm",
 		"cache": true,
 		"localizedDocs": {
 			"_tw": {
 				"title": "IORG 資訊環境研究架構",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
 				"tags": [],
 				"sections": [
 					{
 						"id": "h2-1",
-						"titleText": "IORG 資訊環境資料庫 Information Environment Archive"
+						"titleText": "資料備份：IORG 資訊環境資料庫"
 					},
 					{
 						"id": "h2-2",
-						"titleText": "IORG 資訊環境索引 Information Environment Directory"
+						"titleText": "資料標註：IORG 資訊環境索引"
 					},
 					{
 						"id": "h2-3",
@@ -7786,10 +7786,14 @@
 					},
 					{
 						"id": "h2-6",
-						"titleText": "公共討論觀測"
+						"titleText": "行為觀測"
 					},
 					{
 						"id": "h2-7",
+						"titleText": "公共討論觀測"
+					},
+					{
+						"id": "h2-8",
 						"titleText": "人際網絡觀測"
 					}
 				],
@@ -7797,18 +7801,8 @@
 				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vSnOIJMI4CV2m3OoHKqjBRSI7ezjIXwgJjiMC-z6Y_IzdrsaTw6ntmMWOcgfHq-Mm2RJL_uD94YOisD/pub",
 				"locale": "_tw",
 				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2023/8/21 0:00",
+				"updatedAt": "2026/3/31 10:30",
 				"cache": "_rm_tw"
-			},
-			"_en": {
-				"title": "IORG Information Environment Research Framework",
-				"tags": [],
-				"articleID": "_rm",
-				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vR4n8NmjbUhuyq1tGCHNMMH4mEZFS1odKpHgplTO3gzCLIexEgJlxPTOlnMBAQUlVw3sms4r-VPgwHn/pub",
-				"locale": "_en",
-				"publishedAt": "2020/10/20 18:00",
-				"updatedAt": "2023/8/21 0:00",
-				"cache": "_rm_en"
 			}
 		}
 	},
