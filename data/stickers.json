@@ -1343,6 +1343,24 @@
 		"_tw": "🇨🇳 观察",
 		"_en": "🇨🇳 Guancha"
 	},
+	"日照廣電": {
+		"id": "日照廣電",
+		"classes": "node group",
+		"_tw": "🇨🇳 山东日照广电",
+		"_en": "🇨🇳 Shandong Rizhao"
+	},
+	"華夏經緯": {
+		"id": "華夏經緯",
+		"classes": "node group",
+		"_tw": "🇨🇳 华夏经纬",
+		"_en": "🇨🇳 Huaxia"
+	},
+	"浙江日報": {
+		"id": "浙江日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 浙江日报报业集团",
+		"_en": "🇨🇳 Zhejiang Daily"
+	},
 	"TPP": {
 		"id": "TPP",
 		"classes": "node party tpp",
