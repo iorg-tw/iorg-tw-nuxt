@@ -1115,11 +1115,29 @@
 		"_tw": "🇨🇳 新华社",
 		"_en": "🇨🇳 Xinhua"
 	},
+	"中新": {
+		"id": "中新",
+		"classes": "node group",
+		"_tw": "🇨🇳 中国新闻社",
+		"_en": "🇨🇳 China News Service"
+	},
+	"中新社": {
+		"id": "中新社",
+		"classes": "node group",
+		"_tw": "🇨🇳 中国新闻社",
+		"_en": "🇨🇳 China News Service"
+	},
 	"大公文匯": {
 		"id": "大公文匯",
 		"classes": "node group",
 		"_tw": "🇨🇳 香港大公文匯",
 		"_en": "🇨🇳 HK Ta-Kung Wen-Wei MG"
+	},
+	"福建日報": {
+		"id": "福建日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 福建日报",
+		"_en": "🇨🇳 FJ Daily"
 	},
 	"福建廣播影視": {
 		"id": "福建廣播影視",
@@ -1127,11 +1145,11 @@
 		"_tw": "🇨🇳 福建广播影视",
 		"_en": "🇨🇳 Fujian MG"
 	},
-	"福建日報": {
-		"id": "福建日報",
+	"福建廣電": {
+		"id": "福建廣電",
 		"classes": "node group",
-		"_tw": "🇨🇳 福建日报",
-		"_en": "🇨🇳 FJ Daily"
+		"_tw": "🇨🇳 福建广播影视",
+		"_en": "🇨🇳 Fujian MG"
 	},
 	"廈門廣電": {
 		"id": "廈門廣電",
@@ -1180,6 +1198,12 @@
 		"classes": "node group",
 		"_tw": "🇨🇳 中共中央统战部",
 		"_en": "🇨🇳 UFWD"
+	},
+	"人大": {
+		"id": "人大",
+		"classes": "node group",
+		"_tw": "🇨🇳 全国人民代表大会",
+		"_en": "🇨🇳 NPC"
 	},
 	"國務院": {
 		"id": "國務院",
@@ -1264,12 +1288,6 @@
 		"classes": "node group",
 		"_tw": "🇨🇳 香港中國通訊社",
 		"_en": "🇨🇳 HK China News Agency"
-	},
-	"中新社": {
-		"id": "中新社",
-		"classes": "node group",
-		"_tw": "🇨🇳 中国新闻社",
-		"_en": "🇨🇳 China News Service"
 	},
 	"深圳廣電": {
 		"id": "深圳廣電",
@@ -1360,6 +1378,18 @@
 		"classes": "node group",
 		"_tw": "🇨🇳 浙江日报报业集团",
 		"_en": "🇨🇳 Zhejiang Daily"
+	},
+	"首相官邸": {
+		"id": "首相官邸",
+		"classes": "node gov",
+		"_tw": "🇯🇵 首相官邸",
+		"_en": "🇯🇵 PM Office"
+	},
+	"總統府": {
+		"id": "總統府",
+		"classes": "node gov",
+		"_tw": "🇹🇼 總統府",
+		"_en": "🇹🇼 Office of the President"
 	},
 	"TPP": {
 		"id": "TPP",
@@ -1474,6 +1504,18 @@
 		"classes": "node party np",
 		"_tw": "親民黨",
 		"_en": "PFP"
+	},
+	"統盟黨": {
+		"id": "統盟黨",
+		"classes": "node party",
+		"_tw": "統一聯盟黨",
+		"_en": "RAP"
+	},
+	"勞動黨": {
+		"id": "勞動黨",
+		"classes": "node party",
+		"_tw": "勞動黨",
+		"_en": "LP"
 	},
 	"init": {
 		"id": "init",
