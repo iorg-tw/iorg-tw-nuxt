@@ -1391,6 +1391,24 @@
 		"_tw": "🇹🇼 總統府",
 		"_en": "🇹🇼 Office of the President"
 	},
+	"陸退": {
+		"id": "陸退",
+		"classes": "node mil",
+		"_tw": "陸軍退役",
+		"_en": "Army (Ret.)"
+	},
+	"海退": {
+		"id": "海退",
+		"classes": "mode mil",
+		"_tw": "海軍退役",
+		"_en": "Navy (Ret.)"
+	},
+	"空退": {
+		"id": "空退",
+		"classes": "node mil",
+		"_tw": "空軍退役",
+		"_en": "Air Force (Ret.)"
+	},
 	"TPP": {
 		"id": "TPP",
 		"classes": "node party tpp",
