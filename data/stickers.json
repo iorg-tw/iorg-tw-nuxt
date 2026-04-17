@@ -893,6 +893,12 @@
 		"_tw": "TVBS",
 		"_en": "TVBS"
 	},
+	"tvbs": {
+		"id": "tvbs",
+		"classes": "node group",
+		"_tw": "TVBS",
+		"_en": "TVBS"
+	},
 	"非凡": {
 		"id": "非凡",
 		"classes": "node group",
@@ -1391,20 +1397,44 @@
 		"_tw": "🇹🇼 總統府",
 		"_en": "🇹🇼 Office of the President"
 	},
-	"陸退": {
-		"id": "陸退",
+	"陸軍": {
+		"id": "陸軍",
+		"classes": "node mil",
+		"_tw": "陸軍",
+		"_en": "Army"
+	},
+	"海軍": {
+		"id": "海軍",
+		"classes": "node mil",
+		"_tw": "海軍",
+		"_en": "Navy"
+	},
+	"空軍": {
+		"id": "空軍",
+		"classes": "node mil",
+		"_tw": "空軍",
+		"_en": "Air Force"
+	},
+	"聯勤": {
+		"id": "聯勤",
+		"classes": "node mil",
+		"_tw": "聯合後勤",
+		"_en": "Combined Logistics"
+	},
+	"陸軍退": {
+		"id": "陸軍退",
 		"classes": "node mil",
 		"_tw": "陸軍退役",
 		"_en": "Army (Ret.)"
 	},
-	"海退": {
-		"id": "海退",
-		"classes": "mode mil",
+	"海軍退": {
+		"id": "海軍退",
+		"classes": "node mil",
 		"_tw": "海軍退役",
 		"_en": "Navy (Ret.)"
 	},
-	"空退": {
-		"id": "空退",
+	"空軍退": {
+		"id": "空軍退",
 		"classes": "node mil",
 		"_tw": "空軍退役",
 		"_en": "Air Force (Ret.)"

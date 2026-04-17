@@ -68,6 +68,64 @@
 			}
 		}
 	},
+	"_DA_136": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_136",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vTXlcHra0Xvuq51jxETsi1ZnP7hFzkcWWWjHWk1MUtcRKQBmr44sEf_OzAAhzrokKTjUHbqUAQVyn_t/pub"
+		},
+		"publishedAt": "2026/3/31 21:30",
+		"updatedAt": "2026/4/17 14:00",
+		"path": "/da/136",
+		"cache": true,
+		"localizedDocs": {
+			"_tw": {
+				"title": "2025 年中共官宣影片裡的「台灣代表」",
+				"subtitle": "IORG 週報第 136 期 2025.10.1-12.31",
+				"coverImage": "https://iorg.tw/images/cover-2-1-white.png",
+				"tags": [
+					"週報"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "研究方法"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "2025 年 10-12 月間重大事件"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "25 位中共官媒上的「台灣代表」"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "排名變化"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "中共官媒行為分析"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "熱門主題"
+					}
+				],
+				"articleID": "_DA_136",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vTXlcHra0Xvuq51jxETsi1ZnP7hFzkcWWWjHWk1MUtcRKQBmr44sEf_OzAAhzrokKTjUHbqUAQVyn_t/pub",
+				"locale": "_tw",
+				"publishedAt": "2026/3/31 21:30",
+				"updatedAt": "2026/4/17 14:00",
+				"cache": "_DA_136_tw"
+			}
+		}
+	},
 	"_DA_134": {
 		"show": true,
 		"type": "da",
