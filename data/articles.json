@@ -1,4 +1,71 @@
 {
+	"_DA_138": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_138",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vRYYr-AydlcitWNvEymASUjQLtkCvVXvQydaRz_kMbdvPRcvIqN68oWkr5XL-gQnYG-D5AUSUwZ_zU1/pub"
+		},
+		"publishedAt": "2026/5/7 17:30",
+		"path": "/da/138",
+		"cache": true,
+		"tags": "china-talks",
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共月報：2026 年 4 月",
+				"subtitle": "IORG 週報第 138 期 2026.4.1-30",
+				"coverImage": "/cached-article-images/_DA_138_tw/ABaEjg2VDSAwbkB3LgwiisI_8NOX9fohoMLjsM2jRsI4YH80_cAnyvh69tbFTVOwSehhgx_xKi6M_b0c0kxOwHfykI_foma881vMmfnq5or3YuTbfgKKNkbIln2tTDqN7xT362mJAO-iqAACitDI5KYMAfrQ7BllEAhTMz_CKgN1=s2048.png",
+				"tags": [
+					"月報",
+					"上月中共",
+					"Last Month China Talks"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "2026 年 4 月中共對台宣傳內容摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "台灣政治人物及名嘴 Top 5：鄭麗文、賴清德、沈伯洋、呂禮詩、柯文哲"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "精選時事"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "精選政策"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "精選科技"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "精選歷史"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "精選地標"
+					},
+					{
+						"id": "h2-9",
+						"titleText": "精選美食"
+					}
+				],
+				"articleID": "_DA_138",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vRYYr-AydlcitWNvEymASUjQLtkCvVXvQydaRz_kMbdvPRcvIqN68oWkr5XL-gQnYG-D5AUSUwZ_zU1/pub",
+				"locale": "_tw",
+				"publishedAt": "2026/5/7 17:30",
+				"cache": "_DA_138_tw"
+			}
+		}
+	},
 	"_DA_137": {
 		"show": true,
 		"type": "da",
