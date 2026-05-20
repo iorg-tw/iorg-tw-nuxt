@@ -1383,7 +1383,13 @@
 		"id": "浙江日報",
 		"classes": "node group",
 		"_tw": "🇨🇳 浙江日报报业集团",
-		"_en": "🇨🇳 Zhejiang Daily"
+		"_en": "🇨🇳 ZJ Daily"
+	},
+	"長江日報": {
+		"id": "長江日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 长江日报报业集团",
+		"_en": "🇨🇳 CJ Daily"
 	},
 	"首相官邸": {
 		"id": "首相官邸",
