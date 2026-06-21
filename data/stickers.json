@@ -1391,6 +1391,12 @@
 		"_tw": "🇨🇳 长江日报报业集团",
 		"_en": "🇨🇳 CJ Daily"
 	},
+	"河南日報": {
+		"id": "河南日報",
+		"classes": "node group",
+		"_tw": "🇨🇳 河南日报报业集团",
+		"_en": "🇨🇳 HN Daily"
+	},
 	"首相官邸": {
 		"id": "首相官邸",
 		"classes": "node gov",

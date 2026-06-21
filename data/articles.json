@@ -1,4 +1,67 @@
 {
+	"_DA_139": {
+		"show": true,
+		"type": "da",
+		"id": "_DA_139",
+		"publicURLs": {
+			"_tw": "https://docs.google.com/document/d/e/2PACX-1vS9PMl1mAKhQH8SDr2ss_yG0D3F5W-BJd46fCHO1l7pwkIRGFGeQ4QqerVm1KBfezhuBF75r70Z6WjV/pub"
+		},
+		"publishedAt": "2026/6/19 17:00",
+		"path": "/da/139",
+		"cache": true,
+		"tags": "china-talks",
+		"localizedDocs": {
+			"_tw": {
+				"title": "中共月報：2026 年 5 月",
+				"subtitle": "IORG 週報第 139 期 2026.5.1-31",
+				"coverImage": "/cached-article-images/_DA_139_tw/APuouOc4yabeOgAI18CZCIJsgZGiiCKrwttcR3I8jFqcV5foRwPAb40euTrH170Bsz8QYlFwnHZmxTtXk6E_JBuSB8b3yxu2TJvFm3IgcUsUujO0thIxJa6B2ZSVbYX2ok7MH2z1BzdR35EIdMY5JiRTaXuQxBGAn9LgiWnO3KbnV7yN=s2048.png",
+				"tags": [
+					"月報",
+					"上月中共",
+					"Last Month China Talks"
+				],
+				"sections": [
+					{
+						"id": "h2-1",
+						"titleText": "2026 年 5 月中共對台宣傳內容摘要"
+					},
+					{
+						"id": "h2-2",
+						"titleText": "資料來源"
+					},
+					{
+						"id": "h2-3",
+						"titleText": "台灣政治人物及名嘴 Top 5：賴清德、陳之漢（館長）、鄭麗文、沈伯洋、劉世芳"
+					},
+					{
+						"id": "h2-4",
+						"titleText": "精選時事"
+					},
+					{
+						"id": "h2-5",
+						"titleText": "精選歷史"
+					},
+					{
+						"id": "h2-6",
+						"titleText": "精選科技"
+					},
+					{
+						"id": "h2-7",
+						"titleText": "精選人物"
+					},
+					{
+						"id": "h2-8",
+						"titleText": "精選美食"
+					}
+				],
+				"articleID": "_DA_139",
+				"publicURL": "https://docs.google.com/document/d/e/2PACX-1vS9PMl1mAKhQH8SDr2ss_yG0D3F5W-BJd46fCHO1l7pwkIRGFGeQ4QqerVm1KBfezhuBF75r70Z6WjV/pub",
+				"locale": "_tw",
+				"publishedAt": "2026/6/19 17:00",
+				"cache": "_DA_139_tw"
+			}
+		}
+	},
 	"_DA_138": {
 		"show": true,
 		"type": "da",
