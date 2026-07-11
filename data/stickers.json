@@ -1397,6 +1397,12 @@
 		"_tw": "🇨🇳 河南日报报业集团",
 		"_en": "🇨🇳 HN Daily"
 	},
+	"南方報業": {
+		"id": "南方報業",
+		"classes": "node group",
+		"_tw": "🇨🇳 南方报业传媒集团",
+		"_en": "🇨🇳 Nanfang Daily"
+	},
 	"首相官邸": {
 		"id": "首相官邸",
 		"classes": "node gov",
