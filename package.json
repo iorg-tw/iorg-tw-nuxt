@@ -19,7 +19,7 @@
     "@nuxtjs/gtm": "^2.2.3",
     "@nuxtjs/markdownit": "^1.2.10",
     "cheerio": "^1.0.0-rc.3",
-    "d3": "^6.1.1",
+    "d3": "^7.6.1",
     "dotenv": "^8.2.0",
     "google-spreadsheet": "^3.1.15",
     "got": "^11.5.2",
