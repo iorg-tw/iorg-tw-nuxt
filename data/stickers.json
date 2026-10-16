@@ -1403,6 +1403,18 @@
 		"_tw": "🇨🇳 南方报业传媒集团",
 		"_en": "🇨🇳 Nanfang Daily"
 	},
+	"湖南日報": {
+		"id": "湖南日報",
+		"classes": "",
+		"_tw": "🇨🇳 湖南日报",
+		"_en": ""
+	},
+	"北京新媒體": {
+		"id": "北京新媒體",
+		"classes": "",
+		"_tw": "🇨🇳 北京新媒体",
+		"_en": ""
+	},
 	"首相官邸": {
 		"id": "首相官邸",
 		"classes": "node gov",
@@ -1577,8 +1589,32 @@
 		"_tw": "統一聯盟黨",
 		"_en": "RAP"
 	},
+	"RAP": {
+		"id": "RAP",
+		"classes": "node party",
+		"_tw": "統一聯盟黨",
+		"_en": "RAP"
+	},
+	"rap": {
+		"id": "rap",
+		"classes": "node party",
+		"_tw": "統一聯盟黨",
+		"_en": "RAP"
+	},
 	"勞動黨": {
 		"id": "勞動黨",
+		"classes": "node party",
+		"_tw": "勞動黨",
+		"_en": "LP"
+	},
+	"LP": {
+		"id": "LP",
+		"classes": "node party",
+		"_tw": "勞動黨",
+		"_en": "LP"
+	},
+	"lp": {
+		"id": "lp",
 		"classes": "node party",
 		"_tw": "勞動黨",
 		"_en": "LP"
