@@ -1469,18 +1469,6 @@
 		"_tw": "空軍退役",
 		"_en": "Air Force (Ret.)"
 	},
-	"TPP": {
-		"id": "TPP",
-		"classes": "node party tpp",
-		"_tw": "民眾黨",
-		"_en": "TPP"
-	},
-	"NPP": {
-		"id": "NPP",
-		"classes": "node party npp",
-		"_tw": "時代力量",
-		"_en": "NPP"
-	},
 	"DPP": {
 		"id": "DPP",
 		"classes": "node party dpp",
@@ -1516,24 +1504,6 @@
 		"classes": "node party kmt",
 		"_tw": "國民黨支持",
 		"_en": "KMT-backed"
-	},
-	"NP": {
-		"id": "NP",
-		"classes": "node party np",
-		"_tw": "新黨",
-		"_en": "NP"
-	},
-	"tpp": {
-		"id": "tpp",
-		"classes": "node party tpp",
-		"_tw": "民眾黨",
-		"_en": "TPP"
-	},
-	"npp": {
-		"id": "npp",
-		"classes": "node party npp",
-		"_tw": "時代力量",
-		"_en": "NPP"
 	},
 	"dpp": {
 		"id": "dpp",
@@ -1571,51 +1541,87 @@
 		"_tw": "國民黨支持",
 		"_en": "KMT-backed"
 	},
+	"NP": {
+		"id": "NP",
+		"classes": "node party np",
+		"_tw": "新黨",
+		"_en": "NP"
+	},
 	"np": {
 		"id": "np",
 		"classes": "node party np",
 		"_tw": "新黨",
 		"_en": "NP"
 	},
-	"pfp": {
-		"id": "pfp",
-		"classes": "node party np",
+	"PFP": {
+		"id": "PFP",
+		"classes": "node party pfp",
 		"_tw": "親民黨",
 		"_en": "PFP"
 	},
+	"pfp": {
+		"id": "pfp",
+		"classes": "node party pfp",
+		"_tw": "親民黨",
+		"_en": "PFP"
+	},
+	"TPP": {
+		"id": "TPP",
+		"classes": "node party tpp",
+		"_tw": "民眾黨",
+		"_en": "TPP"
+	},
+	"tpp": {
+		"id": "tpp",
+		"classes": "node party tpp",
+		"_tw": "民眾黨",
+		"_en": "TPP"
+	},
+	"NPP": {
+		"id": "NPP",
+		"classes": "node party npp",
+		"_tw": "時代力量",
+		"_en": "NPP"
+	},
+	"npp": {
+		"id": "npp",
+		"classes": "node party npp",
+		"_tw": "時代力量",
+		"_en": "NPP"
+	},
 	"統盟黨": {
 		"id": "統盟黨",
-		"classes": "node party",
+		"classes": "node party rap",
 		"_tw": "統一聯盟黨",
 		"_en": "RAP"
 	},
 	"RAP": {
 		"id": "RAP",
-		"classes": "node party",
+		"classes": "node party rap",
 		"_tw": "統一聯盟黨",
 		"_en": "RAP"
 	},
 	"rap": {
 		"id": "rap",
-		"classes": "node party",
+		"classes": "node party rap",
 		"_tw": "統一聯盟黨",
 		"_en": "RAP"
 	},
 	"勞動黨": {
 		"id": "勞動黨",
-		"classes": "node party",
+		"classes": "node party lp",
 		"_tw": "勞動黨",
 		"_en": "LP"
 	},
 	"LP": {
 		"id": "LP",
-		"classes": "node party",
+		"classes": "node party lp",
 		"_tw": "勞動黨",
 		"_en": "LP"
 	},
 	"lp": {
 		"id": "lp",
-		"classes": "node party",
+		"classes": "node party lp",
 		"_tw": "勞動黨",
 		"_en": "LP"
 	},

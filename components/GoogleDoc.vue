@@ -356,6 +356,12 @@ export default {
       &.np > .content {
         background-color: var(--np);
       }
+      &.tpp > .content {
+        background-color: var(--tpp);
+      }
+      &.lp > .content {
+        background-color: var(--lp);
+      }
     }
     h2 .sticker {
       display: block;

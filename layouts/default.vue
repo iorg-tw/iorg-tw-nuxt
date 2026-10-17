@@ -60,6 +60,8 @@ export default {
   --dpp: #99FF99;
   --pfp: #FFCF78;
   --np: #FFFF64;
+  --tpp: #9EF9FF;
+  --lp: #FF9D80;
 
   & {
     --facebook: #5252FF;
